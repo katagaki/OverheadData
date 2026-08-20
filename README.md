@@ -14,7 +14,8 @@ Scripts/
 
 ## Editing
 
-Edit `Lines/<Line>/Line.json`, then:
+Edit `Lines/<Line>/Line.json`, bump `VERSION` if you want the release named,
+then:
 
 ```sh
 python3 Scripts/make-catalog.py   # regenerate the catalog
@@ -34,6 +35,9 @@ Keep scalar arrays on one line (`"hopTimesMinutes": [2, 2, 3]`) — that is what
 304 and no body. Lines are downloaded individually and verified against the
 `sha256` in the catalog. The whole corpus is ~1.2 MB gzipped; the catalog alone
 is ~86 KB.
+
+`VERSION` names the release and is shown in the app; the app decides what to
+re-download from the per-line `sha256` in the catalog, not from the version.
 
 Bumping `schemaVersion` retires older app builds gracefully: they ignore a
 catalog they do not understand and keep what they already have.

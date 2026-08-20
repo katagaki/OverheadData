@@ -11,6 +11,11 @@ ROOT = os.path.join(os.path.dirname(__file__), "..")
 SCHEMA_VERSION = 1
 
 
+def read_version():
+    with open(os.path.join(ROOT, "VERSION")) as fh:
+        return fh.read().strip()
+
+
 def build():
     lines, stations = [], []
     for folder_path in sorted(glob.glob(os.path.join(ROOT, "Lines", "*", ""))):
@@ -62,14 +67,11 @@ def build():
     )
     catalog = {
         "schemaVersion": SCHEMA_VERSION,
+        "version": read_version(),
         "styles": styles,
         "lines": lines,
         "stations": stations,
     }
-    # Version is derived from content so the file is reproducible: no timestamps,
-    # no spurious diffs when nothing changed.
-    body = json.dumps(catalog, ensure_ascii=False, sort_keys=True, separators=(",", ":"))
-    catalog["version"] = hashlib.sha256(body.encode()).hexdigest()[:12]
     return catalog
 
 
