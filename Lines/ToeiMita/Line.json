@@ -1,0 +1,492 @@
+[
+    {
+        "colorHex": "#0079C2",
+        "delayInfo": {
+            "checkMethodEn": "Check the Toei Transportation service information page, the Toei app, or X (@toeikotsu). Delays and suspensions are posted as they occur.",
+            "checkMethodJa": "都営交通「運行情報」ページ、都営交通アプリ、またはX（@toeikotsu）で確認できます。遅延・運転見合わせが発生した場合に掲載されます。",
+            "statusPageURL": "https://www.kotsu.metro.tokyo.jp/subway/schedule/mita.html",
+            "statusPageURLEn": "https://www.kotsu.metro.tokyo.jp/eng/operation_status/",
+            "xAccount": "@toeikotsu"
+        },
+        "directions": [
+            {
+                "expressSaturdayHolidayRuns": [],
+                "expressWeekdayRuns": [],
+                "id": "static.RailDirection:Toei.Mita.NishiTakashimadaira",
+                "intermediateOrigins": [
+                    {
+                        "saturdayHolidayDepartures": ["05:00", "05:44", "06:16", "06:53", "07:07", "07:14", "07:42", "07:56", "08:15", "08:20", "08:25", "08:34", "08:50", "09:08", "09:19", "09:24", "09:47", "09:53", "10:17", "10:23", "10:48", "10:54", "11:18", "11:24", "11:48", "11:54", "12:18", "12:23", "12:48", "12:54", "13:18", "13:24", "13:48", "13:54", "14:18", "14:24", "14:48", "14:54", "15:18", "15:24", "15:48", "15:54", "16:18", "16:24", "16:48", "16:54", "17:18", "17:24", "17:48", "17:54", "18:18", "18:24", "18:48", "18:54", "19:19", "19:32", "20:00", "20:13", "20:21", "20:42", "21:21", "21:49", "21:55", "22:28", "22:59", "23:06", "23:31", "23:38", "23:45"],
+                        "stationId": "Station:Toei.Mita.ShirokaneTakanawa",
+                        "weekdayDepartures": ["05:00", "05:44", "06:18", "06:46", "07:59", "08:06", "08:22", "08:29", "08:34", "08:41", "08:46", "08:56", "09:03", "09:10", "09:19", "09:33", "09:47", "09:59", "10:07", "10:19", "10:47", "11:17", "11:23", "11:47", "11:53", "12:18", "12:23", "12:48", "12:54", "13:18", "13:24", "13:48", "13:54", "14:18", "14:24", "14:48", "14:54", "15:18", "15:24", "15:48", "15:54", "16:18", "16:25", "16:49", "16:55", "17:16", "17:21", "17:26", "17:41", "17:45", "17:59", "18:04", "18:09", "18:22", "18:26", "18:41", "18:51", "19:06", "19:17", "19:31", "19:45", "19:55", "20:04", "20:41", "21:07", "21:14", "21:34", "21:54", "22:08", "22:59", "23:22", "23:52"]
+                    },
+                    {
+                        "saturdayHolidayDepartures": ["09:41", "18:57"],
+                        "stationId": "Station:Toei.Mita.Takashimadaira",
+                        "weekdayDepartures": ["16:27", "20:50"]
+                    }
+                ],
+                "isAscending": true,
+                "nameEn": "For Nishi-takashimadaira",
+                "nameJa": "西高島平方面",
+                "saturdayHoliday": {
+                    "bands": [
+                        {
+                            "from": "05:12",
+                            "headwayMinutes": 7
+                        },
+                        {
+                            "from": "07:00",
+                            "headwayMinutes": 6
+                        },
+                        {
+                            "from": "10:00",
+                            "headwayMinutes": 6
+                        },
+                        {
+                            "from": "20:00",
+                            "headwayMinutes": 6.5
+                        },
+                        {
+                            "from": "22:00",
+                            "headwayMinutes": 8
+                        }
+                    ],
+                    "firstDeparture": "05:12",
+                    "lastDeparture": "23:54",
+                    "trainType": "Local"
+                },
+                "weekday": {
+                    "bands": [
+                        {
+                            "from": "05:12",
+                            "headwayMinutes": 7
+                        },
+                        {
+                            "from": "07:00",
+                            "headwayMinutes": 4
+                        },
+                        {
+                            "from": "09:30",
+                            "headwayMinutes": 6
+                        },
+                        {
+                            "from": "17:00",
+                            "headwayMinutes": 4.5
+                        },
+                        {
+                            "from": "20:00",
+                            "headwayMinutes": 6
+                        },
+                        {
+                            "from": "22:00",
+                            "headwayMinutes": 8
+                        }
+                    ],
+                    "firstDeparture": "05:12",
+                    "lastDeparture": "23:55",
+                    "trainType": "Local"
+                }
+            },
+            {
+                "expressSaturdayHolidayRuns": [],
+                "expressWeekdayRuns": [],
+                "id": "static.RailDirection:Toei.Mita.Meguro",
+                "intermediateOrigins": [
+                    {
+                        "saturdayHolidayDepartures": ["05:13"],
+                        "stationId": "Station:Toei.Mita.Onarimon",
+                        "weekdayDepartures": ["05:13"]
+                    },
+                    {
+                        "saturdayHolidayDepartures": ["05:00"],
+                        "stationId": "Station:Toei.Mita.ShinItabashi",
+                        "weekdayDepartures": ["05:00"]
+                    },
+                    {
+                        "saturdayHolidayDepartures": ["05:00", "06:52", "07:31", "07:52", "08:19", "21:26"],
+                        "stationId": "Station:Toei.Mita.Takashimadaira",
+                        "weekdayDepartures": ["05:00", "05:50", "06:13", "07:12", "07:28", "07:37", "07:47", "07:59", "08:06", "16:19", "16:43", "16:57", "17:10", "17:29"]
+                    }
+                ],
+                "isAscending": false,
+                "nameEn": "For Meguro",
+                "nameJa": "目黒方面",
+                "saturdayHoliday": {
+                    "bands": [
+                        {
+                            "from": "05:10",
+                            "headwayMinutes": 7
+                        },
+                        {
+                            "from": "07:00",
+                            "headwayMinutes": 6
+                        },
+                        {
+                            "from": "10:00",
+                            "headwayMinutes": 6
+                        },
+                        {
+                            "from": "20:00",
+                            "headwayMinutes": 6.5
+                        },
+                        {
+                            "from": "22:00",
+                            "headwayMinutes": 8
+                        }
+                    ],
+                    "firstDeparture": "05:10",
+                    "lastDeparture": "23:45",
+                    "trainType": "Local"
+                },
+                "weekday": {
+                    "bands": [
+                        {
+                            "from": "05:10",
+                            "headwayMinutes": 7
+                        },
+                        {
+                            "from": "07:00",
+                            "headwayMinutes": 4
+                        },
+                        {
+                            "from": "09:30",
+                            "headwayMinutes": 6
+                        },
+                        {
+                            "from": "17:00",
+                            "headwayMinutes": 4.5
+                        },
+                        {
+                            "from": "20:00",
+                            "headwayMinutes": 6
+                        },
+                        {
+                            "from": "22:00",
+                            "headwayMinutes": 8
+                        }
+                    ],
+                    "firstDeparture": "05:10",
+                    "lastDeparture": "23:45",
+                    "trainType": "Local"
+                }
+            }
+        ],
+        "hopTimesMinutes": [2, 2, 2, 2, 1, 2, 2, 2, 2, 1, 2, 2, 2, 2, 2, 1, 2, 2, 2, 2, 2, 2, 1, 2, 2, 2],
+        "id": "Railway:Toei.Mita",
+        "isLoop": false,
+        "nameEn": "Toei Mita Line",
+        "nameJa": "都営三田線",
+        "operatorId": "Operator:Toei",
+        "stations": [
+            {
+                "id": "Station:Toei.Mita.Meguro",
+                "latitude": 35.632508,
+                "longitude": 139.715772,
+                "name": "目黒",
+                "nameEn": "Meguro",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "I01"
+            },
+            {
+                "id": "Station:Toei.Mita.Shirokanedai",
+                "latitude": 35.6376,
+                "longitude": 139.7263,
+                "name": "白金台",
+                "nameEn": "Shirokanedai",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "I02"
+            },
+            {
+                "id": "Station:Toei.Mita.ShirokaneTakanawa",
+                "latitude": 35.6431,
+                "longitude": 139.7343,
+                "name": "白金高輪",
+                "nameEn": "Shirokane-takanawa",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "I03"
+            },
+            {
+                "id": "Station:Toei.Mita.Mita",
+                "latitude": 35.6484,
+                "longitude": 139.7476,
+                "name": "三田",
+                "nameEn": "Mita",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "I04"
+            },
+            {
+                "id": "Station:Toei.Mita.Shibakoen",
+                "latitude": 35.6544,
+                "longitude": 139.7497,
+                "name": "芝公園",
+                "nameEn": "Shibakoen",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "I05"
+            },
+            {
+                "id": "Station:Toei.Mita.Onarimon",
+                "latitude": 35.6618,
+                "longitude": 139.7506,
+                "name": "御成門",
+                "nameEn": "Onarimon",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "I06"
+            },
+            {
+                "id": "Station:Toei.Mita.Uchisaiwaicho",
+                "latitude": 35.6698,
+                "longitude": 139.7548,
+                "name": "内幸町",
+                "nameEn": "Uchisaiwaicho",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "I07"
+            },
+            {
+                "id": "Station:Toei.Mita.Hibiya",
+                "latitude": 35.67624,
+                "longitude": 139.760197,
+                "name": "日比谷",
+                "nameEn": "Hibiya",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "I08"
+            },
+            {
+                "id": "Station:Toei.Mita.Otemachi",
+                "latitude": 35.684016,
+                "longitude": 139.762664,
+                "name": "大手町",
+                "nameEn": "Otemachi",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "I09"
+            },
+            {
+                "id": "Station:Toei.Mita.Jimbocho",
+                "latitude": 35.6958,
+                "longitude": 139.7578,
+                "name": "神保町",
+                "nameEn": "Jimbocho",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "I10"
+            },
+            {
+                "id": "Station:Toei.Mita.Suidobashi",
+                "latitude": 35.703514,
+                "longitude": 139.755154,
+                "name": "水道橋",
+                "nameEn": "Suidobashi",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "I11"
+            },
+            {
+                "id": "Station:Toei.Mita.Kasuga",
+                "latitude": 35.70988,
+                "longitude": 139.753184,
+                "name": "春日",
+                "nameEn": "Kasuga",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "I12"
+            },
+            {
+                "id": "Station:Toei.Mita.Hakusan",
+                "latitude": 35.7222,
+                "longitude": 139.7518,
+                "name": "白山",
+                "nameEn": "Hakusan",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "I13"
+            },
+            {
+                "id": "Station:Toei.Mita.Sengoku",
+                "latitude": 35.7282,
+                "longitude": 139.7448,
+                "name": "千石",
+                "nameEn": "Sengoku",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "I14"
+            },
+            {
+                "id": "Station:Toei.Mita.Sugamo",
+                "latitude": 35.7335,
+                "longitude": 139.7394,
+                "name": "巣鴨",
+                "nameEn": "Sugamo",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "I15"
+            },
+            {
+                "id": "Station:Toei.Mita.NishiSugamo",
+                "latitude": 35.743554,
+                "longitude": 139.728697,
+                "name": "西巣鴨",
+                "nameEn": "Nishi-sugamo",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "I16"
+            },
+            {
+                "id": "Station:Toei.Mita.ShinItabashi",
+                "latitude": 35.7478,
+                "longitude": 139.7192,
+                "name": "新板橋",
+                "nameEn": "Shin-itabashi",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "I17"
+            },
+            {
+                "id": "Station:Toei.Mita.Itabashikuyakushomae",
+                "latitude": 35.7512,
+                "longitude": 139.7092,
+                "name": "板橋区役所前",
+                "nameEn": "Itabashikuyakushomae",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "I18"
+            },
+            {
+                "id": "Station:Toei.Mita.Itabashihoncho",
+                "latitude": 35.761431,
+                "longitude": 139.705525,
+                "name": "板橋本町",
+                "nameEn": "Itabashihoncho",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "I19"
+            },
+            {
+                "id": "Station:Toei.Mita.Motohasunuma",
+                "latitude": 35.768521,
+                "longitude": 139.702444,
+                "name": "本蓮沼",
+                "nameEn": "Motohasunuma",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "I20"
+            },
+            {
+                "id": "Station:Toei.Mita.ShimuraSakaue",
+                "latitude": 35.775669,
+                "longitude": 139.695529,
+                "name": "志村坂上",
+                "nameEn": "Shimura-sakaue",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "I21"
+            },
+            {
+                "id": "Station:Toei.Mita.ShimuraSanchome",
+                "latitude": 35.777511,
+                "longitude": 139.685997,
+                "name": "志村三丁目",
+                "nameEn": "Shimura-sanchome",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "I22"
+            },
+            {
+                "id": "Station:Toei.Mita.Hasune",
+                "latitude": 35.784324,
+                "longitude": 139.679071,
+                "name": "蓮根",
+                "nameEn": "Hasune",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "I23"
+            },
+            {
+                "id": "Station:Toei.Mita.Nishidai",
+                "latitude": 35.786966,
+                "longitude": 139.674022,
+                "name": "西台",
+                "nameEn": "Nishidai",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "I24"
+            },
+            {
+                "id": "Station:Toei.Mita.Takashimadaira",
+                "latitude": 35.788913,
+                "longitude": 139.661255,
+                "name": "高島平",
+                "nameEn": "Takashimadaira",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "I25"
+            },
+            {
+                "id": "Station:Toei.Mita.ShinTakashimadaira",
+                "latitude": 35.790214,
+                "longitude": 139.654426,
+                "name": "新高島平",
+                "nameEn": "Shin-takashimadaira",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "I26"
+            },
+            {
+                "id": "Station:Toei.Mita.NishiTakashimadaira",
+                "latitude": 35.791911,
+                "longitude": 139.645772,
+                "name": "西高島平",
+                "nameEn": "Nishi-takashimadaira",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "I27"
+            }
+        ],
+        "stopPatterns": [],
+        "throughServices": [
+            {
+                "connectingLineId": "Railway:Tokyu.Meguro",
+                "end": "descending",
+                "junctionStationId": "Station:Toei.Mita.Meguro",
+                "lineNameEn": "Tokyu Meguro & Shin-Yokohama Lines",
+                "lineNameJa": "東急目黒線・新横浜線",
+                "towardEn": "for Hiyoshi & Shin-Yokohama",
+                "towardJa": "日吉・新横浜方面"
+            }
+        ]
+    }
+]

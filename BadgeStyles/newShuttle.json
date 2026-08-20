@@ -1,0 +1,55 @@
+{
+    "id": "newShuttle",
+    "nameJa": "埼玉新都市交通ニューシャトル",
+    "nameEn": "New Shuttle",
+    "colors": {
+        "letter": "#FFFFFF",
+        "plate": "lineColor"
+    },
+    "line": {
+        "layers": [
+            {
+                "shape": "hexagon",
+                "fill": "$plate"
+            }
+        ],
+        "color": "$letter",
+        "size": 13.5,
+        "minimumScaleFactor": 0.5,
+        "kerning": true,
+        "sizeMulti": 13.5,
+        "weight": "bold",
+        "width": "expanded",
+        "insetH": 4.5,
+        "nudgeBaseMulti": 0
+    },
+    "station": {
+        "spacing": 0,
+        "rows": [
+            {
+                "kind": "prefix",
+                "sizeRatio": 0.3,
+                "weight": "bold",
+                "width": "expanded",
+                "heightRatio": 0.4,
+                "offsetYRatio": 0.05
+            },
+            {
+                "kind": "number",
+                "sizeRatio": 0.36,
+                "weight": "bold",
+                "width": "expanded",
+                "heightRatio": 0.44,
+                "offsetYRatio": -0.03
+            }
+        ],
+        "layers": [
+            {
+                "shape": "hexagon",
+                "fill": "$plate"
+            }
+        ],
+        "color": "$letter",
+        "minimumScaleFactor": 0.6
+    }
+}

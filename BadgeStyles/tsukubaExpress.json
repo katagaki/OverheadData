@@ -1,0 +1,81 @@
+{
+    "id": "tsukubaExpress",
+    "nameJa": "つくばエクスプレス",
+    "nameEn": "Tsukuba Express",
+    "colors": {
+        "letter": "#FFFFFF",
+        "plate": "lineColor",
+        "keyline": "#FFFFFF"
+    },
+    "line": {
+        "layers": [
+            {
+                "shape": "roundedRect",
+                "radiusRatio": 0.25,
+                "fill": "$plate"
+            }
+        ],
+        "overlays": [
+            {
+                "shape": "roundedRect",
+                "radiusRatio": 0.171875,
+                "stroke": "$keyline",
+                "lineWidthRatio": 0.040625,
+                "insetRatio": 0.08125
+            }
+        ],
+        "color": "$letter",
+        "size": 18.5,
+        "minimumScaleFactor": 0.5,
+        "kerning": true,
+        "family": "Hind-Bold",
+        "sizeMulti": 18.5,
+        "insetH": 4.5,
+        "nudgeBase": 15,
+        "nudgeBaseMulti": 15
+    },
+    "station": {
+        "spacing": 1,
+        "rows": [
+            {
+                "kind": "prefix",
+                "sizeRatio": 0.74,
+                "family": "Hind-Bold",
+                "heightRatio": 0.481,
+                "offsetYRatio": 0.17759999999999998,
+                "fullWidth": true
+            },
+            {
+                "kind": "number",
+                "sizeRatio": 0.88,
+                "family": "Hind-Bold",
+                "heightRatio": 0.66,
+                "offsetYRatio": -0.0176,
+                "fullWidth": true
+            }
+        ],
+        "solo": {
+            "kind": "number",
+            "sizeRatio": 0.82,
+            "family": "Hind-Bold"
+        },
+        "layers": [
+            {
+                "shape": "roundedRect",
+                "radiusRatio": 0.2,
+                "fill": "$plate"
+            }
+        ],
+        "color": "$letter",
+        "minimumScaleFactor": 0.6,
+        "overlays": [
+            {
+                "shape": "roundedRect",
+                "radiusRatio": 0.15,
+                "stroke": "$keyline",
+                "lineWidthRatio": 0.045,
+                "insetRatio": 0.05
+            }
+        ]
+    }
+}

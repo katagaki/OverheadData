@@ -1,0 +1,650 @@
+[
+    {
+        "colorHex": "#E60012",
+        "delayInfo": {
+            "checkMethodEn": "Check the Tokyo Metro Service Information page, the official app, or X (@tokyometro_info). Delays or suspensions of 15 minutes or more are posted.",
+            "checkMethodJa": "東京メトロ「運行情報」ページ、公式アプリ、またはX（@tokyometro_info）で確認できます。15分以上の遅れ・運転見合わせが発生した場合に掲載されます。",
+            "statusPageURL": "https://www.tokyometro.jp/unkou/history/marunouchi.html",
+            "statusPageURLEn": "https://www.tokyometro.jp/lang_en/unkou/history/marunouchi.html",
+            "xAccount": "@M_line_info"
+        },
+        "directions": [
+            {
+                "expressSaturdayHolidayRuns": [],
+                "expressWeekdayRuns": [],
+                "id": "static.RailDirection:TokyoMetro.Marunouchi.Ikebukuro",
+                "intermediateOrigins": [
+                    {
+                        "saturdayHolidayDepartures": ["05:04", "05:17", "06:01", "06:19", "06:55", "07:19", "08:26", "08:56", "09:26", "10:01", "10:26", "11:01", "11:26", "12:01", "12:26", "13:01", "13:26", "14:01", "14:26", "15:01", "15:26", "16:01", "16:26", "17:01", "17:26", "18:01", "18:26", "19:01", "19:26", "20:01", "20:26", "21:01", "21:26", "22:05"],
+                        "stationId": "Station:TokyoMetro.Marunouchi.NakanoSakaue",
+                        "weekdayDepartures": ["05:04", "05:17", "05:31", "05:43", "05:55", "06:05", "06:13", "06:21", "06:29", "06:43", "06:50", "06:56", "07:02", "07:07", "07:13", "07:18", "07:27", "07:32", "07:37", "07:43", "07:48", "07:54", "08:05", "08:12", "08:18", "08:25", "08:32", "08:39", "08:45", "08:49", "08:54", "08:58", "09:03", "09:10", "09:17", "09:28", "09:38", "09:49", "10:21", "11:01", "11:21", "12:01", "12:26", "13:01", "13:26", "14:01", "14:26", "15:01", "15:20", "15:26", "15:33", "15:44", "15:54", "16:05", "16:12", "16:17", "16:24", "16:29", "16:34", "16:39", "16:46", "16:51", "17:01", "17:08", "17:21", "17:28", "17:41", "17:48", "18:01", "18:08", "18:21", "18:28", "18:41", "18:48", "19:01", "19:08", "19:21", "19:28", "19:41", "19:49"]
+                    },
+                    {
+                        "saturdayHolidayDepartures": ["05:00", "06:41"],
+                        "stationId": "Station:TokyoMetro.Marunouchi.Shinjuku",
+                        "weekdayDepartures": ["05:00", "06:41"]
+                    },
+                    {
+                        "saturdayHolidayDepartures": ["05:51"],
+                        "stationId": "Station:TokyoMetro.Marunouchi.Korakuen",
+                        "weekdayDepartures": ["05:36"]
+                    },
+                    {
+                        "saturdayHolidayDepartures": ["05:00", "05:20", "06:08", "06:26", "07:22", "07:44"],
+                        "stationId": "Station:TokyoMetro.Marunouchi.Myogadani",
+                        "weekdayDepartures": ["05:00", "05:20", "05:51", "05:56", "06:15", "06:34", "06:44", "06:54", "07:06", "07:14", "07:22", "07:30", "07:44", "07:58", "08:14", "15:23", "15:38", "15:52", "16:04", "16:14", "16:24", "16:32", "16:42", "16:54"]
+                    }
+                ],
+                "isAscending": true,
+                "nameEn": "For Ikebukuro",
+                "nameJa": "池袋方面",
+                "saturdayHoliday": {
+                    "bands": [
+                        {
+                            "from": "05:00",
+                            "headwayMinutes": 6
+                        },
+                        {
+                            "from": "07:00",
+                            "headwayMinutes": 5
+                        },
+                        {
+                            "from": "10:00",
+                            "headwayMinutes": 5
+                        },
+                        {
+                            "from": "20:00",
+                            "headwayMinutes": 5.5
+                        },
+                        {
+                            "from": "22:00",
+                            "headwayMinutes": 7
+                        }
+                    ],
+                    "firstDeparture": "05:01",
+                    "lastDeparture": "24:11",
+                    "trainType": "Local"
+                },
+                "weekday": {
+                    "bands": [
+                        {
+                            "from": "05:00",
+                            "headwayMinutes": 6
+                        },
+                        {
+                            "from": "07:00",
+                            "headwayMinutes": 3
+                        },
+                        {
+                            "from": "09:30",
+                            "headwayMinutes": 5
+                        },
+                        {
+                            "from": "17:00",
+                            "headwayMinutes": 3.5
+                        },
+                        {
+                            "from": "20:00",
+                            "headwayMinutes": 5
+                        },
+                        {
+                            "from": "22:00",
+                            "headwayMinutes": 6.5
+                        }
+                    ],
+                    "firstDeparture": "05:01",
+                    "lastDeparture": "24:11",
+                    "trainType": "Local"
+                }
+            },
+            {
+                "expressSaturdayHolidayRuns": [],
+                "expressWeekdayRuns": [],
+                "id": "static.RailDirection:TokyoMetro.Marunouchi.Ogikubo",
+                "intermediateOrigins": [
+                    {
+                        "saturdayHolidayDepartures": ["05:00"],
+                        "stationId": "Station:TokyoMetro.Marunouchi.NakanoSakaue",
+                        "weekdayDepartures": ["05:00"]
+                    },
+                    {
+                        "saturdayHolidayDepartures": ["05:14", "05:26", "24:16"],
+                        "stationId": "Station:TokyoMetro.Marunouchi.ShinjukuSanchome",
+                        "weekdayDepartures": ["05:14", "05:26", "24:16"]
+                    },
+                    {
+                        "saturdayHolidayDepartures": ["05:13"],
+                        "stationId": "Station:TokyoMetro.Marunouchi.Myogadani",
+                        "weekdayDepartures": ["05:13"]
+                    }
+                ],
+                "isAscending": false,
+                "nameEn": "For Ogikubo",
+                "nameJa": "荻窪方面",
+                "saturdayHoliday": {
+                    "bands": [
+                        {
+                            "from": "05:00",
+                            "headwayMinutes": 6
+                        },
+                        {
+                            "from": "07:00",
+                            "headwayMinutes": 5
+                        },
+                        {
+                            "from": "10:00",
+                            "headwayMinutes": 5
+                        },
+                        {
+                            "from": "20:00",
+                            "headwayMinutes": 5.5
+                        },
+                        {
+                            "from": "22:00",
+                            "headwayMinutes": 7
+                        }
+                    ],
+                    "firstDeparture": "05:00",
+                    "lastDeparture": "24:20",
+                    "trainType": "Local"
+                },
+                "weekday": {
+                    "bands": [
+                        {
+                            "from": "05:00",
+                            "headwayMinutes": 6
+                        },
+                        {
+                            "from": "07:00",
+                            "headwayMinutes": 3
+                        },
+                        {
+                            "from": "09:30",
+                            "headwayMinutes": 5
+                        },
+                        {
+                            "from": "17:00",
+                            "headwayMinutes": 3.5
+                        },
+                        {
+                            "from": "20:00",
+                            "headwayMinutes": 5
+                        },
+                        {
+                            "from": "22:00",
+                            "headwayMinutes": 6.5
+                        }
+                    ],
+                    "firstDeparture": "05:00",
+                    "lastDeparture": "24:20",
+                    "trainType": "Local"
+                }
+            }
+        ],
+        "hopTimesMinutes": [3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 2, 2, 2, 3, 1, 2, 2, 2, 2, 3, 2, 3],
+        "id": "Railway:TokyoMetro.Marunouchi",
+        "isLoop": false,
+        "nameEn": "Marunouchi Line",
+        "nameJa": "丸ノ内線",
+        "operatorId": "Operator:TokyoMetro",
+        "scheduleRevisions": [
+            {
+                "directions": [
+                    {
+                        "expressSaturdayHolidayRuns": [],
+                        "expressWeekdayRuns": [],
+                        "id": "static.RailDirection:TokyoMetro.Marunouchi.Ikebukuro",
+                        "intermediateOrigins": [
+                            {
+                                "saturdayHolidayDepartures": ["05:04", "05:17", "06:01", "06:19", "06:55", "07:19", "08:26", "08:56", "09:26", "10:01", "10:26", "11:01", "11:26", "12:01", "12:26", "13:01", "13:26", "14:01", "14:26", "15:01", "15:26", "16:01", "16:26", "17:01", "17:26", "18:01", "18:26", "19:01", "19:26", "20:01", "20:26", "21:01", "21:26", "22:05"],
+                                "stationId": "Station:TokyoMetro.Marunouchi.NakanoSakaue",
+                                "weekdayDepartures": ["05:04", "05:17", "05:31", "05:43", "05:55", "06:05", "06:13", "06:21", "06:29", "06:43", "06:50", "06:56", "07:02", "07:07", "07:13", "07:18", "07:27", "07:32", "07:37", "07:43", "07:48", "07:54", "08:05", "08:12", "08:18", "08:25", "08:32", "08:39", "08:45", "08:49", "08:54", "08:58", "09:03", "09:10", "09:17", "09:28", "09:38", "09:49", "10:21", "11:01", "11:21", "12:01", "12:26", "13:01", "13:26", "14:01", "14:26", "15:01", "15:20", "15:26", "15:33", "15:44", "15:54", "16:05", "16:12", "16:17", "16:24", "16:29", "16:34", "16:39", "16:46", "16:51", "17:01", "17:08", "17:21", "17:28", "17:41", "17:48", "18:01", "18:08", "18:21", "18:28", "18:41", "18:48", "19:01", "19:08", "19:21", "19:28", "19:41", "19:49"]
+                            },
+                            {
+                                "saturdayHolidayDepartures": ["05:00", "06:41"],
+                                "stationId": "Station:TokyoMetro.Marunouchi.Shinjuku",
+                                "weekdayDepartures": ["05:00", "06:41"]
+                            },
+                            {
+                                "saturdayHolidayDepartures": ["05:51"],
+                                "stationId": "Station:TokyoMetro.Marunouchi.Korakuen",
+                                "weekdayDepartures": ["05:36"]
+                            },
+                            {
+                                "saturdayHolidayDepartures": ["05:00", "05:20", "06:08", "06:26", "07:22", "07:44"],
+                                "stationId": "Station:TokyoMetro.Marunouchi.Myogadani",
+                                "weekdayDepartures": ["05:00", "05:20", "05:51", "05:56", "06:15", "06:34", "06:44", "06:54", "07:06", "07:14", "07:22", "07:30", "07:44", "07:58", "08:14", "15:23", "15:38", "15:52", "16:04", "16:14", "16:24", "16:32", "16:42", "16:54"]
+                            }
+                        ],
+                        "isAscending": true,
+                        "nameEn": "For Ikebukuro",
+                        "nameJa": "池袋方面",
+                        "saturdayHoliday": {
+                            "bands": [
+                                {
+                                    "from": "05:00",
+                                    "headwayMinutes": 6
+                                },
+                                {
+                                    "from": "07:00",
+                                    "headwayMinutes": 4.0
+                                },
+                                {
+                                    "from": "10:00",
+                                    "headwayMinutes": 4.0
+                                },
+                                {
+                                    "from": "20:00",
+                                    "headwayMinutes": 5.5
+                                },
+                                {
+                                    "from": "22:00",
+                                    "headwayMinutes": 7
+                                }
+                            ],
+                            "firstDeparture": "05:01",
+                            "lastDeparture": "24:11",
+                            "trainType": "Local"
+                        },
+                        "weekday": {
+                            "bands": [
+                                {
+                                    "from": "05:00",
+                                    "headwayMinutes": 6
+                                },
+                                {
+                                    "from": "07:00",
+                                    "headwayMinutes": 3
+                                },
+                                {
+                                    "from": "09:30",
+                                    "headwayMinutes": 4.0
+                                },
+                                {
+                                    "from": "17:00",
+                                    "headwayMinutes": 3.5
+                                },
+                                {
+                                    "from": "20:00",
+                                    "headwayMinutes": 5
+                                },
+                                {
+                                    "from": "22:00",
+                                    "headwayMinutes": 6.5
+                                }
+                            ],
+                            "firstDeparture": "05:01",
+                            "lastDeparture": "24:11",
+                            "trainType": "Local"
+                        }
+                    },
+                    {
+                        "expressSaturdayHolidayRuns": [],
+                        "expressWeekdayRuns": [],
+                        "id": "static.RailDirection:TokyoMetro.Marunouchi.Ogikubo",
+                        "intermediateOrigins": [
+                            {
+                                "saturdayHolidayDepartures": ["05:00"],
+                                "stationId": "Station:TokyoMetro.Marunouchi.NakanoSakaue",
+                                "weekdayDepartures": ["05:00"]
+                            },
+                            {
+                                "saturdayHolidayDepartures": ["05:14", "05:26", "24:16"],
+                                "stationId": "Station:TokyoMetro.Marunouchi.ShinjukuSanchome",
+                                "weekdayDepartures": ["05:14", "05:26", "24:16"]
+                            },
+                            {
+                                "saturdayHolidayDepartures": ["05:13"],
+                                "stationId": "Station:TokyoMetro.Marunouchi.Myogadani",
+                                "weekdayDepartures": ["05:13"]
+                            }
+                        ],
+                        "isAscending": false,
+                        "nameEn": "For Ogikubo",
+                        "nameJa": "荻窪方面",
+                        "saturdayHoliday": {
+                            "bands": [
+                                {
+                                    "from": "05:00",
+                                    "headwayMinutes": 6
+                                },
+                                {
+                                    "from": "07:00",
+                                    "headwayMinutes": 4.0
+                                },
+                                {
+                                    "from": "10:00",
+                                    "headwayMinutes": 4.0
+                                },
+                                {
+                                    "from": "20:00",
+                                    "headwayMinutes": 5.5
+                                },
+                                {
+                                    "from": "22:00",
+                                    "headwayMinutes": 7
+                                }
+                            ],
+                            "firstDeparture": "05:00",
+                            "lastDeparture": "24:20",
+                            "trainType": "Local"
+                        },
+                        "weekday": {
+                            "bands": [
+                                {
+                                    "from": "05:00",
+                                    "headwayMinutes": 6
+                                },
+                                {
+                                    "from": "07:00",
+                                    "headwayMinutes": 3
+                                },
+                                {
+                                    "from": "09:30",
+                                    "headwayMinutes": 4.0
+                                },
+                                {
+                                    "from": "17:00",
+                                    "headwayMinutes": 3.5
+                                },
+                                {
+                                    "from": "20:00",
+                                    "headwayMinutes": 5
+                                },
+                                {
+                                    "from": "22:00",
+                                    "headwayMinutes": 6.5
+                                }
+                            ],
+                            "firstDeparture": "05:00",
+                            "lastDeparture": "24:20",
+                            "trainType": "Local"
+                        }
+                    }
+                ],
+                "nameEn": "19 September 2026 timetable revision",
+                "nameJa": "2026年9月19日ダイヤ改正",
+                "validFrom": "2026-09-19"
+            }
+        ],
+        "stations": [
+            {
+                "id": "Station:TokyoMetro.Marunouchi.Ogikubo",
+                "latitude": 35.7047,
+                "longitude": 139.6202,
+                "name": "荻窪",
+                "nameEn": "Ogikubo",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "M01"
+            },
+            {
+                "id": "Station:TokyoMetro.Marunouchi.MinamiAsagaya",
+                "latitude": 35.6998,
+                "longitude": 139.6356,
+                "name": "南阿佐ケ谷",
+                "nameEn": "Minami-Asagaya",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "M02"
+            },
+            {
+                "id": "Station:TokyoMetro.Marunouchi.ShinKoenji",
+                "latitude": 35.698,
+                "longitude": 139.6494,
+                "name": "新高円寺",
+                "nameEn": "Shin-Koenji",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "M03"
+            },
+            {
+                "id": "Station:TokyoMetro.Marunouchi.HigashiKoenji",
+                "latitude": 35.697972,
+                "longitude": 139.65816,
+                "name": "東高円寺",
+                "nameEn": "Higashi-Koenji",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "M04"
+            },
+            {
+                "id": "Station:TokyoMetro.Marunouchi.ShinNakano",
+                "latitude": 35.69746,
+                "longitude": 139.668643,
+                "name": "新中野",
+                "nameEn": "Shin-Nakano",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "M05"
+            },
+            {
+                "id": "Station:TokyoMetro.Marunouchi.NakanoSakaue",
+                "latitude": 35.6975,
+                "longitude": 139.6827,
+                "name": "中野坂上",
+                "nameEn": "Nakano-sakaue",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "M06"
+            },
+            {
+                "id": "Station:TokyoMetro.Marunouchi.NishiShinjuku",
+                "latitude": 35.6945,
+                "longitude": 139.6926,
+                "name": "西新宿",
+                "nameEn": "Nishi-shinjuku",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "M07"
+            },
+            {
+                "id": "Station:TokyoMetro.Marunouchi.Shinjuku",
+                "latitude": 35.692227,
+                "longitude": 139.700601,
+                "name": "新宿",
+                "nameEn": "Shinjuku",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "M08"
+            },
+            {
+                "id": "Station:TokyoMetro.Marunouchi.ShinjukuSanchome",
+                "latitude": 35.6909,
+                "longitude": 139.7047,
+                "name": "新宿三丁目",
+                "nameEn": "Shinjuku-sanchome",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "M09"
+            },
+            {
+                "id": "Station:TokyoMetro.Marunouchi.ShinjukuGyoemmae",
+                "latitude": 35.6887,
+                "longitude": 139.7109,
+                "name": "新宿御苑前",
+                "nameEn": "Shinjuku-gyoemmae",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "M10"
+            },
+            {
+                "id": "Station:TokyoMetro.Marunouchi.YotsuyaSanchome",
+                "latitude": 35.6878,
+                "longitude": 139.7204,
+                "name": "四谷三丁目",
+                "nameEn": "Yotsuya-sanchome",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "M11"
+            },
+            {
+                "id": "Station:TokyoMetro.Marunouchi.Yotsuya",
+                "latitude": 35.6858,
+                "longitude": 139.729,
+                "name": "四ツ谷",
+                "nameEn": "Yotsuya",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "M12"
+            },
+            {
+                "id": "Station:TokyoMetro.Marunouchi.AkasakaMitsuke",
+                "latitude": 35.677,
+                "longitude": 139.737,
+                "name": "赤坂見附",
+                "nameEn": "Akasaka-mitsuke",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "M13"
+            },
+            {
+                "id": "Station:TokyoMetro.Marunouchi.KokkaiGijidomae",
+                "latitude": 35.6743,
+                "longitude": 139.7451,
+                "name": "国会議事堂前",
+                "nameEn": "Kokkai-gijidomae",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "M14"
+            },
+            {
+                "id": "Station:TokyoMetro.Marunouchi.Kasumigaseki",
+                "latitude": 35.675,
+                "longitude": 139.7518,
+                "name": "霞ケ関",
+                "nameEn": "Kasumigaseki",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "M15"
+            },
+            {
+                "id": "Station:TokyoMetro.Marunouchi.Ginza",
+                "latitude": 35.672841,
+                "longitude": 139.763103,
+                "name": "銀座",
+                "nameEn": "Ginza",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "M16"
+            },
+            {
+                "id": "Station:TokyoMetro.Marunouchi.Tokyo",
+                "latitude": 35.682017,
+                "longitude": 139.764958,
+                "name": "東京",
+                "nameEn": "Tokyo",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "M17"
+            },
+            {
+                "id": "Station:TokyoMetro.Marunouchi.Otemachi",
+                "latitude": 35.6867,
+                "longitude": 139.7654,
+                "name": "大手町",
+                "nameEn": "Otemachi",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "M18"
+            },
+            {
+                "id": "Station:TokyoMetro.Marunouchi.Awajicho",
+                "latitude": 35.695,
+                "longitude": 139.7677,
+                "name": "淡路町",
+                "nameEn": "Awajicho",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "M19"
+            },
+            {
+                "id": "Station:TokyoMetro.Marunouchi.Ochanomizu",
+                "latitude": 35.6998,
+                "longitude": 139.7649,
+                "name": "御茶ノ水",
+                "nameEn": "Ochanomizu",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "M20"
+            },
+            {
+                "id": "Station:TokyoMetro.Marunouchi.HongoSanchome",
+                "latitude": 35.7068,
+                "longitude": 139.7597,
+                "name": "本郷三丁目",
+                "nameEn": "Hongo-sanchome",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "M21"
+            },
+            {
+                "id": "Station:TokyoMetro.Marunouchi.Korakuen",
+                "latitude": 35.708,
+                "longitude": 139.7512,
+                "name": "後楽園",
+                "nameEn": "Korakuen",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "M22"
+            },
+            {
+                "id": "Station:TokyoMetro.Marunouchi.Myogadani",
+                "latitude": 35.7175,
+                "longitude": 139.7371,
+                "name": "茗荷谷",
+                "nameEn": "Myogadani",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "M23"
+            },
+            {
+                "id": "Station:TokyoMetro.Marunouchi.ShinOtsuka",
+                "latitude": 35.7262,
+                "longitude": 139.7292,
+                "name": "新大塚",
+                "nameEn": "Shin-otsuka",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "M24"
+            },
+            {
+                "id": "Station:TokyoMetro.Marunouchi.Ikebukuro",
+                "latitude": 35.73,
+                "longitude": 139.711,
+                "name": "池袋",
+                "nameEn": "Ikebukuro",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "M25"
+            }
+        ],
+        "stopPatterns": [],
+        "throughServices": []
+    }
+]

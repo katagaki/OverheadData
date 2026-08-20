@@ -1,0 +1,71 @@
+{
+    "id": "keikyu",
+    "nameJa": "京浜急行電鉄",
+    "nameEn": "Keikyu",
+    "colors": {
+        "letter": "#1E50A2",
+        "core": "#FFFFFF",
+        "ring": "#00A7E1"
+    },
+    "line": {
+        "layers": [
+            {
+                "shape": "circle",
+                "fill": "$core"
+            }
+        ],
+        "overlays": [
+            {
+                "shape": "circle",
+                "stroke": "$ring",
+                "lineWidthRatio": 0.09375
+            }
+        ],
+        "color": "$letter",
+        "size": 17,
+        "minimumScaleFactor": 0.5,
+        "kerning": true,
+        "family": "Hind-Bold",
+        "sizeMulti": 17,
+        "insetH": 4.5,
+        "nudgeBase": 14,
+        "nudgeBaseMulti": 14
+    },
+    "station": {
+        "spacing": 0,
+        "rows": [
+            {
+                "kind": "prefix",
+                "sizeRatio": 0.5,
+                "family": "Hind",
+                "heightRatio": 0.32,
+                "offsetYRatio": 0.04
+            },
+            {
+                "kind": "number",
+                "sizeRatio": 0.94,
+                "family": "Hind-Semibold",
+                "heightRatio": 0.46,
+                "offsetYRatio": 0.01
+            }
+        ],
+        "layers": [
+            {
+                "shape": "rect",
+                "fill": "$core"
+            }
+        ],
+        "clip": {
+            "shape": "circle"
+        },
+        "overlays": [
+            {
+                "shape": "circle",
+                "stroke": "$ring",
+                "lineWidthRatio": 0.08
+            }
+        ],
+        "color": "$letter",
+        "minimumScaleFactor": 0.6
+    }
+}

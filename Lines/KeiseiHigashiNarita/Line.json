@@ -1,0 +1,118 @@
+[
+    {
+        "colorHex": "#005AAA",
+        "delayInfo": {
+            "checkMethodEn": "Check the Keisei train information page, the Keisei app, or X (@keiseirailway). Delays and suspensions are posted as they occur.",
+            "checkMethodJa": "京成電鉄「運行情報」ページ、京成アプリ、またはX（@keiseirailway）で確認できます。遅延・運転見合わせが発生した場合に掲載されます。",
+            "statusPageURL": "https://www.keisei.co.jp/traininfo/index.php",
+            "statusPageURLEn": "https://www.keisei.co.jp/traininfo/index.php",
+            "xAccount": "@keiseirailway"
+        },
+        "directions": [
+            {
+                "expressSaturdayHolidayRuns": [],
+                "expressWeekdayRuns": [],
+                "id": "static.RailDirection:Keisei.HigashiNarita.HigashiNarita",
+                "intermediateOrigins": [],
+                "isAscending": true,
+                "nameEn": "For Higashi-Narita",
+                "nameJa": "東成田方面",
+                "saturdayHoliday": {
+                    "bands": [
+                        {
+                            "from": "05:51",
+                            "headwayMinutes": 40
+                        }
+                    ],
+                    "firstDeparture": "05:51",
+                    "lastDeparture": "23:08",
+                    "trainType": "Local"
+                },
+                "weekday": {
+                    "bands": [
+                        {
+                            "from": "05:51",
+                            "headwayMinutes": 40
+                        }
+                    ],
+                    "firstDeparture": "05:51",
+                    "lastDeparture": "23:08",
+                    "trainType": "Local"
+                }
+            },
+            {
+                "expressSaturdayHolidayRuns": [],
+                "expressWeekdayRuns": [],
+                "id": "static.RailDirection:Keisei.HigashiNarita.KeiseiNarita",
+                "intermediateOrigins": [],
+                "isAscending": false,
+                "nameEn": "For Keisei-Narita",
+                "nameJa": "京成成田方面",
+                "saturdayHoliday": {
+                    "bands": [
+                        {
+                            "from": "06:11",
+                            "headwayMinutes": 40
+                        }
+                    ],
+                    "firstDeparture": "06:11",
+                    "lastDeparture": "23:27",
+                    "trainType": "Local"
+                },
+                "weekday": {
+                    "bands": [
+                        {
+                            "from": "06:11",
+                            "headwayMinutes": 40
+                        }
+                    ],
+                    "firstDeparture": "06:11",
+                    "lastDeparture": "23:27",
+                    "trainType": "Local"
+                }
+            }
+        ],
+        "hopTimesMinutes": [8],
+        "id": "Railway:Keisei.HigashiNarita",
+        "isLoop": false,
+        "nameEn": "Keisei Higashi-Narita Line",
+        "nameJa": "京成東成田線",
+        "operatorId": "Operator:Keisei",
+        "stations": [
+            {
+                "id": "Station:Keisei.HigashiNarita.KeiseiNarita",
+                "latitude": 35.776443,
+                "longitude": 140.315519,
+                "name": "京成成田",
+                "nameEn": "Keisei-Narita",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "KS40"
+            },
+            {
+                "id": "Station:Keisei.HigashiNarita.HigashiNarita",
+                "latitude": 35.7701,
+                "longitude": 140.3872,
+                "name": "東成田",
+                "nameEn": "Higashi-Narita",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "KS44"
+            }
+        ],
+        "stopPatterns": [],
+        "throughServices": [
+            {
+                "connectingLineId": "Railway:Shibayama.Shibayama",
+                "end": "ascending",
+                "junctionStationId": "Station:Keisei.HigashiNarita.HigashiNarita",
+                "lineNameEn": "Shibayama Railway Line",
+                "lineNameJa": "芝山鉄道線",
+                "towardEn": "for Shibayama-Chiyoda",
+                "towardJa": "芝山千代田方面"
+            }
+        ]
+    }
+]

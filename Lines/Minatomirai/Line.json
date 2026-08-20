@@ -1,0 +1,226 @@
+[
+    {
+        "colorHex": "#004098",
+        "delayInfo": {
+            "checkMethodEn": "Check the Yokohama Minatomirai Railway website or the Tokyu Lines app. Delays and suspensions are posted as they occur.",
+            "checkMethodJa": "横浜高速鉄道の公式サイトまたは東急線アプリで確認できます。遅延・運転見合わせが発生した場合に掲載されます。",
+            "statusPageURL": "https://www.mm21railway.co.jp/service/",
+            "statusPageURLEn": "https://www.mm21railway.co.jp/service/",
+            "xAccount": "@MM_line_unkou"
+        },
+        "directions": [
+            {
+                "expressSaturdayHolidayRuns": [],
+                "expressWeekdayRuns": [],
+                "id": "static.RailDirection:Minatomirai.Minatomirai.MotomachiChukagai",
+                "intermediateOrigins": [],
+                "isAscending": true,
+                "nameEn": "For Motomachi-Chukagai",
+                "nameJa": "元町・中華街方面",
+                "saturdayHoliday": {
+                    "bands": [
+                        {
+                            "from": "05:10",
+                            "headwayMinutes": 8
+                        },
+                        {
+                            "from": "07:00",
+                            "headwayMinutes": 5
+                        },
+                        {
+                            "from": "10:00",
+                            "headwayMinutes": 5
+                        },
+                        {
+                            "from": "20:00",
+                            "headwayMinutes": 7
+                        }
+                    ],
+                    "firstDeparture": "05:10",
+                    "lastDeparture": "23:58",
+                    "trainType": "Local"
+                },
+                "weekday": {
+                    "bands": [
+                        {
+                            "from": "05:10",
+                            "headwayMinutes": 8
+                        },
+                        {
+                            "from": "06:30",
+                            "headwayMinutes": 4
+                        },
+                        {
+                            "from": "09:30",
+                            "headwayMinutes": 5
+                        },
+                        {
+                            "from": "16:30",
+                            "headwayMinutes": 4
+                        },
+                        {
+                            "from": "20:00",
+                            "headwayMinutes": 5
+                        },
+                        {
+                            "from": "22:00",
+                            "headwayMinutes": 8
+                        }
+                    ],
+                    "firstDeparture": "05:10",
+                    "lastDeparture": "23:58",
+                    "trainType": "Local"
+                }
+            },
+            {
+                "expressSaturdayHolidayRuns": [],
+                "expressWeekdayRuns": [],
+                "id": "static.RailDirection:Minatomirai.Minatomirai.Yokohama",
+                "intermediateOrigins": [],
+                "isAscending": false,
+                "nameEn": "For Yokohama & Shibuya",
+                "nameJa": "横浜・渋谷方面",
+                "saturdayHoliday": {
+                    "bands": [
+                        {
+                            "from": "04:57",
+                            "headwayMinutes": 8
+                        },
+                        {
+                            "from": "07:00",
+                            "headwayMinutes": 5
+                        },
+                        {
+                            "from": "10:00",
+                            "headwayMinutes": 5
+                        },
+                        {
+                            "from": "20:00",
+                            "headwayMinutes": 7
+                        }
+                    ],
+                    "firstDeparture": "04:57",
+                    "lastDeparture": "23:55",
+                    "trainType": "Local"
+                },
+                "weekday": {
+                    "bands": [
+                        {
+                            "from": "04:57",
+                            "headwayMinutes": 8
+                        },
+                        {
+                            "from": "06:30",
+                            "headwayMinutes": 4
+                        },
+                        {
+                            "from": "09:30",
+                            "headwayMinutes": 5
+                        },
+                        {
+                            "from": "16:30",
+                            "headwayMinutes": 4
+                        },
+                        {
+                            "from": "20:00",
+                            "headwayMinutes": 5
+                        },
+                        {
+                            "from": "22:00",
+                            "headwayMinutes": 8
+                        }
+                    ],
+                    "firstDeparture": "04:57",
+                    "lastDeparture": "23:55",
+                    "trainType": "Local"
+                }
+            }
+        ],
+        "hopTimesMinutes": [2, 2, 2, 2, 2],
+        "id": "Railway:Minatomirai.Minatomirai",
+        "isLoop": false,
+        "nameEn": "Minatomirai Line",
+        "nameJa": "みなとみらい線",
+        "operatorId": "Operator:Minatomirai",
+        "stations": [
+            {
+                "id": "Station:Minatomirai.Minatomirai.Yokohama",
+                "latitude": 35.4657,
+                "longitude": 139.6224,
+                "name": "横浜",
+                "nameEn": "Yokohama",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "MM01"
+            },
+            {
+                "id": "Station:Minatomirai.Minatomirai.Shintakashima",
+                "latitude": 35.461939,
+                "longitude": 139.626641,
+                "name": "新高島",
+                "nameEn": "Shin-takashima",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "MM02"
+            },
+            {
+                "id": "Station:Minatomirai.Minatomirai.Minatomirai",
+                "latitude": 35.457233,
+                "longitude": 139.632845,
+                "name": "みなとみらい",
+                "nameEn": "Minatomirai",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "MM03"
+            },
+            {
+                "id": "Station:Minatomirai.Minatomirai.Bashamichi",
+                "latitude": 35.4507,
+                "longitude": 139.6357,
+                "name": "馬車道",
+                "nameEn": "Bashamichi",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "MM04"
+            },
+            {
+                "id": "Station:Minatomirai.Minatomirai.NihonOdori",
+                "latitude": 35.446735,
+                "longitude": 139.642672,
+                "name": "日本大通り",
+                "nameEn": "Nihon-odori",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "MM05"
+            },
+            {
+                "id": "Station:Minatomirai.Minatomirai.MotomachiChukagai",
+                "latitude": 35.442116,
+                "longitude": 139.650913,
+                "name": "元町・中華街",
+                "nameEn": "Motomachi-Chukagai",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "MM06"
+            }
+        ],
+        "stopPatterns": [],
+        "throughServices": [
+            {
+                "connectingLineId": "Railway:Tokyu.Toyoko",
+                "end": "descending",
+                "junctionStationId": "Station:Minatomirai.Minatomirai.Yokohama",
+                "lineNameEn": "Tokyu Toyoko Line",
+                "lineNameJa": "東急東横線",
+                "towardEn": "for Shibuya & the Fukutoshin Line",
+                "towardJa": "渋谷・副都心線方面"
+            }
+        ]
+    }
+]

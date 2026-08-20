@@ -1,0 +1,72 @@
+{
+    "id": "arakawa",
+    "nameJa": "都電荒川線",
+    "nameEn": "Toden Arakawa Line",
+    "colors": {
+        "letter": "#000000",
+        "plate": "lineColor",
+        "blossom": "#FFFFFF"
+    },
+    "line": {
+        "layers": [
+            {
+                "shape": "circle",
+                "fill": "$plate"
+            },
+            {
+                "shape": "sakura",
+                "fill": "$blossom",
+                "insetRatio": 0.0625
+            }
+        ],
+        "color": "$letter",
+        "size": 15,
+        "minimumScaleFactor": 0.5,
+        "kerning": true,
+        "family": "Hind-Bold",
+        "sizeMulti": 15,
+        "insetH": 7,
+        "nudgeBase": 15,
+        "nudgeBaseMulti": 15
+    },
+    "station": {
+        "spacing": 0,
+        "rows": [
+            {
+                "kind": "prefix",
+                "sizeRatio": 0.4,
+                "family": "Hind",
+                "heightRatio": 0.24,
+                "offsetYRatio": 0.075,
+                "widthRatio": 0.58
+            },
+            {
+                "kind": "number",
+                "sizeRatio": 0.74,
+                "family": "Hind",
+                "heightRatio": 0.5,
+                "offsetYRatio": 0.015,
+                "fullWidth": true,
+                "kerningRatio": 0.02
+            }
+        ],
+        "solo": {
+            "kind": "number",
+            "sizeRatio": 0.78,
+            "family": "Hind"
+        },
+        "layers": [
+            {
+                "shape": "circle",
+                "fill": "$plate"
+            },
+            {
+                "shape": "sakura",
+                "fill": "$blossom",
+                "insetRatio": 0.06
+            }
+        ],
+        "color": "$letter",
+        "minimumScaleFactor": 0.6
+    }
+}

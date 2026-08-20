@@ -1,0 +1,248 @@
+[
+    {
+        "colorHex": "#0067C0",
+        "delayInfo": {
+            "checkMethodEn": "Check the Saitama Railway website. Delays and suspensions are posted as they occur.",
+            "checkMethodJa": "埼玉高速鉄道の公式サイトで確認できます。遅延・運転見合わせが発生した場合に掲載されます。",
+            "statusPageURL": "https://www.s-rail.co.jp/ticket/train/",
+            "statusPageURLEn": "https://www.s-rail.co.jp/ticket/train/",
+            "xAccount": "@srail_info"
+        },
+        "directions": [
+            {
+                "expressSaturdayHolidayRuns": [],
+                "expressWeekdayRuns": [],
+                "id": "static.RailDirection:SaitamaRailway.SaitamaRailway.UrawaMisono",
+                "intermediateOrigins": [],
+                "isAscending": true,
+                "nameEn": "For Urawa-misono",
+                "nameJa": "浦和美園方面",
+                "saturdayHoliday": {
+                    "bands": [
+                        {
+                            "from": "05:14",
+                            "headwayMinutes": 10
+                        },
+                        {
+                            "from": "07:00",
+                            "headwayMinutes": 8
+                        },
+                        {
+                            "from": "10:00",
+                            "headwayMinutes": 8
+                        },
+                        {
+                            "from": "20:00",
+                            "headwayMinutes": 10
+                        }
+                    ],
+                    "firstDeparture": "05:14",
+                    "lastDeparture": "24:29",
+                    "trainType": "Local"
+                },
+                "weekday": {
+                    "bands": [
+                        {
+                            "from": "05:14",
+                            "headwayMinutes": 10
+                        },
+                        {
+                            "from": "06:30",
+                            "headwayMinutes": 5
+                        },
+                        {
+                            "from": "09:30",
+                            "headwayMinutes": 8
+                        },
+                        {
+                            "from": "16:30",
+                            "headwayMinutes": 6
+                        },
+                        {
+                            "from": "20:00",
+                            "headwayMinutes": 8
+                        },
+                        {
+                            "from": "22:00",
+                            "headwayMinutes": 10
+                        }
+                    ],
+                    "firstDeparture": "05:14",
+                    "lastDeparture": "24:29",
+                    "trainType": "Local"
+                }
+            },
+            {
+                "expressSaturdayHolidayRuns": [],
+                "expressWeekdayRuns": [],
+                "id": "static.RailDirection:SaitamaRailway.SaitamaRailway.AkabaneIwabuchi",
+                "intermediateOrigins": [],
+                "isAscending": false,
+                "nameEn": "For Akabane-iwabuchi & Meguro",
+                "nameJa": "赤羽岩淵・目黒方面",
+                "saturdayHoliday": {
+                    "bands": [
+                        {
+                            "from": "05:10",
+                            "headwayMinutes": 10
+                        },
+                        {
+                            "from": "07:00",
+                            "headwayMinutes": 8
+                        },
+                        {
+                            "from": "10:00",
+                            "headwayMinutes": 8
+                        },
+                        {
+                            "from": "20:00",
+                            "headwayMinutes": 10
+                        }
+                    ],
+                    "firstDeparture": "05:10",
+                    "lastDeparture": "24:06",
+                    "trainType": "Local"
+                },
+                "weekday": {
+                    "bands": [
+                        {
+                            "from": "05:10",
+                            "headwayMinutes": 10
+                        },
+                        {
+                            "from": "06:30",
+                            "headwayMinutes": 5
+                        },
+                        {
+                            "from": "09:30",
+                            "headwayMinutes": 8
+                        },
+                        {
+                            "from": "16:30",
+                            "headwayMinutes": 6
+                        },
+                        {
+                            "from": "20:00",
+                            "headwayMinutes": 8
+                        },
+                        {
+                            "from": "22:00",
+                            "headwayMinutes": 10
+                        }
+                    ],
+                    "firstDeparture": "05:10",
+                    "lastDeparture": "24:06",
+                    "trainType": "Local"
+                }
+            }
+        ],
+        "hopTimesMinutes": [2, 2, 2, 2, 2, 3, 3],
+        "id": "Railway:SaitamaRailway.SaitamaRailway",
+        "isLoop": false,
+        "nameEn": "Saitama Rapid Railway Line",
+        "nameJa": "埼玉高速鉄道線",
+        "operatorId": "Operator:SaitamaRailway",
+        "stations": [
+            {
+                "id": "Station:SaitamaRailway.SaitamaRailway.AkabaneIwabuchi",
+                "latitude": 35.7837,
+                "longitude": 139.7217,
+                "name": "赤羽岩淵",
+                "nameEn": "Akabane-iwabuchi",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "SR19"
+            },
+            {
+                "id": "Station:SaitamaRailway.SaitamaRailway.KawaguchiMotogo",
+                "latitude": 35.800121,
+                "longitude": 139.730005,
+                "name": "川口元郷",
+                "nameEn": "Kawaguchi-motogo",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "SR20"
+            },
+            {
+                "id": "Station:SaitamaRailway.SaitamaRailway.MinamiHatogaya",
+                "latitude": 35.816123,
+                "longitude": 139.736121,
+                "name": "南鳩ヶ谷",
+                "nameEn": "Minami-hatogaya",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "SR21"
+            },
+            {
+                "id": "Station:SaitamaRailway.SaitamaRailway.Hatogaya",
+                "latitude": 35.830873,
+                "longitude": 139.736159,
+                "name": "鳩ヶ谷",
+                "nameEn": "Hatogaya",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "SR22"
+            },
+            {
+                "id": "Station:SaitamaRailway.SaitamaRailway.Araijuku",
+                "latitude": 35.842998,
+                "longitude": 139.73822,
+                "name": "新井宿",
+                "nameEn": "Araijuku",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "SR23"
+            },
+            {
+                "id": "Station:SaitamaRailway.SaitamaRailway.TozukaAngyo",
+                "latitude": 35.858938,
+                "longitude": 139.753702,
+                "name": "戸塚安行",
+                "nameEn": "Tozuka-angyo",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "SR24"
+            },
+            {
+                "id": "Station:SaitamaRailway.SaitamaRailway.HigashiKawaguchi",
+                "latitude": 35.876641,
+                "longitude": 139.743615,
+                "name": "東川口",
+                "nameEn": "Higashi-kawaguchi",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "SR25"
+            },
+            {
+                "id": "Station:SaitamaRailway.SaitamaRailway.UrawaMisono",
+                "latitude": 35.893821,
+                "longitude": 139.727631,
+                "name": "浦和美園",
+                "nameEn": "Urawa-misono",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "SR26"
+            }
+        ],
+        "stopPatterns": [],
+        "throughServices": [
+            {
+                "connectingLineId": "Railway:TokyoMetro.Namboku",
+                "end": "descending",
+                "junctionStationId": "Station:SaitamaRailway.SaitamaRailway.AkabaneIwabuchi",
+                "lineNameEn": "Tokyo Metro Namboku Line",
+                "lineNameJa": "東京メトロ南北線",
+                "towardEn": "for Meguro & the Tokyu Line",
+                "towardJa": "目黒・東急線方面"
+            }
+        ]
+    }
+]

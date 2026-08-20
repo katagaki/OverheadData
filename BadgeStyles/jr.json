@@ -1,0 +1,80 @@
+{
+    "id": "jr",
+    "nameJa": "JR東日本",
+    "nameEn": "JR East",
+    "colors": {
+        "letter": "#000000",
+        "plate": "lineColor",
+        "core": "#FFFFFF",
+        "ring": "lineColor"
+    },
+    "line": {
+        "layers": [
+            {
+                "shape": "roundedRect",
+                "radiusRatio": 0.125,
+                "fill": "$plate"
+            },
+            {
+                "shape": "rect",
+                "fill": "$core",
+                "insetRatio": 0.109375
+            }
+        ],
+        "color": "$letter",
+        "size": 20,
+        "minimumScaleFactor": 0.5,
+        "kerning": true,
+        "family": "Hind-Bold",
+        "sizeMulti": 18.5,
+        "insetH": 4,
+        "nudgeBase": 20,
+        "nudgeBaseMulti": 16.5
+    },
+    "station": {
+        "spacing": 1,
+        "rows": [
+            {
+                "kind": "prefix",
+                "sizeRatio": 0.58,
+                "family": "Hind-Bold",
+                "heightRatio": 0.43499999999999994,
+                "offsetYRatio": 0.1392,
+                "fullWidth": true
+            },
+            {
+                "kind": "number",
+                "sizeRatio": 0.79,
+                "family": "Hind-Bold",
+                "heightRatio": 0.5925,
+                "offsetYRatio": -0.0474,
+                "fullWidth": true
+            }
+        ],
+        "solo": {
+            "kind": "number",
+            "sizeRatio": 0.72,
+            "family": "Hind-Bold"
+        },
+        "layers": [
+            {
+                "shape": "rect",
+                "fill": "$core"
+            }
+        ],
+        "clip": {
+            "shape": "roundedRect",
+            "radius": 6
+        },
+        "overlays": [
+            {
+                "shape": "roundedRect",
+                "radius": 6,
+                "stroke": "$ring",
+                "lineWidth": 3
+            }
+        ],
+        "color": "$letter",
+        "minimumScaleFactor": 0.6
+    }
+}

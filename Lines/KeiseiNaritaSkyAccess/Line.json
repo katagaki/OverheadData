@@ -1,0 +1,216 @@
+[
+    {
+        "colorHex": "#EC7B02",
+        "delayInfo": {
+            "checkMethodEn": "Check the Keisei train information page, the Keisei app, or X (@keiseirailway). Delays and suspensions are posted as they occur.",
+            "checkMethodJa": "京成電鉄「運行情報」ページ、京成アプリ、またはX（@keiseirailway）で確認できます。遅延・運転見合わせが発生した場合に掲載されます。",
+            "statusPageURL": "https://www.keisei.co.jp/traininfo/index.php",
+            "statusPageURLEn": "https://www.keisei.co.jp/traininfo/index.php",
+            "xAccount": "@keiseirailway"
+        },
+        "directions": [
+            {
+                "expressSaturdayHolidayRuns": [],
+                "expressWeekdayRuns": [],
+                "id": "static.RailDirection:Keisei.NaritaSkyAccess.NaritaAirport",
+                "intermediateOrigins": [],
+                "isAscending": true,
+                "nameEn": "For Narita Airport",
+                "nameJa": "成田空港方面",
+                "saturdayHoliday": {
+                    "bands": [
+                        {
+                            "from": "05:34",
+                            "headwayMinutes": 40
+                        }
+                    ],
+                    "firstDeparture": "05:34",
+                    "lastDeparture": "23:00",
+                    "trainType": "Local"
+                },
+                "weekday": {
+                    "bands": [
+                        {
+                            "from": "05:34",
+                            "headwayMinutes": 40
+                        },
+                        {
+                            "from": "06:30",
+                            "headwayMinutes": 30
+                        },
+                        {
+                            "from": "09:00",
+                            "headwayMinutes": 40
+                        },
+                        {
+                            "from": "17:00",
+                            "headwayMinutes": 30
+                        },
+                        {
+                            "from": "20:00",
+                            "headwayMinutes": 40
+                        }
+                    ],
+                    "firstDeparture": "05:34",
+                    "lastDeparture": "23:00",
+                    "trainType": "Local"
+                }
+            },
+            {
+                "expressSaturdayHolidayRuns": [],
+                "expressWeekdayRuns": [],
+                "id": "static.RailDirection:Keisei.NaritaSkyAccess.KeiseiTakasago",
+                "intermediateOrigins": [],
+                "isAscending": false,
+                "nameEn": "For Keisei-Takasago",
+                "nameJa": "京成高砂方面",
+                "saturdayHoliday": {
+                    "bands": [
+                        {
+                            "from": "05:41",
+                            "headwayMinutes": 40
+                        }
+                    ],
+                    "firstDeparture": "05:41",
+                    "lastDeparture": "23:08",
+                    "trainType": "Local"
+                },
+                "weekday": {
+                    "bands": [
+                        {
+                            "from": "05:41",
+                            "headwayMinutes": 40
+                        },
+                        {
+                            "from": "06:30",
+                            "headwayMinutes": 30
+                        },
+                        {
+                            "from": "09:00",
+                            "headwayMinutes": 40
+                        },
+                        {
+                            "from": "17:00",
+                            "headwayMinutes": 30
+                        },
+                        {
+                            "from": "20:00",
+                            "headwayMinutes": 40
+                        }
+                    ],
+                    "firstDeparture": "05:41",
+                    "lastDeparture": "23:08",
+                    "trainType": "Local"
+                }
+            }
+        ],
+        "hopTimesMinutes": [8, 5, 9, 7, 7, 8, 2],
+        "id": "Railway:Keisei.NaritaSkyAccess",
+        "isLoop": false,
+        "nameEn": "Narita Sky Access Line",
+        "nameJa": "成田スカイアクセス線",
+        "operatorId": "Operator:Keisei",
+        "stations": [
+            {
+                "id": "Station:Keisei.NaritaSkyAccess.KeiseiTakasago",
+                "latitude": 35.75094,
+                "longitude": 139.867122,
+                "name": "京成高砂",
+                "nameEn": "Keisei-Takasago",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "KS10"
+            },
+            {
+                "id": "Station:Keisei.NaritaSkyAccess.HigashiMatsudo",
+                "latitude": 35.7699,
+                "longitude": 139.9429,
+                "name": "東松戸",
+                "nameEn": "Higashi-Matsudo",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "HS05"
+            },
+            {
+                "id": "Station:Keisei.NaritaSkyAccess.ShinKamagaya",
+                "latitude": 35.7795,
+                "longitude": 139.9983,
+                "name": "新鎌ヶ谷",
+                "nameEn": "Shin-Kamagaya",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "HS08"
+            },
+            {
+                "id": "Station:Keisei.NaritaSkyAccess.ChibaNewTown",
+                "latitude": 35.8002,
+                "longitude": 140.1164,
+                "name": "千葉ニュータウン中央",
+                "nameEn": "Chiba New Town Chuo",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "HS12"
+            },
+            {
+                "id": "Station:Keisei.NaritaSkyAccess.ImbaNihonIdai",
+                "latitude": 35.7876,
+                "longitude": 140.2033,
+                "name": "印旛日本医大",
+                "nameEn": "Imba-Nihon-Idai",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "HS14"
+            },
+            {
+                "id": "Station:Keisei.NaritaSkyAccess.NaritaYukawa",
+                "latitude": 35.7996,
+                "longitude": 140.2911,
+                "name": "成田湯川",
+                "nameEn": "Narita-Yukawa",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "KS43"
+            },
+            {
+                "id": "Station:Keisei.NaritaSkyAccess.AirportTerminal2",
+                "latitude": 35.773197,
+                "longitude": 140.387212,
+                "name": "空港第2ビル",
+                "nameEn": "Narita Airport Terminal 2·3",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "KS41"
+            },
+            {
+                "id": "Station:Keisei.NaritaSkyAccess.NaritaAirport",
+                "latitude": 35.765397,
+                "longitude": 140.38599,
+                "name": "成田空港",
+                "nameEn": "Narita Airport Terminal 1",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "KS42"
+            }
+        ],
+        "stopPatterns": [],
+        "throughServices": [
+            {
+                "connectingLineId": "Railway:Keisei.Main",
+                "end": "descending",
+                "junctionStationId": "Station:Keisei.NaritaSkyAccess.KeiseiTakasago",
+                "lineNameEn": "Keisei Main Line",
+                "lineNameJa": "京成本線",
+                "towardEn": "for Keisei-Ueno",
+                "towardJa": "京成上野方面"
+            }
+        ]
+    }
+]

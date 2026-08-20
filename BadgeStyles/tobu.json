@@ -1,0 +1,82 @@
+{
+    "id": "tobu",
+    "nameJa": "東武鉄道",
+    "nameEn": "Tobu",
+    "colors": {
+        "letter": "#000000",
+        "core": "#FFFFFF",
+        "ring": "lineColor"
+    },
+    "line": {
+        "layers": [
+            {
+                "shape": "roundedRect",
+                "radiusRatio": 0.21875,
+                "fill": "$core"
+            }
+        ],
+        "overlays": [
+            {
+                "shape": "roundedRect",
+                "radiusRatio": 0.21875,
+                "stroke": "$ring",
+                "lineWidthRatio": 0.109375
+            }
+        ],
+        "color": "$letter",
+        "size": 18.5,
+        "minimumScaleFactor": 0.5,
+        "kerning": true,
+        "family": "Hind-Bold",
+        "sizeMulti": 18.5,
+        "insetH": 4.5,
+        "nudgeBase": 15,
+        "nudgeBaseMulti": 15
+    },
+    "station": {
+        "spacing": 1,
+        "rows": [
+            {
+                "kind": "prefix",
+                "sizeRatio": 0.58,
+                "family": "Hind-Bold",
+                "heightRatio": 0.43499999999999994,
+                "offsetYRatio": 0.1392,
+                "fullWidth": true
+            },
+            {
+                "kind": "number",
+                "sizeRatio": 0.79,
+                "family": "Hind-Bold",
+                "heightRatio": 0.5925,
+                "offsetYRatio": -0.0474,
+                "fullWidth": true
+            }
+        ],
+        "solo": {
+            "kind": "number",
+            "sizeRatio": 0.72,
+            "family": "Hind-Bold"
+        },
+        "layers": [
+            {
+                "shape": "rect",
+                "fill": "$core"
+            }
+        ],
+        "clip": {
+            "shape": "roundedRect",
+            "radius": 7.5
+        },
+        "overlays": [
+            {
+                "shape": "roundedRect",
+                "radius": 7.5,
+                "stroke": "$ring",
+                "lineWidth": 3
+            }
+        ],
+        "color": "$letter",
+        "minimumScaleFactor": 0.6
+    }
+}

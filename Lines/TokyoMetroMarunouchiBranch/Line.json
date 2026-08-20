@@ -1,0 +1,190 @@
+[
+    {
+        "colorHex": "#E60012",
+        "delayInfo": {
+            "checkMethodEn": "Check the Tokyo Metro Service Information page, the official app, or X (@tokyometro_info). Delays or suspensions of 15 minutes or more are posted.",
+            "checkMethodJa": "東京メトロ「運行情報」ページ、公式アプリ、またはX（@tokyometro_info）で確認できます。15分以上の遅れ・運転見合わせが発生した場合に掲載されます。",
+            "statusPageURL": "https://www.tokyometro.jp/unkou/history/marunouchi.html",
+            "statusPageURLEn": "https://www.tokyometro.jp/lang_en/unkou/history/marunouchi.html",
+            "xAccount": "@M_line_info"
+        },
+        "directions": [
+            {
+                "expressSaturdayHolidayRuns": [],
+                "expressWeekdayRuns": [],
+                "id": "static.RailDirection:TokyoMetro.MarunouchiBranch.NakanoSakaue",
+                "intermediateOrigins": [
+                    {
+                        "saturdayHolidayDepartures": ["05:00", "05:12"],
+                        "stationId": "Station:TokyoMetro.MarunouchiBranch.NakanoFujimicho",
+                        "weekdayDepartures": ["05:00", "05:12", "06:08", "06:24", "06:38", "06:51", "07:08", "07:23", "07:29", "07:38", "15:21", "15:27", "16:08", "16:18", "16:29"]
+                    }
+                ],
+                "isAscending": true,
+                "nameEn": "For Nakano-sakaue",
+                "nameJa": "中野坂上方面",
+                "saturdayHoliday": {
+                    "bands": [
+                        {
+                            "from": "05:00",
+                            "headwayMinutes": 10
+                        },
+                        {
+                            "from": "10:00",
+                            "headwayMinutes": 10
+                        },
+                        {
+                            "from": "22:00",
+                            "headwayMinutes": 12
+                        }
+                    ],
+                    "firstDeparture": "05:00",
+                    "lastDeparture": "24:09",
+                    "trainType": "Local"
+                },
+                "weekday": {
+                    "bands": [
+                        {
+                            "from": "05:00",
+                            "headwayMinutes": 9
+                        },
+                        {
+                            "from": "07:00",
+                            "headwayMinutes": 8
+                        },
+                        {
+                            "from": "09:30",
+                            "headwayMinutes": 9
+                        },
+                        {
+                            "from": "20:00",
+                            "headwayMinutes": 8
+                        },
+                        {
+                            "from": "22:00",
+                            "headwayMinutes": 10
+                        }
+                    ],
+                    "firstDeparture": "05:00",
+                    "lastDeparture": "24:09",
+                    "trainType": "Local"
+                }
+            },
+            {
+                "expressSaturdayHolidayRuns": [],
+                "expressWeekdayRuns": [],
+                "id": "static.RailDirection:TokyoMetro.MarunouchiBranch.Honancho",
+                "intermediateOrigins": [
+                    {
+                        "saturdayHolidayDepartures": ["05:42"],
+                        "stationId": "Station:TokyoMetro.MarunouchiBranch.NakanoFujimicho",
+                        "weekdayDepartures": ["05:20"]
+                    }
+                ],
+                "isAscending": false,
+                "nameEn": "For Honancho",
+                "nameJa": "方南町方面",
+                "saturdayHoliday": {
+                    "bands": [
+                        {
+                            "from": "05:09",
+                            "headwayMinutes": 10
+                        },
+                        {
+                            "from": "10:00",
+                            "headwayMinutes": 10
+                        },
+                        {
+                            "from": "22:00",
+                            "headwayMinutes": 12
+                        }
+                    ],
+                    "firstDeparture": "05:09",
+                    "lastDeparture": "24:26",
+                    "trainType": "Local"
+                },
+                "weekday": {
+                    "bands": [
+                        {
+                            "from": "05:09",
+                            "headwayMinutes": 9
+                        },
+                        {
+                            "from": "07:00",
+                            "headwayMinutes": 8.5
+                        },
+                        {
+                            "from": "09:30",
+                            "headwayMinutes": 10
+                        },
+                        {
+                            "from": "20:00",
+                            "headwayMinutes": 10
+                        },
+                        {
+                            "from": "22:00",
+                            "headwayMinutes": 12
+                        }
+                    ],
+                    "firstDeparture": "05:09",
+                    "lastDeparture": "24:26",
+                    "trainType": "Local"
+                }
+            }
+        ],
+        "hopTimesMinutes": [2, 2, 3],
+        "id": "Railway:TokyoMetro.MarunouchiBranch",
+        "isLoop": false,
+        "nameEn": "Marunouchi Line Honancho Branch",
+        "nameJa": "丸ノ内線(方南町支線)",
+        "operatorId": "Operator:TokyoMetro",
+        "stations": [
+            {
+                "id": "Station:TokyoMetro.MarunouchiBranch.Honancho",
+                "latitude": 35.6836,
+                "longitude": 139.6588,
+                "name": "方南町",
+                "nameEn": "Honancho",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "Mb03"
+            },
+            {
+                "id": "Station:TokyoMetro.MarunouchiBranch.NakanoFujimicho",
+                "latitude": 35.690564,
+                "longitude": 139.667033,
+                "name": "中野富士見町",
+                "nameEn": "Nakano-fujimicho",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "Mb04"
+            },
+            {
+                "id": "Station:TokyoMetro.MarunouchiBranch.NakanoShimbashi",
+                "latitude": 35.692021,
+                "longitude": 139.673804,
+                "name": "中野新橋",
+                "nameEn": "Nakano-shimbashi",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "Mb05"
+            },
+            {
+                "id": "Station:TokyoMetro.MarunouchiBranch.NakanoSakaue",
+                "latitude": 35.6975,
+                "longitude": 139.6827,
+                "name": "中野坂上",
+                "nameEn": "Nakano-sakaue",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "M06"
+            }
+        ],
+        "stopPatterns": [],
+        "throughServices": []
+    }
+]

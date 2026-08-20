@@ -1,0 +1,55 @@
+{
+    "id": "seibu",
+    "nameJa": "西武鉄道",
+    "nameEn": "Seibu",
+    "colors": {
+        "ring": "lineColor",
+        "prefixLetter": "#FFFFFF",
+        "plate": "lineColor",
+        "numberLetter": "#111D16",
+        "core": "#FFFFFF"
+    },
+    "line": {
+        "renderer": "seibuTrainLogo"
+    },
+    "station": {
+        "spacing": 0,
+        "rows": [
+            {
+                "kind": "prefix",
+                "sizeRatio": 0.58,
+                "family": "Hind-Bold",
+                "color": "$prefixLetter",
+                "background": "$plate",
+                "heightRatio": 0.42,
+                "offsetYRatio": 0.0442,
+                "fullWidth": true
+            },
+            {
+                "kind": "number",
+                "sizeRatio": 0.82,
+                "family": "Hind-Bold",
+                "color": "$numberLetter",
+                "background": "$core",
+                "maxHeightRatio": 0.5,
+                "offsetYRatio": 0.010400000000000001,
+                "fullWidth": true
+            }
+        ],
+        "clip": {
+            "shape": "roundedRect",
+            "radiusRatio": 0.25,
+            "continuous": true
+        },
+        "overlays": [
+            {
+                "shape": "roundedRect",
+                "radiusRatio": 0.25,
+                "continuous": true,
+                "stroke": "$ring",
+                "lineWidth": 2.5
+            }
+        ],
+        "minimumScaleFactor": 0.6
+    }
+}

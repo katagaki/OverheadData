@@ -1,0 +1,416 @@
+[
+    {
+        "colorHex": "#6CBB5A",
+        "delayInfo": {
+            "checkMethodEn": "Check the Toei Transportation service information page, the Toei app, or X (@toeikotsu). Delays and suspensions are posted as they occur.",
+            "checkMethodJa": "都営交通「運行情報」ページ、都営交通アプリ、またはX（@toeikotsu）で確認できます。遅延・運転見合わせが発生した場合に掲載されます。",
+            "statusPageURL": "https://www.kotsu.metro.tokyo.jp/subway/schedule/shinjuku.html",
+            "statusPageURLEn": "https://www.kotsu.metro.tokyo.jp/eng/operation_status/",
+            "xAccount": "@toeikotsu"
+        },
+        "directions": [
+            {
+                "expressSaturdayHolidayRuns": [],
+                "expressWeekdayRuns": [],
+                "id": "static.RailDirection:Toei.Shinjuku.Motoyawata",
+                "intermediateOrigins": [
+                    {
+                        "saturdayHolidayDepartures": ["05:01", "05:12"],
+                        "stationId": "Station:Toei.Shinjuku.Ojima",
+                        "weekdayDepartures": ["05:01", "05:12", "07:09", "07:36", "08:03"]
+                    }
+                ],
+                "isAscending": true,
+                "nameEn": "For Motoyawata",
+                "nameJa": "本八幡方面",
+                "saturdayHoliday": {
+                    "bands": [
+                        {
+                            "from": "05:00",
+                            "headwayMinutes": 7
+                        },
+                        {
+                            "from": "07:00",
+                            "headwayMinutes": 6
+                        },
+                        {
+                            "from": "10:00",
+                            "headwayMinutes": 6
+                        },
+                        {
+                            "from": "20:00",
+                            "headwayMinutes": 6.5
+                        },
+                        {
+                            "from": "22:00",
+                            "headwayMinutes": 8
+                        }
+                    ],
+                    "firstDeparture": "05:00",
+                    "lastDeparture": "24:10",
+                    "trainType": "Local"
+                },
+                "weekday": {
+                    "bands": [
+                        {
+                            "from": "05:00",
+                            "headwayMinutes": 7
+                        },
+                        {
+                            "from": "07:00",
+                            "headwayMinutes": 4
+                        },
+                        {
+                            "from": "09:30",
+                            "headwayMinutes": 6
+                        },
+                        {
+                            "from": "17:00",
+                            "headwayMinutes": 4.5
+                        },
+                        {
+                            "from": "20:00",
+                            "headwayMinutes": 6
+                        },
+                        {
+                            "from": "22:00",
+                            "headwayMinutes": 8
+                        }
+                    ],
+                    "firstDeparture": "05:00",
+                    "lastDeparture": "24:10",
+                    "trainType": "Local"
+                }
+            },
+            {
+                "expressSaturdayHolidayRuns": [],
+                "expressWeekdayRuns": [],
+                "id": "static.RailDirection:Toei.Shinjuku.Shinjuku",
+                "intermediateOrigins": [
+                    {
+                        "saturdayHolidayDepartures": ["05:00"],
+                        "stationId": "Station:Toei.Shinjuku.Iwamotocho",
+                        "weekdayDepartures": ["05:00"]
+                    },
+                    {
+                        "saturdayHolidayDepartures": ["05:00", "07:06", "07:25"],
+                        "stationId": "Station:Toei.Shinjuku.Ojima",
+                        "weekdayDepartures": ["05:00", "07:20", "07:28", "09:31", "16:23", "16:36", "17:05", "17:11", "17:18", "17:27"]
+                    }
+                ],
+                "isAscending": false,
+                "nameEn": "For Shinjuku",
+                "nameJa": "新宿方面",
+                "saturdayHoliday": {
+                    "bands": [
+                        {
+                            "from": "05:00",
+                            "headwayMinutes": 7
+                        },
+                        {
+                            "from": "07:00",
+                            "headwayMinutes": 6
+                        },
+                        {
+                            "from": "10:00",
+                            "headwayMinutes": 6
+                        },
+                        {
+                            "from": "20:00",
+                            "headwayMinutes": 6.5
+                        },
+                        {
+                            "from": "22:00",
+                            "headwayMinutes": 8
+                        }
+                    ],
+                    "firstDeparture": "05:00",
+                    "lastDeparture": "24:09",
+                    "trainType": "Local"
+                },
+                "weekday": {
+                    "bands": [
+                        {
+                            "from": "05:00",
+                            "headwayMinutes": 7
+                        },
+                        {
+                            "from": "07:00",
+                            "headwayMinutes": 4
+                        },
+                        {
+                            "from": "09:30",
+                            "headwayMinutes": 6
+                        },
+                        {
+                            "from": "17:00",
+                            "headwayMinutes": 4.5
+                        },
+                        {
+                            "from": "20:00",
+                            "headwayMinutes": 6
+                        },
+                        {
+                            "from": "22:00",
+                            "headwayMinutes": 8
+                        }
+                    ],
+                    "firstDeparture": "05:00",
+                    "lastDeparture": "24:09",
+                    "trainType": "Local"
+                }
+            }
+        ],
+        "hopTimesMinutes": [2, 2, 2, 2, 2, 2, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3],
+        "id": "Railway:Toei.Shinjuku",
+        "isLoop": false,
+        "nameEn": "Toei Shinjuku Line",
+        "nameJa": "都営新宿線",
+        "operatorId": "Operator:Toei",
+        "stations": [
+            {
+                "id": "Station:Toei.Shinjuku.Shinjuku",
+                "latitude": 35.6895,
+                "longitude": 139.6988,
+                "name": "新宿",
+                "nameEn": "Shinjuku",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "S01"
+            },
+            {
+                "id": "Station:Toei.Shinjuku.ShinjukuSanchome",
+                "latitude": 35.6909,
+                "longitude": 139.7047,
+                "name": "新宿三丁目",
+                "nameEn": "Shinjuku-sanchome",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "S02"
+            },
+            {
+                "id": "Station:Toei.Shinjuku.Akebonobashi",
+                "latitude": 35.6922,
+                "longitude": 139.7232,
+                "name": "曙橋",
+                "nameEn": "Akebonobashi",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "S03"
+            },
+            {
+                "id": "Station:Toei.Shinjuku.Ichigaya",
+                "latitude": 35.691547,
+                "longitude": 139.737668,
+                "name": "市ケ谷",
+                "nameEn": "Ichigaya",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "S04"
+            },
+            {
+                "id": "Station:Toei.Shinjuku.Kudanshita",
+                "latitude": 35.6957,
+                "longitude": 139.7515,
+                "name": "九段下",
+                "nameEn": "Kudanshita",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "S05"
+            },
+            {
+                "id": "Station:Toei.Shinjuku.Jimbocho",
+                "latitude": 35.6958,
+                "longitude": 139.7578,
+                "name": "神保町",
+                "nameEn": "Jimbocho",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "S06"
+            },
+            {
+                "id": "Station:Toei.Shinjuku.Ogawamachi",
+                "latitude": 35.6952,
+                "longitude": 139.7662,
+                "name": "小川町",
+                "nameEn": "Ogawamachi",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "S07"
+            },
+            {
+                "id": "Station:Toei.Shinjuku.Iwamotocho",
+                "latitude": 35.695614,
+                "longitude": 139.775318,
+                "name": "岩本町",
+                "nameEn": "Iwamotocho",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "S08"
+            },
+            {
+                "id": "Station:Toei.Shinjuku.BakuroYokoyama",
+                "latitude": 35.6922,
+                "longitude": 139.7828,
+                "name": "馬喰横山",
+                "nameEn": "Bakuro-yokoyama",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "S09"
+            },
+            {
+                "id": "Station:Toei.Shinjuku.Hamacho",
+                "latitude": 35.6888,
+                "longitude": 139.7887,
+                "name": "浜町",
+                "nameEn": "Hamacho",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "S10"
+            },
+            {
+                "id": "Station:Toei.Shinjuku.Morishita",
+                "latitude": 35.6877,
+                "longitude": 139.797,
+                "name": "森下",
+                "nameEn": "Morishita",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "S11"
+            },
+            {
+                "id": "Station:Toei.Shinjuku.Kikukawa",
+                "latitude": 35.688416,
+                "longitude": 139.806123,
+                "name": "菊川",
+                "nameEn": "Kikukawa",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "S12"
+            },
+            {
+                "id": "Station:Toei.Shinjuku.Sumiyoshi",
+                "latitude": 35.689,
+                "longitude": 139.8143,
+                "name": "住吉",
+                "nameEn": "Sumiyoshi",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "S13"
+            },
+            {
+                "id": "Station:Toei.Shinjuku.NishiOjima",
+                "latitude": 35.689372,
+                "longitude": 139.826635,
+                "name": "西大島",
+                "nameEn": "Nishi-ojima",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "S14"
+            },
+            {
+                "id": "Station:Toei.Shinjuku.Ojima",
+                "latitude": 35.689769,
+                "longitude": 139.835076,
+                "name": "大島",
+                "nameEn": "Ojima",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "S15"
+            },
+            {
+                "id": "Station:Toei.Shinjuku.HigashiOjima",
+                "latitude": 35.690297,
+                "longitude": 139.845952,
+                "name": "東大島",
+                "nameEn": "Higashi-ojima",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "S16"
+            },
+            {
+                "id": "Station:Toei.Shinjuku.Funabori",
+                "latitude": 35.6842,
+                "longitude": 139.8642,
+                "name": "船堀",
+                "nameEn": "Funabori",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "S17"
+            },
+            {
+                "id": "Station:Toei.Shinjuku.Ichinoe",
+                "latitude": 35.686044,
+                "longitude": 139.88312,
+                "name": "一之江",
+                "nameEn": "Ichinoe",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "S18"
+            },
+            {
+                "id": "Station:Toei.Shinjuku.Mizue",
+                "latitude": 35.693248,
+                "longitude": 139.897639,
+                "name": "瑞江",
+                "nameEn": "Mizue",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "S19"
+            },
+            {
+                "id": "Station:Toei.Shinjuku.Shinozaki",
+                "latitude": 35.706079,
+                "longitude": 139.903838,
+                "name": "篠崎",
+                "nameEn": "Shinozaki",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "S20"
+            },
+            {
+                "id": "Station:Toei.Shinjuku.Motoyawata",
+                "latitude": 35.723714,
+                "longitude": 139.927061,
+                "name": "本八幡",
+                "nameEn": "Motoyawata",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "S21"
+            }
+        ],
+        "stopPatterns": [],
+        "throughServices": [
+            {
+                "connectingLineId": "Railway:Keio.Keio",
+                "end": "descending",
+                "junctionStationId": "Station:Toei.Shinjuku.Shinjuku",
+                "lineNameEn": "Keio New Line & Keio Line",
+                "lineNameJa": "京王新線・京王線",
+                "towardEn": "for Sasazuka & Hashimoto",
+                "towardJa": "笹塚・橋本方面"
+            }
+        ]
+    }
+]

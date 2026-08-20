@@ -1,0 +1,75 @@
+{
+    "id": "saitamaRailway",
+    "nameJa": "埼玉高速鉄道",
+    "nameEn": "Saitama Railway",
+    "colors": {
+        "letter": "#232021",
+        "core": "#FFFFFF",
+        "ring": "lineColor",
+        "stationLetter": "#000000"
+    },
+    "line": {
+        "layers": [
+            {
+                "shape": "circle",
+                "fill": "$core"
+            }
+        ],
+        "overlays": [
+            {
+                "shape": "circle",
+                "stroke": "$ring",
+                "lineWidthRatio": 0.10625
+            }
+        ],
+        "color": "$letter",
+        "size": 15,
+        "minimumScaleFactor": 0.5,
+        "kerning": false,
+        "sizeMulti": 15,
+        "weight": "regular",
+        "width": "standard",
+        "insetH": 4,
+        "nudgeBaseMulti": 0
+    },
+    "station": {
+        "spacing": 0,
+        "rows": [
+            {
+                "kind": "prefix",
+                "sizeRatio": 0.36,
+                "weight": "regular",
+                "width": "standard",
+                "heightRatio": 0.28,
+                "offsetYRatio": 0.05,
+                "widthRatio": 0.58
+            },
+            {
+                "kind": "number",
+                "sizeRatio": 0.58,
+                "weight": "regular",
+                "width": "standard",
+                "heightRatio": 0.58,
+                "offsetYRatio": -0.03
+            }
+        ],
+        "layers": [
+            {
+                "shape": "rect",
+                "fill": "$core"
+            }
+        ],
+        "clip": {
+            "shape": "circle"
+        },
+        "overlays": [
+            {
+                "shape": "circle",
+                "stroke": "$ring",
+                "lineWidthRatio": 0.105
+            }
+        ],
+        "color": "$stationLetter",
+        "minimumScaleFactor": 0.5
+    }
+}

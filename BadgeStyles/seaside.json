@@ -1,0 +1,69 @@
+{
+    "id": "seaside",
+    "nameJa": "金沢シーサイドライン",
+    "nameEn": "Kanazawa Seaside Line",
+    "colors": {
+        "letter": "#FFFFFF",
+        "core": "#FFFFFF",
+        "wave": "#43397E",
+        "ring": "#43397E"
+    },
+    "line": {
+        "layers": [
+            {
+                "shape": "circle",
+                "fill": "$core"
+            },
+            {
+                "shape": "seasideWave",
+                "fill": "$wave",
+                "clipCircle": true,
+                "insetRatio": 0.075
+            },
+            {
+                "shape": "circle",
+                "stroke": "$ring",
+                "lineWidthRatio": 0.026
+            }
+        ],
+        "color": "$letter",
+        "size": 13,
+        "minimumScaleFactor": 0.5,
+        "kerning": false,
+        "family": "Helvetica-Bold",
+        "sizeMulti": 13,
+        "nudgeBaseMulti": 0,
+        "offsetY": -3
+    },
+    "station": {
+        "spacing": 0,
+        "rows": [
+            {
+                "kind": "number",
+                "sizeRatio": 0.58,
+                "family": "Helvetica-Bold",
+                "offsetYRatio": -0.105,
+                "stripLeadingZeros": true
+            }
+        ],
+        "layers": [
+            {
+                "shape": "circle",
+                "fill": "$core"
+            },
+            {
+                "shape": "seasideWave",
+                "fill": "$wave",
+                "clipCircle": true,
+                "insetRatio": 0.075
+            },
+            {
+                "shape": "circle",
+                "stroke": "$ring",
+                "lineWidthRatio": 0.026
+            }
+        ],
+        "color": "$letter",
+        "minimumScaleFactor": 0.6
+    }
+}

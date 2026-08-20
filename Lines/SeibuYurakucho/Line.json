@@ -1,0 +1,211 @@
+[
+    {
+        "colorHex": "#F08300",
+        "delayInfo": {
+            "checkMethodEn": "Check the Seibu Railway operation information page or the Seibu Lines app. Delays and suspensions are posted as they occur.",
+            "checkMethodJa": "西武鉄道「運行情報」ページまたは西武線アプリで確認できます。遅延・運転見合わせが発生した場合に掲載されます。",
+            "statusPageURL": "https://www.seiburailway.jp/railway/railwayinfo/",
+            "statusPageURLEn": "https://www.seiburailway.jp/en/railway/railwayinfo/",
+            "xAccount": "@seiburailway"
+        },
+        "directions": [
+            {
+                "expressSaturdayHolidayRuns": [],
+                "expressWeekdayRuns": [],
+                "id": "static.RailDirection:Seibu.SeibuYurakucho.Nerima",
+                "intermediateOrigins": [],
+                "isAscending": true,
+                "nameEn": "For Nerima & Tokorozawa",
+                "nameJa": "練馬・所沢方面",
+                "saturdayHoliday": {
+                    "bands": [
+                        {
+                            "from": "05:02",
+                            "headwayMinutes": 10
+                        },
+                        {
+                            "from": "07:00",
+                            "headwayMinutes": 8
+                        },
+                        {
+                            "from": "10:00",
+                            "headwayMinutes": 8
+                        },
+                        {
+                            "from": "20:00",
+                            "headwayMinutes": 10
+                        }
+                    ],
+                    "firstDeparture": "05:02",
+                    "lastDeparture": "24:33",
+                    "trainType": "Local"
+                },
+                "weekday": {
+                    "bands": [
+                        {
+                            "from": "05:02",
+                            "headwayMinutes": 10
+                        },
+                        {
+                            "from": "06:30",
+                            "headwayMinutes": 5
+                        },
+                        {
+                            "from": "09:30",
+                            "headwayMinutes": 8
+                        },
+                        {
+                            "from": "16:30",
+                            "headwayMinutes": 6
+                        },
+                        {
+                            "from": "20:00",
+                            "headwayMinutes": 8
+                        },
+                        {
+                            "from": "22:00",
+                            "headwayMinutes": 10
+                        }
+                    ],
+                    "firstDeparture": "05:02",
+                    "lastDeparture": "24:33",
+                    "trainType": "Local"
+                }
+            },
+            {
+                "expressSaturdayHolidayRuns": [],
+                "expressWeekdayRuns": [],
+                "id": "static.RailDirection:Seibu.SeibuYurakucho.KotakeMukaihara",
+                "intermediateOrigins": [],
+                "isAscending": false,
+                "nameEn": "For Kotake-Mukaihara",
+                "nameJa": "小竹向原方面",
+                "saturdayHoliday": {
+                    "bands": [
+                        {
+                            "from": "04:57",
+                            "headwayMinutes": 10
+                        },
+                        {
+                            "from": "07:00",
+                            "headwayMinutes": 8
+                        },
+                        {
+                            "from": "10:00",
+                            "headwayMinutes": 8
+                        },
+                        {
+                            "from": "20:00",
+                            "headwayMinutes": 10
+                        }
+                    ],
+                    "firstDeparture": "04:57",
+                    "lastDeparture": "24:16",
+                    "trainType": "Local"
+                },
+                "weekday": {
+                    "bands": [
+                        {
+                            "from": "04:57",
+                            "headwayMinutes": 10
+                        },
+                        {
+                            "from": "06:30",
+                            "headwayMinutes": 5
+                        },
+                        {
+                            "from": "09:30",
+                            "headwayMinutes": 8
+                        },
+                        {
+                            "from": "16:30",
+                            "headwayMinutes": 6
+                        },
+                        {
+                            "from": "20:00",
+                            "headwayMinutes": 8
+                        },
+                        {
+                            "from": "22:00",
+                            "headwayMinutes": 10
+                        }
+                    ],
+                    "firstDeparture": "04:57",
+                    "lastDeparture": "24:16",
+                    "trainType": "Local"
+                }
+            }
+        ],
+        "hopTimesMinutes": [2, 2],
+        "id": "Railway:Seibu.SeibuYurakucho",
+        "isLoop": false,
+        "nameEn": "Seibu Yurakucho Line",
+        "nameJa": "西武有楽町線",
+        "operatorId": "Operator:Seibu",
+        "stations": [
+            {
+                "id": "Station:Seibu.SeibuYurakucho.KotakeMukaihara",
+                "latitude": 35.7437,
+                "longitude": 139.6787,
+                "name": "小竹向原",
+                "nameEn": "Kotake-Mukaihara",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "SI37"
+            },
+            {
+                "id": "Station:Seibu.SeibuYurakucho.Shinsakuradai",
+                "latitude": 35.7407,
+                "longitude": 139.6687,
+                "name": "新桜台",
+                "nameEn": "Shin-sakuradai",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "SI38"
+            },
+            {
+                "id": "Station:Seibu.SeibuYurakucho.Nerima",
+                "latitude": 35.7377,
+                "longitude": 139.6537,
+                "name": "練馬",
+                "nameEn": "Nerima",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "SI06"
+            }
+        ],
+        "stopPatterns": [],
+        "throughServices": [
+            {
+                "connectingLineId": "Railway:TokyoMetro.Yurakucho",
+                "end": "descending",
+                "junctionStationId": "Station:Seibu.SeibuYurakucho.KotakeMukaihara",
+                "lineNameEn": "Tokyo Metro Yurakucho Line",
+                "lineNameJa": "東京メトロ有楽町線",
+                "towardEn": "for Yurakucho & Shin-Kiba",
+                "towardJa": "有楽町・新木場方面"
+            },
+            {
+                "connectingLineId": "Railway:TokyoMetro.Fukutoshin",
+                "end": "descending",
+                "junctionStationId": "Station:Seibu.SeibuYurakucho.KotakeMukaihara",
+                "lineNameEn": "Tokyo Metro Fukutoshin Line",
+                "lineNameJa": "東京メトロ副都心線",
+                "towardEn": "for Shibuya & Yokohama",
+                "towardJa": "渋谷・横浜方面"
+            },
+            {
+                "connectingLineId": "Railway:Seibu.Ikebukuro",
+                "end": "ascending",
+                "junctionStationId": "Station:Seibu.SeibuYurakucho.Nerima",
+                "lineNameEn": "Seibu Ikebukuro Line",
+                "lineNameJa": "西武池袋線",
+                "towardEn": "for Tokorozawa & Hanno",
+                "towardJa": "所沢・飯能方面"
+            }
+        ]
+    }
+]

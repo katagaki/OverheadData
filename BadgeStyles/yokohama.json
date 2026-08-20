@@ -1,0 +1,52 @@
+{
+    "id": "yokohama",
+    "nameJa": "横浜市営地下鉄",
+    "nameEn": "Yokohama Municipal Subway",
+    "colors": {
+        "letter": "#FFFFFF",
+        "plate": "lineColor"
+    },
+    "line": {
+        "layers": [
+            {
+                "shape": "circle",
+                "fill": "$plate"
+            }
+        ],
+        "color": "$letter",
+        "size": 16,
+        "minimumScaleFactor": 0.5,
+        "kerning": true,
+        "family": "Helvetica-Bold",
+        "sizeMulti": 16,
+        "insetH": 5,
+        "nudgeBaseMulti": 0
+    },
+    "station": {
+        "spacing": 0,
+        "rows": [
+            {
+                "kind": "prefix",
+                "sizeRatio": 0.42,
+                "family": "Helvetica-Bold",
+                "heightRatio": 0.42,
+                "offsetYRatio": 0.04
+            },
+            {
+                "kind": "number",
+                "sizeRatio": 0.58,
+                "family": "Helvetica-Bold",
+                "heightRatio": 0.52,
+                "offsetYRatio": -0.02
+            }
+        ],
+        "layers": [
+            {
+                "shape": "circle",
+                "fill": "$plate"
+            }
+        ],
+        "color": "$letter",
+        "minimumScaleFactor": 0.6
+    }
+}

@@ -1,0 +1,434 @@
+[
+    {
+        "colorHex": "#222D65",
+        "delayInfo": {
+            "checkMethodEn": "Check the Tokyo Waterfront Area Rapid Transit (Rinkai Line) service information page. Delays and suspensions are posted as they occur.",
+            "checkMethodJa": "東京臨海高速鉄道（りんかい線）の運行情報ページで確認できます。遅延・運転見合わせが発生した場合に掲載されます。",
+            "statusPageURL": "https://service.twr.co.jp/rinkai/public/information?lang=ja",
+            "statusPageURLEn": "https://service.twr.co.jp/rinkai/public/information?lang=en",
+            "xAccount": "@twr_official"
+        },
+        "directions": [
+            {
+                "expressSaturdayHolidayRuns": [],
+                "expressWeekdayRuns": [],
+                "id": "static.RailDirection:TWR.Rinkai.Osaki",
+                "intermediateOrigins": [
+                    {
+                        "saturdayHolidayDepartures": ["05:19"],
+                        "stationId": "Station:TWR.Rinkai.TokyoTeleport",
+                        "weekdayDepartures": ["05:19"]
+                    }
+                ],
+                "isAscending": true,
+                "nameEn": "For Osaki & Shinjuku",
+                "nameJa": "大崎・新宿方面",
+                "saturdayHoliday": {
+                    "bands": [
+                        {
+                            "from": "05:39",
+                            "headwayMinutes": 12
+                        },
+                        {
+                            "from": "06:00",
+                            "headwayMinutes": 8
+                        },
+                        {
+                            "from": "08:00",
+                            "headwayMinutes": 7
+                        },
+                        {
+                            "from": "09:00",
+                            "headwayMinutes": 6
+                        },
+                        {
+                            "from": "10:00",
+                            "headwayMinutes": 8
+                        },
+                        {
+                            "from": "13:00",
+                            "headwayMinutes": 9
+                        },
+                        {
+                            "from": "15:00",
+                            "headwayMinutes": 7
+                        },
+                        {
+                            "from": "16:00",
+                            "headwayMinutes": 8
+                        },
+                        {
+                            "from": "19:00",
+                            "headwayMinutes": 9
+                        },
+                        {
+                            "from": "21:00",
+                            "headwayMinutes": 8
+                        },
+                        {
+                            "from": "22:00",
+                            "headwayMinutes": 10
+                        },
+                        {
+                            "from": "23:00",
+                            "headwayMinutes": 12
+                        }
+                    ],
+                    "firstDeparture": "05:39",
+                    "lastDeparture": "23:54",
+                    "trainType": "Local"
+                },
+                "weekday": {
+                    "bands": [
+                        {
+                            "from": "05:39",
+                            "headwayMinutes": 12
+                        },
+                        {
+                            "from": "06:00",
+                            "headwayMinutes": 9
+                        },
+                        {
+                            "from": "07:00",
+                            "headwayMinutes": 7
+                        },
+                        {
+                            "from": "08:00",
+                            "headwayMinutes": 6
+                        },
+                        {
+                            "from": "09:00",
+                            "headwayMinutes": 5
+                        },
+                        {
+                            "from": "10:00",
+                            "headwayMinutes": 7
+                        },
+                        {
+                            "from": "11:00",
+                            "headwayMinutes": 9
+                        },
+                        {
+                            "from": "12:00",
+                            "headwayMinutes": 8
+                        },
+                        {
+                            "from": "13:00",
+                            "headwayMinutes": 9
+                        },
+                        {
+                            "from": "15:00",
+                            "headwayMinutes": 8
+                        },
+                        {
+                            "from": "16:00",
+                            "headwayMinutes": 7
+                        },
+                        {
+                            "from": "17:00",
+                            "headwayMinutes": 6
+                        },
+                        {
+                            "from": "19:00",
+                            "headwayMinutes": 7
+                        },
+                        {
+                            "from": "20:00",
+                            "headwayMinutes": 8
+                        },
+                        {
+                            "from": "22:00",
+                            "headwayMinutes": 11
+                        },
+                        {
+                            "from": "23:00",
+                            "headwayMinutes": 15
+                        }
+                    ],
+                    "firstDeparture": "05:39",
+                    "lastDeparture": "23:54",
+                    "trainType": "Local"
+                }
+            },
+            {
+                "expressSaturdayHolidayRuns": [
+                    {
+                        "continuesBeyond": false,
+                        "departure": "24:01",
+                        "startsHere": false,
+                        "terminusStationId": "Station:TWR.Rinkai.TokyoTeleport"
+                    },
+                    {
+                        "continuesBeyond": false,
+                        "departure": "24:18",
+                        "startsHere": false,
+                        "terminusStationId": "Station:TWR.Rinkai.TokyoTeleport"
+                    }
+                ],
+                "expressWeekdayRuns": [
+                    {
+                        "continuesBeyond": false,
+                        "departure": "24:01",
+                        "startsHere": false,
+                        "terminusStationId": "Station:TWR.Rinkai.TokyoTeleport"
+                    },
+                    {
+                        "continuesBeyond": false,
+                        "departure": "24:18",
+                        "startsHere": false,
+                        "terminusStationId": "Station:TWR.Rinkai.TokyoTeleport"
+                    }
+                ],
+                "id": "static.RailDirection:TWR.Rinkai.ShinKiba",
+                "intermediateOrigins": [
+                    {
+                        "saturdayHolidayDepartures": ["05:27", "05:37", "06:07", "06:22", "06:55"],
+                        "stationId": "Station:TWR.Rinkai.TokyoTeleport",
+                        "weekdayDepartures": ["05:27", "05:37", "06:07", "06:23", "06:38", "16:07", "17:03"]
+                    }
+                ],
+                "isAscending": false,
+                "nameEn": "For Shin-kiba",
+                "nameJa": "新木場方面",
+                "saturdayHoliday": {
+                    "bands": [
+                        {
+                            "from": "05:39",
+                            "headwayMinutes": 25
+                        },
+                        {
+                            "from": "06:00",
+                            "headwayMinutes": 11
+                        },
+                        {
+                            "from": "07:00",
+                            "headwayMinutes": 6
+                        },
+                        {
+                            "from": "08:00",
+                            "headwayMinutes": 8
+                        },
+                        {
+                            "from": "11:00",
+                            "headwayMinutes": 10
+                        },
+                        {
+                            "from": "13:00",
+                            "headwayMinutes": 7
+                        },
+                        {
+                            "from": "14:00",
+                            "headwayMinutes": 8
+                        },
+                        {
+                            "from": "15:00",
+                            "headwayMinutes": 9
+                        },
+                        {
+                            "from": "17:00",
+                            "headwayMinutes": 6
+                        },
+                        {
+                            "from": "18:00",
+                            "headwayMinutes": 8
+                        },
+                        {
+                            "from": "19:00",
+                            "headwayMinutes": 9
+                        },
+                        {
+                            "from": "20:00",
+                            "headwayMinutes": 8
+                        },
+                        {
+                            "from": "22:00",
+                            "headwayMinutes": 10
+                        },
+                        {
+                            "from": "23:00",
+                            "headwayMinutes": 15
+                        }
+                    ],
+                    "firstDeparture": "05:39",
+                    "lastDeparture": "23:47",
+                    "trainType": "Local"
+                },
+                "weekday": {
+                    "bands": [
+                        {
+                            "from": "05:39",
+                            "headwayMinutes": 25
+                        },
+                        {
+                            "from": "06:00",
+                            "headwayMinutes": 13
+                        },
+                        {
+                            "from": "07:00",
+                            "headwayMinutes": 6
+                        },
+                        {
+                            "from": "08:00",
+                            "headwayMinutes": 5
+                        },
+                        {
+                            "from": "09:00",
+                            "headwayMinutes": 6
+                        },
+                        {
+                            "from": "10:00",
+                            "headwayMinutes": 7
+                        },
+                        {
+                            "from": "11:00",
+                            "headwayMinutes": 10
+                        },
+                        {
+                            "from": "12:00",
+                            "headwayMinutes": 9
+                        },
+                        {
+                            "from": "13:00",
+                            "headwayMinutes": 8
+                        },
+                        {
+                            "from": "14:00",
+                            "headwayMinutes": 9
+                        },
+                        {
+                            "from": "16:00",
+                            "headwayMinutes": 7
+                        },
+                        {
+                            "from": "20:00",
+                            "headwayMinutes": 6
+                        },
+                        {
+                            "from": "21:00",
+                            "headwayMinutes": 8
+                        },
+                        {
+                            "from": "22:00",
+                            "headwayMinutes": 10
+                        },
+                        {
+                            "from": "23:00",
+                            "headwayMinutes": 15
+                        }
+                    ],
+                    "firstDeparture": "05:39",
+                    "lastDeparture": "23:47",
+                    "trainType": "Local"
+                }
+            }
+        ],
+        "hopTimesMinutes": [3, 2, 2, 4, 2, 3, 3],
+        "id": "Railway:TWR.Rinkai",
+        "isLoop": false,
+        "nameEn": "Rinkai Line",
+        "nameJa": "りんかい線",
+        "operatorId": "Operator:TWR",
+        "stations": [
+            {
+                "id": "Station:TWR.Rinkai.ShinKiba",
+                "latitude": 35.64604,
+                "longitude": 139.82678,
+                "name": "新木場",
+                "nameEn": "Shin-kiba",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "R01"
+            },
+            {
+                "id": "Station:TWR.Rinkai.Shinonome",
+                "latitude": 35.6406,
+                "longitude": 139.80328,
+                "name": "東雲",
+                "nameEn": "Shinonome",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "R02"
+            },
+            {
+                "id": "Station:TWR.Rinkai.KokusaiTenjijo",
+                "latitude": 35.63457,
+                "longitude": 139.79163,
+                "name": "国際展示場",
+                "nameEn": "Kokusai-tenjijo",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "R03"
+            },
+            {
+                "id": "Station:TWR.Rinkai.TokyoTeleport",
+                "latitude": 35.62754,
+                "longitude": 139.77885,
+                "name": "東京テレポート",
+                "nameEn": "Tokyo Teleport",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "R04"
+            },
+            {
+                "id": "Station:TWR.Rinkai.TennozuIsle",
+                "latitude": 35.62038,
+                "longitude": 139.75084,
+                "name": "天王洲アイル",
+                "nameEn": "Tennozu Isle",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "R05"
+            },
+            {
+                "id": "Station:TWR.Rinkai.ShinagawaSeaside",
+                "latitude": 35.60897,
+                "longitude": 139.74967,
+                "name": "品川シーサイド",
+                "nameEn": "Shinagawa Seaside",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "R06"
+            },
+            {
+                "id": "Station:TWR.Rinkai.Oimachi",
+                "latitude": 35.60741,
+                "longitude": 139.73474,
+                "name": "大井町",
+                "nameEn": "Oimachi",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "R07"
+            },
+            {
+                "id": "Station:TWR.Rinkai.Osaki",
+                "latitude": 35.62002,
+                "longitude": 139.7282,
+                "name": "大崎",
+                "nameEn": "Osaki",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "R08"
+            }
+        ],
+        "stopPatterns": [],
+        "throughServices": [
+            {
+                "connectingLineId": "Railway:JR-East.SaikyoKawagoe",
+                "end": "ascending",
+                "junctionStationId": "Station:TWR.Rinkai.Osaki",
+                "lineNameEn": "JR East Saikyo Line",
+                "lineNameJa": "ＪＲ東埼京線",
+                "towardEn": "for Shinjuku & Omiya",
+                "towardJa": "新宿・大宮方面"
+            }
+        ]
+    }
+]

@@ -1,0 +1,91 @@
+{
+    "id": "nipporiToneri",
+    "nameJa": "日暮里・舎人ライナー",
+    "nameEn": "Nippori-Toneri Liner",
+    "colors": {
+        "letter": "#000000",
+        "core": "#FFFFFF",
+        "ring": "lineColor",
+        "innerRing": "#69B444"
+    },
+    "line": {
+        "layers": [
+            {
+                "shape": "roundedRect",
+                "radiusRatio": 0.15625,
+                "fill": "$core"
+            }
+        ],
+        "overlays": [
+            {
+                "shape": "roundedRect",
+                "radiusRatio": 0.15625,
+                "stroke": "$ring",
+                "lineWidthRatio": 0.075
+            },
+            {
+                "shape": "roundedRect",
+                "radiusRatio": 0.075,
+                "stroke": "$innerRing",
+                "lineWidthRatio": 0.04375,
+                "insetRatio": 0.11875
+            }
+        ],
+        "color": "$letter",
+        "size": 13.5,
+        "minimumScaleFactor": 0.5,
+        "kerning": true,
+        "family": "Hind-Bold",
+        "sizeMulti": 13.5,
+        "insetH": 6,
+        "nudgeBase": 13.5,
+        "nudgeBaseMulti": 13.5
+    },
+    "station": {
+        "spacing": 0,
+        "rows": [
+            {
+                "kind": "prefix",
+                "sizeRatio": 0.4,
+                "family": "Helvetica",
+                "heightRatio": 0.28,
+                "offsetYRatio": 0.01
+            },
+            {
+                "kind": "number",
+                "sizeRatio": 0.6,
+                "family": "Helvetica",
+                "heightRatio": 0.34,
+                "offsetYRatio": 0.0072,
+                "bold": true
+            }
+        ],
+        "layers": [
+            {
+                "shape": "rect",
+                "fill": "$core"
+            }
+        ],
+        "clip": {
+            "shape": "roundedRect",
+            "radiusRatio": 0.156
+        },
+        "overlays": [
+            {
+                "shape": "roundedRect",
+                "radiusRatio": 0.156,
+                "stroke": "$ring",
+                "lineWidthRatio": 0.075
+            },
+            {
+                "shape": "roundedRect",
+                "radiusRatio": 0.075,
+                "stroke": "$innerRing",
+                "lineWidthRatio": 0.044,
+                "insetRatio": 0.119
+            }
+        ],
+        "color": "$letter",
+        "minimumScaleFactor": 0.6
+    }
+}

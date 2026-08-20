@@ -1,0 +1,423 @@
+[
+    {
+        "colorHex": "#00ADA9",
+        "delayInfo": {
+            "checkMethodEn": "Check the Tokyo Metro Service Information page, the official app, or X (@tokyometro_info). Delays or suspensions of 15 minutes or more are posted.",
+            "checkMethodJa": "東京メトロ「運行情報」ページ、公式アプリ、またはX（@tokyometro_info）で確認できます。15分以上の遅れ・運転見合わせが発生した場合に掲載されます。",
+            "statusPageURL": "https://www.tokyometro.jp/unkou/history/nanboku.html",
+            "statusPageURLEn": "https://www.tokyometro.jp/lang_en/unkou/history/nanboku.html",
+            "xAccount": "@N_line_info"
+        },
+        "directions": [
+            {
+                "expressSaturdayHolidayRuns": [],
+                "expressWeekdayRuns": [],
+                "id": "static.RailDirection:TokyoMetro.Namboku.AkabaneIwabuchi",
+                "intermediateOrigins": [
+                    {
+                        "saturdayHolidayDepartures": ["05:07", "05:34", "06:06", "06:37", "06:46", "07:21", "07:28", "07:34", "08:09", "08:30", "08:40", "08:45", "08:55", "09:05", "09:14", "09:33", "09:39", "10:03", "10:09", "10:33", "10:39", "11:03", "11:09", "11:33", "11:39", "12:03", "12:09", "12:33", "12:39", "13:03", "13:09", "13:33", "13:39", "14:03", "14:09", "14:33", "14:39", "15:03", "15:09", "15:33", "15:39", "16:03", "16:09", "16:33", "16:39", "17:03", "17:09", "17:33", "17:39", "18:03", "18:09", "18:33", "18:39", "19:03", "19:09", "19:23", "19:43", "19:56", "20:25", "20:47", "21:11", "21:40", "22:03", "22:19", "22:33", "22:48", "22:55", "23:13", "23:22", "23:46", "23:55"],
+                        "stationId": "Station:TokyoMetro.Namboku.ShirokaneTakanawa",
+                        "weekdayDepartures": ["05:07", "05:34", "08:18", "08:37", "08:53", "09:01", "09:13", "09:23", "09:31", "09:42", "09:53", "10:06", "10:11", "10:21", "10:33", "10:39", "10:51", "11:03", "11:09", "11:33", "11:39", "12:03", "12:09", "12:33", "12:39", "13:03", "13:09", "13:33", "13:39", "14:03", "14:09", "14:33", "14:39", "15:03", "15:09", "15:33", "15:39", "16:03", "16:09", "16:33", "16:39", "17:04", "17:10", "17:49", "18:14", "18:44", "18:58", "19:13", "19:28", "19:58", "20:27", "20:48", "20:56", "21:29", "21:49", "22:15", "22:30", "22:43", "22:50", "23:15", "23:29", "23:36", "24:00"]
+                    },
+                    {
+                        "saturdayHolidayDepartures": [],
+                        "stationId": "Station:TokyoMetro.Namboku.AzabuJuban",
+                        "weekdayDepartures": ["09:01", "09:18"]
+                    },
+                    {
+                        "saturdayHolidayDepartures": ["05:03"],
+                        "stationId": "Station:TokyoMetro.Namboku.Ichigaya",
+                        "weekdayDepartures": ["05:03", "06:10", "07:05", "07:15"]
+                    },
+                    {
+                        "saturdayHolidayDepartures": ["05:09"],
+                        "stationId": "Station:TokyoMetro.Namboku.OjiKamiya",
+                        "weekdayDepartures": ["05:09"]
+                    }
+                ],
+                "isAscending": true,
+                "nameEn": "For Akabane-iwabuchi",
+                "nameJa": "赤羽岩淵方面",
+                "saturdayHoliday": {
+                    "bands": [
+                        {
+                            "from": "05:00",
+                            "headwayMinutes": 7
+                        },
+                        {
+                            "from": "07:00",
+                            "headwayMinutes": 6
+                        },
+                        {
+                            "from": "10:00",
+                            "headwayMinutes": 6
+                        },
+                        {
+                            "from": "20:00",
+                            "headwayMinutes": 6.5
+                        },
+                        {
+                            "from": "22:00",
+                            "headwayMinutes": 7.5
+                        }
+                    ],
+                    "firstDeparture": "05:16",
+                    "lastDeparture": "23:59",
+                    "trainType": "Local"
+                },
+                "weekday": {
+                    "bands": [
+                        {
+                            "from": "05:00",
+                            "headwayMinutes": 7
+                        },
+                        {
+                            "from": "07:00",
+                            "headwayMinutes": 3.5
+                        },
+                        {
+                            "from": "09:30",
+                            "headwayMinutes": 6
+                        },
+                        {
+                            "from": "17:00",
+                            "headwayMinutes": 4
+                        },
+                        {
+                            "from": "20:00",
+                            "headwayMinutes": 6
+                        },
+                        {
+                            "from": "22:00",
+                            "headwayMinutes": 7
+                        }
+                    ],
+                    "firstDeparture": "05:16",
+                    "lastDeparture": "23:59",
+                    "trainType": "Local"
+                }
+            },
+            {
+                "expressSaturdayHolidayRuns": [],
+                "expressWeekdayRuns": [],
+                "id": "static.RailDirection:TokyoMetro.Namboku.Meguro",
+                "intermediateOrigins": [
+                    {
+                        "saturdayHolidayDepartures": ["05:03"],
+                        "stationId": "Station:TokyoMetro.Namboku.TameikeSanno",
+                        "weekdayDepartures": ["05:03"]
+                    },
+                    {
+                        "saturdayHolidayDepartures": ["05:00"],
+                        "stationId": "Station:TokyoMetro.Namboku.Komagome",
+                        "weekdayDepartures": ["05:00"]
+                    },
+                    {
+                        "saturdayHolidayDepartures": ["07:31", "07:47"],
+                        "stationId": "Station:TokyoMetro.Namboku.OjiKamiya",
+                        "weekdayDepartures": ["06:34", "08:13", "16:48", "17:33", "18:31"]
+                    }
+                ],
+                "isAscending": false,
+                "nameEn": "For Meguro",
+                "nameJa": "目黒方面",
+                "saturdayHoliday": {
+                    "bands": [
+                        {
+                            "from": "05:00",
+                            "headwayMinutes": 7
+                        },
+                        {
+                            "from": "07:00",
+                            "headwayMinutes": 6
+                        },
+                        {
+                            "from": "10:00",
+                            "headwayMinutes": 6
+                        },
+                        {
+                            "from": "20:00",
+                            "headwayMinutes": 6.5
+                        },
+                        {
+                            "from": "22:00",
+                            "headwayMinutes": 7.5
+                        }
+                    ],
+                    "firstDeparture": "05:01",
+                    "lastDeparture": "24:16",
+                    "trainType": "Local"
+                },
+                "weekday": {
+                    "bands": [
+                        {
+                            "from": "05:00",
+                            "headwayMinutes": 7
+                        },
+                        {
+                            "from": "07:00",
+                            "headwayMinutes": 3.5
+                        },
+                        {
+                            "from": "09:30",
+                            "headwayMinutes": 6
+                        },
+                        {
+                            "from": "17:00",
+                            "headwayMinutes": 4
+                        },
+                        {
+                            "from": "20:00",
+                            "headwayMinutes": 6
+                        },
+                        {
+                            "from": "22:00",
+                            "headwayMinutes": 7
+                        }
+                    ],
+                    "firstDeparture": "05:01",
+                    "lastDeparture": "24:26",
+                    "trainType": "Local"
+                }
+            }
+        ],
+        "hopTimesMinutes": [2, 3, 2, 2, 3, 2, 3, 2, 2, 2, 3, 2, 3, 2, 2, 2, 3, 2],
+        "id": "Railway:TokyoMetro.Namboku",
+        "isLoop": false,
+        "nameEn": "Namboku Line",
+        "nameJa": "南北線",
+        "operatorId": "Operator:TokyoMetro",
+        "stations": [
+            {
+                "id": "Station:TokyoMetro.Namboku.Meguro",
+                "latitude": 35.632508,
+                "longitude": 139.715772,
+                "name": "目黒",
+                "nameEn": "Meguro",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "N01"
+            },
+            {
+                "id": "Station:TokyoMetro.Namboku.Shirokanedai",
+                "latitude": 35.6376,
+                "longitude": 139.7263,
+                "name": "白金台",
+                "nameEn": "Shirokanedai",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "N02"
+            },
+            {
+                "id": "Station:TokyoMetro.Namboku.ShirokaneTakanawa",
+                "latitude": 35.6431,
+                "longitude": 139.7343,
+                "name": "白金高輪",
+                "nameEn": "Shirokane-takanawa",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "N03"
+            },
+            {
+                "id": "Station:TokyoMetro.Namboku.AzabuJuban",
+                "latitude": 35.6544,
+                "longitude": 139.7368,
+                "name": "麻布十番",
+                "nameEn": "Azabu-juban",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "N04"
+            },
+            {
+                "id": "Station:TokyoMetro.Namboku.RoppongiItchome",
+                "latitude": 35.664973,
+                "longitude": 139.738849,
+                "name": "六本木一丁目",
+                "nameEn": "Roppongi-itchome",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "N05"
+            },
+            {
+                "id": "Station:TokyoMetro.Namboku.TameikeSanno",
+                "latitude": 35.6739,
+                "longitude": 139.7413,
+                "name": "溜池山王",
+                "nameEn": "Tameike-sanno",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "N06"
+            },
+            {
+                "id": "Station:TokyoMetro.Namboku.Nagatacho",
+                "latitude": 35.6787,
+                "longitude": 139.7413,
+                "name": "永田町",
+                "nameEn": "Nagatacho",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "N07"
+            },
+            {
+                "id": "Station:TokyoMetro.Namboku.Yotsuya",
+                "latitude": 35.6857,
+                "longitude": 139.7292,
+                "name": "四ツ谷",
+                "nameEn": "Yotsuya",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "N08"
+            },
+            {
+                "id": "Station:TokyoMetro.Namboku.Ichigaya",
+                "latitude": 35.6912,
+                "longitude": 139.736,
+                "name": "市ケ谷",
+                "nameEn": "Ichigaya",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "N09"
+            },
+            {
+                "id": "Station:TokyoMetro.Namboku.Iidabashi",
+                "latitude": 35.7018,
+                "longitude": 139.7452,
+                "name": "飯田橋",
+                "nameEn": "Iidabashi",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "N10"
+            },
+            {
+                "id": "Station:TokyoMetro.Namboku.Korakuen",
+                "latitude": 35.708,
+                "longitude": 139.7512,
+                "name": "後楽園",
+                "nameEn": "Korakuen",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "N11"
+            },
+            {
+                "id": "Station:TokyoMetro.Namboku.Todaimae",
+                "latitude": 35.7175,
+                "longitude": 139.7578,
+                "name": "東大前",
+                "nameEn": "Todaimae",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "N12"
+            },
+            {
+                "id": "Station:TokyoMetro.Namboku.HonKomagome",
+                "latitude": 35.7245,
+                "longitude": 139.754,
+                "name": "本駒込",
+                "nameEn": "Hon-komagome",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "N13"
+            },
+            {
+                "id": "Station:TokyoMetro.Namboku.Komagome",
+                "latitude": 35.7365,
+                "longitude": 139.746,
+                "name": "駒込",
+                "nameEn": "Komagome",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "N14"
+            },
+            {
+                "id": "Station:TokyoMetro.Namboku.Nishigahara",
+                "latitude": 35.74605,
+                "longitude": 139.742172,
+                "name": "西ケ原",
+                "nameEn": "Nishigahara",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "N15"
+            },
+            {
+                "id": "Station:TokyoMetro.Namboku.Oji",
+                "latitude": 35.753962,
+                "longitude": 139.737524,
+                "name": "王子",
+                "nameEn": "Oji",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "N16"
+            },
+            {
+                "id": "Station:TokyoMetro.Namboku.OjiKamiya",
+                "latitude": 35.765055,
+                "longitude": 139.735718,
+                "name": "王子神谷",
+                "nameEn": "Oji-kamiya",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "N17"
+            },
+            {
+                "id": "Station:TokyoMetro.Namboku.Shimo",
+                "latitude": 35.777904,
+                "longitude": 139.732526,
+                "name": "志茂",
+                "nameEn": "Shimo",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "N18"
+            },
+            {
+                "id": "Station:TokyoMetro.Namboku.AkabaneIwabuchi",
+                "latitude": 35.783,
+                "longitude": 139.7218,
+                "name": "赤羽岩淵",
+                "nameEn": "Akabane-iwabuchi",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "N19"
+            }
+        ],
+        "stopPatterns": [],
+        "throughServices": [
+            {
+                "connectingLineId": "Railway:SaitamaRailway.SaitamaRailway",
+                "end": "ascending",
+                "junctionStationId": "Station:TokyoMetro.Namboku.AkabaneIwabuchi",
+                "lineNameEn": "Saitama Rapid Railway Line",
+                "lineNameJa": "埼玉高速鉄道線",
+                "towardEn": "for Urawa-Misono",
+                "towardJa": "浦和美園方面"
+            },
+            {
+                "connectingLineId": "Railway:Tokyu.Meguro",
+                "end": "descending",
+                "junctionStationId": "Station:TokyoMetro.Namboku.Meguro",
+                "lineNameEn": "Tokyu Meguro & Shin-Yokohama Lines",
+                "lineNameJa": "東急目黒線・新横浜線",
+                "towardEn": "for Hiyoshi & Shin-Yokohama",
+                "towardJa": "日吉・新横浜方面"
+            }
+        ]
+    }
+]

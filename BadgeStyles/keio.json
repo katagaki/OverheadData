@@ -1,0 +1,73 @@
+{
+    "id": "keio",
+    "nameJa": "京王電鉄",
+    "nameEn": "Keio",
+    "colors": {
+        "letter": "lineColor",
+        "core": "#FFFFFF",
+        "ring": "lineColor",
+        "prefixLetter": "#FFFFFF",
+        "plate": "lineColor",
+        "numberLetter": "#000000"
+    },
+    "line": {
+        "layers": [
+            {
+                "shape": "circle",
+                "fill": "$core"
+            }
+        ],
+        "overlays": [
+            {
+                "shape": "circle",
+                "stroke": "$ring",
+                "lineWidthRatio": 0.0625
+            }
+        ],
+        "color": "$letter",
+        "size": 17,
+        "minimumScaleFactor": 0.5,
+        "kerning": true,
+        "family": "Hind-Semibold",
+        "sizeMulti": 17,
+        "insetH": 5,
+        "nudgeBase": 13,
+        "nudgeBaseMulti": 13
+    },
+    "station": {
+        "spacing": 0,
+        "rows": [
+            {
+                "kind": "prefix",
+                "sizeRatio": 0.62,
+                "family": "Hind-Bold",
+                "color": "$prefixLetter",
+                "background": "$plate",
+                "heightRatio": 0.44,
+                "offsetYRatio": 0.06760000000000001,
+                "fullWidth": true
+            },
+            {
+                "kind": "number",
+                "sizeRatio": 0.84,
+                "family": "Hind-Bold",
+                "color": "$numberLetter",
+                "background": "$core",
+                "maxHeightRatio": 0.5,
+                "offsetYRatio": -0.0088,
+                "fullWidth": true
+            }
+        ],
+        "clip": {
+            "shape": "circle"
+        },
+        "overlays": [
+            {
+                "shape": "circle",
+                "stroke": "$ring",
+                "lineWidthRatio": 0.06
+            }
+        ],
+        "minimumScaleFactor": 0.6
+    }
+}

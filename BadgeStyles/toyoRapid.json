@@ -1,0 +1,74 @@
+{
+    "id": "toyoRapid",
+    "nameJa": "東葉高速鉄道",
+    "nameEn": "Toyo Rapid Railway",
+    "colors": {
+        "letter": "#232021",
+        "core": "#FFFFFF",
+        "ring": "lineColor",
+        "stationLetter": "#000000"
+    },
+    "line": {
+        "layers": [
+            {
+                "shape": "circle",
+                "fill": "$core"
+            }
+        ],
+        "overlays": [
+            {
+                "shape": "circle",
+                "stroke": "$ring",
+                "lineWidthRatio": 0.121875
+            }
+        ],
+        "color": "$letter",
+        "size": 15,
+        "minimumScaleFactor": 0.5,
+        "kerning": true,
+        "sizeMulti": 15,
+        "weight": "bold",
+        "width": "condensed",
+        "insetH": 7,
+        "nudgeBaseMulti": 0
+    },
+    "station": {
+        "spacing": 0,
+        "rows": [
+            {
+                "kind": "prefix",
+                "sizeRatio": 0.4,
+                "weight": "bold",
+                "width": "condensed",
+                "heightRatio": 0.38,
+                "offsetYRatio": 0.04
+            },
+            {
+                "kind": "number",
+                "sizeRatio": 0.46,
+                "weight": "bold",
+                "width": "condensed",
+                "heightRatio": 0.44,
+                "offsetYRatio": -0.04
+            }
+        ],
+        "layers": [
+            {
+                "shape": "rect",
+                "fill": "$core"
+            }
+        ],
+        "clip": {
+            "shape": "circle"
+        },
+        "overlays": [
+            {
+                "shape": "circle",
+                "stroke": "$ring",
+                "lineWidthRatio": 0.0806
+            }
+        ],
+        "color": "$stationLetter",
+        "minimumScaleFactor": 0.6
+    }
+}

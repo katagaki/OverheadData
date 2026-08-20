@@ -1,0 +1,74 @@
+{
+    "id": "rinkai",
+    "nameJa": "東京臨海高速鉄道りんかい線",
+    "nameEn": "Rinkai Line",
+    "colors": {
+        "letter": "#FFFFFF",
+        "outer": "#96C7C1",
+        "core": "#FFFFFF",
+        "plate": "lineColor"
+    },
+    "line": {
+        "layers": [
+            {
+                "shape": "circle",
+                "fill": "$outer"
+            },
+            {
+                "shape": "circle",
+                "fill": "$core",
+                "insetRatio": 0.109375
+            },
+            {
+                "shape": "circle",
+                "fill": "$plate",
+                "insetRatio": 0.140625
+            }
+        ],
+        "color": "$letter",
+        "size": 13,
+        "minimumScaleFactor": 0.5,
+        "kerning": true,
+        "family": "Helvetica-Bold",
+        "sizeMulti": 13,
+        "insetH": 5.5,
+        "nudgeBaseMulti": 0
+    },
+    "station": {
+        "spacing": 0,
+        "rows": [
+            {
+                "kind": "prefix",
+                "sizeRatio": 0.46,
+                "family": "Helvetica-Bold",
+                "heightRatio": 0.24,
+                "offsetYRatio": 0.005
+            },
+            {
+                "kind": "number",
+                "sizeRatio": 0.64,
+                "family": "Helvetica-Bold",
+                "heightRatio": 0.36,
+                "offsetYRatio": 0.008
+            }
+        ],
+        "layers": [
+            {
+                "shape": "circle",
+                "fill": "$outer"
+            },
+            {
+                "shape": "circle",
+                "fill": "$core",
+                "insetRatio": 0.11
+            },
+            {
+                "shape": "circle",
+                "fill": "$plate",
+                "insetRatio": 0.14
+            }
+        ],
+        "color": "$letter",
+        "minimumScaleFactor": 0.6
+    }
+}

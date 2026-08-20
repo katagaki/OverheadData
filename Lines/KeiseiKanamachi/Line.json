@@ -1,0 +1,151 @@
+[
+    {
+        "colorHex": "#005AAA",
+        "delayInfo": {
+            "checkMethodEn": "Check the Keisei train information page, the Keisei app, or X (@keiseirailway). Delays and suspensions are posted as they occur.",
+            "checkMethodJa": "京成電鉄「運行情報」ページ、京成アプリ、またはX（@keiseirailway）で確認できます。遅延・運転見合わせが発生した場合に掲載されます。",
+            "statusPageURL": "https://www.keisei.co.jp/traininfo/index.php",
+            "statusPageURLEn": "https://www.keisei.co.jp/traininfo/index.php",
+            "xAccount": "@keiseirailway"
+        },
+        "directions": [
+            {
+                "expressSaturdayHolidayRuns": [],
+                "expressWeekdayRuns": [],
+                "id": "static.RailDirection:Keisei.Kanamachi.KeiseiKanamachi",
+                "intermediateOrigins": [],
+                "isAscending": true,
+                "nameEn": "For Keisei-Kanamachi",
+                "nameJa": "京成金町方面",
+                "saturdayHoliday": {
+                    "bands": [
+                        {
+                            "from": "05:01",
+                            "headwayMinutes": 15
+                        },
+                        {
+                            "from": "22:00",
+                            "headwayMinutes": 15
+                        }
+                    ],
+                    "firstDeparture": "05:01",
+                    "lastDeparture": "24:04",
+                    "trainType": "Local"
+                },
+                "weekday": {
+                    "bands": [
+                        {
+                            "from": "05:01",
+                            "headwayMinutes": 12
+                        },
+                        {
+                            "from": "07:00",
+                            "headwayMinutes": 8
+                        },
+                        {
+                            "from": "09:30",
+                            "headwayMinutes": 15
+                        },
+                        {
+                            "from": "22:00",
+                            "headwayMinutes": 15
+                        }
+                    ],
+                    "firstDeparture": "05:01",
+                    "lastDeparture": "24:04",
+                    "trainType": "Local"
+                }
+            },
+            {
+                "expressSaturdayHolidayRuns": [],
+                "expressWeekdayRuns": [],
+                "id": "static.RailDirection:Keisei.Kanamachi.KeiseiTakasago",
+                "intermediateOrigins": [],
+                "isAscending": false,
+                "nameEn": "For Keisei-Takasago",
+                "nameJa": "京成高砂方面",
+                "saturdayHoliday": {
+                    "bands": [
+                        {
+                            "from": "05:10",
+                            "headwayMinutes": 15
+                        },
+                        {
+                            "from": "22:00",
+                            "headwayMinutes": 15
+                        }
+                    ],
+                    "firstDeparture": "05:10",
+                    "lastDeparture": "24:12",
+                    "trainType": "Local"
+                },
+                "weekday": {
+                    "bands": [
+                        {
+                            "from": "05:10",
+                            "headwayMinutes": 12
+                        },
+                        {
+                            "from": "07:00",
+                            "headwayMinutes": 8
+                        },
+                        {
+                            "from": "09:30",
+                            "headwayMinutes": 15
+                        },
+                        {
+                            "from": "22:00",
+                            "headwayMinutes": 15
+                        }
+                    ],
+                    "firstDeparture": "05:10",
+                    "lastDeparture": "24:12",
+                    "trainType": "Local"
+                }
+            }
+        ],
+        "hopTimesMinutes": [2.5, 2.5],
+        "id": "Railway:Keisei.Kanamachi",
+        "isLoop": false,
+        "nameEn": "Keisei Kanamachi Line",
+        "nameJa": "京成金町線",
+        "operatorId": "Operator:Keisei",
+        "stations": [
+            {
+                "id": "Station:Keisei.Kanamachi.KeiseiTakasago",
+                "latitude": 35.75094,
+                "longitude": 139.867122,
+                "name": "京成高砂",
+                "nameEn": "Keisei-Takasago",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "KS10"
+            },
+            {
+                "id": "Station:Keisei.Kanamachi.Shibamata",
+                "latitude": 35.7565,
+                "longitude": 139.8753,
+                "name": "柴又",
+                "nameEn": "Shibamata",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "KS50"
+            },
+            {
+                "id": "Station:Keisei.Kanamachi.KeiseiKanamachi",
+                "latitude": 35.7685,
+                "longitude": 139.8705,
+                "name": "京成金町",
+                "nameEn": "Keisei-Kanamachi",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "KS51"
+            }
+        ],
+        "stopPatterns": [],
+        "throughServices": []
+    }
+]

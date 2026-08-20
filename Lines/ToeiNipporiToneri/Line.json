@@ -1,0 +1,307 @@
+[
+    {
+        "colorHex": "#EF5BA1",
+        "delayInfo": {
+            "checkMethodEn": "Check the Toei Transportation service information page, the Toei app, or X (@toeikotsu). Delays and suspensions are posted as they occur.",
+            "checkMethodJa": "都営交通「運行情報」ページ、都営交通アプリ、またはX（@toeikotsu）で確認できます。遅延・運転見合わせが発生した場合に掲載されます。",
+            "statusPageURL": "https://www.kotsu.metro.tokyo.jp/nippori_toneri/schedule/",
+            "statusPageURLEn": "https://www.kotsu.metro.tokyo.jp/eng/operation_status/",
+            "xAccount": "@toeikotsu"
+        },
+        "directions": [
+            {
+                "expressSaturdayHolidayRuns": [],
+                "expressWeekdayRuns": [],
+                "id": "static.RailDirection:Toei.NipporiToneri.MinumadaiShinsuikoen",
+                "intermediateOrigins": [
+                    {
+                        "saturdayHolidayDepartures": ["05:36"],
+                        "stationId": "Station:Toei.NipporiToneri.ToneriKoen",
+                        "weekdayDepartures": ["05:36"]
+                    }
+                ],
+                "isAscending": true,
+                "nameEn": "For Minumadai-shinsuikoen",
+                "nameJa": "見沼代親水公園方面",
+                "saturdayHoliday": {
+                    "bands": [
+                        {
+                            "from": "05:33",
+                            "headwayMinutes": 8
+                        },
+                        {
+                            "from": "07:00",
+                            "headwayMinutes": 7
+                        },
+                        {
+                            "from": "10:00",
+                            "headwayMinutes": 7.5
+                        },
+                        {
+                            "from": "20:00",
+                            "headwayMinutes": 8
+                        },
+                        {
+                            "from": "22:00",
+                            "headwayMinutes": 10
+                        }
+                    ],
+                    "firstDeparture": "05:33",
+                    "lastDeparture": "24:03",
+                    "trainType": "Local"
+                },
+                "weekday": {
+                    "bands": [
+                        {
+                            "from": "05:33",
+                            "headwayMinutes": 8
+                        },
+                        {
+                            "from": "07:00",
+                            "headwayMinutes": 3
+                        },
+                        {
+                            "from": "09:30",
+                            "headwayMinutes": 7
+                        },
+                        {
+                            "from": "17:00",
+                            "headwayMinutes": 6
+                        },
+                        {
+                            "from": "20:00",
+                            "headwayMinutes": 8
+                        },
+                        {
+                            "from": "22:00",
+                            "headwayMinutes": 10
+                        }
+                    ],
+                    "firstDeparture": "05:33",
+                    "lastDeparture": "24:30",
+                    "trainType": "Local"
+                }
+            },
+            {
+                "expressSaturdayHolidayRuns": [],
+                "expressWeekdayRuns": [],
+                "id": "static.RailDirection:Toei.NipporiToneri.Nippori",
+                "intermediateOrigins": [],
+                "isAscending": false,
+                "nameEn": "For Nippori",
+                "nameJa": "日暮里方面",
+                "saturdayHoliday": {
+                    "bands": [
+                        {
+                            "from": "05:08",
+                            "headwayMinutes": 8
+                        },
+                        {
+                            "from": "07:00",
+                            "headwayMinutes": 7
+                        },
+                        {
+                            "from": "10:00",
+                            "headwayMinutes": 7.5
+                        },
+                        {
+                            "from": "20:00",
+                            "headwayMinutes": 8
+                        },
+                        {
+                            "from": "22:00",
+                            "headwayMinutes": 10
+                        }
+                    ],
+                    "firstDeparture": "05:08",
+                    "lastDeparture": "24:27",
+                    "trainType": "Local"
+                },
+                "weekday": {
+                    "bands": [
+                        {
+                            "from": "05:08",
+                            "headwayMinutes": 8
+                        },
+                        {
+                            "from": "07:00",
+                            "headwayMinutes": 3
+                        },
+                        {
+                            "from": "09:30",
+                            "headwayMinutes": 7
+                        },
+                        {
+                            "from": "17:00",
+                            "headwayMinutes": 6
+                        },
+                        {
+                            "from": "20:00",
+                            "headwayMinutes": 8
+                        },
+                        {
+                            "from": "22:00",
+                            "headwayMinutes": 10
+                        }
+                    ],
+                    "firstDeparture": "05:08",
+                    "lastDeparture": "24:54",
+                    "trainType": "Local"
+                }
+            }
+        ],
+        "hopTimesMinutes": [2, 2, 2, 2, 1, 1, 2, 2, 1, 2, 1, 2],
+        "id": "Railway:Toei.NipporiToneri",
+        "isLoop": false,
+        "nameEn": "Nippori-Toneri Liner",
+        "nameJa": "日暮里・舎人ライナー",
+        "operatorId": "Operator:Toei",
+        "stations": [
+            {
+                "id": "Station:Toei.NipporiToneri.Nippori",
+                "latitude": 35.7278,
+                "longitude": 139.7708,
+                "name": "日暮里",
+                "nameEn": "Nippori",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "NT01"
+            },
+            {
+                "id": "Station:Toei.NipporiToneri.NishiNippori",
+                "latitude": 35.733733,
+                "longitude": 139.768109,
+                "name": "西日暮里",
+                "nameEn": "Nishi-nippori",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "NT02"
+            },
+            {
+                "id": "Station:Toei.NipporiToneri.AkadoShogakkomae",
+                "latitude": 35.7418,
+                "longitude": 139.7682,
+                "name": "赤土小学校前",
+                "nameEn": "Akado-shogakkomae",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "NT03"
+            },
+            {
+                "id": "Station:Toei.NipporiToneri.Kumanomae",
+                "latitude": 35.7485,
+                "longitude": 139.7699,
+                "name": "熊野前",
+                "nameEn": "Kumanomae",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "NT04"
+            },
+            {
+                "id": "Station:Toei.NipporiToneri.AdachiOdai",
+                "latitude": 35.754694,
+                "longitude": 139.770382,
+                "name": "足立小台",
+                "nameEn": "Adachi-odai",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "NT05"
+            },
+            {
+                "id": "Station:Toei.NipporiToneri.OgiOhashi",
+                "latitude": 35.763969,
+                "longitude": 139.770826,
+                "name": "扇大橋",
+                "nameEn": "Ogi-ohashi",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "NT06"
+            },
+            {
+                "id": "Station:Toei.NipporiToneri.Koya",
+                "latitude": 35.76851,
+                "longitude": 139.770699,
+                "name": "高野",
+                "nameEn": "Koya",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "NT07"
+            },
+            {
+                "id": "Station:Toei.NipporiToneri.Kohoku",
+                "latitude": 35.773808,
+                "longitude": 139.770311,
+                "name": "江北",
+                "nameEn": "Kohoku",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "NT08"
+            },
+            {
+                "id": "Station:Toei.NipporiToneri.NishiaraidaishiNishi",
+                "latitude": 35.781512,
+                "longitude": 139.770084,
+                "name": "西新井大師西",
+                "nameEn": "Nishiaraidaishi-nishi",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "NT09"
+            },
+            {
+                "id": "Station:Toei.NipporiToneri.Yazaike",
+                "latitude": 35.78873,
+                "longitude": 139.770052,
+                "name": "谷在家",
+                "nameEn": "Yazaike",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "NT10"
+            },
+            {
+                "id": "Station:Toei.NipporiToneri.ToneriKoen",
+                "latitude": 35.796371,
+                "longitude": 139.770161,
+                "name": "舎人公園",
+                "nameEn": "Toneri-koen",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "NT11"
+            },
+            {
+                "id": "Station:Toei.NipporiToneri.Toneri",
+                "latitude": 35.805663,
+                "longitude": 139.770116,
+                "name": "舎人",
+                "nameEn": "Toneri",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "NT12"
+            },
+            {
+                "id": "Station:Toei.NipporiToneri.MinumadaiShinsuikoen",
+                "latitude": 35.814493,
+                "longitude": 139.770728,
+                "name": "見沼代親水公園",
+                "nameEn": "Minumadai-shinsuikoen",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "NT13"
+            }
+        ],
+        "stopPatterns": [],
+        "throughServices": []
+    }
+]

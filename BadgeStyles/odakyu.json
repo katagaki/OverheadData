@@ -1,0 +1,79 @@
+{
+    "id": "odakyu",
+    "nameJa": "小田急電鉄",
+    "nameEn": "Odakyu",
+    "colors": {
+        "letter": "lineColor",
+        "core": "#FFFFFF",
+        "ring": "lineColor"
+    },
+    "line": {
+        "layers": [
+            {
+                "shape": "roundedRect",
+                "radiusRatio": 0.45,
+                "continuous": true,
+                "fill": "$core"
+            }
+        ],
+        "overlays": [
+            {
+                "shape": "roundedRect",
+                "radiusRatio": 0.45,
+                "continuous": true,
+                "stroke": "$ring",
+                "lineWidthRatio": 0.09375
+            }
+        ],
+        "color": "$letter",
+        "size": 14,
+        "minimumScaleFactor": 0.5,
+        "kerning": true,
+        "family": "Hind-Bold",
+        "sizeMulti": 14,
+        "insetH": 4.5,
+        "nudgeBase": 14,
+        "nudgeBaseMulti": 14
+    },
+    "station": {
+        "spacingRatio": 0.04,
+        "rows": [
+            {
+                "kind": "prefix",
+                "sizeRatio": 0.6,
+                "family": "Hind-Bold",
+                "heightRatio": 0.25,
+                "offsetYRatio": 0.025500000000000002
+            },
+            {
+                "kind": "number",
+                "sizeRatio": 0.9,
+                "family": "Hind-Bold",
+                "heightRatio": 0.32,
+                "offsetYRatio": 0.057999999999999996
+            }
+        ],
+        "layers": [
+            {
+                "shape": "rect",
+                "fill": "$core"
+            }
+        ],
+        "clip": {
+            "shape": "roundedRect",
+            "radiusRatio": 0.45,
+            "continuous": true
+        },
+        "overlays": [
+            {
+                "shape": "roundedRect",
+                "radiusRatio": 0.45,
+                "continuous": true,
+                "stroke": "$ring",
+                "lineWidth": 2.5
+            }
+        ],
+        "color": "$letter",
+        "minimumScaleFactor": 0.6
+    }
+}

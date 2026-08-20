@@ -1,0 +1,65 @@
+{
+    "id": "minatomirai",
+    "nameJa": "横浜高速鉄道みなとみらい線",
+    "nameEn": "Minatomirai Line",
+    "colors": {
+        "letter": "#FFFFFF",
+        "plate": "lineColor",
+        "wave": "#5FC5EA"
+    },
+    "line": {
+        "layers": [
+            {
+                "shape": "circle",
+                "fill": "$plate"
+            }
+        ],
+        "color": "$letter",
+        "size": 19,
+        "minimumScaleFactor": 0.5,
+        "kerning": false,
+        "family": "Futura-Bold",
+        "sizeMulti": 19,
+        "nudgeBaseMulti": 0,
+        "offsetY": -0.5,
+        "literal": "M"
+    },
+    "station": {
+        "spacing": 0,
+        "rows": [
+            {
+                "kind": "prefix",
+                "sizeRatio": 0.3,
+                "family": "Helvetica-Bold",
+                "heightRatio": 0.36,
+                "fullWidth": true
+            },
+            {
+                "kind": "number",
+                "sizeRatio": 0.52,
+                "family": "Helvetica-Bold",
+                "expandHeight": true,
+                "fullWidth": true
+            }
+        ],
+        "layers": [
+            {
+                "shape": "rect",
+                "fill": "$plate"
+            },
+            {
+                "shape": "minatomiraiWave",
+                "fill": "$wave",
+                "heightRatio": 0.2,
+                "offsetYRatio": 0.26,
+                "alignTop": true
+            }
+        ],
+        "clip": {
+            "shape": "roundedRect",
+            "radiusRatio": 0.16
+        },
+        "color": "$letter",
+        "minimumScaleFactor": 0.6
+    }
+}

@@ -1,0 +1,70 @@
+{
+    "id": "mita",
+    "nameJa": "都営三田線",
+    "nameEn": "Toei Mita Line",
+    "colors": {
+        "letter": "#232021",
+        "core": "#FFFFFF",
+        "ring": "lineColor",
+        "stationLetter": "#000000"
+    },
+    "line": {
+        "layers": [
+            {
+                "shape": "circle",
+                "fill": "$core"
+            }
+        ],
+        "overlays": [
+            {
+                "shape": "circle",
+                "stroke": "$ring",
+                "lineWidthRatio": 0.19375
+            }
+        ],
+        "glyphShape": "serifI",
+        "glyphFill": "$letter",
+        "glyphWidth": 7.8,
+        "glyphHeight": 11.5
+    },
+    "station": {
+        "spacing": 0,
+        "rows": [
+            {
+                "kind": "glyph",
+                "glyphShape": "serifI",
+                "glyphFill": "$stationLetter",
+                "glyphWidthRatio": 0.175,
+                "glyphHeightRatio": 0.235,
+                "heightRatio": 0.34,
+                "offsetYRatio": 0.025,
+                "sizeRatio": 0.0
+            },
+            {
+                "kind": "number",
+                "sizeRatio": 0.38,
+                "family": "Futura-Bold",
+                "heightRatio": 0.42,
+                "offsetYRatio": -0.06
+            }
+        ],
+        "layers": [
+            {
+                "shape": "rect",
+                "fill": "$core"
+            }
+        ],
+        "clip": {
+            "shape": "circle"
+        },
+        "overlays": [
+            {
+                "shape": "circle",
+                "stroke": "$ring",
+                "lineWidthRatio": 0.13
+            }
+        ],
+        "color": "$stationLetter",
+        "minimumScaleFactor": 0.6
+    }
+}

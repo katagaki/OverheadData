@@ -1,0 +1,391 @@
+[
+    {
+        "colorHex": "#FFE500",
+        "delayInfo": {
+            "checkMethodEn": "Check the JR East Train Operation Information page or the JR East app. In the Tokyo area, delays or suspensions of 15 minutes or more are posted.",
+            "checkMethodJa": "JR東日本「列車運行情報」ページまたはJR東日本アプリで確認できます。首都圏エリアでは15分以上の遅れ・運休が発生または見込まれる場合に掲載されます。",
+            "statusPageURL": "https://traininfo.jreast.co.jp/train_info/kanto.aspx",
+            "statusPageURLEn": "https://traininfo.jreast.co.jp/train_info/e/kanto.aspx",
+            "xAccount": "@JRE_F_Tokaido"
+        },
+        "directions": [
+            {
+                "expressSaturdayHolidayRuns": [],
+                "expressWeekdayRuns": [],
+                "id": "static.RailDirection:JR-East.TsurumiOkawaBranch.Okawa",
+                "intermediateOrigins": [],
+                "isAscending": true,
+                "nameEn": "For Okawa",
+                "nameJa": "大川方面",
+                "saturdayHoliday": {
+                    "bands": [
+                        {
+                            "from": "07:21",
+                            "headwayMinutes": 40.0
+                        },
+                        {
+                            "from": "08:00",
+                            "headwayMinutes": 588.0
+                        }
+                    ],
+                    "firstDeparture": "07:21",
+                    "lastDeparture": "17:49",
+                    "trainType": "Local"
+                },
+                "weekday": {
+                    "bands": [
+                        {
+                            "from": "07:11",
+                            "headwayMinutes": 32.5
+                        },
+                        {
+                            "from": "08:00",
+                            "headwayMinutes": 272.5
+                        },
+                        {
+                            "from": "17:00",
+                            "headwayMinutes": 40.0
+                        },
+                        {
+                            "from": "18:00",
+                            "headwayMinutes": 50.0
+                        },
+                        {
+                            "from": "19:00",
+                            "headwayMinutes": 43.0
+                        }
+                    ],
+                    "firstDeparture": "07:11",
+                    "lastDeparture": "20:14",
+                    "trainType": "Local"
+                }
+            },
+            {
+                "expressSaturdayHolidayRuns": [],
+                "expressWeekdayRuns": [],
+                "id": "static.RailDirection:JR-East.TsurumiOkawaBranch.Anzen",
+                "intermediateOrigins": [],
+                "isAscending": false,
+                "nameEn": "For Anzen",
+                "nameJa": "安善方面",
+                "saturdayHoliday": {
+                    "bands": [
+                        {
+                            "from": "07:36",
+                            "headwayMinutes": 46.0
+                        },
+                        {
+                            "from": "08:00",
+                            "headwayMinutes": 592.0
+                        }
+                    ],
+                    "firstDeparture": "07:36",
+                    "lastDeparture": "18:14",
+                    "trainType": "Local"
+                },
+                "weekday": {
+                    "bands": [
+                        {
+                            "from": "07:18",
+                            "headwayMinutes": 32.5
+                        },
+                        {
+                            "from": "08:00",
+                            "headwayMinutes": 272.5
+                        },
+                        {
+                            "from": "17:00",
+                            "headwayMinutes": 35.0
+                        },
+                        {
+                            "from": "18:00",
+                            "headwayMinutes": 50.5
+                        },
+                        {
+                            "from": "19:00",
+                            "headwayMinutes": 45.0
+                        }
+                    ],
+                    "firstDeparture": "07:18",
+                    "lastDeparture": "20:29",
+                    "trainType": "Local"
+                }
+            }
+        ],
+        "hopTimesMinutes": [4.0],
+        "id": "Railway:JR-East.TsurumiOkawaBranch",
+        "isLoop": false,
+        "nameEn": "Tsurumi Line Okawa Branch",
+        "nameJa": "鶴見線大川支線",
+        "operatorId": "Operator:JR-East",
+        "stations": [
+            {
+                "id": "Station:JR-East.TsurumiOkawaBranch.Anzen",
+                "latitude": 35.49984,
+                "longitude": 139.70124,
+                "name": "安善",
+                "nameEn": "Anzen",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "JI06"
+            },
+            {
+                "id": "Station:JR-East.TsurumiOkawaBranch.Okawa",
+                "latitude": 35.4954,
+                "longitude": 139.71138,
+                "name": "大川",
+                "nameEn": "Okawa",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "JI61"
+            }
+        ],
+        "stopPatterns": [],
+        "throughServices": [],
+        "timetableRuns": [
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [441, 445],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [481, 485],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1069, 1073],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 1,
+                "startsHere": true,
+                "stops": [456, 460],
+                "terminates": false,
+                "throughDestEn": "Tsurumi",
+                "throughDestJa": "鶴見",
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 1,
+                "startsHere": true,
+                "stops": [502, 506],
+                "terminates": false,
+                "throughDestEn": "Tsurumi",
+                "throughDestJa": "鶴見",
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 1,
+                "startsHere": true,
+                "stops": [1094, 1098],
+                "terminates": false,
+                "throughDestEn": "Tsurumi",
+                "throughDestJa": "鶴見",
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [431, 435],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [463, 467],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [496, 500],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [516, 520],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1041, 1045],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1068, 1072],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1121, 1125],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1171, 1175],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1214, 1218],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 1,
+                "startsHere": true,
+                "stops": [438, 442],
+                "terminates": false,
+                "throughDestEn": "Tsurumi",
+                "throughDestJa": "鶴見",
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 1,
+                "startsHere": true,
+                "stops": [476, 480],
+                "terminates": false,
+                "throughDestEn": "Tsurumi",
+                "throughDestJa": "鶴見",
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 1,
+                "startsHere": true,
+                "stops": [503, 507],
+                "terminates": false,
+                "throughDestEn": "Tsurumi",
+                "throughDestJa": "鶴見",
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 1,
+                "startsHere": true,
+                "stops": [531, 535],
+                "terminates": false,
+                "throughDestEn": "Tsurumi",
+                "throughDestJa": "鶴見",
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 1,
+                "startsHere": true,
+                "stops": [1048, 1052],
+                "terminates": false,
+                "throughDestEn": "Tsurumi",
+                "throughDestJa": "鶴見",
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 1,
+                "startsHere": true,
+                "stops": [1083, 1087],
+                "terminates": false,
+                "throughDestEn": "Tsurumi",
+                "throughDestJa": "鶴見",
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 1,
+                "startsHere": true,
+                "stops": [1134, 1138],
+                "terminates": false,
+                "throughDestEn": "Tsurumi",
+                "throughDestJa": "鶴見",
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 1,
+                "startsHere": true,
+                "stops": [1184, 1188],
+                "terminates": false,
+                "throughDestEn": "Tsurumi",
+                "throughDestJa": "鶴見",
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 1,
+                "startsHere": true,
+                "stops": [1229, 1233],
+                "terminates": false,
+                "throughDestEn": "Tsurumi",
+                "throughDestJa": "鶴見",
+                "type": "Local"
+            }
+        ],
+        "upHopTimesMinutes": [4.0]
+    }
+]

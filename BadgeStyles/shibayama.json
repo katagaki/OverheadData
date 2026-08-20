@@ -1,0 +1,74 @@
+{
+    "id": "shibayama",
+    "nameJa": "芝山鉄道",
+    "nameEn": "Shibayama Railway",
+    "colors": {
+        "letter": "lineColor",
+        "core": "#FFFFFF",
+        "ring": "lineColor"
+    },
+    "line": {
+        "layers": [
+            {
+                "shape": "circle",
+                "fill": "$core"
+            }
+        ],
+        "overlays": [
+            {
+                "shape": "circle",
+                "stroke": "$ring",
+                "lineWidthRatio": 0.0625
+            }
+        ],
+        "color": "$letter",
+        "size": 20.5,
+        "minimumScaleFactor": 0.5,
+        "kerning": false,
+        "sizeMulti": 20.5,
+        "weight": "medium",
+        "width": "condensed",
+        "insetH": 4,
+        "nudgeBaseMulti": 0
+    },
+    "station": {
+        "spacing": 0,
+        "rows": [
+            {
+                "kind": "prefix",
+                "sizeRatio": 0.5,
+                "weight": "medium",
+                "width": "condensed",
+                "heightRatio": 0.28,
+                "offsetYRatio": 0.05,
+                "widthRatio": 0.58
+            },
+            {
+                "kind": "number",
+                "sizeRatio": 0.86,
+                "weight": "regular",
+                "width": "condensed",
+                "heightRatio": 0.58,
+                "offsetYRatio": -0.03
+            }
+        ],
+        "layers": [
+            {
+                "shape": "rect",
+                "fill": "$core"
+            }
+        ],
+        "clip": {
+            "shape": "circle"
+        },
+        "overlays": [
+            {
+                "shape": "circle",
+                "stroke": "$ring",
+                "lineWidthRatio": 0.062
+            }
+        ],
+        "color": "$letter",
+        "minimumScaleFactor": 0.5
+    }
+}

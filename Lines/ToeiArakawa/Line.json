@@ -1,0 +1,491 @@
+[
+    {
+        "colorHex": "#EE86A7",
+        "delayInfo": {
+            "checkMethodEn": "Check the Toei Transportation service information page, the Toei app, or X (@toeikotsu). Delays and suspensions are posted as they occur.",
+            "checkMethodJa": "都営交通「運行情報」ページ、都営交通アプリ、またはX（@toeikotsu）で確認できます。遅延・運転見合わせが発生した場合に掲載されます。",
+            "statusPageURL": "https://www.kotsu.metro.tokyo.jp/toden/schedule/",
+            "statusPageURLEn": "https://www.kotsu.metro.tokyo.jp/eng/operation_status/",
+            "xAccount": "@toeikotsu"
+        },
+        "directions": [
+            {
+                "expressSaturdayHolidayRuns": [],
+                "expressWeekdayRuns": [],
+                "id": "static.RailDirection:Toei.Arakawa.Waseda",
+                "intermediateOrigins": [
+                    {
+                        "saturdayHolidayDepartures": [],
+                        "stationId": "Station:Toei.Arakawa.MachiyaEkimae",
+                        "weekdayDepartures": ["05:47", "06:23", "06:43", "06:58", "07:32", "07:52", "15:34", "19:37", "19:56", "20:18", "20:55", "21:07", "21:34"]
+                    },
+                    {
+                        "saturdayHolidayDepartures": [],
+                        "stationId": "Station:Toei.Arakawa.ArakawaShakomae",
+                        "weekdayDepartures": ["05:25", "05:27", "05:29", "05:39", "05:43", "05:52", "06:05", "06:18", "06:29", "06:34", "06:44", "07:01", "07:20", "07:36", "07:57", "14:43", "15:15"]
+                    }
+                ],
+                "isAscending": true,
+                "nameEn": "For Waseda",
+                "nameJa": "早稲田方面",
+                "saturdayHoliday": {
+                    "bands": [
+                        {
+                            "from": "05:48",
+                            "headwayMinutes": 7
+                        },
+                        {
+                            "from": "10:00",
+                            "headwayMinutes": 6.5
+                        },
+                        {
+                            "from": "19:00",
+                            "headwayMinutes": 8
+                        }
+                    ],
+                    "firstDeparture": "05:48",
+                    "lastDeparture": "23:14",
+                    "trainType": "Local"
+                },
+                "weekday": {
+                    "bands": [
+                        {
+                            "from": "05:48",
+                            "headwayMinutes": 6
+                        },
+                        {
+                            "from": "07:00",
+                            "headwayMinutes": 4
+                        },
+                        {
+                            "from": "10:00",
+                            "headwayMinutes": 6.5
+                        },
+                        {
+                            "from": "16:00",
+                            "headwayMinutes": 5
+                        },
+                        {
+                            "from": "19:00",
+                            "headwayMinutes": 7
+                        }
+                    ],
+                    "firstDeparture": "05:48",
+                    "lastDeparture": "23:14",
+                    "trainType": "Local"
+                }
+            },
+            {
+                "expressSaturdayHolidayRuns": [],
+                "expressWeekdayRuns": [],
+                "id": "static.RailDirection:Toei.Arakawa.Minowabashi",
+                "intermediateOrigins": [
+                    {
+                        "saturdayHolidayDepartures": [],
+                        "stationId": "Station:Toei.Arakawa.ArakawaShakomae",
+                        "weekdayDepartures": ["05:26", "05:31", "06:05", "06:16", "06:26", "06:31", "06:39", "06:42", "06:52", "06:57", "07:06", "07:14", "07:25", "07:32", "15:13", "15:26", "15:51"]
+                    },
+                    {
+                        "saturdayHolidayDepartures": [],
+                        "stationId": "Station:Toei.Arakawa.OjiEkimae",
+                        "weekdayDepartures": ["05:35", "05:54", "06:16", "07:11", "07:29", "22:15", "23:16", "23:28"]
+                    },
+                    {
+                        "saturdayHolidayDepartures": [],
+                        "stationId": "Station:Toei.Arakawa.OtsukaEkimae",
+                        "weekdayDepartures": ["05:49", "08:00", "08:24", "08:45", "18:59", "19:23", "19:40", "20:08", "20:36", "22:44", "23:11"]
+                    }
+                ],
+                "isAscending": false,
+                "nameEn": "For Minowabashi",
+                "nameJa": "三ノ輪橋方面",
+                "saturdayHoliday": {
+                    "bands": [
+                        {
+                            "from": "06:00",
+                            "headwayMinutes": 7
+                        },
+                        {
+                            "from": "10:00",
+                            "headwayMinutes": 6.5
+                        },
+                        {
+                            "from": "19:00",
+                            "headwayMinutes": 8
+                        }
+                    ],
+                    "firstDeparture": "06:00",
+                    "lastDeparture": "23:04",
+                    "trainType": "Local"
+                },
+                "weekday": {
+                    "bands": [
+                        {
+                            "from": "06:00",
+                            "headwayMinutes": 6
+                        },
+                        {
+                            "from": "07:00",
+                            "headwayMinutes": 4
+                        },
+                        {
+                            "from": "10:00",
+                            "headwayMinutes": 6.5
+                        },
+                        {
+                            "from": "16:00",
+                            "headwayMinutes": 5
+                        },
+                        {
+                            "from": "19:00",
+                            "headwayMinutes": 7
+                        }
+                    ],
+                    "firstDeparture": "06:00",
+                    "lastDeparture": "23:04",
+                    "trainType": "Local"
+                }
+            }
+        ],
+        "hopTimesMinutes": [1, 1, 2, 2, 2, 2, 1, 2, 2, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 1, 2, 2, 2, 2, 1, 2, 2, 2, 2],
+        "id": "Railway:Toei.Arakawa",
+        "isLoop": false,
+        "nameEn": "Toden Arakawa Line",
+        "nameJa": "都電荒川線",
+        "operatorId": "Operator:Toei",
+        "stations": [
+            {
+                "id": "Station:Toei.Arakawa.Minowabashi",
+                "latitude": 35.7321,
+                "longitude": 139.7915,
+                "name": "三ノ輪橋",
+                "nameEn": "Minowabashi",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "SA01"
+            },
+            {
+                "id": "Station:Toei.Arakawa.ArakawaItchumae",
+                "latitude": 35.7337,
+                "longitude": 139.7889,
+                "name": "荒川一中前",
+                "nameEn": "Arakawa-itchumae",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "SA02"
+            },
+            {
+                "id": "Station:Toei.Arakawa.ArakawaKuyakushomae",
+                "latitude": 35.735,
+                "longitude": 139.7864,
+                "name": "荒川区役所前",
+                "nameEn": "Arakawa-kuyakushomae",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "SA03"
+            },
+            {
+                "id": "Station:Toei.Arakawa.ArakawaNichome",
+                "latitude": 35.7386,
+                "longitude": 139.7847,
+                "name": "荒川二丁目",
+                "nameEn": "Arakawa-nichome",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "SA04"
+            },
+            {
+                "id": "Station:Toei.Arakawa.ArakawaNanachome",
+                "latitude": 35.7419,
+                "longitude": 139.7842,
+                "name": "荒川七丁目",
+                "nameEn": "Arakawa-nanachome",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "SA05"
+            },
+            {
+                "id": "Station:Toei.Arakawa.MachiyaEkimae",
+                "latitude": 35.7428,
+                "longitude": 139.7808,
+                "name": "町屋駅前",
+                "nameEn": "Machiya-ekimae",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "SA06"
+            },
+            {
+                "id": "Station:Toei.Arakawa.MachiyaNichome",
+                "latitude": 35.7437,
+                "longitude": 139.7769,
+                "name": "町屋二丁目",
+                "nameEn": "Machiya-nichome",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "SA07"
+            },
+            {
+                "id": "Station:Toei.Arakawa.HigashiOguSanchome",
+                "latitude": 35.7454,
+                "longitude": 139.7744,
+                "name": "東尾久三丁目",
+                "nameEn": "Higashi-ogu-sanchome",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "SA08"
+            },
+            {
+                "id": "Station:Toei.Arakawa.Kumanomae",
+                "latitude": 35.7492,
+                "longitude": 139.7692,
+                "name": "熊野前",
+                "nameEn": "Kumanomae",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "SA09"
+            },
+            {
+                "id": "Station:Toei.Arakawa.Miyanomae",
+                "latitude": 35.7501,
+                "longitude": 139.765,
+                "name": "宮ノ前",
+                "nameEn": "Miyanomae",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "SA10"
+            },
+            {
+                "id": "Station:Toei.Arakawa.Odai",
+                "latitude": 35.7505,
+                "longitude": 139.7616,
+                "name": "小台",
+                "nameEn": "Odai",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "SA11"
+            },
+            {
+                "id": "Station:Toei.Arakawa.ArakawaYuenchimae",
+                "latitude": 35.7507,
+                "longitude": 139.7577,
+                "name": "荒川遊園地前",
+                "nameEn": "Arakawa-yuenchimae",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "SA12"
+            },
+            {
+                "id": "Station:Toei.Arakawa.ArakawaShakomae",
+                "latitude": 35.7509,
+                "longitude": 139.7528,
+                "name": "荒川車庫前",
+                "nameEn": "Arakawa-shakomae",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "SA13"
+            },
+            {
+                "id": "Station:Toei.Arakawa.Kajiwara",
+                "latitude": 35.7511,
+                "longitude": 139.7475,
+                "name": "梶原",
+                "nameEn": "Kajiwara",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "SA14"
+            },
+            {
+                "id": "Station:Toei.Arakawa.Sakaecho",
+                "latitude": 35.7509,
+                "longitude": 139.7422,
+                "name": "栄町",
+                "nameEn": "Sakaecho",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "SA15"
+            },
+            {
+                "id": "Station:Toei.Arakawa.OjiEkimae",
+                "latitude": 35.7527,
+                "longitude": 139.7383,
+                "name": "王子駅前",
+                "nameEn": "Oji-ekimae",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "SA16"
+            },
+            {
+                "id": "Station:Toei.Arakawa.Asukayama",
+                "latitude": 35.7502,
+                "longitude": 139.7374,
+                "name": "飛鳥山",
+                "nameEn": "Asukayama",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "SA17"
+            },
+            {
+                "id": "Station:Toei.Arakawa.TakinogawaItchome",
+                "latitude": 35.7474,
+                "longitude": 139.7354,
+                "name": "滝野川一丁目",
+                "nameEn": "Takinogawa-itchome",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "SA18"
+            },
+            {
+                "id": "Station:Toei.Arakawa.NishigaharaYonchome",
+                "latitude": 35.7444,
+                "longitude": 139.7328,
+                "name": "西ヶ原四丁目",
+                "nameEn": "Nishigahara-yonchome",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "SA19"
+            },
+            {
+                "id": "Station:Toei.Arakawa.ShinKoshinzuka",
+                "latitude": 35.7413,
+                "longitude": 139.7304,
+                "name": "新庚申塚",
+                "nameEn": "Shin-koshinzuka",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "SA20"
+            },
+            {
+                "id": "Station:Toei.Arakawa.Koshinzuka",
+                "latitude": 35.7395,
+                "longitude": 139.7296,
+                "name": "庚申塚",
+                "nameEn": "Koshinzuka",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "SA21"
+            },
+            {
+                "id": "Station:Toei.Arakawa.Sugamoshinden",
+                "latitude": 35.7354,
+                "longitude": 139.7278,
+                "name": "巣鴨新田",
+                "nameEn": "Sugamoshinden",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "SA22"
+            },
+            {
+                "id": "Station:Toei.Arakawa.OtsukaEkimae",
+                "latitude": 35.7316,
+                "longitude": 139.7293,
+                "name": "大塚駅前",
+                "nameEn": "Otsuka-ekimae",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "SA23"
+            },
+            {
+                "id": "Station:Toei.Arakawa.Mukohara",
+                "latitude": 35.7289,
+                "longitude": 139.7249,
+                "name": "向原",
+                "nameEn": "Mukohara",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "SA24"
+            },
+            {
+                "id": "Station:Toei.Arakawa.HigashiIkebukuroYonchome",
+                "latitude": 35.7254,
+                "longitude": 139.7204,
+                "name": "東池袋四丁目",
+                "nameEn": "Higashi-ikebukuro-yonchome",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "SA25"
+            },
+            {
+                "id": "Station:Toei.Arakawa.TodenZoshigaya",
+                "latitude": 35.7243,
+                "longitude": 139.718,
+                "name": "都電雑司ヶ谷",
+                "nameEn": "Toden-zoshigaya",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "SA26"
+            },
+            {
+                "id": "Station:Toei.Arakawa.Kishibojimmae",
+                "latitude": 35.7203,
+                "longitude": 139.715,
+                "name": "鬼子母神前",
+                "nameEn": "Kishibojimmae",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "SA27"
+            },
+            {
+                "id": "Station:Toei.Arakawa.Gakushuinshita",
+                "latitude": 35.7162,
+                "longitude": 139.7125,
+                "name": "学習院下",
+                "nameEn": "Gakushuinshita",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "SA28"
+            },
+            {
+                "id": "Station:Toei.Arakawa.Omokagebashi",
+                "latitude": 35.7129,
+                "longitude": 139.7145,
+                "name": "面影橋",
+                "nameEn": "Omokagebashi",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "SA29"
+            },
+            {
+                "id": "Station:Toei.Arakawa.Waseda",
+                "latitude": 35.7118,
+                "longitude": 139.7189,
+                "name": "早稲田",
+                "nameEn": "Waseda",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "SA30"
+            }
+        ],
+        "stopPatterns": [],
+        "throughServices": []
+    }
+]

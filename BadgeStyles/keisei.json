@@ -1,0 +1,72 @@
+{
+    "id": "keisei",
+    "nameJa": "京成電鉄",
+    "nameEn": "Keisei",
+    "colors": {
+        "letter": "lineColor",
+        "core": "#FFFFFF",
+        "ring": "lineColor"
+    },
+    "line": {
+        "layers": [
+            {
+                "shape": "circle",
+                "fill": "$core"
+            }
+        ],
+        "overlays": [
+            {
+                "shape": "circle",
+                "stroke": "$ring",
+                "lineWidthRatio": 0.13125
+            }
+        ],
+        "color": "$letter",
+        "size": 17,
+        "minimumScaleFactor": 0.5,
+        "kerning": true,
+        "sizeMulti": 17,
+        "weight": "bold",
+        "width": "condensed",
+        "insetH": 4.5,
+        "nudgeBaseMulti": 0
+    },
+    "station": {
+        "spacing": 0,
+        "rows": [
+            {
+                "kind": "prefix",
+                "sizeRatio": 0.3,
+                "weight": "bold",
+                "width": "condensed",
+                "heightRatio": 0.34,
+                "offsetY": 0.6
+            },
+            {
+                "kind": "number",
+                "sizeRatio": 0.54,
+                "family": "Helvetica",
+                "heightRatio": 0.46,
+                "offsetY": -0.6
+            }
+        ],
+        "layers": [
+            {
+                "shape": "rect",
+                "fill": "$core"
+            }
+        ],
+        "clip": {
+            "shape": "circle"
+        },
+        "overlays": [
+            {
+                "shape": "circle",
+                "stroke": "$ring",
+                "lineWidthRatio": 0.09
+            }
+        ],
+        "color": "$letter",
+        "minimumScaleFactor": 0.6
+    }
+}

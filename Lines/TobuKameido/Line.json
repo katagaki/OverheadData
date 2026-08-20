@@ -1,0 +1,173 @@
+[
+    {
+        "colorHex": "#0067C0",
+        "delayInfo": {
+            "checkMethodEn": "Check the Tobu Railway service status page, the Tobu app, or X (@TobuRailway_JP). Delays of roughly 10 minutes or more and suspensions are posted.",
+            "checkMethodJa": "東武鉄道「運行情報」ページ、東武線アプリ、またはX（@TobuRailway_JP）で確認できます。おおむね10分以上の遅延・運転見合わせが発生した場合に掲載されます。",
+            "statusPageURL": "https://www.tobu.co.jp/service_status/",
+            "statusPageURLEn": "https://www.tobu.co.jp/service_status/",
+            "xAccount": "@TobuRailway_JP"
+        },
+        "directions": [
+            {
+                "expressSaturdayHolidayRuns": [],
+                "expressWeekdayRuns": [],
+                "id": "static.RailDirection:Tobu.Kameido.Kameido",
+                "intermediateOrigins": [],
+                "isAscending": true,
+                "nameEn": "For Kameido",
+                "nameJa": "亀戸方面",
+                "saturdayHoliday": {
+                    "bands": [
+                        {
+                            "from": "05:34",
+                            "headwayMinutes": 10
+                        },
+                        {
+                            "from": "22:00",
+                            "headwayMinutes": 12
+                        }
+                    ],
+                    "firstDeparture": "05:34",
+                    "lastDeparture": "24:18",
+                    "trainType": "Local"
+                },
+                "weekday": {
+                    "bands": [
+                        {
+                            "from": "05:34",
+                            "headwayMinutes": 10
+                        },
+                        {
+                            "from": "07:00",
+                            "headwayMinutes": 8
+                        },
+                        {
+                            "from": "09:30",
+                            "headwayMinutes": 10
+                        },
+                        {
+                            "from": "22:00",
+                            "headwayMinutes": 12
+                        }
+                    ],
+                    "firstDeparture": "05:34",
+                    "lastDeparture": "24:18",
+                    "trainType": "Local"
+                }
+            },
+            {
+                "expressSaturdayHolidayRuns": [],
+                "expressWeekdayRuns": [],
+                "id": "static.RailDirection:Tobu.Kameido.Hikifune",
+                "intermediateOrigins": [],
+                "isAscending": false,
+                "nameEn": "For Hikifune",
+                "nameJa": "曳舟方面",
+                "saturdayHoliday": {
+                    "bands": [
+                        {
+                            "from": "05:43",
+                            "headwayMinutes": 10
+                        },
+                        {
+                            "from": "22:00",
+                            "headwayMinutes": 12
+                        }
+                    ],
+                    "firstDeparture": "05:43",
+                    "lastDeparture": "24:29",
+                    "trainType": "Local"
+                },
+                "weekday": {
+                    "bands": [
+                        {
+                            "from": "05:43",
+                            "headwayMinutes": 10
+                        },
+                        {
+                            "from": "07:00",
+                            "headwayMinutes": 8
+                        },
+                        {
+                            "from": "09:30",
+                            "headwayMinutes": 10
+                        },
+                        {
+                            "from": "22:00",
+                            "headwayMinutes": 12
+                        }
+                    ],
+                    "firstDeparture": "05:43",
+                    "lastDeparture": "24:29",
+                    "trainType": "Local"
+                }
+            }
+        ],
+        "hopTimesMinutes": [3, 1, 2, 2],
+        "id": "Railway:Tobu.Kameido",
+        "isLoop": false,
+        "nameEn": "Tobu Kameido Line",
+        "nameJa": "東武亀戸線",
+        "operatorId": "Operator:Tobu",
+        "stations": [
+            {
+                "id": "Station:Tobu.Kameido.Hikifune",
+                "latitude": 35.718306,
+                "longitude": 139.81675,
+                "name": "曳舟",
+                "nameEn": "Hikifune",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "TS04"
+            },
+            {
+                "id": "Station:Tobu.Kameido.Omurai",
+                "latitude": 35.7101,
+                "longitude": 139.828,
+                "name": "小村井",
+                "nameEn": "Omurai",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "TS41"
+            },
+            {
+                "id": "Station:Tobu.Kameido.HigashiAzuma",
+                "latitude": 35.7071,
+                "longitude": 139.8319,
+                "name": "東あずま",
+                "nameEn": "Higashi-Azuma",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "TS42"
+            },
+            {
+                "id": "Station:Tobu.Kameido.KameidoSuijin",
+                "latitude": 35.7003,
+                "longitude": 139.8337,
+                "name": "亀戸水神",
+                "nameEn": "Kameido-Suijin",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "TS43"
+            },
+            {
+                "id": "Station:Tobu.Kameido.Kameido",
+                "latitude": 35.6976,
+                "longitude": 139.8261,
+                "name": "亀戸",
+                "nameEn": "Kameido",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "TS44"
+            }
+        ],
+        "stopPatterns": [],
+        "throughServices": []
+    }
+]

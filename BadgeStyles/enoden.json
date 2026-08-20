@@ -1,0 +1,81 @@
+{
+    "id": "enoden",
+    "nameJa": "江ノ島電鉄",
+    "nameEn": "Enoshima Electric Railway",
+    "colors": {
+        "letter": "#231F20",
+        "outer": "#FFE277",
+        "inner": "#0C6346",
+        "core": "#FFFFFF"
+    },
+    "line": {
+        "layers": [
+            {
+                "shape": "circle",
+                "fill": "$outer"
+            },
+            {
+                "shape": "circle",
+                "fill": "$inner",
+                "insetRatio": 0.0625
+            },
+            {
+                "shape": "circle",
+                "fill": "$core",
+                "insetRatio": 0.15625
+            }
+        ],
+        "color": "$letter",
+        "size": 14,
+        "minimumScaleFactor": 0.5,
+        "kerning": true,
+        "family": "Helvetica-Bold",
+        "sizeMulti": 14,
+        "insetH": 6,
+        "nudgeBaseMulti": 0
+    },
+    "station": {
+        "spacing": 0,
+        "rows": [
+            {
+                "kind": "prefix",
+                "sizeRatio": 0.3,
+                "family": "Helvetica-Bold",
+                "heightRatio": 0.28,
+                "offsetYRatio": 0.05,
+                "widthRatio": 0.56
+            },
+            {
+                "kind": "number",
+                "sizeRatio": 0.56,
+                "family": "Helvetica-Bold",
+                "heightRatio": 0.48,
+                "offsetYRatio": -0.02,
+                "fullWidth": true
+            }
+        ],
+        "solo": {
+            "kind": "number",
+            "sizeRatio": 0.58,
+            "family": "Helvetica-Bold"
+        },
+        "layers": [
+            {
+                "shape": "circle",
+                "fill": "$outer"
+            },
+            {
+                "shape": "circle",
+                "fill": "$inner",
+                "insetRatio": 0.05
+            },
+            {
+                "shape": "circle",
+                "fill": "$core",
+                "insetRatio": 0.1
+            }
+        ],
+        "color": "$letter",
+        "minimumScaleFactor": 0.6
+    }
+}

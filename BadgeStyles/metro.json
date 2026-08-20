@@ -1,0 +1,97 @@
+{
+    "id": "metro",
+    "nameJa": "東京メトロ・都営地下鉄",
+    "nameEn": "Tokyo Metro / Toei",
+    "colors": {
+        "letter": "#232021",
+        "core": "#FFFFFF",
+        "ring": "lineColor",
+        "stationLetter": "#000000"
+    },
+    "line": {
+        "layers": [
+            {
+                "shape": "circle",
+                "fill": "$core"
+            }
+        ],
+        "overlays": [
+            {
+                "shape": "circle",
+                "stroke": "$ring",
+                "lineWidthRatio": 0.19375
+            }
+        ],
+        "glyphOffsetX": {
+            "C": -0.75
+        },
+        "glyphOffsetY": {
+            "M": -0.8,
+            "Mb": -0.3,
+            "RN": -0.3,
+            "SMR": -0.3
+        },
+        "color": "$letter",
+        "size": 15,
+        "minimumScaleFactor": 0.5,
+        "kerning": true,
+        "family": "Futura-Bold",
+        "sizeMulti": 11,
+        "insetH": 7,
+        "nudgeBaseMulti": 0,
+        "glyphSize": {
+            "Mb": 9.3,
+            "RN": 10.5,
+            "SMR": 7.1
+        }
+    },
+    "station": {
+        "spacing": 0,
+        "rows": [
+            {
+                "kind": "prefix",
+                "sizeRatio": 0.38,
+                "family": "Futura-Bold",
+                "heightRatio": 0.42,
+                "widthRatio": 0.58,
+                "offsetY": 1.1
+            },
+            {
+                "kind": "number",
+                "sizeRatio": 0.38,
+                "family": "Futura-Bold",
+                "heightRatio": 0.42,
+                "fullWidth": true,
+                "offsetY": -1.9
+            }
+        ],
+        "solo": {
+            "kind": "number",
+            "sizeRatio": 0.5,
+            "family": "Futura-Bold"
+        },
+        "layers": [
+            {
+                "shape": "rect",
+                "fill": "$core"
+            }
+        ],
+        "clip": {
+            "shape": "circle"
+        },
+        "overlays": [
+            {
+                "shape": "circle",
+                "stroke": "$ring",
+                "lineWidthRatio": 0.13
+            }
+        ],
+        "color": "$stationLetter",
+        "minimumScaleFactor": 0.6,
+        "prefixSizes": {
+            "Mb": 0.24,
+            "RN": 0.26,
+            "SMR": 0.2
+        }
+    }
+}

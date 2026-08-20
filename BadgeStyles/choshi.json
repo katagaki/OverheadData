@@ -1,0 +1,82 @@
+{
+    "id": "choshi",
+    "nameJa": "銚子電気鉄道",
+    "nameEn": "Choshi Electric Railway",
+    "colors": {
+        "letter": "#000000",
+        "core": "#FFFFFF",
+        "keyline": "#000000"
+    },
+    "line": {
+        "layers": [
+            {
+                "shape": "roundedRect",
+                "radiusRatio": 0.031,
+                "fill": "$core"
+            }
+        ],
+        "overlays": [
+            {
+                "shape": "roundedRect",
+                "radiusRatio": 0.031,
+                "stroke": "$keyline",
+                "lineWidthRatio": 0.03
+            }
+        ],
+        "color": "$letter",
+        "size": 17,
+        "minimumScaleFactor": 0.5,
+        "kerning": true,
+        "family": "Hind-Bold",
+        "sizeMulti": 17,
+        "insetH": 3,
+        "nudgeBase": 15,
+        "nudgeBaseMulti": 15
+    },
+    "station": {
+        "spacing": 1,
+        "rows": [
+            {
+                "kind": "prefix",
+                "sizeRatio": 0.52,
+                "family": "Hind-Bold",
+                "heightRatio": 0.39,
+                "offsetYRatio": 0.1248,
+                "fullWidth": true
+            },
+            {
+                "kind": "number",
+                "sizeRatio": 0.7,
+                "family": "Hind-Bold",
+                "heightRatio": 0.5249999999999999,
+                "offsetYRatio": -0.041999999999999996,
+                "fullWidth": true
+            }
+        ],
+        "solo": {
+            "kind": "number",
+            "sizeRatio": 0.66,
+            "family": "Hind-Bold"
+        },
+        "layers": [
+            {
+                "shape": "rect",
+                "fill": "$core"
+            }
+        ],
+        "clip": {
+            "shape": "roundedRect",
+            "radiusRatio": 0.031
+        },
+        "overlays": [
+            {
+                "shape": "roundedRect",
+                "radiusRatio": 0.031,
+                "stroke": "$keyline",
+                "lineWidthRatio": 0.03
+            }
+        ],
+        "color": "$letter",
+        "minimumScaleFactor": 0.6
+    }
+}
