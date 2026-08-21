@@ -4,6 +4,10 @@ on:
   push:
   pull_request:
   workflow_dispatch:
+    inputs:
+      overheadRef:
+        description: Branch of katagaki/Overhead to validate against
+        required: false
 
 jobs:
   validate:
@@ -14,10 +18,14 @@ jobs:
         with:
           path: OverheadData
 
+      # validate.swift decodes against the app's real models, so this has to be
+      # a ref that already has them. Override with the OVERHEAD_REF repo
+      # variable while the data format is ahead of the app's main branch.
       - name: Check out app (for the data models)
         uses: actions/checkout@v4
         with:
           repository: katagaki/Overhead
+          ref: ${{ inputs.overheadRef || vars.OVERHEAD_REF || 'main' }}
           path: Overhead
 
       - name: Catalog is up to date
