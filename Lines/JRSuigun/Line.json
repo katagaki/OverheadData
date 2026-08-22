@@ -1,0 +1,1953 @@
+[
+    {
+        "colorHex": "#368C44",
+        "delayInfo": {
+            "checkMethodEn": "Check the JR East Train Operation Information page or the JR East app. In the Tokyo area, delays or suspensions of 15 minutes or more are posted.",
+            "checkMethodJa": "JR東日本「列車運行情報」ページまたはJR東日本アプリで確認できます。首都圏エリアでは15分以上の遅れ・運休が発生または見込まれる場合に掲載されます。",
+            "statusPageURL": "https://traininfo.jreast.co.jp/train_info/line.aspx?gid=1&lineid=suigunline",
+            "statusPageURLEn": "https://traininfo.jreast.co.jp/train_info/e/kanto.aspx",
+            "xAccount": "@JRE_Tohoku_A"
+        },
+        "directions": [
+            {
+                "expressSaturdayHolidayRuns": [],
+                "expressWeekdayRuns": [],
+                "id": "static.RailDirection:JR-East.Suigun.Koriyama",
+                "intermediateOrigins": [
+                    {
+                        "saturdayHolidayDepartures": ["05:43", "06:57", "14:34", "15:35", "17:53"],
+                        "stationId": "Station:JR-East.Suigun.HitachiDaigo",
+                        "weekdayDepartures": ["05:43", "06:57", "14:34", "15:35", "17:53"]
+                    },
+                    {
+                        "saturdayHolidayDepartures": ["05:55"],
+                        "stationId": "Station:JR-East.Suigun.IwakiIshikawa",
+                        "weekdayDepartures": ["05:55"]
+                    }
+                ],
+                "isAscending": true,
+                "nameEn": "For Hitachi-Daigo & Koriyama",
+                "nameJa": "常陸大子・郡山方面",
+                "saturdayHoliday": {
+                    "bands": [
+                        {
+                            "from": "06:10",
+                            "headwayMinutes": 29
+                        },
+                        {
+                            "from": "07:00",
+                            "headwayMinutes": 34.5
+                        },
+                        {
+                            "from": "08:00",
+                            "headwayMinutes": 51
+                        },
+                        {
+                            "from": "09:00",
+                            "headwayMinutes": 37
+                        },
+                        {
+                            "from": "10:00",
+                            "headwayMinutes": 53
+                        },
+                        {
+                            "from": "11:00",
+                            "headwayMinutes": 60
+                        },
+                        {
+                            "from": "12:00",
+                            "headwayMinutes": 58
+                        },
+                        {
+                            "from": "13:00",
+                            "headwayMinutes": 60
+                        },
+                        {
+                            "from": "14:00",
+                            "headwayMinutes": 63
+                        },
+                        {
+                            "from": "15:00",
+                            "headwayMinutes": 30.5
+                        },
+                        {
+                            "from": "16:00",
+                            "headwayMinutes": 34.5
+                        },
+                        {
+                            "from": "17:00",
+                            "headwayMinutes": 29
+                        },
+                        {
+                            "from": "18:00",
+                            "headwayMinutes": 24
+                        },
+                        {
+                            "from": "19:00",
+                            "headwayMinutes": 32.5
+                        },
+                        {
+                            "from": "20:00",
+                            "headwayMinutes": 65
+                        },
+                        {
+                            "from": "21:00",
+                            "headwayMinutes": 68
+                        },
+                        {
+                            "from": "22:00",
+                            "headwayMinutes": 47
+                        }
+                    ],
+                    "firstDeparture": "06:10",
+                    "lastDeparture": "23:17",
+                    "trainType": "Local"
+                },
+                "weekday": {
+                    "bands": [
+                        {
+                            "from": "06:10",
+                            "headwayMinutes": 29
+                        },
+                        {
+                            "from": "07:00",
+                            "headwayMinutes": 34.5
+                        },
+                        {
+                            "from": "08:00",
+                            "headwayMinutes": 51
+                        },
+                        {
+                            "from": "09:00",
+                            "headwayMinutes": 37
+                        },
+                        {
+                            "from": "10:00",
+                            "headwayMinutes": 53
+                        },
+                        {
+                            "from": "11:00",
+                            "headwayMinutes": 60
+                        },
+                        {
+                            "from": "12:00",
+                            "headwayMinutes": 58
+                        },
+                        {
+                            "from": "13:00",
+                            "headwayMinutes": 60
+                        },
+                        {
+                            "from": "14:00",
+                            "headwayMinutes": 63
+                        },
+                        {
+                            "from": "15:00",
+                            "headwayMinutes": 30.5
+                        },
+                        {
+                            "from": "16:00",
+                            "headwayMinutes": 34.5
+                        },
+                        {
+                            "from": "17:00",
+                            "headwayMinutes": 29
+                        },
+                        {
+                            "from": "18:00",
+                            "headwayMinutes": 24
+                        },
+                        {
+                            "from": "19:00",
+                            "headwayMinutes": 32.5
+                        },
+                        {
+                            "from": "20:00",
+                            "headwayMinutes": 65
+                        },
+                        {
+                            "from": "21:00",
+                            "headwayMinutes": 68
+                        },
+                        {
+                            "from": "22:00",
+                            "headwayMinutes": 47
+                        }
+                    ],
+                    "firstDeparture": "06:10",
+                    "lastDeparture": "23:17",
+                    "trainType": "Local"
+                }
+            },
+            {
+                "expressSaturdayHolidayRuns": [],
+                "expressWeekdayRuns": [],
+                "id": "static.RailDirection:JR-East.Suigun.Mito",
+                "intermediateOrigins": [
+                    {
+                        "saturdayHolidayDepartures": ["06:41", "11:06", "13:12", "15:50", "18:14"],
+                        "stationId": "Station:JR-East.Suigun.HitachiOmiya",
+                        "weekdayDepartures": ["06:41", "11:06", "13:12", "15:50", "18:14"]
+                    },
+                    {
+                        "saturdayHolidayDepartures": ["05:03", "05:40", "06:32", "06:51", "07:23", "14:09", "16:41", "19:07", "20:28"],
+                        "stationId": "Station:JR-East.Suigun.HitachiDaigo",
+                        "weekdayDepartures": ["05:03", "05:40", "06:32", "06:51", "07:23", "14:09", "16:41", "19:07", "20:28"]
+                    },
+                    {
+                        "saturdayHolidayDepartures": ["06:04"],
+                        "stationId": "Station:JR-East.Suigun.IwakiTanakura",
+                        "weekdayDepartures": ["06:04"]
+                    }
+                ],
+                "isAscending": false,
+                "nameEn": "For Mito",
+                "nameJa": "水戸方面",
+                "saturdayHoliday": {
+                    "bands": [
+                        {
+                            "from": "06:06",
+                            "headwayMinutes": 69
+                        },
+                        {
+                            "from": "07:00",
+                            "headwayMinutes": 122
+                        },
+                        {
+                            "from": "09:00",
+                            "headwayMinutes": 265
+                        },
+                        {
+                            "from": "13:00",
+                            "headwayMinutes": 132
+                        },
+                        {
+                            "from": "15:00",
+                            "headwayMinutes": 57
+                        },
+                        {
+                            "from": "16:00",
+                            "headwayMinutes": 87
+                        },
+                        {
+                            "from": "18:00",
+                            "headwayMinutes": 86
+                        },
+                        {
+                            "from": "19:00",
+                            "headwayMinutes": 113
+                        }
+                    ],
+                    "firstDeparture": "06:06",
+                    "lastDeparture": "21:37",
+                    "trainType": "Local"
+                },
+                "weekday": {
+                    "bands": [
+                        {
+                            "from": "06:06",
+                            "headwayMinutes": 69
+                        },
+                        {
+                            "from": "07:00",
+                            "headwayMinutes": 122
+                        },
+                        {
+                            "from": "09:00",
+                            "headwayMinutes": 265
+                        },
+                        {
+                            "from": "13:00",
+                            "headwayMinutes": 132
+                        },
+                        {
+                            "from": "15:00",
+                            "headwayMinutes": 57
+                        },
+                        {
+                            "from": "16:00",
+                            "headwayMinutes": 87
+                        },
+                        {
+                            "from": "18:00",
+                            "headwayMinutes": 86
+                        },
+                        {
+                            "from": "19:00",
+                            "headwayMinutes": 113
+                        }
+                    ],
+                    "firstDeparture": "06:06",
+                    "lastDeparture": "21:37",
+                    "trainType": "Local"
+                }
+            }
+        ],
+        "hopTimesMinutes": [4, 3, 3, 3, 2, 3, 4, 4, 3, 6, 6, 4, 4, 4, 4, 5, 4, 6, 12, 7, 6, 5, 3, 2, 7, 6, 4, 3, 7, 4, 8, 7, 3.5, 4, 7, 5, 4, 4, 6, 6],
+        "id": "Railway:JR-East.Suigun",
+        "isLoop": false,
+        "nameEn": "Suigun Line",
+        "nameJa": "水郡線",
+        "operatorId": "Operator:JR-East",
+        "stations": [
+            {
+                "id": "Station:JR-East.Suigun.Mito",
+                "latitude": 36.370903,
+                "longitude": 140.476072,
+                "name": "水戸",
+                "nameEn": "Mito",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": ""
+            },
+            {
+                "id": "Station:JR-East.Suigun.HitachiAoyagi",
+                "latitude": 36.383861,
+                "longitude": 140.4845,
+                "name": "常陸青柳",
+                "nameEn": "Hitachi-Aoyagi",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": ""
+            },
+            {
+                "id": "Station:JR-East.Suigun.HitachiTsuda",
+                "latitude": 36.403917,
+                "longitude": 140.482889,
+                "name": "常陸津田",
+                "nameEn": "Hitachi-Tsuda",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": ""
+            },
+            {
+                "id": "Station:JR-East.Suigun.Godai",
+                "latitude": 36.42375,
+                "longitude": 140.489917,
+                "name": "後台",
+                "nameEn": "Godai",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": ""
+            },
+            {
+                "id": "Station:JR-East.Suigun.ShimoSugaya",
+                "latitude": 36.435361,
+                "longitude": 140.494028,
+                "name": "下菅谷",
+                "nameEn": "Shimo-Sugaya",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": ""
+            },
+            {
+                "id": "Station:JR-East.Suigun.NakaSugaya",
+                "latitude": 36.445583,
+                "longitude": 140.492639,
+                "name": "中菅谷",
+                "nameEn": "Naka-Sugaya",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": ""
+            },
+            {
+                "id": "Station:JR-East.Suigun.KamiSugaya",
+                "latitude": 36.455361,
+                "longitude": 140.492639,
+                "name": "上菅谷",
+                "nameEn": "Kami-Sugaya",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": ""
+            },
+            {
+                "id": "Station:JR-East.Suigun.HitachiKonosu",
+                "latitude": 36.4725,
+                "longitude": 140.467417,
+                "name": "常陸鴻巣",
+                "nameEn": "Hitachi-Konosu",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": ""
+            },
+            {
+                "id": "Station:JR-East.Suigun.Urizura",
+                "latitude": 36.498056,
+                "longitude": 140.449806,
+                "name": "瓜連",
+                "nameEn": "Urizura",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": ""
+            },
+            {
+                "id": "Station:JR-East.Suigun.Shizu",
+                "latitude": 36.506,
+                "longitude": 140.438111,
+                "name": "静",
+                "nameEn": "Shizu",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": ""
+            },
+            {
+                "id": "Station:JR-East.Suigun.HitachiOmiya",
+                "latitude": 36.547556,
+                "longitude": 140.412444,
+                "name": "常陸大宮",
+                "nameEn": "Hitachi-Omiya",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": ""
+            },
+            {
+                "id": "Station:JR-East.Suigun.Tamagawamura",
+                "latitude": 36.579111,
+                "longitude": 140.374417,
+                "name": "玉川村",
+                "nameEn": "Tamagawamura",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": ""
+            },
+            {
+                "id": "Station:JR-East.Suigun.Nogamihara",
+                "latitude": 36.605861,
+                "longitude": 140.390139,
+                "name": "野上原",
+                "nameEn": "Nogamihara",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": ""
+            },
+            {
+                "id": "Station:JR-East.Suigun.Yamagatajuku",
+                "latitude": 36.624583,
+                "longitude": 140.40125,
+                "name": "山方宿",
+                "nameEn": "Yamagatajuku",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": ""
+            },
+            {
+                "id": "Station:JR-East.Suigun.NakaFunyu",
+                "latitude": 36.645667,
+                "longitude": 140.39225,
+                "name": "中舟生",
+                "nameEn": "Naka-Funyu",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": ""
+            },
+            {
+                "id": "Station:JR-East.Suigun.ShimoOgawa",
+                "latitude": 36.669083,
+                "longitude": 140.387111,
+                "name": "下小川",
+                "nameEn": "Shimo-Ogawa",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": ""
+            },
+            {
+                "id": "Station:JR-East.Suigun.Saigane",
+                "latitude": 36.6955,
+                "longitude": 140.386472,
+                "name": "西金",
+                "nameEn": "Saigane",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": ""
+            },
+            {
+                "id": "Station:JR-East.Suigun.KamiOgawa",
+                "latitude": 36.719389,
+                "longitude": 140.378694,
+                "name": "上小川",
+                "nameEn": "Kami-Ogawa",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": ""
+            },
+            {
+                "id": "Station:JR-East.Suigun.Fukuroda",
+                "latitude": 36.754611,
+                "longitude": 140.379583,
+                "name": "袋田",
+                "nameEn": "Fukuroda",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": ""
+            },
+            {
+                "id": "Station:JR-East.Suigun.HitachiDaigo",
+                "latitude": 36.770972,
+                "longitude": 140.350806,
+                "name": "常陸大子",
+                "nameEn": "Hitachi-Daigo",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": ""
+            },
+            {
+                "id": "Station:JR-East.Suigun.Shimonomiya",
+                "latitude": 36.81575,
+                "longitude": 140.375278,
+                "name": "下野宮",
+                "nameEn": "Shimonomiya",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": ""
+            },
+            {
+                "id": "Station:JR-East.Suigun.Yamatsuriyama",
+                "latitude": 36.849944,
+                "longitude": 140.395333,
+                "name": "矢祭山",
+                "nameEn": "Yamatsuriyama",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": ""
+            },
+            {
+                "id": "Station:JR-East.Suigun.Higashidate",
+                "latitude": 36.870194,
+                "longitude": 140.423444,
+                "name": "東館",
+                "nameEn": "Higashidate",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": ""
+            },
+            {
+                "id": "Station:JR-East.Suigun.MinamiIshii",
+                "latitude": 36.894694,
+                "longitude": 140.416917,
+                "name": "南石井",
+                "nameEn": "Minami-Ishii",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": ""
+            },
+            {
+                "id": "Station:JR-East.Suigun.IwakiIshii",
+                "latitude": 36.904639,
+                "longitude": 140.415306,
+                "name": "磐城石井",
+                "nameEn": "Iwaki-Ishii",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": ""
+            },
+            {
+                "id": "Station:JR-East.Suigun.IwakiHanawa",
+                "latitude": 36.958583,
+                "longitude": 140.412056,
+                "name": "磐城塙",
+                "nameEn": "Iwaki-Hanawa",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": ""
+            },
+            {
+                "id": "Station:JR-East.Suigun.Chikatsu",
+                "latitude": 37.000472,
+                "longitude": 140.393667,
+                "name": "近津",
+                "nameEn": "Chikatsu",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": ""
+            },
+            {
+                "id": "Station:JR-East.Suigun.Nakatoyo",
+                "latitude": 37.022472,
+                "longitude": 140.39325,
+                "name": "中豊",
+                "nameEn": "Nakatoyo",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": ""
+            },
+            {
+                "id": "Station:JR-East.Suigun.IwakiTanakura",
+                "latitude": 37.035056,
+                "longitude": 140.384417,
+                "name": "磐城棚倉",
+                "nameEn": "Iwaki-Tanakura",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": ""
+            },
+            {
+                "id": "Station:JR-East.Suigun.IwakiAsakawa",
+                "latitude": 37.079806,
+                "longitude": 140.414417,
+                "name": "磐城浅川",
+                "nameEn": "Iwaki-Asakawa",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": ""
+            },
+            {
+                "id": "Station:JR-East.Suigun.Satoshiraishi",
+                "latitude": 37.104417,
+                "longitude": 140.41675,
+                "name": "里白石",
+                "nameEn": "Satoshiraishi",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": ""
+            },
+            {
+                "id": "Station:JR-East.Suigun.IwakiIshikawa",
+                "latitude": 37.140722,
+                "longitude": 140.444111,
+                "name": "磐城石川",
+                "nameEn": "Iwaki-Ishikawa",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": ""
+            },
+            {
+                "id": "Station:JR-East.Suigun.Nogisawa",
+                "latitude": 37.17525,
+                "longitude": 140.421028,
+                "name": "野木沢",
+                "nameEn": "Nogisawa",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": ""
+            },
+            {
+                "id": "Station:JR-East.Suigun.Kawabeoki",
+                "latitude": 37.192528,
+                "longitude": 140.405917,
+                "name": "川辺沖",
+                "nameEn": "Kawabeoki",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": ""
+            },
+            {
+                "id": "Station:JR-East.Suigun.Izumigo",
+                "latitude": 37.214472,
+                "longitude": 140.405667,
+                "name": "泉郷",
+                "nameEn": "Izumigo",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": ""
+            },
+            {
+                "id": "Station:JR-East.Suigun.Kawahigashi",
+                "latitude": 37.269861,
+                "longitude": 140.406139,
+                "name": "川東",
+                "nameEn": "Kawahigashi",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": ""
+            },
+            {
+                "id": "Station:JR-East.Suigun.Oshioe",
+                "latitude": 37.295694,
+                "longitude": 140.430333,
+                "name": "小塩江",
+                "nameEn": "Oshioe",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": ""
+            },
+            {
+                "id": "Station:JR-East.Suigun.Yatagawa",
+                "latitude": 37.31375,
+                "longitude": 140.431139,
+                "name": "谷田川",
+                "nameEn": "Yatagawa",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": ""
+            },
+            {
+                "id": "Station:JR-East.Suigun.IwakiMoriyama",
+                "latitude": 37.33075,
+                "longitude": 140.406611,
+                "name": "磐城守山",
+                "nameEn": "Iwaki-Moriyama",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": ""
+            },
+            {
+                "id": "Station:JR-East.Suigun.AsakaNagamori",
+                "latitude": 37.357011,
+                "longitude": 140.369089,
+                "name": "安積永盛",
+                "nameEn": "Asaka-Nagamori",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": ""
+            },
+            {
+                "id": "Station:JR-East.Suigun.Koriyama",
+                "latitude": 37.397778,
+                "longitude": 140.388333,
+                "name": "郡山",
+                "nameEn": "Koriyama",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": ""
+            }
+        ],
+        "stopPatterns": [],
+        "throughServices": [
+            {
+                "connectingLineId": "Railway:JR-East.SuigunHitachiota",
+                "end": "descending",
+                "junctionStationId": "Station:JR-East.Suigun.KamiSugaya",
+                "lineNameEn": "Suigun Line (Hitachiota Branch)",
+                "lineNameJa": "水郡線常陸太田支線",
+                "towardEn": "for Hitachiota",
+                "towardJa": "常陸太田方面"
+            }
+        ],
+        "timetableRuns": [
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 19,
+                "startsHere": true,
+                "stops": [343, 350, 356, 361, 365, 367, 376, 382, 386, 389, 397, 401, 418, 426, 430, 434, 442, 448, 453, 456, 462, 468],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 31,
+                "startsHere": true,
+                "stops": [355, 362, 365, 369, 376, 381, 385, 389, 395, 401],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [370, 374, 377, 380, 382, 384, 390],
+                "terminates": false,
+                "type": "Local",
+                "throughDestJa": "常陸太田",
+                "throughDestEn": "Hitachiota"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [383, 386, 389, 392, 395, 397, 400, 404, 411, 413, 420, 428, 432, 439, 443, 447, 452, 456, 462, 474],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 19,
+                "startsHere": true,
+                "stops": [417, 424, 430, 435, 438, 440, 448, 454, 458, 462, 470, 475, 482, 489, 492, 496, 503, 508, 512, 516, 522, 528],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [428, 432, 435, 439, 442, 445, 451],
+                "terminates": false,
+                "type": "Local",
+                "throughDestJa": "常陸太田",
+                "throughDestEn": "Hitachiota"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [448, 452, 455, 459, 462, 464, 473, 477, 481, 484, 491, 497, 501, 508, 512, 516, 521, 525, 531, 544, 551, 557, 562, 565, 567, 574, 580, 583, 586, 593, 597, 605, 611, 615, 618, 625, 630, 634, 638, 644, 650],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [497, 502, 505, 508, 512, 514, 517],
+                "terminates": false,
+                "type": "Local",
+                "throughDestJa": "常陸太田",
+                "throughDestEn": "Hitachiota"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [548, 552, 555, 558, 561, 563, 585],
+                "terminates": false,
+                "type": "Local",
+                "throughDestJa": "常陸太田",
+                "throughDestEn": "Hitachiota"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [563, 567, 570, 574, 576, 579, 582, 586, 590, 592, 598, 604, 609, 612, 616, 620, 625, 629, 636, 666, 673, 678, 683, 687, 689, 696, 701, 704, 707, 715, 718, 726, 732, 736, 739, 747, 752, 756, 761, 767, 773],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [622, 625, 628, 632, 635, 637, 640, 644, 647, 650, 656],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [675, 678, 681, 685, 688, 691, 693, 697, 701, 704, 710, 719, 723, 727, 731, 735, 740, 744, 750, 762],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [735, 739, 742, 745, 748, 751, 753, 757, 761, 764, 770],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [793, 796, 799, 802, 804, 807, 809, 813, 817, 819, 826, 831, 836, 840, 844, 848, 853, 860, 865, 877],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [853, 856, 859, 863, 865, 867, 869, 873, 877, 880, 886],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 19,
+                "startsHere": true,
+                "stops": [874, 881, 887, 892, 895, 897, 904, 910, 914, 917, 925, 929, 937, 944, 947, 951, 958, 963, 969, 973, 979, 985],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [916, 920, 923, 926, 929, 931, 933, 937, 941, 944, 950, 956, 960, 972, 975, 979, 984, 989, 994, 1003, 1010, 1016, 1021, 1024, 1026, 1033, 1039, 1042, 1045, 1052, 1056, 1064, 1070, 1074, 1078, 1085, 1090, 1094, 1098, 1104, 1110],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [930, 934, 937, 940, 943, 945, 948],
+                "terminates": false,
+                "type": "Local",
+                "throughDestJa": "常陸太田",
+                "throughDestEn": "Hitachiota"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 19,
+                "startsHere": true,
+                "stops": [935, 942, 948, 953, 957, 959, 966, 972, 976, 980, 987, 991, 999, 1006, 1009, 1013, 1020, 1025, 1029, 1033, 1039, 1045],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [977, 981, 984, 988, 991, 993, 1003, 1007, 1010, 1013, 1019, 1025, 1029, 1033, 1037, 1041, 1046, 1050, 1056, 1068],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1011, 1015, 1018, 1021, 1023, 1025, 1028],
+                "terminates": false,
+                "type": "Local",
+                "throughDestJa": "常陸太田",
+                "throughDestEn": "Hitachiota"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1046, 1050, 1053, 1056, 1059, 1061, 1066, 1070, 1074, 1076, 1082],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1058, 1062, 1065, 1068, 1072, 1074, 1077, 1081, 1085, 1087, 1094, 1103, 1107, 1111, 1115, 1119, 1124, 1128, 1134, 1146],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 19,
+                "startsHere": true,
+                "stops": [1073, 1080, 1086, 1091, 1094, 1096, 1104, 1109, 1113, 1116, 1123, 1127, 1147, 1153, 1157, 1161, 1168, 1173, 1177, 1180, 1186, 1192],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1104, 1107, 1110, 1114, 1117, 1119, 1128],
+                "terminates": false,
+                "type": "Local",
+                "throughDestJa": "常陸太田",
+                "throughDestEn": "Hitachiota"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1122, 1126, 1129, 1132, 1135, 1137, 1140, 1144, 1148, 1150, 1157, 1163, 1167, 1175, 1179, 1183, 1188, 1193, 1199, 1211],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1152, 1155, 1158, 1161, 1164, 1166, 1168, 1172, 1176, 1179, 1185, 1190, 1195, 1199, 1202, 1206, 1211, 1216, 1221, 1232, 1239, 1245, 1250, 1253, 1255, 1262, 1268, 1271, 1274, 1281, 1285, 1291, 1298, 1301, 1305, 1312, 1317, 1321, 1325, 1331, 1337],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1162, 1166, 1169, 1172, 1175, 1178, 1181],
+                "terminates": false,
+                "type": "Local",
+                "throughDestJa": "常陸太田",
+                "throughDestEn": "Hitachiota"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1217, 1221, 1224, 1228, 1231, 1233, 1236, 1240, 1244, 1246, 1253, 1265, 1270, 1273, 1277, 1281, 1286, 1290, 1296, 1308],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1282, 1285, 1288, 1291, 1294, 1297, 1299, 1303, 1307, 1310, 1316, 1322, 1326, 1330, 1334, 1338, 1343, 1347, 1353, 1365],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1350, 1353, 1357, 1360, 1363, 1365, 1368, 1372, 1375, 1378, 1384, 1390, 1395, 1398, 1402, 1406, 1411, 1415, 1421, 1433],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1397, 1400, 1403, 1407, 1409, 1411, 1413, 1417, 1421, 1424, 1430],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 19,
+                "startsHere": true,
+                "stops": [303, 309, 314, 318, 323, 327, 331, 335, 339, 345, 350, 353, 356, 360, 362, 365, 367, 370, 373, 377],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 19,
+                "startsHere": true,
+                "stops": [340, 346, 351, 355, 360, 364, 368, 372, 376, 382, 388, 390, 394, 400, 402, 405, 407, 411, 414, 418],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 28,
+                "startsHere": true,
+                "stops": [364, 367, 371, 376, 383, 386, 389, 394, 400, 416],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 40,
+                "startsHere": false,
+                "stops": [366, 372, 378, 385, 389, 394, 401, 404, 408, 415, 421, 425, 433, 436, 439, 448, 455, 457, 460, 465, 471, 480, 486, 491, 495, 500, 504, 508, 512, 516, 522, 528, 530, 534, 539, 541, 543, 545, 549, 552, 556],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 6,
+                "startsHere": false,
+                "stops": [389, 391, 395, 397, 401, 404, 408],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 19,
+                "startsHere": true,
+                "stops": [392, 397, 403, 407, 412, 416, 419, 423, 428, 434, 440, 442, 446, 454, 457, 462, 465, 468, 472, 476],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 10,
+                "startsHere": true,
+                "stops": [401, 407, 410, 414, 418, 420, 423, 426, 429, 432, 436],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 19,
+                "startsHere": true,
+                "stops": [411, 416, 422, 426, 431, 435, 439, 442, 447, 453, 459, 461, 465, 470, 472, 474, 477, 480, 483, 487],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 40,
+                "startsHere": false,
+                "stops": [435, 440, 446, 453, 457, 461, 469, 472, 476, 483, 489, 493, 501, 503, 507, 512, 519, 521, 525, 530, 535, 563, 569, 575, 579, 584, 588, 592, 596, 604, 611, 616, 619, 622, 629, 631, 635, 637, 640, 644, 648],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 6,
+                "startsHere": false,
+                "stops": [436, 438, 442, 445, 448, 452, 456],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 19,
+                "startsHere": true,
+                "stops": [443, 448, 456, 461, 466, 470, 473, 477, 481, 491, 496, 499, 502, 507, 509, 512, 514, 518, 521, 525],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 6,
+                "startsHere": false,
+                "stops": [488, 490, 492, 495, 498, 501, 505],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 40,
+                "startsHere": false,
+                "stops": [557, 563, 569, 573, 577, 581, 589, 592, 596, 604, 611, 615, 622, 625, 629, 634, 641, 644, 647, 652, 658, 683, 688, 694, 698, 703, 707, 710, 714, 719, 726, 731, 734, 737, 743, 745, 748, 751, 754, 757, 761],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 6,
+                "startsHere": false,
+                "stops": [571, 573, 577, 579, 583, 586, 590],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 10,
+                "startsHere": true,
+                "stops": [666, 672, 674, 678, 683, 686, 688, 691, 694, 697, 701],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 10,
+                "startsHere": true,
+                "stops": [792, 798, 800, 804, 809, 812, 814, 816, 820, 823, 827],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 40,
+                "startsHere": false,
+                "stops": [822, 828, 834, 838, 843, 848, 855, 859, 864, 871, 878, 882, 890, 893, 896, 905, 912, 914, 917, 922, 928, 944, 949, 955, 959, 964, 968, 971, 975, 980, 986, 991, 994, 997, 1001, 1003, 1006, 1008, 1011, 1014, 1018],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 19,
+                "startsHere": true,
+                "stops": [849, 854, 860, 864, 869, 873, 876, 880, 885, 891, 896, 899, 902, 906, 908, 911, 913, 917, 920, 924],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 6,
+                "startsHere": false,
+                "stops": [938, 940, 943, 946, 949, 952, 956],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 10,
+                "startsHere": true,
+                "stops": [950, 956, 959, 962, 967, 969, 971, 974, 977, 980, 984],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 40,
+                "startsHere": false,
+                "stops": [954, 960, 966, 969, 974, 978, 985, 989, 993, 999, 1006, 1010, 1018, 1021, 1024, 1034, 1041, 1043, 1046, 1051, 1057, 1067, 1072, 1078, 1082, 1087, 1091, 1094, 1098, 1103, 1109, 1114, 1117, 1121, 1126, 1128, 1135, 1137, 1140, 1143, 1147],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 6,
+                "startsHere": false,
+                "stops": [986, 988, 991, 993, 997, 1000, 1004],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 19,
+                "startsHere": true,
+                "stops": [1001, 1007, 1013, 1017, 1022, 1026, 1033, 1037, 1041, 1047, 1053, 1055, 1059, 1067, 1069, 1072, 1074, 1078, 1081, 1085],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 40,
+                "startsHere": false,
+                "stops": [1011, 1016, 1022, 1029, 1034, 1038, 1046, 1049, 1053, 1067, 1073, 1078, 1086, 1089, 1092, 1103, 1110, 1113, 1116, 1121, 1127, 1143],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 10,
+                "startsHere": true,
+                "stops": [1094, 1100, 1102, 1106, 1111, 1114, 1117, 1119, 1122, 1126, 1130],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 40,
+                "startsHere": false,
+                "stops": [1098, 1105, 1111, 1116, 1120, 1125, 1133, 1136, 1140, 1147, 1153, 1157, 1164, 1167, 1170, 1176, 1183, 1185, 1188, 1193, 1199, 1215],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 19,
+                "startsHere": true,
+                "stops": [1147, 1153, 1158, 1163, 1168, 1172, 1175, 1179, 1193, 1200, 1205, 1208, 1212, 1226, 1228, 1231, 1233, 1237, 1240, 1244],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 6,
+                "startsHere": false,
+                "stops": [1170, 1172, 1175, 1178, 1181, 1184, 1188],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 40,
+                "startsHere": false,
+                "stops": [1184, 1194, 1199, 1203, 1207, 1212, 1219, 1223, 1226],
+                "terminates": false,
+                "type": "Local",
+                "throughDestJa": "磐城石川",
+                "throughDestEn": "磐城石川"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 19,
+                "startsHere": true,
+                "stops": [1228, 1234, 1240, 1244, 1249, 1253, 1257, 1261, 1265, 1272, 1277, 1280, 1283, 1289, 1292, 1294, 1297, 1300, 1303, 1307],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 40,
+                "startsHere": false,
+                "stops": [1297, 1303, 1309, 1321, 1325, 1330, 1337, 1340, 1344, 1350, 1357, 1361],
+                "terminates": false,
+                "type": "Local",
+                "throughDestJa": "磐城棚倉",
+                "throughDestEn": "磐城棚倉"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 19,
+                "startsHere": true,
+                "stops": [343, 350, 356, 361, 365, 367, 376, 382, 386, 389, 397, 401, 418, 426, 430, 434, 442, 448, 453, 456, 462, 468],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 31,
+                "startsHere": true,
+                "stops": [355, 362, 365, 369, 376, 381, 385, 389, 395, 401],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [370, 374, 377, 380, 382, 384, 390],
+                "terminates": false,
+                "type": "Local",
+                "throughDestJa": "常陸太田",
+                "throughDestEn": "Hitachiota"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [383, 386, 389, 392, 395, 397, 400, 404, 411, 413, 420, 428, 432, 439, 443, 447, 452, 456, 462],
+                "terminates": false,
+                "type": "Local",
+                "throughDestJa": "",
+                "throughDestEn": ""
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 19,
+                "startsHere": true,
+                "stops": [417, 424, 430, 435, 438, 440, 448, 454, 458, 462, 470, 475, 482, 489, 492, 496, 503, 508, 512, 516, 522, 528],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [428, 432, 435, 439, 442, 445, 451],
+                "terminates": false,
+                "type": "Local",
+                "throughDestJa": "常陸太田",
+                "throughDestEn": "Hitachiota"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [448, 452, 455, 459, 462, 464, 473, 477, 481, 484, 491, 497, 501, 508, 512, 516, 521, 525, 531, 544, 551, 557, 562, 565, 567, 574, 580, 583, 586, 593, 597, 605, 611, 615, 618, 625, 630, 634, 638, 644, 650],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [497, 502, 505, 508, 512, 514, 517],
+                "terminates": false,
+                "type": "Local",
+                "throughDestJa": "常陸太田",
+                "throughDestEn": "Hitachiota"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [548, 552, 555, 558, 561, 563, 585],
+                "terminates": false,
+                "type": "Local",
+                "throughDestJa": "常陸太田",
+                "throughDestEn": "Hitachiota"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [563, 567, 570, 574, 576, 579, 582, 586, 590, 592, 598, 604, 609, 612, 616, 620, 625, 629, 636, 666, 673, 678, 683, 687, 689, 696, 701, 704, 707, 715, 718, 726, 732, 736, 739, 747, 752, 756, 761, 767, 773],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [622, 625, 628, 632, 635, 637, 640, 644, 647, 650, 656],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [675, 678, 681, 685, 688, 691, 693, 697, 701, 704, 710, 719, 723, 727, 731, 735, 740, 744, 750],
+                "terminates": false,
+                "type": "Local",
+                "throughDestJa": "",
+                "throughDestEn": ""
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [735, 739, 742, 745, 748, 751, 753, 757, 761, 764, 770],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [793, 796, 799, 802, 804, 807, 809, 813, 817, 819, 826, 831, 836, 840, 844, 848, 853, 860, 865],
+                "terminates": false,
+                "type": "Local",
+                "throughDestJa": "",
+                "throughDestEn": ""
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [853, 856, 859, 863, 865, 867, 869, 873, 877, 880, 886],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 19,
+                "startsHere": true,
+                "stops": [874, 881, 887, 892, 895, 897, 904, 910, 914, 917, 925, 929, 937, 944, 947, 951, 958, 963, 969, 973, 979, 985],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [916, 920, 923, 926, 929, 931, 933, 937, 941, 944, 950, 956, 960, 972, 975, 979, 984, 989, 994, 1003, 1010, 1016, 1021, 1024, 1026, 1033, 1039, 1042, 1045, 1052, 1056, 1064, 1070, 1074, 1078, 1085, 1090, 1094, 1098, 1104, 1110],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [930, 934, 937, 940, 943, 945, 948],
+                "terminates": false,
+                "type": "Local",
+                "throughDestJa": "常陸太田",
+                "throughDestEn": "Hitachiota"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 19,
+                "startsHere": true,
+                "stops": [935, 942, 948, 953, 957, 959, 966, 972, 976, 980, 987, 991, 999, 1006, 1009, 1013, 1020, 1025, 1029, 1033, 1039, 1045],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [977, 981, 984, 988, 991, 993, 1003, 1007, 1010, 1013, 1019, 1025, 1029, 1033, 1037, 1041, 1046, 1050, 1056],
+                "terminates": false,
+                "type": "Local",
+                "throughDestJa": "",
+                "throughDestEn": ""
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1011, 1015, 1018, 1021, 1023, 1025, 1028],
+                "terminates": false,
+                "type": "Local",
+                "throughDestJa": "常陸太田",
+                "throughDestEn": "Hitachiota"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1046, 1050, 1053, 1056, 1059, 1061, 1066, 1070, 1074, 1076, 1082],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1058, 1062, 1065, 1068, 1072, 1074, 1077, 1081, 1085, 1087, 1094, 1103, 1107, 1111, 1115, 1119, 1124, 1128, 1134],
+                "terminates": false,
+                "type": "Local",
+                "throughDestJa": "",
+                "throughDestEn": ""
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 19,
+                "startsHere": true,
+                "stops": [1073, 1080, 1086, 1091, 1094, 1096, 1104, 1109, 1113, 1116, 1123, 1127, 1147, 1153, 1157, 1161, 1168, 1173, 1177, 1180, 1186, 1192],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1104, 1107, 1110, 1114, 1117, 1119, 1128],
+                "terminates": false,
+                "type": "Local",
+                "throughDestJa": "常陸太田",
+                "throughDestEn": "Hitachiota"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1122, 1126, 1129, 1132, 1135, 1137, 1140, 1144, 1148, 1150, 1157, 1163, 1167, 1175, 1179, 1183, 1188, 1193, 1199],
+                "terminates": false,
+                "type": "Local",
+                "throughDestJa": "",
+                "throughDestEn": ""
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1152, 1155, 1158, 1161, 1164, 1166, 1168, 1172, 1176, 1179, 1185, 1190, 1195, 1199, 1202, 1206, 1211, 1216, 1221, 1232, 1239, 1245, 1250, 1253, 1255, 1262, 1268, 1271, 1274, 1281, 1285, 1291, 1298, 1301, 1305, 1312, 1317, 1321, 1325, 1331, 1337],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1162, 1166, 1169, 1172, 1175, 1178, 1181],
+                "terminates": false,
+                "type": "Local",
+                "throughDestJa": "常陸太田",
+                "throughDestEn": "Hitachiota"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1217, 1221, 1224, 1228, 1231, 1233, 1236, 1240, 1244, 1246, 1253, 1265, 1270, 1273, 1277, 1281, 1286, 1290, 1296],
+                "terminates": false,
+                "type": "Local",
+                "throughDestJa": "",
+                "throughDestEn": ""
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1282, 1285, 1288, 1291, 1294, 1297, 1299, 1303, 1307, 1310, 1316, 1322, 1326, 1330, 1334, 1338, 1343, 1347, 1353],
+                "terminates": false,
+                "type": "Local",
+                "throughDestJa": "",
+                "throughDestEn": ""
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1350, 1353, 1357, 1360, 1363, 1365, 1368, 1372, 1375, 1378, 1384, 1390, 1395, 1398, 1402, 1406, 1411, 1415, 1421],
+                "terminates": false,
+                "type": "Local",
+                "throughDestJa": "",
+                "throughDestEn": ""
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1397, 1400, 1403, 1407, 1409, 1411, 1413, 1417, 1421, 1424, 1430],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 19,
+                "startsHere": true,
+                "stops": [303, 309, 314, 318, 323, 327, 331, 335, 339, 345, 350, 353, 356, 360, 362, 365, 367, 370, 373, 377],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 19,
+                "startsHere": true,
+                "stops": [340, 346, 351, 355, 360, 364, 368, 372, 376, 382, 388, 390, 394, 400, 402, 405, 407, 411, 414, 418],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 28,
+                "startsHere": true,
+                "stops": [364, 367, 371, 376, 383, 386, 389, 394, 400, 416],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 40,
+                "startsHere": false,
+                "stops": [366, 372, 378, 385, 389, 394, 401, 404, 408, 415, 421, 425, 433, 436, 439, 448, 455, 457, 460, 465, 471, 480, 486, 491, 495, 500, 504, 508, 512, 516, 522, 528, 530, 534, 539, 541, 543, 545, 549, 552, 556],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 6,
+                "startsHere": false,
+                "stops": [389, 391, 395, 397, 401, 404, 408],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 19,
+                "startsHere": true,
+                "stops": [392, 397, 403, 407, 412, 416, 419, 423, 428, 434, 440, 442, 446, 454, 457, 462, 465, 468, 472, 476],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 10,
+                "startsHere": true,
+                "stops": [401, 407, 410, 414, 418, 420, 423, 426, 429, 432, 436],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 19,
+                "startsHere": true,
+                "stops": [411, 416, 422, 426, 431, 435, 439, 442, 447, 453, 459, 461, 465, 470, 472, 474, 477, 480, 483, 487],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 40,
+                "startsHere": false,
+                "stops": [435, 440, 446, 453, 457, 461, 469, 472, 476, 483, 489, 493, 501, 503, 507, 512, 519, 521, 525, 530, 535, 563, 569, 575, 579, 584, 588, 592, 596, 604, 611, 616, 619, 622, 629, 631, 635, 637, 640, 644, 648],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 6,
+                "startsHere": false,
+                "stops": [436, 438, 442, 445, 448, 452, 456],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 19,
+                "startsHere": true,
+                "stops": [443, 448, 456, 461, 466, 470, 473, 477, 481, 491, 496, 499, 502, 507, 509, 512, 514, 518, 521, 525],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 6,
+                "startsHere": false,
+                "stops": [488, 490, 492, 495, 498, 501, 505],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 40,
+                "startsHere": false,
+                "stops": [557, 563, 569, 573, 577, 581, 589, 592, 596, 604, 611, 615, 622, 625, 629, 634, 641, 644, 647, 652, 658, 683, 688, 694, 698, 703, 707, 710, 714, 719, 726, 731, 734, 737, 743, 745, 748, 751, 754, 757, 761],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 6,
+                "startsHere": false,
+                "stops": [571, 573, 577, 579, 583, 586, 590],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 10,
+                "startsHere": true,
+                "stops": [666, 672, 674, 678, 683, 686, 688, 691, 694, 697, 701],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 10,
+                "startsHere": true,
+                "stops": [792, 798, 800, 804, 809, 812, 814, 816, 820, 823, 827],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 40,
+                "startsHere": false,
+                "stops": [822, 828, 834, 838, 843, 848, 855, 859, 864, 871, 878, 882, 890, 893, 896, 905, 912, 914, 917, 922, 928, 944, 949, 955, 959, 964, 968, 971, 975, 980, 986, 991, 994, 997, 1001, 1003, 1006, 1008, 1011, 1014, 1018],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 19,
+                "startsHere": true,
+                "stops": [849, 854, 860, 864, 869, 873, 876, 880, 885, 891, 896, 899, 902, 906, 908, 911, 913, 917, 920, 924],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 6,
+                "startsHere": false,
+                "stops": [938, 940, 943, 946, 949, 952, 956],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 10,
+                "startsHere": true,
+                "stops": [950, 956, 959, 962, 967, 969, 971, 974, 977, 980, 984],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 40,
+                "startsHere": false,
+                "stops": [954, 960, 966, 969, 974, 978, 985, 989, 993, 999, 1006, 1010, 1018, 1021, 1024, 1034, 1041, 1043, 1046, 1051, 1057, 1067, 1072, 1078, 1082, 1087, 1091, 1094, 1098, 1103, 1109, 1114, 1117, 1121, 1126, 1128, 1135, 1137, 1140, 1143, 1147],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 6,
+                "startsHere": false,
+                "stops": [986, 988, 991, 993, 997, 1000, 1004],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 19,
+                "startsHere": true,
+                "stops": [1001, 1007, 1013, 1017, 1022, 1026, 1033, 1037, 1041, 1047, 1053, 1055, 1059, 1067, 1069, 1072, 1074, 1078, 1081, 1085],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 40,
+                "startsHere": false,
+                "stops": [1011, 1016, 1022, 1029, 1034, 1038, 1046, 1049, 1053, 1067, 1073, 1078, 1086, 1089, 1092, 1103, 1110, 1113, 1116, 1121, 1127, 1143],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 10,
+                "startsHere": true,
+                "stops": [1094, 1100, 1102, 1106, 1111, 1114, 1117, 1119, 1122, 1126, 1130],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 40,
+                "startsHere": false,
+                "stops": [1098, 1105, 1111, 1116, 1120, 1125, 1133, 1136, 1140, 1147, 1153, 1157, 1164, 1167, 1170, 1176, 1183, 1185, 1188, 1193, 1199, 1215],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 19,
+                "startsHere": true,
+                "stops": [1147, 1153, 1158, 1163, 1168, 1172, 1175, 1179, 1193, 1200, 1205, 1208, 1212, 1226, 1228, 1231, 1233, 1237, 1240, 1244],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 6,
+                "startsHere": false,
+                "stops": [1170, 1172, 1175, 1178, 1181, 1184, 1188],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 40,
+                "startsHere": false,
+                "stops": [1184, 1194, 1199, 1203, 1207, 1212, 1219, 1223, 1226],
+                "terminates": false,
+                "type": "Local",
+                "throughDestJa": "磐城石川",
+                "throughDestEn": "磐城石川"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 19,
+                "startsHere": true,
+                "stops": [1228, 1234, 1240, 1244, 1249, 1253, 1257, 1261, 1265, 1272, 1277, 1280, 1283, 1289, 1292, 1294, 1297, 1300, 1303, 1307],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 40,
+                "startsHere": false,
+                "stops": [1297, 1303, 1309, 1321, 1325, 1330, 1337, 1340, 1344, 1350, 1357, 1361],
+                "terminates": false,
+                "type": "Local",
+                "throughDestJa": "磐城棚倉",
+                "throughDestEn": "磐城棚倉"
+            }
+        ],
+        "upHopTimesMinutes": [4, 3, 3, 2, 3, 2, 5, 4, 3, 6, 6, 5, 4, 3.5, 4, 5, 4, 6, 5.5, 16, 6, 5, 3, 2, 7, 7.5, 3, 3, 8, 4, 6.5, 7, 4, 3, 7, 5, 4, 5, 6, 6]
+    }
+]

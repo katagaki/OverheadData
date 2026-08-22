@@ -1,0 +1,363 @@
+[
+    {
+        "colorHex": "#2843BA",
+        "delayInfo": {
+            "checkMethodEn": "Check the Chiba Urban Monorail operation status page. Delays of 10 minutes or more are posted there.",
+            "checkMethodJa": "千葉都市モノレールの運行状況ページで確認できます。10分以上の遅れが発生または見込まれる場合に掲載されます。",
+            "statusPageURL": "https://chiba-monorail.co.jp/index.php/info-detail/",
+            "statusPageURLEn": "https://chiba-monorail.co.jp/index.php/info-detail/",
+            "xAccount": "@chibamonoPR"
+        },
+        "directions": [
+            {
+                "expressSaturdayHolidayRuns": [],
+                "expressWeekdayRuns": [],
+                "id": "static.RailDirection:ChibaMonorail.Line2.Chishirodai",
+                "intermediateOrigins": [],
+                "isAscending": true,
+                "nameEn": "For Tsuga & Chishirodai",
+                "nameJa": "都賀・千城台方面",
+                "saturdayHoliday": {
+                    "bands": [
+                        {
+                            "from": "05:42",
+                            "headwayMinutes": 30
+                        },
+                        {
+                            "from": "06:00",
+                            "headwayMinutes": 15
+                        },
+                        {
+                            "from": "07:00",
+                            "headwayMinutes": 12
+                        },
+                        {
+                            "from": "21:00",
+                            "headwayMinutes": 15
+                        },
+                        {
+                            "from": "24:00",
+                            "headwayMinutes": 60
+                        }
+                    ],
+                    "firstDeparture": "05:42",
+                    "lastDeparture": "24:08",
+                    "trainType": "Local"
+                },
+                "weekday": {
+                    "bands": [
+                        {
+                            "from": "05:42",
+                            "headwayMinutes": 30
+                        },
+                        {
+                            "from": "06:00",
+                            "headwayMinutes": 10
+                        },
+                        {
+                            "from": "07:00",
+                            "headwayMinutes": 6.5
+                        },
+                        {
+                            "from": "08:00",
+                            "headwayMinutes": 6
+                        },
+                        {
+                            "from": "09:00",
+                            "headwayMinutes": 10
+                        },
+                        {
+                            "from": "10:00",
+                            "headwayMinutes": 12
+                        },
+                        {
+                            "from": "17:00",
+                            "headwayMinutes": 10
+                        },
+                        {
+                            "from": "18:00",
+                            "headwayMinutes": 8.5
+                        },
+                        {
+                            "from": "19:00",
+                            "headwayMinutes": 10
+                        },
+                        {
+                            "from": "20:00",
+                            "headwayMinutes": 12
+                        },
+                        {
+                            "from": "24:00",
+                            "headwayMinutes": 60
+                        }
+                    ],
+                    "firstDeparture": "05:42",
+                    "lastDeparture": "24:08",
+                    "trainType": "Local"
+                }
+            },
+            {
+                "expressSaturdayHolidayRuns": [],
+                "expressWeekdayRuns": [],
+                "id": "static.RailDirection:ChibaMonorail.Line2.Chiba",
+                "intermediateOrigins": [],
+                "isAscending": false,
+                "nameEn": "For Chiba & Chibaminato",
+                "nameJa": "千葉・千葉みなと方面",
+                "saturdayHoliday": {
+                    "bands": [
+                        {
+                            "from": "05:35",
+                            "headwayMinutes": 30
+                        },
+                        {
+                            "from": "06:00",
+                            "headwayMinutes": 12
+                        },
+                        {
+                            "from": "07:00",
+                            "headwayMinutes": 15
+                        },
+                        {
+                            "from": "08:00",
+                            "headwayMinutes": 12
+                        },
+                        {
+                            "from": "20:00",
+                            "headwayMinutes": 10
+                        },
+                        {
+                            "from": "21:00",
+                            "headwayMinutes": 15
+                        },
+                        {
+                            "from": "24:00",
+                            "headwayMinutes": 60
+                        }
+                    ],
+                    "firstDeparture": "05:35",
+                    "lastDeparture": "24:03",
+                    "trainType": "Local"
+                },
+                "weekday": {
+                    "bands": [
+                        {
+                            "from": "05:35",
+                            "headwayMinutes": 30
+                        },
+                        {
+                            "from": "06:00",
+                            "headwayMinutes": 6.5
+                        },
+                        {
+                            "from": "07:00",
+                            "headwayMinutes": 6
+                        },
+                        {
+                            "from": "08:00",
+                            "headwayMinutes": 8.5
+                        },
+                        {
+                            "from": "09:00",
+                            "headwayMinutes": 10
+                        },
+                        {
+                            "from": "10:00",
+                            "headwayMinutes": 12
+                        },
+                        {
+                            "from": "16:00",
+                            "headwayMinutes": 10
+                        },
+                        {
+                            "from": "17:00",
+                            "headwayMinutes": 8.5
+                        },
+                        {
+                            "from": "18:00",
+                            "headwayMinutes": 10
+                        },
+                        {
+                            "from": "21:00",
+                            "headwayMinutes": 12
+                        },
+                        {
+                            "from": "23:00",
+                            "headwayMinutes": 15
+                        },
+                        {
+                            "from": "24:00",
+                            "headwayMinutes": 60
+                        }
+                    ],
+                    "firstDeparture": "05:35",
+                    "lastDeparture": "24:03",
+                    "trainType": "Local"
+                }
+            }
+        ],
+        "hopTimesMinutes": [3, 1, 2, 2, 2, 2, 2, 3, 2, 2, 2, 2],
+        "id": "Railway:ChibaMonorail.Line2",
+        "isLoop": false,
+        "nameEn": "Chiba Urban Monorail Line 2",
+        "nameJa": "千葉都市モノレール2号線",
+        "operatorId": "Operator:ChibaMonorail",
+        "stations": [
+            {
+                "id": "Station:ChibaMonorail.Line2.Chiba",
+                "latitude": 35.613056,
+                "longitude": 140.113889,
+                "name": "千葉",
+                "nameEn": "Chiba",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "CM03"
+            },
+            {
+                "id": "Station:ChibaMonorail.Line2.Chibakoen",
+                "latitude": 35.61975,
+                "longitude": 140.117861,
+                "name": "千葉公園",
+                "nameEn": "Chiba-koen",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "CM04"
+            },
+            {
+                "id": "Station:ChibaMonorail.Line2.Sakusabe",
+                "latitude": 35.62575,
+                "longitude": 140.115222,
+                "name": "作草部",
+                "nameEn": "Sakusabe",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "CM05"
+            },
+            {
+                "id": "Station:ChibaMonorail.Line2.Tendai",
+                "latitude": 35.631389,
+                "longitude": 140.112778,
+                "name": "天台",
+                "nameEn": "Tendai",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "CM06"
+            },
+            {
+                "id": "Station:ChibaMonorail.Line2.Anagawa",
+                "latitude": 35.639583,
+                "longitude": 140.111917,
+                "name": "穴川",
+                "nameEn": "Anagawa",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "CM07"
+            },
+            {
+                "id": "Station:ChibaMonorail.Line2.SportsCenter",
+                "latitude": 35.643278,
+                "longitude": 140.116167,
+                "name": "スポーツセンター",
+                "nameEn": "Sports Center",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "CM08"
+            },
+            {
+                "id": "Station:ChibaMonorail.Line2.Dobutsukoen",
+                "latitude": 35.642556,
+                "longitude": 140.125556,
+                "name": "動物公園",
+                "nameEn": "Dobutsukoen",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "CM09"
+            },
+            {
+                "id": "Station:ChibaMonorail.Line2.Mitsuwadai",
+                "latitude": 35.638667,
+                "longitude": 140.134917,
+                "name": "みつわ台",
+                "nameEn": "Mitsuwadai",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "CM10"
+            },
+            {
+                "id": "Station:ChibaMonorail.Line2.Tsuga",
+                "latitude": 35.636083,
+                "longitude": 140.149194,
+                "name": "都賀",
+                "nameEn": "Tsuga",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "CM11"
+            },
+            {
+                "id": "Station:ChibaMonorail.Line2.Sakuragi",
+                "latitude": 35.63125,
+                "longitude": 140.161028,
+                "name": "桜木",
+                "nameEn": "Sakuragi",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "CM12"
+            },
+            {
+                "id": "Station:ChibaMonorail.Line2.Oguradai",
+                "latitude": 35.627694,
+                "longitude": 140.17175,
+                "name": "小倉台",
+                "nameEn": "Oguradai",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "CM13"
+            },
+            {
+                "id": "Station:ChibaMonorail.Line2.Chishirodaikita",
+                "latitude": 35.627417,
+                "longitude": 140.182,
+                "name": "千城台北",
+                "nameEn": "Chishirodai-kita",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "CM14"
+            },
+            {
+                "id": "Station:ChibaMonorail.Line2.Chishirodai",
+                "latitude": 35.622361,
+                "longitude": 140.188472,
+                "name": "千城台",
+                "nameEn": "Chishirodai",
+                "nameKo": "",
+                "nameZhHans": "",
+                "nameZhHant": "",
+                "stationCode": "CM15"
+            }
+        ],
+        "stopPatterns": [],
+        "throughServices": [
+            {
+                "connectingLineId": "Railway:ChibaMonorail.Line1",
+                "end": "descending",
+                "junctionStationId": "Station:ChibaMonorail.Line2.Chiba",
+                "lineNameEn": "Chiba Urban Monorail Line 1",
+                "lineNameJa": "千葉都市モノレール1号線",
+                "towardEn": "for Chibaminato",
+                "towardJa": "千葉みなと方面"
+            }
+        ]
+    }
+]
