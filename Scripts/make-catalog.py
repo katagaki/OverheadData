@@ -24,6 +24,14 @@ def read_segments():
     return json.load(open(path))["segments"]
 
 
+def read_operators():
+    """Operator names, ordering, and search aliases live in the data."""
+    path = os.path.join(ROOT, "Operators.json")
+    if not os.path.exists(path):
+        return []
+    return json.load(open(path))["operators"]
+
+
 def build():
     lines, stations = [], []
     for folder_path in sorted(glob.glob(os.path.join(ROOT, "Lines", "*", ""))):
@@ -82,11 +90,18 @@ def build():
         if entry.get("segment") and entry["segment"] not in known_segments:
             sys.exit(f"{entry['folder']}: unknown segment {entry['segment']}")
 
+    operators = read_operators()
+    known_operators = {o["id"] for o in operators}
+    for entry in lines:
+        if known_operators and entry["operatorId"] not in known_operators:
+            sys.exit(f"{entry['folder']}: unknown operator {entry['operatorId']}")
+
     catalog = {
         "schemaVersion": SCHEMA_VERSION,
         "version": read_version(),
         "styles": styles,
         "segments": segments,
+        "operators": operators,
         "lines": lines,
         "stations": stations,
     }
