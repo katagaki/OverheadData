@@ -28,12 +28,22 @@ jobs:
           ref: ${{ inputs.overheadRef || vars.OVERHEAD_REF || 'main' }}
           path: Overhead
 
+      - name: Data is formatted
+        working-directory: OverheadData
+        run: |
+          ./Scripts/format-data.swift
+          if ! git diff --quiet -- Lines Operators.json Segments.json; then
+            echo "::error::data is unformatted — run Scripts/format-data.swift and commit it"
+            git --no-pager diff --stat -- Lines Operators.json Segments.json
+            exit 1
+          fi
+
       - name: Catalog is up to date
         working-directory: OverheadData
         run: |
-          python3 Scripts/make-catalog.py
+          ./Scripts/make-catalog.swift
           if ! git diff --quiet catalog.json; then
-            echo "::error::catalog.json is stale — run Scripts/make-catalog.py and commit it"
+            echo "::error::catalog.json is stale — run Scripts/make-catalog.swift and commit it"
             git --no-pager diff --stat catalog.json
             exit 1
           fi
