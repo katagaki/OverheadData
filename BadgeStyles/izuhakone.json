@@ -1,0 +1,60 @@
+{
+    "id": "izuhakone",
+    "nameJa": "伊豆箱根鉄道",
+    "nameEn": "Izuhakone Railway",
+    "colors": {
+        "letter": "#FFFFFF",
+        "plate": "#0173BC"
+    },
+    "line": {
+        "layers": [
+            {
+                "shape": "circle",
+                "fill": "$plate"
+            }
+        ],
+        "color": "$letter",
+        "size": 17,
+        "minimumScaleFactor": 0.5,
+        "kerning": true,
+        "family": "Hind-Bold",
+        "sizeMulti": 17,
+        "insetH": 5,
+        "nudgeBase": 15,
+        "nudgeBaseMulti": 15
+    },
+    "station": {
+        "spacing": 1,
+        "rows": [
+            {
+                "kind": "prefix",
+                "sizeRatio": 0.44,
+                "family": "Hind-Bold",
+                "heightRatio": 0.36,
+                "offsetYRatio": 0.11,
+                "fullWidth": true
+            },
+            {
+                "kind": "number",
+                "sizeRatio": 0.6,
+                "family": "Hind-Bold",
+                "heightRatio": 0.46,
+                "offsetYRatio": -0.03,
+                "fullWidth": true
+            }
+        ],
+        "solo": {
+            "kind": "number",
+            "sizeRatio": 0.6,
+            "family": "Hind-Bold"
+        },
+        "layers": [
+            {
+                "shape": "circle",
+                "fill": "$plate"
+            }
+        ],
+        "color": "$letter",
+        "minimumScaleFactor": 0.6
+    }
+}
