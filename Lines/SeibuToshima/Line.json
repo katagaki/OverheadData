@@ -2,10 +2,14 @@
     {
         "colorHex": "#FF710A",
         "delayInfo": {
-            "checkMethodEn": "Check the Seibu Railway service status page, the Seibu app, or X (@seiburailway). Delays of roughly 15 minutes or more and suspensions are posted.",
-            "checkMethodJa": "西武鉄道「運行情報」ページ、西武線アプリ、またはX（@seiburailway）で確認できます。おおむね15分以上の遅延・運転見合わせが発生した場合に掲載されます。",
-            "statusPageURL": "https://www.seiburailway.jp/railway/railwayinfo/",
-            "statusPageURLEn": "https://www.seiburailway.jp/en/railway/railwayinfo/",
+            "checkMethod": {
+                "en": "Check the Seibu Railway service status page, the Seibu app, or X (@seiburailway). Delays of roughly 15 minutes or more and suspensions are posted.",
+                "ja": "西武鉄道「運行情報」ページ、西武線アプリ、またはX（@seiburailway）で確認できます。おおむね15分以上の遅延・運転見合わせが発生した場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://www.seiburailway.jp/en/railway/railwayinfo/",
+                "ja": "https://www.seiburailway.jp/railway/railwayinfo/"
+            },
             "xAccount": "@seiburailway"
         },
         "directions": [
@@ -15,17 +19,19 @@
                 "id": "static.RailDirection:Seibu.Toshima.Toshimaen",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Toshimaen",
-                "nameJa": "豊島園方面",
+                "name": {
+                    "en": "For Toshimaen",
+                    "ja": "豊島園方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
                             "from": "05:20",
-                            "headwayMinutes": 19.0
+                            "headwayMinutes": 19
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 17.0
+                            "headwayMinutes": 17
                         },
                         {
                             "from": "07:00",
@@ -33,19 +39,19 @@
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 13.0
+                            "headwayMinutes": 13
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 14.0
+                            "headwayMinutes": 14
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 13.0
+                            "headwayMinutes": 13
                         },
                         {
                             "from": "11:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "14:00",
@@ -57,11 +63,11 @@
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 16.0
+                            "headwayMinutes": 16
                         },
                         {
                             "from": "19:00",
@@ -69,19 +75,19 @@
                         },
                         {
                             "from": "20:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "21:00",
-                            "headwayMinutes": 14.0
+                            "headwayMinutes": 14
                         },
                         {
                             "from": "22:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "23:00",
-                            "headwayMinutes": 19.0
+                            "headwayMinutes": 19
                         }
                     ],
                     "firstDeparture": "05:20",
@@ -92,15 +98,15 @@
                     "bands": [
                         {
                             "from": "05:20",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 16.0
+                            "headwayMinutes": 16
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 14.0
+                            "headwayMinutes": 14
                         },
                         {
                             "from": "08:00",
@@ -108,15 +114,15 @@
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 14.0
+                            "headwayMinutes": 14
                         },
                         {
                             "from": "11:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "15:00",
-                            "headwayMinutes": 16.0
+                            "headwayMinutes": 16
                         },
                         {
                             "from": "16:00",
@@ -128,7 +134,7 @@
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "21:00",
@@ -136,11 +142,11 @@
                         },
                         {
                             "from": "22:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "23:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         }
                     ],
                     "firstDeparture": "05:20",
@@ -154,8 +160,10 @@
                 "id": "static.RailDirection:Seibu.Toshima.Nerima",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Nerima",
-                "nameJa": "練馬方面",
+                "name": {
+                    "en": "For Nerima",
+                    "ja": "練馬方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -164,15 +172,15 @@
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 14.0
+                            "headwayMinutes": 14
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "09:00",
@@ -180,7 +188,7 @@
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 14.0
+                            "headwayMinutes": 14
                         },
                         {
                             "from": "11:00",
@@ -188,7 +196,7 @@
                         },
                         {
                             "from": "12:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "14:00",
@@ -200,11 +208,11 @@
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 14.0
+                            "headwayMinutes": 14
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "19:00",
@@ -212,11 +220,11 @@
                         },
                         {
                             "from": "20:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "23:00",
-                            "headwayMinutes": 19.0
+                            "headwayMinutes": 19
                         }
                     ],
                     "firstDeparture": "05:31",
@@ -235,19 +243,19 @@
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 14.0
+                            "headwayMinutes": 14
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 12.0
+                            "headwayMinutes": 12
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 14.0
+                            "headwayMinutes": 14
                         },
                         {
                             "from": "11:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "16:00",
@@ -255,11 +263,11 @@
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 17.0
+                            "headwayMinutes": 17
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "21:00",
@@ -280,33 +288,42 @@
                 }
             }
         ],
-        "hopTimesMinutes": [2.0],
+        "hopTimesMinutes": [2],
         "id": "Railway:Seibu.Toshima",
         "isLoop": false,
-        "nameEn": "Seibu Toshima Line",
-        "nameJa": "西武豊島線",
+        "name": {
+            "en": "Seibu Toshima Line",
+            "ja": "西武豊島線",
+            "ko": "세이부 철도 도시마 선",
+            "zh-Hans": "丰岛线",
+            "zh-Hant": "丰島線"
+        },
         "operatorId": "Operator:Seibu",
         "stations": [
             {
                 "id": "Station:Seibu.Toshima.Nerima",
                 "latitude": 35.73783,
                 "longitude": 139.65356,
-                "name": "練馬",
-                "nameEn": "Nerima",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nerima",
+                    "ja": "練馬",
+                    "ko": "네리마",
+                    "zh-Hans": "练马",
+                    "zh-Hant": "練馬"
+                },
                 "stationCode": "SI06"
             },
             {
                 "id": "Station:Seibu.Toshima.Toshimaen",
                 "latitude": 35.74193,
                 "longitude": 139.64792,
-                "name": "豊島園",
-                "nameEn": "Toshimaen",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Toshimaen",
+                    "ja": "豊島園",
+                    "ko": "도시마엔",
+                    "zh-Hans": "丰岛园",
+                    "zh-Hant": "豐島園"
+                },
                 "stationCode": "SI39"
             }
         ],
@@ -995,8 +1012,10 @@
                 "startsHere": true,
                 "stops": [331, 335],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -1006,8 +1025,10 @@
                 "startsHere": true,
                 "stops": [350, 353],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -1017,8 +1038,10 @@
                 "startsHere": true,
                 "stops": [366, 370],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -1028,8 +1051,10 @@
                 "startsHere": true,
                 "stops": [383, 385],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -1039,8 +1064,10 @@
                 "startsHere": true,
                 "stops": [397, 400],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -1050,8 +1077,10 @@
                 "startsHere": true,
                 "stops": [407, 409],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -1061,8 +1090,10 @@
                 "startsHere": true,
                 "stops": [423, 426],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -1072,8 +1103,10 @@
                 "startsHere": true,
                 "stops": [436, 440],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -1083,8 +1116,10 @@
                 "startsHere": true,
                 "stops": [451, 455],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -1094,8 +1129,10 @@
                 "startsHere": true,
                 "stops": [468, 475],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -1105,8 +1142,10 @@
                 "startsHere": true,
                 "stops": [480, 484],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -1116,8 +1155,10 @@
                 "startsHere": true,
                 "stops": [493, 499],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -1127,8 +1168,10 @@
                 "startsHere": true,
                 "stops": [509, 513],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -1138,8 +1181,10 @@
                 "startsHere": true,
                 "stops": [524, 527],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -1149,8 +1194,10 @@
                 "startsHere": true,
                 "stops": [534, 537],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -1160,8 +1207,10 @@
                 "startsHere": true,
                 "stops": [552, 557],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -1171,8 +1220,10 @@
                 "startsHere": true,
                 "stops": [568, 574],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -1182,8 +1233,10 @@
                 "startsHere": true,
                 "stops": [582, 588],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -1193,8 +1246,10 @@
                 "startsHere": true,
                 "stops": [591, 596],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -1204,8 +1259,10 @@
                 "startsHere": true,
                 "stops": [600, 604],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -1215,8 +1272,10 @@
                 "startsHere": true,
                 "stops": [612, 618],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -1226,8 +1285,10 @@
                 "startsHere": true,
                 "stops": [622, 627],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -1237,8 +1298,10 @@
                 "startsHere": true,
                 "stops": [638, 642],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -1248,8 +1311,10 @@
                 "startsHere": true,
                 "stops": [652, 657],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -1259,8 +1324,10 @@
                 "startsHere": true,
                 "stops": [668, 672],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -1270,8 +1337,10 @@
                 "startsHere": true,
                 "stops": [682, 688],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -1281,8 +1350,10 @@
                 "startsHere": true,
                 "stops": [698, 702],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -1292,8 +1363,10 @@
                 "startsHere": true,
                 "stops": [712, 717],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -1303,8 +1376,10 @@
                 "startsHere": true,
                 "stops": [727, 732],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -1314,8 +1389,10 @@
                 "startsHere": true,
                 "stops": [742, 748],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -1325,8 +1402,10 @@
                 "startsHere": true,
                 "stops": [758, 762],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -1336,8 +1415,10 @@
                 "startsHere": true,
                 "stops": [772, 777],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -1347,8 +1428,10 @@
                 "startsHere": true,
                 "stops": [787, 792],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -1358,8 +1441,10 @@
                 "startsHere": true,
                 "stops": [802, 808],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -1369,8 +1454,10 @@
                 "startsHere": true,
                 "stops": [818, 822],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -1380,8 +1467,10 @@
                 "startsHere": true,
                 "stops": [832, 837],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -1391,8 +1480,10 @@
                 "startsHere": true,
                 "stops": [847, 852],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -1402,8 +1493,10 @@
                 "startsHere": true,
                 "stops": [862, 868],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -1413,8 +1506,10 @@
                 "startsHere": true,
                 "stops": [878, 882],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -1424,8 +1519,10 @@
                 "startsHere": true,
                 "stops": [892, 897],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -1435,8 +1532,10 @@
                 "startsHere": true,
                 "stops": [908, 912],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -1446,8 +1545,10 @@
                 "startsHere": true,
                 "stops": [922, 928],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -1457,8 +1558,10 @@
                 "startsHere": true,
                 "stops": [938, 942],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -1468,8 +1571,10 @@
                 "startsHere": true,
                 "stops": [952, 957],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -1479,8 +1584,10 @@
                 "startsHere": true,
                 "stops": [967, 970],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -1490,8 +1597,10 @@
                 "startsHere": true,
                 "stops": [982, 987],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -1501,8 +1610,10 @@
                 "startsHere": true,
                 "stops": [998, 1002],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -1512,8 +1623,10 @@
                 "startsHere": true,
                 "stops": [1012, 1018],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -1523,8 +1636,10 @@
                 "startsHere": true,
                 "stops": [1018, 1022],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -1534,8 +1649,10 @@
                 "startsHere": true,
                 "stops": [1028, 1031],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -1545,8 +1662,10 @@
                 "startsHere": true,
                 "stops": [1043, 1047],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -1556,8 +1675,10 @@
                 "startsHere": true,
                 "stops": [1057, 1060],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -1567,8 +1688,10 @@
                 "startsHere": true,
                 "stops": [1073, 1077],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -1578,8 +1701,10 @@
                 "startsHere": true,
                 "stops": [1088, 1091],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -1589,8 +1714,10 @@
                 "startsHere": true,
                 "stops": [1103, 1107],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -1600,8 +1727,10 @@
                 "startsHere": true,
                 "stops": [1117, 1120],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -1611,8 +1740,10 @@
                 "startsHere": true,
                 "stops": [1134, 1136],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -1622,8 +1753,10 @@
                 "startsHere": true,
                 "stops": [1149, 1152],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -1633,8 +1766,10 @@
                 "startsHere": true,
                 "stops": [1163, 1167],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -1644,8 +1779,10 @@
                 "startsHere": true,
                 "stops": [1179, 1182],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -1655,8 +1792,10 @@
                 "startsHere": true,
                 "stops": [1194, 1197],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -1666,8 +1805,10 @@
                 "startsHere": true,
                 "stops": [1207, 1210],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -1677,8 +1818,10 @@
                 "startsHere": true,
                 "stops": [1222, 1225],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -1688,8 +1831,10 @@
                 "startsHere": true,
                 "stops": [1237, 1240],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -1699,8 +1844,10 @@
                 "startsHere": true,
                 "stops": [1252, 1255],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -1710,8 +1857,10 @@
                 "startsHere": true,
                 "stops": [1267, 1270],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -1721,8 +1870,10 @@
                 "startsHere": true,
                 "stops": [1282, 1285],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -1732,8 +1883,10 @@
                 "startsHere": true,
                 "stops": [1297, 1299],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -1743,8 +1896,10 @@
                 "startsHere": true,
                 "stops": [1312, 1314],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -1754,8 +1909,10 @@
                 "startsHere": true,
                 "stops": [1326, 1329],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -1765,8 +1922,10 @@
                 "startsHere": true,
                 "stops": [1342, 1345],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -1776,8 +1935,10 @@
                 "startsHere": true,
                 "stops": [1357, 1360],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -1787,8 +1948,10 @@
                 "startsHere": true,
                 "stops": [1372, 1377],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -1798,8 +1961,10 @@
                 "startsHere": true,
                 "stops": [1384, 1387],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -1809,8 +1974,10 @@
                 "startsHere": true,
                 "stops": [1402, 1406],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -1820,8 +1987,10 @@
                 "startsHere": true,
                 "stops": [1422, 1427],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -2524,8 +2693,10 @@
                 "startsHere": true,
                 "stops": [331, 335],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -2535,8 +2706,10 @@
                 "startsHere": true,
                 "stops": [350, 353],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -2546,8 +2719,10 @@
                 "startsHere": true,
                 "stops": [366, 372],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -2557,8 +2732,10 @@
                 "startsHere": true,
                 "stops": [382, 384],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -2568,8 +2745,10 @@
                 "startsHere": true,
                 "stops": [397, 399],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -2579,8 +2758,10 @@
                 "startsHere": true,
                 "stops": [411, 414],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -2590,8 +2771,10 @@
                 "startsHere": true,
                 "stops": [423, 427],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -2601,8 +2784,10 @@
                 "startsHere": true,
                 "stops": [429, 432],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -2612,8 +2797,10 @@
                 "startsHere": true,
                 "stops": [440, 442],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -2623,8 +2810,10 @@
                 "startsHere": true,
                 "stops": [455, 458],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -2634,8 +2823,10 @@
                 "startsHere": true,
                 "stops": [470, 473],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -2645,8 +2836,10 @@
                 "startsHere": true,
                 "stops": [484, 487],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -2656,8 +2849,10 @@
                 "startsHere": true,
                 "stops": [499, 503],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -2667,8 +2862,10 @@
                 "startsHere": true,
                 "stops": [511, 514],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -2678,8 +2875,10 @@
                 "startsHere": true,
                 "stops": [521, 526],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -2689,8 +2888,10 @@
                 "startsHere": true,
                 "stops": [527, 531],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -2700,8 +2901,10 @@
                 "startsHere": true,
                 "stops": [540, 544],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -2711,8 +2914,10 @@
                 "startsHere": true,
                 "stops": [548, 551],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -2722,8 +2927,10 @@
                 "startsHere": true,
                 "stops": [559, 562],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -2733,8 +2940,10 @@
                 "startsHere": true,
                 "stops": [573, 576],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -2744,8 +2953,10 @@
                 "startsHere": true,
                 "stops": [588, 592],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -2755,8 +2966,10 @@
                 "startsHere": true,
                 "stops": [602, 605],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -2766,8 +2979,10 @@
                 "startsHere": true,
                 "stops": [609, 612],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -2777,8 +2992,10 @@
                 "startsHere": true,
                 "stops": [622, 627],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -2788,8 +3005,10 @@
                 "startsHere": true,
                 "stops": [638, 642],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -2799,8 +3018,10 @@
                 "startsHere": true,
                 "stops": [652, 657],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -2810,8 +3031,10 @@
                 "startsHere": true,
                 "stops": [667, 672],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -2821,8 +3044,10 @@
                 "startsHere": true,
                 "stops": [682, 688],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -2832,8 +3057,10 @@
                 "startsHere": true,
                 "stops": [698, 702],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -2843,8 +3070,10 @@
                 "startsHere": true,
                 "stops": [712, 717],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -2854,8 +3083,10 @@
                 "startsHere": true,
                 "stops": [727, 732],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -2865,8 +3096,10 @@
                 "startsHere": true,
                 "stops": [742, 748],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -2876,8 +3109,10 @@
                 "startsHere": true,
                 "stops": [758, 762],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -2887,8 +3122,10 @@
                 "startsHere": true,
                 "stops": [772, 777],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -2898,8 +3135,10 @@
                 "startsHere": true,
                 "stops": [787, 792],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -2909,8 +3148,10 @@
                 "startsHere": true,
                 "stops": [802, 808],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -2920,8 +3161,10 @@
                 "startsHere": true,
                 "stops": [818, 822],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -2931,8 +3174,10 @@
                 "startsHere": true,
                 "stops": [832, 837],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -2942,8 +3187,10 @@
                 "startsHere": true,
                 "stops": [847, 852],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -2953,8 +3200,10 @@
                 "startsHere": true,
                 "stops": [862, 868],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -2964,8 +3213,10 @@
                 "startsHere": true,
                 "stops": [878, 882],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -2975,8 +3226,10 @@
                 "startsHere": true,
                 "stops": [892, 897],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -2986,8 +3239,10 @@
                 "startsHere": true,
                 "stops": [907, 912],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -2997,8 +3252,10 @@
                 "startsHere": true,
                 "stops": [922, 928],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -3008,8 +3265,10 @@
                 "startsHere": true,
                 "stops": [938, 942],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -3019,8 +3278,10 @@
                 "startsHere": true,
                 "stops": [952, 957],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -3030,8 +3291,10 @@
                 "startsHere": true,
                 "stops": [967, 970],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -3041,8 +3304,10 @@
                 "startsHere": true,
                 "stops": [982, 988],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -3052,8 +3317,10 @@
                 "startsHere": true,
                 "stops": [998, 1002],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -3063,8 +3330,10 @@
                 "startsHere": true,
                 "stops": [1012, 1016],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -3074,8 +3343,10 @@
                 "startsHere": true,
                 "stops": [1029, 1032],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -3085,8 +3356,10 @@
                 "startsHere": true,
                 "stops": [1047, 1052],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -3096,8 +3369,10 @@
                 "startsHere": true,
                 "stops": [1064, 1070],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -3107,8 +3382,10 @@
                 "startsHere": true,
                 "stops": [1081, 1084],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -3118,8 +3395,10 @@
                 "startsHere": true,
                 "stops": [1097, 1102],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -3129,8 +3408,10 @@
                 "startsHere": true,
                 "stops": [1111, 1114],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -3140,8 +3421,10 @@
                 "startsHere": true,
                 "stops": [1127, 1132],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -3151,8 +3434,10 @@
                 "startsHere": true,
                 "stops": [1141, 1144],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -3162,8 +3447,10 @@
                 "startsHere": true,
                 "stops": [1156, 1162],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -3173,8 +3460,10 @@
                 "startsHere": true,
                 "stops": [1171, 1174],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -3184,8 +3473,10 @@
                 "startsHere": true,
                 "stops": [1186, 1189],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -3195,8 +3486,10 @@
                 "startsHere": true,
                 "stops": [1201, 1204],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -3206,8 +3499,10 @@
                 "startsHere": true,
                 "stops": [1216, 1219],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -3217,8 +3512,10 @@
                 "startsHere": true,
                 "stops": [1231, 1234],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -3228,8 +3525,10 @@
                 "startsHere": true,
                 "stops": [1246, 1249],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -3239,8 +3538,10 @@
                 "startsHere": true,
                 "stops": [1259, 1263],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -3250,8 +3551,10 @@
                 "startsHere": true,
                 "stops": [1272, 1277],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -3261,8 +3564,10 @@
                 "startsHere": true,
                 "stops": [1289, 1291],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -3272,8 +3577,10 @@
                 "startsHere": true,
                 "stops": [1298, 1300],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -3283,8 +3590,10 @@
                 "startsHere": true,
                 "stops": [1312, 1314],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -3294,8 +3603,10 @@
                 "startsHere": true,
                 "stops": [1327, 1330],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -3305,8 +3616,10 @@
                 "startsHere": true,
                 "stops": [1343, 1346],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -3316,8 +3629,10 @@
                 "startsHere": true,
                 "stops": [1358, 1361],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -3327,8 +3642,10 @@
                 "startsHere": true,
                 "stops": [1373, 1376],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -3338,8 +3655,10 @@
                 "startsHere": true,
                 "stops": [1393, 1396],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -3349,8 +3668,10 @@
                 "startsHere": true,
                 "stops": [1410, 1412],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -3360,11 +3681,13 @@
                 "startsHere": true,
                 "stops": [1422, 1425],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             }
         ],
-        "upHopTimesMinutes": [3.0]
+        "upHopTimesMinutes": [3]
     }
 ]

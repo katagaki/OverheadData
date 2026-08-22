@@ -2,10 +2,14 @@
     {
         "colorHex": "#0067C0",
         "delayInfo": {
-            "checkMethodEn": "Check the Saitama Railway website. Delays and suspensions are posted as they occur.",
-            "checkMethodJa": "埼玉高速鉄道の公式サイトで確認できます。遅延・運転見合わせが発生した場合に掲載されます。",
-            "statusPageURL": "https://www.s-rail.co.jp/ticket/train/",
-            "statusPageURLEn": "https://www.s-rail.co.jp/ticket/train/",
+            "checkMethod": {
+                "en": "Check the Saitama Railway website. Delays and suspensions are posted as they occur.",
+                "ja": "埼玉高速鉄道の公式サイトで確認できます。遅延・運転見合わせが発生した場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://www.s-rail.co.jp/ticket/train/",
+                "ja": "https://www.s-rail.co.jp/ticket/train/"
+            },
             "xAccount": "@srail_info"
         },
         "directions": [
@@ -15,8 +19,10 @@
                 "id": "static.RailDirection:SaitamaRailway.SaitamaRailway.UrawaMisono",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Urawa-misono",
-                "nameJa": "浦和美園方面",
+                "name": {
+                    "en": "For Urawa-misono",
+                    "ja": "浦和美園方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -78,8 +84,10 @@
                 "id": "static.RailDirection:SaitamaRailway.SaitamaRailway.AkabaneIwabuchi",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Akabane-iwabuchi & Meguro",
-                "nameJa": "赤羽岩淵・目黒方面",
+                "name": {
+                    "en": "For Akabane-iwabuchi & Meguro",
+                    "ja": "赤羽岩淵・目黒方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -139,96 +147,117 @@
         "hopTimesMinutes": [2, 2, 2, 2, 2, 3, 3],
         "id": "Railway:SaitamaRailway.SaitamaRailway",
         "isLoop": false,
-        "nameEn": "Saitama Rapid Railway Line",
-        "nameJa": "埼玉高速鉄道線",
+        "name": {
+            "en": "Saitama Rapid Railway Line",
+            "ja": "埼玉高速鉄道線",
+            "ko": "사이타마 고속 철도선",
+            "zh-Hans": "埼玉高速铁道线",
+            "zh-Hant": "埼玉高速鐵道線"
+        },
         "operatorId": "Operator:SaitamaRailway",
         "stations": [
             {
                 "id": "Station:SaitamaRailway.SaitamaRailway.AkabaneIwabuchi",
                 "latitude": 35.7837,
                 "longitude": 139.7217,
-                "name": "赤羽岩淵",
-                "nameEn": "Akabane-iwabuchi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Akabane-iwabuchi",
+                    "ja": "赤羽岩淵",
+                    "ko": "아카바네이와부치",
+                    "zh-Hans": "赤羽岩渊",
+                    "zh-Hant": "赤羽岩淵"
+                },
                 "stationCode": "SR19"
             },
             {
                 "id": "Station:SaitamaRailway.SaitamaRailway.KawaguchiMotogo",
                 "latitude": 35.800121,
                 "longitude": 139.730005,
-                "name": "川口元郷",
-                "nameEn": "Kawaguchi-motogo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kawaguchi-motogo",
+                    "ja": "川口元郷",
+                    "ko": "가와구치모토고",
+                    "zh-Hans": "川口元乡",
+                    "zh-Hant": "川口元鄉"
+                },
                 "stationCode": "SR20"
             },
             {
                 "id": "Station:SaitamaRailway.SaitamaRailway.MinamiHatogaya",
                 "latitude": 35.816123,
                 "longitude": 139.736121,
-                "name": "南鳩ヶ谷",
-                "nameEn": "Minami-hatogaya",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Minami-hatogaya",
+                    "ja": "南鳩ヶ谷",
+                    "ko": "미나미하토가야",
+                    "zh-Hans": "南鸠谷",
+                    "zh-Hant": "南鳩谷"
+                },
                 "stationCode": "SR21"
             },
             {
                 "id": "Station:SaitamaRailway.SaitamaRailway.Hatogaya",
                 "latitude": 35.830873,
                 "longitude": 139.736159,
-                "name": "鳩ヶ谷",
-                "nameEn": "Hatogaya",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Hatogaya",
+                    "ja": "鳩ヶ谷",
+                    "ko": "하토가야",
+                    "zh-Hans": "鸠谷",
+                    "zh-Hant": "鳩谷"
+                },
                 "stationCode": "SR22"
             },
             {
                 "id": "Station:SaitamaRailway.SaitamaRailway.Araijuku",
                 "latitude": 35.842998,
                 "longitude": 139.73822,
-                "name": "新井宿",
-                "nameEn": "Araijuku",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Araijuku",
+                    "ja": "新井宿",
+                    "ko": "아라이주쿠",
+                    "zh-Hans": "新井宿",
+                    "zh-Hant": "新井宿"
+                },
                 "stationCode": "SR23"
             },
             {
                 "id": "Station:SaitamaRailway.SaitamaRailway.TozukaAngyo",
                 "latitude": 35.858938,
                 "longitude": 139.753702,
-                "name": "戸塚安行",
-                "nameEn": "Tozuka-angyo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tozuka-angyo",
+                    "ja": "戸塚安行",
+                    "ko": "도즈카안교",
+                    "zh-Hans": "户冢安行",
+                    "zh-Hant": "戶塚安行"
+                },
                 "stationCode": "SR24"
             },
             {
                 "id": "Station:SaitamaRailway.SaitamaRailway.HigashiKawaguchi",
                 "latitude": 35.876641,
                 "longitude": 139.743615,
-                "name": "東川口",
-                "nameEn": "Higashi-kawaguchi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Higashi-kawaguchi",
+                    "ja": "東川口",
+                    "ko": "히가시카와구치",
+                    "zh-Hans": "东川口",
+                    "zh-Hant": "東川口"
+                },
                 "stationCode": "SR25"
             },
             {
                 "id": "Station:SaitamaRailway.SaitamaRailway.UrawaMisono",
                 "latitude": 35.893821,
                 "longitude": 139.727631,
-                "name": "浦和美園",
-                "nameEn": "Urawa-misono",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Urawa-misono",
+                    "ja": "浦和美園",
+                    "ko": "우라와미소노",
+                    "zh-Hans": "浦和美园",
+                    "zh-Hant": "浦和美園"
+                },
                 "stationCode": "SR26"
             }
         ],
@@ -238,10 +267,14 @@
                 "connectingLineId": "Railway:TokyoMetro.Namboku",
                 "end": "descending",
                 "junctionStationId": "Station:SaitamaRailway.SaitamaRailway.AkabaneIwabuchi",
-                "lineNameEn": "Tokyo Metro Namboku Line",
-                "lineNameJa": "東京メトロ南北線",
-                "towardEn": "for Meguro & the Tokyu Line",
-                "towardJa": "目黒・東急線方面"
+                "lineName": {
+                    "en": "Tokyo Metro Namboku Line",
+                    "ja": "東京メトロ南北線"
+                },
+                "toward": {
+                    "en": "for Meguro & the Tokyu Line",
+                    "ja": "目黒・東急線方面"
+                }
             }
         ]
     }

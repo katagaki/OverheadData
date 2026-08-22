@@ -2,10 +2,14 @@
     {
         "colorHex": "#0072BC",
         "delayInfo": {
-            "checkMethodEn": "Check the Kashima Rinkai Railway website. Suspensions and delays are posted in the notices on the top page.",
-            "checkMethodJa": "鹿島臨海鉄道の公式サイトで確認できます。運転見合わせ・遅延はトップページのお知らせに掲載されます。",
-            "statusPageURL": "https://www.rintetsu.co.jp/",
-            "statusPageURLEn": "https://www.rintetsu.co.jp/",
+            "checkMethod": {
+                "en": "Check the Kashima Rinkai Railway website. Suspensions and delays are posted in the notices on the top page.",
+                "ja": "鹿島臨海鉄道の公式サイトで確認できます。運転見合わせ・遅延はトップページのお知らせに掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://www.rintetsu.co.jp/",
+                "ja": "https://www.rintetsu.co.jp/"
+            },
             "xAccount": null
         },
         "directions": [
@@ -15,8 +19,10 @@
                 "id": "static.RailDirection:KashimaRinkai.OaraiKashima.KashimaJingu",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Kashima-Jingu",
-                "nameJa": "鹿島神宮方面",
+                "name": {
+                    "en": "For Kashima-Jingu",
+                    "ja": "鹿島神宮方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -164,8 +170,10 @@
                     }
                 ],
                 "isAscending": false,
-                "nameEn": "For Mito",
-                "nameJa": "水戸方面",
+                "name": {
+                    "en": "For Mito",
+                    "ja": "水戸方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -297,184 +305,218 @@
         "hopTimesMinutes": [7, 5, 4, 7, 5, 5, 5, 4, 6, 5, 6, 4, 3, 4, 4],
         "id": "Railway:KashimaRinkai.OaraiKashima",
         "isLoop": false,
-        "nameEn": "Oarai-Kashima Line",
-        "nameJa": "大洗鹿島線",
+        "name": {
+            "en": "Oarai-Kashima Line",
+            "ja": "大洗鹿島線"
+        },
         "operatorId": "Operator:KashimaRinkai",
         "stations": [
             {
                 "id": "Station:KashimaRinkai.OaraiKashima.Mito",
                 "latitude": 36.370903,
                 "longitude": 140.476072,
-                "name": "水戸",
-                "nameEn": "Mito",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Mito",
+                    "ja": "水戸",
+                    "ko": "미토",
+                    "zh-Hans": "水户",
+                    "zh-Hant": "水戶"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:KashimaRinkai.OaraiKashima.HigashiMito",
                 "latitude": 36.361867,
                 "longitude": 140.515728,
-                "name": "東水戸",
-                "nameEn": "Higashi-Mito",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Higashi-Mito",
+                    "ja": "東水戸",
+                    "ko": "히가시미토",
+                    "zh-Hans": "东水户",
+                    "zh-Hant": "東水戶"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:KashimaRinkai.OaraiKashima.Tsunezumi",
                 "latitude": 36.340828,
                 "longitude": 140.558783,
-                "name": "常澄",
-                "nameEn": "Tsunezumi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tsunezumi",
+                    "ja": "常澄",
+                    "ko": "쓰네즈미",
+                    "zh-Hans": "常澄",
+                    "zh-Hant": "常澄"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:KashimaRinkai.OaraiKashima.Oarai",
                 "latitude": 36.315275,
                 "longitude": 140.562714,
-                "name": "大洗",
-                "nameEn": "Oarai",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Oarai",
+                    "ja": "大洗",
+                    "ko": "오아라이",
+                    "zh-Hans": "大洗",
+                    "zh-Hant": "大洗"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:KashimaRinkai.OaraiKashima.Hinuma",
                 "latitude": 36.265856,
                 "longitude": 140.527228,
-                "name": "涸沼",
-                "nameEn": "Hinuma",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Hinuma",
+                    "ja": "涸沼",
+                    "ko": "히누마",
+                    "zh-Hans": "涸沼",
+                    "zh-Hant": "涸沼"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:KashimaRinkai.OaraiKashima.KashimaAsahi",
                 "latitude": 36.224764,
                 "longitude": 140.512642,
-                "name": "鹿島旭",
-                "nameEn": "Kashima-Asahi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kashima-Asahi",
+                    "ja": "鹿島旭",
+                    "ko": "가시마아사히",
+                    "zh-Hans": "鹿岛旭",
+                    "zh-Hant": "鹿島旭"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:KashimaRinkai.OaraiKashima.Tokushuku",
                 "latitude": 36.190197,
                 "longitude": 140.514536,
-                "name": "徳宿",
-                "nameEn": "Tokushuku",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tokushuku",
+                    "ja": "徳宿",
+                    "ko": "도쿠슈쿠",
+                    "zh-Hans": "德宿",
+                    "zh-Hant": "德宿"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:KashimaRinkai.OaraiKashima.ShinHokota",
                 "latitude": 36.152108,
                 "longitude": 140.520389,
-                "name": "新鉾田",
-                "nameEn": "Shin-Hokota",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shin-Hokota",
+                    "ja": "新鉾田",
+                    "ko": "신호코타",
+                    "zh-Hans": "新鉾田",
+                    "zh-Hant": "新鉾田"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:KashimaRinkai.OaraiKashima.KitauraKohan",
                 "latitude": 36.120467,
                 "longitude": 140.536911,
-                "name": "北浦湖畔",
-                "nameEn": "Kitaura-Kohan",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kitaura-Kohan",
+                    "ja": "北浦湖畔",
+                    "ko": "기타우라코한",
+                    "zh-Hans": "北浦湖畔",
+                    "zh-Hant": "北浦湖畔"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:KashimaRinkai.OaraiKashima.Taiyo",
                 "latitude": 36.108181,
                 "longitude": 140.576633,
-                "name": "大洋",
-                "nameEn": "Taiyo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Taiyo",
+                    "ja": "大洋",
+                    "ko": "다이요",
+                    "zh-Hans": "大洋",
+                    "zh-Hant": "大洋"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:KashimaRinkai.OaraiKashima.KashimaNada",
                 "latitude": 36.075433,
                 "longitude": 140.596889,
-                "name": "鹿島灘",
-                "nameEn": "Kashima-Nada",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kashima-Nada",
+                    "ja": "鹿島灘",
+                    "ko": "가시마나다",
+                    "zh-Hans": "鹿岛滩",
+                    "zh-Hant": "鹿島灘"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:KashimaRinkai.OaraiKashima.KashimaOno",
                 "latitude": 36.050742,
                 "longitude": 140.609775,
-                "name": "鹿島大野",
-                "nameEn": "Kashima-Ono",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kashima-Ono",
+                    "ja": "鹿島大野",
+                    "ko": "가시마오노",
+                    "zh-Hans": "鹿岛大野",
+                    "zh-Hant": "鹿島大野"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:KashimaRinkai.OaraiKashima.ChojagahamaShiosaiHamanasuKoenmae",
                 "latitude": 36.031528,
                 "longitude": 140.618606,
-                "name": "長者ヶ浜潮騒はまなす公園前",
-                "nameEn": "Chojagahama Shiosai Hamanasu Koen-mae",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Chojagahama Shiosai Hamanasu Koen-mae",
+                    "ja": "長者ヶ浜潮騒はまなす公園前",
+                    "ko": "조자가하마시오사이하마나스코엔마에",
+                    "zh-Hans": "长者滨潮骚滨茄子公园前",
+                    "zh-Hant": "長者濱潮騷濱茄子公園前"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:KashimaRinkai.OaraiKashima.Konodai",
                 "latitude": 36.016664,
                 "longitude": 140.625336,
-                "name": "荒野台",
-                "nameEn": "Konodai",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Konodai",
+                    "ja": "荒野台",
+                    "ko": "고야다이",
+                    "zh-Hans": "荒野台",
+                    "zh-Hant": "荒野臺"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:KashimaRinkai.OaraiKashima.KashimaSoccerStadium",
                 "latitude": 35.992061,
                 "longitude": 140.636361,
-                "name": "鹿島サッカースタジアム",
-                "nameEn": "Kashima Soccer Stadium",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kashima Soccer Stadium",
+                    "ja": "鹿島サッカースタジアム",
+                    "ko": "가시마 사커 스타디움",
+                    "zh-Hans": "鹿岛足球场",
+                    "zh-Hant": "鹿島足球場"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:KashimaRinkai.OaraiKashima.KashimaJingu",
                 "latitude": 35.970608,
                 "longitude": 140.625772,
-                "name": "鹿島神宮",
-                "nameEn": "Kashima-Jingu",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kashima-Jingu",
+                    "ja": "鹿島神宮",
+                    "ko": "가시마진구",
+                    "zh-Hans": "鹿岛神宫",
+                    "zh-Hant": "鹿島神宮"
+                },
                 "stationCode": ""
             }
         ],
@@ -484,10 +526,14 @@
                 "connectingLineId": "Railway:JR-East.Kashima",
                 "end": "ascending",
                 "junctionStationId": "Station:KashimaRinkai.OaraiKashima.KashimaJingu",
-                "lineNameEn": "Kashima Line",
-                "lineNameJa": "鹿島線",
-                "towardEn": "for Sawara",
-                "towardJa": "佐原方面"
+                "lineName": {
+                    "en": "Kashima Line",
+                    "ja": "鹿島線"
+                },
+                "toward": {
+                    "en": "for Sawara",
+                    "ja": "佐原方面"
+                }
             }
         ],
         "upHopTimesMinutes": [6, 5, 5, 6, 5, 5, 6, 5, 5, 5, 4, 5, 3, 5, 4]

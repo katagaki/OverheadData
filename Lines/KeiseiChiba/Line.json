@@ -2,10 +2,14 @@
     {
         "colorHex": "#005AAA",
         "delayInfo": {
-            "checkMethodEn": "Check the Keisei train information page, the Keisei app, or X (@keiseirailway). Delays and suspensions are posted as they occur.",
-            "checkMethodJa": "京成電鉄「運行情報」ページ、京成アプリ、またはX（@keiseirailway）で確認できます。遅延・運転見合わせが発生した場合に掲載されます。",
-            "statusPageURL": "https://www.keisei.co.jp/traininfo/index.php",
-            "statusPageURLEn": "https://www.keisei.co.jp/traininfo/index.php",
+            "checkMethod": {
+                "en": "Check the Keisei train information page, the Keisei app, or X (@keiseirailway). Delays and suspensions are posted as they occur.",
+                "ja": "京成電鉄「運行情報」ページ、京成アプリ、またはX（@keiseirailway）で確認できます。遅延・運転見合わせが発生した場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://www.keisei.co.jp/traininfo/index.php",
+                "ja": "https://www.keisei.co.jp/traininfo/index.php"
+            },
             "xAccount": "@keiseirailway"
         },
         "directions": [
@@ -15,8 +19,10 @@
                 "id": "static.RailDirection:Keisei.Chiba.Chibachuo",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Chiba-Chuo",
-                "nameJa": "千葉中央方面",
+                "name": {
+                    "en": "For Chiba-Chuo",
+                    "ja": "千葉中央方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -70,8 +76,10 @@
                 "id": "static.RailDirection:Keisei.Chiba.KeiseiTsudanuma",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Keisei-Tsudanuma",
-                "nameJa": "京成津田沼方面",
+                "name": {
+                    "en": "For Keisei-Tsudanuma",
+                    "ja": "京成津田沼方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -123,118 +131,140 @@
         "hopTimesMinutes": [3, 2, 2, 3, 2, 2, 1, 2, 2],
         "id": "Railway:Keisei.Chiba",
         "isLoop": false,
-        "nameEn": "Keisei Chiba Line",
-        "nameJa": "京成千葉線",
+        "name": {
+            "en": "Keisei Chiba Line",
+            "ja": "京成千葉線",
+            "ko": "게이세이 전철 지바 선",
+            "zh-Hans": "千叶线",
+            "zh-Hant": "千叶線"
+        },
         "operatorId": "Operator:Keisei",
         "stations": [
             {
                 "id": "Station:Keisei.Chiba.KeiseiTsudanuma",
                 "latitude": 35.6828,
                 "longitude": 140.0248,
-                "name": "京成津田沼",
-                "nameEn": "Keisei-Tsudanuma",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Keisei-Tsudanuma",
+                    "ja": "京成津田沼",
+                    "ko": "게이세이쓰다누마",
+                    "zh-Hans": "京成津田沼",
+                    "zh-Hant": "京成津田沼"
+                },
                 "stationCode": "KS26"
             },
             {
                 "id": "Station:Keisei.Chiba.KeiseiMakuharihongo",
                 "latitude": 35.6726,
                 "longitude": 140.0421,
-                "name": "京成幕張本郷",
-                "nameEn": "Keisei-Makuharihongo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Keisei-Makuharihongo",
+                    "ja": "京成幕張本郷"
+                },
                 "stationCode": "KS52"
             },
             {
                 "id": "Station:Keisei.Chiba.KeiseiMakuhari",
                 "latitude": 35.661,
                 "longitude": 140.0557,
-                "name": "京成幕張",
-                "nameEn": "Keisei-Makuhari",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Keisei-Makuhari",
+                    "ja": "京成幕張",
+                    "ko": "게이세이마쿠하리",
+                    "zh-Hans": "京成幕张",
+                    "zh-Hant": "京成幕張"
+                },
                 "stationCode": "KS53"
             },
             {
                 "id": "Station:Keisei.Chiba.Kemigawa",
                 "latitude": 35.6526,
                 "longitude": 140.0663,
-                "name": "検見川",
-                "nameEn": "Kemigawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kemigawa",
+                    "ja": "検見川",
+                    "ko": "게미가와",
+                    "zh-Hans": "检见川",
+                    "zh-Hant": "檢見川"
+                },
                 "stationCode": "KS54"
             },
             {
                 "id": "Station:Keisei.Chiba.KeiseiInage",
                 "latitude": 35.6378,
                 "longitude": 140.0855,
-                "name": "京成稲毛",
-                "nameEn": "Keisei-Inage",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Keisei-Inage",
+                    "ja": "京成稲毛",
+                    "ko": "게이세이이나게",
+                    "zh-Hans": "京成稻毛",
+                    "zh-Hant": "京成稻毛"
+                },
                 "stationCode": "KS55"
             },
             {
                 "id": "Station:Keisei.Chiba.Midoridai",
                 "latitude": 35.6248,
                 "longitude": 140.0977,
-                "name": "みどり台",
-                "nameEn": "Midoridai",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Midoridai",
+                    "ja": "みどり台",
+                    "ko": "미도리다이",
+                    "zh-Hans": "绿台",
+                    "zh-Hant": "綠臺"
+                },
                 "stationCode": "KS56"
             },
             {
                 "id": "Station:Keisei.Chiba.NishiNobuto",
                 "latitude": 35.6176,
                 "longitude": 140.1028,
-                "name": "西登戸",
-                "nameEn": "Nishi-Nobuto",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nishi-Nobuto",
+                    "ja": "西登戸",
+                    "ko": "니시노부토",
+                    "zh-Hans": "西登户",
+                    "zh-Hant": "西登戶"
+                },
                 "stationCode": "KS57"
             },
             {
                 "id": "Station:Keisei.Chiba.ShinChiba",
                 "latitude": 35.6124,
                 "longitude": 140.1083,
-                "name": "新千葉",
-                "nameEn": "Shin-Chiba",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shin-Chiba",
+                    "ja": "新千葉",
+                    "ko": "신치바",
+                    "zh-Hans": "新千叶",
+                    "zh-Hant": "新千葉"
+                },
                 "stationCode": "KS58"
             },
             {
                 "id": "Station:Keisei.Chiba.KeiseiChiba",
                 "latitude": 35.6117,
                 "longitude": 140.1144,
-                "name": "京成千葉",
-                "nameEn": "Keisei-Chiba",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Keisei-Chiba",
+                    "ja": "京成千葉",
+                    "ko": "게이세이 지바",
+                    "zh-Hans": "京成千叶",
+                    "zh-Hant": "京成千葉"
+                },
                 "stationCode": "KS59"
             },
             {
                 "id": "Station:Keisei.Chiba.Chibachuo",
                 "latitude": 35.6073,
                 "longitude": 140.1178,
-                "name": "千葉中央",
-                "nameEn": "Chiba-Chuo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Chiba-Chuo",
+                    "ja": "千葉中央",
+                    "ko": "지바추오",
+                    "zh-Hans": "千叶中央",
+                    "zh-Hant": "千叶中央"
+                },
                 "stationCode": "KS60"
             }
         ],
@@ -244,28 +274,40 @@
                 "connectingLineId": "Railway:Keisei.Chihara",
                 "end": "ascending",
                 "junctionStationId": "Station:Keisei.Chiba.Chibachuo",
-                "lineNameEn": "Keisei Chihara Line",
-                "lineNameJa": "京成千原線",
-                "towardEn": "for Chiharadai",
-                "towardJa": "ちはら台方面"
+                "lineName": {
+                    "en": "Keisei Chihara Line",
+                    "ja": "京成千原線"
+                },
+                "toward": {
+                    "en": "for Chiharadai",
+                    "ja": "ちはら台方面"
+                }
             },
             {
                 "connectingLineId": "Railway:Keisei.Main",
                 "end": "descending",
                 "junctionStationId": "Station:Keisei.Chiba.KeiseiTsudanuma",
-                "lineNameEn": "Keisei Main Line",
-                "lineNameJa": "京成本線",
-                "towardEn": "for Keisei-Ueno",
-                "towardJa": "京成上野方面"
+                "lineName": {
+                    "en": "Keisei Main Line",
+                    "ja": "京成本線"
+                },
+                "toward": {
+                    "en": "for Keisei-Ueno",
+                    "ja": "京成上野方面"
+                }
             },
             {
                 "connectingLineId": "Railway:Keisei.Matsudo",
                 "end": "descending",
                 "junctionStationId": "Station:Keisei.Chiba.KeiseiTsudanuma",
-                "lineNameEn": "Keisei Matsudo Line",
-                "lineNameJa": "京成松戸線",
-                "towardEn": "for Matsudo",
-                "towardJa": "松戸方面"
+                "lineName": {
+                    "en": "Keisei Matsudo Line",
+                    "ja": "京成松戸線"
+                },
+                "toward": {
+                    "en": "for Matsudo",
+                    "ja": "松戸方面"
+                }
             }
         ]
     }

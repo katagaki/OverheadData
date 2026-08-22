@@ -2,10 +2,14 @@
     {
         "colorHex": "#2F9D66",
         "delayInfo": {
-            "checkMethodEn": "Check the Yukarigaoka town portal run by Yamaman. Suspensions and delays are posted in the notices there.",
-            "checkMethodJa": "山万が運営するユーカリが丘タウンポータルで確認できます。運転見合わせ・遅延はお知らせに掲載されます。",
-            "statusPageURL": "https://town.yukarigaoka.jp/yukariline/",
-            "statusPageURLEn": "https://town.yukarigaoka.jp/yukariline/",
+            "checkMethod": {
+                "en": "Check the Yukarigaoka town portal run by Yamaman. Suspensions and delays are posted in the notices there.",
+                "ja": "山万が運営するユーカリが丘タウンポータルで確認できます。運転見合わせ・遅延はお知らせに掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://town.yukarigaoka.jp/yukariline/",
+                "ja": "https://town.yukarigaoka.jp/yukariline/"
+            },
             "xAccount": null
         },
         "directions": [
@@ -15,8 +19,10 @@
                 "id": "static.RailDirection:Yamaman.Yukarigaoka.Loop",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "Loop (via Ino & Koen)",
-                "nameJa": "井野・公園方面（循環）",
+                "name": {
+                    "en": "Loop (via Ino & Koen)",
+                    "ja": "井野・公園方面（循環）"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -168,74 +174,90 @@
         "hopTimesMinutes": [1, 2, 2, 2, 2],
         "id": "Railway:Yamaman.Yukarigaoka",
         "isLoop": true,
-        "nameEn": "Yamaman Yukarigaoka Line",
-        "nameJa": "山万ユーカリが丘線",
+        "name": {
+            "en": "Yamaman Yukarigaoka Line",
+            "ja": "山万ユーカリが丘線",
+            "zh-Hans": "有加利丘线",
+            "zh-Hant": "有加利丘線"
+        },
         "operatorId": "Operator:Yamaman",
         "stations": [
             {
                 "id": "Station:Yamaman.Yukarigaoka.Yukarigaoka",
                 "latitude": 35.721739,
                 "longitude": 140.156317,
-                "name": "ユーカリが丘",
-                "nameEn": "Yukarigaoka",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Yukarigaoka",
+                    "ja": "ユーカリが丘",
+                    "ko": "유카리가오카",
+                    "zh-Hans": "尤加利丘",
+                    "zh-Hant": "尤加利丘"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Yamaman.Yukarigaoka.ChikuCenter",
                 "latitude": 35.725944,
                 "longitude": 140.155222,
-                "name": "地区センター",
-                "nameEn": "Chiku Center",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Chiku Center",
+                    "ja": "地区センター",
+                    "ko": "지쿠센터",
+                    "zh-Hans": "地区中心",
+                    "zh-Hant": "地區中心"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Yamaman.Yukarigaoka.Koen",
                 "latitude": 35.730833,
                 "longitude": 140.153861,
-                "name": "公園",
-                "nameEn": "Koen",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Koen",
+                    "ja": "公園",
+                    "ko": "고엔",
+                    "zh-Hans": "公园",
+                    "zh-Hant": "公園"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Yamaman.Yukarigaoka.Joshidai",
                 "latitude": 35.738361,
                 "longitude": 140.155056,
-                "name": "女子大",
-                "nameEn": "Joshidai",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Joshidai",
+                    "ja": "女子大",
+                    "ko": "조시다이",
+                    "zh-Hans": "女子大",
+                    "zh-Hant": "女子大"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Yamaman.Yukarigaoka.Chugakko",
                 "latitude": 35.74025,
                 "longitude": 140.14825,
-                "name": "中学校",
-                "nameEn": "Chugakko",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Chugakko",
+                    "ja": "中学校",
+                    "ko": "주갓코",
+                    "zh-Hans": "中学校",
+                    "zh-Hant": "中學校"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Yamaman.Yukarigaoka.Ino",
                 "latitude": 35.732611,
                 "longitude": 140.148528,
-                "name": "井野",
-                "nameEn": "Ino",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ino",
+                    "ja": "井野",
+                    "ko": "이노",
+                    "zh-Hans": "井野",
+                    "zh-Hant": "井野"
+                },
                 "stationCode": ""
             }
         ],

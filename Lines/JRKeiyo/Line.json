@@ -2,10 +2,14 @@
     {
         "colorHex": "#C9242F",
         "delayInfo": {
-            "checkMethodEn": "Check the JR East Train Operation Information page or the JR East app. In the Tokyo area, delays or suspensions of 15 minutes or more are posted.",
-            "checkMethodJa": "JR東日本「列車運行情報」ページまたはJR東日本アプリで確認できます。首都圏エリアでは15分以上の遅れ・運休が発生または見込まれる場合に掲載されます。",
-            "statusPageURL": "https://traininfo.jreast.co.jp/train_info/line.aspx?gid=1&lineid=keiyoline",
-            "statusPageURLEn": "https://traininfo.jreast.co.jp/train_info/e/kanto.aspx",
+            "checkMethod": {
+                "en": "Check the JR East Train Operation Information page or the JR East app. In the Tokyo area, delays or suspensions of 15 minutes or more are posted.",
+                "ja": "JR東日本「列車運行情報」ページまたはJR東日本アプリで確認できます。首都圏エリアでは15分以上の遅れ・運休が発生または見込まれる場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://traininfo.jreast.co.jp/train_info/e/kanto.aspx",
+                "ja": "https://traininfo.jreast.co.jp/train_info/line.aspx?gid=1&lineid=keiyoline"
+            },
             "xAccount": "@JRE_F_Sobu"
         },
         "directions": [
@@ -15,8 +19,10 @@
                 "id": "static.RailDirection:JR-East.Keiyo.Soga",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Soga",
-                "nameJa": "蘇我方面",
+                "name": {
+                    "en": "For Soga",
+                    "ja": "蘇我方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -78,8 +84,10 @@
                 "id": "static.RailDirection:JR-East.Keiyo.Tokyo",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Tokyo",
-                "nameJa": "東京方面",
+                "name": {
+                    "en": "For Tokyo",
+                    "ja": "東京方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -139,206 +147,247 @@
         "hopTimesMinutes": [2, 2, 3, 2, 3, 3, 3, 3, 3, 3, 3, 2, 2, 3, 2, 4, 4],
         "id": "Railway:JR-East.Keiyo",
         "isLoop": false,
-        "nameEn": "Keiyo Line",
-        "nameJa": "京葉線",
+        "name": {
+            "en": "Keiyo Line",
+            "ja": "京葉線",
+            "ko": "게이요선",
+            "zh-Hans": "京叶线",
+            "zh-Hant": "京葉線"
+        },
         "operatorId": "Operator:JR-East",
         "stations": [
             {
                 "id": "Station:JR-East.Keiyo.Tokyo",
                 "latitude": 35.677,
                 "longitude": 139.765,
-                "name": "東京",
-                "nameEn": "Tokyo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tokyo",
+                    "ja": "東京",
+                    "ko": "도쿄",
+                    "zh-Hans": "东京",
+                    "zh-Hant": "東京"
+                },
                 "stationCode": "JE01"
             },
             {
                 "id": "Station:JR-East.Keiyo.Hatchobori",
                 "latitude": 35.6748,
                 "longitude": 139.7777,
-                "name": "八丁堀",
-                "nameEn": "Hatchobori",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Hatchobori",
+                    "ja": "八丁堀",
+                    "ko": "핫초보리",
+                    "zh-Hans": "八丁堀",
+                    "zh-Hant": "八丁堀"
+                },
                 "stationCode": "JE02"
             },
             {
                 "id": "Station:JR-East.Keiyo.Etchujima",
                 "latitude": 35.668,
                 "longitude": 139.7925,
-                "name": "越中島",
-                "nameEn": "Etchujima",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Etchujima",
+                    "ja": "越中島",
+                    "ko": "엣추지마",
+                    "zh-Hans": "越中岛",
+                    "zh-Hant": "越中島"
+                },
                 "stationCode": "JE03"
             },
             {
                 "id": "Station:JR-East.Keiyo.Shiomi",
                 "latitude": 35.658924,
                 "longitude": 139.817197,
-                "name": "潮見",
-                "nameEn": "Shiomi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shiomi",
+                    "ja": "潮見",
+                    "ko": "시오미",
+                    "zh-Hans": "潮见",
+                    "zh-Hant": "潮見"
+                },
                 "stationCode": "JE04"
             },
             {
                 "id": "Station:JR-East.Keiyo.ShinKiba",
                 "latitude": 35.646,
                 "longitude": 139.8268,
-                "name": "新木場",
-                "nameEn": "Shin-Kiba",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場",
+                    "ko": "신키바",
+                    "zh-Hans": "新木场",
+                    "zh-Hant": "新木場"
+                },
                 "stationCode": "JE05"
             },
             {
                 "id": "Station:JR-East.Keiyo.KasaiRinkaiKoen",
                 "latitude": 35.644407,
                 "longitude": 139.861599,
-                "name": "葛西臨海公園",
-                "nameEn": "Kasai-Rinkai-Koen",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kasai-Rinkai-Koen",
+                    "ja": "葛西臨海公園",
+                    "ko": "가사이린카이코엔",
+                    "zh-Hans": "葛西临海公园",
+                    "zh-Hant": "葛西臨海公園"
+                },
                 "stationCode": "JE06"
             },
             {
                 "id": "Station:JR-East.Keiyo.Maihama",
                 "latitude": 35.6361,
                 "longitude": 139.8831,
-                "name": "舞浜",
-                "nameEn": "Maihama",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Maihama",
+                    "ja": "舞浜",
+                    "ko": "마이하마",
+                    "zh-Hans": "舞滨",
+                    "zh-Hant": "舞濱"
+                },
                 "stationCode": "JE07"
             },
             {
                 "id": "Station:JR-East.Keiyo.ShinUrayasu",
                 "latitude": 35.649534,
                 "longitude": 139.912495,
-                "name": "新浦安",
-                "nameEn": "Shin-Urayasu",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shin-Urayasu",
+                    "ja": "新浦安",
+                    "ko": "신우라야스",
+                    "zh-Hans": "新浦安",
+                    "zh-Hant": "新浦安"
+                },
                 "stationCode": "JE08"
             },
             {
                 "id": "Station:JR-East.Keiyo.IchikawaShiohama",
                 "latitude": 35.666636,
                 "longitude": 139.923649,
-                "name": "市川塩浜",
-                "nameEn": "Ichikawa-Shiohama",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ichikawa-Shiohama",
+                    "ja": "市川塩浜",
+                    "ko": "이치카와시오하마",
+                    "zh-Hans": "市川鹽濱",
+                    "zh-Hant": "市川鹽濱"
+                },
                 "stationCode": "JE09"
             },
             {
                 "id": "Station:JR-East.Keiyo.FutamataShimmachi",
                 "latitude": 35.691381,
                 "longitude": 139.959533,
-                "name": "二俣新町",
-                "nameEn": "Futamata-Shimmachi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Futamata-Shimmachi",
+                    "ja": "二俣新町",
+                    "ko": "후타마타신마치",
+                    "zh-Hans": "二俣新町",
+                    "zh-Hant": "二俁新町"
+                },
                 "stationCode": "JE10"
             },
             {
                 "id": "Station:JR-East.Keiyo.MinamiFunabashi",
                 "latitude": 35.681976,
                 "longitude": 139.995543,
-                "name": "南船橋",
-                "nameEn": "Minami-Funabashi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Minami-Funabashi",
+                    "ja": "南船橋",
+                    "ko": "미나미후나바시",
+                    "zh-Hans": "南船桥",
+                    "zh-Hant": "南船橋"
+                },
                 "stationCode": "JE11"
             },
             {
                 "id": "Station:JR-East.Keiyo.ShinNarashino",
                 "latitude": 35.66735,
                 "longitude": 140.012879,
-                "name": "新習志野",
-                "nameEn": "Shin-Narashino",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shin-Narashino",
+                    "ja": "新習志野",
+                    "ko": "신나라시노",
+                    "zh-Hans": "新习志野",
+                    "zh-Hant": "新習志野"
+                },
                 "stationCode": "JE12"
             },
             {
                 "id": "Station:JR-East.Keiyo.MakuhariToyosuna",
                 "latitude": 35.658217,
                 "longitude": 140.026842,
-                "name": "幕張豊砂",
-                "nameEn": "Makuhari-Toyosuna",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Makuhari-Toyosuna",
+                    "ja": "幕張豊砂",
+                    "ko": "마쿠하리토요스나",
+                    "zh-Hans": "幕张豊砂",
+                    "zh-Hant": "幕張豊砂"
+                },
                 "stationCode": "JE13"
             },
             {
                 "id": "Station:JR-East.Keiyo.KaihimMakuhari",
                 "latitude": 35.6482,
                 "longitude": 140.0416,
-                "name": "海浜幕張",
-                "nameEn": "Kaihimmakuhari",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kaihimmakuhari",
+                    "ja": "海浜幕張",
+                    "ko": "가이힌마쿠하리",
+                    "zh-Hans": "海滨幕张",
+                    "zh-Hant": "海濱幕張"
+                },
                 "stationCode": "JE14"
             },
             {
                 "id": "Station:JR-East.Keiyo.Kemigawahama",
                 "latitude": 35.637207,
                 "longitude": 140.059077,
-                "name": "検見川浜",
-                "nameEn": "Kemigawahama",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kemigawahama",
+                    "ja": "検見川浜",
+                    "ko": "게미가와하마",
+                    "zh-Hans": "检见川滨",
+                    "zh-Hant": "檢見川濱"
+                },
                 "stationCode": "JE15"
             },
             {
                 "id": "Station:JR-East.Keiyo.InageKaigan",
                 "latitude": 35.629492,
                 "longitude": 140.073565,
-                "name": "稲毛海岸",
-                "nameEn": "Inage-Kaigan",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Inage-Kaigan",
+                    "ja": "稲毛海岸",
+                    "ko": "이나게카이간",
+                    "zh-Hans": "稻毛海岸",
+                    "zh-Hant": "稻毛海岸"
+                },
                 "stationCode": "JE16"
             },
             {
                 "id": "Station:JR-East.Keiyo.Chibaminato",
                 "latitude": 35.606889,
                 "longitude": 140.102697,
-                "name": "千葉みなと",
-                "nameEn": "Chibaminato",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Chibaminato",
+                    "ja": "千葉みなと",
+                    "ko": "지바미나토",
+                    "zh-Hans": "千叶港",
+                    "zh-Hant": "千葉港"
+                },
                 "stationCode": "JE17"
             },
             {
                 "id": "Station:JR-East.Keiyo.Soga",
                 "latitude": 35.5812,
                 "longitude": 140.1315,
-                "name": "蘇我",
-                "nameEn": "Soga",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Soga",
+                    "ja": "蘇我",
+                    "ko": "소가",
+                    "zh-Hans": "苏我",
+                    "zh-Hant": "蘇我"
+                },
                 "stationCode": "JE18"
             }
         ],
@@ -347,19 +396,27 @@
             {
                 "end": "ascending",
                 "junctionStationId": "Station:JR-East.Keiyo.Soga",
-                "lineNameEn": "JR Uchibo & Sotobo Lines",
-                "lineNameJa": "内房線・外房線",
-                "towardEn": "for Kimitsu & Kazusa-Ichinomiya",
-                "towardJa": "君津・上総一ノ宮方面"
+                "lineName": {
+                    "en": "JR Uchibo & Sotobo Lines",
+                    "ja": "内房線・外房線"
+                },
+                "toward": {
+                    "en": "for Kimitsu & Kazusa-Ichinomiya",
+                    "ja": "君津・上総一ノ宮方面"
+                }
             },
             {
                 "connectingLineId": "Railway:JR-East.KeiyoBranch",
                 "end": "ascending",
                 "junctionStationId": "Station:JR-East.Keiyo.IchikawaShiohama",
-                "lineNameEn": "JR Musashino Line",
-                "lineNameJa": "武蔵野線",
-                "towardEn": "for Nishi-Funabashi & Minami-Nagareyama",
-                "towardJa": "西船橋・南流山方面"
+                "lineName": {
+                    "en": "JR Musashino Line",
+                    "ja": "武蔵野線"
+                },
+                "toward": {
+                    "en": "for Nishi-Funabashi & Minami-Nagareyama",
+                    "ja": "西船橋・南流山方面"
+                }
             }
         ],
         "timetableRuns": [

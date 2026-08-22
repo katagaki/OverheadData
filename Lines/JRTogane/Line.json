@@ -2,10 +2,14 @@
     {
         "colorHex": "#B31C31",
         "delayInfo": {
-            "checkMethodEn": "Check the JR East Train Operation Information page or the JR East app. In the Tokyo area, delays or suspensions of 15 minutes or more are posted.",
-            "checkMethodJa": "JR東日本「列車運行情報」ページまたはJR東日本アプリで確認できます。首都圏エリアでは15分以上の遅れ・運休が発生または見込まれる場合に掲載されます。",
-            "statusPageURL": "https://traininfo.jreast.co.jp/train_info/line.aspx?gid=1&lineid=toganeline",
-            "statusPageURLEn": "https://traininfo.jreast.co.jp/train_info/e/kanto.aspx",
+            "checkMethod": {
+                "en": "Check the JR East Train Operation Information page or the JR East app. In the Tokyo area, delays or suspensions of 15 minutes or more are posted.",
+                "ja": "JR東日本「列車運行情報」ページまたはJR東日本アプリで確認できます。首都圏エリアでは15分以上の遅れ・運休が発生または見込まれる場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://traininfo.jreast.co.jp/train_info/e/kanto.aspx",
+                "ja": "https://traininfo.jreast.co.jp/train_info/line.aspx?gid=1&lineid=toganeline"
+            },
             "xAccount": "@JRE_F_Sobu"
         },
         "directions": [
@@ -15,13 +19,15 @@
                 "id": "static.RailDirection:JR-East.Togane.Naruto",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Naruto",
-                "nameJa": "成東方面",
+                "name": {
+                    "en": "For Naruto",
+                    "ja": "成東方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
                             "from": "05:25",
-                            "headwayMinutes": 22.0
+                            "headwayMinutes": 22
                         },
                         {
                             "from": "06:00",
@@ -29,7 +35,7 @@
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 31.0
+                            "headwayMinutes": 31
                         },
                         {
                             "from": "08:00",
@@ -41,15 +47,15 @@
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 28.0
+                            "headwayMinutes": 28
                         },
                         {
                             "from": "11:00",
-                            "headwayMinutes": 60.0
+                            "headwayMinutes": 60
                         },
                         {
                             "from": "14:00",
-                            "headwayMinutes": 48.0
+                            "headwayMinutes": 48
                         },
                         {
                             "from": "15:00",
@@ -57,15 +63,15 @@
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 34.0
+                            "headwayMinutes": 34
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 50.0
+                            "headwayMinutes": 50
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 32.0
+                            "headwayMinutes": 32
                         },
                         {
                             "from": "19:00",
@@ -73,15 +79,15 @@
                         },
                         {
                             "from": "20:00",
-                            "headwayMinutes": 26.0
+                            "headwayMinutes": 26
                         },
                         {
                             "from": "21:00",
-                            "headwayMinutes": 29.0
+                            "headwayMinutes": 29
                         },
                         {
                             "from": "22:00",
-                            "headwayMinutes": 42.0
+                            "headwayMinutes": 42
                         }
                     ],
                     "firstDeparture": "05:25",
@@ -92,7 +98,7 @@
                     "bands": [
                         {
                             "from": "05:25",
-                            "headwayMinutes": 22.0
+                            "headwayMinutes": 22
                         },
                         {
                             "from": "06:00",
@@ -100,7 +106,7 @@
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 31.0
+                            "headwayMinutes": 31
                         },
                         {
                             "from": "08:00",
@@ -112,15 +118,15 @@
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 56.0
+                            "headwayMinutes": 56
                         },
                         {
                             "from": "11:00",
-                            "headwayMinutes": 60.0
+                            "headwayMinutes": 60
                         },
                         {
                             "from": "14:00",
-                            "headwayMinutes": 48.0
+                            "headwayMinutes": 48
                         },
                         {
                             "from": "15:00",
@@ -128,15 +134,15 @@
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 34.0
+                            "headwayMinutes": 34
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 50.0
+                            "headwayMinutes": 50
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 32.0
+                            "headwayMinutes": 32
                         },
                         {
                             "from": "19:00",
@@ -144,15 +150,15 @@
                         },
                         {
                             "from": "20:00",
-                            "headwayMinutes": 26.0
+                            "headwayMinutes": 26
                         },
                         {
                             "from": "21:00",
-                            "headwayMinutes": 29.0
+                            "headwayMinutes": 29
                         },
                         {
                             "from": "22:00",
-                            "headwayMinutes": 42.0
+                            "headwayMinutes": 42
                         }
                     ],
                     "firstDeparture": "05:25",
@@ -166,17 +172,19 @@
                 "id": "static.RailDirection:JR-East.Togane.Oami",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Oami",
-                "nameJa": "大網方面",
+                "name": {
+                    "en": "For Oami",
+                    "ja": "大網方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
                             "from": "04:56",
-                            "headwayMinutes": 52.0
+                            "headwayMinutes": 52
                         },
                         {
                             "from": "05:00",
-                            "headwayMinutes": 43.0
+                            "headwayMinutes": 43
                         },
                         {
                             "from": "06:00",
@@ -184,7 +192,7 @@
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 29.0
+                            "headwayMinutes": 29
                         },
                         {
                             "from": "09:00",
@@ -192,23 +200,23 @@
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 27.0
+                            "headwayMinutes": 27
                         },
                         {
                             "from": "11:00",
-                            "headwayMinutes": 60.0
+                            "headwayMinutes": 60
                         },
                         {
                             "from": "13:00",
-                            "headwayMinutes": 58.0
+                            "headwayMinutes": 58
                         },
                         {
                             "from": "14:00",
-                            "headwayMinutes": 48.0
+                            "headwayMinutes": 48
                         },
                         {
                             "from": "15:00",
-                            "headwayMinutes": 32.0
+                            "headwayMinutes": 32
                         },
                         {
                             "from": "16:00",
@@ -216,15 +224,15 @@
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 38.0
+                            "headwayMinutes": 38
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 43.0
+                            "headwayMinutes": 43
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 28.0
+                            "headwayMinutes": 28
                         },
                         {
                             "from": "20:00",
@@ -243,11 +251,11 @@
                     "bands": [
                         {
                             "from": "04:56",
-                            "headwayMinutes": 52.0
+                            "headwayMinutes": 52
                         },
                         {
                             "from": "05:00",
-                            "headwayMinutes": 43.0
+                            "headwayMinutes": 43
                         },
                         {
                             "from": "06:00",
@@ -255,7 +263,7 @@
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 29.0
+                            "headwayMinutes": 29
                         },
                         {
                             "from": "09:00",
@@ -267,19 +275,19 @@
                         },
                         {
                             "from": "11:00",
-                            "headwayMinutes": 60.0
+                            "headwayMinutes": 60
                         },
                         {
                             "from": "13:00",
-                            "headwayMinutes": 58.0
+                            "headwayMinutes": 58
                         },
                         {
                             "from": "14:00",
-                            "headwayMinutes": 48.0
+                            "headwayMinutes": 48
                         },
                         {
                             "from": "15:00",
-                            "headwayMinutes": 32.0
+                            "headwayMinutes": 32
                         },
                         {
                             "from": "16:00",
@@ -287,15 +295,15 @@
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 38.0
+                            "headwayMinutes": 38
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 43.0
+                            "headwayMinutes": 43
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 28.0
+                            "headwayMinutes": 28
                         },
                         {
                             "from": "20:00",
@@ -312,11 +320,16 @@
                 }
             }
         ],
-        "hopTimesMinutes": [5.0, 3.0, 4.0, 5.0],
+        "hopTimesMinutes": [5, 3, 4, 5],
         "id": "Railway:JR-East.Togane",
         "isLoop": false,
-        "nameEn": "Togane Line",
-        "nameJa": "東金線",
+        "name": {
+            "en": "Togane Line",
+            "ja": "東金線",
+            "ko": "도가네선",
+            "zh-Hans": "东金线",
+            "zh-Hant": "東金線"
+        },
         "operatorId": "Operator:JR-East",
         "segment": "DokoTrain",
         "stations": [
@@ -324,55 +337,65 @@
                 "id": "Station:JR-East.Togane.Oami",
                 "latitude": 35.52302,
                 "longitude": 140.31143,
-                "name": "大網",
-                "nameEn": "Oami",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Oami",
+                    "ja": "大網",
+                    "ko": "오아미",
+                    "zh-Hans": "大网",
+                    "zh-Hant": "大網"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Togane.Fukutawara",
                 "latitude": 35.54616,
                 "longitude": 140.34188,
-                "name": "福俵",
-                "nameEn": "Fukutawara",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Fukutawara",
+                    "ja": "福俵",
+                    "ko": "후쿠타와라",
+                    "zh-Hans": "福俵",
+                    "zh-Hant": "福俵"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Togane.Togane",
                 "latitude": 35.5601,
                 "longitude": 140.3636,
-                "name": "東金",
-                "nameEn": "Togane",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Togane",
+                    "ja": "東金",
+                    "ko": "도가네",
+                    "zh-Hans": "东金",
+                    "zh-Hant": "東金"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Togane.Gumyo",
                 "latitude": 35.57984,
                 "longitude": 140.39618,
-                "name": "求名",
-                "nameEn": "Gumyo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Gumyo",
+                    "ja": "求名",
+                    "ko": "구묘",
+                    "zh-Hans": "求名",
+                    "zh-Hant": "求名"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Togane.Naruto",
                 "latitude": 35.60854,
                 "longitude": 140.41028,
-                "name": "成東",
-                "nameEn": "Naruto",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Naruto",
+                    "ja": "成東",
+                    "ko": "나루토",
+                    "zh-Hans": "成东",
+                    "zh-Hant": "成東"
+                },
                 "stationCode": ""
             }
         ],
@@ -692,8 +715,10 @@
                 "startsHere": true,
                 "stops": [391, 396, 400, 404, 414],
                 "terminates": false,
-                "throughDestEn": "Chiba",
-                "throughDestJa": "千葉",
+                "throughDest": {
+                    "en": "Chiba",
+                    "ja": "千葉"
+                },
                 "type": "Local"
             },
             {
@@ -703,8 +728,10 @@
                 "startsHere": true,
                 "stops": [411, 417, 428, 431, 438],
                 "terminates": false,
-                "throughDestEn": "Tokyo",
-                "throughDestJa": "東京",
+                "throughDest": {
+                    "en": "Tokyo",
+                    "ja": "東京"
+                },
                 "type": "Local"
             },
             {
@@ -732,8 +759,10 @@
                 "startsHere": true,
                 "stops": [484, 489, 494, 497, 503],
                 "terminates": false,
-                "throughDestEn": "Chiba",
-                "throughDestJa": "千葉",
+                "throughDest": {
+                    "en": "Chiba",
+                    "ja": "千葉"
+                },
                 "type": "Local"
             },
             {
@@ -743,8 +772,10 @@
                 "startsHere": true,
                 "stops": [508, 513, 517, 521, 531],
                 "terminates": false,
-                "throughDestEn": "Chiba",
-                "throughDestJa": "千葉",
+                "throughDest": {
+                    "en": "Chiba",
+                    "ja": "千葉"
+                },
                 "type": "Local"
             },
             {
@@ -754,8 +785,10 @@
                 "startsHere": true,
                 "stops": [542, 547, 551, 555, 560],
                 "terminates": false,
-                "throughDestEn": "Chiba",
-                "throughDestJa": "千葉",
+                "throughDest": {
+                    "en": "Chiba",
+                    "ja": "千葉"
+                },
                 "type": "Local"
             },
             {
@@ -765,8 +798,10 @@
                 "startsHere": true,
                 "stops": [579, 583, 593, 596, 609],
                 "terminates": false,
-                "throughDestEn": "Chiba",
-                "throughDestJa": "千葉",
+                "throughDest": {
+                    "en": "Chiba",
+                    "ja": "千葉"
+                },
                 "type": "Local"
             },
             {
@@ -776,8 +811,10 @@
                 "startsHere": true,
                 "stops": [621, 627, 635, 638, 649],
                 "terminates": false,
-                "throughDestEn": "Chiba",
-                "throughDestJa": "千葉",
+                "throughDest": {
+                    "en": "Chiba",
+                    "ja": "千葉"
+                },
                 "type": "Local"
             },
             {
@@ -787,8 +824,10 @@
                 "startsHere": true,
                 "stops": [648, 653, 658, 661, 667],
                 "terminates": false,
-                "throughDestEn": "Chiba",
-                "throughDestJa": "千葉",
+                "throughDest": {
+                    "en": "Chiba",
+                    "ja": "千葉"
+                },
                 "type": "Local"
             },
             {
@@ -798,8 +837,10 @@
                 "startsHere": true,
                 "stops": [651, 656, 660, 664, 669],
                 "terminates": false,
-                "throughDestEn": "Chiba",
-                "throughDestJa": "千葉",
+                "throughDest": {
+                    "en": "Chiba",
+                    "ja": "千葉"
+                },
                 "type": "Local"
             },
             {
@@ -809,8 +850,10 @@
                 "startsHere": true,
                 "stops": [708, 713, 717, 721, 731],
                 "terminates": false,
-                "throughDestEn": "Chiba",
-                "throughDestJa": "千葉",
+                "throughDest": {
+                    "en": "Chiba",
+                    "ja": "千葉"
+                },
                 "type": "Local"
             },
             {
@@ -820,8 +863,10 @@
                 "startsHere": true,
                 "stops": [768, 772, 777, 781, 791],
                 "terminates": false,
-                "throughDestEn": "Chiba",
-                "throughDestJa": "千葉",
+                "throughDest": {
+                    "en": "Chiba",
+                    "ja": "千葉"
+                },
                 "type": "Local"
             },
             {
@@ -831,8 +876,10 @@
                 "startsHere": true,
                 "stops": [828, 833, 838, 842, 851],
                 "terminates": false,
-                "throughDestEn": "Chiba",
-                "throughDestJa": "千葉",
+                "throughDest": {
+                    "en": "Chiba",
+                    "ja": "千葉"
+                },
                 "type": "Local"
             },
             {
@@ -878,8 +925,10 @@
                 "startsHere": true,
                 "stops": [1035, 1040, 1047, 1051, 1056],
                 "terminates": false,
-                "throughDestEn": "Chiba",
-                "throughDestJa": "千葉",
+                "throughDest": {
+                    "en": "Chiba",
+                    "ja": "千葉"
+                },
                 "type": "Local"
             },
             {
@@ -907,8 +956,10 @@
                 "startsHere": true,
                 "stops": [1154, 1158, 1163, 1167, 1175],
                 "terminates": false,
-                "throughDestEn": "Chiba",
-                "throughDestJa": "千葉",
+                "throughDest": {
+                    "en": "Chiba",
+                    "ja": "千葉"
+                },
                 "type": "Local"
             },
             {
@@ -963,8 +1014,10 @@
                 "startsHere": true,
                 "stops": [1332, 1335, 1341],
                 "terminates": false,
-                "throughDestEn": "Chiba",
-                "throughDestJa": "千葉",
+                "throughDest": {
+                    "en": "Chiba",
+                    "ja": "千葉"
+                },
                 "type": "Local"
             },
             {
@@ -1280,8 +1333,10 @@
                 "startsHere": true,
                 "stops": [391, 396, 400, 404, 414],
                 "terminates": false,
-                "throughDestEn": "Chiba",
-                "throughDestJa": "千葉",
+                "throughDest": {
+                    "en": "Chiba",
+                    "ja": "千葉"
+                },
                 "type": "Local"
             },
             {
@@ -1291,8 +1346,10 @@
                 "startsHere": true,
                 "stops": [411, 417, 428, 431, 438],
                 "terminates": false,
-                "throughDestEn": "Tokyo",
-                "throughDestJa": "東京",
+                "throughDest": {
+                    "en": "Tokyo",
+                    "ja": "東京"
+                },
                 "type": "Local"
             },
             {
@@ -1320,8 +1377,10 @@
                 "startsHere": true,
                 "stops": [484, 489, 494, 497, 503],
                 "terminates": false,
-                "throughDestEn": "Chiba",
-                "throughDestJa": "千葉",
+                "throughDest": {
+                    "en": "Chiba",
+                    "ja": "千葉"
+                },
                 "type": "Local"
             },
             {
@@ -1331,8 +1390,10 @@
                 "startsHere": true,
                 "stops": [508, 513, 517, 521, 531],
                 "terminates": false,
-                "throughDestEn": "Chiba",
-                "throughDestJa": "千葉",
+                "throughDest": {
+                    "en": "Chiba",
+                    "ja": "千葉"
+                },
                 "type": "Local"
             },
             {
@@ -1342,8 +1403,10 @@
                 "startsHere": true,
                 "stops": [542, 547, 551, 555, 560],
                 "terminates": false,
-                "throughDestEn": "Chiba",
-                "throughDestJa": "千葉",
+                "throughDest": {
+                    "en": "Chiba",
+                    "ja": "千葉"
+                },
                 "type": "Local"
             },
             {
@@ -1353,8 +1416,10 @@
                 "startsHere": true,
                 "stops": [579, 583, 593, 596, 609],
                 "terminates": false,
-                "throughDestEn": "Chiba",
-                "throughDestJa": "千葉",
+                "throughDest": {
+                    "en": "Chiba",
+                    "ja": "千葉"
+                },
                 "type": "Local"
             },
             {
@@ -1364,8 +1429,10 @@
                 "startsHere": true,
                 "stops": [621, 627, 635, 638, 649],
                 "terminates": false,
-                "throughDestEn": "Chiba",
-                "throughDestJa": "千葉",
+                "throughDest": {
+                    "en": "Chiba",
+                    "ja": "千葉"
+                },
                 "type": "Local"
             },
             {
@@ -1375,8 +1442,10 @@
                 "startsHere": true,
                 "stops": [648, 653, 658, 661, 667],
                 "terminates": false,
-                "throughDestEn": "Chiba",
-                "throughDestJa": "千葉",
+                "throughDest": {
+                    "en": "Chiba",
+                    "ja": "千葉"
+                },
                 "type": "Local"
             },
             {
@@ -1386,8 +1455,10 @@
                 "startsHere": true,
                 "stops": [708, 713, 717, 721, 731],
                 "terminates": false,
-                "throughDestEn": "Chiba",
-                "throughDestJa": "千葉",
+                "throughDest": {
+                    "en": "Chiba",
+                    "ja": "千葉"
+                },
                 "type": "Local"
             },
             {
@@ -1397,8 +1468,10 @@
                 "startsHere": true,
                 "stops": [768, 772, 777, 781, 791],
                 "terminates": false,
-                "throughDestEn": "Chiba",
-                "throughDestJa": "千葉",
+                "throughDest": {
+                    "en": "Chiba",
+                    "ja": "千葉"
+                },
                 "type": "Local"
             },
             {
@@ -1408,8 +1481,10 @@
                 "startsHere": true,
                 "stops": [828, 833, 838, 842, 851],
                 "terminates": false,
-                "throughDestEn": "Chiba",
-                "throughDestJa": "千葉",
+                "throughDest": {
+                    "en": "Chiba",
+                    "ja": "千葉"
+                },
                 "type": "Local"
             },
             {
@@ -1455,8 +1530,10 @@
                 "startsHere": true,
                 "stops": [1035, 1040, 1047, 1051, 1056],
                 "terminates": false,
-                "throughDestEn": "Chiba",
-                "throughDestJa": "千葉",
+                "throughDest": {
+                    "en": "Chiba",
+                    "ja": "千葉"
+                },
                 "type": "Local"
             },
             {
@@ -1484,8 +1561,10 @@
                 "startsHere": true,
                 "stops": [1154, 1158, 1163, 1167, 1175],
                 "terminates": false,
-                "throughDestEn": "Chiba",
-                "throughDestJa": "千葉",
+                "throughDest": {
+                    "en": "Chiba",
+                    "ja": "千葉"
+                },
                 "type": "Local"
             },
             {
@@ -1540,8 +1619,10 @@
                 "startsHere": true,
                 "stops": [1332, 1335, 1341],
                 "terminates": false,
-                "throughDestEn": "Chiba",
-                "throughDestJa": "千葉",
+                "throughDest": {
+                    "en": "Chiba",
+                    "ja": "千葉"
+                },
                 "type": "Local"
             },
             {
@@ -1554,6 +1635,6 @@
                 "type": "Local"
             }
         ],
-        "upHopTimesMinutes": [4.0, 4.0, 5.0, 5.0]
+        "upHopTimesMinutes": [4, 4, 5, 5]
     }
 ]

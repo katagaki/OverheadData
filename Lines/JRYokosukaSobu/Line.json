@@ -2,10 +2,14 @@
     {
         "colorHex": "#0072BC",
         "delayInfo": {
-            "checkMethodEn": "Check the JR East Train Operation Information page or the JR East app. In the Tokyo area, delays or suspensions of 15 minutes or more are posted.",
-            "checkMethodJa": "JR東日本「列車運行情報」ページまたはJR東日本アプリで確認できます。首都圏エリアでは15分以上の遅れ・運休が発生または見込まれる場合に掲載されます。",
-            "statusPageURL": "https://traininfo.jreast.co.jp/train_info/line.aspx?gid=1&lineid=yokosukaline",
-            "statusPageURLEn": "https://traininfo.jreast.co.jp/train_info/e/kanto.aspx",
+            "checkMethod": {
+                "en": "Check the JR East Train Operation Information page or the JR East app. In the Tokyo area, delays or suspensions of 15 minutes or more are posted.",
+                "ja": "JR東日本「列車運行情報」ページまたはJR東日本アプリで確認できます。首都圏エリアでは15分以上の遅れ・運休が発生または見込まれる場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://traininfo.jreast.co.jp/train_info/e/kanto.aspx",
+                "ja": "https://traininfo.jreast.co.jp/train_info/line.aspx?gid=1&lineid=yokosukaline"
+            },
             "xAccount": "@JRE_F_Tokaido"
         },
         "directions": [
@@ -15,8 +19,10 @@
                 "id": "static.RailDirection:JR-East.YokosukaSobu.Chiba",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Tokyo & Chiba",
-                "nameJa": "東京・千葉方面",
+                "name": {
+                    "en": "For Tokyo & Chiba",
+                    "ja": "東京・千葉方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -78,8 +84,10 @@
                 "id": "static.RailDirection:JR-East.YokosukaSobu.Kurihama",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Yokohama & Kurihama",
-                "nameJa": "横浜・久里浜方面",
+                "name": {
+                    "en": "For Yokohama & Kurihama",
+                    "ja": "横浜・久里浜方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -139,316 +147,374 @@
         "hopTimesMinutes": [6, 5, 3, 4, 3, 4, 3, 3, 5, 4, 5, 3, 9, 3, 5, 5, 5, 3, 2, 2, 4, 5, 5, 6, 4, 7, 4],
         "id": "Railway:JR-East.YokosukaSobu",
         "isLoop": false,
-        "nameEn": "Yokosuka-Sobu Rapid Line",
-        "nameJa": "横須賀・総武線快速",
+        "name": {
+            "en": "Yokosuka-Sobu Rapid Line",
+            "ja": "横須賀・総武線快速"
+        },
         "operatorId": "Operator:JR-East",
         "stations": [
             {
                 "id": "Station:JR-East.YokosukaSobu.Kurihama",
                 "latitude": 35.233138,
                 "longitude": 139.701349,
-                "name": "久里浜",
-                "nameEn": "Kurihama",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kurihama",
+                    "ja": "久里浜",
+                    "ko": "구리하마",
+                    "zh-Hans": "久里滨",
+                    "zh-Hant": "久里濱"
+                },
                 "stationCode": "JO01"
             },
             {
                 "id": "Station:JR-East.YokosukaSobu.Kinugasa",
                 "latitude": 35.257378,
                 "longitude": 139.661315,
-                "name": "衣笠",
-                "nameEn": "Kinugasa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kinugasa",
+                    "ja": "衣笠",
+                    "ko": "기누가사",
+                    "zh-Hans": "衣笠",
+                    "zh-Hant": "衣笠"
+                },
                 "stationCode": "JO02"
             },
             {
                 "id": "Station:JR-East.YokosukaSobu.Yokosuka",
                 "latitude": 35.284095,
                 "longitude": 139.655981,
-                "name": "横須賀",
-                "nameEn": "Yokosuka",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Yokosuka",
+                    "ja": "横須賀",
+                    "ko": "요코스카",
+                    "zh-Hans": "横须贺",
+                    "zh-Hant": "橫須賀"
+                },
                 "stationCode": "JO03"
             },
             {
                 "id": "Station:JR-East.YokosukaSobu.Taura",
                 "latitude": 35.292803,
                 "longitude": 139.636946,
-                "name": "田浦",
-                "nameEn": "Taura",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Taura",
+                    "ja": "田浦",
+                    "ko": "다우라",
+                    "zh-Hans": "田浦",
+                    "zh-Hant": "田浦"
+                },
                 "stationCode": "JO04"
             },
             {
                 "id": "Station:JR-East.YokosukaSobu.HigashiZushi",
                 "latitude": 35.298842,
                 "longitude": 139.601407,
-                "name": "東逗子",
-                "nameEn": "Higashi-Zushi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Higashi-Zushi",
+                    "ja": "東逗子",
+                    "ko": "히가시즈시",
+                    "zh-Hans": "东逗子",
+                    "zh-Hant": "東逗子"
+                },
                 "stationCode": "JO05"
             },
             {
                 "id": "Station:JR-East.YokosukaSobu.Zushi",
                 "latitude": 35.297632,
                 "longitude": 139.578866,
-                "name": "逗子",
-                "nameEn": "Zushi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Zushi",
+                    "ja": "逗子",
+                    "ko": "즈시",
+                    "zh-Hans": "逗子",
+                    "zh-Hant": "逗子"
+                },
                 "stationCode": "JO06"
             },
             {
                 "id": "Station:JR-East.YokosukaSobu.Kamakura",
                 "latitude": 35.319119,
                 "longitude": 139.550429,
-                "name": "鎌倉",
-                "nameEn": "Kamakura",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kamakura",
+                    "ja": "鎌倉",
+                    "ko": "가마쿠라",
+                    "zh-Hans": "鎌倉",
+                    "zh-Hant": "鎌倉"
+                },
                 "stationCode": "JO07"
             },
             {
                 "id": "Station:JR-East.YokosukaSobu.KitaKamakura",
                 "latitude": 35.3372,
                 "longitude": 139.5468,
-                "name": "北鎌倉",
-                "nameEn": "Kita-Kamakura",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kita-Kamakura",
+                    "ja": "北鎌倉",
+                    "ko": "기타카마쿠라",
+                    "zh-Hans": "北镰仓",
+                    "zh-Hant": "北鎌倉"
+                },
                 "stationCode": "JO08"
             },
             {
                 "id": "Station:JR-East.YokosukaSobu.Ofuna",
                 "latitude": 35.354,
                 "longitude": 139.5313,
-                "name": "大船",
-                "nameEn": "Ofuna",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ofuna",
+                    "ja": "大船",
+                    "ko": "오후나",
+                    "zh-Hans": "大船",
+                    "zh-Hant": "大船"
+                },
                 "stationCode": "JO09"
             },
             {
                 "id": "Station:JR-East.YokosukaSobu.Totsuka",
                 "latitude": 35.4008,
                 "longitude": 139.5342,
-                "name": "戸塚",
-                "nameEn": "Totsuka",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Totsuka",
+                    "ja": "戸塚",
+                    "ko": "도쓰카",
+                    "zh-Hans": "户冢",
+                    "zh-Hant": "戶塚"
+                },
                 "stationCode": "JO10"
             },
             {
                 "id": "Station:JR-East.YokosukaSobu.HigashiTotsuka",
                 "latitude": 35.430361,
                 "longitude": 139.556762,
-                "name": "東戸塚",
-                "nameEn": "Higashi-Totsuka",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Higashi-Totsuka",
+                    "ja": "東戸塚",
+                    "ko": "히가시토쓰카",
+                    "zh-Hans": "东户冢",
+                    "zh-Hant": "東戶塚"
+                },
                 "stationCode": "JO11"
             },
             {
                 "id": "Station:JR-East.YokosukaSobu.Hodogaya",
                 "latitude": 35.446689,
                 "longitude": 139.599702,
-                "name": "保土ケ谷",
-                "nameEn": "Hodogaya",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Hodogaya",
+                    "ja": "保土ケ谷",
+                    "ko": "호도가야",
+                    "zh-Hans": "保土谷",
+                    "zh-Hant": "保土谷"
+                },
                 "stationCode": "JO12"
             },
             {
                 "id": "Station:JR-East.YokosukaSobu.Yokohama",
                 "latitude": 35.4657,
                 "longitude": 139.6224,
-                "name": "横浜",
-                "nameEn": "Yokohama",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Yokohama",
+                    "ja": "横浜",
+                    "ko": "요코하마",
+                    "zh-Hans": "横滨",
+                    "zh-Hant": "橫濱"
+                },
                 "stationCode": "JO13"
             },
             {
                 "id": "Station:JR-East.YokosukaSobu.ShinKawasaki",
                 "latitude": 35.551461,
                 "longitude": 139.671837,
-                "name": "新川崎",
-                "nameEn": "Shin-Kawasaki",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shin-Kawasaki",
+                    "ja": "新川崎",
+                    "ko": "신카와사키",
+                    "zh-Hans": "新川崎",
+                    "zh-Hant": "新川崎"
+                },
                 "stationCode": "JO14"
             },
             {
                 "id": "Station:JR-East.YokosukaSobu.MusashiKosugi",
                 "latitude": 35.5766,
                 "longitude": 139.6597,
-                "name": "武蔵小杉",
-                "nameEn": "Musashi-Kosugi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Musashi-Kosugi",
+                    "ja": "武蔵小杉",
+                    "ko": "무사시코스기",
+                    "zh-Hans": "武藏小杉",
+                    "zh-Hant": "武藏小杉"
+                },
                 "stationCode": "JO15"
             },
             {
                 "id": "Station:JR-East.YokosukaSobu.NishiOi",
                 "latitude": 35.6012,
                 "longitude": 139.7218,
-                "name": "西大井",
-                "nameEn": "Nishi-Oi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nishi-Oi",
+                    "ja": "西大井",
+                    "ko": "니시오이",
+                    "zh-Hans": "西大井",
+                    "zh-Hant": "西大井"
+                },
                 "stationCode": "JO16"
             },
             {
                 "id": "Station:JR-East.YokosukaSobu.Shinagawa",
                 "latitude": 35.6285,
                 "longitude": 139.7388,
-                "name": "品川",
-                "nameEn": "Shinagawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shinagawa",
+                    "ja": "品川",
+                    "ko": "시나가와",
+                    "zh-Hans": "品川",
+                    "zh-Hant": "品川"
+                },
                 "stationCode": "JO17"
             },
             {
                 "id": "Station:JR-East.YokosukaSobu.Shimbashi",
                 "latitude": 35.6663,
                 "longitude": 139.7583,
-                "name": "新橋",
-                "nameEn": "Shimbashi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shimbashi",
+                    "ja": "新橋",
+                    "ko": "신바시",
+                    "zh-Hans": "新桥",
+                    "zh-Hant": "新橋"
+                },
                 "stationCode": "JO18"
             },
             {
                 "id": "Station:JR-East.YokosukaSobu.Tokyo",
                 "latitude": 35.6812,
                 "longitude": 139.7671,
-                "name": "東京",
-                "nameEn": "Tokyo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tokyo",
+                    "ja": "東京",
+                    "ko": "도쿄",
+                    "zh-Hans": "东京",
+                    "zh-Hant": "東京"
+                },
                 "stationCode": "JO19"
             },
             {
                 "id": "Station:JR-East.YokosukaSobu.ShinNihombashi",
                 "latitude": 35.6892,
                 "longitude": 139.7738,
-                "name": "新日本橋",
-                "nameEn": "Shin-Nihombashi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shin-Nihombashi",
+                    "ja": "新日本橋",
+                    "ko": "신니혼바시",
+                    "zh-Hans": "新日本桥",
+                    "zh-Hant": "新日本橋"
+                },
                 "stationCode": "JO20"
             },
             {
                 "id": "Station:JR-East.YokosukaSobu.Bakurocho",
                 "latitude": 35.6932,
                 "longitude": 139.7828,
-                "name": "馬喰町",
-                "nameEn": "Bakurocho",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Bakurocho",
+                    "ja": "馬喰町",
+                    "ko": "바쿠로초",
+                    "zh-Hans": "马喰町",
+                    "zh-Hant": "馬喰町"
+                },
                 "stationCode": "JO21"
             },
             {
                 "id": "Station:JR-East.YokosukaSobu.Kinshicho",
                 "latitude": 35.6967,
                 "longitude": 139.814,
-                "name": "錦糸町",
-                "nameEn": "Kinshicho",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kinshicho",
+                    "ja": "錦糸町",
+                    "ko": "긴시초",
+                    "zh-Hans": "锦糸町",
+                    "zh-Hant": "錦糸町"
+                },
                 "stationCode": "JO22"
             },
             {
                 "id": "Station:JR-East.YokosukaSobu.ShinKoiwa",
                 "latitude": 35.7167,
                 "longitude": 139.8578,
-                "name": "新小岩",
-                "nameEn": "Shin-Koiwa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shin-Koiwa",
+                    "ja": "新小岩",
+                    "ko": "신코이와",
+                    "zh-Hans": "新小岩",
+                    "zh-Hant": "新小岩"
+                },
                 "stationCode": "JO23"
             },
             {
                 "id": "Station:JR-East.YokosukaSobu.Ichikawa",
                 "latitude": 35.7297,
                 "longitude": 139.9078,
-                "name": "市川",
-                "nameEn": "Ichikawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ichikawa",
+                    "ja": "市川",
+                    "ko": "이치카와",
+                    "zh-Hans": "市川",
+                    "zh-Hant": "市川"
+                },
                 "stationCode": "JO24"
             },
             {
                 "id": "Station:JR-East.YokosukaSobu.Funabashi",
                 "latitude": 35.7019,
                 "longitude": 139.9853,
-                "name": "船橋",
-                "nameEn": "Funabashi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Funabashi",
+                    "ja": "船橋",
+                    "ko": "후나바시",
+                    "zh-Hans": "船桥",
+                    "zh-Hant": "船橋"
+                },
                 "stationCode": "JO25"
             },
             {
                 "id": "Station:JR-East.YokosukaSobu.Tsudanuma",
                 "latitude": 35.6913,
                 "longitude": 140.02,
-                "name": "津田沼",
-                "nameEn": "Tsudanuma",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tsudanuma",
+                    "ja": "津田沼",
+                    "ko": "쓰다누마",
+                    "zh-Hans": "津田沼",
+                    "zh-Hant": "津田沼"
+                },
                 "stationCode": "JO26"
             },
             {
                 "id": "Station:JR-East.YokosukaSobu.Inage",
                 "latitude": 35.637085,
                 "longitude": 140.092567,
-                "name": "稲毛",
-                "nameEn": "Inage",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Inage",
+                    "ja": "稲毛",
+                    "ko": "이나게",
+                    "zh-Hans": "稻毛",
+                    "zh-Hant": "稻毛"
+                },
                 "stationCode": "JO27"
             },
             {
                 "id": "Station:JR-East.YokosukaSobu.Chiba",
                 "latitude": 35.6131,
                 "longitude": 140.1136,
-                "name": "千葉",
-                "nameEn": "Chiba",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Chiba",
+                    "ja": "千葉",
+                    "ko": "지바",
+                    "zh-Hans": "千叶",
+                    "zh-Hant": "千葉"
+                },
                 "stationCode": "JO28"
             }
         ],
@@ -457,10 +523,14 @@
             {
                 "end": "ascending",
                 "junctionStationId": "Station:JR-East.YokosukaSobu.Chiba",
-                "lineNameEn": "JR Sobu Main & Narita Lines",
-                "lineNameJa": "総武本線・成田線",
-                "towardEn": "for Narita Airport & Kimitsu",
-                "towardJa": "成田空港・君津方面"
+                "lineName": {
+                    "en": "JR Sobu Main & Narita Lines",
+                    "ja": "総武本線・成田線"
+                },
+                "toward": {
+                    "en": "for Narita Airport & Kimitsu",
+                    "ja": "成田空港・君津方面"
+                }
             }
         ],
         "timetableRuns": [
@@ -471,8 +541,10 @@
                 "startsHere": true,
                 "stops": [414, 419, 423, 427, 432, 436, 441, 444, 453, 457, 462],
                 "terminates": false,
-                "throughDestEn": "Koganei",
-                "throughDestJa": "小金井",
+                "throughDest": {
+                    "en": "Koganei",
+                    "ja": "小金井"
+                },
                 "type": "Local"
             },
             {
@@ -482,8 +554,10 @@
                 "startsHere": true,
                 "stops": [451, 456, 459, 463, 470, 474, 479, 483, 493, 496, 501],
                 "terminates": false,
-                "throughDestEn": "Koganei",
-                "throughDestJa": "小金井",
+                "throughDest": {
+                    "en": "Koganei",
+                    "ja": "小金井"
+                },
                 "type": "Local"
             },
             {
@@ -493,8 +567,10 @@
                 "startsHere": true,
                 "stops": [467, 472, 475, 479, 484, 488, 493, 498, 507, 511, 516],
                 "terminates": false,
-                "throughDestEn": "Koganei",
-                "throughDestJa": "小金井",
+                "throughDest": {
+                    "en": "Koganei",
+                    "ja": "小金井"
+                },
                 "type": "Local"
             },
             {
@@ -504,8 +580,10 @@
                 "startsHere": true,
                 "stops": [574, 578, 582, 590, 596, 600, 605, 610, 620, 624, 629],
                 "terminates": false,
-                "throughDestEn": "Koganei",
-                "throughDestJa": "小金井",
+                "throughDest": {
+                    "en": "Koganei",
+                    "ja": "小金井"
+                },
                 "type": "Local"
             },
             {
@@ -515,8 +593,10 @@
                 "startsHere": true,
                 "stops": [605, 610, 613, 617, 622, 626, 631, 635, 644, 647, 653],
                 "terminates": false,
-                "throughDestEn": "Utsunomiya",
-                "throughDestJa": "宇都宮",
+                "throughDest": {
+                    "en": "Utsunomiya",
+                    "ja": "宇都宮"
+                },
                 "type": "Rapid"
             },
             {
@@ -526,8 +606,10 @@
                 "startsHere": true,
                 "stops": [662, 667, 670, 676, 681, 685, 690, 693, 702, 705, 711],
                 "terminates": false,
-                "throughDestEn": "Utsunomiya",
-                "throughDestJa": "宇都宮",
+                "throughDest": {
+                    "en": "Utsunomiya",
+                    "ja": "宇都宮"
+                },
                 "type": "Rapid"
             },
             {
@@ -537,8 +619,10 @@
                 "startsHere": true,
                 "stops": [692, 697, 700, 706, 711, 715, 720, 723, 732, 735, 741],
                 "terminates": false,
-                "throughDestEn": "Utsunomiya",
-                "throughDestJa": "宇都宮",
+                "throughDest": {
+                    "en": "Utsunomiya",
+                    "ja": "宇都宮"
+                },
                 "type": "Local"
             },
             {
@@ -548,8 +632,10 @@
                 "startsHere": true,
                 "stops": [722, 727, 730, 736, 742, 746, 750, 754, 763, 766, 771],
                 "terminates": false,
-                "throughDestEn": "Utsunomiya",
-                "throughDestJa": "宇都宮",
+                "throughDest": {
+                    "en": "Utsunomiya",
+                    "ja": "宇都宮"
+                },
                 "type": "Rapid"
             },
             {
@@ -559,8 +645,10 @@
                 "startsHere": true,
                 "stops": [752, 757, 760, 766, 771, 775, 780, 783, 792, 795, 801],
                 "terminates": false,
-                "throughDestEn": "Utsunomiya",
-                "throughDestJa": "宇都宮",
+                "throughDest": {
+                    "en": "Utsunomiya",
+                    "ja": "宇都宮"
+                },
                 "type": "Local"
             },
             {
@@ -570,8 +658,10 @@
                 "startsHere": true,
                 "stops": [782, 787, 790, 796, 801, 805, 810, 813, 822, 825, 831],
                 "terminates": false,
-                "throughDestEn": "Utsunomiya",
-                "throughDestJa": "宇都宮",
+                "throughDest": {
+                    "en": "Utsunomiya",
+                    "ja": "宇都宮"
+                },
                 "type": "Rapid"
             },
             {
@@ -581,8 +671,10 @@
                 "startsHere": true,
                 "stops": [812, 817, 820, 826, 831, 835, 840, 843, 852, 855, 861],
                 "terminates": false,
-                "throughDestEn": "Utsunomiya",
-                "throughDestJa": "宇都宮",
+                "throughDest": {
+                    "en": "Utsunomiya",
+                    "ja": "宇都宮"
+                },
                 "type": "Local"
             },
             {
@@ -592,8 +684,10 @@
                 "startsHere": true,
                 "stops": [842, 847, 850, 856, 861, 865, 870, 873, 882, 885, 891],
                 "terminates": false,
-                "throughDestEn": "Utsunomiya",
-                "throughDestJa": "宇都宮",
+                "throughDest": {
+                    "en": "Utsunomiya",
+                    "ja": "宇都宮"
+                },
                 "type": "Rapid"
             },
             {
@@ -603,8 +697,10 @@
                 "startsHere": true,
                 "stops": [872, 877, 880, 886, 891, 895, 900, 903, 912, 915, 921],
                 "terminates": false,
-                "throughDestEn": "Utsunomiya",
-                "throughDestJa": "宇都宮",
+                "throughDest": {
+                    "en": "Utsunomiya",
+                    "ja": "宇都宮"
+                },
                 "type": "Local"
             },
             {
@@ -614,8 +710,10 @@
                 "startsHere": true,
                 "stops": [902, 907, 910, 916, 921, 925, 930, 933, 942, 945, 951],
                 "terminates": false,
-                "throughDestEn": "Utsunomiya",
-                "throughDestJa": "宇都宮",
+                "throughDest": {
+                    "en": "Utsunomiya",
+                    "ja": "宇都宮"
+                },
                 "type": "Rapid"
             },
             {
@@ -625,8 +723,10 @@
                 "startsHere": true,
                 "stops": [961, 966, 970, 974, 979, 983, 988, 992, 1001, 1005, 1011],
                 "terminates": false,
-                "throughDestEn": "Utsunomiya",
-                "throughDestJa": "宇都宮",
+                "throughDest": {
+                    "en": "Utsunomiya",
+                    "ja": "宇都宮"
+                },
                 "type": "Rapid"
             },
             {
@@ -636,8 +736,10 @@
                 "startsHere": true,
                 "stops": [993, 999, 1002, 1007, 1012, 1016, 1021, 1024, 1033, 1037, 1042],
                 "terminates": false,
-                "throughDestEn": "Koganei",
-                "throughDestJa": "小金井",
+                "throughDest": {
+                    "en": "Koganei",
+                    "ja": "小金井"
+                },
                 "type": "Local"
             },
             {
@@ -647,8 +749,10 @@
                 "startsHere": true,
                 "stops": [1025, 1030, 1033, 1037, 1042, 1046, 1051, 1055, 1064, 1067, 1072],
                 "terminates": false,
-                "throughDestEn": "Utsunomiya",
-                "throughDestJa": "宇都宮",
+                "throughDest": {
+                    "en": "Utsunomiya",
+                    "ja": "宇都宮"
+                },
                 "type": "Local"
             },
             {
@@ -658,8 +762,10 @@
                 "startsHere": true,
                 "stops": [1051, 1056, 1059, 1064, 1069, 1073, 1077, 1081, 1090, 1093, 1099],
                 "terminates": false,
-                "throughDestEn": "Koganei",
-                "throughDestJa": "小金井",
+                "throughDest": {
+                    "en": "Koganei",
+                    "ja": "小金井"
+                },
                 "type": "Local"
             },
             {
@@ -669,8 +775,10 @@
                 "startsHere": true,
                 "stops": [1080, 1085, 1089, 1096, 1101, 1105, 1110, 1113, 1122, 1126, 1131],
                 "terminates": false,
-                "throughDestEn": "Koga",
-                "throughDestJa": "古河",
+                "throughDest": {
+                    "en": "Koga",
+                    "ja": "古河"
+                },
                 "type": "Local"
             },
             {
@@ -680,8 +788,10 @@
                 "startsHere": true,
                 "stops": [1114, 1118, 1122, 1125, 1130, 1134, 1139, 1142, 1151, 1155, 1160],
                 "terminates": false,
-                "throughDestEn": "Utsunomiya",
-                "throughDestJa": "宇都宮",
+                "throughDest": {
+                    "en": "Utsunomiya",
+                    "ja": "宇都宮"
+                },
                 "type": "Local"
             },
             {
@@ -691,8 +801,10 @@
                 "startsHere": true,
                 "stops": [1142, 1147, 1151, 1155, 1160, 1164, 1169, 1174, 1183, 1186, 1192],
                 "terminates": false,
-                "throughDestEn": "Koga",
-                "throughDestJa": "古河",
+                "throughDest": {
+                    "en": "Koga",
+                    "ja": "古河"
+                },
                 "type": "Local"
             },
             {
@@ -702,8 +814,10 @@
                 "startsHere": true,
                 "stops": [1173, 1178, 1181, 1185, 1190, 1194, 1199, 1203, 1212, 1216, 1221],
                 "terminates": false,
-                "throughDestEn": "Koga",
-                "throughDestJa": "古河",
+                "throughDest": {
+                    "en": "Koga",
+                    "ja": "古河"
+                },
                 "type": "Local"
             },
             {
@@ -713,8 +827,10 @@
                 "startsHere": true,
                 "stops": [1219, 1224, 1227, 1231, 1236, 1240, 1244, 1248, 1257, 1260, 1266],
                 "terminates": false,
-                "throughDestEn": "Utsunomiya",
-                "throughDestJa": "宇都宮",
+                "throughDest": {
+                    "en": "Utsunomiya",
+                    "ja": "宇都宮"
+                },
                 "type": "Local"
             },
             {
@@ -724,8 +840,10 @@
                 "startsHere": true,
                 "stops": [1271, 1276, 1279, 1283, 1288, 1292, 1297, 1300, 1309, 1312, 1318],
                 "terminates": false,
-                "throughDestEn": "Koganei",
-                "throughDestJa": "小金井",
+                "throughDest": {
+                    "en": "Koganei",
+                    "ja": "小金井"
+                },
                 "type": "Local"
             },
             {
@@ -960,8 +1078,10 @@
                 "startsHere": false,
                 "stops": [287, 292, 297, 300, 304, 311, 315, 318, 322, 327, 331, 335, 339, 348, 351, 356, 361, 366, 370, 372, 374, 378, 383, 390, 396, 400, 407, 411],
                 "terminates": false,
-                "throughDestEn": "Narita Airport",
-                "throughDestJa": "成田空港",
+                "throughDest": {
+                    "en": "Narita Airport",
+                    "ja": "成田空港"
+                },
                 "type": "Rapid"
             },
             {
@@ -980,8 +1100,10 @@
                 "startsHere": false,
                 "stops": [323, 328, 333, 336, 340, 347, 351, 354, 359, 365, 369, 373, 378, 387, 390, 396, 401, 406, 412, 414, 416, 420, 425, 433, 439, 444, 451, 455],
                 "terminates": false,
-                "throughDestEn": "Kimitsu",
-                "throughDestJa": "君津",
+                "throughDest": {
+                    "en": "Kimitsu",
+                    "ja": "君津"
+                },
                 "type": "Rapid"
             },
             {
@@ -1000,8 +1122,10 @@
                 "startsHere": false,
                 "stops": [351, 357, 361, 364, 368, 375, 379, 382, 387, 392, 396, 400, 405, 414, 417, 422, 428, 432, 437, 439, 441, 445, 450, 455, 461, 464, 471, 475],
                 "terminates": false,
-                "throughDestEn": "Kimitsu",
-                "throughDestJa": "君津",
+                "throughDest": {
+                    "en": "Kimitsu",
+                    "ja": "君津"
+                },
                 "type": "Rapid"
             },
             {
@@ -1029,8 +1153,10 @@
                 "startsHere": false,
                 "stops": [398, 404, 408, 412, 416, 426, 430, 433, 438, 444, 448, 452, 457, 466, 470, 475, 480, 485, -1, 491, 493, -1, 502, 507, -1, 517, 524, 528],
                 "terminates": false,
-                "throughDestEn": "Narita Airport",
-                "throughDestJa": "成田空港",
+                "throughDest": {
+                    "en": "Narita Airport",
+                    "ja": "成田空港"
+                },
                 "type": "Rapid"
             },
             {
@@ -1058,8 +1184,10 @@
                 "startsHere": false,
                 "stops": [436, 442, 446, 450, 454, 461, 465, 469, 474, 480, 484, 488, 493, 503, 506, 511, 516, 522, 527, 529, 531, 535, 540, 545, 551, 554, 561, 565],
                 "terminates": false,
-                "throughDestEn": "Kazusa-Ichinomiya",
-                "throughDestJa": "上総一ノ宮",
+                "throughDest": {
+                    "en": "Kazusa-Ichinomiya",
+                    "ja": "上総一ノ宮"
+                },
                 "type": "Rapid"
             },
             {
@@ -1078,8 +1206,10 @@
                 "startsHere": false,
                 "stops": [469, 475, 479, 483, 487, 494, 498, 501, 506, 511, 515, 519, 523, 532, 536, 541, 546, 551, 554, 557, 559, 563, 567, 572, 578, 582, 589, 593],
                 "terminates": false,
-                "throughDestEn": "Narita Airport",
-                "throughDestJa": "成田空港",
+                "throughDest": {
+                    "en": "Narita Airport",
+                    "ja": "成田空港"
+                },
                 "type": "Rapid"
             },
             {
@@ -1098,8 +1228,10 @@
                 "startsHere": false,
                 "stops": [495, 501, 506, 509, 513, 518, 523, 526, 531, 536, 540, 545, 549, 559, 562, 567, 573, 578, 583, 585, 587, 592, 597, 602, 608, 613, 620, 624],
                 "terminates": false,
-                "throughDestEn": "Kazusa-Ichinomiya",
-                "throughDestJa": "上総一ノ宮",
+                "throughDest": {
+                    "en": "Kazusa-Ichinomiya",
+                    "ja": "上総一ノ宮"
+                },
                 "type": "Rapid"
             },
             {
@@ -1109,8 +1241,10 @@
                 "startsHere": false,
                 "stops": [508, 513, 518, 521, 525, 530, 534, 537, 545, 550, 554, 558, 562, 571, 574, 579, 585, 590, 594, 596, 598, 603, 607, 615, 621, 625, 632, 636],
                 "terminates": false,
-                "throughDestEn": "Kimitsu",
-                "throughDestJa": "君津",
+                "throughDest": {
+                    "en": "Kimitsu",
+                    "ja": "君津"
+                },
                 "type": "Rapid"
             },
             {
@@ -1174,8 +1308,10 @@
                 "startsHere": false,
                 "stops": [648, 654, 658, 661, 665, 672, 676, 679, 686, 691, 694, 699, 702, 711, 715, 720, 724, 729, 735, 737, 739, 744, 748, 753, 759, 764, 771, 775],
                 "terminates": false,
-                "throughDestEn": "Narita Airport",
-                "throughDestJa": "成田空港",
+                "throughDest": {
+                    "en": "Narita Airport",
+                    "ja": "成田空港"
+                },
                 "type": "Rapid"
             },
             {
@@ -1203,8 +1339,10 @@
                 "startsHere": false,
                 "stops": [704, 710, 714, 717, 721, 732, 736, 739, 746, 751, 754, 759, 762, 771, 775, 780, 784, 789, 795, 797, 799, 804, 808, 813, 819, 824, 831, 835],
                 "terminates": false,
-                "throughDestEn": "Narita Airport",
-                "throughDestJa": "成田空港",
+                "throughDest": {
+                    "en": "Narita Airport",
+                    "ja": "成田空港"
+                },
                 "type": "Rapid"
             },
             {
@@ -1232,8 +1370,10 @@
                 "startsHere": false,
                 "stops": [764, 769, 774, 777, 781, 792, 796, 799, 806, 811, 814, 819, 822, 831, 835, 840, 844, 849, 855, 857, 859, 864, 868, 873, 879, 884, 891, 895],
                 "terminates": false,
-                "throughDestEn": "Narita Airport",
-                "throughDestJa": "成田空港",
+                "throughDest": {
+                    "en": "Narita Airport",
+                    "ja": "成田空港"
+                },
                 "type": "Rapid"
             },
             {
@@ -1261,8 +1401,10 @@
                 "startsHere": false,
                 "stops": [824, 829, 834, 837, 841, 852, 856, 859, 866, 871, 874, 879, 882, 891, 895, 900, 904, 909, 915, 917, 919, 924, 929, 934, 940, 944, 951, 955],
                 "terminates": false,
-                "throughDestEn": "Narita Airport",
-                "throughDestJa": "成田空港",
+                "throughDest": {
+                    "en": "Narita Airport",
+                    "ja": "成田空港"
+                },
                 "type": "Rapid"
             },
             {
@@ -1317,8 +1459,10 @@
                 "startsHere": false,
                 "stops": [942, 947, 952, 955, 959, 970, 974, 977, 981, 986, 990, 994, 998, 1007, 1010, 1015, 1020, 1025, 1029, 1031, 1033, 1038, 1042, 1048, 1054, 1058, 1065, 1069],
                 "terminates": false,
-                "throughDestEn": "Narita Airport",
-                "throughDestJa": "成田空港",
+                "throughDest": {
+                    "en": "Narita Airport",
+                    "ja": "成田空港"
+                },
                 "type": "Rapid"
             },
             {
@@ -1346,8 +1490,10 @@
                 "startsHere": false,
                 "stops": [1002, 1007, 1012, 1015, 1019, 1029, 1033, 1036, 1041, 1046, 1049, 1054, 1057, 1066, 1070, 1075, 1079, 1084, 1088, 1090, 1093, 1097, 1102, 1107, 1113, 1118, 1126, 1130],
                 "terminates": false,
-                "throughDestEn": "Narita Airport",
-                "throughDestJa": "成田空港",
+                "throughDest": {
+                    "en": "Narita Airport",
+                    "ja": "成田空港"
+                },
                 "type": "Rapid"
             },
             {
@@ -1375,8 +1521,10 @@
                 "startsHere": false,
                 "stops": [1060, 1067, 1072, 1075, 1079, 1089, 1093, 1096, 1100, 1105, 1109, 1114, 1117, 1126, 1129, 1135, 1139, 1144, 1149, 1151, 1153, 1157, 1162, 1167, 1174, 1178, 1185, 1189],
                 "terminates": false,
-                "throughDestEn": "Narita Airport",
-                "throughDestJa": "成田空港",
+                "throughDest": {
+                    "en": "Narita Airport",
+                    "ja": "成田空港"
+                },
                 "type": "Rapid"
             },
             {
@@ -1386,8 +1534,10 @@
                 "startsHere": false,
                 "stops": [1080, 1085, 1090, 1093, 1097, 1104, 1108, 1111, 1119, 1124, 1127, 1132, 1135, 1144, 1148, 1153, 1157, 1162, 1166, 1169, 1171, 1175, 1180, 1185, 1191, 1195, 1203, 1207],
                 "terminates": false,
-                "throughDestEn": "Narita",
-                "throughDestJa": "成田",
+                "throughDest": {
+                    "en": "Narita",
+                    "ja": "成田"
+                },
                 "type": "Rapid"
             },
             {
@@ -1406,8 +1556,10 @@
                 "startsHere": false,
                 "stops": [1118, 1123, 1128, 1131, 1135, 1147, 1151, 1154, 1160, 1165, 1169, 1173, 1178, 1187, 1190, 1195, 1200, 1205, 1213, 1215, 1217, 1222, 1227, 1236, 1242, 1246, 1254, 1258],
                 "terminates": false,
-                "throughDestEn": "Narita Airport",
-                "throughDestJa": "成田空港",
+                "throughDest": {
+                    "en": "Narita Airport",
+                    "ja": "成田空港"
+                },
                 "type": "Rapid"
             },
             {
@@ -1453,8 +1605,10 @@
                 "startsHere": false,
                 "stops": [1196, 1202, 1206, 1209, 1213, 1223, 1227, 1230, 1235, 1240, 1244, 1248, 1253, 1262, 1265, 1271, 1275, 1280, 1284, 1286, 1288, 1293, 1297, 1302, 1308, 1312, 1319, 1323],
                 "terminates": false,
-                "throughDestEn": "Narita Airport",
-                "throughDestJa": "成田空港",
+                "throughDest": {
+                    "en": "Narita Airport",
+                    "ja": "成田空港"
+                },
                 "type": "Rapid"
             },
             {
@@ -1464,8 +1618,10 @@
                 "startsHere": false,
                 "stops": [1209, 1215, 1219, 1222, 1226, 1237, 1241, 1244, 1249, 1254, 1258, 1262, 1266, 1275, 1278, 1283, 1288, 1292, 1296, 1298, 1300, 1305, 1309, 1317, 1323, 1327, 1334, 1338],
                 "terminates": false,
-                "throughDestEn": "Narita",
-                "throughDestJa": "成田",
+                "throughDest": {
+                    "en": "Narita",
+                    "ja": "成田"
+                },
                 "type": "Rapid"
             },
             {
@@ -1484,8 +1640,10 @@
                 "startsHere": false,
                 "stops": [1234, 1240, 1245, 1248, 1251, 1261, 1265, 1268, 1274, 1279, 1283, 1287, 1292, 1301, 1304, 1309, 1317, 1321, 1327, 1329, 1331, 1336, 1340, 1345, 1351, 1356, 1363, 1367],
                 "terminates": false,
-                "throughDestEn": "Narita Airport",
-                "throughDestJa": "成田空港",
+                "throughDest": {
+                    "en": "Narita Airport",
+                    "ja": "成田空港"
+                },
                 "type": "Rapid"
             },
             {
@@ -2485,8 +2643,10 @@
                 "startsHere": true,
                 "stops": [418, 422, 426, 432, 437, 441, 445, 449, 459, 462, 467, 473, 478, 482, 484, 486, 491, 495, 500, 506, 511, 518, 522],
                 "terminates": false,
-                "throughDestEn": "Kimitsu",
-                "throughDestJa": "君津",
+                "throughDest": {
+                    "en": "Kimitsu",
+                    "ja": "君津"
+                },
                 "type": "Rapid"
             },
             {
@@ -2523,8 +2683,10 @@
                 "startsHere": true,
                 "stops": [471, 475, 478, 483, 488, 492, 497, 500, 510, 513, 518, 525, 531, 535, 537, 539, 543, 547, 555, 561, 565, 572, 576],
                 "terminates": false,
-                "throughDestEn": "Kimitsu",
-                "throughDestJa": "君津",
+                "throughDest": {
+                    "en": "Kimitsu",
+                    "ja": "君津"
+                },
                 "type": "Rapid"
             },
             {
@@ -2570,8 +2732,10 @@
                 "startsHere": true,
                 "stops": [548, 553, 556, 563, 568, 572, 577, 580, 589, 593, 598, 603, 608, 615, 617, 619, 624, 628, 633, 639, 644, 651, 655],
                 "terminates": false,
-                "throughDestEn": "Narita Airport",
-                "throughDestJa": "成田空港",
+                "throughDest": {
+                    "en": "Narita Airport",
+                    "ja": "成田空港"
+                },
                 "type": "Rapid"
             },
             {
@@ -2608,8 +2772,10 @@
                 "startsHere": true,
                 "stops": [594, 598, 601, 606, 611, 615, 620, 623, 632, 635, 641, 645, 650, 654, 656, 658, 663, 667, 675, 681, 685, 692, 696],
                 "terminates": false,
-                "throughDestEn": "Kimitsu",
-                "throughDestJa": "君津",
+                "throughDest": {
+                    "en": "Kimitsu",
+                    "ja": "君津"
+                },
                 "type": "Rapid"
             },
             {
@@ -2619,8 +2785,10 @@
                 "startsHere": true,
                 "stops": [614, 619, 622, 626, 631, 634, 639, 642, 651, 655, 660, 664, 669, 675, 677, 679, 684, 688, 693, 699, 704, 711, 715],
                 "terminates": false,
-                "throughDestEn": "Narita Airport",
-                "throughDestJa": "成田空港",
+                "throughDest": {
+                    "en": "Narita Airport",
+                    "ja": "成田空港"
+                },
                 "type": "Rapid"
             },
             {
@@ -2648,8 +2816,10 @@
                 "startsHere": true,
                 "stops": [653, 657, 660, 665, 670, 674, 678, 684, 693, 696, 701, 706, 710, 714, 716, 718, 723, 727, 735, 741, 745, 752, 756],
                 "terminates": false,
-                "throughDestEn": "Kimitsu",
-                "throughDestJa": "君津",
+                "throughDest": {
+                    "en": "Kimitsu",
+                    "ja": "君津"
+                },
                 "type": "Rapid"
             },
             {
@@ -2677,8 +2847,10 @@
                 "startsHere": true,
                 "stops": [712, 716, 719, 726, 731, 735, 740, 744, 753, 756, 761, 766, 770, 774, 776, 778, 783, 787, 795, 801, 805, 812, 816],
                 "terminates": false,
-                "throughDestEn": "Kimitsu",
-                "throughDestJa": "君津",
+                "throughDest": {
+                    "en": "Kimitsu",
+                    "ja": "君津"
+                },
                 "type": "Rapid"
             },
             {
@@ -2706,8 +2878,10 @@
                 "startsHere": true,
                 "stops": [772, 776, 779, 785, 790, 794, 799, 804, 813, 816, 821, 826, 830, 834, 836, 838, 843, 847, 855, 861, 865, 872, 876],
                 "terminates": false,
-                "throughDestEn": "Kimitsu",
-                "throughDestJa": "君津",
+                "throughDest": {
+                    "en": "Kimitsu",
+                    "ja": "君津"
+                },
                 "type": "Rapid"
             },
             {
@@ -2726,8 +2900,10 @@
                 "startsHere": true,
                 "stops": [822, 826, 829, 833, 838, 842, 846, 850, 859, 862, 867, 872, 876, 881, 883, 885, 889, 894, 899, 905, 909, 916, 920],
                 "terminates": false,
-                "throughDestEn": "Kazusa-Ichinomiya",
-                "throughDestJa": "上総一ノ宮",
+                "throughDest": {
+                    "en": "Kazusa-Ichinomiya",
+                    "ja": "上総一ノ宮"
+                },
                 "type": "Rapid"
             },
             {
@@ -2737,8 +2913,10 @@
                 "startsHere": true,
                 "stops": [832, 836, 839, 845, 850, 854, 858, 864, 873, 876, 881, 886, 890, 894, 896, 898, 903, 907, 915, 921, 925, 932, 936],
                 "terminates": false,
-                "throughDestEn": "Kimitsu",
-                "throughDestJa": "君津",
+                "throughDest": {
+                    "en": "Kimitsu",
+                    "ja": "君津"
+                },
                 "type": "Rapid"
             },
             {
@@ -2757,8 +2935,10 @@
                 "startsHere": true,
                 "stops": [882, 886, 889, 894, 899, 903, 908, 911, 920, 923, 928, 933, 938, 945, 947, 949, 953, 958, 963, 969, 972, 979, 983],
                 "terminates": false,
-                "throughDestEn": "Kazusa-Ichinomiya",
-                "throughDestJa": "上総一ノ宮",
+                "throughDest": {
+                    "en": "Kazusa-Ichinomiya",
+                    "ja": "上総一ノ宮"
+                },
                 "type": "Rapid"
             },
             {
@@ -2768,8 +2948,10 @@
                 "startsHere": true,
                 "stops": [892, 896, 899, 905, 910, 914, 918, 924, 933, 936, 941, 946, 951, 954, 957, 958, 963, 967, 975, 981, 986, 993, 997],
                 "terminates": false,
-                "throughDestEn": "Kimitsu",
-                "throughDestJa": "君津",
+                "throughDest": {
+                    "en": "Kimitsu",
+                    "ja": "君津"
+                },
                 "type": "Rapid"
             },
             {
@@ -2788,8 +2970,10 @@
                 "startsHere": true,
                 "stops": [938, 943, 946, 950, 955, 958, 963, 966, 975, 979, 984, 988, 993, 997, 999, 1001, 1005, 1010, 1015, 1021, 1024, 1031, 1035],
                 "terminates": false,
-                "throughDestEn": "Narita Airport",
-                "throughDestJa": "成田空港",
+                "throughDest": {
+                    "en": "Narita Airport",
+                    "ja": "成田空港"
+                },
                 "type": "Rapid"
             },
             {
@@ -2799,8 +2983,10 @@
                 "startsHere": true,
                 "stops": [950, 954, 957, 964, 969, 972, 977, 981, 990, 993, 998, 1004, 1009, 1014, 1016, 1018, 1023, 1027, 1036, 1042, 1046, 1054, 1058],
                 "terminates": false,
-                "throughDestEn": "Kazusa-Ichinomiya",
-                "throughDestJa": "上総一ノ宮",
+                "throughDest": {
+                    "en": "Kazusa-Ichinomiya",
+                    "ja": "上総一ノ宮"
+                },
                 "type": "Rapid"
             },
             {
@@ -2828,8 +3014,10 @@
                 "startsHere": true,
                 "stops": [1006, 1010, 1013, 1018, 1023, 1027, 1031, 1035, 1044, 1047, 1053, 1058, 1063, 1070, 1072, 1074, 1079, 1084, 1089, 1095, 1102, 1110, 1114],
                 "terminates": false,
-                "throughDestEn": "Narita Airport",
-                "throughDestJa": "成田空港",
+                "throughDest": {
+                    "en": "Narita Airport",
+                    "ja": "成田空港"
+                },
                 "type": "Rapid"
             },
             {
@@ -2839,8 +3027,10 @@
                 "startsHere": true,
                 "stops": [999, 1002, 1006, 1014, 1018, 1021, 1026, 1031, 1035, 1039, 1043, 1052, 1055, 1060, 1065, 1070, 1075, 1077, 1079, 1084, 1088, 1096, 1102, 1107, 1114, 1118],
                 "terminates": false,
-                "throughDestEn": "Kazusa-Ichinomiya",
-                "throughDestJa": "上総一ノ宮",
+                "throughDest": {
+                    "en": "Kazusa-Ichinomiya",
+                    "ja": "上総一ノ宮"
+                },
                 "type": "Rapid"
             },
             {
@@ -2868,8 +3058,10 @@
                 "startsHere": true,
                 "stops": [1063, 1067, 1070, 1074, 1079, 1083, 1087, 1091, 1100, 1103, 1108, 1113, 1118, 1121, 1124, 1126, 1130, 1135, 1143, 1149, 1153, 1160, 1164],
                 "terminates": false,
-                "throughDestEn": "Narita Airport",
-                "throughDestJa": "成田空港",
+                "throughDest": {
+                    "en": "Narita Airport",
+                    "ja": "成田空港"
+                },
                 "type": "Rapid"
             },
             {
@@ -2879,8 +3071,10 @@
                 "startsHere": true,
                 "stops": [1058, 1061, 1064, 1072, 1076, 1079, 1085, 1090, 1093, 1098, 1102, 1111, 1114, 1119, 1125, 1129, 1135, 1138, 1140, 1144, 1149, 1158, 1164, 1169, 1177, 1181],
                 "terminates": false,
-                "throughDestEn": "Kazusa-Ichinomiya",
-                "throughDestJa": "上総一ノ宮",
+                "throughDest": {
+                    "en": "Kazusa-Ichinomiya",
+                    "ja": "上総一ノ宮"
+                },
                 "type": "Rapid"
             },
             {
@@ -2908,8 +3102,10 @@
                 "startsHere": true,
                 "stops": [1147, 1152, 1156, 1160, 1164, 1173, 1176, 1181, 1186, 1191, 1197, 1199, 1201, 1206, 1211, 1219, 1225, 1229, 1237, 1241],
                 "terminates": false,
-                "throughDestEn": "Kazusa-Ichinomiya",
-                "throughDestJa": "上総一ノ宮",
+                "throughDest": {
+                    "en": "Kazusa-Ichinomiya",
+                    "ja": "上総一ノ宮"
+                },
                 "type": "Rapid"
             },
             {
@@ -2928,8 +3124,10 @@
                 "startsHere": true,
                 "stops": [1185, 1188, 1192, 1199, 1203, 1206, 1213, 1218, 1222, 1226, 1230, 1239, 1242, 1247, 1252, 1256, 1260, 1262, 1264, 1269, 1273, 1278, 1284, 1288, 1295, 1299],
                 "terminates": false,
-                "throughDestEn": "Sakura",
-                "throughDestJa": "佐倉",
+                "throughDest": {
+                    "en": "Sakura",
+                    "ja": "佐倉"
+                },
                 "type": "Rapid"
             },
             {
@@ -2939,8 +3137,10 @@
                 "startsHere": true,
                 "stops": [1228, 1232, 1235, 1242, 1247, 1251, 1255, 1259, 1268, 1271, 1276, 1281, 1285, 1290, 1292, 1294, 1298, 1303, 1308, 1314, 1318, 1324, 1328],
                 "terminates": false,
-                "throughDestEn": "Kimitsu",
-                "throughDestJa": "君津",
+                "throughDest": {
+                    "en": "Kimitsu",
+                    "ja": "君津"
+                },
                 "type": "Rapid"
             },
             {
@@ -2950,8 +3150,10 @@
                 "startsHere": true,
                 "stops": [1252, 1257, 1260, 1264, 1269, 1272, 1277, 1281, 1290, 1294, 1299, 1307, 1311, 1317, 1319, 1321, 1326, 1330, 1335, 1341, 1346, 1353, 1357],
                 "terminates": false,
-                "throughDestEn": "Sakura",
-                "throughDestJa": "佐倉",
+                "throughDest": {
+                    "en": "Sakura",
+                    "ja": "佐倉"
+                },
                 "type": "Rapid"
             },
             {
@@ -3213,8 +3415,10 @@
                 "startsHere": true,
                 "stops": [1020, 1024, 1032, 1035, 1042, 1047, 1052, 1055, 1057, 1061, 1064],
                 "terminates": false,
-                "throughDestEn": "Shinagawa",
-                "throughDestJa": "品川",
+                "throughDest": {
+                    "en": "Shinagawa",
+                    "ja": "品川"
+                },
                 "type": "Local"
             },
             {
@@ -3413,8 +3617,10 @@
                 "startsHere": true,
                 "stops": [304, 306, 308, 312, 316, 321, 327, 331, 338, 342],
                 "terminates": false,
-                "throughDestEn": "Narita Airport",
-                "throughDestJa": "成田空港",
+                "throughDest": {
+                    "en": "Narita Airport",
+                    "ja": "成田空港"
+                },
                 "type": "Local"
             },
             {
@@ -3424,8 +3630,10 @@
                 "startsHere": true,
                 "stops": [321, 323, 325, 329, 333, 338, 344, 348, 355, 359],
                 "terminates": false,
-                "throughDestEn": "Kimitsu",
-                "throughDestJa": "君津",
+                "throughDest": {
+                    "en": "Kimitsu",
+                    "ja": "君津"
+                },
                 "type": "Local"
             },
             {
@@ -3435,8 +3643,10 @@
                 "startsHere": true,
                 "stops": [342, 344, 346, 350, 354, 359, 365, 369, 376, 380],
                 "terminates": false,
-                "throughDestEn": "Sakura",
-                "throughDestJa": "佐倉",
+                "throughDest": {
+                    "en": "Sakura",
+                    "ja": "佐倉"
+                },
                 "type": "Local"
             },
             {
@@ -3446,8 +3656,10 @@
                 "startsHere": true,
                 "stops": [355, 357, 359, 363, 367, 372, 378, 382, 389, 393],
                 "terminates": false,
-                "throughDestEn": "Sakura",
-                "throughDestJa": "佐倉",
+                "throughDest": {
+                    "en": "Sakura",
+                    "ja": "佐倉"
+                },
                 "type": "Local"
             },
             {
@@ -3457,8 +3669,10 @@
                 "startsHere": true,
                 "stops": [429, 431, 433, 438, 442, 447, 453, 458, 465, 469],
                 "terminates": false,
-                "throughDestEn": "Narita Airport",
-                "throughDestJa": "成田空港",
+                "throughDest": {
+                    "en": "Narita Airport",
+                    "ja": "成田空港"
+                },
                 "type": "Local"
             },
             {
@@ -3594,8 +3808,10 @@
                 "startsHere": true,
                 "stops": [966, 968, 970, 975, 979, 984, 990, 994, 1001, 1005],
                 "terminates": false,
-                "throughDestEn": "Narita Airport",
-                "throughDestJa": "成田空港",
+                "throughDest": {
+                    "en": "Narita Airport",
+                    "ja": "成田空港"
+                },
                 "type": "Local"
             },
             {
@@ -3605,8 +3821,10 @@
                 "startsHere": true,
                 "stops": [1005, 1007, 1009, 1013, 1018, 1023, 1030, 1034, 1041, 1045],
                 "terminates": false,
-                "throughDestEn": "Kimitsu",
-                "throughDestJa": "君津",
+                "throughDest": {
+                    "en": "Kimitsu",
+                    "ja": "君津"
+                },
                 "type": "Local"
             },
             {
@@ -3634,8 +3852,10 @@
                 "startsHere": true,
                 "stops": [1055, 1057, 1059, 1063, 1068, 1073, 1080, 1085, 1092, 1096],
                 "terminates": false,
-                "throughDestEn": "Kimitsu",
-                "throughDestJa": "君津",
+                "throughDest": {
+                    "en": "Kimitsu",
+                    "ja": "君津"
+                },
                 "type": "Local"
             },
             {
@@ -3672,8 +3892,10 @@
                 "startsHere": true,
                 "stops": [1115, 1117, 1119, 1123, 1128, 1133, 1140, 1144, 1151, 1155],
                 "terminates": false,
-                "throughDestEn": "Kimitsu",
-                "throughDestJa": "君津",
+                "throughDest": {
+                    "en": "Kimitsu",
+                    "ja": "君津"
+                },
                 "type": "Local"
             },
             {
@@ -3710,8 +3932,10 @@
                 "startsHere": true,
                 "stops": [1173, 1176, 1178, 1182, 1187, 1192, 1198, 1202, 1210, 1214],
                 "terminates": false,
-                "throughDestEn": "Kimitsu",
-                "throughDestJa": "君津",
+                "throughDest": {
+                    "en": "Kimitsu",
+                    "ja": "君津"
+                },
                 "type": "Local"
             },
             {
@@ -3730,8 +3954,10 @@
                 "startsHere": true,
                 "stops": [1205, 1207, 1209, 1214, 1219, 1225, 1231, 1236, 1243, 1247],
                 "terminates": false,
-                "throughDestEn": "Kimitsu",
-                "throughDestJa": "君津",
+                "throughDest": {
+                    "en": "Kimitsu",
+                    "ja": "君津"
+                },
                 "type": "Local"
             },
             {
@@ -3741,8 +3967,10 @@
                 "startsHere": true,
                 "stops": [1234, 1237, 1239, 1243, 1248, 1254, 1260, 1264, 1272, 1276],
                 "terminates": false,
-                "throughDestEn": "Kimitsu",
-                "throughDestJa": "君津",
+                "throughDest": {
+                    "en": "Kimitsu",
+                    "ja": "君津"
+                },
                 "type": "Local"
             },
             {
@@ -3752,8 +3980,10 @@
                 "startsHere": true,
                 "stops": [1241, 1244, 1246, 1250, 1255, 1263, 1269, 1273, 1281, 1285],
                 "terminates": false,
-                "throughDestEn": "Sakura",
-                "throughDestJa": "佐倉",
+                "throughDest": {
+                    "en": "Sakura",
+                    "ja": "佐倉"
+                },
                 "type": "Local"
             },
             {
@@ -3763,8 +3993,10 @@
                 "startsHere": true,
                 "stops": [1267, 1269, 1271, 1275, 1279, 1284, 1290, 1295, 1302, 1306],
                 "terminates": false,
-                "throughDestEn": "Kazusa-Ichinomiya",
-                "throughDestJa": "上総一ノ宮",
+                "throughDest": {
+                    "en": "Kazusa-Ichinomiya",
+                    "ja": "上総一ノ宮"
+                },
                 "type": "Local"
             },
             {
@@ -3792,8 +4024,10 @@
                 "startsHere": true,
                 "stops": [1377, 1379, 1381, 1385, 1390, 1395, 1401, 1405, 1411, 1415],
                 "terminates": false,
-                "throughDestEn": "Sakura",
-                "throughDestJa": "佐倉",
+                "throughDest": {
+                    "en": "Sakura",
+                    "ja": "佐倉"
+                },
                 "type": "Local"
             },
             {
@@ -3830,8 +4064,10 @@
                 "startsHere": true,
                 "stops": [457, 462, 468, 474, 480, 484, 486, 489, 492],
                 "terminates": false,
-                "throughDestEn": "Shinagawa",
-                "throughDestJa": "品川",
+                "throughDest": {
+                    "en": "Shinagawa",
+                    "ja": "品川"
+                },
                 "type": "Local"
             },
             {
@@ -3841,8 +4077,10 @@
                 "startsHere": true,
                 "stops": [472, 476, 482, 488, 494, 497, 500, 503, 506],
                 "terminates": false,
-                "throughDestEn": "Shinagawa",
-                "throughDestJa": "品川",
+                "throughDest": {
+                    "en": "Shinagawa",
+                    "ja": "品川"
+                },
                 "type": "Local"
             },
             {
@@ -3852,8 +4090,10 @@
                 "startsHere": true,
                 "stops": [492, 496, 503, 508, 514, 518, 520, 523, 526],
                 "terminates": false,
-                "throughDestEn": "Shinagawa",
-                "throughDestJa": "品川",
+                "throughDest": {
+                    "en": "Shinagawa",
+                    "ja": "品川"
+                },
                 "type": "Local"
             },
             {
@@ -3863,8 +4103,10 @@
                 "startsHere": true,
                 "stops": [512, 516, 523, 528, 534, 538, 540, 544, 547],
                 "terminates": false,
-                "throughDestEn": "Shinagawa",
-                "throughDestJa": "品川",
+                "throughDest": {
+                    "en": "Shinagawa",
+                    "ja": "品川"
+                },
                 "type": "Local"
             },
             {
@@ -4081,8 +4323,10 @@
                 "startsHere": true,
                 "stops": [309, 316, 320],
                 "terminates": false,
-                "throughDestEn": "Kazusa-Ichinomiya",
-                "throughDestJa": "上総一ノ宮",
+                "throughDest": {
+                    "en": "Kazusa-Ichinomiya",
+                    "ja": "上総一ノ宮"
+                },
                 "type": "Local"
             },
             {
@@ -4092,8 +4336,10 @@
                 "startsHere": true,
                 "stops": [359, 366, 369],
                 "terminates": false,
-                "throughDestEn": "Narita Airport",
-                "throughDestJa": "成田空港",
+                "throughDest": {
+                    "en": "Narita Airport",
+                    "ja": "成田空港"
+                },
                 "type": "Local"
             },
             {
@@ -4139,8 +4385,10 @@
                 "startsHere": true,
                 "stops": [417, 421, 425, 431, 436, 440, 445, 450, 459, 462, 468],
                 "terminates": false,
-                "throughDestEn": "Utsunomiya",
-                "throughDestJa": "宇都宮",
+                "throughDest": {
+                    "en": "Utsunomiya",
+                    "ja": "宇都宮"
+                },
                 "type": "Local"
             },
             {
@@ -4150,8 +4398,10 @@
                 "startsHere": true,
                 "stops": [568, 573, 576, 581, 586, 590, 595, 600, 609, 612, 618],
                 "terminates": false,
-                "throughDestEn": "Utsunomiya",
-                "throughDestJa": "宇都宮",
+                "throughDest": {
+                    "en": "Utsunomiya",
+                    "ja": "宇都宮"
+                },
                 "type": "Rapid"
             },
             {
@@ -4161,8 +4411,10 @@
                 "startsHere": true,
                 "stops": [583, 587, 590, 594, 599, 603, 608, 611, 620, 624, 629],
                 "terminates": false,
-                "throughDestEn": "Koganei",
-                "throughDestJa": "小金井",
+                "throughDest": {
+                    "en": "Koganei",
+                    "ja": "小金井"
+                },
                 "type": "Local"
             },
             {
@@ -4172,8 +4424,10 @@
                 "startsHere": true,
                 "stops": [604, 608, 612, 616, 621, 625, 630, 634, 643, 646, 652],
                 "terminates": false,
-                "throughDestEn": "Utsunomiya",
-                "throughDestJa": "宇都宮",
+                "throughDest": {
+                    "en": "Utsunomiya",
+                    "ja": "宇都宮"
+                },
                 "type": "Rapid"
             },
             {
@@ -4183,8 +4437,10 @@
                 "startsHere": true,
                 "stops": [633, 638, 641, 646, 651, 655, 660, 663, 672, 675, 681],
                 "terminates": false,
-                "throughDestEn": "Utsunomiya",
-                "throughDestJa": "宇都宮",
+                "throughDest": {
+                    "en": "Utsunomiya",
+                    "ja": "宇都宮"
+                },
                 "type": "Local"
             },
             {
@@ -4194,8 +4450,10 @@
                 "startsHere": true,
                 "stops": [664, 669, 673, 676, 681, 685, 690, 693, 702, 706, 711],
                 "terminates": false,
-                "throughDestEn": "Utsunomiya",
-                "throughDestJa": "宇都宮",
+                "throughDest": {
+                    "en": "Utsunomiya",
+                    "ja": "宇都宮"
+                },
                 "type": "Rapid"
             },
             {
@@ -4205,8 +4463,10 @@
                 "startsHere": true,
                 "stops": [692, 697, 700, 706, 711, 715, 720, 723, 732, 735, 741],
                 "terminates": false,
-                "throughDestEn": "Utsunomiya",
-                "throughDestJa": "宇都宮",
+                "throughDest": {
+                    "en": "Utsunomiya",
+                    "ja": "宇都宮"
+                },
                 "type": "Local"
             },
             {
@@ -4216,8 +4476,10 @@
                 "startsHere": true,
                 "stops": [722, 727, 730, 736, 742, 746, 750, 754, 763, 766, 771],
                 "terminates": false,
-                "throughDestEn": "Utsunomiya",
-                "throughDestJa": "宇都宮",
+                "throughDest": {
+                    "en": "Utsunomiya",
+                    "ja": "宇都宮"
+                },
                 "type": "Rapid"
             },
             {
@@ -4227,8 +4489,10 @@
                 "startsHere": true,
                 "stops": [752, 757, 760, 766, 771, 775, 780, 783, 792, 795, 801],
                 "terminates": false,
-                "throughDestEn": "Utsunomiya",
-                "throughDestJa": "宇都宮",
+                "throughDest": {
+                    "en": "Utsunomiya",
+                    "ja": "宇都宮"
+                },
                 "type": "Local"
             },
             {
@@ -4238,8 +4502,10 @@
                 "startsHere": true,
                 "stops": [782, 787, 790, 796, 801, 805, 810, 813, 822, 825, 831],
                 "terminates": false,
-                "throughDestEn": "Utsunomiya",
-                "throughDestJa": "宇都宮",
+                "throughDest": {
+                    "en": "Utsunomiya",
+                    "ja": "宇都宮"
+                },
                 "type": "Rapid"
             },
             {
@@ -4249,8 +4515,10 @@
                 "startsHere": true,
                 "stops": [812, 817, 820, 826, 831, 835, 840, 843, 852, 855, 861],
                 "terminates": false,
-                "throughDestEn": "Utsunomiya",
-                "throughDestJa": "宇都宮",
+                "throughDest": {
+                    "en": "Utsunomiya",
+                    "ja": "宇都宮"
+                },
                 "type": "Local"
             },
             {
@@ -4260,8 +4528,10 @@
                 "startsHere": true,
                 "stops": [842, 847, 850, 856, 861, 865, 870, 873, 882, 885, 891],
                 "terminates": false,
-                "throughDestEn": "Utsunomiya",
-                "throughDestJa": "宇都宮",
+                "throughDest": {
+                    "en": "Utsunomiya",
+                    "ja": "宇都宮"
+                },
                 "type": "Rapid"
             },
             {
@@ -4271,8 +4541,10 @@
                 "startsHere": true,
                 "stops": [872, 877, 880, 886, 891, 895, 900, 903, 912, 915, 921],
                 "terminates": false,
-                "throughDestEn": "Koganei",
-                "throughDestJa": "小金井",
+                "throughDest": {
+                    "en": "Koganei",
+                    "ja": "小金井"
+                },
                 "type": "Local"
             },
             {
@@ -4282,8 +4554,10 @@
                 "startsHere": true,
                 "stops": [902, 907, 910, 916, 921, 925, 930, 933, 942, 945, 951],
                 "terminates": false,
-                "throughDestEn": "Utsunomiya",
-                "throughDestJa": "宇都宮",
+                "throughDest": {
+                    "en": "Utsunomiya",
+                    "ja": "宇都宮"
+                },
                 "type": "Rapid"
             },
             {
@@ -4293,8 +4567,10 @@
                 "startsHere": true,
                 "stops": [931, 936, 940, 944, 950, 954, 958, 962, 972, 975, 981],
                 "terminates": false,
-                "throughDestEn": "Koga",
-                "throughDestJa": "古河",
+                "throughDest": {
+                    "en": "Koga",
+                    "ja": "古河"
+                },
                 "type": "Local"
             },
             {
@@ -4304,8 +4580,10 @@
                 "startsHere": true,
                 "stops": [957, 962, 965, 974, 980, 984, 989, 993, 1002, 1006, 1012],
                 "terminates": false,
-                "throughDestEn": "Utsunomiya",
-                "throughDestJa": "宇都宮",
+                "throughDest": {
+                    "en": "Utsunomiya",
+                    "ja": "宇都宮"
+                },
                 "type": "Rapid"
             },
             {
@@ -4315,8 +4593,10 @@
                 "startsHere": true,
                 "stops": [993, 998, 1002, 1005, 1010, 1014, 1019, 1022, 1031, 1035, 1040],
                 "terminates": false,
-                "throughDestEn": "Utsunomiya",
-                "throughDestJa": "宇都宮",
+                "throughDest": {
+                    "en": "Utsunomiya",
+                    "ja": "宇都宮"
+                },
                 "type": "Local"
             },
             {
@@ -4326,8 +4606,10 @@
                 "startsHere": true,
                 "stops": [1024, 1029, 1033, 1038, 1043, 1047, 1051, 1055, 1064, 1067, 1073],
                 "terminates": false,
-                "throughDestEn": "Koganei",
-                "throughDestJa": "小金井",
+                "throughDest": {
+                    "en": "Koganei",
+                    "ja": "小金井"
+                },
                 "type": "Local"
             },
             {
@@ -4337,8 +4619,10 @@
                 "startsHere": true,
                 "stops": [1052, 1057, 1060, 1064, 1069, 1073, 1078, 1081, 1090, 1093, 1099],
                 "terminates": false,
-                "throughDestEn": "Koganei",
-                "throughDestJa": "小金井",
+                "throughDest": {
+                    "en": "Koganei",
+                    "ja": "小金井"
+                },
                 "type": "Local"
             },
             {
@@ -4348,8 +4632,10 @@
                 "startsHere": true,
                 "stops": [1080, 1085, 1089, 1096, 1101, 1105, 1110, 1113, 1122, 1126, 1132],
                 "terminates": false,
-                "throughDestEn": "Utsunomiya",
-                "throughDestJa": "宇都宮",
+                "throughDest": {
+                    "en": "Utsunomiya",
+                    "ja": "宇都宮"
+                },
                 "type": "Local"
             },
             {
@@ -4359,8 +4645,10 @@
                 "startsHere": true,
                 "stops": [1113, 1118, 1121, 1126, 1131, 1135, 1139, 1143, 1152, 1155, 1160],
                 "terminates": false,
-                "throughDestEn": "Koganei",
-                "throughDestJa": "小金井",
+                "throughDest": {
+                    "en": "Koganei",
+                    "ja": "小金井"
+                },
                 "type": "Local"
             },
             {
@@ -4370,8 +4658,10 @@
                 "startsHere": true,
                 "stops": [1142, 1147, 1150, 1155, 1160, 1164, 1169, 1174, 1183, 1186, 1192],
                 "terminates": false,
-                "throughDestEn": "Utsunomiya",
-                "throughDestJa": "宇都宮",
+                "throughDest": {
+                    "en": "Utsunomiya",
+                    "ja": "宇都宮"
+                },
                 "type": "Local"
             },
             {
@@ -4381,8 +4671,10 @@
                 "startsHere": true,
                 "stops": [1185, 1190, 1193, 1198, 1203, 1208, 1213, 1217, 1226, 1229, 1235],
                 "terminates": false,
-                "throughDestEn": "Koganei",
-                "throughDestJa": "小金井",
+                "throughDest": {
+                    "en": "Koganei",
+                    "ja": "小金井"
+                },
                 "type": "Local"
             },
             {
@@ -4392,8 +4684,10 @@
                 "startsHere": true,
                 "stops": [1219, 1223, 1227, 1230, 1235, 1239, 1244, 1247, 1256, 1260, 1265],
                 "terminates": false,
-                "throughDestEn": "Koganei",
-                "throughDestJa": "小金井",
+                "throughDest": {
+                    "en": "Koganei",
+                    "ja": "小金井"
+                },
                 "type": "Local"
             },
             {
@@ -4403,8 +4697,10 @@
                 "startsHere": true,
                 "stops": [1258, 1263, 1266, 1270, 1275, 1279, 1283, 1287, 1296, 1299, 1304],
                 "terminates": false,
-                "throughDestEn": "Koganei",
-                "throughDestJa": "小金井",
+                "throughDest": {
+                    "en": "Koganei",
+                    "ja": "小金井"
+                },
                 "type": "Local"
             },
             {
@@ -4414,8 +4710,10 @@
                 "startsHere": true,
                 "stops": [1294, 1299, 1302, 1307, 1313, 1317, 1322, 1326, 1336, 1339, 1345],
                 "terminates": false,
-                "throughDestEn": "Koganei",
-                "throughDestJa": "小金井",
+                "throughDest": {
+                    "en": "Koganei",
+                    "ja": "小金井"
+                },
                 "type": "Local"
             },
             {
@@ -4659,8 +4957,10 @@
                 "startsHere": false,
                 "stops": [287, 292, 297, 300, 304, 311, 315, 318, 322, 327, 331, 335, 339, 348, 351, 356, 361, 366, 370, 372, 374, 378, 383, 390, 396, 400, 407, 411],
                 "terminates": false,
-                "throughDestEn": "Narita Airport",
-                "throughDestJa": "成田空港",
+                "throughDest": {
+                    "en": "Narita Airport",
+                    "ja": "成田空港"
+                },
                 "type": "Rapid"
             },
             {
@@ -4679,8 +4979,10 @@
                 "startsHere": false,
                 "stops": [323, 328, 333, 336, 340, 347, 351, 354, 359, 365, 369, 373, 378, 387, 390, 396, 401, 406, 411, 413, 415, 420, 425, 433, 439, 443, 450, 454],
                 "terminates": false,
-                "throughDestEn": "Kimitsu",
-                "throughDestJa": "君津",
+                "throughDest": {
+                    "en": "Kimitsu",
+                    "ja": "君津"
+                },
                 "type": "Rapid"
             },
             {
@@ -4699,8 +5001,10 @@
                 "startsHere": false,
                 "stops": [351, 357, 361, 364, 368, 376, 380, 383, 387, 392, 396, 401, 405, 414, 417, 423, 427, 432, 437, 439, 441, 445, 449, 454, 460, 464, 471, 475],
                 "terminates": false,
-                "throughDestEn": "Kimitsu",
-                "throughDestJa": "君津",
+                "throughDest": {
+                    "en": "Kimitsu",
+                    "ja": "君津"
+                },
                 "type": "Rapid"
             },
             {
@@ -4728,8 +5032,10 @@
                 "startsHere": false,
                 "stops": [398, 404, 408, 411, 415, 423, 427, 430, 435, 440, 444, 449, 453, 462, 466, 471, 475, 480, 484, 486, 488, 493, 497, 502, 508, 512, 519, 523],
                 "terminates": false,
-                "throughDestEn": "Kimitsu",
-                "throughDestJa": "君津",
+                "throughDest": {
+                    "en": "Kimitsu",
+                    "ja": "君津"
+                },
                 "type": "Rapid"
             },
             {
@@ -4757,8 +5063,10 @@
                 "startsHere": false,
                 "stops": [436, 442, 446, 449, 453, 460, 464, 467, 474, 479, 482, 487, 493, 502, 505, 511, 515, 520, 525, 527, 529, -1, 538, 543, 549, 553, 560, 564],
                 "terminates": false,
-                "throughDestEn": "Kazusa-Ichinomiya",
-                "throughDestJa": "上総一ノ宮",
+                "throughDest": {
+                    "en": "Kazusa-Ichinomiya",
+                    "ja": "上総一ノ宮"
+                },
                 "type": "Rapid"
             },
             {
@@ -4777,8 +5085,10 @@
                 "startsHere": false,
                 "stops": [467, 472, 477, 480, 484, 491, 495, 498, 502, 507, 511, 515, 520, 529, 532, 537, 542, 547, 551, 553, 555, 560, 565, 573, -1, 583, 589, 593],
                 "terminates": false,
-                "throughDestEn": "Narita Airport",
-                "throughDestJa": "成田空港",
+                "throughDest": {
+                    "en": "Narita Airport",
+                    "ja": "成田空港"
+                },
                 "type": "Rapid"
             },
             {
@@ -4797,8 +5107,10 @@
                 "startsHere": false,
                 "stops": [497, 504, 509, 512, 515, 525, 529, 532, 537, 542, 546, 550, 556, 565, 568, 573, 578, 583, 586, 589, 590, 595, 599, 604, 610, 614, 621, 624],
                 "terminates": false,
-                "throughDestEn": "Kazusa-Ichinomiya",
-                "throughDestJa": "上総一ノ宮",
+                "throughDest": {
+                    "en": "Kazusa-Ichinomiya",
+                    "ja": "上総一ノ宮"
+                },
                 "type": "Rapid"
             },
             {
@@ -4808,8 +5120,10 @@
                 "startsHere": false,
                 "stops": [510, 515, 520, 523, 527, 534, 538, 541, 545, 550, 554, 558, 562, 571, 574, 579, 585, 589, 594, 596, 598, 603, 607, 615, 621, 625, 632, 636],
                 "terminates": false,
-                "throughDestEn": "Kimitsu",
-                "throughDestJa": "君津",
+                "throughDest": {
+                    "en": "Kimitsu",
+                    "ja": "君津"
+                },
                 "type": "Rapid"
             },
             {
@@ -4837,8 +5151,10 @@
                 "startsHere": false,
                 "stops": [564, 570, 575, 578, 582, 593, 597, 600, 606, 611, 615, 620, 623, 632, 635, 641, 645, 650, 654, 656, 658, 662, 667, 675, 681, 685, 692, 696],
                 "terminates": false,
-                "throughDestEn": "Kimitsu",
-                "throughDestJa": "君津",
+                "throughDest": {
+                    "en": "Kimitsu",
+                    "ja": "君津"
+                },
                 "type": "Rapid"
             },
             {
@@ -4875,8 +5191,10 @@
                 "startsHere": false,
                 "stops": [647, 652, 657, 660, 664, 674, 679, 682, 686, 691, 694, 699, 702, 711, 715, 720, 724, 729, 735, 737, 739, 744, 748, 753, 759, 764, 771, 775],
                 "terminates": false,
-                "throughDestEn": "Narita Airport",
-                "throughDestJa": "成田空港",
+                "throughDest": {
+                    "en": "Narita Airport",
+                    "ja": "成田空港"
+                },
                 "type": "Rapid"
             },
             {
@@ -4904,8 +5222,10 @@
                 "startsHere": false,
                 "stops": [704, 710, 714, 717, 721, 732, 736, 739, 746, 751, 754, 759, 762, 771, 775, 780, 784, 789, 795, 797, 799, 804, 808, 813, 819, 824, 831, 835],
                 "terminates": false,
-                "throughDestEn": "Narita Airport",
-                "throughDestJa": "成田空港",
+                "throughDest": {
+                    "en": "Narita Airport",
+                    "ja": "成田空港"
+                },
                 "type": "Rapid"
             },
             {
@@ -4933,8 +5253,10 @@
                 "startsHere": false,
                 "stops": [764, 769, 774, 777, 781, 792, 796, 799, 806, 811, 814, 819, 822, 831, 835, 840, 844, 849, 855, 857, 859, 864, 868, 873, 879, 884, 891, 895],
                 "terminates": false,
-                "throughDestEn": "Narita Airport",
-                "throughDestJa": "成田空港",
+                "throughDest": {
+                    "en": "Narita Airport",
+                    "ja": "成田空港"
+                },
                 "type": "Rapid"
             },
             {
@@ -4962,8 +5284,10 @@
                 "startsHere": false,
                 "stops": [824, 829, 834, 837, 841, 852, 856, 859, 866, 871, 874, 879, 882, 891, 895, 900, 904, 909, 915, 917, 919, 924, 928, 933, 939, 944, 951, 955],
                 "terminates": false,
-                "throughDestEn": "Narita Airport",
-                "throughDestJa": "成田空港",
+                "throughDest": {
+                    "en": "Narita Airport",
+                    "ja": "成田空港"
+                },
                 "type": "Rapid"
             },
             {
@@ -5081,8 +5405,10 @@
                 "startsHere": false,
                 "stops": [1080, 1086, 1091, 1094, 1097, 1105, 1110, 1113, 1119, 1124, 1127, 1132, 1137, 1146, 1150, 1155, 1162, 1167, 1174, 1176, 1178, 1183, 1188, 1193, 1199, 1203, 1210, 1214],
                 "terminates": false,
-                "throughDestEn": "Kimitsu",
-                "throughDestJa": "君津",
+                "throughDest": {
+                    "en": "Kimitsu",
+                    "ja": "君津"
+                },
                 "type": "Rapid"
             },
             {
@@ -5101,8 +5427,10 @@
                 "startsHere": false,
                 "stops": [1124, 1130, 1134, 1137, 1141, 1149, 1153, 1156, 1160, 1165, 1169, 1173, 1177, 1186, 1189, 1194, 1199, 1203, 1209, 1211, 1213, 1217, 1222, 1227, 1233, 1237, 1244, 1248],
                 "terminates": false,
-                "throughDestEn": "Kimitsu",
-                "throughDestJa": "君津",
+                "throughDest": {
+                    "en": "Kimitsu",
+                    "ja": "君津"
+                },
                 "type": "Rapid"
             },
             {
@@ -5112,8 +5440,10 @@
                 "startsHere": false,
                 "stops": [1140, 1145, 1150, 1153, 1157, 1167, 1171, 1174, 1178, 1183, 1187, 1191, 1195, 1204, 1207, 1212, 1220, 1224, 1228, 1230, 1232, 1237, 1242, 1247, 1253, 1258, 1265, 1269],
                 "terminates": false,
-                "throughDestEn": "Kimitsu",
-                "throughDestJa": "君津",
+                "throughDest": {
+                    "en": "Kimitsu",
+                    "ja": "君津"
+                },
                 "type": "Rapid"
             },
             {
@@ -5123,8 +5453,10 @@
                 "startsHere": false,
                 "stops": [1154, 1159, 1164, 1167, 1171, 1178, 1182, 1185, 1191, 1196, 1199, 1204, 1209, 1218, 1221, 1226, 1232, 1236, 1240, 1242, 1244, 1249, 1253, 1259, 1265, 1269, 1276, 1280],
                 "terminates": false,
-                "throughDestEn": "Sakura",
-                "throughDestJa": "佐倉",
+                "throughDest": {
+                    "en": "Sakura",
+                    "ja": "佐倉"
+                },
                 "type": "Rapid"
             },
             {
@@ -5143,8 +5475,10 @@
                 "startsHere": false,
                 "stops": [1182, 1188, 1193, 1196, 1200, 1209, 1213, 1216, 1221, 1226, 1230, 1235, 1238, 1247, 1250, 1255, 1260, 1265, 1270, 1272, 1274, 1278, 1283, 1288, 1294, 1297, 1304, 1308],
                 "terminates": false,
-                "throughDestEn": "Kazusa-Ichinomiya",
-                "throughDestJa": "上総一ノ宮",
+                "throughDest": {
+                    "en": "Kazusa-Ichinomiya",
+                    "ja": "上総一ノ宮"
+                },
                 "type": "Rapid"
             },
             {
@@ -5154,8 +5488,10 @@
                 "startsHere": false,
                 "stops": [1195, 1201, 1205, 1208, 1212, 1224, 1228, 1231, 1235, 1240, 1244, 1249, 1253, 1262, 1265, 1270, 1275, 1280, 1284, 1286, 1288, 1292, 1296, 1301, 1307, 1311, 1318, 1322],
                 "terminates": false,
-                "throughDestEn": "Narita Airport",
-                "throughDestJa": "成田空港",
+                "throughDest": {
+                    "en": "Narita Airport",
+                    "ja": "成田空港"
+                },
                 "type": "Rapid"
             },
             {
@@ -5165,8 +5501,10 @@
                 "startsHere": false,
                 "stops": [1208, 1214, 1219, 1222, 1225, 1235, 1239, 1242, 1247, 1252, 1256, 1261, 1265, 1274, 1277, 1283, 1289, 1293, 1300, 1302, 1304, 1308, 1313, 1318, 1324, 1328, 1335, 1339],
                 "terminates": false,
-                "throughDestEn": "Narita",
-                "throughDestJa": "成田",
+                "throughDest": {
+                    "en": "Narita",
+                    "ja": "成田"
+                },
                 "type": "Rapid"
             },
             {
@@ -5185,8 +5523,10 @@
                 "startsHere": false,
                 "stops": [1234, 1239, 1244, 1247, 1251, 1265, 1269, 1272, 1277, 1282, 1286, 1291, 1294, 1303, 1306, 1311, 1316, 1321, 1326, 1328, 1330, 1335, 1340, 1345, 1351, 1356, 1363, 1367],
                 "terminates": false,
-                "throughDestEn": "Narita Airport",
-                "throughDestJa": "成田空港",
+                "throughDest": {
+                    "en": "Narita Airport",
+                    "ja": "成田空港"
+                },
                 "type": "Rapid"
             },
             {
@@ -5214,8 +5554,10 @@
                 "startsHere": false,
                 "stops": [1285, 1291, 1296, 1299, 1302, 1313, 1317, 1320, 1327, 1332, 1336, 1340, 1344, 1353, 1356, 1361, 1366, 1370, 1374, 1376, 1378, 1383, 1387, 1392, 1398, 1403, 1410, 1414],
                 "terminates": false,
-                "throughDestEn": "Sakura",
-                "throughDestJa": "佐倉",
+                "throughDest": {
+                    "en": "Sakura",
+                    "ja": "佐倉"
+                },
                 "type": "Rapid"
             },
             {
@@ -6125,8 +6467,10 @@
                 "startsHere": true,
                 "stops": [431, 435, 438, 443, 448, 451, 456, 460, 469, 472, 477, 482, 487, 492, 494, 496, 500, 505, 510, 516, 519, 526, 530],
                 "terminates": false,
-                "throughDestEn": "Narita Airport",
-                "throughDestJa": "成田空港",
+                "throughDest": {
+                    "en": "Narita Airport",
+                    "ja": "成田空港"
+                },
                 "type": "Rapid"
             },
             {
@@ -6172,8 +6516,10 @@
                 "startsHere": true,
                 "stops": [549, 554, 557, 561, 566, 570, 575, 578, 587, 590, 595, 601, 605, 613, 616, 618, 622, 627, 632, 638, 644, 651, 655],
                 "terminates": false,
-                "throughDestEn": "Narita Airport",
-                "throughDestJa": "成田空港",
+                "throughDest": {
+                    "en": "Narita Airport",
+                    "ja": "成田空港"
+                },
                 "type": "Rapid"
             },
             {
@@ -6246,8 +6592,10 @@
                 "startsHere": true,
                 "stops": [653, 657, 660, 665, 670, 674, 678, 684, 693, 696, 701, 706, 710, 714, 716, 718, 722, 727, 735, 741, 745, 752, 756],
                 "terminates": false,
-                "throughDestEn": "Kimitsu",
-                "throughDestJa": "君津",
+                "throughDest": {
+                    "en": "Kimitsu",
+                    "ja": "君津"
+                },
                 "type": "Rapid"
             },
             {
@@ -6275,8 +6623,10 @@
                 "startsHere": true,
                 "stops": [712, 716, 719, 726, 731, 735, 740, 744, 753, 756, 761, 766, 770, 774, 776, 778, 782, 787, 795, 801, 805, 812, 816],
                 "terminates": false,
-                "throughDestEn": "Kimitsu",
-                "throughDestJa": "君津",
+                "throughDest": {
+                    "en": "Kimitsu",
+                    "ja": "君津"
+                },
                 "type": "Rapid"
             },
             {
@@ -6304,8 +6654,10 @@
                 "startsHere": true,
                 "stops": [772, 776, 779, 785, 790, 794, 799, 804, 813, 816, 821, 826, 830, 834, 836, 838, 842, 847, 855, 861, 865, 872, 876],
                 "terminates": false,
-                "throughDestEn": "Kimitsu",
-                "throughDestJa": "君津",
+                "throughDest": {
+                    "en": "Kimitsu",
+                    "ja": "君津"
+                },
                 "type": "Rapid"
             },
             {
@@ -6324,8 +6676,10 @@
                 "startsHere": true,
                 "stops": [822, 826, 829, 833, 838, 842, 847, 850, 859, 862, 868, 872, 877, 882, 884, 886, 890, 895, 900, 905, 909, 916, 920],
                 "terminates": false,
-                "throughDestEn": "Kazusa-Ichinomiya",
-                "throughDestJa": "上総一ノ宮",
+                "throughDest": {
+                    "en": "Kazusa-Ichinomiya",
+                    "ja": "上総一ノ宮"
+                },
                 "type": "Rapid"
             },
             {
@@ -6335,8 +6689,10 @@
                 "startsHere": true,
                 "stops": [832, 836, 839, 845, 850, 854, 858, 864, 873, 876, 881, 886, 890, 894, 896, 898, 902, 907, 915, 921, 925, 932, 936],
                 "terminates": false,
-                "throughDestEn": "Kimitsu",
-                "throughDestJa": "君津",
+                "throughDest": {
+                    "en": "Kimitsu",
+                    "ja": "君津"
+                },
                 "type": "Rapid"
             },
             {
@@ -6355,8 +6711,10 @@
                 "startsHere": true,
                 "stops": [882, 886, 889, 894, 899, 903, 908, 911, 920, 923, 928, 933, 938, 944, 946, 948, 953, 957, 962, 968, 972, 979, 983],
                 "terminates": false,
-                "throughDestEn": "Kazusa-Ichinomiya",
-                "throughDestJa": "上総一ノ宮",
+                "throughDest": {
+                    "en": "Kazusa-Ichinomiya",
+                    "ja": "上総一ノ宮"
+                },
                 "type": "Rapid"
             },
             {
@@ -6366,8 +6724,10 @@
                 "startsHere": true,
                 "stops": [892, 896, 899, 905, 910, 914, 918, 924, 933, 936, 941, 946, 951, 954, 957, 958, 963, 967, 975, 981, 986, 993, 997],
                 "terminates": false,
-                "throughDestEn": "Kimitsu",
-                "throughDestJa": "君津",
+                "throughDest": {
+                    "en": "Kimitsu",
+                    "ja": "君津"
+                },
                 "type": "Rapid"
             },
             {
@@ -6386,8 +6746,10 @@
                 "startsHere": true,
                 "stops": [938, 943, 946, 950, 955, 958, 963, 966, 975, 979, 984, 988, 993, 997, 999, 1001, 1005, 1010, 1015, 1021, 1025, 1032, 1035],
                 "terminates": false,
-                "throughDestEn": "Narita Airport",
-                "throughDestJa": "成田空港",
+                "throughDest": {
+                    "en": "Narita Airport",
+                    "ja": "成田空港"
+                },
                 "type": "Rapid"
             },
             {
@@ -6397,8 +6759,10 @@
                 "startsHere": true,
                 "stops": [947, 952, 955, 964, 969, 972, 977, 981, 990, 993, 999, 1004, 1009, 1014, 1016, 1018, 1023, 1027, 1035, 1041, 1046, 1053, 1057],
                 "terminates": false,
-                "throughDestEn": "Kazusa-Ichinomiya",
-                "throughDestJa": "上総一ノ宮",
+                "throughDest": {
+                    "en": "Kazusa-Ichinomiya",
+                    "ja": "上総一ノ宮"
+                },
                 "type": "Rapid"
             },
             {
@@ -6426,8 +6790,10 @@
                 "startsHere": true,
                 "stops": [1005, 1009, 1012, 1018, 1023, 1027, 1031, 1035, 1044, 1047, 1053, 1059, 1063, 1070, 1072, 1074, 1079, 1083, 1088, 1094, 1103, 1110, 1114],
                 "terminates": false,
-                "throughDestEn": "Narita Airport",
-                "throughDestJa": "成田空港",
+                "throughDest": {
+                    "en": "Narita Airport",
+                    "ja": "成田空港"
+                },
                 "type": "Rapid"
             },
             {
@@ -6437,8 +6803,10 @@
                 "startsHere": true,
                 "stops": [998, 1001, 1005, 1015, 1019, 1022, 1026, 1031, 1035, 1040, 1043, 1052, 1055, 1061, 1065, 1070, 1076, 1078, 1080, 1084, 1088, 1097, 1102, 1107, 1114, 1118],
                 "terminates": false,
-                "throughDestEn": "Kazusa-Ichinomiya",
-                "throughDestJa": "上総一ノ宮",
+                "throughDest": {
+                    "en": "Kazusa-Ichinomiya",
+                    "ja": "上総一ノ宮"
+                },
                 "type": "Rapid"
             },
             {
@@ -6448,8 +6816,10 @@
                 "startsHere": true,
                 "stops": [1071, 1076, 1079, 1084, 1087, 1096, 1100, 1105, 1109, 1114, 1119, 1121, 1123, 1128, 1132, 1138, 1144, 1152, 1159, 1163],
                 "terminates": false,
-                "throughDestEn": "Narita Airport",
-                "throughDestJa": "成田空港",
+                "throughDest": {
+                    "en": "Narita Airport",
+                    "ja": "成田空港"
+                },
                 "type": "Rapid"
             },
             {
@@ -6468,8 +6838,10 @@
                 "startsHere": true,
                 "stops": [1058, 1061, 1064, 1073, 1077, 1080, 1085, 1090, 1093, 1098, 1101, 1110, 1114, 1119, 1125, 1130, 1135, 1137, 1139, 1144, 1149, 1157, 1163, 1167, 1176, 1180],
                 "terminates": false,
-                "throughDestEn": "Kazusa-Ichinomiya",
-                "throughDestJa": "上総一ノ宮",
+                "throughDest": {
+                    "en": "Kazusa-Ichinomiya",
+                    "ja": "上総一ノ宮"
+                },
                 "type": "Rapid"
             },
             {
@@ -6479,8 +6851,10 @@
                 "startsHere": true,
                 "stops": [1097, 1101, 1104, 1109, 1114, 1118, 1123, 1127, 1136, 1139, 1145, 1151, 1155, 1163, 1165, 1167, 1173, 1177, 1183, 1189, 1194, 1202, 1206],
                 "terminates": false,
-                "throughDestEn": "Narita",
-                "throughDestJa": "成田",
+                "throughDest": {
+                    "en": "Narita",
+                    "ja": "成田"
+                },
                 "type": "Rapid"
             },
             {
@@ -6499,8 +6873,10 @@
                 "startsHere": true,
                 "stops": [1134, 1138, 1141, 1147, 1152, 1156, 1161, 1164, 1173, 1176, 1182, 1186, 1191, 1197, 1199, 1201, 1206, 1210, 1219, 1225, 1229, 1236, 1240],
                 "terminates": false,
-                "throughDestEn": "Kazusa-Ichinomiya",
-                "throughDestJa": "上総一ノ宮",
+                "throughDest": {
+                    "en": "Kazusa-Ichinomiya",
+                    "ja": "上総一ノ宮"
+                },
                 "type": "Rapid"
             },
             {
@@ -6510,8 +6886,10 @@
                 "startsHere": true,
                 "stops": [1156, 1161, 1164, 1168, 1173, 1176, 1181, 1184, 1193, 1197, 1202, 1206, 1211, 1215, 1217, 1219, 1223, 1228, 1236, 1242, 1247, 1254, 1258],
                 "terminates": false,
-                "throughDestEn": "Narita Airport",
-                "throughDestJa": "成田空港",
+                "throughDest": {
+                    "en": "Narita Airport",
+                    "ja": "成田空港"
+                },
                 "type": "Rapid"
             },
             {
@@ -6521,8 +6899,10 @@
                 "startsHere": true,
                 "stops": [1185, 1188, 1191, 1199, 1203, 1206, 1210, 1215, 1219, 1224, 1227, 1236, 1239, 1245, 1250, 1255, 1261, 1263, 1265, 1269, 1273, 1278, 1284, 1288, 1295, 1299],
                 "terminates": false,
-                "throughDestEn": "Sakura",
-                "throughDestJa": "佐倉",
+                "throughDest": {
+                    "en": "Sakura",
+                    "ja": "佐倉"
+                },
                 "type": "Rapid"
             },
             {
@@ -6532,8 +6912,10 @@
                 "startsHere": true,
                 "stops": [1241, 1246, 1249, 1254, 1258, 1267, 1270, 1275, 1281, 1285, 1291, 1293, 1295, 1299, 1304, 1309, 1315, 1319, 1326, 1330],
                 "terminates": false,
-                "throughDestEn": "Kimitsu",
-                "throughDestJa": "君津",
+                "throughDest": {
+                    "en": "Kimitsu",
+                    "ja": "君津"
+                },
                 "type": "Rapid"
             },
             {
@@ -6543,8 +6925,10 @@
                 "startsHere": true,
                 "stops": [1264, 1269, 1272, 1277, 1281, 1290, 1294, 1299, 1307, 1312, 1318, 1320, 1322, 1327, 1331, 1336, 1342, 1346, 1353, 1357],
                 "terminates": false,
-                "throughDestEn": "Sakura",
-                "throughDestJa": "佐倉",
+                "throughDest": {
+                    "en": "Sakura",
+                    "ja": "佐倉"
+                },
                 "type": "Rapid"
             },
             {
@@ -6887,8 +7271,10 @@
                 "startsHere": true,
                 "stops": [304, 306, 308, 312, 316, 321, 327, 331, 338, 342],
                 "terminates": false,
-                "throughDestEn": "Narita Airport",
-                "throughDestJa": "成田空港",
+                "throughDest": {
+                    "en": "Narita Airport",
+                    "ja": "成田空港"
+                },
                 "type": "Local"
             },
             {
@@ -6898,8 +7284,10 @@
                 "startsHere": true,
                 "stops": [321, 323, 325, 329, 333, 338, 344, 348, 355, 359],
                 "terminates": false,
-                "throughDestEn": "Kimitsu",
-                "throughDestJa": "君津",
+                "throughDest": {
+                    "en": "Kimitsu",
+                    "ja": "君津"
+                },
                 "type": "Local"
             },
             {
@@ -6909,8 +7297,10 @@
                 "startsHere": true,
                 "stops": [342, 344, 346, 350, 355, 360, 365, 369, 376, 380],
                 "terminates": false,
-                "throughDestEn": "Sakura",
-                "throughDestJa": "佐倉",
+                "throughDest": {
+                    "en": "Sakura",
+                    "ja": "佐倉"
+                },
                 "type": "Local"
             },
             {
@@ -6929,8 +7319,10 @@
                 "startsHere": true,
                 "stops": [429, 431, 433, 438, 442, 447, 453, 458, 465, 469],
                 "terminates": false,
-                "throughDestEn": "Narita Airport",
-                "throughDestJa": "成田空港",
+                "throughDest": {
+                    "en": "Narita Airport",
+                    "ja": "成田空港"
+                },
                 "type": "Local"
             },
             {
@@ -6976,8 +7368,10 @@
                 "startsHere": true,
                 "stops": [535, 537, 539, 543, 548, 555, 561, 565, 572, 576],
                 "terminates": false,
-                "throughDestEn": "Kimitsu",
-                "throughDestJa": "君津",
+                "throughDest": {
+                    "en": "Kimitsu",
+                    "ja": "君津"
+                },
                 "type": "Local"
             },
             {
@@ -7005,8 +7399,10 @@
                 "startsHere": true,
                 "stops": [675, 677, 679, 684, 688, 693, 699, 704, 711, 715],
                 "terminates": false,
-                "throughDestEn": "Narita Airport",
-                "throughDestJa": "成田空港",
+                "throughDest": {
+                    "en": "Narita Airport",
+                    "ja": "成田空港"
+                },
                 "type": "Local"
             },
             {
@@ -7070,8 +7466,10 @@
                 "startsHere": true,
                 "stops": [967, 969, 971, 975, 980, 985, 991, 994, 1001, 1005],
                 "terminates": false,
-                "throughDestEn": "Narita Airport",
-                "throughDestJa": "成田空港",
+                "throughDest": {
+                    "en": "Narita Airport",
+                    "ja": "成田空港"
+                },
                 "type": "Local"
             },
             {
@@ -7081,8 +7479,10 @@
                 "startsHere": true,
                 "stops": [1005, 1007, 1009, 1014, 1018, 1023, 1029, 1035, 1041, 1045],
                 "terminates": false,
-                "throughDestEn": "Kimitsu",
-                "throughDestJa": "君津",
+                "throughDest": {
+                    "en": "Kimitsu",
+                    "ja": "君津"
+                },
                 "type": "Local"
             },
             {
@@ -7092,8 +7492,10 @@
                 "startsHere": true,
                 "stops": [1025, 1027, 1029, 1034, 1038, 1044, 1050, 1055, 1063, 1067],
                 "terminates": false,
-                "throughDestEn": "Narita Airport",
-                "throughDestJa": "成田空港",
+                "throughDest": {
+                    "en": "Narita Airport",
+                    "ja": "成田空港"
+                },
                 "type": "Local"
             },
             {
@@ -7103,8 +7505,10 @@
                 "startsHere": true,
                 "stops": [1057, 1060, 1061, 1066, 1070, 1075, 1081, 1086, 1092, 1096],
                 "terminates": false,
-                "throughDestEn": "Kimitsu",
-                "throughDestJa": "君津",
+                "throughDest": {
+                    "en": "Kimitsu",
+                    "ja": "君津"
+                },
                 "type": "Local"
             },
             {
@@ -7114,8 +7518,10 @@
                 "startsHere": true,
                 "stops": [1085, 1087, 1089, 1095, 1099, 1105, 1111, 1115, 1122, 1126],
                 "terminates": false,
-                "throughDestEn": "Narita Airport",
-                "throughDestJa": "成田空港",
+                "throughDest": {
+                    "en": "Narita Airport",
+                    "ja": "成田空港"
+                },
                 "type": "Local"
             },
             {
@@ -7125,8 +7531,10 @@
                 "startsHere": true,
                 "stops": [1115, 1117, 1119, 1123, 1128, 1133, 1139, 1143, 1150, 1154],
                 "terminates": false,
-                "throughDestEn": "Kimitsu",
-                "throughDestJa": "君津",
+                "throughDest": {
+                    "en": "Kimitsu",
+                    "ja": "君津"
+                },
                 "type": "Local"
             },
             {
@@ -7136,8 +7544,10 @@
                 "startsHere": true,
                 "stops": [1149, 1151, 1153, 1157, 1161, 1166, 1172, 1176, 1183, 1187],
                 "terminates": false,
-                "throughDestEn": "Narita Airport",
-                "throughDestJa": "成田空港",
+                "throughDest": {
+                    "en": "Narita Airport",
+                    "ja": "成田空港"
+                },
                 "type": "Local"
             },
             {
@@ -7399,8 +7809,10 @@
                 "startsHere": true,
                 "stops": [309, 316, 320],
                 "terminates": false,
-                "throughDestEn": "Kazusa-Ichinomiya",
-                "throughDestJa": "上総一ノ宮",
+                "throughDest": {
+                    "en": "Kazusa-Ichinomiya",
+                    "ja": "上総一ノ宮"
+                },
                 "type": "Local"
             },
             {
@@ -7410,8 +7822,10 @@
                 "startsHere": true,
                 "stops": [359, 366, 370],
                 "terminates": false,
-                "throughDestEn": "Narita Airport",
-                "throughDestJa": "成田空港",
+                "throughDest": {
+                    "en": "Narita Airport",
+                    "ja": "成田空港"
+                },
                 "type": "Local"
             },
             {

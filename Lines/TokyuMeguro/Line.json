@@ -2,10 +2,14 @@
     {
         "colorHex": "#009CD3",
         "delayInfo": {
-            "checkMethodEn": "Check the Tokyu train operation information page, the Tokyu Lines app, or X (@tokyu_official). Delays or suspensions of 15 minutes or more are posted.",
-            "checkMethodJa": "東急電鉄「運行情報」ページ、東急線アプリ、またはX（@tokyu_official）で確認できます。15分以上の遅れ・運転見合わせが発生または見込まれる場合に掲載されます。",
-            "statusPageURL": "https://www.tokyu.co.jp/unten2/unten.html",
-            "statusPageURLEn": "https://www.tokyu.co.jp/unten2/unten.html",
+            "checkMethod": {
+                "en": "Check the Tokyu train operation information page, the Tokyu Lines app, or X (@tokyu_official). Delays or suspensions of 15 minutes or more are posted.",
+                "ja": "東急電鉄「運行情報」ページ、東急線アプリ、またはX（@tokyu_official）で確認できます。15分以上の遅れ・運転見合わせが発生または見込まれる場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://www.tokyu.co.jp/unten2/unten.html",
+                "ja": "https://www.tokyu.co.jp/unten2/unten.html"
+            },
             "xAccount": "@tokyu_official"
         },
         "directions": [
@@ -770,8 +774,10 @@
                 "id": "static.RailDirection:Tokyu.Meguro.Hiyoshi",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Hiyoshi & Shin-Yokohama",
-                "nameJa": "日吉・新横浜方面",
+                "name": {
+                    "en": "For Hiyoshi & Shin-Yokohama",
+                    "ja": "日吉・新横浜方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -1585,8 +1591,10 @@
                 "id": "static.RailDirection:Tokyu.Meguro.Meguro",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Meguro & Otemachi",
-                "nameJa": "目黒・大手町方面",
+                "name": {
+                    "en": "For Meguro & Otemachi",
+                    "ja": "目黒・大手町方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -1646,151 +1654,182 @@
         "hopTimesMinutes": [2, 2, 2.5, 2, 2, 2, 2, 1, 2, 2, 2, 3],
         "id": "Railway:Tokyu.Meguro",
         "isLoop": false,
-        "nameEn": "Tokyu Meguro Line",
-        "nameJa": "東急目黒線",
+        "name": {
+            "en": "Tokyu Meguro Line",
+            "ja": "東急目黒線",
+            "ko": "도쿄 급행 전철 메구로 선",
+            "zh-Hans": "目黑线",
+            "zh-Hant": "目黑線"
+        },
         "operatorId": "Operator:Tokyu",
         "stations": [
             {
                 "id": "Station:Tokyu.Meguro.Meguro",
                 "latitude": 35.632508,
                 "longitude": 139.715772,
-                "name": "目黒",
-                "nameEn": "Meguro",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Meguro",
+                    "ja": "目黒",
+                    "ko": "메구로",
+                    "zh-Hans": "目黑",
+                    "zh-Hant": "目黑"
+                },
                 "stationCode": "MG01"
             },
             {
                 "id": "Station:Tokyu.Meguro.Fudomae",
                 "latitude": 35.626,
                 "longitude": 139.712,
-                "name": "不動前",
-                "nameEn": "Fudo-mae",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Fudo-mae",
+                    "ja": "不動前",
+                    "ko": "후도마에",
+                    "zh-Hans": "不动前",
+                    "zh-Hant": "不動前"
+                },
                 "stationCode": "MG02"
             },
             {
                 "id": "Station:Tokyu.Meguro.MusashiKoyama",
                 "latitude": 35.620561,
                 "longitude": 139.704573,
-                "name": "武蔵小山",
-                "nameEn": "Musashi-Koyama",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Musashi-Koyama",
+                    "ja": "武蔵小山",
+                    "ko": "무사시코야마",
+                    "zh-Hans": "武藏小山",
+                    "zh-Hant": "武藏小山"
+                },
                 "stationCode": "MG03"
             },
             {
                 "id": "Station:Tokyu.Meguro.NishiKoyama",
                 "latitude": 35.61547,
                 "longitude": 139.698736,
-                "name": "西小山",
-                "nameEn": "Nishi-Koyama",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nishi-Koyama",
+                    "ja": "西小山",
+                    "ko": "니시코야마",
+                    "zh-Hans": "西小山",
+                    "zh-Hant": "西小山"
+                },
                 "stationCode": "MG04"
             },
             {
                 "id": "Station:Tokyu.Meguro.Senzoku",
                 "latitude": 35.610151,
                 "longitude": 139.694166,
-                "name": "洗足",
-                "nameEn": "Senzoku",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Senzoku",
+                    "ja": "洗足",
+                    "ko": "센조쿠",
+                    "zh-Hans": "洗足",
+                    "zh-Hant": "洗足"
+                },
                 "stationCode": "MG05"
             },
             {
                 "id": "Station:Tokyu.Meguro.Ookayama",
                 "latitude": 35.607,
                 "longitude": 139.685,
-                "name": "大岡山",
-                "nameEn": "Ookayama",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ookayama",
+                    "ja": "大岡山",
+                    "ko": "오오카야마",
+                    "zh-Hans": "大冈山",
+                    "zh-Hant": "大岡山"
+                },
                 "stationCode": "MG06"
             },
             {
                 "id": "Station:Tokyu.Meguro.Okusawa",
                 "latitude": 35.604026,
                 "longitude": 139.672738,
-                "name": "奥沢",
-                "nameEn": "Okusawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Okusawa",
+                    "ja": "奥沢",
+                    "ko": "오쿠사와",
+                    "zh-Hans": "奥泽",
+                    "zh-Hant": "奧澤"
+                },
                 "stationCode": "MG07"
             },
             {
                 "id": "Station:Tokyu.Meguro.DenenChofu",
                 "latitude": 35.59689,
                 "longitude": 139.667368,
-                "name": "田園調布",
-                "nameEn": "Den-en-chofu",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Den-en-chofu",
+                    "ja": "田園調布",
+                    "ko": "덴엔초후",
+                    "zh-Hans": "田园调布",
+                    "zh-Hant": "田園調布"
+                },
                 "stationCode": "MG08"
             },
             {
                 "id": "Station:Tokyu.Meguro.Tamagawa",
                 "latitude": 35.589691,
                 "longitude": 139.668794,
-                "name": "多摩川",
-                "nameEn": "Tamagawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tamagawa",
+                    "ja": "多摩川",
+                    "ko": "다마가와",
+                    "zh-Hans": "多摩川",
+                    "zh-Hant": "多摩川"
+                },
                 "stationCode": "MG09"
             },
             {
                 "id": "Station:Tokyu.Meguro.ShinMaruko",
                 "latitude": 35.580665,
                 "longitude": 139.662052,
-                "name": "新丸子",
-                "nameEn": "Shin-maruko",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shin-maruko",
+                    "ja": "新丸子",
+                    "ko": "신마루코",
+                    "zh-Hans": "新丸子",
+                    "zh-Hant": "新丸子"
+                },
                 "stationCode": "MG10"
             },
             {
                 "id": "Station:Tokyu.Meguro.MusashiKosugi",
                 "latitude": 35.5766,
                 "longitude": 139.6597,
-                "name": "武蔵小杉",
-                "nameEn": "Musashi-Kosugi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Musashi-Kosugi",
+                    "ja": "武蔵小杉",
+                    "ko": "무사시코스기",
+                    "zh-Hans": "武藏小杉",
+                    "zh-Hant": "武藏小杉"
+                },
                 "stationCode": "MG11"
             },
             {
                 "id": "Station:Tokyu.Meguro.Motosumiyoshi",
                 "latitude": 35.564449,
                 "longitude": 139.654064,
-                "name": "元住吉",
-                "nameEn": "Motosumiyoshi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Motosumiyoshi",
+                    "ja": "元住吉",
+                    "ko": "모토스미요시",
+                    "zh-Hans": "元住吉",
+                    "zh-Hant": "元住吉"
+                },
                 "stationCode": "MG12"
             },
             {
                 "id": "Station:Tokyu.Meguro.Hiyoshi",
                 "latitude": 35.554,
                 "longitude": 139.647,
-                "name": "日吉",
-                "nameEn": "Hiyoshi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Hiyoshi",
+                    "ja": "日吉",
+                    "ko": "히요시",
+                    "zh-Hans": "日吉",
+                    "zh-Hant": "日吉"
+                },
                 "stationCode": "MG13"
             }
         ],
@@ -1803,28 +1842,40 @@
                 "connectingLineId": "Railway:TokyoMetro.Namboku",
                 "end": "descending",
                 "junctionStationId": "Station:Tokyu.Meguro.Meguro",
-                "lineNameEn": "Tokyo Metro Namboku Line",
-                "lineNameJa": "東京メトロ南北線",
-                "towardEn": "for Yotsuya & Akabane-Iwabuchi",
-                "towardJa": "四ツ谷・赤羽岩淵方面"
+                "lineName": {
+                    "en": "Tokyo Metro Namboku Line",
+                    "ja": "東京メトロ南北線"
+                },
+                "toward": {
+                    "en": "for Yotsuya & Akabane-Iwabuchi",
+                    "ja": "四ツ谷・赤羽岩淵方面"
+                }
             },
             {
                 "connectingLineId": "Railway:Toei.Mita",
                 "end": "descending",
                 "junctionStationId": "Station:Tokyu.Meguro.Meguro",
-                "lineNameEn": "Toei Mita Line",
-                "lineNameJa": "都営三田線",
-                "towardEn": "for Otemachi & Nishi-Takashimadaira",
-                "towardJa": "大手町・西高島平方面"
+                "lineName": {
+                    "en": "Toei Mita Line",
+                    "ja": "都営三田線"
+                },
+                "toward": {
+                    "en": "for Otemachi & Nishi-Takashimadaira",
+                    "ja": "大手町・西高島平方面"
+                }
             },
             {
                 "connectingLineId": "Railway:Tokyu.TokyuShinYokohama",
                 "end": "ascending",
                 "junctionStationId": "Station:Tokyu.Meguro.Hiyoshi",
-                "lineNameEn": "Tokyu Shin-Yokohama Line",
-                "lineNameJa": "東急新横浜線",
-                "towardEn": "for Shin-Yokohama & the Sotetsu Line",
-                "towardJa": "新横浜・相鉄線方面"
+                "lineName": {
+                    "en": "Tokyu Shin-Yokohama Line",
+                    "ja": "東急新横浜線"
+                },
+                "toward": {
+                    "en": "for Shin-Yokohama & the Sotetsu Line",
+                    "ja": "新横浜・相鉄線方面"
+                }
             }
         ],
         "upHopTimesMinutes": [2, 2, 2, 1.5, 2, 2, 2.5, 2, 2, 2, 2, 2]

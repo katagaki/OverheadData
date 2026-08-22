@@ -2,10 +2,14 @@
     {
         "colorHex": "#F08300",
         "delayInfo": {
-            "checkMethodEn": "Check the Seibu Railway operation information page or the Seibu Lines app. Delays and suspensions are posted as they occur.",
-            "checkMethodJa": "西武鉄道「運行情報」ページまたは西武線アプリで確認できます。遅延・運転見合わせが発生した場合に掲載されます。",
-            "statusPageURL": "https://www.seiburailway.jp/railway/railwayinfo/",
-            "statusPageURLEn": "https://www.seiburailway.jp/en/railway/railwayinfo/",
+            "checkMethod": {
+                "en": "Check the Seibu Railway operation information page or the Seibu Lines app. Delays and suspensions are posted as they occur.",
+                "ja": "西武鉄道「運行情報」ページまたは西武線アプリで確認できます。遅延・運転見合わせが発生した場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://www.seiburailway.jp/en/railway/railwayinfo/",
+                "ja": "https://www.seiburailway.jp/railway/railwayinfo/"
+            },
             "xAccount": "@seiburailway"
         },
         "directions": [
@@ -442,8 +446,10 @@
                         "departure": "17:33",
                         "startsHere": true,
                         "terminusStationId": "Station:Seibu.Ikebukuro.NishiTokorozawa",
-                        "throughDestEn": "Seibukyujo-Mae",
-                        "throughDestJa": "西武球場前",
+                        "throughDest": {
+                            "en": "Seibukyujo-Mae",
+                            "ja": "西武球場前"
+                        },
                         "trainType": "Rapid"
                     },
                     {
@@ -586,8 +592,10 @@
                         "departure": "20:35",
                         "startsHere": true,
                         "terminusStationId": "Station:Seibu.Ikebukuro.NishiTokorozawa",
-                        "throughDestEn": "Seibukyujo-Mae",
-                        "throughDestJa": "西武球場前",
+                        "throughDest": {
+                            "en": "Seibukyujo-Mae",
+                            "ja": "西武球場前"
+                        },
                         "trainType": "SemiExpress"
                     },
                     {
@@ -613,8 +621,10 @@
                         "departure": "21:10",
                         "startsHere": true,
                         "terminusStationId": "Station:Seibu.Ikebukuro.NishiTokorozawa",
-                        "throughDestEn": "Seibukyujo-Mae",
-                        "throughDestJa": "西武球場前",
+                        "throughDest": {
+                            "en": "Seibukyujo-Mae",
+                            "ja": "西武球場前"
+                        },
                         "trainType": "SemiExpress"
                     },
                     {
@@ -1774,8 +1784,10 @@
                     }
                 ],
                 "isAscending": true,
-                "nameEn": "For Tokorozawa & Hanno",
-                "nameJa": "所沢・飯能方面",
+                "name": {
+                    "en": "For Tokorozawa & Hanno",
+                    "ja": "所沢・飯能方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -1892,8 +1904,10 @@
                         "departure": "07:01",
                         "startsHere": true,
                         "terminusStationId": "Station:Seibu.Ikebukuro.Nerima",
-                        "throughDestEn": "Shin-kiba",
-                        "throughDestJa": "新木場",
+                        "throughDest": {
+                            "en": "Shin-kiba",
+                            "ja": "新木場"
+                        },
                         "trainType": "Rapid"
                     },
                     {
@@ -1913,8 +1927,10 @@
                         "departure": "07:25",
                         "startsHere": true,
                         "terminusStationId": "Station:Seibu.Ikebukuro.Nerima",
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "Rapid"
                     },
                     {
@@ -1946,8 +1962,10 @@
                         "departure": "08:10",
                         "startsHere": true,
                         "terminusStationId": "Station:Seibu.Ikebukuro.Nerima",
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "RapidExpress"
                     },
                     {
@@ -2039,8 +2057,10 @@
                         "departure": "10:40",
                         "startsHere": true,
                         "terminusStationId": "Station:Seibu.Ikebukuro.Nerima",
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "RapidExpress"
                     },
                     {
@@ -2060,8 +2080,10 @@
                         "departure": "11:09",
                         "startsHere": true,
                         "terminusStationId": "Station:Seibu.Ikebukuro.Nerima",
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "RapidExpress"
                     },
                     {
@@ -2081,8 +2103,10 @@
                         "departure": "11:40",
                         "startsHere": true,
                         "terminusStationId": "Station:Seibu.Ikebukuro.Nerima",
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "RapidExpress"
                     },
                     {
@@ -2306,8 +2330,10 @@
                         "departure": "18:55",
                         "startsHere": true,
                         "terminusStationId": "Station:Seibu.Ikebukuro.Nerima",
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "Rapid"
                     },
                     {
@@ -2321,8 +2347,10 @@
                         "departure": "19:26",
                         "startsHere": true,
                         "terminusStationId": "Station:Seibu.Ikebukuro.Nerima",
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "SemiExpress"
                     },
                     {
@@ -2336,8 +2364,10 @@
                         "departure": "19:56",
                         "startsHere": true,
                         "terminusStationId": "Station:Seibu.Ikebukuro.Nerima",
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "SemiExpress"
                     },
                     {
@@ -2479,8 +2509,10 @@
                         "departure": "06:56",
                         "startsHere": true,
                         "terminusStationId": "Station:Seibu.Ikebukuro.Nerima",
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "Rapid"
                     },
                     {
@@ -2512,8 +2544,10 @@
                         "departure": "07:20",
                         "startsHere": true,
                         "terminusStationId": "Station:Seibu.Ikebukuro.Nerima",
-                        "throughDestEn": "Shin-kiba",
-                        "throughDestJa": "新木場",
+                        "throughDest": {
+                            "en": "Shin-kiba",
+                            "ja": "新木場"
+                        },
                         "trainType": "SemiExpress"
                     },
                     {
@@ -2539,8 +2573,10 @@
                         "departure": "07:51",
                         "startsHere": true,
                         "terminusStationId": "Station:Seibu.Ikebukuro.Nerima",
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "SemiExpress"
                     },
                     {
@@ -2572,8 +2608,10 @@
                         "departure": "08:36",
                         "startsHere": true,
                         "terminusStationId": "Station:Seibu.Ikebukuro.Nerima",
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "SemiExpress"
                     },
                     {
@@ -2911,8 +2949,10 @@
                         "departure": "19:01",
                         "startsHere": true,
                         "terminusStationId": "Station:Seibu.Ikebukuro.Nerima",
-                        "throughDestEn": "Shin-kiba",
-                        "throughDestJa": "新木場",
+                        "throughDest": {
+                            "en": "Shin-kiba",
+                            "ja": "新木場"
+                        },
                         "trainType": "SemiExpress"
                     },
                     {
@@ -3031,8 +3071,10 @@
                                 "departure": "21:56",
                                 "startsHere": true,
                                 "terminusStationId": "Station:Seibu.Ikebukuro.Nerima",
-                                "throughDestEn": "Shin-kiba",
-                                "throughDestJa": "新木場",
+                                "throughDest": {
+                                    "en": "Shin-kiba",
+                                    "ja": "新木場"
+                                },
                                 "trainType": "SemiExpress"
                             }
                         ]
@@ -3061,8 +3103,10 @@
                                 "departure": "09:39",
                                 "startsHere": true,
                                 "terminusStationId": "Station:Seibu.Ikebukuro.Nerima",
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "SemiExpress"
                             }
                         ]
@@ -3081,8 +3125,10 @@
                                 "departure": "09:10",
                                 "startsHere": true,
                                 "terminusStationId": "Station:Seibu.Ikebukuro.Nerima",
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "SemiExpress"
                             },
                             {
@@ -3114,8 +3160,10 @@
                                 "departure": "17:25",
                                 "startsHere": true,
                                 "terminusStationId": "Station:Seibu.Ikebukuro.Nerima",
-                                "throughDestEn": "Shin-kiba",
-                                "throughDestJa": "新木場",
+                                "throughDest": {
+                                    "en": "Shin-kiba",
+                                    "ja": "新木場"
+                                },
                                 "trainType": "SemiExpress"
                             },
                             {
@@ -3181,8 +3229,10 @@
                                 "departure": "17:58",
                                 "startsHere": true,
                                 "terminusStationId": "Station:Seibu.Ikebukuro.Nerima",
-                                "throughDestEn": "Shin-kiba",
-                                "throughDestJa": "新木場",
+                                "throughDest": {
+                                    "en": "Shin-kiba",
+                                    "ja": "新木場"
+                                },
                                 "trainType": "SemiExpress"
                             },
                             {
@@ -3249,8 +3299,10 @@
                                 "departure": "06:45",
                                 "startsHere": true,
                                 "terminusStationId": "Station:Seibu.Ikebukuro.Nerima",
-                                "throughDestEn": "Shin-kiba",
-                                "throughDestJa": "新木場",
+                                "throughDest": {
+                                    "en": "Shin-kiba",
+                                    "ja": "新木場"
+                                },
                                 "trainType": "SemiExpress"
                             },
                             {
@@ -3264,8 +3316,10 @@
                                 "departure": "08:52",
                                 "startsHere": true,
                                 "terminusStationId": "Station:Seibu.Ikebukuro.Nerima",
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "RapidExpress"
                             },
                             {
@@ -3273,8 +3327,10 @@
                                 "departure": "09:22",
                                 "startsHere": true,
                                 "terminusStationId": "Station:Seibu.Ikebukuro.Nerima",
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "RapidExpress"
                             },
                             {
@@ -3282,8 +3338,10 @@
                                 "departure": "09:54",
                                 "startsHere": true,
                                 "terminusStationId": "Station:Seibu.Ikebukuro.Nerima",
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "RapidExpress"
                             },
                             {
@@ -3297,8 +3355,10 @@
                                 "departure": "10:24",
                                 "startsHere": true,
                                 "terminusStationId": "Station:Seibu.Ikebukuro.Nerima",
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "RapidExpress"
                             },
                             {
@@ -3318,8 +3378,10 @@
                                 "departure": "12:24",
                                 "startsHere": true,
                                 "terminusStationId": "Station:Seibu.Ikebukuro.Nerima",
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "RapidExpress"
                             },
                             {
@@ -3333,8 +3395,10 @@
                                 "departure": "12:54",
                                 "startsHere": true,
                                 "terminusStationId": "Station:Seibu.Ikebukuro.Nerima",
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "RapidExpress"
                             },
                             {
@@ -3342,8 +3406,10 @@
                                 "departure": "13:24",
                                 "startsHere": true,
                                 "terminusStationId": "Station:Seibu.Ikebukuro.Nerima",
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "RapidExpress"
                             },
                             {
@@ -3351,8 +3417,10 @@
                                 "departure": "13:54",
                                 "startsHere": true,
                                 "terminusStationId": "Station:Seibu.Ikebukuro.Nerima",
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "RapidExpress"
                             },
                             {
@@ -3360,8 +3428,10 @@
                                 "departure": "14:24",
                                 "startsHere": true,
                                 "terminusStationId": "Station:Seibu.Ikebukuro.Nerima",
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "RapidExpress"
                             },
                             {
@@ -3369,8 +3439,10 @@
                                 "departure": "14:54",
                                 "startsHere": true,
                                 "terminusStationId": "Station:Seibu.Ikebukuro.Nerima",
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "RapidExpress"
                             },
                             {
@@ -3378,8 +3450,10 @@
                                 "departure": "15:24",
                                 "startsHere": true,
                                 "terminusStationId": "Station:Seibu.Ikebukuro.Nerima",
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "RapidExpress"
                             },
                             {
@@ -3393,8 +3467,10 @@
                                 "departure": "15:54",
                                 "startsHere": true,
                                 "terminusStationId": "Station:Seibu.Ikebukuro.Nerima",
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "RapidExpress"
                             },
                             {
@@ -3402,8 +3478,10 @@
                                 "departure": "16:24",
                                 "startsHere": true,
                                 "terminusStationId": "Station:Seibu.Ikebukuro.Nerima",
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "RapidExpress"
                             },
                             {
@@ -3411,8 +3489,10 @@
                                 "departure": "16:54",
                                 "startsHere": true,
                                 "terminusStationId": "Station:Seibu.Ikebukuro.Nerima",
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "RapidExpress"
                             },
                             {
@@ -3420,8 +3500,10 @@
                                 "departure": "17:54",
                                 "startsHere": true,
                                 "terminusStationId": "Station:Seibu.Ikebukuro.Nerima",
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "RapidExpress"
                             },
                             {
@@ -3429,8 +3511,10 @@
                                 "departure": "18:19",
                                 "startsHere": true,
                                 "terminusStationId": "Station:Seibu.Ikebukuro.Nerima",
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "SemiExpress"
                             },
                             {
@@ -3456,8 +3540,10 @@
                                 "departure": "20:44",
                                 "startsHere": true,
                                 "terminusStationId": "Station:Seibu.Ikebukuro.Nerima",
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "SemiExpress"
                             },
                             {
@@ -3505,8 +3591,10 @@
                                 "departure": "06:51",
                                 "startsHere": true,
                                 "terminusStationId": "Station:Seibu.Ikebukuro.Nerima",
-                                "throughDestEn": "Shin-kiba",
-                                "throughDestJa": "新木場",
+                                "throughDest": {
+                                    "en": "Shin-kiba",
+                                    "ja": "新木場"
+                                },
                                 "trainType": "SemiExpress"
                             },
                             {
@@ -3520,8 +3608,10 @@
                                 "departure": "07:06",
                                 "startsHere": true,
                                 "terminusStationId": "Station:Seibu.Ikebukuro.Nerima",
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "Rapid"
                             },
                             {
@@ -3529,8 +3619,10 @@
                                 "departure": "07:08",
                                 "startsHere": true,
                                 "terminusStationId": "Station:Seibu.Ikebukuro.Nerima",
-                                "throughDestEn": "Shin-kiba",
-                                "throughDestJa": "新木場",
+                                "throughDest": {
+                                    "en": "Shin-kiba",
+                                    "ja": "新木場"
+                                },
                                 "trainType": "SemiExpress"
                             },
                             {
@@ -3544,8 +3636,10 @@
                                 "departure": "07:21",
                                 "startsHere": true,
                                 "terminusStationId": "Station:Seibu.Ikebukuro.Nerima",
-                                "throughDestEn": "Shin-kiba",
-                                "throughDestJa": "新木場",
+                                "throughDest": {
+                                    "en": "Shin-kiba",
+                                    "ja": "新木場"
+                                },
                                 "trainType": "SemiExpress"
                             },
                             {
@@ -3559,8 +3653,10 @@
                                 "departure": "07:33",
                                 "startsHere": true,
                                 "terminusStationId": "Station:Seibu.Ikebukuro.Nerima",
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "SemiExpress"
                             },
                             {
@@ -3574,8 +3670,10 @@
                                 "departure": "07:50",
                                 "startsHere": true,
                                 "terminusStationId": "Station:Seibu.Ikebukuro.Nerima",
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "Rapid"
                             },
                             {
@@ -3583,8 +3681,10 @@
                                 "departure": "07:57",
                                 "startsHere": true,
                                 "terminusStationId": "Station:Seibu.Ikebukuro.Nerima",
-                                "throughDestEn": "Shin-kiba",
-                                "throughDestJa": "新木場",
+                                "throughDest": {
+                                    "en": "Shin-kiba",
+                                    "ja": "新木場"
+                                },
                                 "trainType": "SemiExpress"
                             },
                             {
@@ -3592,8 +3692,10 @@
                                 "departure": "08:01",
                                 "startsHere": true,
                                 "terminusStationId": "Station:Seibu.Ikebukuro.Nerima",
-                                "throughDestEn": "Shin-kiba",
-                                "throughDestJa": "新木場",
+                                "throughDest": {
+                                    "en": "Shin-kiba",
+                                    "ja": "新木場"
+                                },
                                 "trainType": "SemiExpress"
                             },
                             {
@@ -3607,8 +3709,10 @@
                                 "departure": "08:41",
                                 "startsHere": true,
                                 "terminusStationId": "Station:Seibu.Ikebukuro.Nerima",
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "SemiExpress"
                             },
                             {
@@ -3628,8 +3732,10 @@
                                 "departure": "09:40",
                                 "startsHere": true,
                                 "terminusStationId": "Station:Seibu.Ikebukuro.Nerima",
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "SemiExpress"
                             },
                             {
@@ -3643,8 +3749,10 @@
                                 "departure": "10:24",
                                 "startsHere": true,
                                 "terminusStationId": "Station:Seibu.Ikebukuro.Nerima",
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "RapidExpress"
                             },
                             {
@@ -3652,8 +3760,10 @@
                                 "departure": "10:54",
                                 "startsHere": true,
                                 "terminusStationId": "Station:Seibu.Ikebukuro.Nerima",
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "RapidExpress"
                             },
                             {
@@ -3661,8 +3771,10 @@
                                 "departure": "11:24",
                                 "startsHere": true,
                                 "terminusStationId": "Station:Seibu.Ikebukuro.Nerima",
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "RapidExpress"
                             },
                             {
@@ -3670,8 +3782,10 @@
                                 "departure": "11:54",
                                 "startsHere": true,
                                 "terminusStationId": "Station:Seibu.Ikebukuro.Nerima",
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "RapidExpress"
                             },
                             {
@@ -3679,8 +3793,10 @@
                                 "departure": "12:24",
                                 "startsHere": true,
                                 "terminusStationId": "Station:Seibu.Ikebukuro.Nerima",
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "RapidExpress"
                             },
                             {
@@ -3688,8 +3804,10 @@
                                 "departure": "12:54",
                                 "startsHere": true,
                                 "terminusStationId": "Station:Seibu.Ikebukuro.Nerima",
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "RapidExpress"
                             },
                             {
@@ -3697,8 +3815,10 @@
                                 "departure": "13:24",
                                 "startsHere": true,
                                 "terminusStationId": "Station:Seibu.Ikebukuro.Nerima",
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "RapidExpress"
                             },
                             {
@@ -3706,8 +3826,10 @@
                                 "departure": "13:54",
                                 "startsHere": true,
                                 "terminusStationId": "Station:Seibu.Ikebukuro.Nerima",
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "RapidExpress"
                             },
                             {
@@ -3715,8 +3837,10 @@
                                 "departure": "14:24",
                                 "startsHere": true,
                                 "terminusStationId": "Station:Seibu.Ikebukuro.Nerima",
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "RapidExpress"
                             },
                             {
@@ -3724,8 +3848,10 @@
                                 "departure": "14:54",
                                 "startsHere": true,
                                 "terminusStationId": "Station:Seibu.Ikebukuro.Nerima",
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "RapidExpress"
                             },
                             {
@@ -3733,8 +3859,10 @@
                                 "departure": "15:24",
                                 "startsHere": true,
                                 "terminusStationId": "Station:Seibu.Ikebukuro.Nerima",
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "RapidExpress"
                             },
                             {
@@ -3742,8 +3870,10 @@
                                 "departure": "15:54",
                                 "startsHere": true,
                                 "terminusStationId": "Station:Seibu.Ikebukuro.Nerima",
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "RapidExpress"
                             },
                             {
@@ -3751,8 +3881,10 @@
                                 "departure": "16:24",
                                 "startsHere": true,
                                 "terminusStationId": "Station:Seibu.Ikebukuro.Nerima",
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "RapidExpress"
                             },
                             {
@@ -3766,8 +3898,10 @@
                                 "departure": "16:52",
                                 "startsHere": true,
                                 "terminusStationId": "Station:Seibu.Ikebukuro.Nerima",
-                                "throughDestEn": "Shin-kiba",
-                                "throughDestJa": "新木場",
+                                "throughDest": {
+                                    "en": "Shin-kiba",
+                                    "ja": "新木場"
+                                },
                                 "trainType": "SemiExpress"
                             },
                             {
@@ -3787,8 +3921,10 @@
                                 "departure": "17:22",
                                 "startsHere": true,
                                 "terminusStationId": "Station:Seibu.Ikebukuro.Nerima",
-                                "throughDestEn": "Shin-kiba",
-                                "throughDestJa": "新木場",
+                                "throughDest": {
+                                    "en": "Shin-kiba",
+                                    "ja": "新木場"
+                                },
                                 "trainType": "SemiExpress"
                             },
                             {
@@ -3814,8 +3950,10 @@
                                 "departure": "18:20",
                                 "startsHere": true,
                                 "terminusStationId": "Station:Seibu.Ikebukuro.Nerima",
-                                "throughDestEn": "Shin-kiba",
-                                "throughDestJa": "新木場",
+                                "throughDest": {
+                                    "en": "Shin-kiba",
+                                    "ja": "新木場"
+                                },
                                 "trainType": "SemiExpress"
                             },
                             {
@@ -3841,8 +3979,10 @@
                                 "departure": "19:53",
                                 "startsHere": true,
                                 "terminusStationId": "Station:Seibu.Ikebukuro.Nerima",
-                                "throughDestEn": "Shin-kiba",
-                                "throughDestJa": "新木場",
+                                "throughDest": {
+                                    "en": "Shin-kiba",
+                                    "ja": "新木場"
+                                },
                                 "trainType": "SemiExpress"
                             },
                             {
@@ -3885,8 +4025,10 @@
                     }
                 ],
                 "isAscending": false,
-                "nameEn": "For Ikebukuro",
-                "nameJa": "池袋方面",
+                "name": {
+                    "en": "For Ikebukuro",
+                    "ja": "池袋方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -3946,294 +4088,351 @@
         "hopTimesMinutes": [2, 2, 2, 2, 2, 2, 1, 2, 2, 3, 2, 3, 2, 2, 3, 3, 2, 3, 2, 2, 3, 2, 3, 2, 3],
         "id": "Railway:Seibu.Ikebukuro",
         "isLoop": false,
-        "nameEn": "Seibu Ikebukuro Line",
-        "nameJa": "西武池袋線",
+        "name": {
+            "en": "Seibu Ikebukuro Line",
+            "ja": "西武池袋線",
+            "ko": "세이부 철도 이케부쿠로 선",
+            "zh-Hans": "池袋线",
+            "zh-Hant": "池袋線"
+        },
         "operatorId": "Operator:Seibu",
         "stations": [
             {
                 "id": "Station:Seibu.Ikebukuro.Ikebukuro",
                 "latitude": 35.728092,
                 "longitude": 139.711037,
-                "name": "池袋",
-                "nameEn": "Ikebukuro",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋",
+                    "ko": "이케부쿠로",
+                    "zh-Hans": "池袋",
+                    "zh-Hant": "池袋"
+                },
                 "stationCode": "SI01"
             },
             {
                 "id": "Station:Seibu.Ikebukuro.Shiinamachi",
                 "latitude": 35.726448,
                 "longitude": 139.694892,
-                "name": "椎名町",
-                "nameEn": "Shiinamachi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shiinamachi",
+                    "ja": "椎名町",
+                    "ko": "시나마치",
+                    "zh-Hans": "椎名町",
+                    "zh-Hant": "椎名町"
+                },
                 "stationCode": "SI02"
             },
             {
                 "id": "Station:Seibu.Ikebukuro.HigashiNagasaki",
                 "latitude": 35.730261,
                 "longitude": 139.682864,
-                "name": "東長崎",
-                "nameEn": "Higashi-nagasaki",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Higashi-nagasaki",
+                    "ja": "東長崎",
+                    "ko": "히가시나가사키",
+                    "zh-Hans": "东长崎",
+                    "zh-Hant": "東長崎"
+                },
                 "stationCode": "SI03"
             },
             {
                 "id": "Station:Seibu.Ikebukuro.Ekoda",
                 "latitude": 35.7367,
                 "longitude": 139.6737,
-                "name": "江古田",
-                "nameEn": "Ekoda",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ekoda",
+                    "ja": "江古田",
+                    "ko": "에코다",
+                    "zh-Hans": "江古田",
+                    "zh-Hant": "江古田"
+                },
                 "stationCode": "SI04"
             },
             {
                 "id": "Station:Seibu.Ikebukuro.Sakuradai",
                 "latitude": 35.738754,
                 "longitude": 139.662384,
-                "name": "桜台",
-                "nameEn": "Sakuradai",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Sakuradai",
+                    "ja": "桜台",
+                    "ko": "사쿠라다이",
+                    "zh-Hans": "樱台",
+                    "zh-Hant": "櫻台"
+                },
                 "stationCode": "SI05"
             },
             {
                 "id": "Station:Seibu.Ikebukuro.Nerima",
                 "latitude": 35.7377,
                 "longitude": 139.6537,
-                "name": "練馬",
-                "nameEn": "Nerima",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nerima",
+                    "ja": "練馬",
+                    "ko": "네리마",
+                    "zh-Hans": "练马",
+                    "zh-Hant": "練馬"
+                },
                 "stationCode": "SI06"
             },
             {
                 "id": "Station:Seibu.Ikebukuro.Nakamurabashi",
                 "latitude": 35.736818,
                 "longitude": 139.637811,
-                "name": "中村橋",
-                "nameEn": "Nakamurabashi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nakamurabashi",
+                    "ja": "中村橋",
+                    "ko": "나카무라바시",
+                    "zh-Hans": "中村桥",
+                    "zh-Hant": "中村橋"
+                },
                 "stationCode": "SI07"
             },
             {
                 "id": "Station:Seibu.Ikebukuro.Fujimidai",
                 "latitude": 35.735952,
                 "longitude": 139.630004,
-                "name": "富士見台",
-                "nameEn": "Fujimidai",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Fujimidai",
+                    "ja": "富士見台",
+                    "ko": "후지미다이",
+                    "zh-Hans": "富士见台",
+                    "zh-Hant": "富士見臺"
+                },
                 "stationCode": "SI08"
             },
             {
                 "id": "Station:Seibu.Ikebukuro.NerimaTakanodai",
                 "latitude": 35.740921,
                 "longitude": 139.616305,
-                "name": "練馬高野台",
-                "nameEn": "Nerima-takanodai",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nerima-takanodai",
+                    "ja": "練馬高野台",
+                    "ko": "네리마타카노다이",
+                    "zh-Hans": "练马高野台",
+                    "zh-Hant": "練馬高野台"
+                },
                 "stationCode": "SI09"
             },
             {
                 "id": "Station:Seibu.Ikebukuro.ShakujiiKoen",
                 "latitude": 35.7437,
                 "longitude": 139.6067,
-                "name": "石神井公園",
-                "nameEn": "Shakujii-koen",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shakujii-koen",
+                    "ja": "石神井公園",
+                    "ko": "샤쿠지이코엔",
+                    "zh-Hans": "石神井公园",
+                    "zh-Hant": "石神井公園"
+                },
                 "stationCode": "SI10"
             },
             {
                 "id": "Station:Seibu.Ikebukuro.OizumiGakuen",
                 "latitude": 35.7497,
                 "longitude": 139.5877,
-                "name": "大泉学園",
-                "nameEn": "Oizumi-gakuen",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Oizumi-gakuen",
+                    "ja": "大泉学園",
+                    "ko": "오이즈미가쿠엔",
+                    "zh-Hans": "大泉学园",
+                    "zh-Hant": "大泉學園"
+                },
                 "stationCode": "SI11"
             },
             {
                 "id": "Station:Seibu.Ikebukuro.Hoya",
                 "latitude": 35.748302,
                 "longitude": 139.567365,
-                "name": "保谷",
-                "nameEn": "Hoya",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Hoya",
+                    "ja": "保谷",
+                    "ko": "호야",
+                    "zh-Hans": "保谷",
+                    "zh-Hant": "保谷"
+                },
                 "stationCode": "SI12"
             },
             {
                 "id": "Station:Seibu.Ikebukuro.Hibarigaoka",
                 "latitude": 35.7517,
                 "longitude": 139.5457,
-                "name": "ひばりヶ丘",
-                "nameEn": "Hibarigaoka",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Hibarigaoka",
+                    "ja": "ひばりヶ丘",
+                    "ko": "히바리가오카",
+                    "zh-Hans": "云雀丘",
+                    "zh-Hant": "雲雀丘"
+                },
                 "stationCode": "SI13"
             },
             {
                 "id": "Station:Seibu.Ikebukuro.HigashiKurume",
                 "latitude": 35.760251,
                 "longitude": 139.534085,
-                "name": "東久留米",
-                "nameEn": "Higashi-kurume",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Higashi-kurume",
+                    "ja": "東久留米",
+                    "ko": "히가시쿠루메",
+                    "zh-Hans": "东久留米",
+                    "zh-Hant": "東久留米"
+                },
                 "stationCode": "SI14"
             },
             {
                 "id": "Station:Seibu.Ikebukuro.Kiyose",
                 "latitude": 35.772084,
                 "longitude": 139.519819,
-                "name": "清瀬",
-                "nameEn": "Kiyose",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kiyose",
+                    "ja": "清瀬",
+                    "ko": "기요세",
+                    "zh-Hans": "清濑",
+                    "zh-Hant": "清瀨"
+                },
                 "stationCode": "SI15"
             },
             {
                 "id": "Station:Seibu.Ikebukuro.Akitsu",
                 "latitude": 35.778532,
                 "longitude": 139.496609,
-                "name": "秋津",
-                "nameEn": "Akitsu",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Akitsu",
+                    "ja": "秋津",
+                    "ko": "아키쓰",
+                    "zh-Hans": "秋津",
+                    "zh-Hant": "秋津"
+                },
                 "stationCode": "SI16"
             },
             {
                 "id": "Station:Seibu.Ikebukuro.Tokorozawa",
                 "latitude": 35.7867,
                 "longitude": 139.4733,
-                "name": "所沢",
-                "nameEn": "Tokorozawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tokorozawa",
+                    "ja": "所沢",
+                    "ko": "도코로자와",
+                    "zh-Hans": "所泽",
+                    "zh-Hant": "所澤"
+                },
                 "stationCode": "SI17"
             },
             {
                 "id": "Station:Seibu.Ikebukuro.NishiTokorozawa",
                 "latitude": 35.788957,
                 "longitude": 139.456066,
-                "name": "西所沢",
-                "nameEn": "Nishi-tokorozawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nishi-tokorozawa",
+                    "ja": "西所沢",
+                    "ko": "니시토코로자와",
+                    "zh-Hans": "西所泽",
+                    "zh-Hant": "西所澤"
+                },
                 "stationCode": "SI18"
             },
             {
                 "id": "Station:Seibu.Ikebukuro.Kotesashi",
                 "latitude": 35.800618,
                 "longitude": 139.437792,
-                "name": "小手指",
-                "nameEn": "Kotesashi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kotesashi",
+                    "ja": "小手指",
+                    "ko": "고테사시",
+                    "zh-Hans": "小手指",
+                    "zh-Hant": "小手指"
+                },
                 "stationCode": "SI19"
             },
             {
                 "id": "Station:Seibu.Ikebukuro.Sayamagaoka",
                 "latitude": 35.810523,
                 "longitude": 139.416712,
-                "name": "狭山ヶ丘",
-                "nameEn": "Sayamagaoka",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Sayamagaoka",
+                    "ja": "狭山ヶ丘",
+                    "ko": "사야마가오카",
+                    "zh-Hans": "狭山丘",
+                    "zh-Hant": "狹山丘"
+                },
                 "stationCode": "SI20"
             },
             {
                 "id": "Station:Seibu.Ikebukuro.MusashiFujisawa",
                 "latitude": 35.821335,
                 "longitude": 139.412567,
-                "name": "武蔵藤沢",
-                "nameEn": "Musashi-fujisawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Musashi-fujisawa",
+                    "ja": "武蔵藤沢",
+                    "ko": "무사시후지사와",
+                    "zh-Hans": "武藏藤泽",
+                    "zh-Hant": "武藏藤澤"
+                },
                 "stationCode": "SI21"
             },
             {
                 "id": "Station:Seibu.Ikebukuro.InariyamaKoen",
                 "latitude": 35.844927,
                 "longitude": 139.398559,
-                "name": "稲荷山公園",
-                "nameEn": "Inariyama-koen",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Inariyama-koen",
+                    "ja": "稲荷山公園",
+                    "ko": "이나리야마코엔",
+                    "zh-Hans": "稻荷山公园",
+                    "zh-Hant": "稻荷山公園"
+                },
                 "stationCode": "SI22"
             },
             {
                 "id": "Station:Seibu.Ikebukuro.Irumashi",
                 "latitude": 35.842683,
                 "longitude": 139.390132,
-                "name": "入間市",
-                "nameEn": "Irumashi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Irumashi",
+                    "ja": "入間市",
+                    "ko": "이루마시",
+                    "zh-Hans": "入间市",
+                    "zh-Hant": "入間市"
+                },
                 "stationCode": "SI23"
             },
             {
                 "id": "Station:Seibu.Ikebukuro.Bushi",
                 "latitude": 35.837703,
                 "longitude": 139.359994,
-                "name": "仏子",
-                "nameEn": "Bushi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Bushi",
+                    "ja": "仏子",
+                    "ko": "부시",
+                    "zh-Hans": "佛子",
+                    "zh-Hant": "佛子"
+                },
                 "stationCode": "SI24"
             },
             {
                 "id": "Station:Seibu.Ikebukuro.Motokaji",
                 "latitude": 35.840554,
                 "longitude": 139.345729,
-                "name": "元加治",
-                "nameEn": "Motokaji",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Motokaji",
+                    "ja": "元加治",
+                    "ko": "모토카지",
+                    "zh-Hans": "元加治",
+                    "zh-Hant": "元加治"
+                },
                 "stationCode": "SI25"
             },
             {
                 "id": "Station:Seibu.Ikebukuro.Hanno",
                 "latitude": 35.851005,
                 "longitude": 139.319059,
-                "name": "飯能",
-                "nameEn": "Hanno",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Hanno",
+                    "ja": "飯能",
+                    "ko": "한노",
+                    "zh-Hans": "饭能",
+                    "zh-Hant": "飯能"
+                },
                 "stationCode": "SI26"
             }
         ],
@@ -4256,18 +4455,26 @@
                 "connectingLineId": "Railway:Seibu.SeibuYurakucho",
                 "end": "descending",
                 "junctionStationId": "Station:Seibu.Ikebukuro.Nerima",
-                "lineNameEn": "Seibu Yurakucho Line",
-                "lineNameJa": "西武有楽町線",
-                "towardEn": "for Kotake-Mukaihara & the Yurakucho and Fukutoshin Lines",
-                "towardJa": "小竹向原・有楽町線・副都心線方面"
+                "lineName": {
+                    "en": "Seibu Yurakucho Line",
+                    "ja": "西武有楽町線"
+                },
+                "toward": {
+                    "en": "for Kotake-Mukaihara & the Yurakucho and Fukutoshin Lines",
+                    "ja": "小竹向原・有楽町線・副都心線方面"
+                }
             },
             {
                 "end": "ascending",
                 "junctionStationId": "Station:Seibu.Ikebukuro.Hanno",
-                "lineNameEn": "Seibu Ikebukuro & Chichibu Lines",
-                "lineNameJa": "西武池袋線・秩父線",
-                "towardEn": "for Seibu-Chichibu",
-                "towardJa": "西武秩父方面"
+                "lineName": {
+                    "en": "Seibu Ikebukuro & Chichibu Lines",
+                    "ja": "西武池袋線・秩父線"
+                },
+                "toward": {
+                    "en": "for Seibu-Chichibu",
+                    "ja": "西武秩父方面"
+                }
             }
         ]
     }

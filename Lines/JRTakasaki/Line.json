@@ -2,10 +2,14 @@
     {
         "colorHex": "#F68B1E",
         "delayInfo": {
-            "checkMethodEn": "Check the JR East Train Operation Information page or the JR East app. In the Tokyo area, delays or suspensions of 15 minutes or more are posted.",
-            "checkMethodJa": "JR東日本「列車運行情報」ページまたはJR東日本アプリで確認できます。首都圏エリアでは15分以上の遅れ・運休が発生または見込まれる場合に掲載されます。",
-            "statusPageURL": "https://traininfo.jreast.co.jp/train_info/line.aspx?gid=1&lineid=takasakiline",
-            "statusPageURLEn": "https://traininfo.jreast.co.jp/train_info/e/kanto.aspx",
+            "checkMethod": {
+                "en": "Check the JR East Train Operation Information page or the JR East app. In the Tokyo area, delays or suspensions of 15 minutes or more are posted.",
+                "ja": "JR東日本「列車運行情報」ページまたはJR東日本アプリで確認できます。首都圏エリアでは15分以上の遅れ・運休が発生または見込まれる場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://traininfo.jreast.co.jp/train_info/e/kanto.aspx",
+                "ja": "https://traininfo.jreast.co.jp/train_info/line.aspx?gid=1&lineid=takasakiline"
+            },
             "xAccount": "@JRE_F_Toho_Taka"
         },
         "directions": [
@@ -15,8 +19,10 @@
                 "id": "static.RailDirection:JR-East.Takasaki.Takasaki",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Takasaki",
-                "nameJa": "高崎方面",
+                "name": {
+                    "en": "For Takasaki",
+                    "ja": "高崎方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -74,8 +80,10 @@
                 "id": "static.RailDirection:JR-East.Takasaki.Tokyo",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Ueno & Tokyo",
-                "nameJa": "上野・東京方面",
+                "name": {
+                    "en": "For Ueno & Tokyo",
+                    "ja": "上野・東京方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -131,283 +139,338 @@
         "hopTimesMinutes": [6, 6, 5, 9, 4, 3, 5, 4, 3, 3, 4, 4, 4, 4, 3, 5, 6, 5, 4, 5, 4, 4, 5, 5],
         "id": "Railway:JR-East.Takasaki",
         "isLoop": false,
-        "nameEn": "Takasaki Line",
-        "nameJa": "高崎線",
+        "name": {
+            "en": "Takasaki Line",
+            "ja": "高崎線",
+            "ko": "다카사키선",
+            "zh-Hans": "高崎线",
+            "zh-Hant": "高崎線"
+        },
         "operatorId": "Operator:JR-East",
         "stations": [
             {
                 "id": "Station:JR-East.Takasaki.Tokyo",
                 "latitude": 35.6812,
                 "longitude": 139.7671,
-                "name": "東京",
-                "nameEn": "Tokyo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tokyo",
+                    "ja": "東京",
+                    "ko": "도쿄",
+                    "zh-Hans": "东京",
+                    "zh-Hant": "東京"
+                },
                 "stationCode": "JU01"
             },
             {
                 "id": "Station:JR-East.Takasaki.Ueno",
                 "latitude": 35.7141,
                 "longitude": 139.7774,
-                "name": "上野",
-                "nameEn": "Ueno",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ueno",
+                    "ja": "上野",
+                    "ko": "우에노",
+                    "zh-Hans": "上野",
+                    "zh-Hant": "上野"
+                },
                 "stationCode": "JU02"
             },
             {
                 "id": "Station:JR-East.Takasaki.Oku",
                 "latitude": 35.746909,
                 "longitude": 139.75366,
-                "name": "尾久",
-                "nameEn": "Oku",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Oku",
+                    "ja": "尾久",
+                    "ko": "오쿠",
+                    "zh-Hans": "尾久",
+                    "zh-Hant": "尾久"
+                },
                 "stationCode": "JU03"
             },
             {
                 "id": "Station:JR-East.Takasaki.Akabane",
                 "latitude": 35.7782,
                 "longitude": 139.7208,
-                "name": "赤羽",
-                "nameEn": "Akabane",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Akabane",
+                    "ja": "赤羽",
+                    "ko": "아카바네",
+                    "zh-Hans": "赤羽",
+                    "zh-Hant": "赤羽"
+                },
                 "stationCode": "JU04"
             },
             {
                 "id": "Station:JR-East.Takasaki.Urawa",
                 "latitude": 35.8593,
                 "longitude": 139.657,
-                "name": "浦和",
-                "nameEn": "Urawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Urawa",
+                    "ja": "浦和",
+                    "ko": "우라와",
+                    "zh-Hans": "浦和",
+                    "zh-Hant": "浦和"
+                },
                 "stationCode": "JU05"
             },
             {
                 "id": "Station:JR-East.Takasaki.SaitamaShintoshin",
                 "latitude": 35.894,
                 "longitude": 139.6339,
-                "name": "さいたま新都心",
-                "nameEn": "Saitama-Shintoshin",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Saitama-Shintoshin",
+                    "ja": "さいたま新都心",
+                    "ko": "사이타마신토신",
+                    "zh-Hans": "埼玉新都心",
+                    "zh-Hant": "埼玉新都心"
+                },
                 "stationCode": "JU06"
             },
             {
                 "id": "Station:JR-East.Takasaki.Omiya",
                 "latitude": 35.9064,
                 "longitude": 139.6238,
-                "name": "大宮",
-                "nameEn": "Omiya",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Omiya",
+                    "ja": "大宮",
+                    "ko": "오미야",
+                    "zh-Hans": "大宫",
+                    "zh-Hant": "大宮"
+                },
                 "stationCode": "JU07"
             },
             {
                 "id": "Station:JR-East.Takasaki.Miyahara",
                 "latitude": 35.9403,
                 "longitude": 139.609546,
-                "name": "宮原",
-                "nameEn": "Miyahara",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Miyahara",
+                    "ja": "宮原",
+                    "ko": "미야하라",
+                    "zh-Hans": "宮原",
+                    "zh-Hant": "宮原"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Takasaki.Ageo",
                 "latitude": 35.973327,
                 "longitude": 139.588472,
-                "name": "上尾",
-                "nameEn": "Ageo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ageo",
+                    "ja": "上尾",
+                    "ko": "아게오",
+                    "zh-Hans": "上尾",
+                    "zh-Hant": "上尾"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Takasaki.KitaAgeo",
                 "latitude": 35.985614,
                 "longitude": 139.577155,
-                "name": "北上尾",
-                "nameEn": "Kita-Ageo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kita-Ageo",
+                    "ja": "北上尾",
+                    "ko": "기타아게오",
+                    "zh-Hans": "北上尾",
+                    "zh-Hant": "北上尾"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Takasaki.Okegawa",
                 "latitude": 35.998737,
                 "longitude": 139.564021,
-                "name": "桶川",
-                "nameEn": "Okegawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Okegawa",
+                    "ja": "桶川",
+                    "ko": "오케가와",
+                    "zh-Hans": "桶川",
+                    "zh-Hant": "桶川"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Takasaki.Kitamoto",
                 "latitude": 36.03164,
                 "longitude": 139.533981,
-                "name": "北本",
-                "nameEn": "Kitamoto",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kitamoto",
+                    "ja": "北本",
+                    "ko": "기타모토",
+                    "zh-Hans": "北本",
+                    "zh-Hant": "北本"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Takasaki.Konosu",
                 "latitude": 36.059259,
                 "longitude": 139.509688,
-                "name": "鴻巣",
-                "nameEn": "Konosu",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Konosu",
+                    "ja": "鴻巣",
+                    "ko": "고노스",
+                    "zh-Hans": "鸿巢",
+                    "zh-Hant": "鴻巢"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Takasaki.KitaKonosu",
                 "latitude": 36.085526,
                 "longitude": 139.476995,
-                "name": "北鴻巣",
-                "nameEn": "Kita-Konosu",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kita-Konosu",
+                    "ja": "北鴻巣",
+                    "ko": "기타코노스",
+                    "zh-Hans": "北鴻巢",
+                    "zh-Hant": "北鴻巢"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Takasaki.Fukiage",
                 "latitude": 36.103202,
                 "longitude": 139.452976,
-                "name": "吹上",
-                "nameEn": "Fukiage",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Fukiage",
+                    "ja": "吹上",
+                    "ko": "후키아게",
+                    "zh-Hans": "吹上",
+                    "zh-Hant": "吹上"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Takasaki.Gyoda",
                 "latitude": 36.113887,
                 "longitude": 139.43217,
-                "name": "行田",
-                "nameEn": "Gyoda",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Gyoda",
+                    "ja": "行田",
+                    "ko": "교다",
+                    "zh-Hans": "行田",
+                    "zh-Hant": "行田"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Takasaki.Kumagaya",
                 "latitude": 36.1398,
                 "longitude": 139.3898,
-                "name": "熊谷",
-                "nameEn": "Kumagaya",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kumagaya",
+                    "ja": "熊谷",
+                    "ko": "구마가야",
+                    "zh-Hans": "熊谷",
+                    "zh-Hant": "熊谷"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Takasaki.Kagohara",
                 "latitude": 36.174667,
                 "longitude": 139.330512,
-                "name": "籠原",
-                "nameEn": "Kagohara",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kagohara",
+                    "ja": "籠原",
+                    "ko": "가고하라",
+                    "zh-Hans": "笼原",
+                    "zh-Hant": "籠原"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Takasaki.Fukaya",
                 "latitude": 36.1928,
                 "longitude": 139.2808,
-                "name": "深谷",
-                "nameEn": "Fukaya",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Fukaya",
+                    "ja": "深谷",
+                    "ko": "후카야",
+                    "zh-Hans": "深谷",
+                    "zh-Hant": "深谷"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Takasaki.Okabe",
                 "latitude": 36.20568,
                 "longitude": 139.237595,
-                "name": "岡部",
-                "nameEn": "Okabe",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Okabe",
+                    "ja": "岡部",
+                    "ko": "오카베",
+                    "zh-Hans": "岡部",
+                    "zh-Hant": "岡部"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Takasaki.Honjo",
                 "latitude": 36.236079,
                 "longitude": 139.188627,
-                "name": "本庄",
-                "nameEn": "Honjo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Honjo",
+                    "ja": "本庄",
+                    "ko": "혼조",
+                    "zh-Hans": "本庄",
+                    "zh-Hant": "本庄"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Takasaki.Jimbohara",
                 "latitude": 36.253715,
                 "longitude": 139.149279,
-                "name": "神保原",
-                "nameEn": "Jimbohara",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Jimbohara",
+                    "ja": "神保原",
+                    "ko": "진보하라",
+                    "zh-Hans": "神保原",
+                    "zh-Hant": "神保原"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Takasaki.Shinmachi",
                 "latitude": 36.273057,
                 "longitude": 139.105312,
-                "name": "新町",
-                "nameEn": "Shinmachi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shinmachi",
+                    "ja": "新町",
+                    "ko": "신마치",
+                    "zh-Hans": "新町",
+                    "zh-Hant": "新町"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Takasaki.Kuragano",
                 "latitude": 36.30021,
                 "longitude": 139.049137,
-                "name": "倉賀野",
-                "nameEn": "Kuragano",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kuragano",
+                    "ja": "倉賀野",
+                    "ko": "구라가노",
+                    "zh-Hans": "仓贺野",
+                    "zh-Hant": "倉賀野"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Takasaki.Takasaki",
                 "latitude": 36.3222,
                 "longitude": 139.0128,
-                "name": "高崎",
-                "nameEn": "Takasaki",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Takasaki",
+                    "ja": "高崎",
+                    "ko": "다카사키",
+                    "zh-Hans": "高崎",
+                    "zh-Hant": "高崎"
+                },
                 "stationCode": ""
             }
         ],
@@ -417,27 +480,39 @@
                 "connectingLineId": "Railway:JR-East.Tokaido",
                 "end": "descending",
                 "junctionStationId": "Station:JR-East.Takasaki.Tokyo",
-                "lineNameEn": "JR Tokaido Line (via Ueno-Tokyo Line)",
-                "lineNameJa": "東海道線（上野東京ライン）",
-                "towardEn": "for Yokohama & Atami",
-                "towardJa": "横浜・熱海方面"
+                "lineName": {
+                    "en": "JR Tokaido Line (via Ueno-Tokyo Line)",
+                    "ja": "東海道線（上野東京ライン）"
+                },
+                "toward": {
+                    "en": "for Yokohama & Atami",
+                    "ja": "横浜・熱海方面"
+                }
             },
             {
                 "connectingLineId": "Railway:JR-East.ShonanShinjuku",
                 "end": "descending",
                 "junctionStationId": "Station:JR-East.Takasaki.Omiya",
-                "lineNameEn": "Shonan-Shinjuku Line",
-                "lineNameJa": "湘南新宿ライン",
-                "towardEn": "for Shinjuku & Yokohama",
-                "towardJa": "新宿・横浜方面"
+                "lineName": {
+                    "en": "Shonan-Shinjuku Line",
+                    "ja": "湘南新宿ライン"
+                },
+                "toward": {
+                    "en": "for Shinjuku & Yokohama",
+                    "ja": "新宿・横浜方面"
+                }
             },
             {
                 "end": "ascending",
                 "junctionStationId": "Station:JR-East.Takasaki.Takasaki",
-                "lineNameEn": "JR Ryomo Line",
-                "lineNameJa": "両毛線",
-                "towardEn": "for Maebashi",
-                "towardJa": "前橋方面"
+                "lineName": {
+                    "en": "JR Ryomo Line",
+                    "ja": "両毛線"
+                },
+                "toward": {
+                    "en": "for Maebashi",
+                    "ja": "前橋方面"
+                }
             }
         ],
         "timetableRuns": [
@@ -1024,8 +1099,10 @@
                 "startsHere": false,
                 "stops": [1329, 1339, 1344, 1349, 1357, 1361, 1365, 1370, 1373, 1376, 1379, 1383, 1387, 1391, 1394, 1398, 1402, 1412, 1417, 1421, 1426, 1430, 1434, 1439, 1446],
                 "terminates": false,
-                "throughDestEn": "Maebashi",
-                "throughDestJa": "前橋",
+                "throughDest": {
+                    "en": "Maebashi",
+                    "ja": "前橋"
+                },
                 "type": "Local"
             },
             {
@@ -1080,8 +1157,10 @@
                 "startsHere": true,
                 "stops": [306, 312, 316, 320, 323, 327, 331, 335, 338, 341, 345, 350, 353, 357, 365, 370, 377, 382],
                 "terminates": false,
-                "throughDestEn": "Odawara",
-                "throughDestJa": "小田原",
+                "throughDest": {
+                    "en": "Odawara",
+                    "ja": "小田原"
+                },
                 "type": "Local"
             },
             {
@@ -1091,8 +1170,10 @@
                 "startsHere": true,
                 "stops": [333, 339, 344, 347, 351, 355, 359, 363, 366, 369, 373, 378, 381, 385, 393, 398, 407, 412],
                 "terminates": false,
-                "throughDestEn": "Odawara",
-                "throughDestJa": "小田原",
+                "throughDest": {
+                    "en": "Odawara",
+                    "ja": "小田原"
+                },
                 "type": "Local"
             },
             {
@@ -1102,8 +1183,10 @@
                 "startsHere": false,
                 "stops": [310, 314, 320, 324, 328, 333, 337, 341, 347, 352, 355, 359, 363, 367, 371, 374, 377, 381, 386, 389, 394, 402, 407, 414, 419],
                 "terminates": false,
-                "throughDestEn": "Atami",
-                "throughDestJa": "熱海",
+                "throughDest": {
+                    "en": "Atami",
+                    "ja": "熱海"
+                },
                 "type": "Local"
             },
             {
@@ -1122,8 +1205,10 @@
                 "startsHere": true,
                 "stops": [321, 325, 331, 335, 339, 344, 348, 355, 361, 366, 373, 377, 381, 385, 390, 392, 396, 400, 405, 408, 412, 421, 425, 432, 436],
                 "terminates": false,
-                "throughDestEn": "Kozu",
-                "throughDestJa": "国府津",
+                "throughDest": {
+                    "en": "Kozu",
+                    "ja": "国府津"
+                },
                 "type": "Local"
             },
             {
@@ -1142,8 +1227,10 @@
                 "startsHere": true,
                 "stops": [369, 375, 380, 383, 387, 392, 396, 401, 403, 407, 412, 418, 421, 426, 435, 441, 449, 454],
                 "terminates": false,
-                "throughDestEn": "Odawara",
-                "throughDestJa": "小田原",
+                "throughDest": {
+                    "en": "Odawara",
+                    "ja": "小田原"
+                },
                 "type": "Local"
             },
             {
@@ -1153,8 +1240,10 @@
                 "startsHere": true,
                 "stops": [338, 344, 349, 354, 358, 363, 367, 379, 386, 390, 393, 397, 402, 406, 417, 420, 423, 427, 433, 436, 440, 449, 454, 461, 466],
                 "terminates": false,
-                "throughDestEn": "Shinagawa",
-                "throughDestJa": "品川",
+                "throughDest": {
+                    "en": "Shinagawa",
+                    "ja": "品川"
+                },
                 "type": "Local"
             },
             {
@@ -1164,8 +1253,10 @@
                 "startsHere": true,
                 "stops": [395, 402, 407, 410, 414, 418, 422, 427, 430, 433, 438, 444, 448, 452, 461, 467, 474, 479],
                 "terminates": false,
-                "throughDestEn": "Atami",
-                "throughDestJa": "熱海",
+                "throughDest": {
+                    "en": "Atami",
+                    "ja": "熱海"
+                },
                 "type": "Local"
             },
             {
@@ -1184,8 +1275,10 @@
                 "startsHere": true,
                 "stops": [366, 371, 378, 382, 387, 392, 397, 405, 412, 417, 420, 424, 429, 433, 437, 440, 444, 448, 455, 458, 463, 473, 478, 486, 491],
                 "terminates": false,
-                "throughDestEn": "Odawara",
-                "throughDestJa": "小田原",
+                "throughDest": {
+                    "en": "Odawara",
+                    "ja": "小田原"
+                },
                 "type": "Local"
             },
             {
@@ -1204,8 +1297,10 @@
                 "startsHere": false,
                 "stops": [381, 386, 392, 396, 400, 405, 409, 417, 425, 429, 433, 436, 441, 445, 450, 453, 456, 461, 468, 472, 477, 485, 490, 497, 502],
                 "terminates": false,
-                "throughDestEn": "Atami",
-                "throughDestJa": "熱海",
+                "throughDest": {
+                    "en": "Atami",
+                    "ja": "熱海"
+                },
                 "type": "Local"
             },
             {
@@ -1224,8 +1319,10 @@
                 "startsHere": true,
                 "stops": [391, 396, 402, 407, 411, 416, 421, 429, 437, 441, 445, 448, 453, 457, 462, 465, 468, 473, 481, 484, 489, 498, 503, 510, 515],
                 "terminates": false,
-                "throughDestEn": "Atami",
-                "throughDestJa": "熱海",
+                "throughDest": {
+                    "en": "Atami",
+                    "ja": "熱海"
+                },
                 "type": "Local"
             },
             {
@@ -1244,8 +1341,10 @@
                 "startsHere": true,
                 "stops": [403, 408, 414, 419, 423, 429, 433, 442, 449, 454, 457, 461, 465, 469, 474, 477, 480, 485, 491, 495, 499, 509, 514, 523, 528],
                 "terminates": false,
-                "throughDestEn": "Odawara",
-                "throughDestJa": "小田原",
+                "throughDest": {
+                    "en": "Odawara",
+                    "ja": "小田原"
+                },
                 "type": "Local"
             },
             {
@@ -1255,8 +1354,10 @@
                 "startsHere": false,
                 "stops": [408, 412, 419, 423, 428, 433, 438, 447, 454, 459, 462, 466, 470, 474, 479, 482, 485, 490, 497, 500, 505, 515, 520, 528, 533],
                 "terminates": false,
-                "throughDestEn": "Hiratsuka",
-                "throughDestJa": "平塚",
+                "throughDest": {
+                    "en": "Hiratsuka",
+                    "ja": "平塚"
+                },
                 "type": "Local"
             },
             {
@@ -1275,8 +1376,10 @@
                 "startsHere": true,
                 "stops": [432, 437, 443, 447, 451, 456, 460, 468, 475, 480, 483, 486, 491, 494, 499, 502, 505, 509, 515, 518, 522, 531, 536, 544, 549],
                 "terminates": false,
-                "throughDestEn": "Shinagawa",
-                "throughDestJa": "品川",
+                "throughDest": {
+                    "en": "Shinagawa",
+                    "ja": "品川"
+                },
                 "type": "Local"
             },
             {
@@ -1286,8 +1389,10 @@
                 "startsHere": true,
                 "stops": [438, 443, 449, 453, 457, 462, 467, 474, 481, 486, 489, 493, 502, 507, 512, 515, 518, 522, 528, 531, 535, 544, 550, 557, 562],
                 "terminates": false,
-                "throughDestEn": "Hiratsuka",
-                "throughDestJa": "平塚",
+                "throughDest": {
+                    "en": "Hiratsuka",
+                    "ja": "平塚"
+                },
                 "type": "Local"
             },
             {
@@ -1297,8 +1402,10 @@
                 "startsHere": true,
                 "stops": [464, 469, 475, 479, 483, 488, 492, 500, 506, 510, 513, 517, 521, 525, 529, 532, 535, 539, 545, 548, 552, 561, 566, 576, 581],
                 "terminates": false,
-                "throughDestEn": "Odawara",
-                "throughDestJa": "小田原",
+                "throughDest": {
+                    "en": "Odawara",
+                    "ja": "小田原"
+                },
                 "type": "Local"
             },
             {
@@ -1308,8 +1415,10 @@
                 "startsHere": true,
                 "stops": [504, 511, 516, 519, 523, 527, 531, 543, 546, 548, 553, 558, 562, 566, 575, 580, 588, 593],
                 "terminates": false,
-                "throughDestEn": "Atami",
-                "throughDestJa": "熱海",
+                "throughDest": {
+                    "en": "Atami",
+                    "ja": "熱海"
+                },
                 "type": "Local"
             },
             {
@@ -1319,8 +1428,10 @@
                 "startsHere": true,
                 "stops": [527, 534, 538, 542, 545, 550, 554, 558, 561, 564, 568, 573, 577, 581, 590, 595, 603, 608],
                 "terminates": false,
-                "throughDestEn": "Shinagawa",
-                "throughDestJa": "品川",
+                "throughDest": {
+                    "en": "Shinagawa",
+                    "ja": "品川"
+                },
                 "type": "Local"
             },
             {
@@ -1330,8 +1441,10 @@
                 "startsHere": true,
                 "stops": [504, 509, 515, 519, 523, 528, 532, 539, 545, 550, 553, 557, 561, 564, 569, 571, 574, 578, 584, 587, 592, 600, 605, 612, 617],
                 "terminates": false,
-                "throughDestEn": "Hiratsuka",
-                "throughDestJa": "平塚",
+                "throughDest": {
+                    "en": "Hiratsuka",
+                    "ja": "平塚"
+                },
                 "type": "Local"
             },
             {
@@ -1350,8 +1463,10 @@
                 "startsHere": true,
                 "stops": [527, 532, 539, 544, 548, 553, 558, 566, 572, 577, 581, 585, 589, 593, 598, 601, 603, 608, 613, 616, 621, 629, 634, 641, 646],
                 "terminates": false,
-                "throughDestEn": "Odawara",
-                "throughDestJa": "小田原",
+                "throughDest": {
+                    "en": "Odawara",
+                    "ja": "小田原"
+                },
                 "type": "Local"
             },
             {
@@ -1361,8 +1476,10 @@
                 "startsHere": true,
                 "stops": [583, 590, 594, 597, 601, 605, 609, 619, 623, 626, 630, 636, 639, 643, 651, 656, 662, 667],
                 "terminates": false,
-                "throughDestEn": "Atami",
-                "throughDestJa": "熱海",
+                "throughDest": {
+                    "en": "Atami",
+                    "ja": "熱海"
+                },
                 "type": "Local"
             },
             {
@@ -1372,8 +1489,10 @@
                 "startsHere": true,
                 "stops": [569, 575, 580, 585, 589, 594, 598, 604, 610, 615, 618, 622, 626, 630, 634, 637, 639, 643, 649, 652, 657, 666, 671, 681, 686],
                 "terminates": false,
-                "throughDestEn": "Atami",
-                "throughDestJa": "熱海",
+                "throughDest": {
+                    "en": "Atami",
+                    "ja": "熱海"
+                },
                 "type": "Local"
             },
             {
@@ -1383,8 +1502,10 @@
                 "startsHere": true,
                 "stops": [594, 600, 605, 610, 613, 619, 623, 628, 634, 639, 642, 646, 650, 654, 658, 661, 663, 668, 673, 676, 680, 688, 693, 701, 706],
                 "terminates": false,
-                "throughDestEn": "Odawara",
-                "throughDestJa": "小田原",
+                "throughDest": {
+                    "en": "Odawara",
+                    "ja": "小田原"
+                },
                 "type": "Local"
             },
             {
@@ -1394,8 +1515,10 @@
                 "startsHere": true,
                 "stops": [640, 647, 652, 656, 659, 664, 667, 677, 681, 683, 687, 693, 696, 700, 709, 713, 720, 725],
                 "terminates": false,
-                "throughDestEn": "Atami",
-                "throughDestJa": "熱海",
+                "throughDest": {
+                    "en": "Atami",
+                    "ja": "熱海"
+                },
                 "type": "Local"
             },
             {
@@ -1405,8 +1528,10 @@
                 "startsHere": true,
                 "stops": [626, 631, 637, 642, 646, 652, 656, 665, 671, 675, 678, 682, 686, 690, 695, 697, 700, 704, 713, 716, 720, 728, 733, 741, 746],
                 "terminates": false,
-                "throughDestEn": "Atami",
-                "throughDestJa": "熱海",
+                "throughDest": {
+                    "en": "Atami",
+                    "ja": "熱海"
+                },
                 "type": "Local"
             },
             {
@@ -1416,8 +1541,10 @@
                 "startsHere": true,
                 "stops": [654, 659, 664, 668, 672, 677, 681, 689, 694, 699, 702, 706, 710, 713, 718, 720, 723, 728, 733, 736, 741, 749, 754, 761, 766],
                 "terminates": false,
-                "throughDestEn": "Odawara",
-                "throughDestJa": "小田原",
+                "throughDest": {
+                    "en": "Odawara",
+                    "ja": "小田原"
+                },
                 "type": "Local"
             },
             {
@@ -1427,8 +1554,10 @@
                 "startsHere": true,
                 "stops": [701, 708, 713, 717, 720, 724, 728, 738, 741, 744, 748, 753, 756, 760, 769, 773, 781, 786],
                 "terminates": false,
-                "throughDestEn": "Atami",
-                "throughDestJa": "熱海",
+                "throughDest": {
+                    "en": "Atami",
+                    "ja": "熱海"
+                },
                 "type": "Local"
             },
             {
@@ -1438,8 +1567,10 @@
                 "startsHere": true,
                 "stops": [692, 697, 702, 706, 710, 715, 719, 727, 733, 737, 740, 744, 748, 752, 756, 759, 762, 766, 773, 776, 780, 788, 793, 801, 806],
                 "terminates": false,
-                "throughDestEn": "Atami",
-                "throughDestJa": "熱海",
+                "throughDest": {
+                    "en": "Atami",
+                    "ja": "熱海"
+                },
                 "type": "Local"
             },
             {
@@ -1449,8 +1580,10 @@
                 "startsHere": true,
                 "stops": [712, 717, 723, 727, 731, 736, 740, 748, 754, 758, 762, 765, 769, 773, 778, 781, 783, 788, 793, 796, 801, 809, 814, 821, 826],
                 "terminates": false,
-                "throughDestEn": "Odawara",
-                "throughDestJa": "小田原",
+                "throughDest": {
+                    "en": "Odawara",
+                    "ja": "小田原"
+                },
                 "type": "Local"
             },
             {
@@ -1460,8 +1593,10 @@
                 "startsHere": true,
                 "stops": [761, 768, 773, 777, 780, 784, 788, 798, 801, 803, 808, 813, 816, 820, 829, 834, 841, 846],
                 "terminates": false,
-                "throughDestEn": "Atami",
-                "throughDestJa": "熱海",
+                "throughDest": {
+                    "en": "Atami",
+                    "ja": "熱海"
+                },
                 "type": "Local"
             },
             {
@@ -1471,8 +1606,10 @@
                 "startsHere": true,
                 "stops": [752, 757, 762, 766, 770, 775, 779, 787, 793, 797, 800, 804, 808, 812, 816, 819, 822, 826, 833, 836, 840, 849, 854, 861, 866],
                 "terminates": false,
-                "throughDestEn": "Atami",
-                "throughDestJa": "熱海",
+                "throughDest": {
+                    "en": "Atami",
+                    "ja": "熱海"
+                },
                 "type": "Local"
             },
             {
@@ -1482,8 +1619,10 @@
                 "startsHere": true,
                 "stops": [773, 777, 783, 787, 791, 796, 800, 808, 815, 819, 823, 826, 830, 834, 838, 841, 844, 848, -1, 856, -1, -1, 873, 881, 886],
                 "terminates": false,
-                "throughDestEn": "Odawara",
-                "throughDestJa": "小田原",
+                "throughDest": {
+                    "en": "Odawara",
+                    "ja": "小田原"
+                },
                 "type": "Local"
             },
             {
@@ -1493,8 +1632,10 @@
                 "startsHere": true,
                 "stops": [821, -1, 832, 836, 839, 843, 847, 857, 861, 863, 867, 873, 876, 880, 889, 893, 900, 906],
                 "terminates": false,
-                "throughDestEn": "Ito",
-                "throughDestJa": "伊東",
+                "throughDest": {
+                    "en": "Ito",
+                    "ja": "伊東"
+                },
                 "type": "Local"
             },
             {
@@ -1504,8 +1645,10 @@
                 "startsHere": true,
                 "stops": [808, 813, 819, 823, 827, 832, 836, 844, 850, 855, 858, 862, 866, 870, 875, 878, 881, 885, 892, 895, 899, 908, 913, 921, 926],
                 "terminates": false,
-                "throughDestEn": "Atami",
-                "throughDestJa": "熱海",
+                "throughDest": {
+                    "en": "Atami",
+                    "ja": "熱海"
+                },
                 "type": "Local"
             },
             {
@@ -1515,8 +1658,10 @@
                 "startsHere": true,
                 "stops": [829, 834, 840, 844, 848, 853, 857, 865, 876, 881, 884, 887, 891, 895, 899, 902, 905, 909, 914, 917, 921, 929, 934, 941, 946],
                 "terminates": false,
-                "throughDestEn": "Atami",
-                "throughDestJa": "熱海",
+                "throughDest": {
+                    "en": "Atami",
+                    "ja": "熱海"
+                },
                 "type": "Local"
             },
             {
@@ -1526,8 +1671,10 @@
                 "startsHere": true,
                 "stops": [881, 888, 892, 896, 899, 903, 907, 917, 921, 923, 927, 933, 936, 940, 949, 953, 960, 965],
                 "terminates": false,
-                "throughDestEn": "Hiratsuka",
-                "throughDestJa": "平塚",
+                "throughDest": {
+                    "en": "Hiratsuka",
+                    "ja": "平塚"
+                },
                 "type": "Local"
             },
             {
@@ -1537,8 +1684,10 @@
                 "startsHere": true,
                 "stops": [868, 873, 879, 884, 888, 893, 897, 905, 911, 915, 918, 922, 926, 930, 935, 937, 940, 945, 953, 956, 961, 969, 974, 981, 986],
                 "terminates": false,
-                "throughDestEn": "Atami",
-                "throughDestJa": "熱海",
+                "throughDest": {
+                    "en": "Atami",
+                    "ja": "熱海"
+                },
                 "type": "Local"
             },
             {
@@ -1548,8 +1697,10 @@
                 "startsHere": true,
                 "stops": [892, 897, 903, 907, 911, 916, 920, 928, 934, 939, 942, 946, 950, 954, 958, 961, 964, 968, 973, 976, 980, 988, 993, 1002, 1006],
                 "terminates": false,
-                "throughDestEn": "Atami",
-                "throughDestJa": "熱海",
+                "throughDest": {
+                    "en": "Atami",
+                    "ja": "熱海"
+                },
                 "type": "Local"
             },
             {
@@ -1559,8 +1710,10 @@
                 "startsHere": true,
                 "stops": [941, 948, 952, 956, 959, 963, 967, 977, 981, 983, 987, 993, 996, 1000, 1009, 1013, 1021, 1026],
                 "terminates": false,
-                "throughDestEn": "Hiratsuka",
-                "throughDestJa": "平塚",
+                "throughDest": {
+                    "en": "Hiratsuka",
+                    "ja": "平塚"
+                },
                 "type": "Local"
             },
             {
@@ -1570,8 +1723,10 @@
                 "startsHere": true,
                 "stops": [958, 964, 969, 972, 975, 979, 983, 987, 990, 993, 997, 1002, 1004, 1009, 1017, 1022, 1031, 1036],
                 "terminates": false,
-                "throughDestEn": "Atami",
-                "throughDestJa": "熱海",
+                "throughDest": {
+                    "en": "Atami",
+                    "ja": "熱海"
+                },
                 "type": "Local"
             },
             {
@@ -1590,8 +1745,10 @@
                 "startsHere": true,
                 "stops": [981, 987, 992, 995, 999, 1003, 1007, 1011, 1014, 1017, 1021, 1026, 1029, 1033, 1041, 1046, 1053, 1058],
                 "terminates": false,
-                "throughDestEn": "Odawara",
-                "throughDestJa": "小田原",
+                "throughDest": {
+                    "en": "Odawara",
+                    "ja": "小田原"
+                },
                 "type": "Local"
             },
             {
@@ -1601,8 +1758,10 @@
                 "startsHere": true,
                 "stops": [955, 960, 966, 970, 974, 979, 983, 991, 998, 1002, 1005, 1009, 1013, 1017, 1021, 1024, 1027, 1031, 1037, 1040, 1044, 1053, 1058, 1067, 1072],
                 "terminates": false,
-                "throughDestEn": "Hiratsuka",
-                "throughDestJa": "平塚",
+                "throughDest": {
+                    "en": "Hiratsuka",
+                    "ja": "平塚"
+                },
                 "type": "Local"
             },
             {
@@ -1612,8 +1771,10 @@
                 "startsHere": true,
                 "stops": [1010, 1016, 1020, 1024, 1027, 1031, 1035, 1039, 1042, 1045, 1049, 1055, 1058, 1062, 1072, 1077, 1085, 1090],
                 "terminates": false,
-                "throughDestEn": "Atami",
-                "throughDestJa": "熱海",
+                "throughDest": {
+                    "en": "Atami",
+                    "ja": "熱海"
+                },
                 "type": "Local"
             },
             {
@@ -1623,8 +1784,10 @@
                 "startsHere": true,
                 "stops": [986, 991, 997, 1001, 1005, 1010, 1014, 1021, 1027, 1032, 1035, 1038, 1042, 1051, 1056, 1059, 1062, 1066, 1073, 1076, 1080, 1088, 1093, 1101, 1106],
                 "terminates": false,
-                "throughDestEn": "Atami",
-                "throughDestJa": "熱海",
+                "throughDest": {
+                    "en": "Atami",
+                    "ja": "熱海"
+                },
                 "type": "Local"
             },
             {
@@ -1634,8 +1797,10 @@
                 "startsHere": false,
                 "stops": [1001, 1005, 1011, 1020, 1024, 1029, 1033, 1042, 1048, 1052, 1056, 1059, 1063, 1067, 1071, 1074, 1077, 1081, 1086, 1089, 1093, 1101, 1106, 1114, 1119],
                 "terminates": false,
-                "throughDestEn": "Kozu",
-                "throughDestJa": "国府津",
+                "throughDest": {
+                    "en": "Kozu",
+                    "ja": "国府津"
+                },
                 "type": "Local"
             },
             {
@@ -1645,8 +1810,10 @@
                 "startsHere": true,
                 "stops": [1019, 1024, 1030, 1034, 1038, 1043, 1047, 1055, 1062, 1067, 1070, 1074, 1078, 1082, 1086, 1089, 1091, 1095, 1101, 1104, 1108, 1117, 1122, 1129, 1134],
                 "terminates": false,
-                "throughDestEn": "Hiratsuka",
-                "throughDestJa": "平塚",
+                "throughDest": {
+                    "en": "Hiratsuka",
+                    "ja": "平塚"
+                },
                 "type": "Local"
             },
             {
@@ -1656,8 +1823,10 @@
                 "startsHere": true,
                 "stops": [1076, 1083, 1087, 1090, 1094, 1098, 1102, 1106, 1109, 1112, 1116, 1121, 1124, 1129, 1137, 1142, 1150, 1155],
                 "terminates": false,
-                "throughDestEn": "Numazu",
-                "throughDestJa": "沼津",
+                "throughDest": {
+                    "en": "Numazu",
+                    "ja": "沼津"
+                },
                 "type": "Local"
             },
             {
@@ -1685,8 +1854,10 @@
                 "startsHere": true,
                 "stops": [1102, 1108, 1113, 1116, 1119, 1123, 1127, 1131, 1134, 1137, 1141, 1146, 1149, 1154, 1162, 1167, 1174, 1179],
                 "terminates": false,
-                "throughDestEn": "Odawara",
-                "throughDestJa": "小田原",
+                "throughDest": {
+                    "en": "Odawara",
+                    "ja": "小田原"
+                },
                 "type": "Local"
             },
             {
@@ -1696,8 +1867,10 @@
                 "startsHere": true,
                 "stops": [1079, 1084, 1090, 1095, 1099, 1104, 1109, 1117, 1124, 1128, 1132, 1136, 1141, 1145, 1150, 1153, 1156, 1160, 1166, 1169, 1173, 1182, 1187, 1194, 1200],
                 "terminates": false,
-                "throughDestEn": "Atami",
-                "throughDestJa": "熱海",
+                "throughDest": {
+                    "en": "Atami",
+                    "ja": "熱海"
+                },
                 "type": "Local"
             },
             {
@@ -1716,8 +1889,10 @@
                 "startsHere": false,
                 "stops": [1111, 1116, 1121, 1125, 1129, 1134, 1138, 1146, 1152, 1156, 1159, 1163, 1167, 1171, 1175, 1178, 1180, 1184, 1189, 1192, 1196, 1204, 1209, 1216, 1221],
                 "terminates": false,
-                "throughDestEn": "Atami",
-                "throughDestJa": "熱海",
+                "throughDest": {
+                    "en": "Atami",
+                    "ja": "熱海"
+                },
                 "type": "Local"
             },
             {
@@ -1727,8 +1902,10 @@
                 "startsHere": true,
                 "stops": [1127, 1132, 1137, 1142, 1146, 1151, 1155, 1163, 1170, 1174, 1177, 1181, 1185, 1189, 1193, 1196, 1198, 1202, 1207, 1210, 1214, 1223, 1227, 1234, 1239],
                 "terminates": false,
-                "throughDestEn": "Atami",
-                "throughDestJa": "熱海",
+                "throughDest": {
+                    "en": "Atami",
+                    "ja": "熱海"
+                },
                 "type": "Local"
             },
             {
@@ -1738,8 +1915,10 @@
                 "startsHere": true,
                 "stops": [1147, 1152, 1159, 1163, 1167, 1172, 1176, 1184, 1190, 1194, 1198, 1201, 1205, 1209, 1213, 1216, 1218, 1222, 1227, 1230, 1235, 1243, 1248, 1254, 1260],
                 "terminates": false,
-                "throughDestEn": "Ito",
-                "throughDestJa": "伊東",
+                "throughDest": {
+                    "en": "Ito",
+                    "ja": "伊東"
+                },
                 "type": "Local"
             },
             {
@@ -1749,8 +1928,10 @@
                 "startsHere": true,
                 "stops": [1200, 1206, 1211, 1214, 1218, 1222, 1225, 1230, 1232, 1235, 1239, 1244, 1247, 1251, 1260, 1265, 1273, 1278],
                 "terminates": false,
-                "throughDestEn": "Numazu",
-                "throughDestJa": "沼津",
+                "throughDest": {
+                    "en": "Numazu",
+                    "ja": "沼津"
+                },
                 "type": "Local"
             },
             {
@@ -1769,8 +1950,10 @@
                 "startsHere": true,
                 "stops": [1186, 1191, 1196, 1200, 1204, 1210, 1214, 1222, 1228, 1233, 1236, 1240, 1244, 1248, 1252, 1256, 1259, 1263, 1269, 1272, 1276, 1285, 1289, 1296, 1301],
                 "terminates": false,
-                "throughDestEn": "Kozu",
-                "throughDestJa": "国府津",
+                "throughDest": {
+                    "en": "Kozu",
+                    "ja": "国府津"
+                },
                 "type": "Local"
             },
             {
@@ -1780,8 +1963,10 @@
                 "startsHere": true,
                 "stops": [1207, 1212, 1218, 1222, 1226, 1231, 1235, 1243, 1249, 1254, 1257, 1261, 1265, 1268, 1273, 1275, 1278, 1282, 1288, 1290, 1295, 1303, 1308, 1314, 1321],
                 "terminates": false,
-                "throughDestEn": "Kozu",
-                "throughDestJa": "国府津",
+                "throughDest": {
+                    "en": "Kozu",
+                    "ja": "国府津"
+                },
                 "type": "Local"
             },
             {
@@ -1791,8 +1976,10 @@
                 "startsHere": true,
                 "stops": [1251, 1257, 1261, 1265, 1268, 1272, 1276, 1280, 1283, 1286, 1290, 1297, 1300, 1305, 1313, 1318, 1325, 1330],
                 "terminates": false,
-                "throughDestEn": "Hiratsuka",
-                "throughDestJa": "平塚",
+                "throughDest": {
+                    "en": "Hiratsuka",
+                    "ja": "平塚"
+                },
                 "type": "Local"
             },
             {
@@ -1811,8 +1998,10 @@
                 "startsHere": true,
                 "stops": [1271, 1278, 1282, 1286, 1289, 1293, 1297, 1301, 1304, 1306, 1310, 1316, 1319, 1323, 1331, 1336, 1344, 1350],
                 "terminates": false,
-                "throughDestEn": "Odawara",
-                "throughDestJa": "小田原",
+                "throughDest": {
+                    "en": "Odawara",
+                    "ja": "小田原"
+                },
                 "type": "Local"
             },
             {
@@ -1822,8 +2011,10 @@
                 "startsHere": true,
                 "stops": [1248, 1253, 1259, 1264, 1268, 1273, 1278, 1289, 1296, 1301, 1305, 1308, 1312, 1316, 1321, 1324, 1326, 1331, 1336, 1339, 1343, 1352, 1356, 1365, 1370],
                 "terminates": false,
-                "throughDestEn": "Atami",
-                "throughDestJa": "熱海",
+                "throughDest": {
+                    "en": "Atami",
+                    "ja": "熱海"
+                },
                 "type": "Local"
             },
             {
@@ -2157,8 +2348,10 @@
                 "startsHere": false,
                 "stops": [1228, 1233, 1237, 1240, 1243, 1247, 1252, 1256, 1259, 1263, 1268, 1280, 1284, 1288, 1293, 1297, 1302, 1307, 1315],
                 "terminates": false,
-                "throughDestEn": "Maebashi",
-                "throughDestJa": "前橋",
+                "throughDest": {
+                    "en": "Maebashi",
+                    "ja": "前橋"
+                },
                 "type": "Rapid"
             },
             {
@@ -2222,8 +2415,10 @@
                 "startsHere": true,
                 "stops": [323, 329, 334, 337, 340, 345, 348, 353, 355, 358, 362, 367, -1, 373, 382],
                 "terminates": false,
-                "throughDestEn": "Hiratsuka",
-                "throughDestJa": "平塚",
+                "throughDest": {
+                    "en": "Hiratsuka",
+                    "ja": "平塚"
+                },
                 "type": "Rapid"
             },
             {
@@ -2233,8 +2428,10 @@
                 "startsHere": true,
                 "stops": [374, 381, 386, 389, 393, 398, 402, 407, 409, 413, 417, 423, -1, 429, 439],
                 "terminates": false,
-                "throughDestEn": "Hiratsuka",
-                "throughDestJa": "平塚",
+                "throughDest": {
+                    "en": "Hiratsuka",
+                    "ja": "平塚"
+                },
                 "type": "Rapid"
             },
             {
@@ -2244,8 +2441,10 @@
                 "startsHere": false,
                 "stops": [356, 360, 366, 370, 374, 379, 383, 391, 397, 402, 405, 409, 413, 417, 422, 425, 428, 433, 438, -1, 445, 454],
                 "terminates": false,
-                "throughDestEn": "Odawara",
-                "throughDestJa": "小田原",
+                "throughDest": {
+                    "en": "Odawara",
+                    "ja": "小田原"
+                },
                 "type": "Rapid"
             },
             {
@@ -2255,8 +2454,10 @@
                 "startsHere": true,
                 "stops": [370, 375, 381, 386, 391, 396, 401, 410, 417, 421, 425, 428, 433, 437, 442, 444, 448, 452, 457, -1, 464, 473],
                 "terminates": false,
-                "throughDestEn": "Kozu",
-                "throughDestJa": "国府津",
+                "throughDest": {
+                    "en": "Kozu",
+                    "ja": "国府津"
+                },
                 "type": "Rapid"
             },
             {
@@ -2266,8 +2467,10 @@
                 "startsHere": true,
                 "stops": [386, 391, 396, 400, 404, 409, 414, 422, 429, 433, 437, 440, 445, 449, 454, 457, 460, 465, 472, -1, 479, 490],
                 "terminates": false,
-                "throughDestEn": "Hiratsuka",
-                "throughDestJa": "平塚",
+                "throughDest": {
+                    "en": "Hiratsuka",
+                    "ja": "平塚"
+                },
                 "type": "Rapid"
             },
             {
@@ -2277,8 +2480,10 @@
                 "startsHere": true,
                 "stops": [427, 433, 441, 445, 449, 452, 457, 461, 466, 469, 472, 477, 485, -1, 493, 504],
                 "terminates": false,
-                "throughDestEn": "Kozu",
-                "throughDestJa": "国府津",
+                "throughDest": {
+                    "en": "Kozu",
+                    "ja": "国府津"
+                },
                 "type": "Rapid"
             },
             {
@@ -2288,8 +2493,10 @@
                 "startsHere": true,
                 "stops": [422, 427, 433, 437, 441, 446, 450, 459, 465, 470, 473, 477, 482, 486, 491, 494, 497, 502, 508, -1, 515, 527],
                 "terminates": false,
-                "throughDestEn": "Odawara",
-                "throughDestJa": "小田原",
+                "throughDest": {
+                    "en": "Odawara",
+                    "ja": "小田原"
+                },
                 "type": "Rapid"
             },
             {
@@ -2299,8 +2506,10 @@
                 "startsHere": false,
                 "stops": [446, 450, 457, 462, 466, 472, 477, 487, 495, 499, 503, 506, 511, 515, 520, 523, 526, 531, 537, -1, 543, 553],
                 "terminates": false,
-                "throughDestEn": "Kozu",
-                "throughDestJa": "国府津",
+                "throughDest": {
+                    "en": "Kozu",
+                    "ja": "国府津"
+                },
                 "type": "Rapid"
             },
             {
@@ -2310,8 +2519,10 @@
                 "startsHere": true,
                 "stops": [479, 484, 490, 494, 498, 503, 507, 514, 525, 530, 534, 537, 541, 545, 549, 552, 555, 559, 564, -1, 570, 580],
                 "terminates": false,
-                "throughDestEn": "Odawara",
-                "throughDestJa": "小田原",
+                "throughDest": {
+                    "en": "Odawara",
+                    "ja": "小田原"
+                },
                 "type": "Rapid"
             },
             {
@@ -2321,8 +2532,10 @@
                 "startsHere": true,
                 "stops": [548, 555, 560, 563, 567, 572, 576, 581, 585, 587, 592, 597, -1, 603, 611],
                 "terminates": false,
-                "throughDestEn": "Hiratsuka",
-                "throughDestJa": "平塚",
+                "throughDest": {
+                    "en": "Hiratsuka",
+                    "ja": "平塚"
+                },
                 "type": "Rapid"
             },
             {
@@ -2332,8 +2545,10 @@
                 "startsHere": true,
                 "stops": [555, 560, 566, 570, 574, 579, 583, 590, 596, -1, -1, -1, 609, 613, 617, -1, 620, -1, 628, -1, 634, 642],
                 "terminates": false,
-                "throughDestEn": "Odawara",
-                "throughDestJa": "小田原",
+                "throughDest": {
+                    "en": "Odawara",
+                    "ja": "小田原"
+                },
                 "type": "SpecialRapid"
             },
             {
@@ -2343,8 +2558,10 @@
                 "startsHere": true,
                 "stops": [613, 619, 623, 627, 630, 634, 638, 642, 645, 648, 652, 657, -1, 663, 671],
                 "terminates": false,
-                "throughDestEn": "Hiratsuka",
-                "throughDestJa": "平塚",
+                "throughDest": {
+                    "en": "Hiratsuka",
+                    "ja": "平塚"
+                },
                 "type": "Rapid"
             },
             {
@@ -2354,8 +2571,10 @@
                 "startsHere": true,
                 "stops": [614, 619, 625, 629, 633, 638, 642, 650, 656, -1, -1, -1, 667, 671, 675, -1, 679, -1, 688, -1, 695, 704],
                 "terminates": false,
-                "throughDestEn": "Odawara",
-                "throughDestJa": "小田原",
+                "throughDest": {
+                    "en": "Odawara",
+                    "ja": "小田原"
+                },
                 "type": "SpecialRapid"
             },
             {
@@ -2365,8 +2584,10 @@
                 "startsHere": true,
                 "stops": [673, 679, 683, 687, 690, 694, 698, 702, 705, 708, 712, 717, -1, 723, 732],
                 "terminates": false,
-                "throughDestEn": "Hiratsuka",
-                "throughDestJa": "平塚",
+                "throughDest": {
+                    "en": "Hiratsuka",
+                    "ja": "平塚"
+                },
                 "type": "Rapid"
             },
             {
@@ -2376,8 +2597,10 @@
                 "startsHere": true,
                 "stops": [674, 679, 685, 689, 693, 698, 702, 710, 716, -1, -1, -1, 728, 731, 736, -1, 739, -1, 747, -1, 753, 761],
                 "terminates": false,
-                "throughDestEn": "Odawara",
-                "throughDestJa": "小田原",
+                "throughDest": {
+                    "en": "Odawara",
+                    "ja": "小田原"
+                },
                 "type": "SpecialRapid"
             },
             {
@@ -2387,8 +2610,10 @@
                 "startsHere": true,
                 "stops": [733, 739, 743, 747, 750, 754, 758, 762, 765, 768, 772, 777, -1, 783, 791],
                 "terminates": false,
-                "throughDestEn": "Hiratsuka",
-                "throughDestJa": "平塚",
+                "throughDest": {
+                    "en": "Hiratsuka",
+                    "ja": "平塚"
+                },
                 "type": "Rapid"
             },
             {
@@ -2398,8 +2623,10 @@
                 "startsHere": true,
                 "stops": [734, 739, 745, 749, 753, 758, 762, 770, 776, -1, -1, -1, 788, 791, 796, -1, 799, -1, 807, -1, 814, 822],
                 "terminates": false,
-                "throughDestEn": "Odawara",
-                "throughDestJa": "小田原",
+                "throughDest": {
+                    "en": "Odawara",
+                    "ja": "小田原"
+                },
                 "type": "SpecialRapid"
             },
             {
@@ -2409,8 +2636,10 @@
                 "startsHere": true,
                 "stops": [793, 799, 803, 807, 810, 814, 818, 822, 825, 828, 832, 837, -1, 843, 851],
                 "terminates": false,
-                "throughDestEn": "Kozu",
-                "throughDestJa": "国府津",
+                "throughDest": {
+                    "en": "Kozu",
+                    "ja": "国府津"
+                },
                 "type": "Rapid"
             },
             {
@@ -2420,8 +2649,10 @@
                 "startsHere": false,
                 "stops": [799, 805, 809, 813, 818, 822, 830, 836, -1, -1, -1, 847, 851, 855, -1, 859, -1, 867, -1, 873, 881],
                 "terminates": false,
-                "throughDestEn": "Odawara",
-                "throughDestJa": "小田原",
+                "throughDest": {
+                    "en": "Odawara",
+                    "ja": "小田原"
+                },
                 "type": "SpecialRapid"
             },
             {
@@ -2431,8 +2662,10 @@
                 "startsHere": true,
                 "stops": [852, 858, 862, 866, 869, 873, 877, 881, 884, 887, 891, 896, -1, 903, 912],
                 "terminates": false,
-                "throughDestEn": "Hiratsuka",
-                "throughDestJa": "平塚",
+                "throughDest": {
+                    "en": "Hiratsuka",
+                    "ja": "平塚"
+                },
                 "type": "Rapid"
             },
             {
@@ -2442,8 +2675,10 @@
                 "startsHere": true,
                 "stops": [854, 859, 865, 869, 873, 878, 882, 890, 896, -1, -1, -1, 907, 911, 915, -1, 919, -1, 928, -1, 934, 942],
                 "terminates": false,
-                "throughDestEn": "Odawara",
-                "throughDestJa": "小田原",
+                "throughDest": {
+                    "en": "Odawara",
+                    "ja": "小田原"
+                },
                 "type": "SpecialRapid"
             },
             {
@@ -2453,8 +2688,10 @@
                 "startsHere": true,
                 "stops": [913, 919, 923, 927, 930, 934, 938, 942, 945, 948, 952, 957, -1, 963, 971],
                 "terminates": false,
-                "throughDestEn": "Hiratsuka",
-                "throughDestJa": "平塚",
+                "throughDest": {
+                    "en": "Hiratsuka",
+                    "ja": "平塚"
+                },
                 "type": "Rapid"
             },
             {
@@ -2464,8 +2701,10 @@
                 "startsHere": true,
                 "stops": [914, 919, 925, 929, 933, 938, 942, 950, 956, -1, -1, -1, 967, 971, 975, -1, 979, -1, 987, -1, 993, 1001],
                 "terminates": false,
-                "throughDestEn": "Odawara",
-                "throughDestJa": "小田原",
+                "throughDest": {
+                    "en": "Odawara",
+                    "ja": "小田原"
+                },
                 "type": "SpecialRapid"
             },
             {
@@ -2475,8 +2714,10 @@
                 "startsHere": true,
                 "stops": [973, 981, 985, 989, 992, 996, 1000, 1005, 1007, 1010, 1015, 1020, -1, 1026, 1035],
                 "terminates": false,
-                "throughDestEn": "Hiratsuka",
-                "throughDestJa": "平塚",
+                "throughDest": {
+                    "en": "Hiratsuka",
+                    "ja": "平塚"
+                },
                 "type": "Rapid"
             },
             {
@@ -2486,8 +2727,10 @@
                 "startsHere": true,
                 "stops": [971, 976, 981, 985, 989, 994, 998, 1006, 1012, 1016, 1020, 1023, 1027, 1031, 1035, 1038, 1041, 1045, 1050, -1, 1055, 1063],
                 "terminates": false,
-                "throughDestEn": "Odawara",
-                "throughDestJa": "小田原",
+                "throughDest": {
+                    "en": "Odawara",
+                    "ja": "小田原"
+                },
                 "type": "Rapid"
             },
             {
@@ -2497,8 +2740,10 @@
                 "startsHere": true,
                 "stops": [1033, 1039, 1044, 1047, 1051, 1055, 1058, 1063, 1065, 1068, 1072, 1077, -1, 1083, 1092],
                 "terminates": false,
-                "throughDestEn": "Odawara",
-                "throughDestJa": "小田原",
+                "throughDest": {
+                    "en": "Odawara",
+                    "ja": "小田原"
+                },
                 "type": "Rapid"
             },
             {
@@ -2508,8 +2753,10 @@
                 "startsHere": true,
                 "stops": [1033, 1039, 1044, 1048, 1052, 1057, 1061, 1069, 1075, 1080, 1083, 1086, 1090, 1094, 1098, 1101, 1104, 1108, 1113, -1, 1120, 1128],
                 "terminates": false,
-                "throughDestEn": "Kozu",
-                "throughDestJa": "国府津",
+                "throughDest": {
+                    "en": "Kozu",
+                    "ja": "国府津"
+                },
                 "type": "Rapid"
             },
             {
@@ -2519,8 +2766,10 @@
                 "startsHere": true,
                 "stops": [1107, 1113, 1118, 1121, 1125, 1129, 1133, 1137, 1140, 1142, 1147, 1152, -1, 1158, 1167],
                 "terminates": false,
-                "throughDestEn": "Hiratsuka",
-                "throughDestJa": "平塚",
+                "throughDest": {
+                    "en": "Hiratsuka",
+                    "ja": "平塚"
+                },
                 "type": "Rapid"
             },
             {
@@ -2530,8 +2779,10 @@
                 "startsHere": true,
                 "stops": [1095, 1100, 1105, 1109, 1113, 1118, 1122, 1130, 1137, 1141, 1144, 1148, 1152, 1156, 1160, 1163, 1166, 1170, 1175, -1, 1181, 1190],
                 "terminates": false,
-                "throughDestEn": "Hiratsuka",
-                "throughDestJa": "平塚",
+                "throughDest": {
+                    "en": "Hiratsuka",
+                    "ja": "平塚"
+                },
                 "type": "Rapid"
             },
             {
@@ -2541,8 +2792,10 @@
                 "startsHere": true,
                 "stops": [1159, 1165, 1169, 1173, 1176, 1180, 1184, 1188, 1191, 1194, 1198, 1203, -1, 1208, 1216],
                 "terminates": false,
-                "throughDestEn": "Kozu",
-                "throughDestJa": "国府津",
+                "throughDest": {
+                    "en": "Kozu",
+                    "ja": "国府津"
+                },
                 "type": "Rapid"
             },
             {
@@ -2552,8 +2805,10 @@
                 "startsHere": true,
                 "stops": [1157, 1162, 1168, 1172, 1176, 1181, 1185, 1192, 1198, 1203, 1206, 1209, 1213, 1217, 1221, 1224, 1227, 1231, 1236, -1, 1242, 1250],
                 "terminates": false,
-                "throughDestEn": "Odawara",
-                "throughDestJa": "小田原",
+                "throughDest": {
+                    "en": "Odawara",
+                    "ja": "小田原"
+                },
                 "type": "Rapid"
             },
             {
@@ -2563,8 +2818,10 @@
                 "startsHere": true,
                 "stops": [1236, 1243, 1248, 1251, 1255, 1259, 1263, 1268, 1271, 1274, 1278, 1284, -1, 1291, 1301],
                 "terminates": false,
-                "throughDestEn": "Odawara",
-                "throughDestJa": "小田原",
+                "throughDest": {
+                    "en": "Odawara",
+                    "ja": "小田原"
+                },
                 "type": "Rapid"
             },
             {
@@ -2574,8 +2831,10 @@
                 "startsHere": true,
                 "stops": [1284, 1291, 1296, 1299, 1303, 1307, 1311, 1315, 1318, 1321, 1325, 1331, -1, 1337, 1345],
                 "terminates": false,
-                "throughDestEn": "Odawara",
-                "throughDestJa": "小田原",
+                "throughDest": {
+                    "en": "Odawara",
+                    "ja": "小田原"
+                },
                 "type": "Rapid"
             },
             {
@@ -2585,8 +2844,10 @@
                 "startsHere": true,
                 "stops": [1265, 1270, 1276, 1280, 1284, 1289, 1293, 1301, 1306, 1311, 1314, 1318, 1322, 1326, 1330, 1333, 1335, 1339, 1346, -1, 1352, 1360],
                 "terminates": false,
-                "throughDestEn": "Kozu",
-                "throughDestJa": "国府津",
+                "throughDest": {
+                    "en": "Kozu",
+                    "ja": "国府津"
+                },
                 "type": "Rapid"
             },
             {
@@ -2596,8 +2857,10 @@
                 "startsHere": false,
                 "stops": [1291, -1, 1297, -1, -1, -1, 1312, 1316, 1319, 1324, 1338, 1343, 1347, 1352, 1356, 1360, 1366, 1372],
                 "terminates": false,
-                "throughDestEn": "Maebashi",
-                "throughDestJa": "前橋",
+                "throughDest": {
+                    "en": "Maebashi",
+                    "ja": "前橋"
+                },
                 "type": "Rapid"
             },
             {
@@ -2733,8 +2996,10 @@
                 "startsHere": false,
                 "stops": [538, 544, 550, 555, 564, 568, 574, 578, 582, 585, 588, 593, 597, 601, 605, 608, 614, 624, 629, 633, 638, 642, 646, 652, 658],
                 "terminates": false,
-                "throughDestEn": "Shim-Maebashi",
-                "throughDestJa": "新前橋",
+                "throughDest": {
+                    "en": "Shim-Maebashi",
+                    "ja": "新前橋"
+                },
                 "type": "Local"
             },
             {
@@ -3068,8 +3333,10 @@
                 "startsHere": false,
                 "stops": [1179, 1186, 1192, 1196, 1205, 1209, 1215, 1220, 1224, 1227, 1230, 1235, 1240, 1245, 1249, 1253, 1258, 1275, 1280, 1285, 1290, 1295, 1299, 1305, 1315],
                 "terminates": false,
-                "throughDestEn": "Maebashi",
-                "throughDestJa": "前橋",
+                "throughDest": {
+                    "en": "Maebashi",
+                    "ja": "前橋"
+                },
                 "type": "Local"
             },
             {
@@ -3160,8 +3427,10 @@
                 "startsHere": false,
                 "stops": [1329, 1335, 1340, 1345, 1353, 1358, 1362, 1367, 1371, 1373, 1376, 1381, 1385, 1390, 1394, 1397, 1402, 1412, 1417, 1421, 1426, 1430, 1434, 1439, 1446],
                 "terminates": false,
-                "throughDestEn": "Maebashi",
-                "throughDestJa": "前橋",
+                "throughDest": {
+                    "en": "Maebashi",
+                    "ja": "前橋"
+                },
                 "type": "Local"
             },
             {
@@ -3216,8 +3485,10 @@
                 "startsHere": true,
                 "stops": [306, 312, 316, 320, 323, 327, 331, 335, 338, 341, 345, 350, 353, 357, 365, 370, 377, 382],
                 "terminates": false,
-                "throughDestEn": "Odawara",
-                "throughDestJa": "小田原",
+                "throughDest": {
+                    "en": "Odawara",
+                    "ja": "小田原"
+                },
                 "type": "Local"
             },
             {
@@ -3227,8 +3498,10 @@
                 "startsHere": true,
                 "stops": [333, 339, 344, 347, 351, 355, 359, 363, 366, 369, 373, 378, 381, 385, 393, 398, 407, 412],
                 "terminates": false,
-                "throughDestEn": "Odawara",
-                "throughDestJa": "小田原",
+                "throughDest": {
+                    "en": "Odawara",
+                    "ja": "小田原"
+                },
                 "type": "Local"
             },
             {
@@ -3238,8 +3511,10 @@
                 "startsHere": false,
                 "stops": [310, 314, 320, 324, 328, 333, 337, 341, 347, 352, 355, 359, 363, 367, 371, 374, 377, 381, 386, 389, 394, 402, 407, 414, 419],
                 "terminates": false,
-                "throughDestEn": "Atami",
-                "throughDestJa": "熱海",
+                "throughDest": {
+                    "en": "Atami",
+                    "ja": "熱海"
+                },
                 "type": "Local"
             },
             {
@@ -3258,8 +3533,10 @@
                 "startsHere": true,
                 "stops": [324, 329, 334, 339, 343, 348, 352, 360, 366, 371, 374, 378, 382, 386, 390, 393, 396, 400, 406, 408, 413, 421, 426, 433, 438],
                 "terminates": false,
-                "throughDestEn": "Odawara",
-                "throughDestJa": "小田原",
+                "throughDest": {
+                    "en": "Odawara",
+                    "ja": "小田原"
+                },
                 "type": "Local"
             },
             {
@@ -3269,8 +3546,10 @@
                 "startsHere": true,
                 "stops": [336, 341, 347, 351, 355, 360, 364, 372, 377, 382, 385, 389, 393, 397, 401, 404, 407, 411, 416, 419, 424, 433, 438, 449, 454],
                 "terminates": false,
-                "throughDestEn": "Odawara",
-                "throughDestJa": "小田原",
+                "throughDest": {
+                    "en": "Odawara",
+                    "ja": "小田原"
+                },
                 "type": "Local"
             },
             {
@@ -3280,8 +3559,10 @@
                 "startsHere": true,
                 "stops": [349, 354, 360, 364, 368, 373, 378, 386, 392, 397, 400, 404, 408, 412, 416, 419, 422, 426, 432, 435, 439, 447, 452, 460, 465],
                 "terminates": false,
-                "throughDestEn": "Kozu",
-                "throughDestJa": "国府津",
+                "throughDest": {
+                    "en": "Kozu",
+                    "ja": "国府津"
+                },
                 "type": "Local"
             },
             {
@@ -3291,8 +3572,10 @@
                 "startsHere": true,
                 "stops": [356, 361, 367, 371, 376, 381, 386, 394, 400, 405, 408, 412, 416, 420, 424, 427, 430, 434, 440, 443, 447, 456, 460, 467, 473],
                 "terminates": false,
-                "throughDestEn": "Hiratsuka",
-                "throughDestJa": "平塚",
+                "throughDest": {
+                    "en": "Hiratsuka",
+                    "ja": "平塚"
+                },
                 "type": "Local"
             },
             {
@@ -3302,8 +3585,10 @@
                 "startsHere": true,
                 "stops": [410, 417, 421, 425, 428, 432, 436, 441, 444, 447, 451, 456, 459, 463, 471, 476, 485, 490],
                 "terminates": false,
-                "throughDestEn": "Atami",
-                "throughDestJa": "熱海",
+                "throughDest": {
+                    "en": "Atami",
+                    "ja": "熱海"
+                },
                 "type": "Local"
             },
             {
@@ -3313,8 +3598,10 @@
                 "startsHere": false,
                 "stops": [382, 387, 393, 397, 401, 406, 410, 417, 423, 428, 431, 434, 439, 443, 447, 451, 454, 458, 465, 468, 473, 482, 487, 495, 499],
                 "terminates": false,
-                "throughDestEn": "Shinagawa",
-                "throughDestJa": "品川",
+                "throughDest": {
+                    "en": "Shinagawa",
+                    "ja": "品川"
+                },
                 "type": "Local"
             },
             {
@@ -3324,8 +3611,10 @@
                 "startsHere": true,
                 "stops": [427, 433, 440, 444, 448, 452, 456, 460, 465, 468, 471, 475, 482, 485, 489, 497, 502, 510, 515],
                 "terminates": false,
-                "throughDestEn": "Atami",
-                "throughDestJa": "熱海",
+                "throughDest": {
+                    "en": "Atami",
+                    "ja": "熱海"
+                },
                 "type": "Local"
             },
             {
@@ -3335,8 +3624,10 @@
                 "startsHere": false,
                 "stops": [407, 412, 419, 424, 428, 434, 438, 446, 452, 457, 460, 464, 468, 472, 476, 479, 482, 486, 492, 495, 499, 507, 512, 520, 525],
                 "terminates": false,
-                "throughDestEn": "Kozu",
-                "throughDestJa": "国府津",
+                "throughDest": {
+                    "en": "Kozu",
+                    "ja": "国府津"
+                },
                 "type": "Local"
             },
             {
@@ -3346,8 +3637,10 @@
                 "startsHere": false,
                 "stops": [419, 424, 430, 434, 438, 443, 447, 455, 461, 466, 469, 473, 483, 488, 492, 495, 498, 502, 507, 510, 515, 523, 528, 534, 541],
                 "terminates": false,
-                "throughDestEn": "Hiratsuka",
-                "throughDestJa": "平塚",
+                "throughDest": {
+                    "en": "Hiratsuka",
+                    "ja": "平塚"
+                },
                 "type": "Local"
             },
             {
@@ -3357,8 +3650,10 @@
                 "startsHere": true,
                 "stops": [437, 442, 448, 452, 456, 461, 465, 474, 481, 485, 488, 492, 496, 500, 504, 507, 510, 514, 520, 523, 527, 536, 541, 549, 554],
                 "terminates": false,
-                "throughDestEn": "Shinagawa",
-                "throughDestJa": "品川",
+                "throughDest": {
+                    "en": "Shinagawa",
+                    "ja": "品川"
+                },
                 "type": "Local"
             },
             {
@@ -3368,8 +3663,10 @@
                 "startsHere": false,
                 "stops": [446, 451, 457, 462, 467, 472, 477, 485, 491, 496, 500, 503, 507, 511, 516, 519, 521, 526, 531, 534, 539, 547, 552, 558, 564],
                 "terminates": false,
-                "throughDestEn": "Hiratsuka",
-                "throughDestJa": "平塚",
+                "throughDest": {
+                    "en": "Hiratsuka",
+                    "ja": "平塚"
+                },
                 "type": "Local"
             },
             {
@@ -3379,8 +3676,10 @@
                 "startsHere": true,
                 "stops": [499, 506, 511, 514, 518, 522, 526, 530, 533, 535, 539, 547, 551, 555, 565, 570, 581, 587],
                 "terminates": false,
-                "throughDestEn": "Shinagawa",
-                "throughDestJa": "品川",
+                "throughDest": {
+                    "en": "Shinagawa",
+                    "ja": "品川"
+                },
                 "type": "Local"
             },
             {
@@ -3390,8 +3689,10 @@
                 "startsHere": true,
                 "stops": [466, 472, 479, 483, 488, 493, 498, 507, 513, 518, 522, 526, 531, 535, 540, 543, 546, 551, 557, 560, 564, 572, 577, 587, 591],
                 "terminates": false,
-                "throughDestEn": "Atami",
-                "throughDestJa": "熱海",
+                "throughDest": {
+                    "en": "Atami",
+                    "ja": "熱海"
+                },
                 "type": "Local"
             },
             {
@@ -3401,8 +3702,10 @@
                 "startsHere": true,
                 "stops": [522, 530, 534, 538, 542, 546, 550, 554, 557, 560, 564, 570, 573, 578, 587, 593, 601, 606],
                 "terminates": false,
-                "throughDestEn": "Shinagawa",
-                "throughDestJa": "品川",
+                "throughDest": {
+                    "en": "Shinagawa",
+                    "ja": "品川"
+                },
                 "type": "Local"
             },
             {
@@ -3412,8 +3715,10 @@
                 "startsHere": true,
                 "stops": [504, 509, 515, 519, 523, 528, 532, 539, 545, 550, 553, 556, 560, 564, 568, 571, 574, 578, 583, 585, 590, 598, 603, 612, 617],
                 "terminates": false,
-                "throughDestEn": "Hiratsuka",
-                "throughDestJa": "平塚",
+                "throughDest": {
+                    "en": "Hiratsuka",
+                    "ja": "平塚"
+                },
                 "type": "Local"
             },
             {
@@ -3432,8 +3737,10 @@
                 "startsHere": true,
                 "stops": [527, 533, 539, 544, 548, 554, 558, 565, 572, 577, 581, 585, 589, 593, 597, 600, 603, 607, 613, 616, 620, 629, 633, 642, 647],
                 "terminates": false,
-                "throughDestEn": "Odawara",
-                "throughDestJa": "小田原",
+                "throughDest": {
+                    "en": "Odawara",
+                    "ja": "小田原"
+                },
                 "type": "Local"
             },
             {
@@ -3452,8 +3759,10 @@
                 "startsHere": true,
                 "stops": [546, 550, 556, 560, 564, 569, 573, 581, 587, 592, 596, 599, 604, 608, 619, 622, 624, 629, 634, 636, 641, 649, 654, 661, 666],
                 "terminates": false,
-                "throughDestEn": "Atami",
-                "throughDestJa": "熱海",
+                "throughDest": {
+                    "en": "Atami",
+                    "ja": "熱海"
+                },
                 "type": "Local"
             },
             {
@@ -3463,8 +3772,10 @@
                 "startsHere": true,
                 "stops": [569, 575, 580, 584, 588, 593, 597, 605, 611, 616, 619, 623, 628, 632, 637, 640, 643, 647, 652, 656, 660, 669, 674, 681, 686],
                 "terminates": false,
-                "throughDestEn": "Atami",
-                "throughDestJa": "熱海",
+                "throughDest": {
+                    "en": "Atami",
+                    "ja": "熱海"
+                },
                 "type": "Local"
             },
             {
@@ -3474,8 +3785,10 @@
                 "startsHere": true,
                 "stops": [594, 599, 605, 609, 613, 618, 622, 630, 635, 640, 643, 647, 651, 654, 659, 661, 664, 668, 673, 676, 681, 689, 694, 701, 706],
                 "terminates": false,
-                "throughDestEn": "Odawara",
-                "throughDestJa": "小田原",
+                "throughDest": {
+                    "en": "Odawara",
+                    "ja": "小田原"
+                },
                 "type": "Local"
             },
             {
@@ -3485,8 +3798,10 @@
                 "startsHere": true,
                 "stops": [640, 647, 652, 656, 659, 663, 667, 677, 681, 683, 687, 693, 696, 700, 709, 713, 720, 725],
                 "terminates": false,
-                "throughDestEn": "Atami",
-                "throughDestJa": "熱海",
+                "throughDest": {
+                    "en": "Atami",
+                    "ja": "熱海"
+                },
                 "type": "Local"
             },
             {
@@ -3496,8 +3811,10 @@
                 "startsHere": true,
                 "stops": [626, 631, 637, 642, 646, 652, 656, 665, 671, 675, 678, 682, 686, 690, 695, 697, 700, 704, 713, 716, 720, 729, 734, 741, 746],
                 "terminates": false,
-                "throughDestEn": "Atami",
-                "throughDestJa": "熱海",
+                "throughDest": {
+                    "en": "Atami",
+                    "ja": "熱海"
+                },
                 "type": "Local"
             },
             {
@@ -3507,8 +3824,10 @@
                 "startsHere": true,
                 "stops": [654, 659, 664, 668, 672, 677, 681, 689, 694, 699, 702, 706, 710, 713, 718, 720, 723, 728, 733, 736, 740, 749, 753, 761, 766],
                 "terminates": false,
-                "throughDestEn": "Odawara",
-                "throughDestJa": "小田原",
+                "throughDest": {
+                    "en": "Odawara",
+                    "ja": "小田原"
+                },
                 "type": "Local"
             },
             {
@@ -3518,8 +3837,10 @@
                 "startsHere": true,
                 "stops": [701, 708, 712, 717, 720, 724, 728, 738, 741, 743, 747, 753, 756, 761, 769, 774, 781, 786],
                 "terminates": false,
-                "throughDestEn": "Atami",
-                "throughDestJa": "熱海",
+                "throughDest": {
+                    "en": "Atami",
+                    "ja": "熱海"
+                },
                 "type": "Local"
             },
             {
@@ -3529,8 +3850,10 @@
                 "startsHere": true,
                 "stops": [692, 697, 702, 706, 710, 715, 719, 727, 733, 737, 740, 744, 748, 752, 756, 759, 762, 766, 772, 775, 779, 788, 793, 801, 806],
                 "terminates": false,
-                "throughDestEn": "Atami",
-                "throughDestJa": "熱海",
+                "throughDest": {
+                    "en": "Atami",
+                    "ja": "熱海"
+                },
                 "type": "Local"
             },
             {
@@ -3540,8 +3863,10 @@
                 "startsHere": true,
                 "stops": [712, 717, 723, 727, 731, 736, 740, 748, 754, 758, 762, 765, 769, 773, 778, 781, 783, 788, 793, 796, 801, 809, 814, 821, 826],
                 "terminates": false,
-                "throughDestEn": "Odawara",
-                "throughDestJa": "小田原",
+                "throughDest": {
+                    "en": "Odawara",
+                    "ja": "小田原"
+                },
                 "type": "Local"
             },
             {
@@ -3551,8 +3876,10 @@
                 "startsHere": true,
                 "stops": [761, 768, 773, 777, 780, 784, 788, 798, 801, 804, 808, 813, 816, 821, 829, 834, 841, 846],
                 "terminates": false,
-                "throughDestEn": "Atami",
-                "throughDestJa": "熱海",
+                "throughDest": {
+                    "en": "Atami",
+                    "ja": "熱海"
+                },
                 "type": "Local"
             },
             {
@@ -3562,8 +3889,10 @@
                 "startsHere": true,
                 "stops": [752, 757, 762, 766, 770, 775, 779, 787, 793, 797, 800, 804, 808, 812, 816, 819, 822, 826, 833, 836, 840, 848, 853, 861, 866],
                 "terminates": false,
-                "throughDestEn": "Atami",
-                "throughDestJa": "熱海",
+                "throughDest": {
+                    "en": "Atami",
+                    "ja": "熱海"
+                },
                 "type": "Local"
             },
             {
@@ -3573,8 +3902,10 @@
                 "startsHere": true,
                 "stops": [773, 777, 783, 787, 791, 796, 800, 808, 815, 819, 823, 826, 830, 834, 838, 841, 844, 848, 853, 856, 860, 869, 874, 881, 886],
                 "terminates": false,
-                "throughDestEn": "Odawara",
-                "throughDestJa": "小田原",
+                "throughDest": {
+                    "en": "Odawara",
+                    "ja": "小田原"
+                },
                 "type": "Local"
             },
             {
@@ -3584,8 +3915,10 @@
                 "startsHere": true,
                 "stops": [821, -1, 832, 836, 839, 843, 847, 857, 861, 863, 867, 873, 876, 880, 889, 893, 900, 906],
                 "terminates": false,
-                "throughDestEn": "Ito",
-                "throughDestJa": "伊東",
+                "throughDest": {
+                    "en": "Ito",
+                    "ja": "伊東"
+                },
                 "type": "Local"
             },
             {
@@ -3595,8 +3928,10 @@
                 "startsHere": true,
                 "stops": [808, 813, 819, 823, 827, 832, 836, 844, 850, 854, 857, 861, 866, 870, 875, 878, 881, 885, 892, 895, 899, 908, 913, 921, 926],
                 "terminates": false,
-                "throughDestEn": "Atami",
-                "throughDestJa": "熱海",
+                "throughDest": {
+                    "en": "Atami",
+                    "ja": "熱海"
+                },
                 "type": "Local"
             },
             {
@@ -3606,8 +3941,10 @@
                 "startsHere": true,
                 "stops": [829, 834, 840, 844, 848, 853, 857, 865, 876, 881, 884, 887, 891, 895, 899, 902, 905, 909, 914, 917, 921, 929, 934, 941, 946],
                 "terminates": false,
-                "throughDestEn": "Atami",
-                "throughDestJa": "熱海",
+                "throughDest": {
+                    "en": "Atami",
+                    "ja": "熱海"
+                },
                 "type": "Local"
             },
             {
@@ -3617,8 +3954,10 @@
                 "startsHere": true,
                 "stops": [881, 888, 892, 896, 899, 903, 907, 917, 921, 923, 927, 933, 936, 941, 949, 954, 960, 966],
                 "terminates": false,
-                "throughDestEn": "Hiratsuka",
-                "throughDestJa": "平塚",
+                "throughDest": {
+                    "en": "Hiratsuka",
+                    "ja": "平塚"
+                },
                 "type": "Local"
             },
             {
@@ -3628,8 +3967,10 @@
                 "startsHere": true,
                 "stops": [868, 873, 879, 884, 888, 893, 897, 905, 911, 915, 918, 922, 926, 930, 935, 937, 940, 945, 953, 956, 960, 968, 973, 981, 986],
                 "terminates": false,
-                "throughDestEn": "Atami",
-                "throughDestJa": "熱海",
+                "throughDest": {
+                    "en": "Atami",
+                    "ja": "熱海"
+                },
                 "type": "Local"
             },
             {
@@ -3639,8 +3980,10 @@
                 "startsHere": true,
                 "stops": [892, 897, 903, 907, 911, 916, 920, 928, 934, 939, 946, 950, 954, 958, 962, 965, 967, 971, 976, 979, 983, 992, 996, 1003, 1007],
                 "terminates": false,
-                "throughDestEn": "Atami",
-                "throughDestJa": "熱海",
+                "throughDest": {
+                    "en": "Atami",
+                    "ja": "熱海"
+                },
                 "type": "Local"
             },
             {
@@ -3650,8 +3993,10 @@
                 "startsHere": true,
                 "stops": [941, 948, 952, 956, 959, 963, 967, 978, 981, 984, 988, 993, 996, 1000, 1009, 1013, 1021, 1026],
                 "terminates": false,
-                "throughDestEn": "Hiratsuka",
-                "throughDestJa": "平塚",
+                "throughDest": {
+                    "en": "Hiratsuka",
+                    "ja": "平塚"
+                },
                 "type": "Local"
             },
             {
@@ -3661,8 +4006,10 @@
                 "startsHere": true,
                 "stops": [959, 965, 969, 973, 976, 980, 984, 988, 991, 993, 997, -1, 1005, 1009, 1018, 1023, 1031, 1036],
                 "terminates": false,
-                "throughDestEn": "Atami",
-                "throughDestJa": "熱海",
+                "throughDest": {
+                    "en": "Atami",
+                    "ja": "熱海"
+                },
                 "type": "Local"
             },
             {
@@ -3672,8 +4019,10 @@
                 "startsHere": true,
                 "stops": [936, 941, 947, 951, 955, 961, 965, 979, 986, 990, 994, 997, 1001, 1005, 1010, 1012, 1015, 1019, 1025, 1028, 1032, 1041, 1046, 1053, 1058],
                 "terminates": false,
-                "throughDestEn": "Odawara",
-                "throughDestJa": "小田原",
+                "throughDest": {
+                    "en": "Odawara",
+                    "ja": "小田原"
+                },
                 "type": "Local"
             },
             {
@@ -3683,8 +4032,10 @@
                 "startsHere": true,
                 "stops": [955, 960, 966, 970, 974, 979, 983, 991, 998, 1002, 1006, 1009, 1013, 1017, 1021, 1025, 1028, 1032, 1037, 1040, 1045, 1053, 1058, 1066, 1071],
                 "terminates": false,
-                "throughDestEn": "Hiratsuka",
-                "throughDestJa": "平塚",
+                "throughDest": {
+                    "en": "Hiratsuka",
+                    "ja": "平塚"
+                },
                 "type": "Local"
             },
             {
@@ -3694,8 +4045,10 @@
                 "startsHere": true,
                 "stops": [1011, 1018, 1022, 1026, 1029, 1033, 1037, 1041, 1044, 1047, 1051, 1056, 1059, 1064, 1072, 1077, 1084, 1090],
                 "terminates": false,
-                "throughDestEn": "Atami",
-                "throughDestJa": "熱海",
+                "throughDest": {
+                    "en": "Atami",
+                    "ja": "熱海"
+                },
                 "type": "Local"
             },
             {
@@ -3714,8 +4067,10 @@
                 "startsHere": false,
                 "stops": [988, 993, 998, 1003, 1006, 1011, 1015, 1023, 1029, 1033, 1037, 1040, 1049, 1053, 1057, 1060, 1063, 1067, 1072, 1075, 1079, 1088, 1093, 1100, 1105],
                 "terminates": false,
-                "throughDestEn": "Odawara",
-                "throughDestJa": "小田原",
+                "throughDest": {
+                    "en": "Odawara",
+                    "ja": "小田原"
+                },
                 "type": "Local"
             },
             {
@@ -3725,8 +4080,10 @@
                 "startsHere": true,
                 "stops": [1001, 1005, 1011, 1020, 1024, 1029, 1033, 1042, 1048, 1052, 1056, 1059, 1063, 1067, 1071, 1074, 1077, 1081, 1086, 1089, 1093, 1102, 1107, 1114, 1119],
                 "terminates": false,
-                "throughDestEn": "Kozu",
-                "throughDestJa": "国府津",
+                "throughDest": {
+                    "en": "Kozu",
+                    "ja": "国府津"
+                },
                 "type": "Local"
             },
             {
@@ -3736,8 +4093,10 @@
                 "startsHere": true,
                 "stops": [1019, 1024, 1030, 1034, 1038, 1043, 1047, 1055, 1062, 1067, 1070, 1074, 1078, 1082, 1086, 1089, 1092, 1096, 1102, 1105, 1109, 1118, 1123, 1130, 1135],
                 "terminates": false,
-                "throughDestEn": "Odawara",
-                "throughDestJa": "小田原",
+                "throughDest": {
+                    "en": "Odawara",
+                    "ja": "小田原"
+                },
                 "type": "Local"
             },
             {
@@ -3747,8 +4106,10 @@
                 "startsHere": true,
                 "stops": [1076, 1083, 1087, 1090, 1094, 1098, 1102, 1106, 1109, 1112, 1116, 1121, 1124, 1129, 1137, 1142, 1150, 1155],
                 "terminates": false,
-                "throughDestEn": "Numazu",
-                "throughDestJa": "沼津",
+                "throughDest": {
+                    "en": "Numazu",
+                    "ja": "沼津"
+                },
                 "type": "Local"
             },
             {
@@ -3767,8 +4128,10 @@
                 "startsHere": true,
                 "stops": [1067, 1072, 1077, 1081, 1085, 1090, 1094, 1102, 1108, 1113, 1116, 1120, 1124, 1128, 1132, 1135, 1137, 1141, 1147, 1150, 1154, 1163, 1168, 1176, 1181],
                 "terminates": false,
-                "throughDestEn": "Odawara",
-                "throughDestJa": "小田原",
+                "throughDest": {
+                    "en": "Odawara",
+                    "ja": "小田原"
+                },
                 "type": "Local"
             },
             {
@@ -3778,8 +4141,10 @@
                 "startsHere": true,
                 "stops": [1079, 1084, 1090, 1095, 1099, 1104, 1109, 1117, 1124, 1128, 1132, 1136, 1141, 1145, 1150, 1153, 1156, 1160, 1166, 1169, 1173, 1182, 1187, 1194, 1200],
                 "terminates": false,
-                "throughDestEn": "Atami",
-                "throughDestJa": "熱海",
+                "throughDest": {
+                    "en": "Atami",
+                    "ja": "熱海"
+                },
                 "type": "Local"
             },
             {
@@ -3798,8 +4163,10 @@
                 "startsHere": false,
                 "stops": [1110, 1115, 1120, 1124, 1128, 1133, 1137, 1145, 1151, 1155, 1158, 1162, 1166, 1170, 1174, 1177, 1179, 1183, 1188, 1191, 1195, 1203, 1208, 1215, 1220],
                 "terminates": false,
-                "throughDestEn": "Atami",
-                "throughDestJa": "熱海",
+                "throughDest": {
+                    "en": "Atami",
+                    "ja": "熱海"
+                },
                 "type": "Local"
             },
             {
@@ -3809,8 +4176,10 @@
                 "startsHere": true,
                 "stops": [1127, 1132, 1137, 1142, 1146, 1151, 1155, 1163, 1169, 1174, 1177, 1181, 1185, 1189, 1193, 1196, 1198, 1202, 1207, 1210, 1214, 1223, 1227, 1234, 1239],
                 "terminates": false,
-                "throughDestEn": "Odawara",
-                "throughDestJa": "小田原",
+                "throughDest": {
+                    "en": "Odawara",
+                    "ja": "小田原"
+                },
                 "type": "Local"
             },
             {
@@ -3820,8 +4189,10 @@
                 "startsHere": true,
                 "stops": [1144, 1150, 1157, 1162, 1166, 1172, 1176, 1184, 1190, 1194, 1197, 1201, 1205, 1209, 1213, 1216, 1218, 1222, 1227, 1230, 1235, 1243, 1248, 1254, 1260],
                 "terminates": false,
-                "throughDestEn": "Ito",
-                "throughDestJa": "伊東",
+                "throughDest": {
+                    "en": "Ito",
+                    "ja": "伊東"
+                },
                 "type": "Local"
             },
             {
@@ -3831,8 +4202,10 @@
                 "startsHere": true,
                 "stops": [1199, 1205, 1210, 1213, 1216, 1220, 1224, 1228, 1231, 1234, 1238, 1243, 1246, 1250, 1259, 1264, 1273, 1278],
                 "terminates": false,
-                "throughDestEn": "Numazu",
-                "throughDestJa": "沼津",
+                "throughDest": {
+                    "en": "Numazu",
+                    "ja": "沼津"
+                },
                 "type": "Local"
             },
             {
@@ -3851,8 +4224,10 @@
                 "startsHere": true,
                 "stops": [1186, 1191, 1197, 1202, 1206, 1211, 1216, 1222, 1228, 1233, 1236, 1240, 1244, 1248, 1252, 1256, 1259, 1263, 1269, 1272, 1276, 1285, 1289, 1296, 1301],
                 "terminates": false,
-                "throughDestEn": "Hiratsuka",
-                "throughDestJa": "平塚",
+                "throughDest": {
+                    "en": "Hiratsuka",
+                    "ja": "平塚"
+                },
                 "type": "Local"
             },
             {
@@ -3862,8 +4237,10 @@
                 "startsHere": true,
                 "stops": [1207, 1212, 1218, 1222, 1226, 1231, 1235, 1243, 1249, 1254, 1257, 1261, 1265, 1268, 1273, 1275, 1278, 1282, 1288, 1291, 1295, 1303, 1308, 1314, 1321],
                 "terminates": false,
-                "throughDestEn": "Kozu",
-                "throughDestJa": "国府津",
+                "throughDest": {
+                    "en": "Kozu",
+                    "ja": "国府津"
+                },
                 "type": "Local"
             },
             {
@@ -3873,8 +4250,10 @@
                 "startsHere": true,
                 "stops": [1251, 1257, 1262, 1266, 1269, 1273, 1277, 1281, 1284, 1287, 1291, 1296, 1299, 1303, 1312, 1316, 1325, 1330],
                 "terminates": false,
-                "throughDestEn": "Hiratsuka",
-                "throughDestJa": "平塚",
+                "throughDest": {
+                    "en": "Hiratsuka",
+                    "ja": "平塚"
+                },
                 "type": "Local"
             },
             {
@@ -3893,8 +4272,10 @@
                 "startsHere": true,
                 "stops": [1236, 1241, 1247, 1251, 1255, 1260, 1264, 1272, 1278, 1282, 1286, 1289, 1293, 1297, 1302, 1305, 1307, 1311, 1316, 1319, 1323, 1331, 1336, 1344, 1350],
                 "terminates": false,
-                "throughDestEn": "Odawara",
-                "throughDestJa": "小田原",
+                "throughDest": {
+                    "en": "Odawara",
+                    "ja": "小田原"
+                },
                 "type": "Local"
             },
             {
@@ -3904,8 +4285,10 @@
                 "startsHere": true,
                 "stops": [1248, 1253, 1259, 1264, 1268, 1273, 1278, 1289, 1296, 1301, 1304, 1308, 1312, 1316, 1321, 1324, 1326, 1331, 1336, 1339, 1343, 1352, 1356, 1365, 1371],
                 "terminates": false,
-                "throughDestEn": "Atami",
-                "throughDestJa": "熱海",
+                "throughDest": {
+                    "en": "Atami",
+                    "ja": "熱海"
+                },
                 "type": "Local"
             },
             {
@@ -4248,8 +4631,10 @@
                 "startsHere": false,
                 "stops": [1270, 1274, 1278, 1281, 1284, 1288, 1292, 1296, 1299, 1303, 1307, 1319, 1323, 1327, 1332, 1336, 1340, 1346, 1372],
                 "terminates": false,
-                "throughDestEn": "Maebashi",
-                "throughDestJa": "前橋",
+                "throughDest": {
+                    "en": "Maebashi",
+                    "ja": "前橋"
+                },
                 "type": "Rapid"
             },
             {
@@ -4304,8 +4689,10 @@
                 "startsHere": true,
                 "stops": [323, 329, 334, 337, 340, 345, 348, 353, 355, 358, 362, 367, -1, 373, 382],
                 "terminates": false,
-                "throughDestEn": "Odawara",
-                "throughDestJa": "小田原",
+                "throughDest": {
+                    "en": "Odawara",
+                    "ja": "小田原"
+                },
                 "type": "Rapid"
             },
             {
@@ -4315,8 +4702,10 @@
                 "startsHere": true,
                 "stops": [378, 385, 389, 393, 396, 400, 404, 409, 411, 414, 418, 424, -1, 430, 439],
                 "terminates": false,
-                "throughDestEn": "Hiratsuka",
-                "throughDestJa": "平塚",
+                "throughDest": {
+                    "en": "Hiratsuka",
+                    "ja": "平塚"
+                },
                 "type": "Rapid"
             },
             {
@@ -4326,8 +4715,10 @@
                 "startsHere": false,
                 "stops": [370, 374, 380, 384, 388, 393, 397, 404, 410, 415, 418, 421, 425, 429, 433, 436, 439, 443, 449, -1, 455, 463],
                 "terminates": false,
-                "throughDestEn": "Odawara",
-                "throughDestJa": "小田原",
+                "throughDest": {
+                    "en": "Odawara",
+                    "ja": "小田原"
+                },
                 "type": "Rapid"
             },
             {
@@ -4337,8 +4728,10 @@
                 "startsHere": true,
                 "stops": [388, 393, 399, 404, 408, 413, 417, 425, 431, 435, 438, 442, 446, 450, 454, 457, 459, 463, 469, -1, 474, 483],
                 "terminates": false,
-                "throughDestEn": "Kozu",
-                "throughDestJa": "国府津",
+                "throughDest": {
+                    "en": "Kozu",
+                    "ja": "国府津"
+                },
                 "type": "Rapid"
             },
             {
@@ -4348,8 +4741,10 @@
                 "startsHere": true,
                 "stops": [424, 429, 435, 440, 444, 449, 454, 462, 468, -1, -1, -1, 480, 484, 488, -1, 492, -1, 500, -1, 506, 515],
                 "terminates": false,
-                "throughDestEn": "Odawara",
-                "throughDestJa": "小田原",
+                "throughDest": {
+                    "en": "Odawara",
+                    "ja": "小田原"
+                },
                 "type": "SpecialRapid"
             },
             {
@@ -4359,8 +4754,10 @@
                 "startsHere": true,
                 "stops": [460, 464, 470, 474, 478, 483, 487, 495, 501, 505, 509, 512, 516, 520, 524, 527, 530, 534, 539, -1, 545, 554],
                 "terminates": false,
-                "throughDestEn": "Odawara",
-                "throughDestJa": "小田原",
+                "throughDest": {
+                    "en": "Odawara",
+                    "ja": "小田原"
+                },
                 "type": "Rapid"
             },
             {
@@ -4370,8 +4767,10 @@
                 "startsHere": true,
                 "stops": [479, 485, 492, 496, 501, 506, 511, 519, 526, -1, -1, -1, 540, 545, 550, -1, 555, -1, 566, -1, 573, 581],
                 "terminates": false,
-                "throughDestEn": "Odawara",
-                "throughDestJa": "小田原",
+                "throughDest": {
+                    "en": "Odawara",
+                    "ja": "小田原"
+                },
                 "type": "SpecialRapid"
             },
             {
@@ -4381,8 +4780,10 @@
                 "startsHere": false,
                 "stops": [494, 499, 504, 508, 512, 517, 521, 529, 535, 539, 543, 546, 551, 555, 559, 562, 564, 568, 574, -1, 580, 588],
                 "terminates": false,
-                "throughDestEn": "Kozu",
-                "throughDestJa": "国府津",
+                "throughDest": {
+                    "en": "Kozu",
+                    "ja": "国府津"
+                },
                 "type": "Rapid"
             },
             {
@@ -4392,8 +4793,10 @@
                 "startsHere": true,
                 "stops": [544, 552, 557, 561, 565, 569, 573, 578, 581, 584, 588, 597, -1, 603, 612],
                 "terminates": false,
-                "throughDestEn": "Hiratsuka",
-                "throughDestJa": "平塚",
+                "throughDest": {
+                    "en": "Hiratsuka",
+                    "ja": "平塚"
+                },
                 "type": "Rapid"
             },
             {
@@ -4403,8 +4806,10 @@
                 "startsHere": true,
                 "stops": [552, 557, 563, 567, 571, 576, 580, 590, 596, -1, -1, -1, 608, 611, 616, -1, 619, -1, 627, -1, 633, 642],
                 "terminates": false,
-                "throughDestEn": "Odawara",
-                "throughDestJa": "小田原",
+                "throughDest": {
+                    "en": "Odawara",
+                    "ja": "小田原"
+                },
                 "type": "SpecialRapid"
             },
             {
@@ -4414,8 +4819,10 @@
                 "startsHere": true,
                 "stops": [613, 619, 623, 627, 630, 634, 638, 642, 645, 648, 652, 657, -1, 663, 671],
                 "terminates": false,
-                "throughDestEn": "Hiratsuka",
-                "throughDestJa": "平塚",
+                "throughDest": {
+                    "en": "Hiratsuka",
+                    "ja": "平塚"
+                },
                 "type": "Rapid"
             },
             {
@@ -4425,8 +4832,10 @@
                 "startsHere": true,
                 "stops": [614, 619, 625, 629, 633, 638, 642, 650, 656, -1, -1, -1, 667, 671, 675, -1, 679, -1, 688, -1, 695, 704],
                 "terminates": false,
-                "throughDestEn": "Odawara",
-                "throughDestJa": "小田原",
+                "throughDest": {
+                    "en": "Odawara",
+                    "ja": "小田原"
+                },
                 "type": "SpecialRapid"
             },
             {
@@ -4436,8 +4845,10 @@
                 "startsHere": true,
                 "stops": [673, 679, 683, 687, 690, 694, 698, 702, 705, 708, 712, 717, -1, 723, 732],
                 "terminates": false,
-                "throughDestEn": "Hiratsuka",
-                "throughDestJa": "平塚",
+                "throughDest": {
+                    "en": "Hiratsuka",
+                    "ja": "平塚"
+                },
                 "type": "Rapid"
             },
             {
@@ -4447,8 +4858,10 @@
                 "startsHere": true,
                 "stops": [674, 679, 685, 689, 693, 698, 702, 710, 716, -1, -1, -1, 728, 731, 736, -1, 739, -1, 747, -1, 753, 761],
                 "terminates": false,
-                "throughDestEn": "Odawara",
-                "throughDestJa": "小田原",
+                "throughDest": {
+                    "en": "Odawara",
+                    "ja": "小田原"
+                },
                 "type": "SpecialRapid"
             },
             {
@@ -4458,8 +4871,10 @@
                 "startsHere": true,
                 "stops": [733, 739, 744, 747, 750, 754, 758, 762, 765, 768, 772, 777, -1, 783, 791],
                 "terminates": false,
-                "throughDestEn": "Hiratsuka",
-                "throughDestJa": "平塚",
+                "throughDest": {
+                    "en": "Hiratsuka",
+                    "ja": "平塚"
+                },
                 "type": "Rapid"
             },
             {
@@ -4469,8 +4884,10 @@
                 "startsHere": true,
                 "stops": [734, 739, 745, 749, 753, 758, 762, 770, 776, -1, -1, -1, 788, 791, 796, -1, 799, -1, 807, -1, 814, 822],
                 "terminates": false,
-                "throughDestEn": "Odawara",
-                "throughDestJa": "小田原",
+                "throughDest": {
+                    "en": "Odawara",
+                    "ja": "小田原"
+                },
                 "type": "SpecialRapid"
             },
             {
@@ -4480,8 +4897,10 @@
                 "startsHere": true,
                 "stops": [793, 799, 803, 807, 810, 814, 818, 822, 825, 828, 832, 837, -1, 843, 852],
                 "terminates": false,
-                "throughDestEn": "Kozu",
-                "throughDestJa": "国府津",
+                "throughDest": {
+                    "en": "Kozu",
+                    "ja": "国府津"
+                },
                 "type": "Rapid"
             },
             {
@@ -4491,8 +4910,10 @@
                 "startsHere": false,
                 "stops": [799, 805, 809, 813, 818, 822, 830, 836, -1, -1, -1, 847, 851, 855, -1, 859, -1, 867, -1, 873, 881],
                 "terminates": false,
-                "throughDestEn": "Odawara",
-                "throughDestJa": "小田原",
+                "throughDest": {
+                    "en": "Odawara",
+                    "ja": "小田原"
+                },
                 "type": "SpecialRapid"
             },
             {
@@ -4502,8 +4923,10 @@
                 "startsHere": true,
                 "stops": [852, 858, 863, 866, 869, 873, 877, 881, 884, 887, 891, 896, -1, 903, 912],
                 "terminates": false,
-                "throughDestEn": "Hiratsuka",
-                "throughDestJa": "平塚",
+                "throughDest": {
+                    "en": "Hiratsuka",
+                    "ja": "平塚"
+                },
                 "type": "Rapid"
             },
             {
@@ -4513,8 +4936,10 @@
                 "startsHere": true,
                 "stops": [854, 859, 865, 869, 873, 878, 882, 890, 896, -1, -1, -1, 907, 911, 915, -1, 919, -1, 928, -1, 934, 942],
                 "terminates": false,
-                "throughDestEn": "Odawara",
-                "throughDestJa": "小田原",
+                "throughDest": {
+                    "en": "Odawara",
+                    "ja": "小田原"
+                },
                 "type": "SpecialRapid"
             },
             {
@@ -4524,8 +4949,10 @@
                 "startsHere": true,
                 "stops": [913, 919, 923, 927, 930, 934, 938, 942, 945, 948, 952, 957, -1, 963, 971],
                 "terminates": false,
-                "throughDestEn": "Hiratsuka",
-                "throughDestJa": "平塚",
+                "throughDest": {
+                    "en": "Hiratsuka",
+                    "ja": "平塚"
+                },
                 "type": "Rapid"
             },
             {
@@ -4535,8 +4962,10 @@
                 "startsHere": true,
                 "stops": [915, 921, 926, 931, 934, 939, 943, 951, 957, -1, -1, -1, 968, 971, 976, -1, 979, -1, 987, -1, 993, 1002],
                 "terminates": false,
-                "throughDestEn": "Odawara",
-                "throughDestJa": "小田原",
+                "throughDest": {
+                    "en": "Odawara",
+                    "ja": "小田原"
+                },
                 "type": "SpecialRapid"
             },
             {
@@ -4546,8 +4975,10 @@
                 "startsHere": true,
                 "stops": [973, 981, 985, 989, 992, 996, 1000, 1005, 1007, 1010, 1015, 1020, -1, 1026, 1035],
                 "terminates": false,
-                "throughDestEn": "Hiratsuka",
-                "throughDestJa": "平塚",
+                "throughDest": {
+                    "en": "Hiratsuka",
+                    "ja": "平塚"
+                },
                 "type": "Rapid"
             },
             {
@@ -4557,8 +4988,10 @@
                 "startsHere": true,
                 "stops": [971, 975, 981, 985, 989, 994, 998, 1006, 1013, 1017, 1020, 1024, 1028, 1032, 1036, 1039, 1041, 1045, 1050, -1, 1056, 1064],
                 "terminates": false,
-                "throughDestEn": "Odawara",
-                "throughDestJa": "小田原",
+                "throughDest": {
+                    "en": "Odawara",
+                    "ja": "小田原"
+                },
                 "type": "Rapid"
             },
             {
@@ -4568,8 +5001,10 @@
                 "startsHere": true,
                 "stops": [1034, 1041, 1045, 1049, 1052, 1056, 1060, 1064, 1067, 1070, 1074, 1079, -1, 1085, 1093],
                 "terminates": false,
-                "throughDestEn": "Kozu",
-                "throughDestJa": "国府津",
+                "throughDest": {
+                    "en": "Kozu",
+                    "ja": "国府津"
+                },
                 "type": "Rapid"
             },
             {
@@ -4579,8 +5014,10 @@
                 "startsHere": true,
                 "stops": [1032, 1037, 1043, 1047, 1051, 1056, 1060, 1068, -1, 1079, 1083, 1086, 1090, 1094, 1099, 1102, 1105, 1109, 1115, -1, 1121, 1130],
                 "terminates": false,
-                "throughDestEn": "Hiratsuka",
-                "throughDestJa": "平塚",
+                "throughDest": {
+                    "en": "Hiratsuka",
+                    "ja": "平塚"
+                },
                 "type": "Rapid"
             },
             {
@@ -4590,8 +5027,10 @@
                 "startsHere": true,
                 "stops": [1094, 1101, 1105, 1109, 1112, 1116, 1120, 1124, 1127, 1130, 1134, 1139, -1, 1145, 1153],
                 "terminates": false,
-                "throughDestEn": "Hiratsuka",
-                "throughDestJa": "平塚",
+                "throughDest": {
+                    "en": "Hiratsuka",
+                    "ja": "平塚"
+                },
                 "type": "Rapid"
             },
             {
@@ -4601,8 +5040,10 @@
                 "startsHere": true,
                 "stops": [1095, 1100, 1105, 1109, 1113, 1118, 1122, 1130, 1136, 1140, 1144, 1147, 1151, 1155, 1159, 1162, 1165, 1169, 1174, -1, 1180, 1188],
                 "terminates": false,
-                "throughDestEn": "Odawara",
-                "throughDestJa": "小田原",
+                "throughDest": {
+                    "en": "Odawara",
+                    "ja": "小田原"
+                },
                 "type": "Rapid"
             },
             {
@@ -4612,8 +5053,10 @@
                 "startsHere": true,
                 "stops": [1153, 1159, 1164, 1167, 1171, 1175, 1178, 1183, 1185, 1188, 1192, 1197, -1, 1203, 1211],
                 "terminates": false,
-                "throughDestEn": "Kozu",
-                "throughDestJa": "国府津",
+                "throughDest": {
+                    "en": "Kozu",
+                    "ja": "国府津"
+                },
                 "type": "Rapid"
             },
             {
@@ -4623,8 +5066,10 @@
                 "startsHere": true,
                 "stops": [1155, 1160, 1166, 1170, 1174, 1179, 1183, 1190, 1196, 1201, 1204, 1207, 1211, 1215, 1219, 1222, 1225, 1229, 1234, -1, 1240, 1248],
                 "terminates": false,
-                "throughDestEn": "Odawara",
-                "throughDestJa": "小田原",
+                "throughDest": {
+                    "en": "Odawara",
+                    "ja": "小田原"
+                },
                 "type": "Rapid"
             },
             {
@@ -4634,8 +5079,10 @@
                 "startsHere": true,
                 "stops": [1236, 1243, 1248, 1251, 1255, 1259, 1263, 1268, 1271, 1274, 1278, 1286, -1, 1293, 1302],
                 "terminates": false,
-                "throughDestEn": "Odawara",
-                "throughDestJa": "小田原",
+                "throughDest": {
+                    "en": "Odawara",
+                    "ja": "小田原"
+                },
                 "type": "Rapid"
             },
             {
@@ -4645,8 +5092,10 @@
                 "startsHere": true,
                 "stops": [1284, 1291, 1295, 1299, 1302, 1306, 1310, 1315, 1317, 1320, 1325, 1330, -1, 1336, 1345],
                 "terminates": false,
-                "throughDestEn": "Odawara",
-                "throughDestJa": "小田原",
+                "throughDest": {
+                    "en": "Odawara",
+                    "ja": "小田原"
+                },
                 "type": "Rapid"
             },
             {
@@ -4656,8 +5105,10 @@
                 "startsHere": true,
                 "stops": [1265, 1270, 1275, 1280, 1284, 1289, 1293, 1300, 1306, 1311, 1314, 1318, 1322, 1326, 1330, 1333, 1335, 1339, 1345, -1, 1351, 1360],
                 "terminates": false,
-                "throughDestEn": "Kozu",
-                "throughDestJa": "国府津",
+                "throughDest": {
+                    "en": "Kozu",
+                    "ja": "国府津"
+                },
                 "type": "Rapid"
             },
             {

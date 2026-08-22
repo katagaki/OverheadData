@@ -2,10 +2,14 @@
     {
         "colorHex": "#005AAA",
         "delayInfo": {
-            "checkMethodEn": "Check the Keisei train information page, the Keisei app, or X (@keiseirailway). Delays and suspensions are posted as they occur.",
-            "checkMethodJa": "京成電鉄「運行情報」ページ、京成アプリ、またはX（@keiseirailway）で確認できます。遅延・運転見合わせが発生した場合に掲載されます。",
-            "statusPageURL": "https://www.keisei.co.jp/traininfo/index.php",
-            "statusPageURLEn": "https://www.keisei.co.jp/traininfo/index.php",
+            "checkMethod": {
+                "en": "Check the Keisei train information page, the Keisei app, or X (@keiseirailway). Delays and suspensions are posted as they occur.",
+                "ja": "京成電鉄「運行情報」ページ、京成アプリ、またはX（@keiseirailway）で確認できます。遅延・運転見合わせが発生した場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://www.keisei.co.jp/traininfo/index.php",
+                "ja": "https://www.keisei.co.jp/traininfo/index.php"
+            },
             "xAccount": "@keiseirailway"
         },
         "directions": [
@@ -15,8 +19,10 @@
                 "id": "static.RailDirection:Keisei.Chihara.Chiharadai",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Chiharadai",
-                "nameJa": "ちはら台方面",
+                "name": {
+                    "en": "For Chiharadai",
+                    "ja": "ちはら台方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -62,8 +68,10 @@
                 "id": "static.RailDirection:Keisei.Chihara.Chibachuo",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Chiba-Chuo",
-                "nameJa": "千葉中央方面",
+                "name": {
+                    "en": "For Chiba-Chuo",
+                    "ja": "千葉中央方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -107,74 +115,91 @@
         "hopTimesMinutes": [3, 2, 4, 2, 3],
         "id": "Railway:Keisei.Chihara",
         "isLoop": false,
-        "nameEn": "Keisei Chihara Line",
-        "nameJa": "京成千原線",
+        "name": {
+            "en": "Keisei Chihara Line",
+            "ja": "京成千原線",
+            "ko": "게이세이 전철 지하라 선",
+            "zh-Hans": "千原线",
+            "zh-Hant": "千原線"
+        },
         "operatorId": "Operator:Keisei",
         "stations": [
             {
                 "id": "Station:Keisei.Chihara.Chibachuo",
                 "latitude": 35.6073,
                 "longitude": 140.1178,
-                "name": "千葉中央",
-                "nameEn": "Chiba-Chuo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Chiba-Chuo",
+                    "ja": "千葉中央",
+                    "ko": "지바추오",
+                    "zh-Hans": "千叶中央",
+                    "zh-Hant": "千叶中央"
+                },
                 "stationCode": "KS60"
             },
             {
                 "id": "Station:Keisei.Chihara.Chibadera",
                 "latitude": 35.5903,
                 "longitude": 140.1322,
-                "name": "千葉寺",
-                "nameEn": "Chibadera",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Chibadera",
+                    "ja": "千葉寺",
+                    "ko": "지바데라",
+                    "zh-Hans": "千叶寺",
+                    "zh-Hant": "千葉寺"
+                },
                 "stationCode": "KS61"
             },
             {
                 "id": "Station:Keisei.Chihara.Omoridai",
                 "latitude": 35.5842,
                 "longitude": 140.1494,
-                "name": "大森台",
-                "nameEn": "Omoridai",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Omoridai",
+                    "ja": "大森台",
+                    "ko": "오모리다이",
+                    "zh-Hans": "大森台",
+                    "zh-Hant": "大森臺"
+                },
                 "stationCode": "KS62"
             },
             {
                 "id": "Station:Keisei.Chihara.Gakuemmae",
                 "latitude": 35.5608,
                 "longitude": 140.1584,
-                "name": "学園前",
-                "nameEn": "Gakuemmae",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Gakuemmae",
+                    "ja": "学園前",
+                    "ko": "가쿠엔마에",
+                    "zh-Hans": "学园前",
+                    "zh-Hant": "學園前"
+                },
                 "stationCode": "KS63"
             },
             {
                 "id": "Station:Keisei.Chihara.Oyumino",
                 "latitude": 35.55,
                 "longitude": 140.1663,
-                "name": "おゆみ野",
-                "nameEn": "Oyumino",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Oyumino",
+                    "ja": "おゆみ野",
+                    "ko": "오유미노",
+                    "zh-Hans": "生实野",
+                    "zh-Hant": "生實野"
+                },
                 "stationCode": "KS64"
             },
             {
                 "id": "Station:Keisei.Chihara.Chiharadai",
                 "latitude": 35.5338,
                 "longitude": 140.1702,
-                "name": "ちはら台",
-                "nameEn": "Chiharadai",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Chiharadai",
+                    "ja": "ちはら台",
+                    "ko": "지하라다이",
+                    "zh-Hans": "千原台",
+                    "zh-Hant": "千原臺"
+                },
                 "stationCode": "KS65"
             }
         ],
@@ -184,10 +209,14 @@
                 "connectingLineId": "Railway:Keisei.Chiba",
                 "end": "descending",
                 "junctionStationId": "Station:Keisei.Chihara.Chibachuo",
-                "lineNameEn": "Keisei Chiba Line",
-                "lineNameJa": "京成千葉線",
-                "towardEn": "for Keisei-Tsudanuma",
-                "towardJa": "京成津田沼方面"
+                "lineName": {
+                    "en": "Keisei Chiba Line",
+                    "ja": "京成千葉線"
+                },
+                "toward": {
+                    "en": "for Keisei-Tsudanuma",
+                    "ja": "京成津田沼方面"
+                }
             }
         ]
     }

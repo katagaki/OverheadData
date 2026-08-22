@@ -2,10 +2,14 @@
     {
         "colorHex": "#005AAA",
         "delayInfo": {
-            "checkMethodEn": "Check the Keisei train information page, the Keisei app, or X (@keiseirailway). Delays and suspensions are posted as they occur.",
-            "checkMethodJa": "京成電鉄「運行情報」ページ、京成アプリ、またはX（@keiseirailway）で確認できます。遅延・運転見合わせが発生した場合に掲載されます。",
-            "statusPageURL": "https://www.keisei.co.jp/traininfo/index.php",
-            "statusPageURLEn": "https://www.keisei.co.jp/traininfo/index.php",
+            "checkMethod": {
+                "en": "Check the Keisei train information page, the Keisei app, or X (@keiseirailway). Delays and suspensions are posted as they occur.",
+                "ja": "京成電鉄「運行情報」ページ、京成アプリ、またはX（@keiseirailway）で確認できます。遅延・運転見合わせが発生した場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://www.keisei.co.jp/traininfo/index.php",
+                "ja": "https://www.keisei.co.jp/traininfo/index.php"
+            },
             "xAccount": "@keiseirailway"
         },
         "directions": [
@@ -15,8 +19,10 @@
                 "id": "static.RailDirection:Keisei.Kanamachi.KeiseiKanamachi",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Keisei-Kanamachi",
-                "nameJa": "京成金町方面",
+                "name": {
+                    "en": "For Keisei-Kanamachi",
+                    "ja": "京成金町方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -62,8 +68,10 @@
                 "id": "static.RailDirection:Keisei.Kanamachi.KeiseiTakasago",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Keisei-Takasago",
-                "nameJa": "京成高砂方面",
+                "name": {
+                    "en": "For Keisei-Takasago",
+                    "ja": "京成高砂方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -107,41 +115,52 @@
         "hopTimesMinutes": [2.5, 2.5],
         "id": "Railway:Keisei.Kanamachi",
         "isLoop": false,
-        "nameEn": "Keisei Kanamachi Line",
-        "nameJa": "京成金町線",
+        "name": {
+            "en": "Keisei Kanamachi Line",
+            "ja": "京成金町線",
+            "ko": "게이세이 전철 가나마치 선",
+            "zh-Hans": "金町线",
+            "zh-Hant": "金町線"
+        },
         "operatorId": "Operator:Keisei",
         "stations": [
             {
                 "id": "Station:Keisei.Kanamachi.KeiseiTakasago",
                 "latitude": 35.75094,
                 "longitude": 139.867122,
-                "name": "京成高砂",
-                "nameEn": "Keisei-Takasago",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Keisei-Takasago",
+                    "ja": "京成高砂",
+                    "ko": "게이세이 다카사고",
+                    "zh-Hans": "京成高砂",
+                    "zh-Hant": "京成高砂"
+                },
                 "stationCode": "KS10"
             },
             {
                 "id": "Station:Keisei.Kanamachi.Shibamata",
                 "latitude": 35.7565,
                 "longitude": 139.8753,
-                "name": "柴又",
-                "nameEn": "Shibamata",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shibamata",
+                    "ja": "柴又",
+                    "ko": "시바마타",
+                    "zh-Hans": "柴又",
+                    "zh-Hant": "柴又"
+                },
                 "stationCode": "KS50"
             },
             {
                 "id": "Station:Keisei.Kanamachi.KeiseiKanamachi",
                 "latitude": 35.7685,
                 "longitude": 139.8705,
-                "name": "京成金町",
-                "nameEn": "Keisei-Kanamachi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Keisei-Kanamachi",
+                    "ja": "京成金町",
+                    "ko": "게이세이카나마치",
+                    "zh-Hans": "京成金町",
+                    "zh-Hant": "京成金町"
+                },
                 "stationCode": "KS51"
             }
         ],

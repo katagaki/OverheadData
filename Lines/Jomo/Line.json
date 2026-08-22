@@ -2,10 +2,14 @@
     {
         "colorHex": "#40E0D0",
         "delayInfo": {
-            "checkMethodEn": "Check the Jomo Electric Railway website. Suspensions and delays are posted in the notices on the top page.",
-            "checkMethodJa": "上毛電気鉄道の公式サイトで確認できます。運転見合わせ・遅延はトップページのお知らせに掲載されます。",
-            "statusPageURL": "https://www.jomorailway.com/",
-            "statusPageURLEn": "https://www.jomorailway.com/",
+            "checkMethod": {
+                "en": "Check the Jomo Electric Railway website. Suspensions and delays are posted in the notices on the top page.",
+                "ja": "上毛電気鉄道の公式サイトで確認できます。運転見合わせ・遅延はトップページのお知らせに掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://www.jomorailway.com/",
+                "ja": "https://www.jomorailway.com/"
+            },
             "xAccount": null
         },
         "directions": [
@@ -15,21 +19,23 @@
                 "id": "static.RailDirection:Jomo.Jomo.NishiKiryu",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Nishi-Kiryu",
-                "nameJa": "西桐生方面",
+                "name": {
+                    "en": "For Nishi-Kiryu",
+                    "ja": "西桐生方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
                             "from": "05:25",
-                            "headwayMinutes": 37.0
+                            "headwayMinutes": 37
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 29.0
+                            "headwayMinutes": 29
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 25.0
+                            "headwayMinutes": 25
                         },
                         {
                             "from": "08:00",
@@ -37,19 +43,19 @@
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 25.0
+                            "headwayMinutes": 25
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 30.0
+                            "headwayMinutes": 30
                         },
                         {
                             "from": "21:00",
-                            "headwayMinutes": 35.0
+                            "headwayMinutes": 35
                         },
                         {
                             "from": "22:00",
-                            "headwayMinutes": 40.0
+                            "headwayMinutes": 40
                         }
                     ],
                     "firstDeparture": "05:25",
@@ -60,15 +66,15 @@
                     "bands": [
                         {
                             "from": "05:25",
-                            "headwayMinutes": 37.0
+                            "headwayMinutes": 37
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 29.0
+                            "headwayMinutes": 29
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 25.0
+                            "headwayMinutes": 25
                         },
                         {
                             "from": "08:00",
@@ -76,19 +82,19 @@
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 25.0
+                            "headwayMinutes": 25
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 30.0
+                            "headwayMinutes": 30
                         },
                         {
                             "from": "21:00",
-                            "headwayMinutes": 35.0
+                            "headwayMinutes": 35
                         },
                         {
                             "from": "22:00",
-                            "headwayMinutes": 40.0
+                            "headwayMinutes": 40
                         }
                     ],
                     "firstDeparture": "05:25",
@@ -102,21 +108,23 @@
                 "id": "static.RailDirection:Jomo.Jomo.ChuoMaebashi",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Chuo-Maebashi",
-                "nameJa": "中央前橋方面",
+                "name": {
+                    "en": "For Chuo-Maebashi",
+                    "ja": "中央前橋方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
                             "from": "05:49",
-                            "headwayMinutes": 29.0
+                            "headwayMinutes": 29
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 21.0
+                            "headwayMinutes": 21
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 30.0
+                            "headwayMinutes": 30
                         },
                         {
                             "from": "08:00",
@@ -124,7 +132,7 @@
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 30.0
+                            "headwayMinutes": 30
                         },
                         {
                             "from": "14:00",
@@ -152,15 +160,15 @@
                         },
                         {
                             "from": "20:00",
-                            "headwayMinutes": 30.0
+                            "headwayMinutes": 30
                         },
                         {
                             "from": "21:00",
-                            "headwayMinutes": 56.0
+                            "headwayMinutes": 56
                         },
                         {
                             "from": "22:00",
-                            "headwayMinutes": 40.0
+                            "headwayMinutes": 40
                         }
                     ],
                     "firstDeparture": "05:49",
@@ -171,15 +179,15 @@
                     "bands": [
                         {
                             "from": "05:49",
-                            "headwayMinutes": 29.0
+                            "headwayMinutes": 29
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 21.0
+                            "headwayMinutes": 21
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 30.0
+                            "headwayMinutes": 30
                         },
                         {
                             "from": "08:00",
@@ -187,7 +195,7 @@
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 30.0
+                            "headwayMinutes": 30
                         },
                         {
                             "from": "14:00",
@@ -215,15 +223,15 @@
                         },
                         {
                             "from": "20:00",
-                            "headwayMinutes": 30.0
+                            "headwayMinutes": 30
                         },
                         {
                             "from": "21:00",
-                            "headwayMinutes": 56.0
+                            "headwayMinutes": 56
                         },
                         {
                             "from": "22:00",
-                            "headwayMinutes": 40.0
+                            "headwayMinutes": 40
                         }
                     ],
                     "firstDeparture": "05:49",
@@ -232,264 +240,315 @@
                 }
             }
         ],
-        "hopTimesMinutes": [1.0, 2.0, 2.0, 2.0, 2.0, 3.0, 2.0, 4.0, 2.0, 2.0, 2.0, 3.0, 2.0, 3.0, 2.0, 2.0, 6.0, 3.0, 2.0, 2.0, 1.0, 2.0],
+        "hopTimesMinutes": [1, 2, 2, 2, 2, 3, 2, 4, 2, 2, 2, 3, 2, 3, 2, 2, 6, 3, 2, 2, 1, 2],
         "id": "Railway:Jomo.Jomo",
         "isLoop": false,
-        "nameEn": "Jomo Electric Railway Jomo Line",
-        "nameJa": "上毛電気鉄道上毛線",
+        "name": {
+            "en": "Jomo Electric Railway Jomo Line",
+            "ja": "上毛電気鉄道上毛線",
+            "ko": "조모 전기 철도 조모선",
+            "zh-Hans": "上毛线",
+            "zh-Hant": "上毛線"
+        },
         "operatorId": "Operator:Jomo",
         "stations": [
             {
                 "id": "Station:Jomo.Jomo.ChuoMaebashi",
                 "latitude": 36.39118,
                 "longitude": 139.07492,
-                "name": "中央前橋",
-                "nameEn": "Chuo-Maebashi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Chuo-Maebashi",
+                    "ja": "中央前橋",
+                    "ko": "주오마에바시",
+                    "zh-Hans": "中央前桥",
+                    "zh-Hant": "中央前橋"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Jomo.Jomo.Joto",
                 "latitude": 36.39119,
                 "longitude": 139.08108,
-                "name": "城東",
-                "nameEn": "Joto",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Joto",
+                    "ja": "城東",
+                    "ko": "조토",
+                    "zh-Hans": "城东",
+                    "zh-Hant": "城東"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Jomo.Jomo.Mitsumata",
                 "latitude": 36.39373,
                 "longitude": 139.08903,
-                "name": "三俣",
-                "nameEn": "Mitsumata",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Mitsumata",
+                    "ja": "三俣",
+                    "ko": "미쓰마타",
+                    "zh-Hans": "三俣",
+                    "zh-Hant": "三俁"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Jomo.Jomo.Katakai",
                 "latitude": 36.39395,
                 "longitude": 139.09551,
-                "name": "片貝",
-                "nameEn": "Katakai",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Katakai",
+                    "ja": "片貝",
+                    "ko": "가타카이",
+                    "zh-Hans": "片贝",
+                    "zh-Hant": "片貝"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Jomo.Jomo.Kamiizumi",
                 "latitude": 36.39428,
                 "longitude": 139.10658,
-                "name": "上泉",
-                "nameEn": "Kamiizumi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kamiizumi",
+                    "ja": "上泉",
+                    "ko": "가미이즈미",
+                    "zh-Hans": "上泉",
+                    "zh-Hant": "上泉"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Jomo.Jomo.Akasaka",
                 "latitude": 36.39752,
                 "longitude": 139.11754,
-                "name": "赤坂",
-                "nameEn": "Akasaka",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Akasaka",
+                    "ja": "赤坂",
+                    "ko": "아카사카",
+                    "zh-Hans": "赤坂",
+                    "zh-Hant": "赤坂"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Jomo.Jomo.ShinzoKekkanCenter",
                 "latitude": 36.40517,
                 "longitude": 139.12881,
-                "name": "心臓血管センター",
-                "nameEn": "Shinzo-Kekkan Center",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shinzo-Kekkan Center",
+                    "ja": "心臓血管センター",
+                    "ko": "심장혈관센터",
+                    "zh-Hans": "心脏血管中心",
+                    "zh-Hant": "心臟血管中心"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Jomo.Jomo.Egi",
                 "latitude": 36.40734,
                 "longitude": 139.13373,
-                "name": "江木",
-                "nameEn": "Egi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Egi",
+                    "ja": "江木",
+                    "ko": "에기",
+                    "zh-Hans": "江木",
+                    "zh-Hant": "江木"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Jomo.Jomo.Ogo",
                 "latitude": 36.413,
                 "longitude": 139.15665,
-                "name": "大胡",
-                "nameEn": "Ogo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ogo",
+                    "ja": "大胡",
+                    "ko": "오고",
+                    "zh-Hans": "大胡",
+                    "zh-Hant": "大胡"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Jomo.Jomo.Higoshi",
                 "latitude": 36.41553,
                 "longitude": 139.17359,
-                "name": "樋越",
-                "nameEn": "Higoshi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Higoshi",
+                    "ja": "樋越",
+                    "ko": "히고시",
+                    "zh-Hans": "樋越",
+                    "zh-Hant": "樋越"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Jomo.Jomo.Kitahara",
                 "latitude": 36.41367,
                 "longitude": 139.18487,
-                "name": "北原",
-                "nameEn": "Kitahara",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kitahara",
+                    "ja": "北原",
+                    "ko": "기타하라",
+                    "zh-Hans": "北原",
+                    "zh-Hant": "北原"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Jomo.Jomo.Araya",
                 "latitude": 36.41381,
                 "longitude": 139.19644,
-                "name": "新屋",
-                "nameEn": "Araya",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Araya",
+                    "ja": "新屋",
+                    "ko": "아라야",
+                    "zh-Hans": "新屋",
+                    "zh-Hant": "新屋"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Jomo.Jomo.Kasukawa",
                 "latitude": 36.41671,
                 "longitude": 139.21075,
-                "name": "粕川",
-                "nameEn": "Kasukawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kasukawa",
+                    "ja": "粕川",
+                    "ko": "가스카와",
+                    "zh-Hans": "粕川",
+                    "zh-Hant": "粕川"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Jomo.Jomo.Zen",
                 "latitude": 36.41709,
                 "longitude": 139.22194,
-                "name": "膳",
-                "nameEn": "Zen",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Zen",
+                    "ja": "膳",
+                    "ko": "젠",
+                    "zh-Hans": "膳",
+                    "zh-Hant": "膳"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Jomo.Jomo.Niisato",
                 "latitude": 36.41859,
                 "longitude": 139.2377,
-                "name": "新里",
-                "nameEn": "Niisato",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Niisato",
+                    "ja": "新里",
+                    "ko": "니이사토",
+                    "zh-Hans": "新里",
+                    "zh-Hant": "新里"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Jomo.Jomo.Nikkawa",
                 "latitude": 36.41821,
                 "longitude": 139.25782,
-                "name": "新川",
-                "nameEn": "Nikkawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nikkawa",
+                    "ja": "新川",
+                    "ko": "닛카와",
+                    "zh-Hans": "新川",
+                    "zh-Hant": "新川"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Jomo.Jomo.HigashiNikkawa",
                 "latitude": 36.42205,
                 "longitude": 139.26766,
-                "name": "東新川",
-                "nameEn": "Higashi-Nikkawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Higashi-Nikkawa",
+                    "ja": "東新川",
+                    "ko": "히가시닛카와",
+                    "zh-Hans": "东新川",
+                    "zh-Hant": "東新川"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Jomo.Jomo.Akagi",
                 "latitude": 36.42577,
                 "longitude": 139.27629,
-                "name": "赤城",
-                "nameEn": "Akagi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Akagi",
+                    "ja": "赤城",
+                    "ko": "아카기",
+                    "zh-Hans": "赤城",
+                    "zh-Hant": "赤城"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Jomo.Jomo.KiryuKyujomae",
                 "latitude": 36.41929,
                 "longitude": 139.29812,
-                "name": "桐生球場前",
-                "nameEn": "Kiryu-Kyujo-mae",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kiryu-Kyujo-mae",
+                    "ja": "桐生球場前",
+                    "ko": "기류큐조마에",
+                    "zh-Hans": "桐生球场前",
+                    "zh-Hant": "桐生球場前"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Jomo.Jomo.Tennojuku",
                 "latitude": 36.41495,
                 "longitude": 139.30815,
-                "name": "天王宿",
-                "nameEn": "Tennojuku",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tennojuku",
+                    "ja": "天王宿",
+                    "ko": "덴노주쿠",
+                    "zh-Hans": "天王宿",
+                    "zh-Hant": "天王宿"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Jomo.Jomo.Fujiyamashita",
                 "latitude": 36.41411,
                 "longitude": 139.3159,
-                "name": "富士山下",
-                "nameEn": "Fujiyamashita",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Fujiyamashita",
+                    "ja": "富士山下",
+                    "ko": "후지야마시타",
+                    "zh-Hans": "富士山下",
+                    "zh-Hant": "富士山下"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Jomo.Jomo.Maruyamashita",
                 "latitude": 36.41681,
                 "longitude": 139.32169,
-                "name": "丸山下",
-                "nameEn": "Maruyama-shita",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Maruyama-shita",
+                    "ja": "丸山下",
+                    "ko": "마루야마시타",
+                    "zh-Hans": "丸山下",
+                    "zh-Hant": "丸山下"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Jomo.Jomo.NishiKiryu",
                 "latitude": 36.41393,
                 "longitude": 139.33382,
-                "name": "西桐生",
-                "nameEn": "Nishi-Kiryu",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nishi-Kiryu",
+                    "ja": "西桐生",
+                    "ko": "니시키류",
+                    "zh-Hans": "西桐生",
+                    "zh-Hant": "西桐生"
+                },
                 "stationCode": ""
             }
         ],
@@ -1793,6 +1852,6 @@
                 "type": "Local"
             }
         ],
-        "upHopTimesMinutes": [2.0, 2.0, 1.0, 2.0, 2.0, 2.0, 3.0, 3.0, 4.0, 2.0, 2.0, 2.0, 4.0, 2.0, 3.0, 2.0, 2.0, 5.0, 2.0, 2.0, 1.0, 2.0]
+        "upHopTimesMinutes": [2, 2, 1, 2, 2, 2, 3, 3, 4, 2, 2, 2, 4, 2, 3, 2, 2, 5, 2, 2, 1, 2]
     }
 ]

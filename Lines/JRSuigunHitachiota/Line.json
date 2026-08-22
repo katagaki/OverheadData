@@ -2,10 +2,14 @@
     {
         "colorHex": "#368C44",
         "delayInfo": {
-            "checkMethodEn": "Check the JR East Train Operation Information page or the JR East app. In the Tokyo area, delays or suspensions of 15 minutes or more are posted.",
-            "checkMethodJa": "JR東日本「列車運行情報」ページまたはJR東日本アプリで確認できます。首都圏エリアでは15分以上の遅れ・運休が発生または見込まれる場合に掲載されます。",
-            "statusPageURL": "https://traininfo.jreast.co.jp/train_info/line.aspx?gid=1&lineid=suigunline",
-            "statusPageURLEn": "https://traininfo.jreast.co.jp/train_info/e/kanto.aspx",
+            "checkMethod": {
+                "en": "Check the JR East Train Operation Information page or the JR East app. In the Tokyo area, delays or suspensions of 15 minutes or more are posted.",
+                "ja": "JR東日本「列車運行情報」ページまたはJR東日本アプリで確認できます。首都圏エリアでは15分以上の遅れ・運休が発生または見込まれる場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://traininfo.jreast.co.jp/train_info/e/kanto.aspx",
+                "ja": "https://traininfo.jreast.co.jp/train_info/line.aspx?gid=1&lineid=suigunline"
+            },
             "xAccount": "@JRE_Tohoku_A"
         },
         "directions": [
@@ -15,8 +19,10 @@
                 "id": "static.RailDirection:JR-East.SuigunHitachiota.Hitachiota",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Hitachiota",
-                "nameJa": "常陸太田方面",
+                "name": {
+                    "en": "For Hitachiota",
+                    "ja": "常陸太田方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -134,8 +140,10 @@
                 "id": "static.RailDirection:JR-East.SuigunHitachiota.KamiSugaya",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Kami-Sugaya & Mito",
-                "nameJa": "上菅谷・水戸方面",
+                "name": {
+                    "en": "For Kami-Sugaya & Mito",
+                    "ja": "上菅谷・水戸方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -259,74 +267,88 @@
         "hopTimesMinutes": [4, 2, 4, 3, 2],
         "id": "Railway:JR-East.SuigunHitachiota",
         "isLoop": false,
-        "nameEn": "Suigun Line (Hitachiota Branch)",
-        "nameJa": "水郡線常陸太田支線",
+        "name": {
+            "en": "Suigun Line (Hitachiota Branch)",
+            "ja": "水郡線常陸太田支線"
+        },
         "operatorId": "Operator:JR-East",
         "stations": [
             {
                 "id": "Station:JR-East.SuigunHitachiota.KamiSugaya",
                 "latitude": 36.455361,
                 "longitude": 140.492639,
-                "name": "上菅谷",
-                "nameEn": "Kami-Sugaya",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kami-Sugaya",
+                    "ja": "上菅谷",
+                    "ko": "가미스가야",
+                    "zh-Hans": "上菅谷",
+                    "zh-Hant": "上菅谷"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.SuigunHitachiota.MinamiSakaide",
                 "latitude": 36.477361,
                 "longitude": 140.498472,
-                "name": "南酒出",
-                "nameEn": "Minami-Sakaide",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Minami-Sakaide",
+                    "ja": "南酒出",
+                    "ko": "미나미사카이데",
+                    "zh-Hans": "南酒出",
+                    "zh-Hant": "南酒出"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.SuigunHitachiota.Nukada",
                 "latitude": 36.485694,
                 "longitude": 140.503444,
-                "name": "額田",
-                "nameEn": "Nukada",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nukada",
+                    "ja": "額田",
+                    "ko": "누카다",
+                    "zh-Hans": "额田",
+                    "zh-Hant": "額田"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.SuigunHitachiota.Kawai",
                 "latitude": 36.508306,
                 "longitude": 140.517083,
-                "name": "河合",
-                "nameEn": "Kawai",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kawai",
+                    "ja": "河合",
+                    "ko": "가와이",
+                    "zh-Hans": "河合",
+                    "zh-Hant": "河合"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.SuigunHitachiota.Yagawara",
                 "latitude": 36.519917,
                 "longitude": 140.525028,
-                "name": "谷河原",
-                "nameEn": "Yagawara",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Yagawara",
+                    "ja": "谷河原",
+                    "ko": "야가와라",
+                    "zh-Hans": "谷河原",
+                    "zh-Hant": "谷河原"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.SuigunHitachiota.HitachiOta",
                 "latitude": 36.531194,
                 "longitude": 140.527889,
-                "name": "常陸太田",
-                "nameEn": "Hitachi-Ota",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Hitachi-Ota",
+                    "ja": "常陸太田",
+                    "ko": "히타치오타",
+                    "zh-Hans": "常陆太田",
+                    "zh-Hant": "常陸太田"
+                },
                 "stationCode": ""
             }
         ],
@@ -336,10 +358,14 @@
                 "connectingLineId": "Railway:JR-East.Suigun",
                 "end": "descending",
                 "junctionStationId": "Station:JR-East.SuigunHitachiota.KamiSugaya",
-                "lineNameEn": "Suigun Line",
-                "lineNameJa": "水郡線",
-                "towardEn": "for Mito",
-                "towardJa": "水戸方面"
+                "lineName": {
+                    "en": "Suigun Line",
+                    "ja": "水郡線"
+                },
+                "toward": {
+                    "en": "for Mito",
+                    "ja": "水戸方面"
+                }
             }
         ],
         "timetableRuns": [
@@ -485,9 +511,11 @@
                 "startsHere": false,
                 "stops": [372, 375, 377, 381, 384, 389],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "水戸",
-                "throughDestEn": "Mito"
+                "throughDest": {
+                    "en": "Mito",
+                    "ja": "水戸"
+                },
+                "type": "Local"
             },
             {
                 "ascending": false,
@@ -496,9 +524,11 @@
                 "startsHere": false,
                 "stops": [420, 423, 425, 429, 432, 436],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "水戸",
-                "throughDestEn": "Mito"
+                "throughDest": {
+                    "en": "Mito",
+                    "ja": "水戸"
+                },
+                "type": "Local"
             },
             {
                 "ascending": false,
@@ -507,9 +537,11 @@
                 "startsHere": false,
                 "stops": [473, 475, 478, 482, 484, 488],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "水戸",
-                "throughDestEn": "Mito"
+                "throughDest": {
+                    "en": "Mito",
+                    "ja": "水戸"
+                },
+                "type": "Local"
             },
             {
                 "ascending": false,
@@ -518,9 +550,11 @@
                 "startsHere": false,
                 "stops": [555, 558, 560, 565, 567, 571],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "水戸",
-                "throughDestEn": "Mito"
+                "throughDest": {
+                    "en": "Mito",
+                    "ja": "水戸"
+                },
+                "type": "Local"
             },
             {
                 "ascending": false,
@@ -556,9 +590,11 @@
                 "startsHere": false,
                 "stops": [917, 919, 922, 926, 928, 938],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "水戸",
-                "throughDestEn": "Mito"
+                "throughDest": {
+                    "en": "Mito",
+                    "ja": "水戸"
+                },
+                "type": "Local"
             },
             {
                 "ascending": false,
@@ -567,9 +603,11 @@
                 "startsHere": false,
                 "stops": [970, 973, 975, 979, 982, 986],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "水戸",
-                "throughDestEn": "Mito"
+                "throughDest": {
+                    "en": "Mito",
+                    "ja": "水戸"
+                },
+                "type": "Local"
             },
             {
                 "ascending": false,
@@ -596,9 +634,11 @@
                 "startsHere": false,
                 "stops": [1150, 1152, 1155, 1159, 1161, 1170],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "水戸",
-                "throughDestEn": "Mito"
+                "throughDest": {
+                    "en": "Mito",
+                    "ja": "水戸"
+                },
+                "type": "Local"
             },
             {
                 "ascending": false,
@@ -769,9 +809,11 @@
                 "startsHere": false,
                 "stops": [372, 375, 377, 381, 384, 389],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "水戸",
-                "throughDestEn": "Mito"
+                "throughDest": {
+                    "en": "Mito",
+                    "ja": "水戸"
+                },
+                "type": "Local"
             },
             {
                 "ascending": false,
@@ -780,9 +822,11 @@
                 "startsHere": false,
                 "stops": [420, 423, 425, 429, 432, 436],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "水戸",
-                "throughDestEn": "Mito"
+                "throughDest": {
+                    "en": "Mito",
+                    "ja": "水戸"
+                },
+                "type": "Local"
             },
             {
                 "ascending": false,
@@ -791,9 +835,11 @@
                 "startsHere": false,
                 "stops": [473, 475, 478, 482, 484, 488],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "水戸",
-                "throughDestEn": "Mito"
+                "throughDest": {
+                    "en": "Mito",
+                    "ja": "水戸"
+                },
+                "type": "Local"
             },
             {
                 "ascending": false,
@@ -802,9 +848,11 @@
                 "startsHere": false,
                 "stops": [555, 558, 560, 565, 567, 571],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "水戸",
-                "throughDestEn": "Mito"
+                "throughDest": {
+                    "en": "Mito",
+                    "ja": "水戸"
+                },
+                "type": "Local"
             },
             {
                 "ascending": false,
@@ -840,9 +888,11 @@
                 "startsHere": false,
                 "stops": [917, 919, 922, 926, 928, 938],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "水戸",
-                "throughDestEn": "Mito"
+                "throughDest": {
+                    "en": "Mito",
+                    "ja": "水戸"
+                },
+                "type": "Local"
             },
             {
                 "ascending": false,
@@ -851,9 +901,11 @@
                 "startsHere": false,
                 "stops": [970, 973, 975, 979, 982, 986],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "水戸",
-                "throughDestEn": "Mito"
+                "throughDest": {
+                    "en": "Mito",
+                    "ja": "水戸"
+                },
+                "type": "Local"
             },
             {
                 "ascending": false,
@@ -880,9 +932,11 @@
                 "startsHere": false,
                 "stops": [1150, 1152, 1155, 1159, 1161, 1170],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "水戸",
-                "throughDestEn": "Mito"
+                "throughDest": {
+                    "en": "Mito",
+                    "ja": "水戸"
+                },
+                "type": "Local"
             },
             {
                 "ascending": false,

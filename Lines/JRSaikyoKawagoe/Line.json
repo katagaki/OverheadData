@@ -2,10 +2,14 @@
     {
         "colorHex": "#00AC9A",
         "delayInfo": {
-            "checkMethodEn": "Check the JR East Train Operation Information page or the JR East app. In the Tokyo area, delays or suspensions of 15 minutes or more are posted.",
-            "checkMethodJa": "JR東日本「列車運行情報」ページまたはJR東日本アプリで確認できます。首都圏エリアでは15分以上の遅れ・運休が発生または見込まれる場合に掲載されます。",
-            "statusPageURL": "https://traininfo.jreast.co.jp/train_info/line.aspx?gid=1&lineid=saikyoline",
-            "statusPageURLEn": "https://traininfo.jreast.co.jp/train_info/e/kanto.aspx",
+            "checkMethod": {
+                "en": "Check the JR East Train Operation Information page or the JR East app. In the Tokyo area, delays or suspensions of 15 minutes or more are posted.",
+                "ja": "JR東日本「列車運行情報」ページまたはJR東日本アプリで確認できます。首都圏エリアでは15分以上の遅れ・運休が発生または見込まれる場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://traininfo.jreast.co.jp/train_info/e/kanto.aspx",
+                "ja": "https://traininfo.jreast.co.jp/train_info/line.aspx?gid=1&lineid=saikyoline"
+            },
             "xAccount": "@JRE_F_Toho_Taka"
         },
         "directions": [
@@ -15,8 +19,10 @@
                 "id": "static.RailDirection:JR-East.SaikyoKawagoe.Omiya",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Omiya",
-                "nameJa": "大宮方面",
+                "name": {
+                    "en": "For Omiya",
+                    "ja": "大宮方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -78,8 +84,10 @@
                 "id": "static.RailDirection:JR-East.SaikyoKawagoe.Osaki",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Osaki",
-                "nameJa": "大崎方面",
+                "name": {
+                    "en": "For Osaki",
+                    "ja": "大崎方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -139,217 +147,260 @@
         "hopTimesMinutes": [5, 3, 5, 6, 3, 2, 3, 3, 2, 3, 2, 2, 3, 2, 2, 2, 2, 3],
         "id": "Railway:JR-East.SaikyoKawagoe",
         "isLoop": false,
-        "nameEn": "Saikyo Line",
-        "nameJa": "埼京線",
+        "name": {
+            "en": "Saikyo Line",
+            "ja": "埼京線",
+            "ko": "사이쿄선",
+            "zh-Hans": "埼京线",
+            "zh-Hant": "埼京線"
+        },
         "operatorId": "Operator:JR-East",
         "stations": [
             {
                 "id": "Station:JR-East.SaikyoKawagoe.Osaki",
                 "latitude": 35.6197,
                 "longitude": 139.7286,
-                "name": "大崎",
-                "nameEn": "Osaki",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Osaki",
+                    "ja": "大崎",
+                    "ko": "오사키",
+                    "zh-Hans": "大崎",
+                    "zh-Hant": "大崎"
+                },
                 "stationCode": "JA08"
             },
             {
                 "id": "Station:JR-East.SaikyoKawagoe.Ebisu",
                 "latitude": 35.6467,
                 "longitude": 139.7101,
-                "name": "恵比寿",
-                "nameEn": "Ebisu",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ebisu",
+                    "ja": "恵比寿",
+                    "ko": "에비스",
+                    "zh-Hans": "惠比寿",
+                    "zh-Hant": "惠比壽"
+                },
                 "stationCode": "JA09"
             },
             {
                 "id": "Station:JR-East.SaikyoKawagoe.Shibuya",
                 "latitude": 35.658,
                 "longitude": 139.7016,
-                "name": "渋谷",
-                "nameEn": "Shibuya",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shibuya",
+                    "ja": "渋谷",
+                    "ko": "시부야",
+                    "zh-Hans": "涩谷",
+                    "zh-Hant": "澀谷"
+                },
                 "stationCode": "JA10"
             },
             {
                 "id": "Station:JR-East.SaikyoKawagoe.Shinjuku",
                 "latitude": 35.6896,
                 "longitude": 139.7006,
-                "name": "新宿",
-                "nameEn": "Shinjuku",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shinjuku",
+                    "ja": "新宿",
+                    "ko": "신주쿠",
+                    "zh-Hans": "新宿",
+                    "zh-Hant": "新宿"
+                },
                 "stationCode": "JA11"
             },
             {
                 "id": "Station:JR-East.SaikyoKawagoe.Ikebukuro",
                 "latitude": 35.7295,
                 "longitude": 139.7109,
-                "name": "池袋",
-                "nameEn": "Ikebukuro",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋",
+                    "ko": "이케부쿠로",
+                    "zh-Hans": "池袋",
+                    "zh-Hant": "池袋"
+                },
                 "stationCode": "JA12"
             },
             {
                 "id": "Station:JR-East.SaikyoKawagoe.Itabashi",
                 "latitude": 35.7454,
                 "longitude": 139.7194,
-                "name": "板橋",
-                "nameEn": "Itabashi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Itabashi",
+                    "ja": "板橋",
+                    "ko": "이타바시",
+                    "zh-Hans": "板桥",
+                    "zh-Hant": "板橋"
+                },
                 "stationCode": "JA13"
             },
             {
                 "id": "Station:JR-East.SaikyoKawagoe.Jujo",
                 "latitude": 35.7605,
                 "longitude": 139.7218,
-                "name": "十条",
-                "nameEn": "Jujo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Jujo",
+                    "ja": "十条",
+                    "ko": "주조",
+                    "zh-Hans": "十条",
+                    "zh-Hant": "十條"
+                },
                 "stationCode": "JA14"
             },
             {
                 "id": "Station:JR-East.SaikyoKawagoe.Akabane",
                 "latitude": 35.7782,
                 "longitude": 139.7208,
-                "name": "赤羽",
-                "nameEn": "Akabane",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Akabane",
+                    "ja": "赤羽",
+                    "ko": "아카바네",
+                    "zh-Hans": "赤羽",
+                    "zh-Hant": "赤羽"
+                },
                 "stationCode": "JA15"
             },
             {
                 "id": "Station:JR-East.SaikyoKawagoe.KitaAkabane",
                 "latitude": 35.786781,
                 "longitude": 139.706029,
-                "name": "北赤羽",
-                "nameEn": "Kita-Akabane",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kita-Akabane",
+                    "ja": "北赤羽",
+                    "ko": "기타아카바네",
+                    "zh-Hans": "北赤羽",
+                    "zh-Hant": "北赤羽"
+                },
                 "stationCode": "JA16"
             },
             {
                 "id": "Station:JR-East.SaikyoKawagoe.Ukimafunado",
                 "latitude": 35.79118,
                 "longitude": 139.69151,
-                "name": "浮間舟渡",
-                "nameEn": "Ukima-Funado",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ukima-Funado",
+                    "ja": "浮間舟渡",
+                    "ko": "우키마후나도",
+                    "zh-Hans": "浮间舟渡",
+                    "zh-Hant": "浮間舟渡"
+                },
                 "stationCode": "JA17"
             },
             {
                 "id": "Station:JR-East.SaikyoKawagoe.TodaKoen",
                 "latitude": 35.807909,
                 "longitude": 139.678195,
-                "name": "戸田公園",
-                "nameEn": "Toda-Koen",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Toda-Koen",
+                    "ja": "戸田公園",
+                    "ko": "도다코엔",
+                    "zh-Hans": "户田公园",
+                    "zh-Hant": "戶田公園"
+                },
                 "stationCode": "JA18"
             },
             {
                 "id": "Station:JR-East.SaikyoKawagoe.Toda",
                 "latitude": 35.817699,
                 "longitude": 139.669597,
-                "name": "戸田",
-                "nameEn": "Toda",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Toda",
+                    "ja": "戸田",
+                    "ko": "도다",
+                    "zh-Hans": "户田",
+                    "zh-Hant": "戶田"
+                },
                 "stationCode": "JA19"
             },
             {
                 "id": "Station:JR-East.SaikyoKawagoe.KitaToda",
                 "latitude": 35.827653,
                 "longitude": 139.660111,
-                "name": "北戸田",
-                "nameEn": "Kita-Toda",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kita-Toda",
+                    "ja": "北戸田",
+                    "ko": "기타토다",
+                    "zh-Hans": "北户田",
+                    "zh-Hant": "北戶田"
+                },
                 "stationCode": "JA20"
             },
             {
                 "id": "Station:JR-East.SaikyoKawagoe.MusashiUrawa",
                 "latitude": 35.8456,
                 "longitude": 139.6484,
-                "name": "武蔵浦和",
-                "nameEn": "Musashi-Urawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Musashi-Urawa",
+                    "ja": "武蔵浦和",
+                    "ko": "무사시우라와",
+                    "zh-Hans": "武藏浦和",
+                    "zh-Hant": "武藏浦和"
+                },
                 "stationCode": "JA21"
             },
             {
                 "id": "Station:JR-East.SaikyoKawagoe.NakaUrawa",
                 "latitude": 35.853525,
                 "longitude": 139.637722,
-                "name": "中浦和",
-                "nameEn": "Naka-Urawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Naka-Urawa",
+                    "ja": "中浦和",
+                    "ko": "나카우라와",
+                    "zh-Hans": "中浦和",
+                    "zh-Hant": "中浦和"
+                },
                 "stationCode": "JA22"
             },
             {
                 "id": "Station:JR-East.SaikyoKawagoe.MinamiYono",
                 "latitude": 35.867886,
                 "longitude": 139.631039,
-                "name": "南与野",
-                "nameEn": "Minami-Yono",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Minami-Yono",
+                    "ja": "南与野",
+                    "ko": "미나미요노",
+                    "zh-Hans": "南与野",
+                    "zh-Hant": "南與野"
+                },
                 "stationCode": "JA23"
             },
             {
                 "id": "Station:JR-East.SaikyoKawagoe.Yonohommachi",
                 "latitude": 35.8805,
                 "longitude": 139.6248,
-                "name": "与野本町",
-                "nameEn": "Yonohommachi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Yonohommachi",
+                    "ja": "与野本町",
+                    "ko": "요노혼마치",
+                    "zh-Hans": "与野本町",
+                    "zh-Hant": "與野本町"
+                },
                 "stationCode": "JA24"
             },
             {
                 "id": "Station:JR-East.SaikyoKawagoe.KitaYono",
                 "latitude": 35.890498,
                 "longitude": 139.628505,
-                "name": "北与野",
-                "nameEn": "Kita-Yono",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kita-Yono",
+                    "ja": "北与野",
+                    "ko": "기타요노",
+                    "zh-Hans": "北与野",
+                    "zh-Hant": "北與野"
+                },
                 "stationCode": "JA25"
             },
             {
                 "id": "Station:JR-East.SaikyoKawagoe.Omiya",
                 "latitude": 35.9064,
                 "longitude": 139.6238,
-                "name": "大宮",
-                "nameEn": "Omiya",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Omiya",
+                    "ja": "大宮",
+                    "ko": "오미야",
+                    "zh-Hans": "大宫",
+                    "zh-Hant": "大宮"
+                },
                 "stationCode": "JA26"
             }
         ],
@@ -359,26 +410,38 @@
                 "connectingLineId": "Railway:TWR.Rinkai",
                 "end": "descending",
                 "junctionStationId": "Station:JR-East.SaikyoKawagoe.Osaki",
-                "lineNameEn": "Rinkai Line",
-                "lineNameJa": "りんかい線",
-                "towardEn": "for Shin-Kiba",
-                "towardJa": "新木場方面"
+                "lineName": {
+                    "en": "Rinkai Line",
+                    "ja": "りんかい線"
+                },
+                "toward": {
+                    "en": "for Shin-Kiba",
+                    "ja": "新木場方面"
+                }
             },
             {
                 "end": "descending",
                 "junctionStationId": "Station:JR-East.SaikyoKawagoe.Osaki",
-                "lineNameEn": "Sotetsu Line",
-                "lineNameJa": "相鉄線",
-                "towardEn": "for Ebina",
-                "towardJa": "海老名方面"
+                "lineName": {
+                    "en": "Sotetsu Line",
+                    "ja": "相鉄線"
+                },
+                "toward": {
+                    "en": "for Ebina",
+                    "ja": "海老名方面"
+                }
             },
             {
                 "end": "ascending",
                 "junctionStationId": "Station:JR-East.SaikyoKawagoe.Omiya",
-                "lineNameEn": "JR Kawagoe Line",
-                "lineNameJa": "川越線",
-                "towardEn": "for Kawagoe",
-                "towardJa": "川越方面"
+                "lineName": {
+                    "en": "JR Kawagoe Line",
+                    "ja": "川越線"
+                },
+                "toward": {
+                    "en": "for Kawagoe",
+                    "ja": "川越方面"
+                }
             }
         ],
         "timetableRuns": [

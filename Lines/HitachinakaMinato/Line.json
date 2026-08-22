@@ -2,10 +2,14 @@
     {
         "colorHex": "#F29700",
         "delayInfo": {
-            "checkMethodEn": "Check the Hitachinaka Seaside Railway website. Suspensions and delays are posted in the notices.",
-            "checkMethodJa": "ひたちなか海浜鉄道の公式サイトで確認できます。運転見合わせ・遅延はお知らせに掲載されます。",
-            "statusPageURL": "http://www.hitachinaka-rail.co.jp/",
-            "statusPageURLEn": "http://www.hitachinaka-rail.co.jp/",
+            "checkMethod": {
+                "en": "Check the Hitachinaka Seaside Railway website. Suspensions and delays are posted in the notices.",
+                "ja": "ひたちなか海浜鉄道の公式サイトで確認できます。運転見合わせ・遅延はお知らせに掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "http://www.hitachinaka-rail.co.jp/",
+                "ja": "http://www.hitachinaka-rail.co.jp/"
+            },
             "xAccount": "@minatoline_op"
         },
         "directions": [
@@ -15,57 +19,59 @@
                 "id": "static.RailDirection:Hitachinaka.Minato.Ajigaura",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Ajigaura",
-                "nameJa": "阿字ヶ浦方面",
+                "name": {
+                    "en": "For Ajigaura",
+                    "ja": "阿字ヶ浦方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
                             "from": "05:29",
-                            "headwayMinutes": 33.0
+                            "headwayMinutes": 33
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 42.0
+                            "headwayMinutes": 42
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 35.0
+                            "headwayMinutes": 35
                         },
                         {
                             "from": "11:00",
-                            "headwayMinutes": 44.0
+                            "headwayMinutes": 44
                         },
                         {
                             "from": "12:00",
-                            "headwayMinutes": 38.0
+                            "headwayMinutes": 38
                         },
                         {
                             "from": "13:00",
-                            "headwayMinutes": 40.0
+                            "headwayMinutes": 40
                         },
                         {
                             "from": "14:00",
-                            "headwayMinutes": 39.0
+                            "headwayMinutes": 39
                         },
                         {
                             "from": "15:00",
-                            "headwayMinutes": 40.0
+                            "headwayMinutes": 40
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 33.0
+                            "headwayMinutes": 33
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 40.0
+                            "headwayMinutes": 40
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 50.0
+                            "headwayMinutes": 50
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 44.0
+                            "headwayMinutes": 44
                         },
                         {
                             "from": "20:00",
@@ -73,11 +79,11 @@
                         },
                         {
                             "from": "21:00",
-                            "headwayMinutes": 41.0
+                            "headwayMinutes": 41
                         },
                         {
                             "from": "22:00",
-                            "headwayMinutes": 45.0
+                            "headwayMinutes": 45
                         }
                     ],
                     "firstDeparture": "05:29",
@@ -88,39 +94,39 @@
                     "bands": [
                         {
                             "from": "05:29",
-                            "headwayMinutes": 33.0
+                            "headwayMinutes": 33
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 42.0
+                            "headwayMinutes": 42
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 21.0
+                            "headwayMinutes": 21
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 42.0
+                            "headwayMinutes": 42
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 35.0
+                            "headwayMinutes": 35
                         },
                         {
                             "from": "11:00",
-                            "headwayMinutes": 44.0
+                            "headwayMinutes": 44
                         },
                         {
                             "from": "12:00",
-                            "headwayMinutes": 38.0
+                            "headwayMinutes": 38
                         },
                         {
                             "from": "13:00",
-                            "headwayMinutes": 40.0
+                            "headwayMinutes": 40
                         },
                         {
                             "from": "14:00",
-                            "headwayMinutes": 39.0
+                            "headwayMinutes": 39
                         },
                         {
                             "from": "15:00",
@@ -128,7 +134,7 @@
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 25.0
+                            "headwayMinutes": 25
                         },
                         {
                             "from": "17:00",
@@ -136,11 +142,11 @@
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 25.0
+                            "headwayMinutes": 25
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 22.0
+                            "headwayMinutes": 22
                         },
                         {
                             "from": "20:00",
@@ -148,11 +154,11 @@
                         },
                         {
                             "from": "21:00",
-                            "headwayMinutes": 41.0
+                            "headwayMinutes": 41
                         },
                         {
                             "from": "22:00",
-                            "headwayMinutes": 45.0
+                            "headwayMinutes": 45
                         }
                     ],
                     "firstDeparture": "05:29",
@@ -166,33 +172,35 @@
                 "id": "static.RailDirection:Hitachinaka.Minato.Katsuta",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Katsuta",
-                "nameJa": "勝田方面",
+                "name": {
+                    "en": "For Katsuta",
+                    "ja": "勝田方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
                             "from": "05:31",
-                            "headwayMinutes": 32.0
+                            "headwayMinutes": 32
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 42.0
+                            "headwayMinutes": 42
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 40.0
+                            "headwayMinutes": 40
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 43.0
+                            "headwayMinutes": 43
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 35.0
+                            "headwayMinutes": 35
                         },
                         {
                             "from": "11:00",
-                            "headwayMinutes": 44.0
+                            "headwayMinutes": 44
                         },
                         {
                             "from": "12:00",
@@ -200,11 +208,11 @@
                         },
                         {
                             "from": "13:00",
-                            "headwayMinutes": 40.0
+                            "headwayMinutes": 40
                         },
                         {
                             "from": "14:00",
-                            "headwayMinutes": 38.0
+                            "headwayMinutes": 38
                         },
                         {
                             "from": "15:00",
@@ -212,7 +220,7 @@
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 33.0
+                            "headwayMinutes": 33
                         },
                         {
                             "from": "17:00",
@@ -220,11 +228,11 @@
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 50.0
+                            "headwayMinutes": 50
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 44.0
+                            "headwayMinutes": 44
                         },
                         {
                             "from": "20:00",
@@ -232,7 +240,7 @@
                         },
                         {
                             "from": "21:00",
-                            "headwayMinutes": 43.0
+                            "headwayMinutes": 43
                         },
                         {
                             "from": "22:00",
@@ -247,31 +255,31 @@
                     "bands": [
                         {
                             "from": "04:57",
-                            "headwayMinutes": 34.0
+                            "headwayMinutes": 34
                         },
                         {
                             "from": "05:00",
-                            "headwayMinutes": 32.0
+                            "headwayMinutes": 32
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 42.0
+                            "headwayMinutes": 42
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 40.0
+                            "headwayMinutes": 40
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 43.0
+                            "headwayMinutes": 43
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 35.0
+                            "headwayMinutes": 35
                         },
                         {
                             "from": "11:00",
-                            "headwayMinutes": 44.0
+                            "headwayMinutes": 44
                         },
                         {
                             "from": "12:00",
@@ -279,11 +287,11 @@
                         },
                         {
                             "from": "13:00",
-                            "headwayMinutes": 40.0
+                            "headwayMinutes": 40
                         },
                         {
                             "from": "14:00",
-                            "headwayMinutes": 38.0
+                            "headwayMinutes": 38
                         },
                         {
                             "from": "15:00",
@@ -291,7 +299,7 @@
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 33.0
+                            "headwayMinutes": 33
                         },
                         {
                             "from": "17:00",
@@ -299,11 +307,11 @@
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 50.0
+                            "headwayMinutes": 50
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 44.0
+                            "headwayMinutes": 44
                         },
                         {
                             "from": "20:00",
@@ -311,7 +319,7 @@
                         },
                         {
                             "from": "21:00",
-                            "headwayMinutes": 43.0
+                            "headwayMinutes": 43
                         },
                         {
                             "from": "22:00",
@@ -324,132 +332,158 @@
                 }
             }
         ],
-        "hopTimesMinutes": [1.0, 3.0, 5.0, 3.0, 4.0, 3.0, 2.0, 3.0, 2.0, 2.0],
+        "hopTimesMinutes": [1, 3, 5, 3, 4, 3, 2, 3, 2, 2],
         "id": "Railway:Hitachinaka.Minato",
         "isLoop": false,
-        "nameEn": "Hitachinaka Seaside Railway Minato Line",
-        "nameJa": "ひたちなか海浜鉄道湊線",
+        "name": {
+            "en": "Hitachinaka Seaside Railway Minato Line",
+            "ja": "ひたちなか海浜鉄道湊線",
+            "zh-Hans": "凑线",
+            "zh-Hant": "湊線"
+        },
         "operatorId": "Operator:Hitachinaka",
         "stations": [
             {
                 "id": "Station:Hitachinaka.Minato.Katsuta",
                 "latitude": 36.39443,
                 "longitude": 140.52424,
-                "name": "勝田",
-                "nameEn": "Katsuta",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Katsuta",
+                    "ja": "勝田",
+                    "ko": "가쓰타",
+                    "zh-Hans": "胜田",
+                    "zh-Hant": "勝田"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Hitachinaka.Minato.Kokimae",
                 "latitude": 36.38795,
                 "longitude": 140.52473,
-                "name": "工機前",
-                "nameEn": "Kokimae",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kokimae",
+                    "ja": "工機前",
+                    "ko": "고키마에",
+                    "zh-Hans": "工机前",
+                    "zh-Hant": "工機前"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Hitachinaka.Minato.Kaneage",
                 "latitude": 36.38258,
                 "longitude": 140.53379,
-                "name": "金上",
-                "nameEn": "Kaneage",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kaneage",
+                    "ja": "金上",
+                    "ko": "가네아게",
+                    "zh-Hans": "金上",
+                    "zh-Hant": "金上"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Hitachinaka.Minato.Nakane",
                 "latitude": 36.36739,
                 "longitude": 140.56237,
-                "name": "中根",
-                "nameEn": "Nakane",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nakane",
+                    "ja": "中根",
+                    "ko": "나카네",
+                    "zh-Hans": "中根",
+                    "zh-Hant": "中根"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Hitachinaka.Minato.TakadanoTekkyo",
                 "latitude": 36.35232,
                 "longitude": 140.58036,
-                "name": "高田の鉄橋",
-                "nameEn": "Takada-no-Tekkyo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Takada-no-Tekkyo",
+                    "ja": "高田の鉄橋",
+                    "ko": "다카다노텟쿄",
+                    "zh-Hans": "高田之铁桥",
+                    "zh-Hant": "高田之鐵橋"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Hitachinaka.Minato.Nakaminato",
                 "latitude": 36.34508,
                 "longitude": 140.58812,
-                "name": "那珂湊",
-                "nameEn": "Nakaminato",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nakaminato",
+                    "ja": "那珂湊",
+                    "ko": "나카미나토",
+                    "zh-Hans": "那珂凑",
+                    "zh-Hant": "那珂湊"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Hitachinaka.Minato.Tonoyama",
                 "latitude": 36.34996,
                 "longitude": 140.60198,
-                "name": "殿山",
-                "nameEn": "Tonoyama",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tonoyama",
+                    "ja": "殿山",
+                    "ko": "도노야마",
+                    "zh-Hans": "殿山",
+                    "zh-Hant": "殿山"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Hitachinaka.Minato.Hiraiso",
                 "latitude": 36.35777,
                 "longitude": 140.60767,
-                "name": "平磯",
-                "nameEn": "Hiraiso",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Hiraiso",
+                    "ja": "平磯",
+                    "ko": "히라이소",
+                    "zh-Hans": "平矶",
+                    "zh-Hant": "平磯"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Hitachinaka.Minato.Minohamagakuen",
                 "latitude": 36.37266,
                 "longitude": 140.61701,
-                "name": "美乃浜学園",
-                "nameEn": "Minohamagakuen",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Minohamagakuen",
+                    "ja": "美乃浜学園",
+                    "ko": "미노하마가쿠엔",
+                    "zh-Hans": "美乃滨学园",
+                    "zh-Hant": "美乃濱學園"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Hitachinaka.Minato.Isozaki",
                 "latitude": 36.37801,
                 "longitude": 140.61796,
-                "name": "磯崎",
-                "nameEn": "Isozaki",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Isozaki",
+                    "ja": "磯崎",
+                    "ko": "이소자키",
+                    "zh-Hans": "矶崎",
+                    "zh-Hant": "磯崎"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Hitachinaka.Minato.Ajigaura",
                 "latitude": 36.38362,
                 "longitude": 140.61237,
-                "name": "阿字ヶ浦",
-                "nameEn": "Ajigaura",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ajigaura",
+                    "ja": "阿字ヶ浦",
+                    "ko": "아지가우라",
+                    "zh-Hans": "阿字浦",
+                    "zh-Hant": "阿字浦"
+                },
                 "stationCode": ""
             }
         ],
@@ -1591,6 +1625,6 @@
                 "type": "Local"
             }
         ],
-        "upHopTimesMinutes": [2.0, 2.0, 5.0, 3.0, 3.0, 4.0, 2.0, 3.0, 2.0, 2.0]
+        "upHopTimesMinutes": [2, 2, 5, 3, 3, 4, 2, 3, 2, 2]
     }
 ]

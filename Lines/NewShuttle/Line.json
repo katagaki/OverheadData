@@ -2,10 +2,14 @@
     {
         "colorHex": "#10A899",
         "delayInfo": {
-            "checkMethodEn": "Check the Saitama New Urban Transit New Shuttle service information page. Delays and suspensions are posted as they occur.",
-            "checkMethodJa": "埼玉新都市交通ニューシャトル「運行情報」ページで確認できます。遅延・運転見合わせが発生した場合に掲載されます。",
-            "statusPageURL": "https://www.new-shuttle.jp/",
-            "statusPageURLEn": "https://www.new-shuttle.jp/",
+            "checkMethod": {
+                "en": "Check the Saitama New Urban Transit New Shuttle service information page. Delays and suspensions are posted as they occur.",
+                "ja": "埼玉新都市交通ニューシャトル「運行情報」ページで確認できます。遅延・運転見合わせが発生した場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://www.new-shuttle.jp/",
+                "ja": "https://www.new-shuttle.jp/"
+            },
             "xAccount": null
         },
         "directions": [
@@ -15,29 +19,31 @@
                 "id": "static.RailDirection:SaitamaTransit.NewShuttle.NS13",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Uchijuku",
-                "nameJa": "内宿方面",
+                "name": {
+                    "en": "For Uchijuku",
+                    "ja": "内宿方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
                             "from": "06:00",
-                            "headwayMinutes": 10.0
+                            "headwayMinutes": 10
                         },
                         {
                             "from": "11:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "12:00",
-                            "headwayMinutes": 10.0
+                            "headwayMinutes": 10
                         },
                         {
                             "from": "20:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "22:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         }
                     ],
                     "firstDeparture": "06:00",
@@ -48,7 +54,7 @@
                     "bands": [
                         {
                             "from": "05:50",
-                            "headwayMinutes": 10.0
+                            "headwayMinutes": 10
                         },
                         {
                             "from": "06:00",
@@ -56,31 +62,31 @@
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 5.0
+                            "headwayMinutes": 5
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 10.0
+                            "headwayMinutes": 10
                         },
                         {
                             "from": "11:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "15:00",
-                            "headwayMinutes": 10.0
+                            "headwayMinutes": 10
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 5.0
+                            "headwayMinutes": 5
                         },
                         {
                             "from": "20:00",
-                            "headwayMinutes": 10.0
+                            "headwayMinutes": 10
                         },
                         {
                             "from": "22:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         }
                     ],
                     "firstDeparture": "05:50",
@@ -94,25 +100,27 @@
                 "id": "static.RailDirection:SaitamaTransit.NewShuttle.NS01",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Omiya",
-                "nameJa": "大宮方面",
+                "name": {
+                    "en": "For Omiya",
+                    "ja": "大宮方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
                             "from": "05:26",
-                            "headwayMinutes": 10.0
+                            "headwayMinutes": 10
                         },
                         {
                             "from": "11:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "12:00",
-                            "headwayMinutes": 10.0
+                            "headwayMinutes": 10
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "21:00",
@@ -120,7 +128,7 @@
                         },
                         {
                             "from": "22:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         }
                     ],
                     "firstDeparture": "05:26",
@@ -131,27 +139,27 @@
                     "bands": [
                         {
                             "from": "05:20",
-                            "headwayMinutes": 10.0
+                            "headwayMinutes": 10
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 5.0
+                            "headwayMinutes": 5
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 10.0
+                            "headwayMinutes": 10
                         },
                         {
                             "from": "11:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "14:00",
-                            "headwayMinutes": 10.0
+                            "headwayMinutes": 10
                         },
                         {
                             "from": "22:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         }
                     ],
                     "firstDeparture": "05:20",
@@ -160,154 +168,181 @@
                 }
             }
         ],
-        "hopTimesMinutes": [3.0, 2.0, 2.0, 2.0, 1.0, 2.0, 1.0, 3.0, 2.0, 2.0, 2.0, 2.0],
+        "hopTimesMinutes": [3, 2, 2, 2, 1, 2, 1, 3, 2, 2, 2, 2],
         "id": "Railway:SaitamaTransit.NewShuttle",
         "isLoop": false,
-        "nameEn": "New Shuttle",
-        "nameJa": "ニューシャトル",
+        "name": {
+            "en": "New Shuttle",
+            "ja": "ニューシャトル"
+        },
         "operatorId": "Operator:SaitamaTransit",
         "stations": [
             {
                 "id": "Station:SaitamaTransit.NewShuttle.NS01",
                 "latitude": 35.907859,
                 "longitude": 139.622322,
-                "name": "大宮",
-                "nameEn": "Omiya",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Omiya",
+                    "ja": "大宮",
+                    "zh-Hans": "大宫",
+                    "zh-Hant": "大宮"
+                },
                 "stationCode": "NS01"
             },
             {
                 "id": "Station:SaitamaTransit.NewShuttle.NS02",
                 "latitude": 35.920237,
                 "longitude": 139.617548,
-                "name": "鉄道博物館",
-                "nameEn": "Tetsudo Hakubutsukan",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tetsudo Hakubutsukan",
+                    "ja": "鉄道博物館",
+                    "ko": "데쓰도하쿠부쓰칸",
+                    "zh-Hans": "铁道博物馆",
+                    "zh-Hant": "鐵道博物館"
+                },
                 "stationCode": "NS02"
             },
             {
                 "id": "Station:SaitamaTransit.NewShuttle.NS03",
                 "latitude": 35.935688,
                 "longitude": 139.616671,
-                "name": "加茂宮",
-                "nameEn": "Kamonomiya",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kamonomiya",
+                    "ja": "加茂宮",
+                    "ko": "가모노미야",
+                    "zh-Hans": "加茂宫",
+                    "zh-Hant": "加茂宮"
+                },
                 "stationCode": "NS03"
             },
             {
                 "id": "Station:SaitamaTransit.NewShuttle.NS04",
                 "latitude": 35.942693,
                 "longitude": 139.618047,
-                "name": "東宮原",
-                "nameEn": "Higashi-Miyahara",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Higashi-Miyahara",
+                    "ja": "東宮原",
+                    "ko": "히가시미야하라",
+                    "zh-Hans": "东宫原",
+                    "zh-Hant": "東宮原"
+                },
                 "stationCode": "NS04"
             },
             {
                 "id": "Station:SaitamaTransit.NewShuttle.NS05",
                 "latitude": 35.950041,
                 "longitude": 139.619437,
-                "name": "今羽",
-                "nameEn": "Konba",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Konba",
+                    "ja": "今羽",
+                    "ko": "곤바",
+                    "zh-Hans": "今羽",
+                    "zh-Hant": "今羽"
+                },
                 "stationCode": "NS05"
             },
             {
                 "id": "Station:SaitamaTransit.NewShuttle.NS06",
                 "latitude": 35.957236,
                 "longitude": 139.620739,
-                "name": "吉野原",
-                "nameEn": "Yoshinohara",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Yoshinohara",
+                    "ja": "吉野原",
+                    "ko": "요시노하라",
+                    "zh-Hans": "吉野原",
+                    "zh-Hant": "吉野原"
+                },
                 "stationCode": "NS06"
             },
             {
                 "id": "Station:SaitamaTransit.NewShuttle.NS07",
                 "latitude": 35.963921,
                 "longitude": 139.622157,
-                "name": "原市",
-                "nameEn": "Haraichi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Haraichi",
+                    "ja": "原市",
+                    "ko": "하라이치",
+                    "zh-Hans": "原市",
+                    "zh-Hant": "原市"
+                },
                 "stationCode": "NS07"
             },
             {
                 "id": "Station:SaitamaTransit.NewShuttle.NS08",
                 "latitude": 35.971069,
                 "longitude": 139.623529,
-                "name": "沼南",
-                "nameEn": "Shonan",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shonan",
+                    "ja": "沼南",
+                    "ko": "쇼난",
+                    "zh-Hans": "沼南",
+                    "zh-Hant": "沼南"
+                },
                 "stationCode": "NS08"
             },
             {
                 "id": "Station:SaitamaTransit.NewShuttle.NS09",
                 "latitude": 35.979766,
                 "longitude": 139.624662,
-                "name": "丸山",
-                "nameEn": "Maruyama",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Maruyama",
+                    "ja": "丸山",
+                    "ko": "마루야마",
+                    "zh-Hans": "丸山",
+                    "zh-Hant": "丸山"
+                },
                 "stationCode": "NS09"
             },
             {
                 "id": "Station:SaitamaTransit.NewShuttle.NS10",
                 "latitude": 35.991435,
                 "longitude": 139.622101,
-                "name": "志久",
-                "nameEn": "Shiku",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shiku",
+                    "ja": "志久",
+                    "ko": "시쿠",
+                    "zh-Hans": "志久",
+                    "zh-Hant": "志久"
+                },
                 "stationCode": "NS10"
             },
             {
                 "id": "Station:SaitamaTransit.NewShuttle.NS11",
                 "latitude": 35.999268,
                 "longitude": 139.617307,
-                "name": "伊奈中央",
-                "nameEn": "Ina-Chuo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ina-Chuo",
+                    "ja": "伊奈中央",
+                    "ko": "이나추오",
+                    "zh-Hans": "伊奈中央",
+                    "zh-Hant": "伊奈中央"
+                },
                 "stationCode": "NS11"
             },
             {
                 "id": "Station:SaitamaTransit.NewShuttle.NS12",
                 "latitude": 36.007427,
                 "longitude": 139.608391,
-                "name": "羽貫",
-                "nameEn": "Hanuki",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Hanuki",
+                    "ja": "羽貫",
+                    "ko": "하누키",
+                    "zh-Hans": "羽贯",
+                    "zh-Hant": "羽貫"
+                },
                 "stationCode": "NS12"
             },
             {
                 "id": "Station:SaitamaTransit.NewShuttle.NS13",
                 "latitude": 36.014079,
                 "longitude": 139.599884,
-                "name": "内宿",
-                "nameEn": "Uchijuku",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Uchijuku",
+                    "ja": "内宿",
+                    "ko": "우치주쿠",
+                    "zh-Hans": "内宿",
+                    "zh-Hant": "內宿"
+                },
                 "stationCode": "NS13"
             }
         ],
@@ -4149,6 +4184,6 @@
                 "type": "Local"
             }
         ],
-        "upHopTimesMinutes": [3.0, 3.0, 2.0, 1.0, 2.0, 1.0, 2.0, 2.0, 3.0, 3.0, 3.0, 2.0]
+        "upHopTimesMinutes": [3, 3, 2, 1, 2, 1, 2, 2, 3, 3, 3, 2]
     }
 ]

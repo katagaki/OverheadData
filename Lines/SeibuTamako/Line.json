@@ -2,10 +2,14 @@
     {
         "colorHex": "#FFA600",
         "delayInfo": {
-            "checkMethodEn": "Check the Seibu Railway service status page, the Seibu app, or X (@seiburailway). Delays of roughly 15 minutes or more and suspensions are posted.",
-            "checkMethodJa": "西武鉄道「運行情報」ページ、西武線アプリ、またはX（@seiburailway）で確認できます。おおむね15分以上の遅延・運転見合わせが発生した場合に掲載されます。",
-            "statusPageURL": "https://www.seiburailway.jp/railway/railwayinfo/",
-            "statusPageURLEn": "https://www.seiburailway.jp/en/railway/railwayinfo/",
+            "checkMethod": {
+                "en": "Check the Seibu Railway service status page, the Seibu app, or X (@seiburailway). Delays of roughly 15 minutes or more and suspensions are posted.",
+                "ja": "西武鉄道「運行情報」ページ、西武線アプリ、またはX（@seiburailway）で確認できます。おおむね15分以上の遅延・運転見合わせが発生した場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://www.seiburailway.jp/en/railway/railwayinfo/",
+                "ja": "https://www.seiburailway.jp/railway/railwayinfo/"
+            },
             "xAccount": "@seiburailway"
         },
         "directions": [
@@ -15,8 +19,10 @@
                 "id": "static.RailDirection:Seibu.Tamako.Tamako",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Tamako",
-                "nameJa": "多摩湖方面",
+                "name": {
+                    "en": "For Tamako",
+                    "ja": "多摩湖方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -25,43 +31,43 @@
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 10.0
+                            "headwayMinutes": 10
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 10.0
+                            "headwayMinutes": 10
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "11:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "21:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "22:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "23:00",
@@ -76,47 +82,47 @@
                     "bands": [
                         {
                             "from": "05:23",
-                            "headwayMinutes": 21.0
+                            "headwayMinutes": 21
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 10.0
+                            "headwayMinutes": 10
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "11:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "12:00",
-                            "headwayMinutes": 10.0
+                            "headwayMinutes": 10
                         },
                         {
                             "from": "15:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 16.0
+                            "headwayMinutes": 16
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 10.0
+                            "headwayMinutes": 10
                         },
                         {
                             "from": "22:00",
-                            "headwayMinutes": 11.0
+                            "headwayMinutes": 11
                         },
                         {
                             "from": "23:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "00:00",
-                            "headwayMinutes": 12.0
+                            "headwayMinutes": 12
                         }
                     ],
                     "firstDeparture": "05:23",
@@ -130,8 +136,10 @@
                 "id": "static.RailDirection:Seibu.Tamako.Kokubunji",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Kokubunji",
-                "nameJa": "国分寺方面",
+                "name": {
+                    "en": "For Kokubunji",
+                    "ja": "国分寺方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -144,23 +152,23 @@
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 10.0
+                            "headwayMinutes": 10
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         }
                     ],
                     "firstDeparture": "05:21",
@@ -171,27 +179,27 @@
                     "bands": [
                         {
                             "from": "05:21",
-                            "headwayMinutes": 22.0
+                            "headwayMinutes": 22
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 10.0
+                            "headwayMinutes": 10
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 21.0
+                            "headwayMinutes": 21
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 10.0
+                            "headwayMinutes": 10
                         },
                         {
                             "from": "22:00",
@@ -199,7 +207,7 @@
                         },
                         {
                             "from": "23:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         }
                     ],
                     "firstDeparture": "05:21",
@@ -208,88 +216,107 @@
                 }
             }
         ],
-        "hopTimesMinutes": [3.0, 2.0, 3.0, 2.0, 4.0, 2.0],
+        "hopTimesMinutes": [3, 2, 3, 2, 4, 2],
         "id": "Railway:Seibu.Tamako",
         "isLoop": false,
-        "nameEn": "Seibu Tamako Line",
-        "nameJa": "西武多摩湖線",
+        "name": {
+            "en": "Seibu Tamako Line",
+            "ja": "西武多摩湖線",
+            "ko": "세이부 철도 다마코 선",
+            "zh-Hans": "多摩湖线",
+            "zh-Hant": "多摩湖線"
+        },
         "operatorId": "Operator:Seibu",
         "stations": [
             {
                 "id": "Station:Seibu.Tamako.Kokubunji",
                 "latitude": 35.70032,
                 "longitude": 139.48011,
-                "name": "国分寺",
-                "nameEn": "Kokubunji",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kokubunji",
+                    "ja": "国分寺",
+                    "ko": "고쿠분지",
+                    "zh-Hans": "国分寺",
+                    "zh-Hant": "國分寺"
+                },
                 "stationCode": "ST01"
             },
             {
                 "id": "Station:Seibu.Tamako.HitotsubashiGakuen",
                 "latitude": 35.72215,
                 "longitude": 139.48007,
-                "name": "一橋学園",
-                "nameEn": "Hitotsubashi-Gakuen",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Hitotsubashi-Gakuen",
+                    "ja": "一橋学園",
+                    "ko": "히토쓰바시가쿠엔",
+                    "zh-Hans": "一桥学园",
+                    "zh-Hant": "一橋學園"
+                },
                 "stationCode": "ST02"
             },
             {
                 "id": "Station:Seibu.Tamako.OmeKaido",
                 "latitude": 35.7306,
                 "longitude": 139.47654,
-                "name": "青梅街道",
-                "nameEn": "Ome-Kaido",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ome-Kaido",
+                    "ja": "青梅街道",
+                    "ko": "오메카이도",
+                    "zh-Hans": "青梅街道",
+                    "zh-Hant": "青梅街道"
+                },
                 "stationCode": "ST03"
             },
             {
                 "id": "Station:Seibu.Tamako.Hagiyama",
                 "latitude": 35.7404,
                 "longitude": 139.47745,
-                "name": "萩山",
-                "nameEn": "Hagiyama",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Hagiyama",
+                    "ja": "萩山",
+                    "ko": "하기야마",
+                    "zh-Hans": "萩山",
+                    "zh-Hant": "萩山"
+                },
                 "stationCode": "ST04"
             },
             {
                 "id": "Station:Seibu.Tamako.Yasaka",
                 "latitude": 35.74512,
                 "longitude": 139.46745,
-                "name": "八坂",
-                "nameEn": "Yasaka",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Yasaka",
+                    "ja": "八坂",
+                    "ko": "야사카",
+                    "zh-Hans": "八坂",
+                    "zh-Hant": "八阪"
+                },
                 "stationCode": "ST05"
             },
             {
                 "id": "Station:Seibu.Tamako.MusashiYamato",
                 "latitude": 35.75637,
                 "longitude": 139.44416,
-                "name": "武蔵大和",
-                "nameEn": "Musashi-Yamato",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Musashi-Yamato",
+                    "ja": "武蔵大和",
+                    "ko": "무사시야마토",
+                    "zh-Hans": "武藏大和",
+                    "zh-Hant": "武藏大和"
+                },
                 "stationCode": "ST06"
             },
             {
                 "id": "Station:Seibu.Tamako.Tamako",
                 "latitude": 35.76597,
                 "longitude": 139.44263,
-                "name": "多摩湖",
-                "nameEn": "Tamako",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tamako",
+                    "ja": "多摩湖",
+                    "ko": "세이부유엔치",
+                    "zh-Hans": "西武游园地",
+                    "zh-Hant": "西武遊園地"
+                },
                 "stationCode": "ST07"
             }
         ],
@@ -2517,8 +2544,10 @@
                 "startsHere": true,
                 "stops": [415, 417, 420, 422],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Local"
             },
             {
@@ -3314,6 +3343,6 @@
                 "type": "Local"
             }
         ],
-        "upHopTimesMinutes": [4.0, 2.0, 2.0, 3.0, 4.0, 2.0]
+        "upHopTimesMinutes": [4, 2, 2, 3, 4, 2]
     }
 ]

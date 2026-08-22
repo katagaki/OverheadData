@@ -2,10 +2,14 @@
     {
         "colorHex": "#0067C0",
         "delayInfo": {
-            "checkMethodEn": "Check the Tobu Railway service status page, the Tobu app, or X (@TobuRailway_JP). Delays of roughly 10 minutes or more and suspensions are posted.",
-            "checkMethodJa": "東武鉄道「運行情報」ページ、東武線アプリ、またはX（@TobuRailway_JP）で確認できます。おおむね10分以上の遅延・運転見合わせが発生した場合に掲載されます。",
-            "statusPageURL": "https://www.tobu.co.jp/service_status/",
-            "statusPageURLEn": "https://www.tobu.co.jp/service_status/",
+            "checkMethod": {
+                "en": "Check the Tobu Railway service status page, the Tobu app, or X (@TobuRailway_JP). Delays of roughly 10 minutes or more and suspensions are posted.",
+                "ja": "東武鉄道「運行情報」ページ、東武線アプリ、またはX（@TobuRailway_JP）で確認できます。おおむね10分以上の遅延・運転見合わせが発生した場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://www.tobu.co.jp/service_status/",
+                "ja": "https://www.tobu.co.jp/service_status/"
+            },
             "xAccount": "@TobuRailway_JP"
         },
         "directions": [
@@ -15,8 +19,10 @@
                 "id": "static.RailDirection:Tobu.Daishi.Daishimae",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Daishimae",
-                "nameJa": "大師前方面",
+                "name": {
+                    "en": "For Daishimae",
+                    "ja": "大師前方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -46,8 +52,10 @@
                 "id": "static.RailDirection:Tobu.Daishi.Nishiarai",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Nishiarai",
-                "nameJa": "西新井方面",
+                "name": {
+                    "en": "For Nishiarai",
+                    "ja": "西新井方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -75,30 +83,39 @@
         "hopTimesMinutes": [2],
         "id": "Railway:Tobu.Daishi",
         "isLoop": false,
-        "nameEn": "Tobu Daishi Line",
-        "nameJa": "東武大師線",
+        "name": {
+            "en": "Tobu Daishi Line",
+            "ja": "東武大師線",
+            "ko": "도부 철도 다이시 선",
+            "zh-Hans": "大师线",
+            "zh-Hant": "大師線"
+        },
         "operatorId": "Operator:Tobu",
         "stations": [
             {
                 "id": "Station:Tobu.Daishi.Nishiarai",
                 "latitude": 35.777253,
                 "longitude": 139.790321,
-                "name": "西新井",
-                "nameEn": "Nishiarai",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nishiarai",
+                    "ja": "西新井",
+                    "ko": "니시아라이",
+                    "zh-Hans": "西新井",
+                    "zh-Hant": "西新井"
+                },
                 "stationCode": "TS13"
             },
             {
                 "id": "Station:Tobu.Daishi.Daishimae",
                 "latitude": 35.7789,
                 "longitude": 139.7815,
-                "name": "大師前",
-                "nameEn": "Daishimae",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Daishimae",
+                    "ja": "大師前",
+                    "ko": "다이시마에",
+                    "zh-Hans": "大师前",
+                    "zh-Hant": "大師前"
+                },
                 "stationCode": "TS51"
             }
         ],

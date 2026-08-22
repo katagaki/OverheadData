@@ -2,10 +2,14 @@
     {
         "colorHex": "#80C241",
         "delayInfo": {
-            "checkMethodEn": "Check the JR East Train Operation Information page or the JR East app. In the Tokyo area, delays or suspensions of 15 minutes or more are posted.",
-            "checkMethodJa": "JR東日本「列車運行情報」ページまたはJR東日本アプリで確認できます。首都圏エリアでは15分以上の遅れ・運休が発生または見込まれる場合に掲載されます。",
-            "statusPageURL": "https://traininfo.jreast.co.jp/train_info/line.aspx?gid=1&lineid=shin-etsuline_kanto",
-            "statusPageURLEn": "https://traininfo.jreast.co.jp/train_info/e/kanto.aspx",
+            "checkMethod": {
+                "en": "Check the JR East Train Operation Information page or the JR East app. In the Tokyo area, delays or suspensions of 15 minutes or more are posted.",
+                "ja": "JR東日本「列車運行情報」ページまたはJR東日本アプリで確認できます。首都圏エリアでは15分以上の遅れ・運休が発生または見込まれる場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://traininfo.jreast.co.jp/train_info/e/kanto.aspx",
+                "ja": "https://traininfo.jreast.co.jp/train_info/line.aspx?gid=1&lineid=shin-etsuline_kanto"
+            },
             "xAccount": "@JRE_F_Toho_Taka"
         },
         "directions": [
@@ -15,8 +19,10 @@
                 "id": "static.RailDirection:JR-East.Shinetsu.Yokokawa",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Yokokawa",
-                "nameJa": "横川方面",
+                "name": {
+                    "en": "For Yokokawa",
+                    "ja": "横川方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -150,8 +156,10 @@
                 "id": "static.RailDirection:JR-East.Shinetsu.Takasaki",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Takasaki",
-                "nameJa": "高崎方面",
+                "name": {
+                    "en": "For Takasaki",
+                    "ja": "高崎方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -291,96 +299,117 @@
         "hopTimesMinutes": [4, 4, 4, 7, 5, 2.5, 6],
         "id": "Railway:JR-East.Shinetsu",
         "isLoop": false,
-        "nameEn": "Shinetsu Main Line",
-        "nameJa": "信越本線",
+        "name": {
+            "en": "Shinetsu Main Line",
+            "ja": "信越本線",
+            "ko": "신에쓰 본선",
+            "zh-Hans": "信越本线",
+            "zh-Hant": "信越本線"
+        },
         "operatorId": "Operator:JR-East",
         "stations": [
             {
                 "id": "Station:JR-East.Shinetsu.Takasaki",
                 "latitude": 36.322472,
                 "longitude": 139.012778,
-                "name": "高崎",
-                "nameEn": "Takasaki",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Takasaki",
+                    "ja": "高崎",
+                    "ko": "다카사키",
+                    "zh-Hans": "高崎",
+                    "zh-Hant": "高崎"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Shinetsu.KitaTakasaki",
                 "latitude": 36.338714,
                 "longitude": 139.0013,
-                "name": "北高崎",
-                "nameEn": "Kita-Takasaki",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kita-Takasaki",
+                    "ja": "北高崎",
+                    "ko": "기타타카사키",
+                    "zh-Hans": "北高崎",
+                    "zh-Hant": "北高崎"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Shinetsu.GummaYawata",
                 "latitude": 36.337833,
                 "longitude": 138.957461,
-                "name": "群馬八幡",
-                "nameEn": "Gumma-Yawata",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Gumma-Yawata",
+                    "ja": "群馬八幡",
+                    "ko": "군마야와타",
+                    "zh-Hans": "群马八幡",
+                    "zh-Hant": "群馬八幡"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Shinetsu.Annaka",
                 "latitude": 36.331814,
                 "longitude": 138.913669,
-                "name": "安中",
-                "nameEn": "Annaka",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Annaka",
+                    "ja": "安中",
+                    "ko": "안나카",
+                    "zh-Hans": "安中",
+                    "zh-Hant": "安中"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Shinetsu.Isobe",
                 "latitude": 36.298489,
                 "longitude": 138.849464,
-                "name": "磯部",
-                "nameEn": "Isobe",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Isobe",
+                    "ja": "磯部",
+                    "ko": "이소베",
+                    "zh-Hans": "矶部",
+                    "zh-Hant": "磯部"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Shinetsu.Matsuida",
                 "latitude": 36.30955,
                 "longitude": 138.797364,
-                "name": "松井田",
-                "nameEn": "Matsuida",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Matsuida",
+                    "ja": "松井田",
+                    "ko": "마쓰이다",
+                    "zh-Hans": "松井田",
+                    "zh-Hant": "松井田"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Shinetsu.NishiMatsuida",
                 "latitude": 36.316258,
                 "longitude": 138.786389,
-                "name": "西松井田",
-                "nameEn": "Nishi-Matsuida",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nishi-Matsuida",
+                    "ja": "西松井田",
+                    "ko": "니시마쓰이다",
+                    "zh-Hans": "西松井田",
+                    "zh-Hant": "西松井田"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Shinetsu.Yokokawa",
                 "latitude": 36.336089,
                 "longitude": 138.736928,
-                "name": "横川",
-                "nameEn": "Yokokawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Yokokawa",
+                    "ja": "横川",
+                    "ko": "요코카와",
+                    "zh-Hans": "横川",
+                    "zh-Hant": "橫川"
+                },
                 "stationCode": ""
             }
         ],

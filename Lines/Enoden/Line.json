@@ -2,10 +2,14 @@
     {
         "colorHex": "#0C6346",
         "delayInfo": {
-            "checkMethodEn": "Check the Enoshima Electric Railway website or X (@enoden_kouhou). Service disruptions and delays are posted on the top page; live train positions are at enoden-location.jp.",
-            "checkMethodJa": "江ノ島電鉄の公式サイトまたはX（@enoden_kouhou）で確認できます。運転見合わせ・遅延はトップページに掲載され、列車位置情報はenoden-location.jpで確認できます。",
-            "statusPageURL": "https://www.enoden.co.jp/",
-            "statusPageURLEn": "https://www.enoden.co.jp/en/",
+            "checkMethod": {
+                "en": "Check the Enoshima Electric Railway website or X (@enoden_kouhou). Service disruptions and delays are posted on the top page; live train positions are at enoden-location.jp.",
+                "ja": "江ノ島電鉄の公式サイトまたはX（@enoden_kouhou）で確認できます。運転見合わせ・遅延はトップページに掲載され、列車位置情報はenoden-location.jpで確認できます。"
+            },
+            "statusPageURL": {
+                "en": "https://www.enoden.co.jp/en/",
+                "ja": "https://www.enoden.co.jp/"
+            },
             "xAccount": "@enoden_kouhou"
         },
         "directions": [
@@ -15,13 +19,15 @@
                 "id": "static.RailDirection:Enoden.Enoshima.Kamakura",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Kamakura",
-                "nameJa": "鎌倉方面",
+                "name": {
+                    "en": "For Kamakura",
+                    "ja": "鎌倉方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
                             "from": "05:36",
-                            "headwayMinutes": 14.0
+                            "headwayMinutes": 14
                         },
                         {
                             "from": "22:00",
@@ -36,7 +42,7 @@
                     "bands": [
                         {
                             "from": "05:36",
-                            "headwayMinutes": 14.0
+                            "headwayMinutes": 14
                         },
                         {
                             "from": "22:00",
@@ -54,8 +60,10 @@
                 "id": "static.RailDirection:Enoden.Enoshima.Fujisawa",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Fujisawa",
-                "nameJa": "藤沢方面",
+                "name": {
+                    "en": "For Fujisawa",
+                    "ja": "藤沢方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -96,176 +104,211 @@
                 }
             }
         ],
-        "hopTimesMinutes": [1.0, 2.0, 2.0, 3.0, 5, 2, 2, 3, 7, 3.0, 3.0, 1.0, 2.0, 1.0],
+        "hopTimesMinutes": [1, 2, 2, 3, 5, 2, 2, 3, 7, 3, 3, 1, 2, 1],
         "id": "Railway:Enoden.Enoshima",
         "isLoop": false,
-        "nameEn": "Enoshima Electric Railway Line",
-        "nameJa": "江ノ島電鉄線",
+        "name": {
+            "en": "Enoshima Electric Railway Line",
+            "ja": "江ノ島電鉄線",
+            "ko": "에노시마 전철선",
+            "zh-Hans": "江之岛电铁线",
+            "zh-Hant": "江之島電鐵線"
+        },
         "operatorId": "Operator:Enoden",
         "stations": [
             {
                 "id": "Station:Enoden.Enoshima.Fujisawa",
                 "latitude": 35.33718,
                 "longitude": 139.48719,
-                "name": "藤沢",
-                "nameEn": "Fujisawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Fujisawa",
+                    "ja": "藤沢",
+                    "ko": "후지사와",
+                    "zh-Hans": "藤泽",
+                    "zh-Hant": "藤澤"
+                },
                 "stationCode": "EN01"
             },
             {
                 "id": "Station:Enoden.Enoshima.Ishigami",
                 "latitude": 35.33213,
                 "longitude": 139.48552,
-                "name": "石上",
-                "nameEn": "Ishigami",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ishigami",
+                    "ja": "石上",
+                    "ko": "이시가미",
+                    "zh-Hans": "石上",
+                    "zh-Hant": "石上"
+                },
                 "stationCode": "EN02"
             },
             {
                 "id": "Station:Enoden.Enoshima.Yanagikoji",
                 "latitude": 35.32763,
                 "longitude": 139.48518,
-                "name": "柳小路",
-                "nameEn": "Yanagikoji",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Yanagikoji",
+                    "ja": "柳小路",
+                    "ko": "야나기코지",
+                    "zh-Hans": "柳小路",
+                    "zh-Hant": "柳小路"
+                },
                 "stationCode": "EN03"
             },
             {
                 "id": "Station:Enoden.Enoshima.Kugenuma",
                 "latitude": 35.32142,
                 "longitude": 139.4826,
-                "name": "鵠沼",
-                "nameEn": "Kugenuma",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kugenuma",
+                    "ja": "鵠沼",
+                    "ko": "구게누마",
+                    "zh-Hans": "鹄沼",
+                    "zh-Hant": "鵠沼"
+                },
                 "stationCode": "EN04"
             },
             {
                 "id": "Station:Enoden.Enoshima.ShonanKaiganKoen",
                 "latitude": 35.31495,
                 "longitude": 139.48365,
-                "name": "湘南海岸公園",
-                "nameEn": "Shonan-Kaigan-Koen",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shonan-Kaigan-Koen",
+                    "ja": "湘南海岸公園",
+                    "ko": "쇼난 해안공원",
+                    "zh-Hans": "湘南海岸公园",
+                    "zh-Hant": "湘南海岸公園"
+                },
                 "stationCode": "EN05"
             },
             {
                 "id": "Station:Enoden.Enoshima.Enoshima",
                 "latitude": 35.31104,
                 "longitude": 139.48754,
-                "name": "江ノ島",
-                "nameEn": "Enoshima",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Enoshima",
+                    "ja": "江ノ島",
+                    "ko": "에노시마",
+                    "zh-Hans": "江之岛",
+                    "zh-Hant": "江之島"
+                },
                 "stationCode": "EN06"
             },
             {
                 "id": "Station:Enoden.Enoshima.Koshigoe",
                 "latitude": 35.30838,
                 "longitude": 139.49321,
-                "name": "腰越",
-                "nameEn": "Koshigoe",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Koshigoe",
+                    "ja": "腰越",
+                    "ko": "고시고에",
+                    "zh-Hans": "腰越",
+                    "zh-Hant": "腰越"
+                },
                 "stationCode": "EN07"
             },
             {
                 "id": "Station:Enoden.Enoshima.Kamakurakokomae",
                 "latitude": 35.30672,
                 "longitude": 139.50071,
-                "name": "鎌倉高校前",
-                "nameEn": "Kamakurakokomae",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kamakurakokomae",
+                    "ja": "鎌倉高校前",
+                    "ko": "가마쿠라 고교 앞",
+                    "zh-Hans": "镰仓高校前",
+                    "zh-Hant": "鎌倉高校前"
+                },
                 "stationCode": "EN08"
             },
             {
                 "id": "Station:Enoden.Enoshima.Shichirigahama",
                 "latitude": 35.30628,
                 "longitude": 139.51012,
-                "name": "七里ヶ浜",
-                "nameEn": "Shichirigahama",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shichirigahama",
+                    "ja": "七里ヶ浜",
+                    "ko": "시치리가하마",
+                    "zh-Hans": "七里滨",
+                    "zh-Hant": "七里濱"
+                },
                 "stationCode": "EN09"
             },
             {
                 "id": "Station:Enoden.Enoshima.Inamuragasaki",
                 "latitude": 35.30436,
                 "longitude": 139.5219,
-                "name": "稲村ヶ崎",
-                "nameEn": "Inamuragasaki",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Inamuragasaki",
+                    "ja": "稲村ヶ崎",
+                    "ko": "이나무라가사키",
+                    "zh-Hans": "稻村崎",
+                    "zh-Hant": "稻村崎"
+                },
                 "stationCode": "EN10"
             },
             {
                 "id": "Station:Enoden.Enoshima.Gokurakuji",
                 "latitude": 35.30921,
                 "longitude": 139.52867,
-                "name": "極楽寺",
-                "nameEn": "Gokurakuji",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Gokurakuji",
+                    "ja": "極楽寺",
+                    "ko": "고쿠라쿠지",
+                    "zh-Hans": "极乐寺",
+                    "zh-Hant": "極樂寺"
+                },
                 "stationCode": "EN11"
             },
             {
                 "id": "Station:Enoden.Enoshima.Hase",
                 "latitude": 35.31129,
                 "longitude": 139.53587,
-                "name": "長谷",
-                "nameEn": "Hase",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Hase",
+                    "ja": "長谷",
+                    "ko": "하세",
+                    "zh-Hans": "长谷",
+                    "zh-Hant": "長谷"
+                },
                 "stationCode": "EN12"
             },
             {
                 "id": "Station:Enoden.Enoshima.Yuigahama",
                 "latitude": 35.31277,
                 "longitude": 139.54136,
-                "name": "由比ヶ浜",
-                "nameEn": "Yuigahama",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Yuigahama",
+                    "ja": "由比ヶ浜",
+                    "ko": "유이가하마",
+                    "zh-Hans": "由比滨",
+                    "zh-Hant": "由比濱"
+                },
                 "stationCode": "EN13"
             },
             {
                 "id": "Station:Enoden.Enoshima.Wadazuka",
                 "latitude": 35.31371,
                 "longitude": 139.5455,
-                "name": "和田塚",
-                "nameEn": "Wadazuka",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Wadazuka",
+                    "ja": "和田塚",
+                    "ko": "와다즈카",
+                    "zh-Hans": "和田冢",
+                    "zh-Hant": "和田塚"
+                },
                 "stationCode": "EN14"
             },
             {
                 "id": "Station:Enoden.Enoshima.Kamakura",
                 "latitude": 35.31839,
                 "longitude": 139.55009,
-                "name": "鎌倉",
-                "nameEn": "Kamakura",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kamakura",
+                    "ja": "鎌倉",
+                    "ko": "가마쿠라",
+                    "zh-Hans": "鎌倉",
+                    "zh-Hant": "鎌倉"
+                },
                 "stationCode": "EN15"
             }
         ],
@@ -3081,6 +3124,6 @@
                 "type": "Local"
             }
         ],
-        "upHopTimesMinutes": [1.0, 2.0, 1.0, 4.0, 1.0, 6.0, 2.0, 4.0, 3.0, 6.0, 2.0, 2.0, 2.0, 1.0]
+        "upHopTimesMinutes": [1, 2, 1, 4, 1, 6, 2, 4, 3, 6, 2, 2, 2, 1]
     }
 ]

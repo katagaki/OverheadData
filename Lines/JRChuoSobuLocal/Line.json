@@ -2,10 +2,14 @@
     {
         "colorHex": "#FFD400",
         "delayInfo": {
-            "checkMethodEn": "Check the JR East Train Operation Information page or the JR East app. In the Tokyo area, delays or suspensions of 15 minutes or more are posted.",
-            "checkMethodJa": "JR東日本「列車運行情報」ページまたはJR東日本アプリで確認できます。首都圏エリアでは15分以上の遅れ・運休が発生または見込まれる場合に掲載されます。",
-            "statusPageURL": "https://traininfo.jreast.co.jp/train_info/line.aspx?gid=1&lineid=chuo_sobuline_local",
-            "statusPageURLEn": "https://traininfo.jreast.co.jp/train_info/e/kanto.aspx",
+            "checkMethod": {
+                "en": "Check the JR East Train Operation Information page or the JR East app. In the Tokyo area, delays or suspensions of 15 minutes or more are posted.",
+                "ja": "JR東日本「列車運行情報」ページまたはJR東日本アプリで確認できます。首都圏エリアでは15分以上の遅れ・運休が発生または見込まれる場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://traininfo.jreast.co.jp/train_info/e/kanto.aspx",
+                "ja": "https://traininfo.jreast.co.jp/train_info/line.aspx?gid=1&lineid=chuo_sobuline_local"
+            },
             "xAccount": "@JRE_F_Chuo"
         },
         "directions": [
@@ -1056,8 +1060,10 @@
                     }
                 ],
                 "isAscending": true,
-                "nameEn": "For Chiba",
-                "nameJa": "千葉方面",
+                "name": {
+                    "en": "For Chiba",
+                    "ja": "千葉方面"
+                },
                 "saturdayHoliday": {
                     "bands": [],
                     "exactRuns": [
@@ -4014,64 +4020,80 @@
                                 "departure": "07:33",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.ChuoSobuLocal.NishiFunabashi",
-                                "throughDestEn": "Nakano",
-                                "throughDestJa": "中野"
+                                "throughDest": {
+                                    "en": "Nakano",
+                                    "ja": "中野"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "07:43",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.ChuoSobuLocal.NishiFunabashi",
-                                "throughDestEn": "Mitaka",
-                                "throughDestJa": "三鷹"
+                                "throughDest": {
+                                    "en": "Mitaka",
+                                    "ja": "三鷹"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "07:51",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.ChuoSobuLocal.NishiFunabashi",
-                                "throughDestEn": "Mitaka",
-                                "throughDestJa": "三鷹"
+                                "throughDest": {
+                                    "en": "Mitaka",
+                                    "ja": "三鷹"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "07:59",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.ChuoSobuLocal.NishiFunabashi",
-                                "throughDestEn": "Nakano",
-                                "throughDestJa": "中野"
+                                "throughDest": {
+                                    "en": "Nakano",
+                                    "ja": "中野"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "08:07",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.ChuoSobuLocal.NishiFunabashi",
-                                "throughDestEn": "Mitaka",
-                                "throughDestJa": "三鷹"
+                                "throughDest": {
+                                    "en": "Mitaka",
+                                    "ja": "三鷹"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "08:14",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.ChuoSobuLocal.NishiFunabashi",
-                                "throughDestEn": "Nakano",
-                                "throughDestJa": "中野"
+                                "throughDest": {
+                                    "en": "Nakano",
+                                    "ja": "中野"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "08:25",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.ChuoSobuLocal.NishiFunabashi",
-                                "throughDestEn": "Mitaka",
-                                "throughDestJa": "三鷹"
+                                "throughDest": {
+                                    "en": "Mitaka",
+                                    "ja": "三鷹"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "08:35",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.ChuoSobuLocal.NishiFunabashi",
-                                "throughDestEn": "Mitaka",
-                                "throughDestJa": "三鷹"
+                                "throughDest": {
+                                    "en": "Mitaka",
+                                    "ja": "三鷹"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -4315,8 +4337,10 @@
                                 "departure": "17:50",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.ChuoSobuLocal.NishiFunabashi",
-                                "throughDestEn": "Mitaka",
-                                "throughDestJa": "三鷹"
+                                "throughDest": {
+                                    "en": "Mitaka",
+                                    "ja": "三鷹"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -4328,16 +4352,20 @@
                                 "departure": "18:04",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.ChuoSobuLocal.NishiFunabashi",
-                                "throughDestEn": "Nakano",
-                                "throughDestJa": "中野"
+                                "throughDest": {
+                                    "en": "Nakano",
+                                    "ja": "中野"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "18:13",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.ChuoSobuLocal.NishiFunabashi",
-                                "throughDestEn": "Nakano",
-                                "throughDestJa": "中野"
+                                "throughDest": {
+                                    "en": "Nakano",
+                                    "ja": "中野"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -4350,40 +4378,50 @@
                                 "departure": "18:23",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.ChuoSobuLocal.NishiFunabashi",
-                                "throughDestEn": "Nakano",
-                                "throughDestJa": "中野"
+                                "throughDest": {
+                                    "en": "Nakano",
+                                    "ja": "中野"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "18:33",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.ChuoSobuLocal.NishiFunabashi",
-                                "throughDestEn": "Nakano",
-                                "throughDestJa": "中野"
+                                "throughDest": {
+                                    "en": "Nakano",
+                                    "ja": "中野"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "18:54",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.ChuoSobuLocal.NishiFunabashi",
-                                "throughDestEn": "Nakano",
-                                "throughDestJa": "中野"
+                                "throughDest": {
+                                    "en": "Nakano",
+                                    "ja": "中野"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "19:01",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.ChuoSobuLocal.NishiFunabashi",
-                                "throughDestEn": "Mitaka",
-                                "throughDestJa": "三鷹"
+                                "throughDest": {
+                                    "en": "Mitaka",
+                                    "ja": "三鷹"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "19:20",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.ChuoSobuLocal.NishiFunabashi",
-                                "throughDestEn": "Mitaka",
-                                "throughDestJa": "三鷹"
+                                "throughDest": {
+                                    "en": "Mitaka",
+                                    "ja": "三鷹"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -4395,8 +4433,10 @@
                                 "departure": "19:35",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.ChuoSobuLocal.NishiFunabashi",
-                                "throughDestEn": "Mitaka",
-                                "throughDestJa": "三鷹"
+                                "throughDest": {
+                                    "en": "Mitaka",
+                                    "ja": "三鷹"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -5245,8 +5285,10 @@
                     }
                 ],
                 "isAscending": false,
-                "nameEn": "For Mitaka",
-                "nameJa": "三鷹方面",
+                "name": {
+                    "en": "For Mitaka",
+                    "ja": "三鷹方面"
+                },
                 "saturdayHoliday": {
                     "bands": [],
                     "exactRuns": [
@@ -7846,437 +7888,514 @@
         "hopTimesMinutes": [3, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 2, 3, 3, 3, 3, 3, 2, 2, 3, 2, 3, 3, 3, 2, 3, 2, 2],
         "id": "Railway:JR-East.ChuoSobuLocal",
         "isLoop": false,
-        "nameEn": "Chuo-Sobu Local Line",
-        "nameJa": "中央・総武線各駅停車",
+        "name": {
+            "en": "Chuo-Sobu Local Line",
+            "ja": "中央・総武線各駅停車"
+        },
         "operatorId": "Operator:JR-East",
         "stations": [
             {
                 "id": "Station:JR-East.ChuoSobuLocal.Mitaka",
                 "latitude": 35.7027,
                 "longitude": 139.5607,
-                "name": "三鷹",
-                "nameEn": "Mitaka",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Mitaka",
+                    "ja": "三鷹",
+                    "ko": "미타카",
+                    "zh-Hans": "三鹰",
+                    "zh-Hant": "三鷹"
+                },
                 "stationCode": "JB01"
             },
             {
                 "id": "Station:JR-East.ChuoSobuLocal.Kichijoji",
                 "latitude": 35.703,
                 "longitude": 139.5796,
-                "name": "吉祥寺",
-                "nameEn": "Kichijoji",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kichijoji",
+                    "ja": "吉祥寺",
+                    "ko": "기치조지",
+                    "zh-Hans": "吉祥寺",
+                    "zh-Hant": "吉祥寺"
+                },
                 "stationCode": "JB02"
             },
             {
                 "id": "Station:JR-East.ChuoSobuLocal.NishiOgikubo",
                 "latitude": 35.7037,
                 "longitude": 139.5993,
-                "name": "西荻窪",
-                "nameEn": "Nishi-Ogikubo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nishi-Ogikubo",
+                    "ja": "西荻窪",
+                    "ko": "니시오기쿠보",
+                    "zh-Hans": "西荻洼",
+                    "zh-Hant": "西荻窪"
+                },
                 "stationCode": "JB03"
             },
             {
                 "id": "Station:JR-East.ChuoSobuLocal.Ogikubo",
                 "latitude": 35.7047,
                 "longitude": 139.6202,
-                "name": "荻窪",
-                "nameEn": "Ogikubo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ogikubo",
+                    "ja": "荻窪",
+                    "ko": "오기쿠보",
+                    "zh-Hans": "荻洼",
+                    "zh-Hant": "荻窪"
+                },
                 "stationCode": "JB04"
             },
             {
                 "id": "Station:JR-East.ChuoSobuLocal.Asagaya",
                 "latitude": 35.7047,
                 "longitude": 139.6357,
-                "name": "阿佐ケ谷",
-                "nameEn": "Asagaya",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Asagaya",
+                    "ja": "阿佐ケ谷",
+                    "ko": "아사가야",
+                    "zh-Hans": "阿佐谷",
+                    "zh-Hant": "阿佐谷"
+                },
                 "stationCode": "JB05"
             },
             {
                 "id": "Station:JR-East.ChuoSobuLocal.Koenji",
                 "latitude": 35.7053,
                 "longitude": 139.6497,
-                "name": "高円寺",
-                "nameEn": "Koenji",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Koenji",
+                    "ja": "高円寺",
+                    "ko": "고엔지",
+                    "zh-Hans": "高圆寺",
+                    "zh-Hant": "高圓寺"
+                },
                 "stationCode": "JB06"
             },
             {
                 "id": "Station:JR-East.ChuoSobuLocal.Nakano",
                 "latitude": 35.7056,
                 "longitude": 139.6659,
-                "name": "中野",
-                "nameEn": "Nakano",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nakano",
+                    "ja": "中野",
+                    "ko": "나카노",
+                    "zh-Hans": "中野",
+                    "zh-Hant": "中野"
+                },
                 "stationCode": "JB07"
             },
             {
                 "id": "Station:JR-East.ChuoSobuLocal.HigashiNakano",
                 "latitude": 35.7062,
                 "longitude": 139.6835,
-                "name": "東中野",
-                "nameEn": "Higashi-Nakano",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Higashi-Nakano",
+                    "ja": "東中野",
+                    "ko": "히가시나카노",
+                    "zh-Hans": "东中野",
+                    "zh-Hant": "東中野"
+                },
                 "stationCode": "JB08"
             },
             {
                 "id": "Station:JR-East.ChuoSobuLocal.Okubo",
                 "latitude": 35.7009,
                 "longitude": 139.6983,
-                "name": "大久保",
-                "nameEn": "Okubo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Okubo",
+                    "ja": "大久保",
+                    "ko": "오쿠보",
+                    "zh-Hans": "大久保",
+                    "zh-Hant": "大久保"
+                },
                 "stationCode": "JB09"
             },
             {
                 "id": "Station:JR-East.ChuoSobuLocal.Shinjuku",
                 "latitude": 35.6896,
                 "longitude": 139.7006,
-                "name": "新宿",
-                "nameEn": "Shinjuku",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shinjuku",
+                    "ja": "新宿",
+                    "ko": "신주쿠",
+                    "zh-Hans": "新宿",
+                    "zh-Hant": "新宿"
+                },
                 "stationCode": "JB10"
             },
             {
                 "id": "Station:JR-East.ChuoSobuLocal.Yoyogi",
                 "latitude": 35.6832,
                 "longitude": 139.702,
-                "name": "代々木",
-                "nameEn": "Yoyogi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Yoyogi",
+                    "ja": "代々木"
+                },
                 "stationCode": "JB11"
             },
             {
                 "id": "Station:JR-East.ChuoSobuLocal.Sendagaya",
                 "latitude": 35.6811,
                 "longitude": 139.7119,
-                "name": "千駄ケ谷",
-                "nameEn": "Sendagaya",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Sendagaya",
+                    "ja": "千駄ケ谷",
+                    "ko": "센다가야",
+                    "zh-Hans": "千驮谷",
+                    "zh-Hant": "千駄谷"
+                },
                 "stationCode": "JB12"
             },
             {
                 "id": "Station:JR-East.ChuoSobuLocal.Shinanomachi",
                 "latitude": 35.68,
                 "longitude": 139.7202,
-                "name": "信濃町",
-                "nameEn": "Shinanomachi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shinanomachi",
+                    "ja": "信濃町",
+                    "ko": "시나노마치",
+                    "zh-Hans": "信浓町",
+                    "zh-Hant": "信濃町"
+                },
                 "stationCode": "JB13"
             },
             {
                 "id": "Station:JR-East.ChuoSobuLocal.Yotsuya",
                 "latitude": 35.686,
                 "longitude": 139.7301,
-                "name": "四ツ谷",
-                "nameEn": "Yotsuya",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Yotsuya",
+                    "ja": "四ツ谷",
+                    "ko": "요쓰야",
+                    "zh-Hans": "四谷",
+                    "zh-Hant": "四谷"
+                },
                 "stationCode": "JB14"
             },
             {
                 "id": "Station:JR-East.ChuoSobuLocal.Ichigaya",
                 "latitude": 35.6914,
                 "longitude": 139.7357,
-                "name": "市ケ谷",
-                "nameEn": "Ichigaya",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ichigaya",
+                    "ja": "市ケ谷",
+                    "ko": "이치가야",
+                    "zh-Hans": "市谷",
+                    "zh-Hant": "市谷"
+                },
                 "stationCode": "JB15"
             },
             {
                 "id": "Station:JR-East.ChuoSobuLocal.Iidabashi",
                 "latitude": 35.702,
                 "longitude": 139.7448,
-                "name": "飯田橋",
-                "nameEn": "Iidabashi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Iidabashi",
+                    "ja": "飯田橋",
+                    "ko": "이다바시",
+                    "zh-Hans": "饭田桥",
+                    "zh-Hant": "飯田橋"
+                },
                 "stationCode": "JB16"
             },
             {
                 "id": "Station:JR-East.ChuoSobuLocal.Suidobashi",
                 "latitude": 35.702,
                 "longitude": 139.753,
-                "name": "水道橋",
-                "nameEn": "Suidobashi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Suidobashi",
+                    "ja": "水道橋",
+                    "ko": "스이도바시",
+                    "zh-Hans": "水道桥",
+                    "zh-Hant": "水道橋"
+                },
                 "stationCode": "JB17"
             },
             {
                 "id": "Station:JR-East.ChuoSobuLocal.Ochanomizu",
                 "latitude": 35.6994,
                 "longitude": 139.7649,
-                "name": "御茶ノ水",
-                "nameEn": "Ochanomizu",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ochanomizu",
+                    "ja": "御茶ノ水",
+                    "ko": "오차노미즈",
+                    "zh-Hans": "御茶之水",
+                    "zh-Hant": "御茶之水"
+                },
                 "stationCode": "JB18"
             },
             {
                 "id": "Station:JR-East.ChuoSobuLocal.Akihabara",
                 "latitude": 35.6984,
                 "longitude": 139.7731,
-                "name": "秋葉原",
-                "nameEn": "Akihabara",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Akihabara",
+                    "ja": "秋葉原",
+                    "ko": "아키하바라",
+                    "zh-Hans": "秋叶原",
+                    "zh-Hant": "秋葉原"
+                },
                 "stationCode": "JB19"
             },
             {
                 "id": "Station:JR-East.ChuoSobuLocal.Asakusabashi",
                 "latitude": 35.697402,
                 "longitude": 139.784686,
-                "name": "浅草橋",
-                "nameEn": "Asakusabashi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Asakusabashi",
+                    "ja": "浅草橋",
+                    "ko": "아사쿠사바시",
+                    "zh-Hans": "浅草桥",
+                    "zh-Hant": "淺草橋"
+                },
                 "stationCode": "JB20"
             },
             {
                 "id": "Station:JR-East.ChuoSobuLocal.Ryogoku",
                 "latitude": 35.6961,
                 "longitude": 139.7936,
-                "name": "両国",
-                "nameEn": "Ryogoku",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ryogoku",
+                    "ja": "両国",
+                    "ko": "료고쿠",
+                    "zh-Hans": "两国",
+                    "zh-Hant": "兩國"
+                },
                 "stationCode": "JB21"
             },
             {
                 "id": "Station:JR-East.ChuoSobuLocal.Kinshicho",
                 "latitude": 35.6967,
                 "longitude": 139.814,
-                "name": "錦糸町",
-                "nameEn": "Kinshicho",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kinshicho",
+                    "ja": "錦糸町",
+                    "ko": "긴시초",
+                    "zh-Hans": "锦糸町",
+                    "zh-Hant": "錦糸町"
+                },
                 "stationCode": "JB22"
             },
             {
                 "id": "Station:JR-East.ChuoSobuLocal.Kameido",
                 "latitude": 35.6973,
                 "longitude": 139.8265,
-                "name": "亀戸",
-                "nameEn": "Kameido",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kameido",
+                    "ja": "亀戸",
+                    "ko": "가메이도",
+                    "zh-Hans": "龟户",
+                    "zh-Hant": "龜戶"
+                },
                 "stationCode": "JB23"
             },
             {
                 "id": "Station:JR-East.ChuoSobuLocal.Hirai",
                 "latitude": 35.7057,
                 "longitude": 139.8419,
-                "name": "平井",
-                "nameEn": "Hirai",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Hirai",
+                    "ja": "平井",
+                    "ko": "히라이",
+                    "zh-Hans": "平井",
+                    "zh-Hant": "平井"
+                },
                 "stationCode": "JB24"
             },
             {
                 "id": "Station:JR-East.ChuoSobuLocal.ShinKoiwa",
                 "latitude": 35.7167,
                 "longitude": 139.8578,
-                "name": "新小岩",
-                "nameEn": "Shin-Koiwa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shin-Koiwa",
+                    "ja": "新小岩",
+                    "ko": "신코이와",
+                    "zh-Hans": "新小岩",
+                    "zh-Hant": "新小岩"
+                },
                 "stationCode": "JB25"
             },
             {
                 "id": "Station:JR-East.ChuoSobuLocal.Koiwa",
                 "latitude": 35.7331,
                 "longitude": 139.8817,
-                "name": "小岩",
-                "nameEn": "Koiwa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Koiwa",
+                    "ja": "小岩",
+                    "ko": "고이와",
+                    "zh-Hans": "小岩",
+                    "zh-Hant": "小岩"
+                },
                 "stationCode": "JB26"
             },
             {
                 "id": "Station:JR-East.ChuoSobuLocal.Ichikawa",
                 "latitude": 35.7297,
                 "longitude": 139.9078,
-                "name": "市川",
-                "nameEn": "Ichikawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ichikawa",
+                    "ja": "市川",
+                    "ko": "이치카와",
+                    "zh-Hans": "市川",
+                    "zh-Hant": "市川"
+                },
                 "stationCode": "JB27"
             },
             {
                 "id": "Station:JR-East.ChuoSobuLocal.Motoyawata",
                 "latitude": 35.7203,
                 "longitude": 139.9276,
-                "name": "本八幡",
-                "nameEn": "Motoyawata",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Motoyawata",
+                    "ja": "本八幡",
+                    "ko": "모토야와타",
+                    "zh-Hans": "本八幡",
+                    "zh-Hant": "本八幡"
+                },
                 "stationCode": "JB28"
             },
             {
                 "id": "Station:JR-East.ChuoSobuLocal.ShimosaNakayama",
                 "latitude": 35.714304,
                 "longitude": 139.943078,
-                "name": "下総中山",
-                "nameEn": "Shimosa-Nakayama",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shimosa-Nakayama",
+                    "ja": "下総中山",
+                    "ko": "시모사나카야마",
+                    "zh-Hans": "下总中山",
+                    "zh-Hant": "下總中山"
+                },
                 "stationCode": "JB29"
             },
             {
                 "id": "Station:JR-East.ChuoSobuLocal.NishiFunabashi",
                 "latitude": 35.7075,
                 "longitude": 139.9594,
-                "name": "西船橋",
-                "nameEn": "Nishi-Funabashi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nishi-Funabashi",
+                    "ja": "西船橋",
+                    "ko": "니시후나바시",
+                    "zh-Hans": "西船桥",
+                    "zh-Hant": "西船橋"
+                },
                 "stationCode": "JB30"
             },
             {
                 "id": "Station:JR-East.ChuoSobuLocal.Funabashi",
                 "latitude": 35.7019,
                 "longitude": 139.9853,
-                "name": "船橋",
-                "nameEn": "Funabashi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Funabashi",
+                    "ja": "船橋",
+                    "ko": "후나바시",
+                    "zh-Hans": "船桥",
+                    "zh-Hant": "船橋"
+                },
                 "stationCode": "JB31"
             },
             {
                 "id": "Station:JR-East.ChuoSobuLocal.HigashiFunabashi",
                 "latitude": 35.699773,
                 "longitude": 140.00429,
-                "name": "東船橋",
-                "nameEn": "Higashi-Funabashi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Higashi-Funabashi",
+                    "ja": "東船橋",
+                    "ko": "히가시후나바시",
+                    "zh-Hans": "东船桥",
+                    "zh-Hant": "東船橋"
+                },
                 "stationCode": "JB32"
             },
             {
                 "id": "Station:JR-East.ChuoSobuLocal.Tsudanuma",
                 "latitude": 35.6913,
                 "longitude": 140.02,
-                "name": "津田沼",
-                "nameEn": "Tsudanuma",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tsudanuma",
+                    "ja": "津田沼",
+                    "ko": "쓰다누마",
+                    "zh-Hans": "津田沼",
+                    "zh-Hant": "津田沼"
+                },
                 "stationCode": "JB33"
             },
             {
                 "id": "Station:JR-East.ChuoSobuLocal.MakuhariHongo",
                 "latitude": 35.6725,
                 "longitude": 140.0421,
-                "name": "幕張本郷",
-                "nameEn": "Makuhari-Hongo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Makuhari-Hongo",
+                    "ja": "幕張本郷",
+                    "ko": "마쿠하리혼고",
+                    "zh-Hans": "幕张本乡",
+                    "zh-Hant": "幕張本鄉"
+                },
                 "stationCode": "JB34"
             },
             {
                 "id": "Station:JR-East.ChuoSobuLocal.Makuhari",
                 "latitude": 35.659323,
                 "longitude": 140.057986,
-                "name": "幕張",
-                "nameEn": "Makuhari",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Makuhari",
+                    "ja": "幕張",
+                    "ko": "마쿠하리",
+                    "zh-Hans": "幕张",
+                    "zh-Hant": "幕張"
+                },
                 "stationCode": "JB35"
             },
             {
                 "id": "Station:JR-East.ChuoSobuLocal.ShinKemigawa",
                 "latitude": 35.651784,
                 "longitude": 140.073098,
-                "name": "新検見川",
-                "nameEn": "Shin-Kemigawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shin-Kemigawa",
+                    "ja": "新検見川",
+                    "ko": "신케미가와",
+                    "zh-Hans": "新检见川",
+                    "zh-Hant": "新檢見川"
+                },
                 "stationCode": "JB36"
             },
             {
                 "id": "Station:JR-East.ChuoSobuLocal.Inage",
                 "latitude": 35.637085,
                 "longitude": 140.092567,
-                "name": "稲毛",
-                "nameEn": "Inage",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Inage",
+                    "ja": "稲毛",
+                    "ko": "이나게",
+                    "zh-Hans": "稻毛",
+                    "zh-Hant": "稻毛"
+                },
                 "stationCode": "JB37"
             },
             {
                 "id": "Station:JR-East.ChuoSobuLocal.NishiChiba",
                 "latitude": 35.622727,
                 "longitude": 140.103125,
-                "name": "西千葉",
-                "nameEn": "Nishi-Chiba",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nishi-Chiba",
+                    "ja": "西千葉",
+                    "ko": "니시치바",
+                    "zh-Hans": "西千叶",
+                    "zh-Hant": "西千葉"
+                },
                 "stationCode": "JB38"
             },
             {
                 "id": "Station:JR-East.ChuoSobuLocal.Chiba",
                 "latitude": 35.6131,
                 "longitude": 140.1136,
-                "name": "千葉",
-                "nameEn": "Chiba",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Chiba",
+                    "ja": "千葉",
+                    "ko": "지바",
+                    "zh-Hans": "千叶",
+                    "zh-Hant": "千葉"
+                },
                 "stationCode": "JB39"
             }
         ],
@@ -8286,19 +8405,27 @@
                 "connectingLineId": "Railway:TokyoMetro.Tozai",
                 "end": "ascending",
                 "junctionStationId": "Station:JR-East.ChuoSobuLocal.Nakano",
-                "lineNameEn": "Tokyo Metro Tozai Line",
-                "lineNameJa": "東京メトロ東西線",
-                "towardEn": "for Nishi-funabashi",
-                "towardJa": "西船橋方面"
+                "lineName": {
+                    "en": "Tokyo Metro Tozai Line",
+                    "ja": "東京メトロ東西線"
+                },
+                "toward": {
+                    "en": "for Nishi-funabashi",
+                    "ja": "西船橋方面"
+                }
             },
             {
                 "connectingLineId": "Railway:TokyoMetro.Tozai",
                 "end": "descending",
                 "junctionStationId": "Station:JR-East.ChuoSobuLocal.NishiFunabashi",
-                "lineNameEn": "Tokyo Metro Tozai Line",
-                "lineNameJa": "東京メトロ東西線",
-                "towardEn": "for Nakano",
-                "towardJa": "中野方面"
+                "lineName": {
+                    "en": "Tokyo Metro Tozai Line",
+                    "ja": "東京メトロ東西線"
+                },
+                "toward": {
+                    "en": "for Nakano",
+                    "ja": "中野方面"
+                }
             }
         ]
     }

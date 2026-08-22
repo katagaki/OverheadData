@@ -2,10 +2,14 @@
     {
         "colorHex": "#FF565D",
         "delayInfo": {
-            "checkMethodEn": "Check the Seibu Railway service status page, the Seibu app, or X (@seiburailway). Delays of roughly 15 minutes or more and suspensions are posted.",
-            "checkMethodJa": "西武鉄道「運行情報」ページ、西武線アプリ、またはX（@seiburailway）で確認できます。おおむね15分以上の遅延・運転見合わせが発生した場合に掲載されます。",
-            "statusPageURL": "https://www.seiburailway.jp/railway/railwayinfo/",
-            "statusPageURLEn": "https://www.seiburailway.jp/en/railway/railwayinfo/",
+            "checkMethod": {
+                "en": "Check the Seibu Railway service status page, the Seibu app, or X (@seiburailway). Delays of roughly 15 minutes or more and suspensions are posted.",
+                "ja": "西武鉄道「運行情報」ページ、西武線アプリ、またはX（@seiburailway）で確認できます。おおむね15分以上の遅延・運転見合わせが発生した場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://www.seiburailway.jp/en/railway/railwayinfo/",
+                "ja": "https://www.seiburailway.jp/railway/railwayinfo/"
+            },
             "xAccount": "@seiburailway"
         },
         "directions": [
@@ -15,25 +19,27 @@
                 "id": "static.RailDirection:Seibu.Yamaguchi.SeibukyujoMae",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Seibukyujo-Mae",
-                "nameJa": "西武球場前方面",
+                "name": {
+                    "en": "For Seibukyujo-Mae",
+                    "ja": "西武球場前方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
                             "from": "07:13",
-                            "headwayMinutes": 30.0
+                            "headwayMinutes": 30
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 25.0
+                            "headwayMinutes": 25
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 40.0
+                            "headwayMinutes": 40
                         },
                         {
                             "from": "21:00",
@@ -48,27 +54,27 @@
                     "bands": [
                         {
                             "from": "07:09",
-                            "headwayMinutes": 33.0
+                            "headwayMinutes": 33
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 30.0
+                            "headwayMinutes": 30
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 26.0
+                            "headwayMinutes": 26
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "20:00",
-                            "headwayMinutes": 30.0
+                            "headwayMinutes": 30
                         },
                         {
                             "from": "22:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         }
                     ],
                     "firstDeparture": "07:09",
@@ -82,8 +88,10 @@
                 "id": "static.RailDirection:Seibu.Yamaguchi.Tamako",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Tamako",
-                "nameJa": "多摩湖方面",
+                "name": {
+                    "en": "For Tamako",
+                    "ja": "多摩湖方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -92,15 +100,15 @@
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 40.0
+                            "headwayMinutes": 40
                         },
                         {
                             "from": "21:00",
-                            "headwayMinutes": 37.0
+                            "headwayMinutes": 37
                         }
                     ],
                     "firstDeparture": "07:03",
@@ -111,11 +119,11 @@
                     "bands": [
                         {
                             "from": "06:58",
-                            "headwayMinutes": 36.0
+                            "headwayMinutes": 36
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 30.0
+                            "headwayMinutes": 30
                         },
                         {
                             "from": "08:00",
@@ -123,11 +131,11 @@
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 21.0
+                            "headwayMinutes": 21
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "19:00",
@@ -135,11 +143,11 @@
                         },
                         {
                             "from": "20:00",
-                            "headwayMinutes": 30.0
+                            "headwayMinutes": 30
                         },
                         {
                             "from": "21:00",
-                            "headwayMinutes": 29.0
+                            "headwayMinutes": 29
                         }
                     ],
                     "firstDeparture": "06:58",
@@ -148,44 +156,55 @@
                 }
             }
         ],
-        "hopTimesMinutes": [1.0, 7.0],
+        "hopTimesMinutes": [1, 7],
         "id": "Railway:Seibu.Yamaguchi",
         "isLoop": false,
-        "nameEn": "Seibu Yamaguchi Line",
-        "nameJa": "西武山口線",
+        "name": {
+            "en": "Seibu Yamaguchi Line",
+            "ja": "西武山口線",
+            "ko": "세이부 철도 야마구치 선",
+            "zh-Hans": "山口线",
+            "zh-Hant": "山口線"
+        },
         "operatorId": "Operator:Seibu",
         "stations": [
             {
                 "id": "Station:Seibu.Yamaguchi.Tamako",
                 "latitude": 35.76597,
                 "longitude": 139.44263,
-                "name": "多摩湖",
-                "nameEn": "Tamako",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tamako",
+                    "ja": "多摩湖",
+                    "ko": "세이부유엔치",
+                    "zh-Hans": "西武游园地",
+                    "zh-Hant": "西武遊園地"
+                },
                 "stationCode": "SY01"
             },
             {
                 "id": "Station:Seibu.Yamaguchi.SeibuenYuenchi",
                 "latitude": 35.7694,
                 "longitude": 139.43999,
-                "name": "西武園ゆうえんち",
-                "nameEn": "Seibuen-Yuenchi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Seibuen-Yuenchi",
+                    "ja": "西武園ゆうえんち",
+                    "ko": "유엔치니시",
+                    "zh-Hans": "游园地西",
+                    "zh-Hant": "遊園地西"
+                },
                 "stationCode": "SY02"
             },
             {
                 "id": "Station:Seibu.Yamaguchi.SeibukyujoMae",
                 "latitude": 35.77041,
                 "longitude": 139.41879,
-                "name": "西武球場前",
-                "nameEn": "Seibukyujo-Mae",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Seibukyujo-Mae",
+                    "ja": "西武球場前",
+                    "ko": "세이부큐조마에",
+                    "zh-Hans": "西武球场前",
+                    "zh-Hant": "西武球場前"
+                },
                 "stationCode": "SY03"
             }
         ],
@@ -1651,6 +1670,6 @@
                 "type": "Local"
             }
         ],
-        "upHopTimesMinutes": [1.0, 6.0]
+        "upHopTimesMinutes": [1, 6]
     }
 ]

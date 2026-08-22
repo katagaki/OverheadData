@@ -2,10 +2,14 @@
     {
         "colorHex": "#40B3E5",
         "delayInfo": {
-            "checkMethodEn": "Check the Tobu Railway service status page, the Tobu app, or X (@TobuRailway_JP). Delays of roughly 10 minutes or more and suspensions are posted.",
-            "checkMethodJa": "東武鉄道「運行情報」ページ、東武線アプリ、またはX（@TobuRailway_JP）で確認できます。おおむね10分以上の遅延・運転見合わせが発生した場合に掲載されます。",
-            "statusPageURL": "https://www.tobu.co.jp/service_status/",
-            "statusPageURLEn": "https://www.tobu.co.jp/service_status/",
+            "checkMethod": {
+                "en": "Check the Tobu Railway service status page, the Tobu app, or X (@TobuRailway_JP). Delays of roughly 10 minutes or more and suspensions are posted.",
+                "ja": "東武鉄道「運行情報」ページ、東武線アプリ、またはX（@TobuRailway_JP）で確認できます。おおむね10分以上の遅延・運転見合わせが発生した場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://www.tobu.co.jp/service_status/",
+                "ja": "https://www.tobu.co.jp/service_status/"
+            },
             "xAccount": "@TobuRailway_JP"
         },
         "directions": [
@@ -617,8 +621,10 @@
                     }
                 ],
                 "isAscending": true,
-                "nameEn": "For Kashiwa & Funabashi",
-                "nameJa": "柏・船橋方面",
+                "name": {
+                    "en": "For Kashiwa & Funabashi",
+                    "ja": "柏・船橋方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -1312,8 +1318,10 @@
                     }
                 ],
                 "isAscending": false,
-                "nameEn": "For Omiya",
-                "nameJa": "大宮方面",
+                "name": {
+                    "en": "For Omiya",
+                    "ja": "大宮方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -1365,393 +1373,468 @@
         "hopTimesMinutes": [2, 1, 2, 2, 4, 3, 2, 2, 2, 3, 3, 3, 3, 2, 2, 1, 3, 3, 2, 2, 2, 2, 4, 3, 2, 1, 3, 2, 2, 2, 3, 3, 2, 2],
         "id": "Railway:Tobu.TobuUrbanPark",
         "isLoop": false,
-        "nameEn": "Tobu Urban Park Line",
-        "nameJa": "東武アーバンパークライン",
+        "name": {
+            "en": "Tobu Urban Park Line",
+            "ja": "東武アーバンパークライン",
+            "ko": "도부 철도 노다 선",
+            "zh-Hans": "野田线",
+            "zh-Hant": "野田線"
+        },
         "operatorId": "Operator:Tobu",
         "stations": [
             {
                 "id": "Station:Tobu.TobuUrbanPark.Omiya",
                 "latitude": 35.9076,
                 "longitude": 139.6244,
-                "name": "大宮",
-                "nameEn": "Omiya",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Omiya",
+                    "ja": "大宮",
+                    "ko": "오미야",
+                    "zh-Hans": "大宫",
+                    "zh-Hant": "大宮"
+                },
                 "stationCode": "TD01"
             },
             {
                 "id": "Station:Tobu.TobuUrbanPark.KitaOmiya",
                 "latitude": 35.9171,
                 "longitude": 139.6247,
-                "name": "北大宮",
-                "nameEn": "Kita-Omiya",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kita-Omiya",
+                    "ja": "北大宮",
+                    "ko": "기타오미야",
+                    "zh-Hans": "北大宫",
+                    "zh-Hant": "北大宮"
+                },
                 "stationCode": "TD02"
             },
             {
                 "id": "Station:Tobu.TobuUrbanPark.OmiyaKoen",
                 "latitude": 35.9236,
                 "longitude": 139.6324,
-                "name": "大宮公園",
-                "nameEn": "Omiya-Koen",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Omiya-Koen",
+                    "ja": "大宮公園",
+                    "ko": "오미야코엔",
+                    "zh-Hans": "大宫公园",
+                    "zh-Hant": "大宮公園"
+                },
                 "stationCode": "TD03"
             },
             {
                 "id": "Station:Tobu.TobuUrbanPark.Owada",
                 "latitude": 35.9293,
                 "longitude": 139.6505,
-                "name": "大和田",
-                "nameEn": "Owada",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Owada",
+                    "ja": "大和田",
+                    "ko": "오와다",
+                    "zh-Hans": "大和田",
+                    "zh-Hant": "大和田"
+                },
                 "stationCode": "TD04"
             },
             {
                 "id": "Station:Tobu.TobuUrbanPark.Nanasato",
                 "latitude": 35.9363,
                 "longitude": 139.6658,
-                "name": "七里",
-                "nameEn": "Nanasato",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nanasato",
+                    "ja": "七里",
+                    "ko": "나나사토",
+                    "zh-Hans": "七里",
+                    "zh-Hant": "七里"
+                },
                 "stationCode": "TD05"
             },
             {
                 "id": "Station:Tobu.TobuUrbanPark.Iwatsuki",
                 "latitude": 35.9501,
                 "longitude": 139.6929,
-                "name": "岩槻",
-                "nameEn": "Iwatsuki",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Iwatsuki",
+                    "ja": "岩槻",
+                    "ko": "이와쓰키",
+                    "zh-Hans": "岩槻",
+                    "zh-Hant": "巖槻"
+                },
                 "stationCode": "TD06"
             },
             {
                 "id": "Station:Tobu.TobuUrbanPark.HigashiIwatsuki",
                 "latitude": 35.9634,
                 "longitude": 139.7124,
-                "name": "東岩槻",
-                "nameEn": "Higashi-Iwatsuki",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Higashi-Iwatsuki",
+                    "ja": "東岩槻",
+                    "ko": "히가시이와쓰키",
+                    "zh-Hans": "東岩槻",
+                    "zh-Hant": "東巖槻"
+                },
                 "stationCode": "TD07"
             },
             {
                 "id": "Station:Tobu.TobuUrbanPark.Toyoharu",
                 "latitude": 35.968,
                 "longitude": 139.7262,
-                "name": "豊春",
-                "nameEn": "Toyoharu",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Toyoharu",
+                    "ja": "豊春",
+                    "ko": "도요하루",
+                    "zh-Hans": "丰春",
+                    "zh-Hant": "豐春"
+                },
                 "stationCode": "TD08"
             },
             {
                 "id": "Station:Tobu.TobuUrbanPark.Yagisaki",
                 "latitude": 35.9785,
                 "longitude": 139.742,
-                "name": "八木崎",
-                "nameEn": "Yagisaki",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Yagisaki",
+                    "ja": "八木崎",
+                    "ko": "야기사키",
+                    "zh-Hans": "八木崎",
+                    "zh-Hant": "八木崎"
+                },
                 "stationCode": "TD09"
             },
             {
                 "id": "Station:Tobu.TobuUrbanPark.Kasukabe",
                 "latitude": 35.980074,
                 "longitude": 139.752079,
-                "name": "春日部",
-                "nameEn": "Kasukabe",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kasukabe",
+                    "ja": "春日部",
+                    "ko": "가스카베",
+                    "zh-Hans": "春日部",
+                    "zh-Hant": "春日部"
+                },
                 "stationCode": "TD10"
             },
             {
                 "id": "Station:Tobu.TobuUrbanPark.Fujinoushijima",
                 "latitude": 35.9802,
                 "longitude": 139.7778,
-                "name": "藤の牛島",
-                "nameEn": "Fujinoushijima",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Fujinoushijima",
+                    "ja": "藤の牛島",
+                    "ko": "후지노우시지마",
+                    "zh-Hans": "藤之牛岛",
+                    "zh-Hant": "藤之牛島"
+                },
                 "stationCode": "TD11"
             },
             {
                 "id": "Station:Tobu.TobuUrbanPark.MinamiSakurai",
                 "latitude": 35.9805,
                 "longitude": 139.808,
-                "name": "南桜井",
-                "nameEn": "Minami-Sakurai",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Minami-Sakurai",
+                    "ja": "南桜井",
+                    "ko": "미나미사쿠라이",
+                    "zh-Hans": "南樱井",
+                    "zh-Hant": "南櫻井"
+                },
                 "stationCode": "TD12"
             },
             {
                 "id": "Station:Tobu.TobuUrbanPark.Kawama",
                 "latitude": 35.9792,
                 "longitude": 139.8339,
-                "name": "川間",
-                "nameEn": "Kawama",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kawama",
+                    "ja": "川間",
+                    "ko": "가와마",
+                    "zh-Hans": "川间",
+                    "zh-Hant": "川間"
+                },
                 "stationCode": "TD13"
             },
             {
                 "id": "Station:Tobu.TobuUrbanPark.Nanakodai",
                 "latitude": 35.9709,
                 "longitude": 139.8528,
-                "name": "七光台",
-                "nameEn": "Nanakodai",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nanakodai",
+                    "ja": "七光台",
+                    "ko": "나나코다이",
+                    "zh-Hans": "七光台",
+                    "zh-Hant": "七光台"
+                },
                 "stationCode": "TD14"
             },
             {
                 "id": "Station:Tobu.TobuUrbanPark.ShimizuKoen",
                 "latitude": 35.9592,
                 "longitude": 139.86,
-                "name": "清水公園",
-                "nameEn": "Shimizu-Koen",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shimizu-Koen",
+                    "ja": "清水公園",
+                    "ko": "시미즈코엔",
+                    "zh-Hans": "清水公园",
+                    "zh-Hant": "清水公園"
+                },
                 "stationCode": "TD15"
             },
             {
                 "id": "Station:Tobu.TobuUrbanPark.Atago",
                 "latitude": 35.9501,
                 "longitude": 139.8648,
-                "name": "愛宕",
-                "nameEn": "Atago",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Atago",
+                    "ja": "愛宕",
+                    "ko": "아타고",
+                    "zh-Hans": "爱宕",
+                    "zh-Hant": "愛宕"
+                },
                 "stationCode": "TD16"
             },
             {
                 "id": "Station:Tobu.TobuUrbanPark.Nodashi",
                 "latitude": 35.9434,
                 "longitude": 139.8708,
-                "name": "野田市",
-                "nameEn": "Nodashi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nodashi",
+                    "ja": "野田市",
+                    "ko": "노다시",
+                    "zh-Hans": "野田市",
+                    "zh-Hant": "野田市"
+                },
                 "stationCode": "TD17"
             },
             {
                 "id": "Station:Tobu.TobuUrbanPark.Umesato",
                 "latitude": 35.9313,
                 "longitude": 139.8912,
-                "name": "梅郷",
-                "nameEn": "Umesato",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Umesato",
+                    "ja": "梅郷",
+                    "ko": "우메사토",
+                    "zh-Hans": "梅乡",
+                    "zh-Hant": "梅鄉"
+                },
                 "stationCode": "TD18"
             },
             {
                 "id": "Station:Tobu.TobuUrbanPark.Unga",
                 "latitude": 35.9146,
                 "longitude": 139.9058,
-                "name": "運河",
-                "nameEn": "Unga",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Unga",
+                    "ja": "運河",
+                    "ko": "운가",
+                    "zh-Hans": "运河",
+                    "zh-Hant": "運河"
+                },
                 "stationCode": "TD19"
             },
             {
                 "id": "Station:Tobu.TobuUrbanPark.Edogawadai",
                 "latitude": 35.8975,
                 "longitude": 139.9101,
-                "name": "江戸川台",
-                "nameEn": "Edogawadai",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Edogawadai",
+                    "ja": "江戸川台",
+                    "ko": "에도가와다이",
+                    "zh-Hans": "江戶川台",
+                    "zh-Hant": "江戶川臺"
+                },
                 "stationCode": "TD20"
             },
             {
                 "id": "Station:Tobu.TobuUrbanPark.Hatsuishi",
                 "latitude": 35.8841,
                 "longitude": 139.9176,
-                "name": "初石",
-                "nameEn": "Hatsuishi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Hatsuishi",
+                    "ja": "初石",
+                    "ko": "하쓰이시",
+                    "zh-Hans": "初石",
+                    "zh-Hant": "初石"
+                },
                 "stationCode": "TD21"
             },
             {
                 "id": "Station:Tobu.TobuUrbanPark.NagareyamaOtakanomori",
                 "latitude": 35.8721,
                 "longitude": 139.9259,
-                "name": "流山おおたかの森",
-                "nameEn": "Nagareyama-Otakanomori",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nagareyama-Otakanomori",
+                    "ja": "流山おおたかの森",
+                    "ko": "나가레야마오타카노모리",
+                    "zh-Hans": "流山大鹰之森",
+                    "zh-Hant": "流山大鷹之森"
+                },
                 "stationCode": "TD22"
             },
             {
                 "id": "Station:Tobu.TobuUrbanPark.Toyoshiki",
                 "latitude": 35.8665,
                 "longitude": 139.9395,
-                "name": "豊四季",
-                "nameEn": "Toyoshiki",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Toyoshiki",
+                    "ja": "豊四季",
+                    "ko": "도요시키",
+                    "zh-Hans": "丰四季",
+                    "zh-Hant": "豐四季"
+                },
                 "stationCode": "TD23"
             },
             {
                 "id": "Station:Tobu.TobuUrbanPark.Kashiwa",
                 "latitude": 35.8622,
                 "longitude": 139.9706,
-                "name": "柏",
-                "nameEn": "Kashiwa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kashiwa",
+                    "ja": "柏",
+                    "ko": "가시와",
+                    "zh-Hans": "柏",
+                    "zh-Hant": "柏"
+                },
                 "stationCode": "TD24"
             },
             {
                 "id": "Station:Tobu.TobuUrbanPark.ShinKashiwa",
                 "latitude": 35.8381,
                 "longitude": 139.9671,
-                "name": "新柏",
-                "nameEn": "Shin-Kashiwa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shin-Kashiwa",
+                    "ja": "新柏",
+                    "ko": "신카시와",
+                    "zh-Hans": "新柏",
+                    "zh-Hant": "新柏"
+                },
                 "stationCode": "TD25"
             },
             {
                 "id": "Station:Tobu.TobuUrbanPark.Masuo",
                 "latitude": 35.8296,
                 "longitude": 139.9767,
-                "name": "増尾",
-                "nameEn": "Masuo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Masuo",
+                    "ja": "増尾",
+                    "ko": "마스오",
+                    "zh-Hans": "增尾",
+                    "zh-Hant": "增尾"
+                },
                 "stationCode": "TD26"
             },
             {
                 "id": "Station:Tobu.TobuUrbanPark.Sakasai",
                 "latitude": 35.8232,
                 "longitude": 139.9839,
-                "name": "逆井",
-                "nameEn": "Sakasai",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Sakasai",
+                    "ja": "逆井",
+                    "ko": "사카사이",
+                    "zh-Hans": "逆井",
+                    "zh-Hant": "逆井"
+                },
                 "stationCode": "TD27"
             },
             {
                 "id": "Station:Tobu.TobuUrbanPark.Takayanagi",
                 "latitude": 35.8085,
                 "longitude": 139.999,
-                "name": "高柳",
-                "nameEn": "Takayanagi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Takayanagi",
+                    "ja": "高柳",
+                    "ko": "다카야나기",
+                    "zh-Hans": "高柳",
+                    "zh-Hant": "高柳"
+                },
                 "stationCode": "TD28"
             },
             {
                 "id": "Station:Tobu.TobuUrbanPark.Mutsumi",
                 "latitude": 35.7937,
                 "longitude": 139.9992,
-                "name": "六実",
-                "nameEn": "Mutsumi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Mutsumi",
+                    "ja": "六実",
+                    "ko": "무쓰미",
+                    "zh-Hans": "六实",
+                    "zh-Hant": "六實"
+                },
                 "stationCode": "TD29"
             },
             {
                 "id": "Station:Tobu.TobuUrbanPark.ShinKamagaya",
                 "latitude": 35.7803,
                 "longitude": 139.9994,
-                "name": "新鎌ヶ谷",
-                "nameEn": "Shin-Kamagaya",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shin-Kamagaya",
+                    "ja": "新鎌ヶ谷",
+                    "ko": "신카마가야",
+                    "zh-Hans": "新镰谷",
+                    "zh-Hant": "新鎌谷"
+                },
                 "stationCode": "TD30"
             },
             {
                 "id": "Station:Tobu.TobuUrbanPark.Kamagaya",
                 "latitude": 35.764,
                 "longitude": 139.9972,
-                "name": "鎌ヶ谷",
-                "nameEn": "Kamagaya",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kamagaya",
+                    "ja": "鎌ヶ谷",
+                    "ko": "가마가야",
+                    "zh-Hans": "镰谷",
+                    "zh-Hant": "鎌谷"
+                },
                 "stationCode": "TD31"
             },
             {
                 "id": "Station:Tobu.TobuUrbanPark.Magomezawa",
                 "latitude": 35.7417,
                 "longitude": 139.9923,
-                "name": "馬込沢",
-                "nameEn": "Magomezawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Magomezawa",
+                    "ja": "馬込沢",
+                    "ko": "마고메자와",
+                    "zh-Hans": "马込泽",
+                    "zh-Hant": "馬込澤"
+                },
                 "stationCode": "TD32"
             },
             {
                 "id": "Station:Tobu.TobuUrbanPark.Tsukada",
                 "latitude": 35.722,
                 "longitude": 139.9828,
-                "name": "塚田",
-                "nameEn": "Tsukada",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tsukada",
+                    "ja": "塚田",
+                    "ko": "쓰카다",
+                    "zh-Hans": "冢田",
+                    "zh-Hant": "塚田"
+                },
                 "stationCode": "TD33"
             },
             {
                 "id": "Station:Tobu.TobuUrbanPark.ShinFunabashi",
                 "latitude": 35.7109,
                 "longitude": 139.9798,
-                "name": "新船橋",
-                "nameEn": "Shin-Funabashi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shin-Funabashi",
+                    "ja": "新船橋",
+                    "ko": "신후나바시",
+                    "zh-Hans": "新船桥",
+                    "zh-Hant": "新船橋"
+                },
                 "stationCode": "TD34"
             },
             {
                 "id": "Station:Tobu.TobuUrbanPark.Funabashi",
                 "latitude": 35.7021,
                 "longitude": 139.9847,
-                "name": "船橋",
-                "nameEn": "Funabashi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Funabashi",
+                    "ja": "船橋",
+                    "ko": "후나바시",
+                    "zh-Hans": "船桥",
+                    "zh-Hant": "船橋"
+                },
                 "stationCode": "TD35"
             }
         ],

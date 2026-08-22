@@ -2,10 +2,14 @@
     {
         "colorHex": "#FFD400",
         "delayInfo": {
-            "checkMethodEn": "Check the JR East Train Operation Information page or the JR East app. In the Tokyo area, delays or suspensions of 15 minutes or more are posted.",
-            "checkMethodJa": "JR東日本「列車運行情報」ページまたはJR東日本アプリで確認できます。首都圏エリアでは15分以上の遅れ・運休が発生または見込まれる場合に掲載されます。",
-            "statusPageURL": "https://traininfo.jreast.co.jp/train_info/line.aspx?gid=1&lineid=ryomoline",
-            "statusPageURLEn": "https://traininfo.jreast.co.jp/train_info/e/kanto.aspx",
+            "checkMethod": {
+                "en": "Check the JR East Train Operation Information page or the JR East app. In the Tokyo area, delays or suspensions of 15 minutes or more are posted.",
+                "ja": "JR東日本「列車運行情報」ページまたはJR東日本アプリで確認できます。首都圏エリアでは15分以上の遅れ・運休が発生または見込まれる場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://traininfo.jreast.co.jp/train_info/e/kanto.aspx",
+                "ja": "https://traininfo.jreast.co.jp/train_info/line.aspx?gid=1&lineid=ryomoline"
+            },
             "xAccount": "@JRE_F_Toho_Taka"
         },
         "directions": [
@@ -31,8 +35,10 @@
                     }
                 ],
                 "isAscending": true,
-                "nameEn": "For Maebashi & Takasaki",
-                "nameJa": "前橋・高崎方面",
+                "name": {
+                    "en": "For Maebashi & Takasaki",
+                    "ja": "前橋・高崎方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -164,8 +170,10 @@
                     }
                 ],
                 "isAscending": false,
-                "nameEn": "For Kiryu & Oyama",
-                "nameJa": "桐生・小山方面",
+                "name": {
+                    "en": "For Kiryu & Oyama",
+                    "ja": "桐生・小山方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -345,250 +353,299 @@
         "hopTimesMinutes": [6, 6, 5, 4, 7, 5, 3, 7, 5, 5, 8, 5, 6, 7, 6, 4, 5, 4, 5, 2, 4],
         "id": "Railway:JR-East.Ryomo",
         "isLoop": false,
-        "nameEn": "Ryomo Line",
-        "nameJa": "両毛線",
+        "name": {
+            "en": "Ryomo Line",
+            "ja": "両毛線",
+            "ko": "료모선",
+            "zh-Hans": "两毛线",
+            "zh-Hant": "兩毛線"
+        },
         "operatorId": "Operator:JR-East",
         "stations": [
             {
                 "id": "Station:JR-East.Ryomo.Oyama",
                 "latitude": 36.313608,
                 "longitude": 139.806539,
-                "name": "小山",
-                "nameEn": "Oyama",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Oyama",
+                    "ja": "小山",
+                    "ko": "오야마",
+                    "zh-Hans": "小山",
+                    "zh-Hant": "小山"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Ryomo.Omoigawa",
                 "latitude": 36.350644,
                 "longitude": 139.781578,
-                "name": "思川",
-                "nameEn": "Omoigawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Omoigawa",
+                    "ja": "思川",
+                    "ko": "오모이가와",
+                    "zh-Hans": "思川",
+                    "zh-Hant": "思川"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Ryomo.Tochigi",
                 "latitude": 36.371714,
                 "longitude": 139.730961,
-                "name": "栃木",
-                "nameEn": "Tochigi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tochigi",
+                    "ja": "栃木",
+                    "ko": "도치기",
+                    "zh-Hans": "栃木",
+                    "zh-Hant": "栃木"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Ryomo.Ohirashita",
                 "latitude": 36.344339,
                 "longitude": 139.6976,
-                "name": "大平下",
-                "nameEn": "Ohirashita",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ohirashita",
+                    "ja": "大平下",
+                    "ko": "오히라시타",
+                    "zh-Hans": "大平下",
+                    "zh-Hant": "大平下"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Ryomo.Iwafune",
                 "latitude": 36.326725,
                 "longitude": 139.657714,
-                "name": "岩舟",
-                "nameEn": "Iwafune",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Iwafune",
+                    "ja": "岩舟",
+                    "ko": "이와후네",
+                    "zh-Hans": "岩舟",
+                    "zh-Hant": "巖舟"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Ryomo.Sano",
                 "latitude": 36.316669,
                 "longitude": 139.579017,
-                "name": "佐野",
-                "nameEn": "Sano",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Sano",
+                    "ja": "佐野",
+                    "ko": "사노",
+                    "zh-Hans": "佐野",
+                    "zh-Hant": "佐野"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Ryomo.Tomita",
                 "latitude": 36.316083,
                 "longitude": 139.528778,
-                "name": "富田",
-                "nameEn": "Tomita",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tomita",
+                    "ja": "富田",
+                    "ko": "도미타",
+                    "zh-Hans": "富田",
+                    "zh-Hant": "富田"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Ryomo.AshikagaFlowerPark",
                 "latitude": 36.315167,
                 "longitude": 139.518611,
-                "name": "あしかがフラワーパーク",
-                "nameEn": "Ashikaga Flower Park",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ashikaga Flower Park",
+                    "ja": "あしかがフラワーパーク",
+                    "ko": "아시카가 플라워파크",
+                    "zh-Hans": "足利花卉公园",
+                    "zh-Hant": "足利花卉公園"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Ryomo.Ashikaga",
                 "latitude": 36.332053,
                 "longitude": 139.456047,
-                "name": "足利",
-                "nameEn": "Ashikaga",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ashikaga",
+                    "ja": "足利",
+                    "ko": "아시카가",
+                    "zh-Hans": "足利",
+                    "zh-Hant": "足利"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Ryomo.Yamamae",
                 "latitude": 36.347286,
                 "longitude": 139.411225,
-                "name": "山前",
-                "nameEn": "Yamamae",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Yamamae",
+                    "ja": "山前",
+                    "ko": "야마마에",
+                    "zh-Hans": "山前",
+                    "zh-Hant": "山前"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Ryomo.Omata",
                 "latitude": 36.375217,
                 "longitude": 139.374044,
-                "name": "小俣",
-                "nameEn": "Omata",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Omata",
+                    "ja": "小俣",
+                    "ko": "오마타",
+                    "zh-Hans": "小俣",
+                    "zh-Hant": "小俁"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Ryomo.Kiryu",
                 "latitude": 36.411111,
                 "longitude": 139.333056,
-                "name": "桐生",
-                "nameEn": "Kiryu",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kiryu",
+                    "ja": "桐生",
+                    "ko": "기류",
+                    "zh-Hans": "桐生",
+                    "zh-Hant": "桐生"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Ryomo.Iwajuku",
                 "latitude": 36.395833,
                 "longitude": 139.296944,
-                "name": "岩宿",
-                "nameEn": "Iwajuku",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Iwajuku",
+                    "ja": "岩宿",
+                    "ko": "이와주쿠",
+                    "zh-Hans": "岩宿",
+                    "zh-Hant": "巖宿"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Ryomo.Kunisada",
                 "latitude": 36.358786,
                 "longitude": 139.242039,
-                "name": "国定",
-                "nameEn": "Kunisada",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kunisada",
+                    "ja": "国定",
+                    "ko": "구니사다",
+                    "zh-Hans": "国定",
+                    "zh-Hant": "國定"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Ryomo.Isesaki",
                 "latitude": 36.326681,
                 "longitude": 139.193825,
-                "name": "伊勢崎",
-                "nameEn": "Isesaki",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Isesaki",
+                    "ja": "伊勢崎",
+                    "ko": "이세사키",
+                    "zh-Hans": "伊勢崎",
+                    "zh-Hant": "伊勢崎"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Ryomo.Komagata",
                 "latitude": 36.354272,
                 "longitude": 139.139228,
-                "name": "駒形",
-                "nameEn": "Komagata",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Komagata",
+                    "ja": "駒形",
+                    "ko": "고마가타",
+                    "zh-Hans": "驹形",
+                    "zh-Hant": "駒形"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Ryomo.MaebashiOshima",
                 "latitude": 36.370558,
                 "longitude": 139.109617,
-                "name": "前橋大島",
-                "nameEn": "Maebashi-Oshima",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Maebashi-Oshima",
+                    "ja": "前橋大島",
+                    "ko": "마에바시오시마",
+                    "zh-Hans": "前桥大岛",
+                    "zh-Hant": "前橋大島"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Ryomo.Maebashi",
                 "latitude": 36.383236,
                 "longitude": 139.073028,
-                "name": "前橋",
-                "nameEn": "Maebashi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Maebashi",
+                    "ja": "前橋",
+                    "ko": "마에바시",
+                    "zh-Hans": "前桥",
+                    "zh-Hant": "前橋"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Ryomo.ShinMaebashi",
                 "latitude": 36.378889,
                 "longitude": 139.047111,
-                "name": "新前橋",
-                "nameEn": "Shin-Maebashi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shin-Maebashi",
+                    "ja": "新前橋",
+                    "ko": "신마에바시",
+                    "zh-Hans": "新前桥",
+                    "zh-Hant": "新前橋"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Ryomo.Ino",
                 "latitude": 36.357314,
                 "longitude": 139.02295,
-                "name": "井野",
-                "nameEn": "Ino",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ino",
+                    "ja": "井野",
+                    "ko": "이노",
+                    "zh-Hans": "井野",
+                    "zh-Hant": "井野"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Ryomo.Takasakitonyamachi",
                 "latitude": 36.346086,
                 "longitude": 139.017114,
-                "name": "高崎問屋町",
-                "nameEn": "Takasakitonyamachi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Takasakitonyamachi",
+                    "ja": "高崎問屋町",
+                    "ko": "다카사키톤야마치",
+                    "zh-Hans": "高崎问屋町",
+                    "zh-Hant": "高崎問屋町"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Ryomo.Takasaki",
                 "latitude": 36.322472,
                 "longitude": 139.012778,
-                "name": "高崎",
-                "nameEn": "Takasaki",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Takasaki",
+                    "ja": "高崎",
+                    "ko": "다카사키",
+                    "zh-Hans": "高崎",
+                    "zh-Hant": "高崎"
+                },
                 "stationCode": ""
             }
         ],
@@ -598,10 +655,14 @@
                 "connectingLineId": "Railway:JR-East.Takasaki",
                 "end": "ascending",
                 "junctionStationId": "Station:JR-East.Ryomo.Takasaki",
-                "lineNameEn": "Takasaki Line",
-                "lineNameJa": "高崎線",
-                "towardEn": "for Kumagaya & Omiya",
-                "towardJa": "熊谷・大宮方面"
+                "lineName": {
+                    "en": "Takasaki Line",
+                    "ja": "高崎線"
+                },
+                "toward": {
+                    "en": "for Kumagaya & Omiya",
+                    "ja": "熊谷・大宮方面"
+                }
             }
         ],
         "timetableRuns": [
@@ -612,9 +673,11 @@
                 "startsHere": false,
                 "stops": [303, 306],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "熱海東京経由",
-                "throughDestEn": "熱海東京経由"
+                "throughDest": {
+                    "en": "熱海東京経由",
+                    "ja": "熱海東京経由"
+                },
+                "type": "Local"
             },
             {
                 "ascending": true,
@@ -632,9 +695,11 @@
                 "startsHere": true,
                 "stops": [331, -1, 340, 342],
                 "terminates": false,
-                "type": "Rapid",
-                "throughDestJa": "小田原新宿経由",
-                "throughDestEn": "小田原新宿経由"
+                "throughDest": {
+                    "en": "小田原新宿経由",
+                    "ja": "小田原新宿経由"
+                },
+                "type": "Rapid"
             },
             {
                 "ascending": true,
@@ -661,9 +726,11 @@
                 "startsHere": true,
                 "stops": [360, -1, 368, 370],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "品川",
-                "throughDestEn": "品川"
+                "throughDest": {
+                    "en": "品川",
+                    "ja": "品川"
+                },
+                "type": "Local"
             },
             {
                 "ascending": true,
@@ -681,9 +748,11 @@
                 "startsHere": true,
                 "stops": [376, -1, 386, 388],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "国府津東京経由",
-                "throughDestEn": "国府津東京経由"
+                "throughDest": {
+                    "en": "国府津東京経由",
+                    "ja": "国府津東京経由"
+                },
+                "type": "Local"
             },
             {
                 "ascending": true,
@@ -719,9 +788,11 @@
                 "startsHere": true,
                 "stops": [401, -1, 409, 412],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "平塚東京経由",
-                "throughDestEn": "平塚東京経由"
+                "throughDest": {
+                    "en": "平塚東京経由",
+                    "ja": "平塚東京経由"
+                },
+                "type": "Local"
             },
             {
                 "ascending": true,
@@ -766,9 +837,11 @@
                 "startsHere": true,
                 "stops": [428, -1, 438, 440],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "平塚東京経由",
-                "throughDestEn": "平塚東京経由"
+                "throughDest": {
+                    "en": "平塚東京経由",
+                    "ja": "平塚東京経由"
+                },
+                "type": "Local"
             },
             {
                 "ascending": true,
@@ -822,9 +895,11 @@
                 "startsHere": true,
                 "stops": [478, -1, 487, 489],
                 "terminates": false,
-                "type": "Rapid",
-                "throughDestJa": "国府津新宿経由",
-                "throughDestEn": "国府津新宿経由"
+                "throughDest": {
+                    "en": "国府津新宿経由",
+                    "ja": "国府津新宿経由"
+                },
+                "type": "Rapid"
             },
             {
                 "ascending": true,
@@ -1085,9 +1160,11 @@
                 "startsHere": true,
                 "stops": [973, -1, 981, 984],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "小田原東京経由",
-                "throughDestEn": "小田原東京経由"
+                "throughDest": {
+                    "en": "小田原東京経由",
+                    "ja": "小田原東京経由"
+                },
+                "type": "Local"
             },
             {
                 "ascending": true,
@@ -1186,9 +1263,11 @@
                 "startsHere": true,
                 "stops": [1095, -1, 1103, 1105],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "熱海東京経由",
-                "throughDestEn": "熱海東京経由"
+                "throughDest": {
+                    "en": "熱海東京経由",
+                    "ja": "熱海東京経由"
+                },
+                "type": "Local"
             },
             {
                 "ascending": true,
@@ -1242,9 +1321,11 @@
                 "startsHere": true,
                 "stops": [1153, -1, 1163, 1166],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "上野",
-                "throughDestEn": "Ueno"
+                "throughDest": {
+                    "en": "Ueno",
+                    "ja": "上野"
+                },
+                "type": "Local"
             },
             {
                 "ascending": true,
@@ -1865,9 +1946,11 @@
                 "startsHere": false,
                 "stops": [303, 306],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "熱海東京経由",
-                "throughDestEn": "熱海東京経由"
+                "throughDest": {
+                    "en": "熱海東京経由",
+                    "ja": "熱海東京経由"
+                },
+                "type": "Local"
             },
             {
                 "ascending": true,
@@ -1885,9 +1968,11 @@
                 "startsHere": true,
                 "stops": [331, -1, 340, 342],
                 "terminates": false,
-                "type": "Rapid",
-                "throughDestJa": "小田原新宿経由",
-                "throughDestEn": "小田原新宿経由"
+                "throughDest": {
+                    "en": "小田原新宿経由",
+                    "ja": "小田原新宿経由"
+                },
+                "type": "Rapid"
             },
             {
                 "ascending": true,
@@ -1914,9 +1999,11 @@
                 "startsHere": true,
                 "stops": [360, -1, 368, 370],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "熱海東京経由",
-                "throughDestEn": "熱海東京経由"
+                "throughDest": {
+                    "en": "熱海東京経由",
+                    "ja": "熱海東京経由"
+                },
+                "type": "Local"
             },
             {
                 "ascending": true,
@@ -1952,9 +2039,11 @@
                 "startsHere": true,
                 "stops": [393, -1, 401, 403],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "平塚東京経由",
-                "throughDestEn": "平塚東京経由"
+                "throughDest": {
+                    "en": "平塚東京経由",
+                    "ja": "平塚東京経由"
+                },
+                "type": "Local"
             },
             {
                 "ascending": true,
@@ -1972,9 +2061,11 @@
                 "startsHere": true,
                 "stops": [401, -1, 409, 412],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "上野",
-                "throughDestEn": "Ueno"
+                "throughDest": {
+                    "en": "Ueno",
+                    "ja": "上野"
+                },
+                "type": "Local"
             },
             {
                 "ascending": true,
@@ -2019,9 +2110,11 @@
                 "startsHere": true,
                 "stops": [428, -1, 438, 441],
                 "terminates": false,
-                "type": "Rapid",
-                "throughDestJa": "国府津新宿経由",
-                "throughDestEn": "国府津新宿経由"
+                "throughDest": {
+                    "en": "国府津新宿経由",
+                    "ja": "国府津新宿経由"
+                },
+                "type": "Rapid"
             },
             {
                 "ascending": true,
@@ -2327,9 +2420,11 @@
                 "startsHere": true,
                 "stops": [973, -1, 981, 984],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "国府津東京経由",
-                "throughDestEn": "国府津東京経由"
+                "throughDest": {
+                    "en": "国府津東京経由",
+                    "ja": "国府津東京経由"
+                },
+                "type": "Local"
             },
             {
                 "ascending": true,
@@ -2392,9 +2487,11 @@
                 "startsHere": false,
                 "stops": [1050, 1052],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "上野",
-                "throughDestEn": "Ueno"
+                "throughDest": {
+                    "en": "Ueno",
+                    "ja": "上野"
+                },
+                "type": "Local"
             },
             {
                 "ascending": true,
@@ -2439,9 +2536,11 @@
                 "startsHere": true,
                 "stops": [1095, -1, 1104, 1106],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "熱海東京経由",
-                "throughDestEn": "熱海東京経由"
+                "throughDest": {
+                    "en": "熱海東京経由",
+                    "ja": "熱海東京経由"
+                },
+                "type": "Local"
             },
             {
                 "ascending": true,
@@ -2495,9 +2594,11 @@
                 "startsHere": true,
                 "stops": [1153, -1, 1163, 1166],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "上野",
-                "throughDestEn": "Ueno"
+                "throughDest": {
+                    "en": "Ueno",
+                    "ja": "上野"
+                },
+                "type": "Local"
             },
             {
                 "ascending": true,

@@ -2,10 +2,14 @@
     {
         "colorHex": "#00A943",
         "delayInfo": {
-            "checkMethodEn": "Check the Seibu Railway service status page, the Seibu app, or X (@seiburailway). Delays of roughly 15 minutes or more and suspensions are posted.",
-            "checkMethodJa": "西武鉄道「運行情報」ページ、西武線アプリ、またはX（@seiburailway）で確認できます。おおむね15分以上の遅延・運転見合わせが発生した場合に掲載されます。",
-            "statusPageURL": "https://www.seiburailway.jp/railway/railwayinfo/",
-            "statusPageURLEn": "https://www.seiburailway.jp/en/railway/railwayinfo/",
+            "checkMethod": {
+                "en": "Check the Seibu Railway service status page, the Seibu app, or X (@seiburailway). Delays of roughly 15 minutes or more and suspensions are posted.",
+                "ja": "西武鉄道「運行情報」ページ、西武線アプリ、またはX（@seiburailway）で確認できます。おおむね15分以上の遅延・運転見合わせが発生した場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://www.seiburailway.jp/en/railway/railwayinfo/",
+                "ja": "https://www.seiburailway.jp/railway/railwayinfo/"
+            },
             "xAccount": "@seiburailway"
         },
         "directions": [
@@ -15,8 +19,10 @@
                 "id": "static.RailDirection:Seibu.Seibuen.Seibuen",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Seibuen",
-                "nameJa": "西武園方面",
+                "name": {
+                    "en": "For Seibuen",
+                    "ja": "西武園方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -25,11 +31,11 @@
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 16.0
+                            "headwayMinutes": 16
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "09:00",
@@ -37,19 +43,19 @@
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 17.0
+                            "headwayMinutes": 17
                         },
                         {
                             "from": "11:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 18.0
+                            "headwayMinutes": 18
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "22:00",
@@ -57,7 +63,7 @@
                         },
                         {
                             "from": "23:00",
-                            "headwayMinutes": 23.0
+                            "headwayMinutes": 23
                         }
                     ],
                     "firstDeparture": "05:28",
@@ -68,7 +74,7 @@
                     "bands": [
                         {
                             "from": "05:28",
-                            "headwayMinutes": 14.0
+                            "headwayMinutes": 14
                         },
                         {
                             "from": "08:00",
@@ -76,15 +82,15 @@
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 19.0
+                            "headwayMinutes": 19
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "20:00",
@@ -100,7 +106,7 @@
                         },
                         {
                             "from": "23:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         }
                     ],
                     "firstDeparture": "05:28",
@@ -114,8 +120,10 @@
                 "id": "static.RailDirection:Seibu.Seibuen.HigashiMurayama",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Higashi-Murayama",
-                "nameJa": "東村山方面",
+                "name": {
+                    "en": "For Higashi-Murayama",
+                    "ja": "東村山方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -124,23 +132,23 @@
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 17.0
+                            "headwayMinutes": 17
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "11:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 16.0
+                            "headwayMinutes": 16
                         },
                         {
                             "from": "17:00",
@@ -148,7 +156,7 @@
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         }
                     ],
                     "firstDeparture": "05:35",
@@ -159,15 +167,15 @@
                     "bands": [
                         {
                             "from": "05:35",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 14.0
+                            "headwayMinutes": 14
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "08:00",
@@ -175,19 +183,19 @@
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "22:00",
-                            "headwayMinutes": 16.0
+                            "headwayMinutes": 16
                         },
                         {
                             "from": "23:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         }
                     ],
                     "firstDeparture": "05:35",
@@ -196,33 +204,42 @@
                 }
             }
         ],
-        "hopTimesMinutes": [3.0],
+        "hopTimesMinutes": [3],
         "id": "Railway:Seibu.Seibuen",
         "isLoop": false,
-        "nameEn": "Seibu Seibuen Line",
-        "nameJa": "西武西武園線",
+        "name": {
+            "en": "Seibu Seibuen Line",
+            "ja": "西武西武園線",
+            "ko": "세이부 철도 세이부엔 선",
+            "zh-Hans": "西武园线",
+            "zh-Hant": "西武園線"
+        },
         "operatorId": "Operator:Seibu",
         "stations": [
             {
                 "id": "Station:Seibu.Seibuen.HigashiMurayama",
                 "latitude": 35.76048,
                 "longitude": 139.46585,
-                "name": "東村山",
-                "nameEn": "Higashi-Murayama",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Higashi-Murayama",
+                    "ja": "東村山",
+                    "ko": "히가시무라야마",
+                    "zh-Hans": "东村山",
+                    "zh-Hant": "東村山"
+                },
                 "stationCode": "SK05"
             },
             {
                 "id": "Station:Seibu.Seibuen.Seibuen",
                 "latitude": 35.7678,
                 "longitude": 139.44883,
-                "name": "西武園",
-                "nameEn": "Seibuen",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Seibuen",
+                    "ja": "西武園",
+                    "ko": "세이부엔",
+                    "zh-Hans": "西武园",
+                    "zh-Hant": "西武園"
+                },
                 "stationCode": "SK06"
             }
         ],
@@ -2570,6 +2587,6 @@
                 "type": "Local"
             }
         ],
-        "upHopTimesMinutes": [3.0]
+        "upHopTimesMinutes": [3]
     }
 ]

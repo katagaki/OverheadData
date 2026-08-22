@@ -2,10 +2,14 @@
     {
         "colorHex": "#2843BA",
         "delayInfo": {
-            "checkMethodEn": "Check the Chiba Urban Monorail operation status page. Delays of 10 minutes or more are posted there.",
-            "checkMethodJa": "千葉都市モノレールの運行状況ページで確認できます。10分以上の遅れが発生または見込まれる場合に掲載されます。",
-            "statusPageURL": "https://chiba-monorail.co.jp/index.php/info-detail/",
-            "statusPageURLEn": "https://chiba-monorail.co.jp/index.php/info-detail/",
+            "checkMethod": {
+                "en": "Check the Chiba Urban Monorail operation status page. Delays of 10 minutes or more are posted there.",
+                "ja": "千葉都市モノレールの運行状況ページで確認できます。10分以上の遅れが発生または見込まれる場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://chiba-monorail.co.jp/index.php/info-detail/",
+                "ja": "https://chiba-monorail.co.jp/index.php/info-detail/"
+            },
             "xAccount": "@chibamonoPR"
         },
         "directions": [
@@ -15,8 +19,10 @@
                 "id": "static.RailDirection:ChibaMonorail.Line2.Chishirodai",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Tsuga & Chishirodai",
-                "nameJa": "都賀・千城台方面",
+                "name": {
+                    "en": "For Tsuga & Chishirodai",
+                    "ja": "都賀・千城台方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -102,8 +108,10 @@
                 "id": "static.RailDirection:ChibaMonorail.Line2.Chiba",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Chiba & Chibaminato",
-                "nameJa": "千葉・千葉みなと方面",
+                "name": {
+                    "en": "For Chiba & Chibaminato",
+                    "ja": "千葉・千葉みなと方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -199,151 +207,182 @@
         "hopTimesMinutes": [3, 1, 2, 2, 2, 2, 2, 3, 2, 2, 2, 2],
         "id": "Railway:ChibaMonorail.Line2",
         "isLoop": false,
-        "nameEn": "Chiba Urban Monorail Line 2",
-        "nameJa": "千葉都市モノレール2号線",
+        "name": {
+            "en": "Chiba Urban Monorail Line 2",
+            "ja": "千葉都市モノレール2号線",
+            "ko": "지바 도시 모노레일 2호선",
+            "zh-Hans": "千叶都市单轨电车2号线",
+            "zh-Hant": "千葉都市單軌電車2號線"
+        },
         "operatorId": "Operator:ChibaMonorail",
         "stations": [
             {
                 "id": "Station:ChibaMonorail.Line2.Chiba",
                 "latitude": 35.613056,
                 "longitude": 140.113889,
-                "name": "千葉",
-                "nameEn": "Chiba",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Chiba",
+                    "ja": "千葉",
+                    "ko": "지바",
+                    "zh-Hans": "千叶",
+                    "zh-Hant": "千葉"
+                },
                 "stationCode": "CM03"
             },
             {
                 "id": "Station:ChibaMonorail.Line2.Chibakoen",
                 "latitude": 35.61975,
                 "longitude": 140.117861,
-                "name": "千葉公園",
-                "nameEn": "Chiba-koen",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Chiba-koen",
+                    "ja": "千葉公園",
+                    "ko": "지바코엔",
+                    "zh-Hans": "千叶公园",
+                    "zh-Hant": "千葉公園"
+                },
                 "stationCode": "CM04"
             },
             {
                 "id": "Station:ChibaMonorail.Line2.Sakusabe",
                 "latitude": 35.62575,
                 "longitude": 140.115222,
-                "name": "作草部",
-                "nameEn": "Sakusabe",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Sakusabe",
+                    "ja": "作草部",
+                    "ko": "사쿠사베",
+                    "zh-Hans": "作草部",
+                    "zh-Hant": "作草部"
+                },
                 "stationCode": "CM05"
             },
             {
                 "id": "Station:ChibaMonorail.Line2.Tendai",
                 "latitude": 35.631389,
                 "longitude": 140.112778,
-                "name": "天台",
-                "nameEn": "Tendai",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tendai",
+                    "ja": "天台",
+                    "ko": "덴다이",
+                    "zh-Hans": "天台",
+                    "zh-Hant": "天臺"
+                },
                 "stationCode": "CM06"
             },
             {
                 "id": "Station:ChibaMonorail.Line2.Anagawa",
                 "latitude": 35.639583,
                 "longitude": 140.111917,
-                "name": "穴川",
-                "nameEn": "Anagawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Anagawa",
+                    "ja": "穴川",
+                    "ko": "아나가와",
+                    "zh-Hans": "穴川",
+                    "zh-Hant": "穴川"
+                },
                 "stationCode": "CM07"
             },
             {
                 "id": "Station:ChibaMonorail.Line2.SportsCenter",
                 "latitude": 35.643278,
                 "longitude": 140.116167,
-                "name": "スポーツセンター",
-                "nameEn": "Sports Center",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Sports Center",
+                    "ja": "スポーツセンター",
+                    "ko": "스포츠 센터",
+                    "zh-Hans": "体育中心",
+                    "zh-Hant": "體育中心"
+                },
                 "stationCode": "CM08"
             },
             {
                 "id": "Station:ChibaMonorail.Line2.Dobutsukoen",
                 "latitude": 35.642556,
                 "longitude": 140.125556,
-                "name": "動物公園",
-                "nameEn": "Dobutsukoen",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Dobutsukoen",
+                    "ja": "動物公園",
+                    "ko": "도부쓰코엔",
+                    "zh-Hans": "动物公园",
+                    "zh-Hant": "動物公園"
+                },
                 "stationCode": "CM09"
             },
             {
                 "id": "Station:ChibaMonorail.Line2.Mitsuwadai",
                 "latitude": 35.638667,
                 "longitude": 140.134917,
-                "name": "みつわ台",
-                "nameEn": "Mitsuwadai",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Mitsuwadai",
+                    "ja": "みつわ台",
+                    "ko": "미쓰와다이",
+                    "zh-Hans": "三和台",
+                    "zh-Hant": "三和臺"
+                },
                 "stationCode": "CM10"
             },
             {
                 "id": "Station:ChibaMonorail.Line2.Tsuga",
                 "latitude": 35.636083,
                 "longitude": 140.149194,
-                "name": "都賀",
-                "nameEn": "Tsuga",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tsuga",
+                    "ja": "都賀",
+                    "ko": "쓰가",
+                    "zh-Hans": "都贺",
+                    "zh-Hant": "都賀"
+                },
                 "stationCode": "CM11"
             },
             {
                 "id": "Station:ChibaMonorail.Line2.Sakuragi",
                 "latitude": 35.63125,
                 "longitude": 140.161028,
-                "name": "桜木",
-                "nameEn": "Sakuragi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Sakuragi",
+                    "ja": "桜木",
+                    "ko": "사쿠라기",
+                    "zh-Hans": "樱木",
+                    "zh-Hant": "櫻木"
+                },
                 "stationCode": "CM12"
             },
             {
                 "id": "Station:ChibaMonorail.Line2.Oguradai",
                 "latitude": 35.627694,
                 "longitude": 140.17175,
-                "name": "小倉台",
-                "nameEn": "Oguradai",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Oguradai",
+                    "ja": "小倉台",
+                    "ko": "오구라다이",
+                    "zh-Hans": "小倉台",
+                    "zh-Hant": "小倉臺"
+                },
                 "stationCode": "CM13"
             },
             {
                 "id": "Station:ChibaMonorail.Line2.Chishirodaikita",
                 "latitude": 35.627417,
                 "longitude": 140.182,
-                "name": "千城台北",
-                "nameEn": "Chishirodai-kita",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Chishirodai-kita",
+                    "ja": "千城台北",
+                    "ko": "지시로다이키타",
+                    "zh-Hans": "千城台北",
+                    "zh-Hant": "千城台北"
+                },
                 "stationCode": "CM14"
             },
             {
                 "id": "Station:ChibaMonorail.Line2.Chishirodai",
                 "latitude": 35.622361,
                 "longitude": 140.188472,
-                "name": "千城台",
-                "nameEn": "Chishirodai",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Chishirodai",
+                    "ja": "千城台",
+                    "ko": "지시로다이",
+                    "zh-Hans": "千城台",
+                    "zh-Hant": "千城臺"
+                },
                 "stationCode": "CM15"
             }
         ],
@@ -353,10 +392,14 @@
                 "connectingLineId": "Railway:ChibaMonorail.Line1",
                 "end": "descending",
                 "junctionStationId": "Station:ChibaMonorail.Line2.Chiba",
-                "lineNameEn": "Chiba Urban Monorail Line 1",
-                "lineNameJa": "千葉都市モノレール1号線",
-                "towardEn": "for Chibaminato",
-                "towardJa": "千葉みなと方面"
+                "lineName": {
+                    "en": "Chiba Urban Monorail Line 1",
+                    "ja": "千葉都市モノレール1号線"
+                },
+                "toward": {
+                    "en": "for Chibaminato",
+                    "ja": "千葉みなと方面"
+                }
             }
         ]
     }

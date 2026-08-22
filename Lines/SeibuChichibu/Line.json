@@ -2,10 +2,14 @@
     {
         "colorHex": "#FF710A",
         "delayInfo": {
-            "checkMethodEn": "Check the Seibu Railway service status page, the Seibu app, or X (@seiburailway). Delays of roughly 15 minutes or more and suspensions are posted.",
-            "checkMethodJa": "西武鉄道「運行情報」ページ、西武線アプリ、またはX（@seiburailway）で確認できます。おおむね15分以上の遅延・運転見合わせが発生した場合に掲載されます。",
-            "statusPageURL": "https://www.seiburailway.jp/railway/railwayinfo/",
-            "statusPageURLEn": "https://www.seiburailway.jp/en/railway/railwayinfo/",
+            "checkMethod": {
+                "en": "Check the Seibu Railway service status page, the Seibu app, or X (@seiburailway). Delays of roughly 15 minutes or more and suspensions are posted.",
+                "ja": "西武鉄道「運行情報」ページ、西武線アプリ、またはX（@seiburailway）で確認できます。おおむね15分以上の遅延・運転見合わせが発生した場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://www.seiburailway.jp/en/railway/railwayinfo/",
+                "ja": "https://www.seiburailway.jp/railway/railwayinfo/"
+            },
             "xAccount": "@seiburailway"
         },
         "directions": [
@@ -15,8 +19,10 @@
                 "id": "static.RailDirection:Seibu.SeibuChichibu.SeibuChichibu",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Seibu-Chichibu",
-                "nameJa": "西武秩父方面",
+                "name": {
+                    "en": "For Seibu-Chichibu",
+                    "ja": "西武秩父方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -25,23 +31,23 @@
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 36.0
+                            "headwayMinutes": 36
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 42.0
+                            "headwayMinutes": 42
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 30.0
+                            "headwayMinutes": 30
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 37.0
+                            "headwayMinutes": 37
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 28.0
+                            "headwayMinutes": 28
                         },
                         {
                             "from": "11:00",
@@ -49,7 +55,7 @@
                         },
                         {
                             "from": "12:00",
-                            "headwayMinutes": 30.0
+                            "headwayMinutes": 30
                         },
                         {
                             "from": "14:00",
@@ -57,11 +63,11 @@
                         },
                         {
                             "from": "15:00",
-                            "headwayMinutes": 28.0
+                            "headwayMinutes": 28
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 35.0
+                            "headwayMinutes": 35
                         },
                         {
                             "from": "17:00",
@@ -69,11 +75,11 @@
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 36.0
+                            "headwayMinutes": 36
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 34.0
+                            "headwayMinutes": 34
                         },
                         {
                             "from": "20:00",
@@ -81,11 +87,11 @@
                         },
                         {
                             "from": "21:00",
-                            "headwayMinutes": 48.0
+                            "headwayMinutes": 48
                         },
                         {
                             "from": "22:00",
-                            "headwayMinutes": 42.0
+                            "headwayMinutes": 42
                         }
                     ],
                     "firstDeparture": "05:27",
@@ -100,7 +106,7 @@
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 25.0
+                            "headwayMinutes": 25
                         },
                         {
                             "from": "07:00",
@@ -112,11 +118,11 @@
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 38.0
+                            "headwayMinutes": 38
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 29.0
+                            "headwayMinutes": 29
                         },
                         {
                             "from": "11:00",
@@ -128,7 +134,7 @@
                         },
                         {
                             "from": "13:00",
-                            "headwayMinutes": 39.0
+                            "headwayMinutes": 39
                         },
                         {
                             "from": "14:00",
@@ -136,11 +142,11 @@
                         },
                         {
                             "from": "15:00",
-                            "headwayMinutes": 30.0
+                            "headwayMinutes": 30
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 29.0
+                            "headwayMinutes": 29
                         },
                         {
                             "from": "17:00",
@@ -152,19 +158,19 @@
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 30.0
+                            "headwayMinutes": 30
                         },
                         {
                             "from": "21:00",
-                            "headwayMinutes": 31.0
+                            "headwayMinutes": 31
                         },
                         {
                             "from": "22:00",
-                            "headwayMinutes": 27.0
+                            "headwayMinutes": 27
                         },
                         {
                             "from": "23:00",
-                            "headwayMinutes": 28.0
+                            "headwayMinutes": 28
                         }
                     ],
                     "firstDeparture": "05:26",
@@ -178,8 +184,10 @@
                 "id": "static.RailDirection:Seibu.SeibuChichibu.Agano",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Agano",
-                "nameJa": "吾野方面",
+                "name": {
+                    "en": "For Agano",
+                    "ja": "吾野方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -192,31 +200,31 @@
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 14.0
+                            "headwayMinutes": 14
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 27.0
+                            "headwayMinutes": 27
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 28.0
+                            "headwayMinutes": 28
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 22.0
+                            "headwayMinutes": 22
                         },
                         {
                             "from": "11:00",
-                            "headwayMinutes": 16.0
+                            "headwayMinutes": 16
                         },
                         {
                             "from": "12:00",
-                            "headwayMinutes": 17.0
+                            "headwayMinutes": 17
                         },
                         {
                             "from": "13:00",
-                            "headwayMinutes": 30.0
+                            "headwayMinutes": 30
                         },
                         {
                             "from": "14:00",
@@ -224,15 +232,15 @@
                         },
                         {
                             "from": "15:00",
-                            "headwayMinutes": 31.0
+                            "headwayMinutes": 31
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 24.0
+                            "headwayMinutes": 24
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 29.0
+                            "headwayMinutes": 29
                         },
                         {
                             "from": "20:00",
@@ -240,7 +248,7 @@
                         },
                         {
                             "from": "21:00",
-                            "headwayMinutes": 28.0
+                            "headwayMinutes": 28
                         }
                     ],
                     "firstDeparture": "05:01",
@@ -251,19 +259,19 @@
                     "bands": [
                         {
                             "from": "05:01",
-                            "headwayMinutes": 12.0
+                            "headwayMinutes": 12
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 14.0
+                            "headwayMinutes": 14
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 22.0
+                            "headwayMinutes": 22
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 25.0
+                            "headwayMinutes": 25
                         },
                         {
                             "from": "09:00",
@@ -271,23 +279,23 @@
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 19.0
+                            "headwayMinutes": 19
                         },
                         {
                             "from": "11:00",
-                            "headwayMinutes": 16.0
+                            "headwayMinutes": 16
                         },
                         {
                             "from": "12:00",
-                            "headwayMinutes": 26.0
+                            "headwayMinutes": 26
                         },
                         {
                             "from": "13:00",
-                            "headwayMinutes": 40.0
+                            "headwayMinutes": 40
                         },
                         {
                             "from": "15:00",
-                            "headwayMinutes": 35.0
+                            "headwayMinutes": 35
                         },
                         {
                             "from": "16:00",
@@ -295,11 +303,11 @@
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 16.0
+                            "headwayMinutes": 16
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 21.0
+                            "headwayMinutes": 21
                         },
                         {
                             "from": "21:00",
@@ -312,77 +320,94 @@
                 }
             }
         ],
-        "hopTimesMinutes": [5.0, 4.0, 6.0, 5.0, 4.0],
+        "hopTimesMinutes": [5, 4, 6, 5, 4],
         "id": "Railway:Seibu.SeibuChichibu",
         "isLoop": false,
-        "nameEn": "Seibu Chichibu Line",
-        "nameJa": "西武秩父線",
+        "name": {
+            "en": "Seibu Chichibu Line",
+            "ja": "西武秩父線",
+            "ko": "세이부 철도 세이부 지치부선",
+            "zh-Hans": "西武秩父线",
+            "zh-Hant": "西武秩父線"
+        },
         "operatorId": "Operator:Seibu",
         "stations": [
             {
                 "id": "Station:Seibu.SeibuChichibu.Agano",
                 "latitude": 35.90841,
                 "longitude": 139.22671,
-                "name": "吾野",
-                "nameEn": "Agano",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Agano",
+                    "ja": "吾野",
+                    "ko": "아가노",
+                    "zh-Hans": "吾野",
+                    "zh-Hant": "吾野"
+                },
                 "stationCode": "SI31"
             },
             {
                 "id": "Station:Seibu.SeibuChichibu.NishiAgano",
                 "latitude": 35.92636,
                 "longitude": 139.20218,
-                "name": "西吾野",
-                "nameEn": "Nishi-Agano",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nishi-Agano",
+                    "ja": "西吾野",
+                    "ko": "니시아가노",
+                    "zh-Hans": "西吾野",
+                    "zh-Hant": "西吾野"
+                },
                 "stationCode": "SI32"
             },
             {
                 "id": "Station:Seibu.SeibuChichibu.Shomaru",
                 "latitude": 35.93823,
                 "longitude": 139.18208,
-                "name": "正丸",
-                "nameEn": "Shomaru",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shomaru",
+                    "ja": "正丸",
+                    "ko": "쇼마루",
+                    "zh-Hans": "正丸",
+                    "zh-Hant": "正丸"
+                },
                 "stationCode": "SI33"
             },
             {
                 "id": "Station:Seibu.SeibuChichibu.Ashigakubo",
                 "latitude": 35.97646,
                 "longitude": 139.13597,
-                "name": "芦ヶ久保",
-                "nameEn": "Ashigakubo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ashigakubo",
+                    "ja": "芦ヶ久保",
+                    "ko": "아시가쿠보",
+                    "zh-Hans": "芦久保",
+                    "zh-Hant": "蘆久保"
+                },
                 "stationCode": "SI34"
             },
             {
                 "id": "Station:Seibu.SeibuChichibu.Yokoze",
                 "latitude": 35.98547,
                 "longitude": 139.09782,
-                "name": "横瀬",
-                "nameEn": "Yokoze",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Yokoze",
+                    "ja": "横瀬",
+                    "ko": "요코제",
+                    "zh-Hans": "横濑",
+                    "zh-Hant": "橫瀨"
+                },
                 "stationCode": "SI35"
             },
             {
                 "id": "Station:Seibu.SeibuChichibu.SeibuChichibu",
                 "latitude": 35.98991,
                 "longitude": 139.08346,
-                "name": "西武秩父",
-                "nameEn": "Seibu-Chichibu",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Seibu-Chichibu",
+                    "ja": "西武秩父",
+                    "ko": "세이부 지치부",
+                    "zh-Hans": "西武秩父",
+                    "zh-Hant": "西武秩父"
+                },
                 "stationCode": "SI36"
             }
         ],
@@ -459,7 +484,9 @@
                 "startsHere": false,
                 "stops": [558, 563, 567, 576, 590],
                 "terminates": false,
-                "throughDestJa": "長瀞",
+                "throughDest": {
+                    "ja": "長瀞"
+                },
                 "type": "Local"
             },
             {
@@ -469,7 +496,9 @@
                 "startsHere": false,
                 "stops": [558, 563, 567, 576, 584, 597],
                 "terminates": false,
-                "throughDestJa": "三峰口",
+                "throughDest": {
+                    "ja": "三峰口"
+                },
                 "type": "Local"
             },
             {
@@ -704,8 +733,10 @@
                 "startsHere": true,
                 "stops": [301, 305, 310, 316, 321, 327],
                 "terminates": false,
-                "throughDestEn": "Hanno",
-                "throughDestJa": "飯能",
+                "throughDest": {
+                    "en": "Hanno",
+                    "ja": "飯能"
+                },
                 "type": "Local"
             },
             {
@@ -715,8 +746,10 @@
                 "startsHere": true,
                 "stops": [333, 336, 342, 348, 352, 357],
                 "terminates": false,
-                "throughDestEn": "Hanno",
-                "throughDestJa": "飯能",
+                "throughDest": {
+                    "en": "Hanno",
+                    "ja": "飯能"
+                },
                 "type": "Local"
             },
             {
@@ -726,8 +759,10 @@
                 "startsHere": true,
                 "stops": [360, 363, 369, 375, 379, 384],
                 "terminates": false,
-                "throughDestEn": "Hanno",
-                "throughDestJa": "飯能",
+                "throughDest": {
+                    "en": "Hanno",
+                    "ja": "飯能"
+                },
                 "type": "Local"
             },
             {
@@ -737,8 +772,10 @@
                 "startsHere": true,
                 "stops": [390, 394, 399, 405, 410, 415],
                 "terminates": false,
-                "throughDestEn": "Hanno",
-                "throughDestJa": "飯能",
+                "throughDest": {
+                    "en": "Hanno",
+                    "ja": "飯能"
+                },
                 "type": "Local"
             },
             {
@@ -748,8 +785,10 @@
                 "startsHere": true,
                 "stops": [410, 414],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -759,8 +798,10 @@
                 "startsHere": true,
                 "stops": [415, 419, 424, 430, 435, 442],
                 "terminates": false,
-                "throughDestEn": "Hanno",
-                "throughDestJa": "飯能",
+                "throughDest": {
+                    "en": "Hanno",
+                    "ja": "飯能"
+                },
                 "type": "Local"
             },
             {
@@ -770,8 +811,10 @@
                 "startsHere": true,
                 "stops": [442, 446, 456, 462, 467, 475],
                 "terminates": false,
-                "throughDestEn": "Hanno",
-                "throughDestJa": "飯能",
+                "throughDest": {
+                    "en": "Hanno",
+                    "ja": "飯能"
+                },
                 "type": "Local"
             },
             {
@@ -781,8 +824,10 @@
                 "startsHere": true,
                 "stops": [445, 450],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -792,8 +837,10 @@
                 "startsHere": true,
                 "stops": [467, 471, 476, 487, 502, 507],
                 "terminates": false,
-                "throughDestEn": "Hanno",
-                "throughDestJa": "飯能",
+                "throughDest": {
+                    "en": "Hanno",
+                    "ja": "飯能"
+                },
                 "type": "Local"
             },
             {
@@ -803,8 +850,10 @@
                 "startsHere": true,
                 "stops": [476, 480],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -814,8 +863,10 @@
                 "startsHere": true,
                 "stops": [495, 499, 504, 515, 519, 530],
                 "terminates": false,
-                "throughDestEn": "Hanno",
-                "throughDestJa": "飯能",
+                "throughDest": {
+                    "en": "Hanno",
+                    "ja": "飯能"
+                },
                 "type": "Local"
             },
             {
@@ -825,8 +876,10 @@
                 "startsHere": true,
                 "stops": [506, 511],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -836,8 +889,10 @@
                 "startsHere": true,
                 "stops": [534, 537, 543, 549, 553, 558],
                 "terminates": false,
-                "throughDestEn": "Hanno",
-                "throughDestJa": "飯能",
+                "throughDest": {
+                    "en": "Hanno",
+                    "ja": "飯能"
+                },
                 "type": "Local"
             },
             {
@@ -847,8 +902,10 @@
                 "startsHere": true,
                 "stops": [561, 565],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -858,8 +915,10 @@
                 "startsHere": true,
                 "stops": [567, 571, 576, 582, 589, 601],
                 "terminates": false,
-                "throughDestEn": "Hanno",
-                "throughDestJa": "飯能",
+                "throughDest": {
+                    "en": "Hanno",
+                    "ja": "飯能"
+                },
                 "type": "Local"
             },
             {
@@ -869,8 +928,10 @@
                 "startsHere": true,
                 "stops": [595, 600, 605, 616, 620, 631],
                 "terminates": false,
-                "throughDestEn": "Hanno",
-                "throughDestJa": "飯能",
+                "throughDest": {
+                    "en": "Hanno",
+                    "ja": "飯能"
+                },
                 "type": "Local"
             },
             {
@@ -880,8 +941,10 @@
                 "startsHere": true,
                 "stops": [624, 628],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -891,8 +954,10 @@
                 "startsHere": true,
                 "stops": [634, 638, 644, 652, 656, 662],
                 "terminates": false,
-                "throughDestEn": "Hanno",
-                "throughDestJa": "飯能",
+                "throughDest": {
+                    "en": "Hanno",
+                    "ja": "飯能"
+                },
                 "type": "Local"
             },
             {
@@ -902,8 +967,10 @@
                 "startsHere": true,
                 "stops": [668, 672, 677, 683, 691, 696],
                 "terminates": false,
-                "throughDestEn": "Hanno",
-                "throughDestJa": "飯能",
+                "throughDest": {
+                    "en": "Hanno",
+                    "ja": "飯能"
+                },
                 "type": "Local"
             },
             {
@@ -913,8 +980,10 @@
                 "startsHere": true,
                 "stops": [684, 688],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -924,8 +993,10 @@
                 "startsHere": true,
                 "stops": [699, 703, 712, 718, 722, 729],
                 "terminates": false,
-                "throughDestEn": "Hanno",
-                "throughDestJa": "飯能",
+                "throughDest": {
+                    "en": "Hanno",
+                    "ja": "飯能"
+                },
                 "type": "Local"
             },
             {
@@ -935,8 +1006,10 @@
                 "startsHere": true,
                 "stops": [727, 730, 736, 744, 751, 756],
                 "terminates": false,
-                "throughDestEn": "Hanno",
-                "throughDestJa": "飯能",
+                "throughDest": {
+                    "en": "Hanno",
+                    "ja": "飯能"
+                },
                 "type": "Local"
             },
             {
@@ -946,8 +1019,10 @@
                 "startsHere": true,
                 "stops": [744, 748],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -957,8 +1032,10 @@
                 "startsHere": true,
                 "stops": [759, 763, 772, 778, 782, 789],
                 "terminates": false,
-                "throughDestEn": "Hanno",
-                "throughDestJa": "飯能",
+                "throughDest": {
+                    "en": "Hanno",
+                    "ja": "飯能"
+                },
                 "type": "Local"
             },
             {
@@ -968,8 +1045,10 @@
                 "startsHere": true,
                 "stops": [787, 790, 796, 804, 811, 816],
                 "terminates": false,
-                "throughDestEn": "Hanno",
-                "throughDestJa": "飯能",
+                "throughDest": {
+                    "en": "Hanno",
+                    "ja": "飯能"
+                },
                 "type": "Local"
             },
             {
@@ -979,8 +1058,10 @@
                 "startsHere": true,
                 "stops": [819, 823, 832, 838, 843, 849],
                 "terminates": false,
-                "throughDestEn": "Hanno",
-                "throughDestJa": "飯能",
+                "throughDest": {
+                    "en": "Hanno",
+                    "ja": "飯能"
+                },
                 "type": "Local"
             },
             {
@@ -990,8 +1071,10 @@
                 "startsHere": true,
                 "stops": [847, 850, 856, 864, 871, 877],
                 "terminates": false,
-                "throughDestEn": "Hanno",
-                "throughDestJa": "飯能",
+                "throughDest": {
+                    "en": "Hanno",
+                    "ja": "飯能"
+                },
                 "type": "Local"
             },
             {
@@ -1001,8 +1084,10 @@
                 "startsHere": true,
                 "stops": [880, 883, 889, 895, 900, 913],
                 "terminates": false,
-                "throughDestEn": "Hanno",
-                "throughDestJa": "飯能",
+                "throughDest": {
+                    "en": "Hanno",
+                    "ja": "飯能"
+                },
                 "type": "Local"
             },
             {
@@ -1012,8 +1097,10 @@
                 "startsHere": true,
                 "stops": [910, 914, 919, 925, 930, 936],
                 "terminates": false,
-                "throughDestEn": "Hanno",
-                "throughDestJa": "飯能",
+                "throughDest": {
+                    "en": "Hanno",
+                    "ja": "飯能"
+                },
                 "type": "Local"
             },
             {
@@ -1023,8 +1110,10 @@
                 "startsHere": true,
                 "stops": [942, 945, 951, 957, 961, 967],
                 "terminates": false,
-                "throughDestEn": "Hanno",
-                "throughDestJa": "飯能",
+                "throughDest": {
+                    "en": "Hanno",
+                    "ja": "飯能"
+                },
                 "type": "Local"
             },
             {
@@ -1034,8 +1123,10 @@
                 "startsHere": true,
                 "stops": [972, 975, 981, 987, 993, 998],
                 "terminates": false,
-                "throughDestEn": "Hanno",
-                "throughDestJa": "飯能",
+                "throughDest": {
+                    "en": "Hanno",
+                    "ja": "飯能"
+                },
                 "type": "Local"
             },
             {
@@ -1045,8 +1136,10 @@
                 "startsHere": true,
                 "stops": [998, 1004, 1009, 1016, 1020, 1025],
                 "terminates": false,
-                "throughDestEn": "Hanno",
-                "throughDestJa": "飯能",
+                "throughDest": {
+                    "en": "Hanno",
+                    "ja": "飯能"
+                },
                 "type": "Local"
             },
             {
@@ -1056,8 +1149,10 @@
                 "startsHere": true,
                 "stops": [1020, 1026, 1036, 1046, 1052, 1057],
                 "terminates": false,
-                "throughDestEn": "Hanno",
-                "throughDestJa": "飯能",
+                "throughDest": {
+                    "en": "Hanno",
+                    "ja": "飯能"
+                },
                 "type": "Local"
             },
             {
@@ -1067,8 +1162,10 @@
                 "startsHere": true,
                 "stops": [1044, 1048],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -1078,8 +1175,10 @@
                 "startsHere": true,
                 "stops": [1054, 1057, 1063, 1069, 1073, 1078],
                 "terminates": false,
-                "throughDestEn": "Hanno",
-                "throughDestJa": "飯能",
+                "throughDest": {
+                    "en": "Hanno",
+                    "ja": "飯能"
+                },
                 "type": "Local"
             },
             {
@@ -1089,8 +1188,10 @@
                 "startsHere": true,
                 "stops": [1080, 1083, 1089, 1095, 1099, 1111],
                 "terminates": false,
-                "throughDestEn": "Hanno",
-                "throughDestJa": "飯能",
+                "throughDest": {
+                    "en": "Hanno",
+                    "ja": "飯能"
+                },
                 "type": "Local"
             },
             {
@@ -1100,8 +1201,10 @@
                 "startsHere": true,
                 "stops": [1104, 1108],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -1111,8 +1214,10 @@
                 "startsHere": true,
                 "stops": [1113, 1116, 1125, 1132, 1136, 1141],
                 "terminates": false,
-                "throughDestEn": "Hanno",
-                "throughDestJa": "飯能",
+                "throughDest": {
+                    "en": "Hanno",
+                    "ja": "飯能"
+                },
                 "type": "Local"
             },
             {
@@ -1122,8 +1227,10 @@
                 "startsHere": true,
                 "stops": [1147, 1150, 1156, 1162, 1173, 1178],
                 "terminates": false,
-                "throughDestEn": "Hanno",
-                "throughDestJa": "飯能",
+                "throughDest": {
+                    "en": "Hanno",
+                    "ja": "飯能"
+                },
                 "type": "Local"
             },
             {
@@ -1133,8 +1240,10 @@
                 "startsHere": true,
                 "stops": [1164, 1168],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -1144,8 +1253,10 @@
                 "startsHere": true,
                 "stops": [1195, 1199, 1204, 1210, 1215, 1220],
                 "terminates": false,
-                "throughDestEn": "Hanno",
-                "throughDestJa": "飯能",
+                "throughDest": {
+                    "en": "Hanno",
+                    "ja": "飯能"
+                },
                 "type": "Local"
             },
             {
@@ -1155,8 +1266,10 @@
                 "startsHere": true,
                 "stops": [1224, 1228],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -1166,8 +1279,10 @@
                 "startsHere": true,
                 "stops": [1234, 1238, 1244, 1253, 1257, 1262],
                 "terminates": false,
-                "throughDestEn": "Hanno",
-                "throughDestJa": "飯能",
+                "throughDest": {
+                    "en": "Hanno",
+                    "ja": "飯能"
+                },
                 "type": "Local"
             },
             {
@@ -1177,8 +1292,10 @@
                 "startsHere": true,
                 "stops": [1275, 1279, 1284, 1290, 1296, 1301],
                 "terminates": false,
-                "throughDestEn": "Hanno",
-                "throughDestJa": "飯能",
+                "throughDest": {
+                    "en": "Hanno",
+                    "ja": "飯能"
+                },
                 "type": "Local"
             },
             {
@@ -1188,8 +1305,10 @@
                 "startsHere": true,
                 "stops": [1284, 1288],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -1199,8 +1318,10 @@
                 "startsHere": true,
                 "stops": [1331, 1334, 1340, 1346, 1352, 1357],
                 "terminates": false,
-                "throughDestEn": "Hanno",
-                "throughDestJa": "飯能",
+                "throughDest": {
+                    "en": "Hanno",
+                    "ja": "飯能"
+                },
                 "type": "Local"
             },
             {
@@ -1525,8 +1646,10 @@
                 "startsHere": true,
                 "stops": [301, 305, 310, 316, 321, 326],
                 "terminates": false,
-                "throughDestEn": "Hanno",
-                "throughDestJa": "飯能",
+                "throughDest": {
+                    "en": "Hanno",
+                    "ja": "飯能"
+                },
                 "type": "Local"
             },
             {
@@ -1536,8 +1659,10 @@
                 "startsHere": true,
                 "stops": [320, 324, 329, 335, 340, 345],
                 "terminates": false,
-                "throughDestEn": "Hanno",
-                "throughDestJa": "飯能",
+                "throughDest": {
+                    "en": "Hanno",
+                    "ja": "飯能"
+                },
                 "type": "Local"
             },
             {
@@ -1547,8 +1672,10 @@
                 "startsHere": true,
                 "stops": [329, 334],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -1558,8 +1685,10 @@
                 "startsHere": true,
                 "stops": [345, 349, 354, 361, 365, 370],
                 "terminates": false,
-                "throughDestEn": "Hanno",
-                "throughDestJa": "飯能",
+                "throughDest": {
+                    "en": "Hanno",
+                    "ja": "飯能"
+                },
                 "type": "Local"
             },
             {
@@ -1569,8 +1698,10 @@
                 "startsHere": true,
                 "stops": [356, 359, 365, 371, 375, 381],
                 "terminates": false,
-                "throughDestEn": "Hanno",
-                "throughDestJa": "飯能",
+                "throughDest": {
+                    "en": "Hanno",
+                    "ja": "飯能"
+                },
                 "type": "Local"
             },
             {
@@ -1580,8 +1711,10 @@
                 "startsHere": true,
                 "stops": [368, 373],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -1591,8 +1724,10 @@
                 "startsHere": true,
                 "stops": [378, 381, 387, 393, 397, 402],
                 "terminates": false,
-                "throughDestEn": "Hanno",
-                "throughDestJa": "飯能",
+                "throughDest": {
+                    "en": "Hanno",
+                    "ja": "飯能"
+                },
                 "type": "Local"
             },
             {
@@ -1602,8 +1737,10 @@
                 "startsHere": true,
                 "stops": [392, 395, 401, 407, 413, 418],
                 "terminates": false,
-                "throughDestEn": "Hanno",
-                "throughDestJa": "飯能",
+                "throughDest": {
+                    "en": "Hanno",
+                    "ja": "飯能"
+                },
                 "type": "Local"
             },
             {
@@ -1613,8 +1750,10 @@
                 "startsHere": true,
                 "stops": [406, 410, 415, 421, 426, 431],
                 "terminates": false,
-                "throughDestEn": "Hanno",
-                "throughDestJa": "飯能",
+                "throughDest": {
+                    "en": "Hanno",
+                    "ja": "飯能"
+                },
                 "type": "Local"
             },
             {
@@ -1624,8 +1763,10 @@
                 "startsHere": true,
                 "stops": [424, 428, 433, 439, 443, 448],
                 "terminates": false,
-                "throughDestEn": "Hanno",
-                "throughDestJa": "飯能",
+                "throughDest": {
+                    "en": "Hanno",
+                    "ja": "飯能"
+                },
                 "type": "Local"
             },
             {
@@ -1635,8 +1776,10 @@
                 "startsHere": true,
                 "stops": [446, 450, 455, 461, 466, 473],
                 "terminates": false,
-                "throughDestEn": "Hanno",
-                "throughDestJa": "飯能",
+                "throughDest": {
+                    "en": "Hanno",
+                    "ja": "飯能"
+                },
                 "type": "Local"
             },
             {
@@ -1646,8 +1789,10 @@
                 "startsHere": true,
                 "stops": [467, 471, 476, 485, 489, 494],
                 "terminates": false,
-                "throughDestEn": "Hanno",
-                "throughDestJa": "飯能",
+                "throughDest": {
+                    "en": "Hanno",
+                    "ja": "飯能"
+                },
                 "type": "Local"
             },
             {
@@ -1657,8 +1802,10 @@
                 "startsHere": true,
                 "stops": [493, 496, 502, 508, 512, 517],
                 "terminates": false,
-                "throughDestEn": "Hanno",
-                "throughDestJa": "飯能",
+                "throughDest": {
+                    "en": "Hanno",
+                    "ja": "飯能"
+                },
                 "type": "Local"
             },
             {
@@ -1668,8 +1815,10 @@
                 "startsHere": true,
                 "stops": [506, 511],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -1679,8 +1828,10 @@
                 "startsHere": true,
                 "stops": [531, 535, 540, 547, 551, 558],
                 "terminates": false,
-                "throughDestEn": "Hanno",
-                "throughDestJa": "飯能",
+                "throughDest": {
+                    "en": "Hanno",
+                    "ja": "飯能"
+                },
                 "type": "Local"
             },
             {
@@ -1690,8 +1841,10 @@
                 "startsHere": true,
                 "stops": [564, 569],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -1701,8 +1854,10 @@
                 "startsHere": true,
                 "stops": [574, 577, 583, 589, 594, 599],
                 "terminates": false,
-                "throughDestEn": "Hanno",
-                "throughDestJa": "飯能",
+                "throughDest": {
+                    "en": "Hanno",
+                    "ja": "飯能"
+                },
                 "type": "Local"
             },
             {
@@ -1712,8 +1867,10 @@
                 "startsHere": true,
                 "stops": [605, 608, 614, 620, 624, 632],
                 "terminates": false,
-                "throughDestEn": "Hanno",
-                "throughDestJa": "飯能",
+                "throughDest": {
+                    "en": "Hanno",
+                    "ja": "飯能"
+                },
                 "type": "Local"
             },
             {
@@ -1723,8 +1880,10 @@
                 "startsHere": true,
                 "stops": [624, 628],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -1734,8 +1893,10 @@
                 "startsHere": true,
                 "stops": [635, 638, 644, 652, 656, 662],
                 "terminates": false,
-                "throughDestEn": "Hanno",
-                "throughDestJa": "飯能",
+                "throughDest": {
+                    "en": "Hanno",
+                    "ja": "飯能"
+                },
                 "type": "Local"
             },
             {
@@ -1745,8 +1906,10 @@
                 "startsHere": true,
                 "stops": [670, 673, 679, 685, 691, 698],
                 "terminates": false,
-                "throughDestEn": "Hanno",
-                "throughDestJa": "飯能",
+                "throughDest": {
+                    "en": "Hanno",
+                    "ja": "飯能"
+                },
                 "type": "Local"
             },
             {
@@ -1756,8 +1919,10 @@
                 "startsHere": true,
                 "stops": [684, 688],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -1767,8 +1932,10 @@
                 "startsHere": true,
                 "stops": [700, 703, 709, 715, 719, 724],
                 "terminates": false,
-                "throughDestEn": "Hanno",
-                "throughDestJa": "飯能",
+                "throughDest": {
+                    "en": "Hanno",
+                    "ja": "飯能"
+                },
                 "type": "Local"
             },
             {
@@ -1778,8 +1945,10 @@
                 "startsHere": true,
                 "stops": [730, 733, 739, 745, 750, 755],
                 "terminates": false,
-                "throughDestEn": "Hanno",
-                "throughDestJa": "飯能",
+                "throughDest": {
+                    "en": "Hanno",
+                    "ja": "飯能"
+                },
                 "type": "Local"
             },
             {
@@ -1789,8 +1958,10 @@
                 "startsHere": true,
                 "stops": [744, 748],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -1800,8 +1971,10 @@
                 "startsHere": true,
                 "stops": [770, 773, 779, 785, 789, 795],
                 "terminates": false,
-                "throughDestEn": "Hanno",
-                "throughDestJa": "飯能",
+                "throughDest": {
+                    "en": "Hanno",
+                    "ja": "飯能"
+                },
                 "type": "Local"
             },
             {
@@ -1811,8 +1984,10 @@
                 "startsHere": true,
                 "stops": [810, 813, 819, 826, 830, 835],
                 "terminates": false,
-                "throughDestEn": "Hanno",
-                "throughDestJa": "飯能",
+                "throughDest": {
+                    "en": "Hanno",
+                    "ja": "飯能"
+                },
                 "type": "Local"
             },
             {
@@ -1822,8 +1997,10 @@
                 "startsHere": true,
                 "stops": [850, 853, 859, 865, 870, 875],
                 "terminates": false,
-                "throughDestEn": "Hanno",
-                "throughDestJa": "飯能",
+                "throughDest": {
+                    "en": "Hanno",
+                    "ja": "飯能"
+                },
                 "type": "Local"
             },
             {
@@ -1833,8 +2010,10 @@
                 "startsHere": true,
                 "stops": [890, 893, 899, 907, 911, 916],
                 "terminates": false,
-                "throughDestEn": "Hanno",
-                "throughDestJa": "飯能",
+                "throughDest": {
+                    "en": "Hanno",
+                    "ja": "飯能"
+                },
                 "type": "Local"
             },
             {
@@ -1844,8 +2023,10 @@
                 "startsHere": true,
                 "stops": [930, 933, 939, 946, 950, 955],
                 "terminates": false,
-                "throughDestEn": "Hanno",
-                "throughDestJa": "飯能",
+                "throughDest": {
+                    "en": "Hanno",
+                    "ja": "飯能"
+                },
                 "type": "Local"
             },
             {
@@ -1855,8 +2036,10 @@
                 "startsHere": true,
                 "stops": [965, 968, 974, 982, 990, 996],
                 "terminates": false,
-                "throughDestEn": "Hanno",
-                "throughDestJa": "飯能",
+                "throughDest": {
+                    "en": "Hanno",
+                    "ja": "飯能"
+                },
                 "type": "Local"
             },
             {
@@ -1866,8 +2049,10 @@
                 "startsHere": true,
                 "stops": [1000, 1003, 1009, 1015, 1019, 1024],
                 "terminates": false,
-                "throughDestEn": "Hanno",
-                "throughDestJa": "飯能",
+                "throughDest": {
+                    "en": "Hanno",
+                    "ja": "飯能"
+                },
                 "type": "Local"
             },
             {
@@ -1877,8 +2062,10 @@
                 "startsHere": true,
                 "stops": [1030, 1033, 1039, 1045, 1053, 1059],
                 "terminates": false,
-                "throughDestEn": "Hanno",
-                "throughDestJa": "飯能",
+                "throughDest": {
+                    "en": "Hanno",
+                    "ja": "飯能"
+                },
                 "type": "Local"
             },
             {
@@ -1888,8 +2075,10 @@
                 "startsHere": true,
                 "stops": [1044, 1048],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -1899,8 +2088,10 @@
                 "startsHere": true,
                 "stops": [1060, 1064, 1069, 1075, 1080, 1085],
                 "terminates": false,
-                "throughDestEn": "Hanno",
-                "throughDestJa": "飯能",
+                "throughDest": {
+                    "en": "Hanno",
+                    "ja": "飯能"
+                },
                 "type": "Local"
             },
             {
@@ -1910,8 +2101,10 @@
                 "startsHere": true,
                 "stops": [1095, 1098, 1104, 1111, 1116, 1121],
                 "terminates": false,
-                "throughDestEn": "Hanno",
-                "throughDestJa": "飯能",
+                "throughDest": {
+                    "en": "Hanno",
+                    "ja": "飯能"
+                },
                 "type": "Local"
             },
             {
@@ -1921,8 +2114,10 @@
                 "startsHere": true,
                 "stops": [1104, 1108],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -1932,8 +2127,10 @@
                 "startsHere": true,
                 "stops": [1125, 1129, 1135, 1141, 1145, 1153],
                 "terminates": false,
-                "throughDestEn": "Hanno",
-                "throughDestJa": "飯能",
+                "throughDest": {
+                    "en": "Hanno",
+                    "ja": "飯能"
+                },
                 "type": "Local"
             },
             {
@@ -1943,8 +2140,10 @@
                 "startsHere": true,
                 "stops": [1155, 1158, 1164, 1170, 1176, 1182],
                 "terminates": false,
-                "throughDestEn": "Hanno",
-                "throughDestJa": "飯能",
+                "throughDest": {
+                    "en": "Hanno",
+                    "ja": "飯能"
+                },
                 "type": "Local"
             },
             {
@@ -1954,8 +2153,10 @@
                 "startsHere": true,
                 "stops": [1164, 1168],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -1965,8 +2166,10 @@
                 "startsHere": true,
                 "stops": [1185, 1189, 1195, 1201, 1205, 1213],
                 "terminates": false,
-                "throughDestEn": "Hanno",
-                "throughDestJa": "飯能",
+                "throughDest": {
+                    "en": "Hanno",
+                    "ja": "飯能"
+                },
                 "type": "Local"
             },
             {
@@ -1976,8 +2179,10 @@
                 "startsHere": true,
                 "stops": [1215, 1218, 1224, 1230, 1236, 1242],
                 "terminates": false,
-                "throughDestEn": "Hanno",
-                "throughDestJa": "飯能",
+                "throughDest": {
+                    "en": "Hanno",
+                    "ja": "飯能"
+                },
                 "type": "Local"
             },
             {
@@ -1987,8 +2192,10 @@
                 "startsHere": true,
                 "stops": [1224, 1228],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -1998,8 +2205,10 @@
                 "startsHere": true,
                 "stops": [1245, 1249, 1255, 1261, 1265, 1273],
                 "terminates": false,
-                "throughDestEn": "Hanno",
-                "throughDestJa": "飯能",
+                "throughDest": {
+                    "en": "Hanno",
+                    "ja": "飯能"
+                },
                 "type": "Local"
             },
             {
@@ -2009,8 +2218,10 @@
                 "startsHere": true,
                 "stops": [1284, 1288],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -2020,8 +2231,10 @@
                 "startsHere": true,
                 "stops": [1287, 1290, 1296, 1304, 1309, 1314],
                 "terminates": false,
-                "throughDestEn": "Hanno",
-                "throughDestJa": "飯能",
+                "throughDest": {
+                    "en": "Hanno",
+                    "ja": "飯能"
+                },
                 "type": "Local"
             },
             {
@@ -2031,11 +2244,13 @@
                 "startsHere": true,
                 "stops": [1335, 1338, 1344, 1350, 1356, 1361],
                 "terminates": false,
-                "throughDestEn": "Hanno",
-                "throughDestJa": "飯能",
+                "throughDest": {
+                    "en": "Hanno",
+                    "ja": "飯能"
+                },
                 "type": "Local"
             }
         ],
-        "upHopTimesMinutes": [5.0, 4.0, 6.0, 6.0, 3.0]
+        "upHopTimesMinutes": [5, 4, 6, 6, 3]
     }
 ]

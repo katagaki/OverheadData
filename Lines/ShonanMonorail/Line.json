@@ -2,10 +2,14 @@
     {
         "colorHex": "#0068B7",
         "delayInfo": {
-            "checkMethodEn": "Check the Shonan Monorail website or X (@shonan_monorail). Suspensions and major delays are posted on the top page.",
-            "checkMethodJa": "湘南モノレールの公式サイトまたはX（@shonan_monorail）で確認できます。運転見合わせや大幅な遅延はトップページに掲載されます。",
-            "statusPageURL": "https://www.shonan-monorail.co.jp/",
-            "statusPageURLEn": "https://www.shonan-monorail.co.jp/",
+            "checkMethod": {
+                "en": "Check the Shonan Monorail website or X (@shonan_monorail). Suspensions and major delays are posted on the top page.",
+                "ja": "湘南モノレールの公式サイトまたはX（@shonan_monorail）で確認できます。運転見合わせや大幅な遅延はトップページに掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://www.shonan-monorail.co.jp/",
+                "ja": "https://www.shonan-monorail.co.jp/"
+            },
             "xAccount": "@shonan_monorail"
         },
         "directions": [
@@ -15,13 +19,15 @@
                 "id": "static.RailDirection:ShonanMonorail.Enoshima.ShonanEnoshima",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Shonan-Enoshima",
-                "nameJa": "湘南江の島方面",
+                "name": {
+                    "en": "For Shonan-Enoshima",
+                    "ja": "湘南江の島方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
                             "from": "05:35",
-                            "headwayMinutes": 16.0
+                            "headwayMinutes": 16
                         },
                         {
                             "from": "06:00",
@@ -33,7 +39,7 @@
                         },
                         {
                             "from": "21:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         }
                     ],
                     "firstDeparture": "05:35",
@@ -44,7 +50,7 @@
                     "bands": [
                         {
                             "from": "05:35",
-                            "headwayMinutes": 16.0
+                            "headwayMinutes": 16
                         },
                         {
                             "from": "06:00",
@@ -70,8 +76,10 @@
                 "id": "static.RailDirection:ShonanMonorail.Enoshima.Ofuna",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Ofuna",
-                "nameJa": "大船方面",
+                "name": {
+                    "en": "For Ofuna",
+                    "ja": "大船方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -88,7 +96,7 @@
                         },
                         {
                             "from": "21:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "23:00",
@@ -124,99 +132,117 @@
                 }
             }
         ],
-        "hopTimesMinutes": [2.0, 2.0, 1, 4, 2, 2, 2],
+        "hopTimesMinutes": [2, 2, 1, 4, 2, 2, 2],
         "id": "Railway:ShonanMonorail.Enoshima",
         "isLoop": false,
-        "nameEn": "Shonan Monorail Enoshima Line",
-        "nameJa": "湘南モノレール江の島線",
+        "name": {
+            "en": "Shonan Monorail Enoshima Line",
+            "ja": "湘南モノレール江の島線"
+        },
         "operatorId": "Operator:ShonanMonorail",
         "stations": [
             {
                 "id": "Station:ShonanMonorail.Enoshima.Ofuna",
                 "latitude": 35.35239,
                 "longitude": 139.53135,
-                "name": "大船",
-                "nameEn": "Ofuna",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ofuna",
+                    "ja": "大船",
+                    "ko": "오후나",
+                    "zh-Hans": "大船",
+                    "zh-Hant": "大船"
+                },
                 "stationCode": "SMR1"
             },
             {
                 "id": "Station:ShonanMonorail.Enoshima.Fujimicho",
                 "latitude": 35.34546,
                 "longitude": 139.52938,
-                "name": "富士見町",
-                "nameEn": "Fujimicho",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Fujimicho",
+                    "ja": "富士見町",
+                    "ko": "후지미초",
+                    "zh-Hans": "富士见町",
+                    "zh-Hant": "富士見町"
+                },
                 "stationCode": "SMR2"
             },
             {
                 "id": "Station:ShonanMonorail.Enoshima.ShonanMachiya",
                 "latitude": 35.33795,
                 "longitude": 139.52264,
-                "name": "湘南町屋",
-                "nameEn": "Shonan-Machiya",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shonan-Machiya",
+                    "ja": "湘南町屋",
+                    "ko": "쇼난마치야",
+                    "zh-Hans": "湘南町屋",
+                    "zh-Hant": "湘南町屋"
+                },
                 "stationCode": "SMR3"
             },
             {
                 "id": "Station:ShonanMonorail.Enoshima.ShonanFukasawa",
                 "latitude": 35.33287,
                 "longitude": 139.51887,
-                "name": "湘南深沢",
-                "nameEn": "Shonan-Fukasawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shonan-Fukasawa",
+                    "ja": "湘南深沢",
+                    "ko": "쇼난후카사와",
+                    "zh-Hans": "湘南深泽",
+                    "zh-Hant": "湘南深澤"
+                },
                 "stationCode": "SMR4"
             },
             {
                 "id": "Station:ShonanMonorail.Enoshima.NishiKamakura",
                 "latitude": 35.31938,
                 "longitude": 139.5043,
-                "name": "西鎌倉",
-                "nameEn": "Nishi-Kamakura",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nishi-Kamakura",
+                    "ja": "西鎌倉",
+                    "ko": "니시카마쿠라",
+                    "zh-Hans": "西镰仓",
+                    "zh-Hant": "西鎌倉"
+                },
                 "stationCode": "SMR5"
             },
             {
                 "id": "Station:ShonanMonorail.Enoshima.Kataseyama",
                 "latitude": 35.31727,
                 "longitude": 139.49601,
-                "name": "片瀬山",
-                "nameEn": "Kataseyama",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kataseyama",
+                    "ja": "片瀬山",
+                    "ko": "가타세야마",
+                    "zh-Hans": "片濑山",
+                    "zh-Hant": "片瀨山"
+                },
                 "stationCode": "SMR6"
             },
             {
                 "id": "Station:ShonanMonorail.Enoshima.Mejiroyamashita",
                 "latitude": 35.31399,
                 "longitude": 139.49141,
-                "name": "目白山下",
-                "nameEn": "Mejiroyamashita",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Mejiroyamashita",
+                    "ja": "目白山下",
+                    "ko": "메지로야마시타",
+                    "zh-Hans": "目白山下",
+                    "zh-Hant": "目白山下"
+                },
                 "stationCode": "SMR7"
             },
             {
                 "id": "Station:ShonanMonorail.Enoshima.ShonanEnoshima",
                 "latitude": 35.31173,
                 "longitude": 139.4877,
-                "name": "湘南江の島",
-                "nameEn": "Shonan-Enoshima",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shonan-Enoshima",
+                    "ja": "湘南江の島",
+                    "ko": "쇼난에노시마",
+                    "zh-Hans": "湘南江之岛",
+                    "zh-Hant": "湘南江之島"
+                },
                 "stationCode": "SMR8"
             }
         ],
@@ -5165,6 +5191,6 @@
                 "type": "Local"
             }
         ],
-        "upHopTimesMinutes": [2.0, 2.0, 2.0, 3.0, 2, 2, 2]
+        "upHopTimesMinutes": [2, 2, 2, 3, 2, 2, 2]
     }
 ]

@@ -2,10 +2,14 @@
     {
         "colorHex": "#2E3A5C",
         "delayInfo": {
-            "checkMethodEn": "Check the Tsukuba Express (Metropolitan Intercity Railway) service information page. Delays and suspensions are posted as they occur.",
-            "checkMethodJa": "つくばエクスプレス（首都圏新都市鉄道）の運行情報ページで確認できます。遅延・運転見合わせが発生した場合に掲載されます。",
-            "statusPageURL": "https://www.mir.co.jp/info/",
-            "statusPageURLEn": "https://www.mir.co.jp/info/",
+            "checkMethod": {
+                "en": "Check the Tsukuba Express (Metropolitan Intercity Railway) service information page. Delays and suspensions are posted as they occur.",
+                "ja": "つくばエクスプレス（首都圏新都市鉄道）の運行情報ページで確認できます。遅延・運転見合わせが発生した場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://www.mir.co.jp/info/",
+                "ja": "https://www.mir.co.jp/info/"
+            },
             "xAccount": "@TX_information"
         },
         "directions": [
@@ -21,8 +25,10 @@
                     }
                 ],
                 "isAscending": true,
-                "nameEn": "For Tsukuba",
-                "nameJa": "つくば方面",
+                "name": {
+                    "en": "For Tsukuba",
+                    "ja": "つくば方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -135,8 +141,10 @@
                     }
                 ],
                 "isAscending": false,
-                "nameEn": "For Akihabara",
-                "nameJa": "秋葉原方面",
+                "name": {
+                    "en": "For Akihabara",
+                    "ja": "秋葉原方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -216,228 +224,273 @@
         "hopTimesMinutes": [3, 3, 3, 3, 3, 2, 4, 4, 3, 2, 3, 3, 2, 4, 5, 3, 3, 4, 3],
         "id": "Railway:MIR.TsukubaExpress",
         "isLoop": false,
-        "nameEn": "Tsukuba Express",
-        "nameJa": "つくばエクスプレス",
+        "name": {
+            "en": "Tsukuba Express",
+            "ja": "つくばエクスプレス",
+            "ko": "수도권 신도시 철도 쓰쿠바 익스프레스",
+            "zh-Hans": "筑波快线",
+            "zh-Hant": "筑波快線"
+        },
         "operatorId": "Operator:MIR",
         "stations": [
             {
                 "id": "Station:MIR.TsukubaExpress.Akihabara",
                 "latitude": 35.69894,
                 "longitude": 139.77428,
-                "name": "秋葉原",
-                "nameEn": "Akihabara",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Akihabara",
+                    "ja": "秋葉原",
+                    "ko": "아키하바라",
+                    "zh-Hans": "秋叶原",
+                    "zh-Hant": "秋葉原"
+                },
                 "stationCode": "TX01"
             },
             {
                 "id": "Station:MIR.TsukubaExpress.ShinOkachimachi",
                 "latitude": 35.70711,
                 "longitude": 139.78194,
-                "name": "新御徒町",
-                "nameEn": "Shin-okachimachi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shin-okachimachi",
+                    "ja": "新御徒町",
+                    "ko": "신오카치마치",
+                    "zh-Hans": "新御徒町",
+                    "zh-Hant": "新御徒町"
+                },
                 "stationCode": "TX02"
             },
             {
                 "id": "Station:MIR.TsukubaExpress.Asakusa",
                 "latitude": 35.714,
                 "longitude": 139.79239,
-                "name": "浅草",
-                "nameEn": "Asakusa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Asakusa",
+                    "ja": "浅草",
+                    "ko": "아사쿠사",
+                    "zh-Hans": "浅草",
+                    "zh-Hant": "淺草"
+                },
                 "stationCode": "TX03"
             },
             {
                 "id": "Station:MIR.TsukubaExpress.MinamiSenju",
                 "latitude": 35.73344,
                 "longitude": 139.79911,
-                "name": "南千住",
-                "nameEn": "Minami-senju",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Minami-senju",
+                    "ja": "南千住",
+                    "ko": "미나미센주",
+                    "zh-Hans": "南千住",
+                    "zh-Hant": "南千住"
+                },
                 "stationCode": "TX04"
             },
             {
                 "id": "Station:MIR.TsukubaExpress.KitaSenju",
                 "latitude": 35.74975,
                 "longitude": 139.80533,
-                "name": "北千住",
-                "nameEn": "Kita-senju",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kita-senju",
+                    "ja": "北千住",
+                    "ko": "기타센주",
+                    "zh-Hans": "北千住",
+                    "zh-Hant": "北千住"
+                },
                 "stationCode": "TX05"
             },
             {
                 "id": "Station:MIR.TsukubaExpress.Aoi",
                 "latitude": 35.7725,
                 "longitude": 139.82033,
-                "name": "青井",
-                "nameEn": "Aoi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Aoi",
+                    "ja": "青井",
+                    "ko": "아오이",
+                    "zh-Hans": "青井",
+                    "zh-Hant": "青井"
+                },
                 "stationCode": "TX06"
             },
             {
                 "id": "Station:MIR.TsukubaExpress.Rokucho",
                 "latitude": 35.78492,
                 "longitude": 139.82181,
-                "name": "六町",
-                "nameEn": "Rokucho",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Rokucho",
+                    "ja": "六町",
+                    "ko": "로쿠초",
+                    "zh-Hans": "六町",
+                    "zh-Hant": "六町"
+                },
                 "stationCode": "TX07"
             },
             {
                 "id": "Station:MIR.TsukubaExpress.Yashio",
                 "latitude": 35.80786,
                 "longitude": 139.84483,
-                "name": "八潮",
-                "nameEn": "Yashio",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Yashio",
+                    "ja": "八潮",
+                    "ko": "야시오",
+                    "zh-Hans": "八潮",
+                    "zh-Hant": "八潮"
+                },
                 "stationCode": "TX08"
             },
             {
                 "id": "Station:MIR.TsukubaExpress.MisatoChuo",
                 "latitude": 35.82417,
                 "longitude": 139.87806,
-                "name": "三郷中央",
-                "nameEn": "Misato-chuo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Misato-chuo",
+                    "ja": "三郷中央",
+                    "ko": "미사토추오",
+                    "zh-Hans": "三乡中央",
+                    "zh-Hant": "三鄉中央"
+                },
                 "stationCode": "TX09"
             },
             {
                 "id": "Station:MIR.TsukubaExpress.MinamiNagareyama",
                 "latitude": 35.83786,
                 "longitude": 139.90433,
-                "name": "南流山",
-                "nameEn": "Minami-nagareyama",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Minami-nagareyama",
+                    "ja": "南流山",
+                    "ko": "미나미나가레야마",
+                    "zh-Hans": "南流山",
+                    "zh-Hant": "南流山"
+                },
                 "stationCode": "TX10"
             },
             {
                 "id": "Station:MIR.TsukubaExpress.NagareyamaCentralPark",
                 "latitude": 35.85447,
                 "longitude": 139.91522,
-                "name": "流山セントラルパーク",
-                "nameEn": "Nagareyama-centralpark",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nagareyama-centralpark",
+                    "ja": "流山セントラルパーク",
+                    "ko": "나가레야마 센트럴 파크",
+                    "zh-Hans": "流山中央公园",
+                    "zh-Hant": "流山中央公園"
+                },
                 "stationCode": "TX11"
             },
             {
                 "id": "Station:MIR.TsukubaExpress.NagareyamaOtakanomori",
                 "latitude": 35.87186,
                 "longitude": 139.92506,
-                "name": "流山おおたかの森",
-                "nameEn": "Nagareyama-otakanomori",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nagareyama-otakanomori",
+                    "ja": "流山おおたかの森",
+                    "ko": "나가레야마오타카노모리",
+                    "zh-Hans": "流山大鹰之森",
+                    "zh-Hant": "流山大鷹之森"
+                },
                 "stationCode": "TX12"
             },
             {
                 "id": "Station:MIR.TsukubaExpress.KashiwanohaCampus",
                 "latitude": 35.89336,
                 "longitude": 139.9525,
-                "name": "柏の葉キャンパス",
-                "nameEn": "Kashiwanoha-campus",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kashiwanoha-campus",
+                    "ja": "柏の葉キャンパス",
+                    "ko": "가시와노하 캠퍼스",
+                    "zh-Hans": "柏之叶校区",
+                    "zh-Hant": "柏之葉校區"
+                },
                 "stationCode": "TX13"
             },
             {
                 "id": "Station:MIR.TsukubaExpress.KashiwaTanaka",
                 "latitude": 35.911,
                 "longitude": 139.9575,
-                "name": "柏たなか",
-                "nameEn": "Kashiwa-tanaka",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kashiwa-tanaka",
+                    "ja": "柏たなか",
+                    "ko": "가시와타나카",
+                    "zh-Hans": "柏田中",
+                    "zh-Hant": "柏田中"
+                },
                 "stationCode": "TX14"
             },
             {
                 "id": "Station:MIR.TsukubaExpress.Moriya",
                 "latitude": 35.95069,
                 "longitude": 139.99225,
-                "name": "守谷",
-                "nameEn": "Moriya",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Moriya",
+                    "ja": "守谷",
+                    "ko": "모리야",
+                    "zh-Hans": "守谷",
+                    "zh-Hant": "守谷"
+                },
                 "stationCode": "TX15"
             },
             {
                 "id": "Station:MIR.TsukubaExpress.Miraidaira",
                 "latitude": 35.99475,
                 "longitude": 140.03831,
-                "name": "みらい平",
-                "nameEn": "Miraidaira",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Miraidaira",
+                    "ja": "みらい平",
+                    "ko": "미라이다이라",
+                    "zh-Hans": "未来平",
+                    "zh-Hant": "未來平"
+                },
                 "stationCode": "TX16"
             },
             {
                 "id": "Station:MIR.TsukubaExpress.Midorino",
                 "latitude": 36.02994,
                 "longitude": 140.05625,
-                "name": "みどりの",
-                "nameEn": "Midorino",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Midorino",
+                    "ja": "みどりの",
+                    "ko": "미도리노",
+                    "zh-Hans": "绿野",
+                    "zh-Hant": "綠野"
+                },
                 "stationCode": "TX17"
             },
             {
                 "id": "Station:MIR.TsukubaExpress.BampakuKinenKoen",
                 "latitude": 36.05847,
                 "longitude": 140.05944,
-                "name": "万博記念公園",
-                "nameEn": "Bampaku-kinen-koen",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Bampaku-kinen-koen",
+                    "ja": "万博記念公園",
+                    "ko": "반파쿠키넨코엔",
+                    "zh-Hans": "万博纪念公园",
+                    "zh-Hant": "萬博紀念公園"
+                },
                 "stationCode": "TX18"
             },
             {
                 "id": "Station:MIR.TsukubaExpress.KenkyuGakuen",
                 "latitude": 36.08217,
                 "longitude": 140.08239,
-                "name": "研究学園",
-                "nameEn": "Kenkyu-gakuen",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kenkyu-gakuen",
+                    "ja": "研究学園",
+                    "ko": "겐큐가쿠엔",
+                    "zh-Hans": "研究学园",
+                    "zh-Hant": "研究學園"
+                },
                 "stationCode": "TX19"
             },
             {
                 "id": "Station:MIR.TsukubaExpress.Tsukuba",
                 "latitude": 36.08256,
                 "longitude": 140.11169,
-                "name": "つくば",
-                "nameEn": "Tsukuba",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tsukuba",
+                    "ja": "つくば",
+                    "ko": "쓰쿠바",
+                    "zh-Hans": "筑波",
+                    "zh-Hant": "筑波"
+                },
                 "stationCode": "TX20"
             }
         ],

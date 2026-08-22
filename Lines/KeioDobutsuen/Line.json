@@ -2,10 +2,14 @@
     {
         "colorHex": "#DD0077",
         "delayInfo": {
-            "checkMethodEn": "Check the Keio train operation information page or the Keio app. Delays and suspensions are posted as they occur.",
-            "checkMethodJa": "京王電鉄「運行情報」ページまたは京王アプリで確認できます。遅延・運転見合わせが発生した場合に掲載されます。",
-            "statusPageURL": "https://www.keio.co.jp/unkou/unkou_pc.html",
-            "statusPageURLEn": "https://www.keio.co.jp/unkou/unkou_pc_e.html",
+            "checkMethod": {
+                "en": "Check the Keio train operation information page or the Keio app. Delays and suspensions are posted as they occur.",
+                "ja": "京王電鉄「運行情報」ページまたは京王アプリで確認できます。遅延・運転見合わせが発生した場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://www.keio.co.jp/unkou/unkou_pc_e.html",
+                "ja": "https://www.keio.co.jp/unkou/unkou_pc.html"
+            },
             "xAccount": "@keiodentetsu"
         },
         "directions": [
@@ -15,21 +19,23 @@
                 "id": "static.RailDirection:Keio.Dobutsuen.TamaDobutsukoen",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Tama-dōbutsukōen",
-                "nameJa": "多摩動物公園方面",
+                "name": {
+                    "en": "For Tama-dōbutsukōen",
+                    "ja": "多摩動物公園方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
                             "from": "05:35",
-                            "headwayMinutes": 16.0
+                            "headwayMinutes": 16
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 19.0
+                            "headwayMinutes": 19
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 18.0
+                            "headwayMinutes": 18
                         },
                         {
                             "from": "09:00",
@@ -37,15 +43,15 @@
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 12.0
+                            "headwayMinutes": 12
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "23:00",
-                            "headwayMinutes": 19.0
+                            "headwayMinutes": 19
                         }
                     ],
                     "firstDeparture": "05:35",
@@ -60,7 +66,7 @@
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 16.0
+                            "headwayMinutes": 16
                         },
                         {
                             "from": "07:00",
@@ -68,7 +74,7 @@
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 17.0
+                            "headwayMinutes": 17
                         },
                         {
                             "from": "09:00",
@@ -76,27 +82,27 @@
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "11:00",
-                            "headwayMinutes": 21.0
+                            "headwayMinutes": 21
                         },
                         {
                             "from": "12:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "21:00",
-                            "headwayMinutes": 21.0
+                            "headwayMinutes": 21
                         },
                         {
                             "from": "22:00",
-                            "headwayMinutes": 19.0
+                            "headwayMinutes": 19
                         },
                         {
                             "from": "23:00",
-                            "headwayMinutes": 21.0
+                            "headwayMinutes": 21
                         }
                     ],
                     "firstDeparture": "05:35",
@@ -110,21 +116,23 @@
                 "id": "static.RailDirection:Keio.Dobutsuen.Takahatafudo",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Takahatafudō",
-                "nameJa": "高幡不動方面",
+                "name": {
+                    "en": "For Takahatafudō",
+                    "ja": "高幡不動方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
                             "from": "05:43",
-                            "headwayMinutes": 17.0
+                            "headwayMinutes": 17
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 18.0
+                            "headwayMinutes": 18
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 19.0
+                            "headwayMinutes": 19
                         },
                         {
                             "from": "09:00",
@@ -132,11 +140,11 @@
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 12.0
+                            "headwayMinutes": 12
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "23:00",
@@ -155,31 +163,31 @@
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 16.0
+                            "headwayMinutes": 16
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 14.0
+                            "headwayMinutes": 14
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 17.0
+                            "headwayMinutes": 17
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 16.0
+                            "headwayMinutes": 16
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "11:00",
-                            "headwayMinutes": 21.0
+                            "headwayMinutes": 21
                         },
                         {
                             "from": "12:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "23:00",
@@ -192,33 +200,42 @@
                 }
             }
         ],
-        "hopTimesMinutes": [3.0],
+        "hopTimesMinutes": [3],
         "id": "Railway:Keio.Dobutsuen",
         "isLoop": false,
-        "nameEn": "Keio Dobutsuen Line",
-        "nameJa": "京王動物園線",
+        "name": {
+            "en": "Keio Dobutsuen Line",
+            "ja": "京王動物園線",
+            "ko": "게이오 전철 도부쓰엔 선",
+            "zh-Hans": "动物园线",
+            "zh-Hant": "動物園線"
+        },
         "operatorId": "Operator:Keio",
         "stations": [
             {
                 "id": "Station:Keio.Dobutsuen.Takahatafudo",
                 "latitude": 35.66228,
                 "longitude": 139.4131,
-                "name": "高幡不動",
-                "nameEn": "Takahatafudō",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Takahatafudō",
+                    "ja": "高幡不動",
+                    "ko": "다카하타후도",
+                    "zh-Hans": "高幡不动",
+                    "zh-Hant": "高幡不動"
+                },
                 "stationCode": "KO29"
             },
             {
                 "id": "Station:Keio.Dobutsuen.TamaDobutsukoen",
                 "latitude": 35.64954,
                 "longitude": 139.40551,
-                "name": "多摩動物公園",
-                "nameEn": "Tama-dōbutsukōen",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tama-dōbutsukōen",
+                    "ja": "多摩動物公園",
+                    "ko": "다마도부쓰코엔",
+                    "zh-Hans": "多摩动物公园",
+                    "zh-Hant": "多摩動物公園"
+                },
                 "stationCode": "KO47"
             }
         ],
@@ -2593,6 +2610,6 @@
                 "type": "Local"
             }
         ],
-        "upHopTimesMinutes": [3.0]
+        "upHopTimesMinutes": [3]
     }
 ]

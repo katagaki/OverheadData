@@ -2,10 +2,14 @@
     {
         "colorHex": "#0067C0",
         "delayInfo": {
-            "checkMethodEn": "Check the Tobu Railway service status page, the Tobu app, or X (@TobuRailway_JP). Delays of roughly 10 minutes or more and suspensions are posted.",
-            "checkMethodJa": "東武鉄道「運行情報」ページ、東武線アプリ、またはX（@TobuRailway_JP）で確認できます。おおむね10分以上の遅延・運転見合わせが発生した場合に掲載されます。",
-            "statusPageURL": "https://www.tobu.co.jp/service_status/",
-            "statusPageURLEn": "https://www.tobu.co.jp/service_status/",
+            "checkMethod": {
+                "en": "Check the Tobu Railway service status page, the Tobu app, or X (@TobuRailway_JP). Delays of roughly 10 minutes or more and suspensions are posted.",
+                "ja": "東武鉄道「運行情報」ページ、東武線アプリ、またはX（@TobuRailway_JP）で確認できます。おおむね10分以上の遅延・運転見合わせが発生した場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://www.tobu.co.jp/service_status/",
+                "ja": "https://www.tobu.co.jp/service_status/"
+            },
             "xAccount": "@TobuRailway_JP"
         },
         "directions": [
@@ -15,8 +19,10 @@
                 "id": "static.RailDirection:Tobu.Kameido.Kameido",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Kameido",
-                "nameJa": "亀戸方面",
+                "name": {
+                    "en": "For Kameido",
+                    "ja": "亀戸方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -62,8 +68,10 @@
                 "id": "static.RailDirection:Tobu.Kameido.Hikifune",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Hikifune",
-                "nameJa": "曳舟方面",
+                "name": {
+                    "en": "For Hikifune",
+                    "ja": "曳舟方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -107,63 +115,78 @@
         "hopTimesMinutes": [3, 1, 2, 2],
         "id": "Railway:Tobu.Kameido",
         "isLoop": false,
-        "nameEn": "Tobu Kameido Line",
-        "nameJa": "東武亀戸線",
+        "name": {
+            "en": "Tobu Kameido Line",
+            "ja": "東武亀戸線",
+            "ko": "도부 철도 가메이도 선",
+            "zh-Hans": "龟户线",
+            "zh-Hant": "龜戶線"
+        },
         "operatorId": "Operator:Tobu",
         "stations": [
             {
                 "id": "Station:Tobu.Kameido.Hikifune",
                 "latitude": 35.718306,
                 "longitude": 139.81675,
-                "name": "曳舟",
-                "nameEn": "Hikifune",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Hikifune",
+                    "ja": "曳舟",
+                    "ko": "히키후네",
+                    "zh-Hans": "曳舟",
+                    "zh-Hant": "曳舟"
+                },
                 "stationCode": "TS04"
             },
             {
                 "id": "Station:Tobu.Kameido.Omurai",
                 "latitude": 35.7101,
                 "longitude": 139.828,
-                "name": "小村井",
-                "nameEn": "Omurai",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Omurai",
+                    "ja": "小村井",
+                    "ko": "오무라이",
+                    "zh-Hans": "小村井",
+                    "zh-Hant": "小村井"
+                },
                 "stationCode": "TS41"
             },
             {
                 "id": "Station:Tobu.Kameido.HigashiAzuma",
                 "latitude": 35.7071,
                 "longitude": 139.8319,
-                "name": "東あずま",
-                "nameEn": "Higashi-Azuma",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Higashi-Azuma",
+                    "ja": "東あずま",
+                    "ko": "히가시아즈마",
+                    "zh-Hans": "东吾嬬",
+                    "zh-Hant": "東吾嬬"
+                },
                 "stationCode": "TS42"
             },
             {
                 "id": "Station:Tobu.Kameido.KameidoSuijin",
                 "latitude": 35.7003,
                 "longitude": 139.8337,
-                "name": "亀戸水神",
-                "nameEn": "Kameido-Suijin",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kameido-Suijin",
+                    "ja": "亀戸水神",
+                    "ko": "가메이도스이진",
+                    "zh-Hans": "龟户水神",
+                    "zh-Hant": "龜戶水神"
+                },
                 "stationCode": "TS43"
             },
             {
                 "id": "Station:Tobu.Kameido.Kameido",
                 "latitude": 35.6976,
                 "longitude": 139.8261,
-                "name": "亀戸",
-                "nameEn": "Kameido",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kameido",
+                    "ja": "亀戸",
+                    "ko": "가메이도",
+                    "zh-Hans": "龟户",
+                    "zh-Hant": "龜戶"
+                },
                 "stationCode": "TS44"
             }
         ],

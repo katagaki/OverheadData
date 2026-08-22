@@ -2,10 +2,14 @@
     {
         "colorHex": "#C9242F",
         "delayInfo": {
-            "checkMethodEn": "Check the JR East Train Operation Information page or the JR East app. In the Tokyo area, delays or suspensions of 15 minutes or more are posted.",
-            "checkMethodJa": "JR東日本「列車運行情報」ページまたはJR東日本アプリで確認できます。首都圏エリアでは15分以上の遅れ・運休が発生または見込まれる場合に掲載されます。",
-            "statusPageURL": "https://traininfo.jreast.co.jp/train_info/line.aspx?gid=1&lineid=keiyoline",
-            "statusPageURLEn": "https://traininfo.jreast.co.jp/train_info/e/kanto.aspx",
+            "checkMethod": {
+                "en": "Check the JR East Train Operation Information page or the JR East app. In the Tokyo area, delays or suspensions of 15 minutes or more are posted.",
+                "ja": "JR東日本「列車運行情報」ページまたはJR東日本アプリで確認できます。首都圏エリアでは15分以上の遅れ・運休が発生または見込まれる場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://traininfo.jreast.co.jp/train_info/e/kanto.aspx",
+                "ja": "https://traininfo.jreast.co.jp/train_info/line.aspx?gid=1&lineid=keiyoline"
+            },
             "xAccount": "@JRE_F_Sobu"
         },
         "directions": [
@@ -15,8 +19,10 @@
                 "id": "static.RailDirection:JR-East.KeiyoBranch.IchikawaShiohama",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Ichikawa-Shiohama & Tokyo",
-                "nameJa": "市川塩浜・東京方面",
+                "name": {
+                    "en": "For Ichikawa-Shiohama & Tokyo",
+                    "ja": "市川塩浜・東京方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -62,8 +68,10 @@
                 "id": "static.RailDirection:JR-East.KeiyoBranch.NishiFunabashi",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Nishi-Funabashi",
-                "nameJa": "西船橋方面",
+                "name": {
+                    "en": "For Nishi-Funabashi",
+                    "ja": "西船橋方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -99,30 +107,36 @@
         "hopTimesMinutes": [6],
         "id": "Railway:JR-East.KeiyoBranch",
         "isLoop": false,
-        "nameEn": "Keiyo Line Nishi-Funabashi Branch",
-        "nameJa": "京葉線（西船橋支線）",
+        "name": {
+            "en": "Keiyo Line Nishi-Funabashi Branch",
+            "ja": "京葉線（西船橋支線）"
+        },
         "operatorId": "Operator:JR-East",
         "stations": [
             {
                 "id": "Station:JR-East.KeiyoBranch.NishiFunabashi",
                 "latitude": 35.7075,
                 "longitude": 139.9594,
-                "name": "西船橋",
-                "nameEn": "Nishi-Funabashi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nishi-Funabashi",
+                    "ja": "西船橋",
+                    "ko": "니시후나바시",
+                    "zh-Hans": "西船桥",
+                    "zh-Hant": "西船橋"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.KeiyoBranch.IchikawaShiohama",
                 "latitude": 35.666636,
                 "longitude": 139.923649,
-                "name": "市川塩浜",
-                "nameEn": "Ichikawa-Shiohama",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ichikawa-Shiohama",
+                    "ja": "市川塩浜",
+                    "ko": "이치카와시오하마",
+                    "zh-Hans": "市川鹽濱",
+                    "zh-Hant": "市川鹽濱"
+                },
                 "stationCode": "JE09"
             }
         ],
@@ -132,19 +146,27 @@
                 "connectingLineId": "Railway:JR-East.Musashino",
                 "end": "descending",
                 "junctionStationId": "Station:JR-East.KeiyoBranch.NishiFunabashi",
-                "lineNameEn": "JR Musashino Line",
-                "lineNameJa": "武蔵野線",
-                "towardEn": "for Minami-Nagareyama & Fuchu-Hommachi",
-                "towardJa": "南流山・府中本町方面"
+                "lineName": {
+                    "en": "JR Musashino Line",
+                    "ja": "武蔵野線"
+                },
+                "toward": {
+                    "en": "for Minami-Nagareyama & Fuchu-Hommachi",
+                    "ja": "南流山・府中本町方面"
+                }
             },
             {
                 "connectingLineId": "Railway:JR-East.Keiyo",
                 "end": "ascending",
                 "junctionStationId": "Station:JR-East.KeiyoBranch.IchikawaShiohama",
-                "lineNameEn": "JR Keiyo Line",
-                "lineNameJa": "京葉線",
-                "towardEn": "for Tokyo",
-                "towardJa": "東京方面"
+                "lineName": {
+                    "en": "JR Keiyo Line",
+                    "ja": "京葉線"
+                },
+                "toward": {
+                    "en": "for Tokyo",
+                    "ja": "東京方面"
+                }
             }
         ]
     }

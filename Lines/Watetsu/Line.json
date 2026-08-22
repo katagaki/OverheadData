@@ -2,10 +2,14 @@
     {
         "colorHex": "#00913A",
         "delayInfo": {
-            "checkMethodEn": "Check the Watarase Keikoku Railway website. Suspensions and delays are posted in the notices on the top page.",
-            "checkMethodJa": "わたらせ渓谷鐵道の公式サイトで確認できます。運転見合わせ・遅延はトップページのお知らせに掲載されます。",
-            "statusPageURL": "https://www.watetsu.com/",
-            "statusPageURLEn": "https://www.watetsu.com/",
+            "checkMethod": {
+                "en": "Check the Watarase Keikoku Railway website. Suspensions and delays are posted in the notices on the top page.",
+                "ja": "わたらせ渓谷鐵道の公式サイトで確認できます。運転見合わせ・遅延はトップページのお知らせに掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://www.watetsu.com/",
+                "ja": "https://www.watetsu.com/"
+            },
             "xAccount": null
         },
         "directions": [
@@ -15,8 +19,10 @@
                 "id": "static.RailDirection:Watetsu.WatarasseKeikoku.Mato",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Mato",
-                "nameJa": "間藤方面",
+                "name": {
+                    "en": "For Mato",
+                    "ja": "間藤方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -134,8 +140,10 @@
                 "id": "static.RailDirection:Watetsu.WatarasseKeikoku.Kiryu",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Kiryu",
-                "nameJa": "桐生方面",
+                "name": {
+                    "en": "For Kiryu",
+                    "ja": "桐生方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -251,195 +259,231 @@
         "hopTimesMinutes": [4, 2, 2, 6, 10, 3, 6, 8, 2, 5, 4, 14, 11, 7, 2, 3],
         "id": "Railway:Watetsu.WatarasseKeikoku",
         "isLoop": false,
-        "nameEn": "Watarase Keikoku Line",
-        "nameJa": "わたらせ渓谷線",
+        "name": {
+            "en": "Watarase Keikoku Line",
+            "ja": "わたらせ渓谷線"
+        },
         "operatorId": "Operator:Watetsu",
         "stations": [
             {
                 "id": "Station:Watetsu.WatarasseKeikoku.Kiryu",
                 "latitude": 36.411111,
                 "longitude": 139.333056,
-                "name": "桐生",
-                "nameEn": "Kiryu",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kiryu",
+                    "ja": "桐生",
+                    "ko": "기류",
+                    "zh-Hans": "桐生",
+                    "zh-Hant": "桐生"
+                },
                 "stationCode": "WK01"
             },
             {
                 "id": "Station:Watetsu.WatarasseKeikoku.ShimoShinden",
                 "latitude": 36.407586,
                 "longitude": 139.315067,
-                "name": "下新田",
-                "nameEn": "Shimo-Shinden",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shimo-Shinden",
+                    "ja": "下新田",
+                    "ko": "시모신덴",
+                    "zh-Hans": "下新田",
+                    "zh-Hant": "下新田"
+                },
                 "stationCode": "WK02"
             },
             {
                 "id": "Station:Watetsu.WatarasseKeikoku.Aioi",
                 "latitude": 36.410556,
                 "longitude": 139.304444,
-                "name": "相老",
-                "nameEn": "Aioi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Aioi",
+                    "ja": "相老",
+                    "ko": "아이오이",
+                    "zh-Hans": "相老",
+                    "zh-Hant": "相老"
+                },
                 "stationCode": "WK03"
             },
             {
                 "id": "Station:Watetsu.WatarasseKeikoku.Undokoen",
                 "latitude": 36.420508,
                 "longitude": 139.300875,
-                "name": "運動公園",
-                "nameEn": "Undo-koen",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Undo-koen",
+                    "ja": "運動公園",
+                    "ko": "운도코엔",
+                    "zh-Hans": "运动公园",
+                    "zh-Hant": "運動公園"
+                },
                 "stationCode": "WK04"
             },
             {
                 "id": "Station:Watetsu.WatarasseKeikoku.Omama",
                 "latitude": 36.434722,
                 "longitude": 139.2775,
-                "name": "大間々",
-                "nameEn": "Omama",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Omama",
+                    "ja": "大間々",
+                    "ko": "오마마",
+                    "zh-Hans": "大间间",
+                    "zh-Hant": "大間間"
+                },
                 "stationCode": "WK05"
             },
             {
                 "id": "Station:Watetsu.WatarasseKeikoku.Kamikanbai",
                 "latitude": 36.470056,
                 "longitude": 139.257597,
-                "name": "上神梅",
-                "nameEn": "Kamikanbai",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kamikanbai",
+                    "ja": "上神梅",
+                    "ko": "가미칸바이",
+                    "zh-Hans": "上神梅",
+                    "zh-Hant": "上神梅"
+                },
                 "stationCode": "WK06"
             },
             {
                 "id": "Station:Watetsu.WatarasseKeikoku.Motojuku",
                 "latitude": 36.481544,
                 "longitude": 139.259058,
-                "name": "本宿",
-                "nameEn": "Motojuku",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Motojuku",
+                    "ja": "本宿",
+                    "ko": "모토주쿠",
+                    "zh-Hans": "本宿",
+                    "zh-Hant": "本宿"
+                },
                 "stationCode": "WK07"
             },
             {
                 "id": "Station:Watetsu.WatarasseKeikoku.Mizunuma",
                 "latitude": 36.5,
                 "longitude": 139.2775,
-                "name": "水沼",
-                "nameEn": "Mizunuma",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Mizunuma",
+                    "ja": "水沼",
+                    "ko": "미즈누마",
+                    "zh-Hans": "水沼",
+                    "zh-Hant": "水沼"
+                },
                 "stationCode": "WK08"
             },
             {
                 "id": "Station:Watetsu.WatarasseKeikoku.Hanawa",
                 "latitude": 36.520797,
                 "longitude": 139.307869,
-                "name": "花輪",
-                "nameEn": "Hanawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Hanawa",
+                    "ja": "花輪",
+                    "ko": "하나와",
+                    "zh-Hans": "花轮",
+                    "zh-Hant": "花輪"
+                },
                 "stationCode": "WK09"
             },
             {
                 "id": "Station:Watetsu.WatarasseKeikoku.Nakano",
                 "latitude": 36.524164,
                 "longitude": 139.317128,
-                "name": "中野",
-                "nameEn": "Nakano",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nakano",
+                    "ja": "中野",
+                    "ko": "나카노",
+                    "zh-Hans": "中野",
+                    "zh-Hant": "中野"
+                },
                 "stationCode": "WK10"
             },
             {
                 "id": "Station:Watetsu.WatarasseKeikoku.Konaka",
                 "latitude": 36.535731,
                 "longitude": 139.3378,
-                "name": "小中",
-                "nameEn": "Konaka",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Konaka",
+                    "ja": "小中",
+                    "ko": "고나카",
+                    "zh-Hans": "小中",
+                    "zh-Hant": "小中"
+                },
                 "stationCode": "WK11"
             },
             {
                 "id": "Station:Watetsu.WatarasseKeikoku.Godo",
                 "latitude": 36.5375,
                 "longitude": 139.356389,
-                "name": "神戸",
-                "nameEn": "Godo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Godo",
+                    "ja": "神戸",
+                    "ko": "고도",
+                    "zh-Hans": "神户",
+                    "zh-Hant": "神戶"
+                },
                 "stationCode": "WK12"
             },
             {
                 "id": "Station:Watetsu.WatarasseKeikoku.Sori",
                 "latitude": 36.580375,
                 "longitude": 139.396233,
-                "name": "沢入",
-                "nameEn": "Sori",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Sori",
+                    "ja": "沢入",
+                    "ko": "소리",
+                    "zh-Hans": "泽入",
+                    "zh-Hant": "澤入"
+                },
                 "stationCode": "WK13"
             },
             {
                 "id": "Station:Watetsu.WatarasseKeikoku.Haramukai",
                 "latitude": 36.617244,
                 "longitude": 139.420558,
-                "name": "原向",
-                "nameEn": "Haramukai",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Haramukai",
+                    "ja": "原向",
+                    "ko": "하라무코",
+                    "zh-Hans": "原向",
+                    "zh-Hant": "原向"
+                },
                 "stationCode": "WK14"
             },
             {
                 "id": "Station:Watetsu.WatarasseKeikoku.Tsudo",
                 "latitude": 36.636986,
                 "longitude": 139.44,
-                "name": "通洞",
-                "nameEn": "Tsudo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tsudo",
+                    "ja": "通洞",
+                    "ko": "쓰도",
+                    "zh-Hans": "通洞",
+                    "zh-Hant": "通洞"
+                },
                 "stationCode": "WK15"
             },
             {
                 "id": "Station:Watetsu.WatarasseKeikoku.Ashio",
                 "latitude": 36.641664,
                 "longitude": 139.447972,
-                "name": "足尾",
-                "nameEn": "Ashio",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ashio",
+                    "ja": "足尾",
+                    "ko": "아시오",
+                    "zh-Hans": "足尾",
+                    "zh-Hant": "足尾"
+                },
                 "stationCode": "WK16"
             },
             {
                 "id": "Station:Watetsu.WatarasseKeikoku.Mato",
                 "latitude": 36.653472,
                 "longitude": 139.450086,
-                "name": "間藤",
-                "nameEn": "Mato",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Mato",
+                    "ja": "間藤",
+                    "ko": "마토",
+                    "zh-Hans": "间藤",
+                    "zh-Hant": "間藤"
+                },
                 "stationCode": "WK17"
             }
         ],
@@ -449,10 +493,14 @@
                 "connectingLineId": "Railway:JR-East.Ryomo",
                 "end": "descending",
                 "junctionStationId": "Station:Watetsu.WatarasseKeikoku.Kiryu",
-                "lineNameEn": "Ryomo Line",
-                "lineNameJa": "両毛線",
-                "towardEn": "for Maebashi & Oyama",
-                "towardJa": "前橋・小山方面"
+                "lineName": {
+                    "en": "Ryomo Line",
+                    "ja": "両毛線"
+                },
+                "toward": {
+                    "en": "for Maebashi & Oyama",
+                    "ja": "前橋・小山方面"
+                }
             }
         ]
     }

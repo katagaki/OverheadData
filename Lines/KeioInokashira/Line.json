@@ -2,10 +2,14 @@
     {
         "colorHex": "#000088",
         "delayInfo": {
-            "checkMethodEn": "Check the Keio Corporation service information page. Delays and suspensions are posted as they occur.",
-            "checkMethodJa": "京王電鉄「運行情報」ページで確認できます。遅延・運転見合わせが発生した場合に掲載されます。",
-            "statusPageURL": "https://www.keio.co.jp/unkou/unkou_pc.html",
-            "statusPageURLEn": "https://www.keio.co.jp/unkou/unkou_pc_e.html",
+            "checkMethod": {
+                "en": "Check the Keio Corporation service information page. Delays and suspensions are posted as they occur.",
+                "ja": "京王電鉄「運行情報」ページで確認できます。遅延・運転見合わせが発生した場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://www.keio.co.jp/unkou/unkou_pc_e.html",
+                "ja": "https://www.keio.co.jp/unkou/unkou_pc.html"
+            },
             "xAccount": "@keiodentetsu"
         },
         "directions": [
@@ -1668,8 +1672,10 @@
                     }
                 ],
                 "isAscending": true,
-                "nameEn": "For Kichijoji",
-                "nameJa": "吉祥寺方面",
+                "name": {
+                    "en": "For Kichijoji",
+                    "ja": "吉祥寺方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -3540,8 +3546,10 @@
                     }
                 ],
                 "isAscending": false,
-                "nameEn": "For Shibuya",
-                "nameJa": "渋谷方面",
+                "name": {
+                    "en": "For Shibuya",
+                    "ja": "渋谷方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -3697,195 +3705,234 @@
         "hopTimesMinutes": [1, 2, 2, 2, 2, 1, 2, 3, 2, 2, 2, 2, 2, 2, 2, 1],
         "id": "Railway:Keio.Inokashira",
         "isLoop": false,
-        "nameEn": "Keio Inokashira Line",
-        "nameJa": "京王井の頭線",
+        "name": {
+            "en": "Keio Inokashira Line",
+            "ja": "京王井の頭線",
+            "ko": "게이오 전철 이노카시라 선",
+            "zh-Hans": "井之头线",
+            "zh-Hant": "井之頭線"
+        },
         "operatorId": "Operator:Keio",
         "stations": [
             {
                 "id": "Station:Keio.Inokashira.Shibuya",
                 "latitude": 35.658537,
                 "longitude": 139.69916,
-                "name": "渋谷",
-                "nameEn": "Shibuya",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shibuya",
+                    "ja": "渋谷",
+                    "ko": "시부야",
+                    "zh-Hans": "涩谷",
+                    "zh-Hant": "澀谷"
+                },
                 "stationCode": "IN01"
             },
             {
                 "id": "Station:Keio.Inokashira.Shinsen",
                 "latitude": 35.65717,
                 "longitude": 139.69313,
-                "name": "神泉",
-                "nameEn": "Shinsen",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shinsen",
+                    "ja": "神泉",
+                    "ko": "신센",
+                    "zh-Hans": "神泉",
+                    "zh-Hant": "神泉"
+                },
                 "stationCode": "IN02"
             },
             {
                 "id": "Station:Keio.Inokashira.KomabaTodaimae",
                 "latitude": 35.65867,
                 "longitude": 139.68408,
-                "name": "駒場東大前",
-                "nameEn": "Komaba-todaimae",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Komaba-todaimae",
+                    "ja": "駒場東大前",
+                    "ko": "고마바토다이마에",
+                    "zh-Hans": "驹场东大前",
+                    "zh-Hant": "駒場東大前"
+                },
                 "stationCode": "IN03"
             },
             {
                 "id": "Station:Keio.Inokashira.Ikenoue",
                 "latitude": 35.66037,
                 "longitude": 139.67346,
-                "name": "池ノ上",
-                "nameEn": "Ikenoue",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ikenoue",
+                    "ja": "池ノ上",
+                    "ko": "이케노우에",
+                    "zh-Hans": "池之上",
+                    "zh-Hant": "池之上"
+                },
                 "stationCode": "IN04"
             },
             {
                 "id": "Station:Keio.Inokashira.ShimoKitazawa",
                 "latitude": 35.6613,
                 "longitude": 139.668,
-                "name": "下北沢",
-                "nameEn": "Shimo-kitazawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shimo-kitazawa",
+                    "ja": "下北沢",
+                    "ko": "시모키타자와",
+                    "zh-Hans": "下北泽",
+                    "zh-Hant": "下北澤"
+                },
                 "stationCode": "IN05"
             },
             {
                 "id": "Station:Keio.Inokashira.Shindaita",
                 "latitude": 35.6625,
                 "longitude": 139.66139,
-                "name": "新代田",
-                "nameEn": "Shindaita",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shindaita",
+                    "ja": "新代田",
+                    "ko": "신다이타",
+                    "zh-Hans": "新代田",
+                    "zh-Hant": "新代田"
+                },
                 "stationCode": "IN06"
             },
             {
                 "id": "Station:Keio.Inokashira.HigashiMatsubara",
                 "latitude": 35.66264,
                 "longitude": 139.65569,
-                "name": "東松原",
-                "nameEn": "Higashi-matsubara",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Higashi-matsubara",
+                    "ja": "東松原",
+                    "ko": "히가시마쓰바라",
+                    "zh-Hans": "东松原",
+                    "zh-Hant": "東松原"
+                },
                 "stationCode": "IN07"
             },
             {
                 "id": "Station:Keio.Inokashira.Meidaimae",
                 "latitude": 35.66908,
                 "longitude": 139.65038,
-                "name": "明大前",
-                "nameEn": "Meidaimae",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Meidaimae",
+                    "ja": "明大前",
+                    "ko": "메이다이마에",
+                    "zh-Hans": "明大前",
+                    "zh-Hant": "明大前"
+                },
                 "stationCode": "IN08"
             },
             {
                 "id": "Station:Keio.Inokashira.Eifukucho",
                 "latitude": 35.67622,
                 "longitude": 139.64267,
-                "name": "永福町",
-                "nameEn": "Eifukucho",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Eifukucho",
+                    "ja": "永福町",
+                    "ko": "에이후쿠초",
+                    "zh-Hans": "永福町",
+                    "zh-Hant": "永福町"
+                },
                 "stationCode": "IN09"
             },
             {
                 "id": "Station:Keio.Inokashira.NishiEifuku",
                 "latitude": 35.67888,
                 "longitude": 139.63516,
-                "name": "西永福",
-                "nameEn": "Nishi-eifuku",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nishi-eifuku",
+                    "ja": "西永福",
+                    "ko": "니시에이후쿠",
+                    "zh-Hans": "西永福",
+                    "zh-Hant": "西永福"
+                },
                 "stationCode": "IN10"
             },
             {
                 "id": "Station:Keio.Inokashira.Hamadayama",
                 "latitude": 35.68158,
                 "longitude": 139.62758,
-                "name": "浜田山",
-                "nameEn": "Hamadayama",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Hamadayama",
+                    "ja": "浜田山",
+                    "ko": "하마다야마",
+                    "zh-Hans": "滨田山",
+                    "zh-Hant": "濱田山"
+                },
                 "stationCode": "IN11"
             },
             {
                 "id": "Station:Keio.Inokashira.Takaido",
                 "latitude": 35.68326,
                 "longitude": 139.61523,
-                "name": "高井戸",
-                "nameEn": "Takaido",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Takaido",
+                    "ja": "高井戸",
+                    "ko": "다카이도",
+                    "zh-Hans": "高井户",
+                    "zh-Hant": "高井戶"
+                },
                 "stationCode": "IN12"
             },
             {
                 "id": "Station:Keio.Inokashira.Fujimigaoka",
                 "latitude": 35.68481,
                 "longitude": 139.6072,
-                "name": "富士見ヶ丘",
-                "nameEn": "Fujimigaoka",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Fujimigaoka",
+                    "ja": "富士見ヶ丘",
+                    "ko": "후지미가오카",
+                    "zh-Hans": "富士见丘",
+                    "zh-Hant": "富士見丘"
+                },
                 "stationCode": "IN13"
             },
             {
                 "id": "Station:Keio.Inokashira.Kugayama",
                 "latitude": 35.68814,
                 "longitude": 139.59932,
-                "name": "久我山",
-                "nameEn": "Kugayama",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kugayama",
+                    "ja": "久我山",
+                    "ko": "구가야마",
+                    "zh-Hans": "久我山",
+                    "zh-Hant": "久我山"
+                },
                 "stationCode": "IN14"
             },
             {
                 "id": "Station:Keio.Inokashira.Mitakadai",
                 "latitude": 35.69205,
                 "longitude": 139.5893,
-                "name": "三鷹台",
-                "nameEn": "Mitakadai",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Mitakadai",
+                    "ja": "三鷹台",
+                    "ko": "미타카다이",
+                    "zh-Hans": "三鹰台",
+                    "zh-Hant": "三鷹台"
+                },
                 "stationCode": "IN15"
             },
             {
                 "id": "Station:Keio.Inokashira.InokashiraKoen",
                 "latitude": 35.6973,
                 "longitude": 139.58312,
-                "name": "井の頭公園",
-                "nameEn": "Inokashira-koen",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Inokashira-koen",
+                    "ja": "井の頭公園",
+                    "ko": "이노카시라코엔",
+                    "zh-Hans": "井之头公园",
+                    "zh-Hant": "井之頭公園"
+                },
                 "stationCode": "IN16"
             },
             {
                 "id": "Station:Keio.Inokashira.Kichijoji",
                 "latitude": 35.7032,
                 "longitude": 139.5797,
-                "name": "吉祥寺",
-                "nameEn": "Kichijoji",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kichijoji",
+                    "ja": "吉祥寺",
+                    "ko": "기치조지",
+                    "zh-Hans": "吉祥寺",
+                    "zh-Hant": "吉祥寺"
+                },
                 "stationCode": "IN17"
             }
         ],

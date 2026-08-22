@@ -2,10 +2,14 @@
     {
         "colorHex": "#A6A9AB",
         "delayInfo": {
-            "checkMethodEn": "Check the JR East Train Operation Information page or the JR East app. In the Tokyo area, delays or suspensions of 15 minutes or more are posted.",
-            "checkMethodJa": "JR東日本「列車運行情報」ページまたはJR東日本アプリで確認できます。首都圏エリアでは15分以上の遅れ・運休が発生または見込まれる場合に掲載されます。",
-            "statusPageURL": "https://traininfo.jreast.co.jp/train_info/line.aspx?gid=1&lineid=kawagoeline",
-            "statusPageURLEn": "https://traininfo.jreast.co.jp/train_info/e/kanto.aspx",
+            "checkMethod": {
+                "en": "Check the JR East Train Operation Information page or the JR East app. In the Tokyo area, delays or suspensions of 15 minutes or more are posted.",
+                "ja": "JR東日本「列車運行情報」ページまたはJR東日本アプリで確認できます。首都圏エリアでは15分以上の遅れ・運休が発生または見込まれる場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://traininfo.jreast.co.jp/train_info/e/kanto.aspx",
+                "ja": "https://traininfo.jreast.co.jp/train_info/line.aspx?gid=1&lineid=kawagoeline"
+            },
             "xAccount": "@JRE_F_Toho_Taka"
         },
         "directions": [
@@ -15,8 +19,10 @@
                 "id": "static.RailDirection:JR-East.Kawagoe.Komagawa",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Komagawa",
-                "nameJa": "高麗川方面",
+                "name": {
+                    "en": "For Komagawa",
+                    "ja": "高麗川方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -29,27 +35,27 @@
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 17.0
+                            "headwayMinutes": 17
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 29.0
+                            "headwayMinutes": 29
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 30.0
+                            "headwayMinutes": 30
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 18.0
+                            "headwayMinutes": 18
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 21.0
+                            "headwayMinutes": 21
                         },
                         {
                             "from": "19:00",
@@ -57,7 +63,7 @@
                         },
                         {
                             "from": "20:00",
-                            "headwayMinutes": 21.0
+                            "headwayMinutes": 21
                         },
                         {
                             "from": "22:00",
@@ -65,7 +71,7 @@
                         },
                         {
                             "from": "23:00",
-                            "headwayMinutes": 44.0
+                            "headwayMinutes": 44
                         }
                     ],
                     "firstDeparture": "05:16",
@@ -80,27 +86,27 @@
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 21.0
+                            "headwayMinutes": 21
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 19.0
+                            "headwayMinutes": 19
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 18.0
+                            "headwayMinutes": 18
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 27.0
+                            "headwayMinutes": 27
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 28.0
+                            "headwayMinutes": 28
                         },
                         {
                             "from": "11:00",
-                            "headwayMinutes": 30.0
+                            "headwayMinutes": 30
                         },
                         {
                             "from": "15:00",
@@ -108,19 +114,19 @@
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 19.0
+                            "headwayMinutes": 19
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 22.0
+                            "headwayMinutes": 22
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 21.0
+                            "headwayMinutes": 21
                         },
                         {
                             "from": "21:00",
-                            "headwayMinutes": 23.0
+                            "headwayMinutes": 23
                         },
                         {
                             "from": "22:00",
@@ -128,7 +134,7 @@
                         },
                         {
                             "from": "23:00",
-                            "headwayMinutes": 44.0
+                            "headwayMinutes": 44
                         }
                     ],
                     "firstDeparture": "05:16",
@@ -142,65 +148,67 @@
                 "id": "static.RailDirection:JR-East.Kawagoe.Kawagoe",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Kawagoe",
-                "nameJa": "川越方面",
+                "name": {
+                    "en": "For Kawagoe",
+                    "ja": "川越方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
                             "from": "05:27",
-                            "headwayMinutes": 23.0
+                            "headwayMinutes": 23
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 16.0
+                            "headwayMinutes": 16
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 22.0
+                            "headwayMinutes": 22
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 18.0
+                            "headwayMinutes": 18
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 30.0
+                            "headwayMinutes": 30
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 29.0
+                            "headwayMinutes": 29
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 21.0
+                            "headwayMinutes": 21
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 26.0
+                            "headwayMinutes": 26
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 16.0
+                            "headwayMinutes": 16
                         },
                         {
                             "from": "20:00",
-                            "headwayMinutes": 21.0
+                            "headwayMinutes": 21
                         },
                         {
                             "from": "21:00",
-                            "headwayMinutes": 22.0
+                            "headwayMinutes": 22
                         },
                         {
                             "from": "22:00",
-                            "headwayMinutes": 45.0
+                            "headwayMinutes": 45
                         },
                         {
                             "from": "23:00",
-                            "headwayMinutes": 30.0
+                            "headwayMinutes": 30
                         }
                     ],
                     "firstDeparture": "05:27",
@@ -215,19 +223,19 @@
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 17.0
+                            "headwayMinutes": 17
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 23.0
+                            "headwayMinutes": 23
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 16.0
+                            "headwayMinutes": 16
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "10:00",
@@ -235,7 +243,7 @@
                         },
                         {
                             "from": "11:00",
-                            "headwayMinutes": 30.0
+                            "headwayMinutes": 30
                         },
                         {
                             "from": "15:00",
@@ -243,7 +251,7 @@
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 27.0
+                            "headwayMinutes": 27
                         },
                         {
                             "from": "17:00",
@@ -251,19 +259,19 @@
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "21:00",
-                            "headwayMinutes": 22.0
+                            "headwayMinutes": 22
                         },
                         {
                             "from": "22:00",
-                            "headwayMinutes": 45.0
+                            "headwayMinutes": 45
                         },
                         {
                             "from": "23:00",
-                            "headwayMinutes": 30.0
+                            "headwayMinutes": 30
                         }
                     ],
                     "firstDeparture": "05:27",
@@ -272,11 +280,16 @@
                 }
             }
         ],
-        "hopTimesMinutes": [3.0, 3.0, 3.0, 4.0, 6.0],
+        "hopTimesMinutes": [3, 3, 3, 4, 6],
         "id": "Railway:JR-East.Kawagoe",
         "isLoop": false,
-        "nameEn": "Kawagoe Line",
-        "nameJa": "川越線",
+        "name": {
+            "en": "Kawagoe Line",
+            "ja": "川越線",
+            "ko": "가와고에선",
+            "zh-Hans": "川越线",
+            "zh-Hant": "川越線"
+        },
         "operatorId": "Operator:JR-East",
         "segment": "DokoTrain",
         "stations": [
@@ -284,66 +297,78 @@
                 "id": "Station:JR-East.Kawagoe.Kawagoe",
                 "latitude": 35.90668,
                 "longitude": 139.4832,
-                "name": "川越",
-                "nameEn": "Kawagoe",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kawagoe",
+                    "ja": "川越",
+                    "ko": "가와고에",
+                    "zh-Hans": "川越",
+                    "zh-Hant": "川越"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Kawagoe.NishiKawagoe",
                 "latitude": 35.9191,
                 "longitude": 139.45994,
-                "name": "西川越",
-                "nameEn": "Nishi-Kawagoe",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nishi-Kawagoe",
+                    "ja": "西川越",
+                    "ko": "니시카와고에",
+                    "zh-Hans": "西川越",
+                    "zh-Hant": "西川越"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Kawagoe.Matoba",
                 "latitude": 35.91754,
                 "longitude": 139.43541,
-                "name": "的場",
-                "nameEn": "Matoba",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Matoba",
+                    "ja": "的場",
+                    "ko": "마토바",
+                    "zh-Hans": "的场",
+                    "zh-Hant": "的場"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Kawagoe.Kasahata",
                 "latitude": 35.90758,
                 "longitude": 139.40626,
-                "name": "笠幡",
-                "nameEn": "Kasahata",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kasahata",
+                    "ja": "笠幡",
+                    "ko": "가사하타",
+                    "zh-Hans": "笠幡",
+                    "zh-Hant": "笠幡"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Kawagoe.MusashiTakahagi",
                 "latitude": 35.90168,
                 "longitude": 139.37112,
-                "name": "武蔵高萩",
-                "nameEn": "Musashi-Takahagi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Musashi-Takahagi",
+                    "ja": "武蔵高萩",
+                    "ko": "무사시타카하기",
+                    "zh-Hans": "武藏高萩",
+                    "zh-Hant": "武藏高萩"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Kawagoe.Komagawa",
                 "latitude": 35.89637,
                 "longitude": 139.33813,
-                "name": "高麗川",
-                "nameEn": "Komagawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Komagawa",
+                    "ja": "高麗川",
+                    "ko": "고마가와",
+                    "zh-Hans": "高丽川",
+                    "zh-Hant": "高麗川"
+                },
                 "stationCode": ""
             }
         ],
@@ -357,8 +382,10 @@
                 "startsHere": false,
                 "stops": [316, 319, 322, 326, 332, 343],
                 "terminates": false,
-                "throughDestEn": "Hachioji",
-                "throughDestJa": "八王子",
+                "throughDest": {
+                    "en": "Hachioji",
+                    "ja": "八王子"
+                },
                 "type": "Local"
             },
             {
@@ -377,8 +404,10 @@
                 "startsHere": true,
                 "stops": [361, 365, 373, 376, 380, 386],
                 "terminates": false,
-                "throughDestEn": "Hachioji",
-                "throughDestJa": "八王子",
+                "throughDest": {
+                    "en": "Hachioji",
+                    "ja": "八王子"
+                },
                 "type": "Local"
             },
             {
@@ -388,8 +417,10 @@
                 "startsHere": true,
                 "stops": [384, 387, 391, 394, 398, 403],
                 "terminates": false,
-                "throughDestEn": "Hachioji",
-                "throughDestJa": "八王子",
+                "throughDest": {
+                    "en": "Hachioji",
+                    "ja": "八王子"
+                },
                 "type": "Local"
             },
             {
@@ -399,8 +430,10 @@
                 "startsHere": false,
                 "stops": [401, 405, 408, 411, 415, 421],
                 "terminates": false,
-                "throughDestEn": "Hachioji",
-                "throughDestJa": "八王子",
+                "throughDest": {
+                    "en": "Hachioji",
+                    "ja": "八王子"
+                },
                 "type": "Local"
             },
             {
@@ -410,8 +443,10 @@
                 "startsHere": true,
                 "stops": [419, 422, 425, 429, 433, 439],
                 "terminates": false,
-                "throughDestEn": "Hachioji",
-                "throughDestJa": "八王子",
+                "throughDest": {
+                    "en": "Hachioji",
+                    "ja": "八王子"
+                },
                 "type": "Local"
             },
             {
@@ -430,8 +465,10 @@
                 "startsHere": true,
                 "stops": [453, 457, 462, 466, 471, 476],
                 "terminates": false,
-                "throughDestEn": "Hachioji",
-                "throughDestJa": "八王子",
+                "throughDest": {
+                    "en": "Hachioji",
+                    "ja": "八王子"
+                },
                 "type": "Local"
             },
             {
@@ -441,8 +478,10 @@
                 "startsHere": true,
                 "stops": [473, 477, 480, 483, 491, 497],
                 "terminates": false,
-                "throughDestEn": "Hachioji",
-                "throughDestJa": "八王子",
+                "throughDest": {
+                    "en": "Hachioji",
+                    "ja": "八王子"
+                },
                 "type": "Local"
             },
             {
@@ -452,8 +491,10 @@
                 "startsHere": true,
                 "stops": [488, 491, 498, 502, 508, 515],
                 "terminates": false,
-                "throughDestEn": "Hachioji",
-                "throughDestJa": "八王子",
+                "throughDest": {
+                    "en": "Hachioji",
+                    "ja": "八王子"
+                },
                 "type": "Local"
             },
             {
@@ -463,8 +504,10 @@
                 "startsHere": true,
                 "stops": [506, 510, 516, 519, 526, 540],
                 "terminates": false,
-                "throughDestEn": "Hachioji",
-                "throughDestJa": "八王子",
+                "throughDest": {
+                    "en": "Hachioji",
+                    "ja": "八王子"
+                },
                 "type": "Local"
             },
             {
@@ -474,8 +517,10 @@
                 "startsHere": true,
                 "stops": [526, 530, 537, 540, 547, 563],
                 "terminates": false,
-                "throughDestEn": "Hachioji",
-                "throughDestJa": "八王子",
+                "throughDest": {
+                    "en": "Hachioji",
+                    "ja": "八王子"
+                },
                 "type": "Local"
             },
             {
@@ -494,8 +539,10 @@
                 "startsHere": true,
                 "stops": [582, 585, 591, 594, 598, 604],
                 "terminates": false,
-                "throughDestEn": "Hachioji",
-                "throughDestJa": "八王子",
+                "throughDest": {
+                    "en": "Hachioji",
+                    "ja": "八王子"
+                },
                 "type": "Local"
             },
             {
@@ -505,8 +552,10 @@
                 "startsHere": true,
                 "stops": [607, 610, 617, 620, 624, 632],
                 "terminates": false,
-                "throughDestEn": "Hachioji",
-                "throughDestJa": "八王子",
+                "throughDest": {
+                    "en": "Hachioji",
+                    "ja": "八王子"
+                },
                 "type": "Local"
             },
             {
@@ -516,8 +565,10 @@
                 "startsHere": true,
                 "stops": [637, 640, 647, 650, 654, 660],
                 "terminates": false,
-                "throughDestEn": "Hachioji",
-                "throughDestJa": "八王子",
+                "throughDest": {
+                    "en": "Hachioji",
+                    "ja": "八王子"
+                },
                 "type": "Local"
             },
             {
@@ -536,8 +587,10 @@
                 "startsHere": true,
                 "stops": [697, 700, 707, 710, 714, 720],
                 "terminates": false,
-                "throughDestEn": "Hachioji",
-                "throughDestJa": "八王子",
+                "throughDest": {
+                    "en": "Hachioji",
+                    "ja": "八王子"
+                },
                 "type": "Local"
             },
             {
@@ -547,8 +600,10 @@
                 "startsHere": true,
                 "stops": [727, 730, 737, 740, 744, 750],
                 "terminates": false,
-                "throughDestEn": "Hachioji",
-                "throughDestJa": "八王子",
+                "throughDest": {
+                    "en": "Hachioji",
+                    "ja": "八王子"
+                },
                 "type": "Local"
             },
             {
@@ -558,8 +613,10 @@
                 "startsHere": true,
                 "stops": [757, 760, 767, 770, 774, 780],
                 "terminates": false,
-                "throughDestEn": "Hachioji",
-                "throughDestJa": "八王子",
+                "throughDest": {
+                    "en": "Hachioji",
+                    "ja": "八王子"
+                },
                 "type": "Local"
             },
             {
@@ -569,8 +626,10 @@
                 "startsHere": true,
                 "stops": [787, 790, 797, 800, 804, 810],
                 "terminates": false,
-                "throughDestEn": "Hachioji",
-                "throughDestJa": "八王子",
+                "throughDest": {
+                    "en": "Hachioji",
+                    "ja": "八王子"
+                },
                 "type": "Local"
             },
             {
@@ -580,8 +639,10 @@
                 "startsHere": true,
                 "stops": [817, 820, 827, 830, 834, 840],
                 "terminates": false,
-                "throughDestEn": "Hachioji",
-                "throughDestJa": "八王子",
+                "throughDest": {
+                    "en": "Hachioji",
+                    "ja": "八王子"
+                },
                 "type": "Local"
             },
             {
@@ -591,8 +652,10 @@
                 "startsHere": true,
                 "stops": [847, 850, 857, 860, 864, 870],
                 "terminates": false,
-                "throughDestEn": "Hachioji",
-                "throughDestJa": "八王子",
+                "throughDest": {
+                    "en": "Hachioji",
+                    "ja": "八王子"
+                },
                 "type": "Local"
             },
             {
@@ -602,8 +665,10 @@
                 "startsHere": true,
                 "stops": [877, 880, 887, 890, 894, 900],
                 "terminates": false,
-                "throughDestEn": "Hachioji",
-                "throughDestJa": "八王子",
+                "throughDest": {
+                    "en": "Hachioji",
+                    "ja": "八王子"
+                },
                 "type": "Local"
             },
             {
@@ -613,8 +678,10 @@
                 "startsHere": true,
                 "stops": [907, 910, 917, 920, 924, 930],
                 "terminates": false,
-                "throughDestEn": "Hachioji",
-                "throughDestJa": "八王子",
+                "throughDest": {
+                    "en": "Hachioji",
+                    "ja": "八王子"
+                },
                 "type": "Local"
             },
             {
@@ -624,8 +691,10 @@
                 "startsHere": true,
                 "stops": [937, 940, 947, 950, 954, 960],
                 "terminates": false,
-                "throughDestEn": "Hachioji",
-                "throughDestJa": "八王子",
+                "throughDest": {
+                    "en": "Hachioji",
+                    "ja": "八王子"
+                },
                 "type": "Local"
             },
             {
@@ -635,8 +704,10 @@
                 "startsHere": true,
                 "stops": [967, 970, 977, 980, 984, 990],
                 "terminates": false,
-                "throughDestEn": "Hachioji",
-                "throughDestJa": "八王子",
+                "throughDest": {
+                    "en": "Hachioji",
+                    "ja": "八王子"
+                },
                 "type": "Local"
             },
             {
@@ -646,8 +717,10 @@
                 "startsHere": true,
                 "stops": [997, 1000, 1007, 1010, 1014, 1020],
                 "terminates": false,
-                "throughDestEn": "Hachioji",
-                "throughDestJa": "八王子",
+                "throughDest": {
+                    "en": "Hachioji",
+                    "ja": "八王子"
+                },
                 "type": "Local"
             },
             {
@@ -666,8 +739,10 @@
                 "startsHere": true,
                 "stops": [1028, 1031, 1038, 1042, 1046, 1052],
                 "terminates": false,
-                "throughDestEn": "Hachioji",
-                "throughDestJa": "八王子",
+                "throughDest": {
+                    "en": "Hachioji",
+                    "ja": "八王子"
+                },
                 "type": "Local"
             },
             {
@@ -677,8 +752,10 @@
                 "startsHere": true,
                 "stops": [1051, 1054, 1057, 1061, 1067, 1080],
                 "terminates": false,
-                "throughDestEn": "Hachioji",
-                "throughDestJa": "八王子",
+                "throughDest": {
+                    "en": "Hachioji",
+                    "ja": "八王子"
+                },
                 "type": "Local"
             },
             {
@@ -688,8 +765,10 @@
                 "startsHere": true,
                 "stops": [1071, 1075, 1078, 1081, 1088, 1102],
                 "terminates": false,
-                "throughDestEn": "Hachioji",
-                "throughDestJa": "八王子",
+                "throughDest": {
+                    "en": "Hachioji",
+                    "ja": "八王子"
+                },
                 "type": "Local"
             },
             {
@@ -699,8 +778,10 @@
                 "startsHere": true,
                 "stops": [1092, 1096, 1102, 1105, 1116, 1123],
                 "terminates": false,
-                "throughDestEn": "Hachioji",
-                "throughDestJa": "八王子",
+                "throughDest": {
+                    "en": "Hachioji",
+                    "ja": "八王子"
+                },
                 "type": "Local"
             },
             {
@@ -710,8 +791,10 @@
                 "startsHere": true,
                 "stops": [1117, 1120, 1124, 1127, 1131, 1141],
                 "terminates": false,
-                "throughDestEn": "Hachioji",
-                "throughDestJa": "八王子",
+                "throughDest": {
+                    "en": "Hachioji",
+                    "ja": "八王子"
+                },
                 "type": "Local"
             },
             {
@@ -730,8 +813,10 @@
                 "startsHere": true,
                 "stops": [1159, 1162, 1165, 1169, 1173, 1190],
                 "terminates": false,
-                "throughDestEn": "Hachioji",
-                "throughDestJa": "八王子",
+                "throughDest": {
+                    "en": "Hachioji",
+                    "ja": "八王子"
+                },
                 "type": "Local"
             },
             {
@@ -750,8 +835,10 @@
                 "startsHere": true,
                 "stops": [1200, 1204, 1207, 1210, 1214, 1222],
                 "terminates": false,
-                "throughDestEn": "Hachioji",
-                "throughDestJa": "八王子",
+                "throughDest": {
+                    "en": "Hachioji",
+                    "ja": "八王子"
+                },
                 "type": "Local"
             },
             {
@@ -761,8 +848,10 @@
                 "startsHere": true,
                 "stops": [1221, 1225, 1228, 1231, 1235, 1242],
                 "terminates": false,
-                "throughDestEn": "Hachioji",
-                "throughDestJa": "八王子",
+                "throughDest": {
+                    "en": "Hachioji",
+                    "ja": "八王子"
+                },
                 "type": "Local"
             },
             {
@@ -772,8 +861,10 @@
                 "startsHere": true,
                 "stops": [1242, 1246, 1249, 1252, 1256, 1263],
                 "terminates": false,
-                "throughDestEn": "Hachioji",
-                "throughDestJa": "八王子",
+                "throughDest": {
+                    "en": "Hachioji",
+                    "ja": "八王子"
+                },
                 "type": "Local"
             },
             {
@@ -783,8 +874,10 @@
                 "startsHere": true,
                 "stops": [1263, 1267, 1270, 1273, 1277, 1283],
                 "terminates": false,
-                "throughDestEn": "Hachioji",
-                "throughDestJa": "八王子",
+                "throughDest": {
+                    "en": "Hachioji",
+                    "ja": "八王子"
+                },
                 "type": "Local"
             },
             {
@@ -803,8 +896,10 @@
                 "startsHere": true,
                 "stops": [1305, 1308, 1311, 1315, 1319, 1341],
                 "terminates": false,
-                "throughDestEn": "Hachioji",
-                "throughDestJa": "八王子",
+                "throughDest": {
+                    "en": "Hachioji",
+                    "ja": "八王子"
+                },
                 "type": "Local"
             },
             {
@@ -814,8 +909,10 @@
                 "startsHere": true,
                 "stops": [1340, 1344, 1353, 1357, 1361, 1366],
                 "terminates": false,
-                "throughDestEn": "Hachioji",
-                "throughDestJa": "八王子",
+                "throughDest": {
+                    "en": "Hachioji",
+                    "ja": "八王子"
+                },
                 "type": "Local"
             },
             {
@@ -825,8 +922,10 @@
                 "startsHere": true,
                 "stops": [1366, 1370, 1373, 1376, 1380, 1386],
                 "terminates": false,
-                "throughDestEn": "Haijima",
-                "throughDestJa": "拝島",
+                "throughDest": {
+                    "en": "Haijima",
+                    "ja": "拝島"
+                },
                 "type": "Local"
             },
             {
@@ -1268,8 +1367,10 @@
                 "startsHere": false,
                 "stops": [316, 319, 322, 326, 332, 343],
                 "terminates": false,
-                "throughDestEn": "Hachioji",
-                "throughDestJa": "八王子",
+                "throughDest": {
+                    "en": "Hachioji",
+                    "ja": "八王子"
+                },
                 "type": "Local"
             },
             {
@@ -1279,8 +1380,10 @@
                 "startsHere": false,
                 "stops": [347, 350, 353, 357, 364, 375],
                 "terminates": false,
-                "throughDestEn": "Haijima",
-                "throughDestJa": "拝島",
+                "throughDest": {
+                    "en": "Haijima",
+                    "ja": "拝島"
+                },
                 "type": "Local"
             },
             {
@@ -1290,8 +1393,10 @@
                 "startsHere": true,
                 "stops": [361, 365, 371, 374, 383, 391],
                 "terminates": false,
-                "throughDestEn": "Hachioji",
-                "throughDestJa": "八王子",
+                "throughDest": {
+                    "en": "Hachioji",
+                    "ja": "八王子"
+                },
                 "type": "Local"
             },
             {
@@ -1301,8 +1406,10 @@
                 "startsHere": true,
                 "stops": [386, 389, 392, 396, 400, 405],
                 "terminates": false,
-                "throughDestEn": "Hachioji",
-                "throughDestJa": "八王子",
+                "throughDest": {
+                    "en": "Hachioji",
+                    "ja": "八王子"
+                },
                 "type": "Local"
             },
             {
@@ -1312,8 +1419,10 @@
                 "startsHere": true,
                 "stops": [407, 410, 414, 417, 424, 435],
                 "terminates": false,
-                "throughDestEn": "Hachioji",
-                "throughDestJa": "八王子",
+                "throughDest": {
+                    "en": "Hachioji",
+                    "ja": "八王子"
+                },
                 "type": "Local"
             },
             {
@@ -1323,8 +1432,10 @@
                 "startsHere": false,
                 "stops": [422, 425, 431, 435, 441, 453],
                 "terminates": false,
-                "throughDestEn": "Hachioji",
-                "throughDestJa": "八王子",
+                "throughDest": {
+                    "en": "Hachioji",
+                    "ja": "八王子"
+                },
                 "type": "Local"
             },
             {
@@ -1334,8 +1445,10 @@
                 "startsHere": true,
                 "stops": [439, 442, 449, 452, 461, 471],
                 "terminates": false,
-                "throughDestEn": "Hachioji",
-                "throughDestJa": "八王子",
+                "throughDest": {
+                    "en": "Hachioji",
+                    "ja": "八王子"
+                },
                 "type": "Local"
             },
             {
@@ -1345,8 +1458,10 @@
                 "startsHere": true,
                 "stops": [456, 460, 466, 469, 477, 488],
                 "terminates": false,
-                "throughDestEn": "Hachioji",
-                "throughDestJa": "八王子",
+                "throughDest": {
+                    "en": "Hachioji",
+                    "ja": "八王子"
+                },
                 "type": "Local"
             },
             {
@@ -1365,8 +1480,10 @@
                 "startsHere": true,
                 "stops": [499, 502, 511, 515, 519, 524],
                 "terminates": false,
-                "throughDestEn": "Hachioji",
-                "throughDestJa": "八王子",
+                "throughDest": {
+                    "en": "Hachioji",
+                    "ja": "八王子"
+                },
                 "type": "Local"
             },
             {
@@ -1376,8 +1493,10 @@
                 "startsHere": true,
                 "stops": [517, 520, 527, 530, 534, 543],
                 "terminates": false,
-                "throughDestEn": "Hachioji",
-                "throughDestJa": "八王子",
+                "throughDest": {
+                    "en": "Hachioji",
+                    "ja": "八王子"
+                },
                 "type": "Local"
             },
             {
@@ -1387,8 +1506,10 @@
                 "startsHere": true,
                 "stops": [534, 538, 544, 548, 552, 565],
                 "terminates": false,
-                "throughDestEn": "Hachioji",
-                "throughDestJa": "八王子",
+                "throughDest": {
+                    "en": "Hachioji",
+                    "ja": "八王子"
+                },
                 "type": "Local"
             },
             {
@@ -1398,8 +1519,10 @@
                 "startsHere": true,
                 "stops": [557, 560, 563, 567, 573, 583],
                 "terminates": false,
-                "throughDestEn": "Hachioji",
-                "throughDestJa": "八王子",
+                "throughDest": {
+                    "en": "Hachioji",
+                    "ja": "八王子"
+                },
                 "type": "Local"
             },
             {
@@ -1409,8 +1532,10 @@
                 "startsHere": true,
                 "stops": [586, 590, 596, 599, 603, 608],
                 "terminates": false,
-                "throughDestEn": "Hachioji",
-                "throughDestJa": "八王子",
+                "throughDest": {
+                    "en": "Hachioji",
+                    "ja": "八王子"
+                },
                 "type": "Local"
             },
             {
@@ -1420,8 +1545,10 @@
                 "startsHere": true,
                 "stops": [611, 614, 621, 624, 628, 634],
                 "terminates": false,
-                "throughDestEn": "Hachioji",
-                "throughDestJa": "八王子",
+                "throughDest": {
+                    "en": "Hachioji",
+                    "ja": "八王子"
+                },
                 "type": "Local"
             },
             {
@@ -1431,8 +1558,10 @@
                 "startsHere": true,
                 "stops": [639, 642, 648, 651, 655, 661],
                 "terminates": false,
-                "throughDestEn": "Hachioji",
-                "throughDestJa": "八王子",
+                "throughDest": {
+                    "en": "Hachioji",
+                    "ja": "八王子"
+                },
                 "type": "Local"
             },
             {
@@ -1442,8 +1571,10 @@
                 "startsHere": true,
                 "stops": [667, 670, 676, 680, 684, 690],
                 "terminates": false,
-                "throughDestEn": "Hachioji",
-                "throughDestJa": "八王子",
+                "throughDest": {
+                    "en": "Hachioji",
+                    "ja": "八王子"
+                },
                 "type": "Local"
             },
             {
@@ -1453,8 +1584,10 @@
                 "startsHere": true,
                 "stops": [697, 700, 706, 710, 714, 720],
                 "terminates": false,
-                "throughDestEn": "Hachioji",
-                "throughDestJa": "八王子",
+                "throughDest": {
+                    "en": "Hachioji",
+                    "ja": "八王子"
+                },
                 "type": "Local"
             },
             {
@@ -1464,8 +1597,10 @@
                 "startsHere": true,
                 "stops": [727, 730, 736, 740, 744, 750],
                 "terminates": false,
-                "throughDestEn": "Hachioji",
-                "throughDestJa": "八王子",
+                "throughDest": {
+                    "en": "Hachioji",
+                    "ja": "八王子"
+                },
                 "type": "Local"
             },
             {
@@ -1475,8 +1610,10 @@
                 "startsHere": true,
                 "stops": [757, 760, 766, 770, 774, 780],
                 "terminates": false,
-                "throughDestEn": "Hachioji",
-                "throughDestJa": "八王子",
+                "throughDest": {
+                    "en": "Hachioji",
+                    "ja": "八王子"
+                },
                 "type": "Local"
             },
             {
@@ -1486,8 +1623,10 @@
                 "startsHere": true,
                 "stops": [787, 790, 796, 800, 804, 810],
                 "terminates": false,
-                "throughDestEn": "Hachioji",
-                "throughDestJa": "八王子",
+                "throughDest": {
+                    "en": "Hachioji",
+                    "ja": "八王子"
+                },
                 "type": "Local"
             },
             {
@@ -1497,8 +1636,10 @@
                 "startsHere": true,
                 "stops": [817, 820, 826, 830, 834, 840],
                 "terminates": false,
-                "throughDestEn": "Hachioji",
-                "throughDestJa": "八王子",
+                "throughDest": {
+                    "en": "Hachioji",
+                    "ja": "八王子"
+                },
                 "type": "Local"
             },
             {
@@ -1508,8 +1649,10 @@
                 "startsHere": true,
                 "stops": [847, 850, 856, 860, 864, 870],
                 "terminates": false,
-                "throughDestEn": "Hachioji",
-                "throughDestJa": "八王子",
+                "throughDest": {
+                    "en": "Hachioji",
+                    "ja": "八王子"
+                },
                 "type": "Local"
             },
             {
@@ -1519,8 +1662,10 @@
                 "startsHere": true,
                 "stops": [877, 880, 886, 890, 894, 900],
                 "terminates": false,
-                "throughDestEn": "Hachioji",
-                "throughDestJa": "八王子",
+                "throughDest": {
+                    "en": "Hachioji",
+                    "ja": "八王子"
+                },
                 "type": "Local"
             },
             {
@@ -1530,8 +1675,10 @@
                 "startsHere": true,
                 "stops": [907, 910, 917, 920, 924, 930],
                 "terminates": false,
-                "throughDestEn": "Hachioji",
-                "throughDestJa": "八王子",
+                "throughDest": {
+                    "en": "Hachioji",
+                    "ja": "八王子"
+                },
                 "type": "Local"
             },
             {
@@ -1541,8 +1688,10 @@
                 "startsHere": true,
                 "stops": [937, 940, 947, 950, 954, 960],
                 "terminates": false,
-                "throughDestEn": "Hachioji",
-                "throughDestJa": "八王子",
+                "throughDest": {
+                    "en": "Hachioji",
+                    "ja": "八王子"
+                },
                 "type": "Local"
             },
             {
@@ -1552,8 +1701,10 @@
                 "startsHere": true,
                 "stops": [966, 970, 976, 979, 983, 989],
                 "terminates": false,
-                "throughDestEn": "Hachioji",
-                "throughDestJa": "八王子",
+                "throughDest": {
+                    "en": "Hachioji",
+                    "ja": "八王子"
+                },
                 "type": "Local"
             },
             {
@@ -1563,8 +1714,10 @@
                 "startsHere": true,
                 "stops": [990, 994, 1001, 1005, 1009, 1020],
                 "terminates": false,
-                "throughDestEn": "Hachioji",
-                "throughDestJa": "八王子",
+                "throughDest": {
+                    "en": "Hachioji",
+                    "ja": "八王子"
+                },
                 "type": "Local"
             },
             {
@@ -1583,8 +1736,10 @@
                 "startsHere": true,
                 "stops": [1021, 1025, 1031, 1034, 1038, 1044],
                 "terminates": false,
-                "throughDestEn": "Hachioji",
-                "throughDestJa": "八王子",
+                "throughDest": {
+                    "en": "Hachioji",
+                    "ja": "八王子"
+                },
                 "type": "Local"
             },
             {
@@ -1594,8 +1749,10 @@
                 "startsHere": true,
                 "stops": [1047, 1050, 1057, 1060, 1065, 1074],
                 "terminates": false,
-                "throughDestEn": "Hachioji",
-                "throughDestJa": "八王子",
+                "throughDest": {
+                    "en": "Hachioji",
+                    "ja": "八王子"
+                },
                 "type": "Local"
             },
             {
@@ -1614,8 +1771,10 @@
                 "startsHere": true,
                 "stops": [1090, 1094, 1101, 1105, 1109, 1117],
                 "terminates": false,
-                "throughDestEn": "Hachioji",
-                "throughDestJa": "八王子",
+                "throughDest": {
+                    "en": "Hachioji",
+                    "ja": "八王子"
+                },
                 "type": "Local"
             },
             {
@@ -1625,8 +1784,10 @@
                 "startsHere": true,
                 "stops": [1115, 1118, 1121, 1125, 1129, 1134],
                 "terminates": false,
-                "throughDestEn": "Hachioji",
-                "throughDestJa": "八王子",
+                "throughDest": {
+                    "en": "Hachioji",
+                    "ja": "八王子"
+                },
                 "type": "Local"
             },
             {
@@ -1636,8 +1797,10 @@
                 "startsHere": true,
                 "stops": [1135, 1139, 1142, 1145, 1152, 1157],
                 "terminates": false,
-                "throughDestEn": "Hachioji",
-                "throughDestJa": "八王子",
+                "throughDest": {
+                    "en": "Hachioji",
+                    "ja": "八王子"
+                },
                 "type": "Local"
             },
             {
@@ -1647,8 +1810,10 @@
                 "startsHere": true,
                 "stops": [1156, 1160, 1163, 1166, 1176, 1184],
                 "terminates": false,
-                "throughDestEn": "Hachioji",
-                "throughDestJa": "八王子",
+                "throughDest": {
+                    "en": "Hachioji",
+                    "ja": "八王子"
+                },
                 "type": "Local"
             },
             {
@@ -1658,8 +1823,10 @@
                 "startsHere": true,
                 "stops": [1178, 1182, 1185, 1188, 1196, 1210],
                 "terminates": false,
-                "throughDestEn": "Hachioji",
-                "throughDestJa": "八王子",
+                "throughDest": {
+                    "en": "Hachioji",
+                    "ja": "八王子"
+                },
                 "type": "Local"
             },
             {
@@ -1669,8 +1836,10 @@
                 "startsHere": true,
                 "stops": [1199, 1203, 1206, 1209, 1219, 1232],
                 "terminates": false,
-                "throughDestEn": "Hachioji",
-                "throughDestJa": "八王子",
+                "throughDest": {
+                    "en": "Hachioji",
+                    "ja": "八王子"
+                },
                 "type": "Local"
             },
             {
@@ -1689,8 +1858,10 @@
                 "startsHere": true,
                 "stops": [1241, 1244, 1248, 1251, 1258, 1265],
                 "terminates": false,
-                "throughDestEn": "Hachioji",
-                "throughDestJa": "八王子",
+                "throughDest": {
+                    "en": "Hachioji",
+                    "ja": "八王子"
+                },
                 "type": "Local"
             },
             {
@@ -1700,8 +1871,10 @@
                 "startsHere": true,
                 "stops": [1262, 1265, 1268, 1272, 1278, 1288],
                 "terminates": false,
-                "throughDestEn": "Hachioji",
-                "throughDestJa": "八王子",
+                "throughDest": {
+                    "en": "Hachioji",
+                    "ja": "八王子"
+                },
                 "type": "Local"
             },
             {
@@ -1711,8 +1884,10 @@
                 "startsHere": true,
                 "stops": [1283, 1286, 1294, 1297, 1306, 1313],
                 "terminates": false,
-                "throughDestEn": "Hachioji",
-                "throughDestJa": "八王子",
+                "throughDest": {
+                    "en": "Hachioji",
+                    "ja": "八王子"
+                },
                 "type": "Local"
             },
             {
@@ -1722,8 +1897,10 @@
                 "startsHere": true,
                 "stops": [1306, 1309, 1314, 1317, 1321, 1340],
                 "terminates": false,
-                "throughDestEn": "Hachioji",
-                "throughDestJa": "八王子",
+                "throughDest": {
+                    "en": "Hachioji",
+                    "ja": "八王子"
+                },
                 "type": "Local"
             },
             {
@@ -1733,8 +1910,10 @@
                 "startsHere": true,
                 "stops": [1344, 1347, 1353, 1356, 1360, 1366],
                 "terminates": false,
-                "throughDestEn": "Hachioji",
-                "throughDestJa": "八王子",
+                "throughDest": {
+                    "en": "Hachioji",
+                    "ja": "八王子"
+                },
                 "type": "Local"
             },
             {
@@ -1744,8 +1923,10 @@
                 "startsHere": true,
                 "stops": [1366, 1370, 1373, 1376, 1380, 1386],
                 "terminates": false,
-                "throughDestEn": "Haijima",
-                "throughDestJa": "拝島",
+                "throughDest": {
+                    "en": "Haijima",
+                    "ja": "拝島"
+                },
                 "type": "Local"
             },
             {
@@ -2181,6 +2362,6 @@
                 "type": "Local"
             }
         ],
-        "upHopTimesMinutes": [4.0, 3.0, 3.0, 4.0, 5.0]
+        "upHopTimesMinutes": [4, 3, 3, 4, 5]
     }
 ]

@@ -2,10 +2,14 @@
     {
         "colorHex": "#3577BC",
         "delayInfo": {
-            "checkMethodEn": "Check the Yokohama City Transportation Bureau website for service information. Delays and suspensions are posted as they occur.",
-            "checkMethodJa": "横浜市交通局の公式サイトで運行情報を確認できます。遅延・運転見合わせが発生した場合に掲載されます。",
-            "statusPageURL": "https://status.hamabus.city.yokohama.lg.jp/operation/list",
-            "statusPageURLEn": "https://status.hamabus.city.yokohama.lg.jp/operation/list",
+            "checkMethod": {
+                "en": "Check the Yokohama City Transportation Bureau website for service information. Delays and suspensions are posted as they occur.",
+                "ja": "横浜市交通局の公式サイトで運行情報を確認できます。遅延・運転見合わせが発生した場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://status.hamabus.city.yokohama.lg.jp/operation/list",
+                "ja": "https://status.hamabus.city.yokohama.lg.jp/operation/list"
+            },
             "xAccount": "@yokohama_koutuu"
         },
         "directions": [
@@ -41,8 +45,10 @@
                     }
                 ],
                 "isAscending": true,
-                "nameEn": "For Azamino",
-                "nameJa": "あざみ野方面",
+                "name": {
+                    "en": "For Azamino",
+                    "ja": "あざみ野方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -156,8 +162,10 @@
                     }
                 ],
                 "isAscending": false,
-                "nameEn": "For Shonandai",
-                "nameJa": "湘南台方面",
+                "name": {
+                    "en": "For Shonandai",
+                    "ja": "湘南台方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -265,360 +273,429 @@
         "hopTimesMinutes": [3, 2, 1, 1, 2, 2, 1, 2, 2, 2, 2, 2, 1, 1, 1, 2, 1, 2, 1, 2, 1, 2, 2, 2, 2, 2, 3, 3, 1, 2, 2],
         "id": "Railway:YokohamaMunicipal.Blue",
         "isLoop": false,
-        "nameEn": "Yokohama Municipal Subway Blue Line",
-        "nameJa": "横浜市営地下鉄ブルーライン",
+        "name": {
+            "en": "Yokohama Municipal Subway Blue Line",
+            "ja": "横浜市営地下鉄ブルーライン",
+            "ko": "요코하마 시 교통국 지하철 블루 라인",
+            "zh-Hans": "横滨市营地铁蓝线",
+            "zh-Hant": "橫濱市營地下鐵藍線"
+        },
         "operatorId": "Operator:YokohamaMunicipal",
         "stations": [
             {
                 "id": "Station:YokohamaMunicipal.Blue.Shonandai",
                 "latitude": 35.396565,
                 "longitude": 139.466502,
-                "name": "湘南台",
-                "nameEn": "Shonandai",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shonandai",
+                    "ja": "湘南台",
+                    "ko": "쇼난다이",
+                    "zh-Hans": "湘南台",
+                    "zh-Hant": "湘南台"
+                },
                 "stationCode": "B01"
             },
             {
                 "id": "Station:YokohamaMunicipal.Blue.Shimoiida",
                 "latitude": 35.403362,
                 "longitude": 139.482969,
-                "name": "下飯田",
-                "nameEn": "Shimoiida",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shimoiida",
+                    "ja": "下飯田",
+                    "ko": "시모이다",
+                    "zh-Hans": "下饭田",
+                    "zh-Hant": "下飯田"
+                },
                 "stationCode": "B02"
             },
             {
                 "id": "Station:YokohamaMunicipal.Blue.Tateba",
                 "latitude": 35.41423,
                 "longitude": 139.50028,
-                "name": "立場",
-                "nameEn": "Tateba",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tateba",
+                    "ja": "立場",
+                    "ko": "다테바",
+                    "zh-Hans": "立场",
+                    "zh-Hant": "立場"
+                },
                 "stationCode": "B03"
             },
             {
                 "id": "Station:YokohamaMunicipal.Blue.Nakada",
                 "latitude": 35.411199,
                 "longitude": 139.511324,
-                "name": "中田",
-                "nameEn": "Nakada",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nakada",
+                    "ja": "中田",
+                    "ko": "나카다",
+                    "zh-Hans": "中田",
+                    "zh-Hant": "中田"
+                },
                 "stationCode": "B04"
             },
             {
                 "id": "Station:YokohamaMunicipal.Blue.Odoriba",
                 "latitude": 35.405704,
                 "longitude": 139.518501,
-                "name": "踊場",
-                "nameEn": "Odoriba",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Odoriba",
+                    "ja": "踊場",
+                    "ko": "오도리바",
+                    "zh-Hans": "踃场",
+                    "zh-Hant": "踊場"
+                },
                 "stationCode": "B05"
             },
             {
                 "id": "Station:YokohamaMunicipal.Blue.Totsuka",
                 "latitude": 35.401142,
                 "longitude": 139.535125,
-                "name": "戸塚",
-                "nameEn": "Totsuka",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Totsuka",
+                    "ja": "戸塚",
+                    "ko": "도쓰카",
+                    "zh-Hans": "户冢",
+                    "zh-Hant": "戶塚"
+                },
                 "stationCode": "B06"
             },
             {
                 "id": "Station:YokohamaMunicipal.Blue.Maioka",
                 "latitude": 35.402538,
                 "longitude": 139.551498,
-                "name": "舞岡",
-                "nameEn": "Maioka",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Maioka",
+                    "ja": "舞岡",
+                    "ko": "마이오카",
+                    "zh-Hans": "舞冈",
+                    "zh-Hant": "舞岡"
+                },
                 "stationCode": "B07"
             },
             {
                 "id": "Station:YokohamaMunicipal.Blue.Shimonagaya",
                 "latitude": 35.402844,
                 "longitude": 139.559275,
-                "name": "下永谷",
-                "nameEn": "Shimonagaya",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shimonagaya",
+                    "ja": "下永谷",
+                    "ko": "시모나가야",
+                    "zh-Hans": "下永谷",
+                    "zh-Hant": "下永谷"
+                },
                 "stationCode": "B08"
             },
             {
                 "id": "Station:YokohamaMunicipal.Blue.Kaminagaya",
                 "latitude": 35.401456,
                 "longitude": 139.573079,
-                "name": "上永谷",
-                "nameEn": "Kaminagaya",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kaminagaya",
+                    "ja": "上永谷",
+                    "ko": "가미나가야",
+                    "zh-Hans": "上永谷",
+                    "zh-Hant": "上永谷"
+                },
                 "stationCode": "B09"
             },
             {
                 "id": "Station:YokohamaMunicipal.Blue.KonanChuo",
                 "latitude": 35.401317,
                 "longitude": 139.591578,
-                "name": "港南中央",
-                "nameEn": "Konan-chuo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Konan-chuo",
+                    "ja": "港南中央",
+                    "ko": "고난추오",
+                    "zh-Hans": "港南中央",
+                    "zh-Hant": "港南中央"
+                },
                 "stationCode": "B10"
             },
             {
                 "id": "Station:YokohamaMunicipal.Blue.Kamiooka",
                 "latitude": 35.408451,
                 "longitude": 139.595875,
-                "name": "上大岡",
-                "nameEn": "Kamiooka",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kamiooka",
+                    "ja": "上大岡",
+                    "ko": "가미오오카",
+                    "zh-Hans": "上大岡",
+                    "zh-Hant": "上大岡"
+                },
                 "stationCode": "B11"
             },
             {
                 "id": "Station:YokohamaMunicipal.Blue.Gumyoji",
                 "latitude": 35.423152,
                 "longitude": 139.602039,
-                "name": "弘明寺",
-                "nameEn": "Gumyoji",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Gumyoji",
+                    "ja": "弘明寺",
+                    "ko": "구묘지",
+                    "zh-Hans": "弘明寺",
+                    "zh-Hant": "弘明寺"
+                },
                 "stationCode": "B12"
             },
             {
                 "id": "Station:YokohamaMunicipal.Blue.Maita",
                 "latitude": 35.430203,
                 "longitude": 139.610464,
-                "name": "蒔田",
-                "nameEn": "Maita",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Maita",
+                    "ja": "蒔田",
+                    "ko": "마이타",
+                    "zh-Hans": "蒔田",
+                    "zh-Hant": "蒔田"
+                },
                 "stationCode": "B13"
             },
             {
                 "id": "Station:YokohamaMunicipal.Blue.Yoshinocho",
                 "latitude": 35.435424,
                 "longitude": 139.61888,
-                "name": "吉野町",
-                "nameEn": "Yoshinocho",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Yoshinocho",
+                    "ja": "吉野町",
+                    "ko": "요시노초",
+                    "zh-Hans": "吉野町",
+                    "zh-Hant": "吉野町"
+                },
                 "stationCode": "B14"
             },
             {
                 "id": "Station:YokohamaMunicipal.Blue.Bandobashi",
                 "latitude": 35.437646,
                 "longitude": 139.625296,
-                "name": "阪東橋",
-                "nameEn": "Bandobashi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Bandobashi",
+                    "ja": "阪東橋",
+                    "ko": "반도바시",
+                    "zh-Hans": "阪东桥",
+                    "zh-Hant": "阪東橋"
+                },
                 "stationCode": "B15"
             },
             {
                 "id": "Station:YokohamaMunicipal.Blue.IsezakiChojamachi",
                 "latitude": 35.441008,
                 "longitude": 139.632601,
-                "name": "伊勢佐木長者町",
-                "nameEn": "Isezaki-chojamachi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Isezaki-chojamachi",
+                    "ja": "伊勢佐木長者町",
+                    "ko": "이세자키초자마치",
+                    "zh-Hans": "伊势佐木长者町",
+                    "zh-Hant": "伊勢佐木長者町"
+                },
                 "stationCode": "B16"
             },
             {
                 "id": "Station:YokohamaMunicipal.Blue.Kannai",
                 "latitude": 35.445714,
                 "longitude": 139.635978,
-                "name": "関内",
-                "nameEn": "Kannai",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kannai",
+                    "ja": "関内",
+                    "ko": "간나이",
+                    "zh-Hans": "关内",
+                    "zh-Hant": "關內"
+                },
                 "stationCode": "B17"
             },
             {
                 "id": "Station:YokohamaMunicipal.Blue.Sakuragicho",
                 "latitude": 35.449761,
                 "longitude": 139.630626,
-                "name": "桜木町",
-                "nameEn": "Sakuragicho",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Sakuragicho",
+                    "ja": "桜木町",
+                    "ko": "사쿠라기초",
+                    "zh-Hans": "樱木町",
+                    "zh-Hant": "櫻木町"
+                },
                 "stationCode": "B18"
             },
             {
                 "id": "Station:YokohamaMunicipal.Blue.Takashimacho",
                 "latitude": 35.458945,
                 "longitude": 139.623477,
-                "name": "高島町",
-                "nameEn": "Takashimacho",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Takashimacho",
+                    "ja": "高島町",
+                    "ko": "다카시마초",
+                    "zh-Hans": "高岛町",
+                    "zh-Hant": "高島町"
+                },
                 "stationCode": "B19"
             },
             {
                 "id": "Station:YokohamaMunicipal.Blue.Yokohama",
                 "latitude": 35.465624,
                 "longitude": 139.619948,
-                "name": "横浜",
-                "nameEn": "Yokohama",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Yokohama",
+                    "ja": "横浜",
+                    "ko": "요코하마",
+                    "zh-Hans": "横滨",
+                    "zh-Hant": "橫濱"
+                },
                 "stationCode": "B20"
             },
             {
                 "id": "Station:YokohamaMunicipal.Blue.MitsuzawaShimocho",
                 "latitude": 35.476517,
                 "longitude": 139.615042,
-                "name": "三ツ沢下町",
-                "nameEn": "Mitsuzawa-shimocho",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Mitsuzawa-shimocho",
+                    "ja": "三ツ沢下町",
+                    "ko": "미쓰자와시모초",
+                    "zh-Hans": "三泽下町",
+                    "zh-Hant": "三澤下町"
+                },
                 "stationCode": "B21"
             },
             {
                 "id": "Station:YokohamaMunicipal.Blue.MitsuzawaKamicho",
                 "latitude": 35.47642,
                 "longitude": 139.605408,
-                "name": "三ツ沢上町",
-                "nameEn": "Mitsuzawa-kamicho",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Mitsuzawa-kamicho",
+                    "ja": "三ツ沢上町",
+                    "ko": "미쓰자와카미초",
+                    "zh-Hans": "三泽上町",
+                    "zh-Hant": "三澤上町"
+                },
                 "stationCode": "B22"
             },
             {
                 "id": "Station:YokohamaMunicipal.Blue.Katakuracho",
                 "latitude": 35.489974,
                 "longitude": 139.606518,
-                "name": "片倉町",
-                "nameEn": "Katakuracho",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Katakuracho",
+                    "ja": "片倉町",
+                    "ko": "가타쿠라초",
+                    "zh-Hans": "片仓町",
+                    "zh-Hant": "片倉町"
+                },
                 "stationCode": "B23"
             },
             {
                 "id": "Station:YokohamaMunicipal.Blue.KishineKoen",
                 "latitude": 35.495556,
                 "longitude": 139.616656,
-                "name": "岸根公園",
-                "nameEn": "Kishine-koen",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kishine-koen",
+                    "ja": "岸根公園",
+                    "ko": "기시네코엔",
+                    "zh-Hans": "岸根公园",
+                    "zh-Hant": "岸根公園"
+                },
                 "stationCode": "B24"
             },
             {
                 "id": "Station:YokohamaMunicipal.Blue.ShinYokohama",
                 "latitude": 35.508876,
                 "longitude": 139.617318,
-                "name": "新横浜",
-                "nameEn": "Shin-yokohama",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shin-yokohama",
+                    "ja": "新横浜",
+                    "ko": "신요코하마",
+                    "zh-Hans": "新横滨",
+                    "zh-Hant": "新橫濱"
+                },
                 "stationCode": "B25"
             },
             {
                 "id": "Station:YokohamaMunicipal.Blue.KitaShinYokohama",
                 "latitude": 35.519237,
                 "longitude": 139.612816,
-                "name": "北新横浜",
-                "nameEn": "Kita-shin-yokohama",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kita-shin-yokohama",
+                    "ja": "北新横浜",
+                    "ko": "기타신요코하마",
+                    "zh-Hans": "北新横滨",
+                    "zh-Hant": "北新橫濱"
+                },
                 "stationCode": "B26"
             },
             {
                 "id": "Station:YokohamaMunicipal.Blue.Nippa",
                 "latitude": 35.527081,
                 "longitude": 139.612377,
-                "name": "新羽",
-                "nameEn": "Nippa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nippa",
+                    "ja": "新羽",
+                    "ko": "닛파",
+                    "zh-Hans": "新羽",
+                    "zh-Hant": "新羽"
+                },
                 "stationCode": "B27"
             },
             {
                 "id": "Station:YokohamaMunicipal.Blue.Nakamachidai",
                 "latitude": 35.53523,
                 "longitude": 139.589828,
-                "name": "仲町台",
-                "nameEn": "Nakamachidai",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nakamachidai",
+                    "ja": "仲町台",
+                    "ko": "나카마치다이",
+                    "zh-Hans": "仲町台",
+                    "zh-Hant": "仲町台"
+                },
                 "stationCode": "B28"
             },
             {
                 "id": "Station:YokohamaMunicipal.Blue.CenterMinami",
                 "latitude": 35.545633,
                 "longitude": 139.574713,
-                "name": "センター南",
-                "nameEn": "Center-minami",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Center-minami",
+                    "ja": "センター南",
+                    "ko": "센터 미나미",
+                    "zh-Hans": "中心南",
+                    "zh-Hant": "中心南"
+                },
                 "stationCode": "B29"
             },
             {
                 "id": "Station:YokohamaMunicipal.Blue.CenterKita",
                 "latitude": 35.553383,
                 "longitude": 139.579045,
-                "name": "センター北",
-                "nameEn": "Center-kita",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Center-kita",
+                    "ja": "センター北",
+                    "ko": "센터 기타",
+                    "zh-Hans": "中心北",
+                    "zh-Hant": "中心北"
+                },
                 "stationCode": "B30"
             },
             {
                 "id": "Station:YokohamaMunicipal.Blue.Nakagawa",
                 "latitude": 35.562659,
                 "longitude": 139.570296,
-                "name": "中川",
-                "nameEn": "Nakagawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nakagawa",
+                    "ja": "中川",
+                    "ko": "나카가와",
+                    "zh-Hans": "中川",
+                    "zh-Hant": "中川"
+                },
                 "stationCode": "B31"
             },
             {
                 "id": "Station:YokohamaMunicipal.Blue.Azamino",
                 "latitude": 35.568022,
                 "longitude": 139.553876,
-                "name": "あざみ野",
-                "nameEn": "Azamino",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Azamino",
+                    "ja": "あざみ野",
+                    "ko": "아자미노",
+                    "zh-Hans": "蓟野",
+                    "zh-Hant": "薊野"
+                },
                 "stationCode": "B32"
             }
         ],

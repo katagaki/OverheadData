@@ -2,10 +2,14 @@
     {
         "colorHex": "#F15A22",
         "delayInfo": {
-            "checkMethodEn": "Check the JR East Train Operation Information page or the JR East app. In the Tokyo area, delays or suspensions of 15 minutes or more are posted.",
-            "checkMethodJa": "JR東日本「列車運行情報」ページまたはJR東日本アプリで確認できます。首都圏エリアでは15分以上の遅れ・運休が発生または見込まれる場合に掲載されます。",
-            "statusPageURL": "https://traininfo.jreast.co.jp/train_info/line.aspx?gid=1&lineid=itsukaichiline",
-            "statusPageURLEn": "https://traininfo.jreast.co.jp/train_info/e/kanto.aspx",
+            "checkMethod": {
+                "en": "Check the JR East Train Operation Information page or the JR East app. In the Tokyo area, delays or suspensions of 15 minutes or more are posted.",
+                "ja": "JR東日本「列車運行情報」ページまたはJR東日本アプリで確認できます。首都圏エリアでは15分以上の遅れ・運休が発生または見込まれる場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://traininfo.jreast.co.jp/train_info/e/kanto.aspx",
+                "ja": "https://traininfo.jreast.co.jp/train_info/line.aspx?gid=1&lineid=itsukaichiline"
+            },
             "xAccount": "@JRE_F_Chuo"
         },
         "directions": [
@@ -15,8 +19,10 @@
                 "id": "static.RailDirection:JR-East.Itsukaichi.MusashiItsukaichi",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Musashi-Itsukaichi",
-                "nameJa": "武蔵五日市方面",
+                "name": {
+                    "en": "For Musashi-Itsukaichi",
+                    "ja": "武蔵五日市方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -78,8 +84,10 @@
                 "id": "static.RailDirection:JR-East.Itsukaichi.Haijima",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Haijima & Tachikawa",
-                "nameJa": "拝島・立川方面",
+                "name": {
+                    "en": "For Haijima & Tachikawa",
+                    "ja": "拝島・立川方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -139,85 +147,104 @@
         "hopTimesMinutes": [2, 3, 4, 2, 2, 4],
         "id": "Railway:JR-East.Itsukaichi",
         "isLoop": false,
-        "nameEn": "Itsukaichi Line",
-        "nameJa": "五日市線",
+        "name": {
+            "en": "Itsukaichi Line",
+            "ja": "五日市線",
+            "ko": "이쓰카이치선",
+            "zh-Hans": "五日市线",
+            "zh-Hant": "五日市線"
+        },
         "operatorId": "Operator:JR-East",
         "stations": [
             {
                 "id": "Station:JR-East.Itsukaichi.Haijima",
                 "latitude": 35.721133,
                 "longitude": 139.343626,
-                "name": "拝島",
-                "nameEn": "Haijima",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Haijima",
+                    "ja": "拝島",
+                    "ko": "하이지마",
+                    "zh-Hans": "拜岛",
+                    "zh-Hant": "拜島"
+                },
                 "stationCode": "JC55"
             },
             {
                 "id": "Station:JR-East.Itsukaichi.Kumagawa",
                 "latitude": 35.728446,
                 "longitude": 139.335407,
-                "name": "熊川",
-                "nameEn": "Kumagawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kumagawa",
+                    "ja": "熊川",
+                    "ko": "구마가와",
+                    "zh-Hans": "熊川",
+                    "zh-Hant": "熊川"
+                },
                 "stationCode": "JC81"
             },
             {
                 "id": "Station:JR-East.Itsukaichi.HigashiAkiru",
                 "latitude": 35.725938,
                 "longitude": 139.310996,
-                "name": "東秋留",
-                "nameEn": "Higashi-Akiru",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Higashi-Akiru",
+                    "ja": "東秋留",
+                    "ko": "히가시아키루",
+                    "zh-Hans": "东秋留",
+                    "zh-Hant": "東秋留"
+                },
                 "stationCode": "JC82"
             },
             {
                 "id": "Station:JR-East.Itsukaichi.Akigawa",
                 "latitude": 35.728075,
                 "longitude": 139.286676,
-                "name": "秋川",
-                "nameEn": "Akigawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Akigawa",
+                    "ja": "秋川",
+                    "ko": "아키가와",
+                    "zh-Hans": "秋川",
+                    "zh-Hant": "秋川"
+                },
                 "stationCode": "JC83"
             },
             {
                 "id": "Station:JR-East.Itsukaichi.MusashiHikida",
                 "latitude": 35.72975,
                 "longitude": 139.270183,
-                "name": "武蔵引田",
-                "nameEn": "Musashi-Hikida",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Musashi-Hikida",
+                    "ja": "武蔵引田",
+                    "ko": "무사시히키다",
+                    "zh-Hans": "武藏引田",
+                    "zh-Hant": "武藏引田"
+                },
                 "stationCode": "JC84"
             },
             {
                 "id": "Station:JR-East.Itsukaichi.MusashiMasuko",
                 "latitude": 35.731004,
                 "longitude": 139.256252,
-                "name": "武蔵増戸",
-                "nameEn": "Musashi-Masuko",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Musashi-Masuko",
+                    "ja": "武蔵増戸",
+                    "ko": "무사시마스코",
+                    "zh-Hans": "武藏增户",
+                    "zh-Hant": "武藏增戶"
+                },
                 "stationCode": "JC85"
             },
             {
                 "id": "Station:JR-East.Itsukaichi.MusashiItsukaichi",
                 "latitude": 35.73235,
                 "longitude": 139.228161,
-                "name": "武蔵五日市",
-                "nameEn": "Musashi-Itsukaichi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Musashi-Itsukaichi",
+                    "ja": "武蔵五日市",
+                    "ko": "무사시이쓰카이치",
+                    "zh-Hans": "武藏岩井",
+                    "zh-Hant": "武藏巖井"
+                },
                 "stationCode": "JC86"
             }
         ],
@@ -227,10 +254,14 @@
                 "connectingLineId": "Railway:JR-East.Ome",
                 "end": "descending",
                 "junctionStationId": "Station:JR-East.Itsukaichi.Haijima",
-                "lineNameEn": "JR Ome & Chuo Lines",
-                "lineNameJa": "青梅線・中央線",
-                "towardEn": "for Tachikawa",
-                "towardJa": "立川方面"
+                "lineName": {
+                    "en": "JR Ome & Chuo Lines",
+                    "ja": "青梅線・中央線"
+                },
+                "toward": {
+                    "en": "for Tachikawa",
+                    "ja": "立川方面"
+                }
             }
         ],
         "timetableRuns": [

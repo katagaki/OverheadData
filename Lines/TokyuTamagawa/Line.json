@@ -2,10 +2,14 @@
     {
         "colorHex": "#AE0179",
         "delayInfo": {
-            "checkMethodEn": "Check the Tokyu train operation information page, the Tokyu Lines app, or X (@tokyu_official). Delays or suspensions of 15 minutes or more are posted.",
-            "checkMethodJa": "東急電鉄「運行情報」ページ、東急線アプリ、またはX（@tokyu_official）で確認できます。15分以上の遅れ・運転見合わせが発生または見込まれる場合に掲載されます。",
-            "statusPageURL": "https://www.tokyu.co.jp/unten2/unten.html",
-            "statusPageURLEn": "https://www.tokyu.co.jp/unten2/unten.html",
+            "checkMethod": {
+                "en": "Check the Tokyu train operation information page, the Tokyu Lines app, or X (@tokyu_official). Delays or suspensions of 15 minutes or more are posted.",
+                "ja": "東急電鉄「運行情報」ページ、東急線アプリ、またはX（@tokyu_official）で確認できます。15分以上の遅れ・運転見合わせが発生または見込まれる場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://www.tokyu.co.jp/unten2/unten.html",
+                "ja": "https://www.tokyu.co.jp/unten2/unten.html"
+            },
             "xAccount": "@tokyu_official"
         },
         "directions": [
@@ -15,8 +19,10 @@
                 "id": "static.RailDirection:Tokyu.TokyuTamagawa.Kamata",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Kamata",
-                "nameJa": "蒲田方面",
+                "name": {
+                    "en": "For Kamata",
+                    "ja": "蒲田方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -102,8 +108,10 @@
                 "id": "static.RailDirection:Tokyu.TokyuTamagawa.Tamagawa",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Tamagawa",
-                "nameJa": "多摩川方面",
+                "name": {
+                    "en": "For Tamagawa",
+                    "ja": "多摩川方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -187,85 +195,104 @@
         "hopTimesMinutes": [2, 1, 1, 2, 2, 3],
         "id": "Railway:Tokyu.TokyuTamagawa",
         "isLoop": false,
-        "nameEn": "Tokyu Tamagawa Line",
-        "nameJa": "東急多摩川線",
+        "name": {
+            "en": "Tokyu Tamagawa Line",
+            "ja": "東急多摩川線",
+            "ko": "도쿄 급행 전철 도큐 다마가와 선",
+            "zh-Hans": "东急多摩川线",
+            "zh-Hant": "東急多摩川線"
+        },
         "operatorId": "Operator:Tokyu",
         "stations": [
             {
                 "id": "Station:Tokyu.TokyuTamagawa.Tamagawa",
                 "latitude": 35.589691,
                 "longitude": 139.668794,
-                "name": "多摩川",
-                "nameEn": "Tamagawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tamagawa",
+                    "ja": "多摩川",
+                    "ko": "다마가와",
+                    "zh-Hans": "多摩川",
+                    "zh-Hant": "多摩川"
+                },
                 "stationCode": "TM01"
             },
             {
                 "id": "Station:Tokyu.TokyuTamagawa.Numabe",
                 "latitude": 35.582768,
                 "longitude": 139.673065,
-                "name": "沼部",
-                "nameEn": "Numabe",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Numabe",
+                    "ja": "沼部",
+                    "ko": "누마베",
+                    "zh-Hans": "沼部",
+                    "zh-Hant": "沼部"
+                },
                 "stationCode": "TM02"
             },
             {
                 "id": "Station:Tokyu.TokyuTamagawa.Unoki",
                 "latitude": 35.57546,
                 "longitude": 139.680574,
-                "name": "鵜の木",
-                "nameEn": "Unoki",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Unoki",
+                    "ja": "鵜の木",
+                    "ko": "우노키",
+                    "zh-Hans": "鹈之木",
+                    "zh-Hant": "鵜之木"
+                },
                 "stationCode": "TM03"
             },
             {
                 "id": "Station:Tokyu.TokyuTamagawa.Shimomaruko",
                 "latitude": 35.571386,
                 "longitude": 139.685595,
-                "name": "下丸子",
-                "nameEn": "Shimomaruko",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shimomaruko",
+                    "ja": "下丸子",
+                    "ko": "시모마루코",
+                    "zh-Hans": "下丸子",
+                    "zh-Hant": "下丸子"
+                },
                 "stationCode": "TM04"
             },
             {
                 "id": "Station:Tokyu.TokyuTamagawa.MusashiNitta",
                 "latitude": 35.567862,
                 "longitude": 139.692479,
-                "name": "武蔵新田",
-                "nameEn": "Musashi-nitta",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Musashi-nitta",
+                    "ja": "武蔵新田",
+                    "ko": "무사시닛타",
+                    "zh-Hans": "武藏新田",
+                    "zh-Hant": "武藏新田"
+                },
                 "stationCode": "TM05"
             },
             {
                 "id": "Station:Tokyu.TokyuTamagawa.Yaguchinowatashi",
                 "latitude": 35.562577,
                 "longitude": 139.700259,
-                "name": "矢口渡",
-                "nameEn": "Yaguchi-no-watashi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Yaguchi-no-watashi",
+                    "ja": "矢口渡",
+                    "ko": "야구치노와타시",
+                    "zh-Hans": "矢口渡",
+                    "zh-Hant": "矢口渡"
+                },
                 "stationCode": "TM06"
             },
             {
                 "id": "Station:Tokyu.TokyuTamagawa.Kamata",
                 "latitude": 35.561752,
                 "longitude": 139.714726,
-                "name": "蒲田",
-                "nameEn": "Kamata",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kamata",
+                    "ja": "蒲田",
+                    "ko": "가마타",
+                    "zh-Hans": "蒲田",
+                    "zh-Hant": "蒲田"
+                },
                 "stationCode": "TM07"
             }
         ],

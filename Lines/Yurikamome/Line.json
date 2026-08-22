@@ -2,10 +2,14 @@
     {
         "colorHex": "#0065A6",
         "delayInfo": {
-            "checkMethodEn": "Check the Yurikamome service status page or X (@yurikamome_info). Delays and suspensions are posted as they occur.",
-            "checkMethodJa": "ゆりかもめ「運行情報」ページまたはX（@yurikamome_info）で確認できます。遅延・運転見合わせが発生した場合に掲載されます。",
-            "statusPageURL": "https://www.yurikamome.co.jp/",
-            "statusPageURLEn": "https://www.yurikamome.co.jp/en/",
+            "checkMethod": {
+                "en": "Check the Yurikamome service status page or X (@yurikamome_info). Delays and suspensions are posted as they occur.",
+                "ja": "ゆりかもめ「運行情報」ページまたはX（@yurikamome_info）で確認できます。遅延・運転見合わせが発生した場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://www.yurikamome.co.jp/en/",
+                "ja": "https://www.yurikamome.co.jp/"
+            },
             "xAccount": "@yurikamome_info"
         },
         "directions": [
@@ -15,45 +19,47 @@
                 "id": "static.RailDirection:Yurikamome.Yurikamome.Toyosu",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Toyosu",
-                "nameJa": "豊洲方面",
+                "name": {
+                    "en": "For Toyosu",
+                    "ja": "豊洲方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
                             "from": "05:45",
-                            "headwayMinutes": 9.0
+                            "headwayMinutes": 9
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 8.0
+                            "headwayMinutes": 8
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 6.0
+                            "headwayMinutes": 6
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 5.0
+                            "headwayMinutes": 5
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 4.0
+                            "headwayMinutes": 4
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 5.0
+                            "headwayMinutes": 5
                         },
                         {
                             "from": "22:00",
-                            "headwayMinutes": 7.0
+                            "headwayMinutes": 7
                         },
                         {
                             "from": "23:00",
-                            "headwayMinutes": 8.0
+                            "headwayMinutes": 8
                         },
                         {
                             "from": "00:00",
-                            "headwayMinutes": 10.0
+                            "headwayMinutes": 10
                         }
                     ],
                     "firstDeparture": "05:45",
@@ -64,55 +70,55 @@
                     "bands": [
                         {
                             "from": "05:45",
-                            "headwayMinutes": 9.0
+                            "headwayMinutes": 9
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 8.0
+                            "headwayMinutes": 8
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 4.0
+                            "headwayMinutes": 4
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 3.0
+                            "headwayMinutes": 3
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 4.0
+                            "headwayMinutes": 4
                         },
                         {
                             "from": "11:00",
-                            "headwayMinutes": 5.0
+                            "headwayMinutes": 5
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 4.0
+                            "headwayMinutes": 4
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 3.0
+                            "headwayMinutes": 3
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 4.0
+                            "headwayMinutes": 4
                         },
                         {
                             "from": "20:00",
-                            "headwayMinutes": 5.0
+                            "headwayMinutes": 5
                         },
                         {
                             "from": "22:00",
-                            "headwayMinutes": 7.0
+                            "headwayMinutes": 7
                         },
                         {
                             "from": "23:00",
-                            "headwayMinutes": 8.0
+                            "headwayMinutes": 8
                         },
                         {
                             "from": "00:00",
-                            "headwayMinutes": 10.0
+                            "headwayMinutes": 10
                         }
                     ],
                     "firstDeparture": "05:45",
@@ -126,8 +132,10 @@
                 "id": "static.RailDirection:Yurikamome.Yurikamome.Shimbashi",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Shimbashi",
-                "nameJa": "新橋方面",
+                "name": {
+                    "en": "For Shimbashi",
+                    "ja": "新橋方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -136,27 +144,27 @@
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 7.0
+                            "headwayMinutes": 7
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 5.0
+                            "headwayMinutes": 5
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 4.0
+                            "headwayMinutes": 4
                         },
                         {
                             "from": "20:00",
-                            "headwayMinutes": 5.0
+                            "headwayMinutes": 5
                         },
                         {
                             "from": "22:00",
-                            "headwayMinutes": 7.0
+                            "headwayMinutes": 7
                         },
                         {
                             "from": "23:00",
-                            "headwayMinutes": 10.0
+                            "headwayMinutes": 10
                         },
                         {
                             "from": "00:00",
@@ -175,31 +183,31 @@
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 7.0
+                            "headwayMinutes": 7
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 4.0
+                            "headwayMinutes": 4
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 5.0
+                            "headwayMinutes": 5
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 4.0
+                            "headwayMinutes": 4
                         },
                         {
                             "from": "20:00",
-                            "headwayMinutes": 5.0
+                            "headwayMinutes": 5
                         },
                         {
                             "from": "22:00",
-                            "headwayMinutes": 7.0
+                            "headwayMinutes": 7
                         },
                         {
                             "from": "23:00",
-                            "headwayMinutes": 10.0
+                            "headwayMinutes": 10
                         },
                         {
                             "from": "00:00",
@@ -212,187 +220,221 @@
                 }
             }
         ],
-        "hopTimesMinutes": [1.0, 3.0, 2.0, 1.0, 6.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 1.0, 3.0, 1.0, 2.0],
+        "hopTimesMinutes": [1, 3, 2, 1, 6, 2, 2, 2, 2, 2, 2, 1, 3, 1, 2],
         "id": "Railway:Yurikamome.Yurikamome",
         "isLoop": false,
-        "nameEn": "Yurikamome",
-        "nameJa": "ゆりかもめ",
+        "name": {
+            "en": "Yurikamome",
+            "ja": "ゆりかもめ"
+        },
         "operatorId": "Operator:Yurikamome",
         "stations": [
             {
                 "id": "Station:Yurikamome.Yurikamome.Shimbashi",
                 "latitude": 35.66554,
                 "longitude": 139.75964,
-                "name": "新橋",
-                "nameEn": "Shimbashi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shimbashi",
+                    "ja": "新橋",
+                    "ko": "신바시",
+                    "zh-Hans": "新桥",
+                    "zh-Hant": "新橋"
+                },
                 "stationCode": "U01"
             },
             {
                 "id": "Station:Yurikamome.Yurikamome.Shiodome",
                 "latitude": 35.66281,
                 "longitude": 139.75983,
-                "name": "汐留",
-                "nameEn": "Shiodome",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shiodome",
+                    "ja": "汐留",
+                    "ko": "시오도메",
+                    "zh-Hans": "汐留",
+                    "zh-Hant": "汐留"
+                },
                 "stationCode": "U02"
             },
             {
                 "id": "Station:Yurikamome.Yurikamome.Takeshiba",
                 "latitude": 35.654,
                 "longitude": 139.76192,
-                "name": "竹芝",
-                "nameEn": "Takeshiba",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Takeshiba",
+                    "ja": "竹芝",
+                    "ko": "다케시바",
+                    "zh-Hans": "竹芝",
+                    "zh-Hant": "竹芝"
+                },
                 "stationCode": "U03"
             },
             {
                 "id": "Station:Yurikamome.Yurikamome.Hinode",
                 "latitude": 35.64923,
                 "longitude": 139.75908,
-                "name": "日の出",
-                "nameEn": "Hinode",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Hinode",
+                    "ja": "日の出",
+                    "ko": "히노데",
+                    "zh-Hans": "日之出",
+                    "zh-Hant": "日之出"
+                },
                 "stationCode": "U04"
             },
             {
                 "id": "Station:Yurikamome.Yurikamome.ShibauraFuto",
                 "latitude": 35.64178,
                 "longitude": 139.75781,
-                "name": "芝浦ふ頭",
-                "nameEn": "Shibaura-futō",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shibaura-futō",
+                    "ja": "芝浦ふ頭",
+                    "ko": "시바우라후토",
+                    "zh-Hans": "芝浦埠头",
+                    "zh-Hant": "芝浦埠頭"
+                },
                 "stationCode": "U05"
             },
             {
                 "id": "Station:Yurikamome.Yurikamome.OdaibaKaihinkoen",
                 "latitude": 35.6299,
                 "longitude": 139.77878,
-                "name": "お台場海浜公園",
-                "nameEn": "Odaiba-kaihinkōen",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Odaiba-kaihinkōen",
+                    "ja": "お台場海浜公園",
+                    "ko": "오다이바카이힌코엔",
+                    "zh-Hans": "御台场海滨公园",
+                    "zh-Hant": "御台場海濱公園"
+                },
                 "stationCode": "U06"
             },
             {
                 "id": "Station:Yurikamome.Yurikamome.Daiba",
                 "latitude": 35.62591,
                 "longitude": 139.77142,
-                "name": "台場",
-                "nameEn": "Daiba",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Daiba",
+                    "ja": "台場",
+                    "ko": "다이바",
+                    "zh-Hans": "台场",
+                    "zh-Hant": "台場"
+                },
                 "stationCode": "U07"
             },
             {
                 "id": "Station:Yurikamome.Yurikamome.TokyoInternationalCruiseTerminal",
                 "latitude": 35.62135,
                 "longitude": 139.77309,
-                "name": "東京国際クルーズターミナル",
-                "nameEn": "Tokyo International Cruise Terminal",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tokyo International Cruise Terminal",
+                    "ja": "東京国際クルーズターミナル",
+                    "ko": "도쿄국제크루즈터미널",
+                    "zh-Hans": "船之科学馆",
+                    "zh-Hant": "船之科學館"
+                },
                 "stationCode": "U08"
             },
             {
                 "id": "Station:Yurikamome.Yurikamome.TelecomCenter",
                 "latitude": 35.61756,
                 "longitude": 139.77939,
-                "name": "テレコムセンター",
-                "nameEn": "Telecom Center",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Telecom Center",
+                    "ja": "テレコムセンター",
+                    "ko": "텔레컴 센터",
+                    "zh-Hans": "遠程通信中心",
+                    "zh-Hant": "遠端通訊中心"
+                },
                 "stationCode": "U09"
             },
             {
                 "id": "Station:Yurikamome.Yurikamome.Aomi",
                 "latitude": 35.62479,
                 "longitude": 139.78131,
-                "name": "青海",
-                "nameEn": "Aomi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Aomi",
+                    "ja": "青海",
+                    "ko": "아오미",
+                    "zh-Hans": "青海",
+                    "zh-Hant": "青海"
+                },
                 "stationCode": "U10"
             },
             {
                 "id": "Station:Yurikamome.Yurikamome.TokyoBigSight",
                 "latitude": 35.63025,
                 "longitude": 139.79134,
-                "name": "東京ビッグサイト",
-                "nameEn": "Tokyo Big Sight",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tokyo Big Sight",
+                    "ja": "東京ビッグサイト",
+                    "ko": "도쿄빅사이트",
+                    "zh-Hans": "国际展示场正门",
+                    "zh-Hant": "國際展示場正門"
+                },
                 "stationCode": "U11"
             },
             {
                 "id": "Station:Yurikamome.Yurikamome.Ariake",
                 "latitude": 35.63468,
                 "longitude": 139.79325,
-                "name": "有明",
-                "nameEn": "Ariake",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ariake",
+                    "ja": "有明",
+                    "ko": "아리아케",
+                    "zh-Hans": "有明",
+                    "zh-Hant": "有明"
+                },
                 "stationCode": "U12"
             },
             {
                 "id": "Station:Yurikamome.Yurikamome.AriakeTennisNoMori",
                 "latitude": 35.63998,
                 "longitude": 139.78887,
-                "name": "有明テニスの森",
-                "nameEn": "Ariake-tennis-no-mori",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ariake-tennis-no-mori",
+                    "ja": "有明テニスの森",
+                    "ko": "아리아케테니스노모리",
+                    "zh-Hans": "有明网球之森",
+                    "zh-Hant": "有明網球之森"
+                },
                 "stationCode": "U13"
             },
             {
                 "id": "Station:Yurikamome.Yurikamome.ShijoMae",
                 "latitude": 35.64569,
                 "longitude": 139.78565,
-                "name": "市場前",
-                "nameEn": "Shijō-mae",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shijō-mae",
+                    "ja": "市場前",
+                    "ko": "시조마에",
+                    "zh-Hans": "市场前",
+                    "zh-Hant": "市場前"
+                },
                 "stationCode": "U14"
             },
             {
                 "id": "Station:Yurikamome.Yurikamome.ShinToyosu",
                 "latitude": 35.64871,
                 "longitude": 139.79001,
-                "name": "新豊洲",
-                "nameEn": "Shin-Toyosu",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shin-Toyosu",
+                    "ja": "新豊洲",
+                    "ko": "신토요스",
+                    "zh-Hans": "新丰洲",
+                    "zh-Hant": "新豐洲"
+                },
                 "stationCode": "U15"
             },
             {
                 "id": "Station:Yurikamome.Yurikamome.Toyosu",
                 "latitude": 35.65374,
                 "longitude": 139.79546,
-                "name": "豊洲",
-                "nameEn": "Toyosu",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Toyosu",
+                    "ja": "豊洲",
+                    "ko": "도요스",
+                    "zh-Hans": "丰洲",
+                    "zh-Hant": "豐洲"
+                },
                 "stationCode": "U16"
             }
         ],
@@ -9319,6 +9361,6 @@
                 "type": "Local"
             }
         ],
-        "upHopTimesMinutes": [1.0, 3.0, 2.0, 2.0, 6.0, 1.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 1.0]
+        "upHopTimesMinutes": [1, 3, 2, 2, 6, 1, 2, 2, 2, 2, 2, 2, 2, 2, 1]
     }
 ]

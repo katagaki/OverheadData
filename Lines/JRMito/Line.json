@@ -2,10 +2,14 @@
     {
         "colorHex": "#3333FF",
         "delayInfo": {
-            "checkMethodEn": "Check the JR East Train Operation Information page or the JR East app. In the Tokyo area, delays or suspensions of 15 minutes or more are posted.",
-            "checkMethodJa": "JR東日本「列車運行情報」ページまたはJR東日本アプリで確認できます。首都圏エリアでは15分以上の遅れ・運休が発生または見込まれる場合に掲載されます。",
-            "statusPageURL": "https://traininfo.jreast.co.jp/train_info/line.aspx?gid=1&lineid=mitoline",
-            "statusPageURLEn": "https://traininfo.jreast.co.jp/train_info/e/kanto.aspx",
+            "checkMethod": {
+                "en": "Check the JR East Train Operation Information page or the JR East app. In the Tokyo area, delays or suspensions of 15 minutes or more are posted.",
+                "ja": "JR東日本「列車運行情報」ページまたはJR東日本アプリで確認できます。首都圏エリアでは15分以上の遅れ・運休が発生または見込まれる場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://traininfo.jreast.co.jp/train_info/e/kanto.aspx",
+                "ja": "https://traininfo.jreast.co.jp/train_info/line.aspx?gid=1&lineid=mitoline"
+            },
             "xAccount": "@JRE_F_Toho_Taka"
         },
         "directions": [
@@ -15,8 +19,10 @@
                 "id": "static.RailDirection:JR-East.Mito.Tomobe",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Tomobe & Mito",
-                "nameJa": "友部・水戸方面",
+                "name": {
+                    "en": "For Tomobe & Mito",
+                    "ja": "友部・水戸方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -172,8 +178,10 @@
                     }
                 ],
                 "isAscending": false,
-                "nameEn": "For Oyama",
-                "nameJa": "小山方面",
+                "name": {
+                    "en": "For Oyama",
+                    "ja": "小山方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -305,184 +313,221 @@
         "hopTimesMinutes": [5, 3, 3, 3, 3, 5, 6, 4, 4.5, 4, 5, 4, 4, 6, 3],
         "id": "Railway:JR-East.Mito",
         "isLoop": false,
-        "nameEn": "Mito Line",
-        "nameJa": "水戸線",
+        "name": {
+            "en": "Mito Line",
+            "ja": "水戸線",
+            "ko": "미토선",
+            "zh-Hans": "水户线",
+            "zh-Hant": "水戶線"
+        },
         "operatorId": "Operator:JR-East",
         "stations": [
             {
                 "id": "Station:JR-East.Mito.Oyama",
                 "latitude": 36.313608,
                 "longitude": 139.806539,
-                "name": "小山",
-                "nameEn": "Oyama",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Oyama",
+                    "ja": "小山",
+                    "ko": "오야마",
+                    "zh-Hans": "小山",
+                    "zh-Hant": "小山"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Mito.Otabayashi",
                 "latitude": 36.300756,
                 "longitude": 139.853925,
-                "name": "小田林",
-                "nameEn": "Otabayashi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Otabayashi",
+                    "ja": "小田林",
+                    "ko": "오타바야시",
+                    "zh-Hans": "小田林",
+                    "zh-Hant": "小田林"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Mito.Yuki",
                 "latitude": 36.298219,
                 "longitude": 139.872283,
-                "name": "結城",
-                "nameEn": "Yuki",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Yuki",
+                    "ja": "結城",
+                    "ko": "유키",
+                    "zh-Hans": "结城",
+                    "zh-Hant": "結城"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Mito.HigashiYuki",
                 "latitude": 36.296686,
                 "longitude": 139.891158,
-                "name": "東結城",
-                "nameEn": "Higashi-Yuki",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Higashi-Yuki",
+                    "ja": "東結城",
+                    "ko": "히가시유키",
+                    "zh-Hans": "东结城",
+                    "zh-Hant": "東結城"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Mito.Kawashima",
                 "latitude": 36.295889,
                 "longitude": 139.915611,
-                "name": "川島",
-                "nameEn": "Kawashima",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kawashima",
+                    "ja": "川島",
+                    "ko": "가와시마",
+                    "zh-Hans": "川岛",
+                    "zh-Hant": "川島"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Mito.Tamado",
                 "latitude": 36.298622,
                 "longitude": 139.938872,
-                "name": "玉戸",
-                "nameEn": "Tamado",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tamado",
+                    "ja": "玉戸",
+                    "ko": "다마도",
+                    "zh-Hans": "玉户",
+                    "zh-Hant": "玉戶"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Mito.Shimodate",
                 "latitude": 36.303972,
                 "longitude": 139.978233,
-                "name": "下館",
-                "nameEn": "Shimodate",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shimodate",
+                    "ja": "下館",
+                    "ko": "시모다테",
+                    "zh-Hans": "下馆",
+                    "zh-Hant": "下館"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Mito.Niihari",
                 "latitude": 36.328053,
                 "longitude": 140.039092,
-                "name": "新治",
-                "nameEn": "Niihari",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Niihari",
+                    "ja": "新治",
+                    "ko": "니하리",
+                    "zh-Hans": "新治",
+                    "zh-Hant": "新治"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Mito.Yamato",
                 "latitude": 36.345608,
                 "longitude": 140.073314,
-                "name": "大和",
-                "nameEn": "Yamato",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Yamato",
+                    "ja": "大和",
+                    "ko": "야마토",
+                    "zh-Hans": "大和",
+                    "zh-Hant": "大和"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Mito.Iwase",
                 "latitude": 36.359556,
                 "longitude": 140.108247,
-                "name": "岩瀬",
-                "nameEn": "Iwase",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Iwase",
+                    "ja": "岩瀬",
+                    "ko": "이와세",
+                    "zh-Hans": "岩瀨",
+                    "zh-Hant": "巖瀨"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Mito.Haguro",
                 "latitude": 36.355325,
                 "longitude": 140.143442,
-                "name": "羽黒",
-                "nameEn": "Haguro",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Haguro",
+                    "ja": "羽黒",
+                    "ko": "하구로",
+                    "zh-Hans": "羽黑",
+                    "zh-Hant": "羽黑"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Mito.Fukuhara",
                 "latitude": 36.351544,
                 "longitude": 140.187186,
-                "name": "福原",
-                "nameEn": "Fukuhara",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Fukuhara",
+                    "ja": "福原",
+                    "ko": "후쿠하라",
+                    "zh-Hans": "福原",
+                    "zh-Hant": "福原"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Mito.Inada",
                 "latitude": 36.368547,
                 "longitude": 140.214308,
-                "name": "稲田",
-                "nameEn": "Inada",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Inada",
+                    "ja": "稲田",
+                    "ko": "이나다",
+                    "zh-Hans": "稻田",
+                    "zh-Hant": "稻田"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Mito.Kasama",
                 "latitude": 36.37325,
                 "longitude": 140.246111,
-                "name": "笠間",
-                "nameEn": "Kasama",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kasama",
+                    "ja": "笠間",
+                    "ko": "가사마",
+                    "zh-Hans": "笠间",
+                    "zh-Hant": "笠間"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Mito.Shishido",
                 "latitude": 36.344589,
                 "longitude": 140.289339,
-                "name": "宍戸",
-                "nameEn": "Shishido",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shishido",
+                    "ja": "宍戸",
+                    "ko": "시시도",
+                    "zh-Hans": "宍户",
+                    "zh-Hant": "宍戶"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Mito.Tomobe",
                 "latitude": 36.350769,
                 "longitude": 140.306369,
-                "name": "友部",
-                "nameEn": "Tomobe",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tomobe",
+                    "ja": "友部",
+                    "ko": "도모베",
+                    "zh-Hans": "友部",
+                    "zh-Hant": "友部"
+                },
                 "stationCode": ""
             }
         ],
@@ -492,10 +537,14 @@
                 "connectingLineId": "Railway:JR-East.JobanRapid",
                 "end": "ascending",
                 "junctionStationId": "Station:JR-East.Mito.Tomobe",
-                "lineNameEn": "Joban Line",
-                "lineNameJa": "常磐線",
-                "towardEn": "for Mito & Katsuta",
-                "towardJa": "水戸・勝田方面"
+                "lineName": {
+                    "en": "Joban Line",
+                    "ja": "常磐線"
+                },
+                "toward": {
+                    "en": "for Mito & Katsuta",
+                    "ja": "水戸・勝田方面"
+                }
             }
         ],
         "timetableRuns": [
@@ -515,9 +564,11 @@
                 "startsHere": false,
                 "stops": [357, 362, 366, 369, 372, 375, 380, 389, 393, 397, 404, 408, 412, 418, 423],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "水戸",
-                "throughDestEn": "Mito"
+                "throughDest": {
+                    "en": "Mito",
+                    "ja": "水戸"
+                },
+                "type": "Local"
             },
             {
                 "ascending": true,
@@ -526,9 +577,11 @@
                 "startsHere": false,
                 "stops": [388, 393, 396, 399, 403, 406, 410, 416, 420, 424, 430, 435, 438, 444, 450],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "勝田",
-                "throughDestEn": "Katsuta"
+                "throughDest": {
+                    "en": "Katsuta",
+                    "ja": "勝田"
+                },
+                "type": "Local"
             },
             {
                 "ascending": true,
@@ -537,9 +590,11 @@
                 "startsHere": false,
                 "stops": [427, 432, 436, 439, 442, 445, 450, 455, 459, 464, 468, 473, 477, 484, 489],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "高萩",
-                "throughDestEn": "Takahagi"
+                "throughDest": {
+                    "en": "Takahagi",
+                    "ja": "高萩"
+                },
+                "type": "Local"
             },
             {
                 "ascending": true,
@@ -548,9 +603,11 @@
                 "startsHere": false,
                 "stops": [453, 459, 463, 466, 469, 472, 480, 485, 490, 494, 498, 503, 506, 510, 516],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "勝田",
-                "throughDestEn": "Katsuta"
+                "throughDest": {
+                    "en": "Katsuta",
+                    "ja": "勝田"
+                },
+                "type": "Local"
             },
             {
                 "ascending": true,
@@ -568,9 +625,11 @@
                 "startsHere": false,
                 "stops": [503, 509, 512, 515, 518, 521, 525, 531, 535, 539, 543, 548, 554, 558, 563],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "水戸",
-                "throughDestEn": "Mito"
+                "throughDest": {
+                    "en": "Mito",
+                    "ja": "水戸"
+                },
+                "type": "Local"
             },
             {
                 "ascending": true,
@@ -579,9 +638,11 @@
                 "startsHere": false,
                 "stops": [548, 553, 556, 559, 562, 565, 569, 575, 579, 583, 587, 592, 595, 600, 606],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "水戸",
-                "throughDestEn": "Mito"
+                "throughDest": {
+                    "en": "Mito",
+                    "ja": "水戸"
+                },
+                "type": "Local"
             },
             {
                 "ascending": true,
@@ -608,9 +669,11 @@
                 "startsHere": false,
                 "stops": [636, 642, 646, 649, 652, 655, 661, 667, 671, 675, 679, 683, 687, 693, 698],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "勝田",
-                "throughDestEn": "Katsuta"
+                "throughDest": {
+                    "en": "Katsuta",
+                    "ja": "勝田"
+                },
+                "type": "Local"
             },
             {
                 "ascending": true,
@@ -691,9 +754,11 @@
                 "startsHere": false,
                 "stops": [1057, 1063, 1066, 1069, 1072, 1075, 1080, 1086, 1090, 1099, 1102, 1107, 1112, 1116, 1122],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "勝田",
-                "throughDestEn": "Katsuta"
+                "throughDest": {
+                    "en": "Katsuta",
+                    "ja": "勝田"
+                },
+                "type": "Local"
             },
             {
                 "ascending": true,
@@ -702,9 +767,11 @@
                 "startsHere": false,
                 "stops": [1085, 1090, 1094, 1097, 1100, 1103, 1114, 1119, 1123, 1128, 1132, 1137, 1141, 1148, 1153],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "勝田",
-                "throughDestEn": "Katsuta"
+                "throughDest": {
+                    "en": "Katsuta",
+                    "ja": "勝田"
+                },
+                "type": "Local"
             },
             {
                 "ascending": true,
@@ -713,9 +780,11 @@
                 "startsHere": false,
                 "stops": [1118, 1124, 1127, 1130, 1133, 1136, 1143, 1149, 1153, 1157, 1163, 1168, 1172, 1176, 1182],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "水戸",
-                "throughDestEn": "Mito"
+                "throughDest": {
+                    "en": "Mito",
+                    "ja": "水戸"
+                },
+                "type": "Local"
             },
             {
                 "ascending": true,
@@ -733,9 +802,11 @@
                 "startsHere": false,
                 "stops": [1178, 1183, 1186, 1189, 1193, 1196, 1200, 1206, 1210, 1215, 1219, 1223, 1227, 1231, 1237],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "水戸",
-                "throughDestEn": "Mito"
+                "throughDest": {
+                    "en": "Mito",
+                    "ja": "水戸"
+                },
+                "type": "Local"
             },
             {
                 "ascending": true,
@@ -1095,9 +1166,11 @@
                 "startsHere": false,
                 "stops": [357, 362, 366, 369, 372, 375, 380, 389, 393, 397, 404, 408, 412, 418, 423],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "水戸",
-                "throughDestEn": "Mito"
+                "throughDest": {
+                    "en": "Mito",
+                    "ja": "水戸"
+                },
+                "type": "Local"
             },
             {
                 "ascending": true,
@@ -1106,9 +1179,11 @@
                 "startsHere": false,
                 "stops": [388, 393, 396, 399, 403, 406, 410, 416, 420, 424, 430, 435, 438, 444, 450],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "勝田",
-                "throughDestEn": "Katsuta"
+                "throughDest": {
+                    "en": "Katsuta",
+                    "ja": "勝田"
+                },
+                "type": "Local"
             },
             {
                 "ascending": true,
@@ -1117,9 +1192,11 @@
                 "startsHere": false,
                 "stops": [427, 432, 436, 439, 442, 445, 450, 455, 459, 464, 468, 473, 477, 484, 489],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "高萩",
-                "throughDestEn": "Takahagi"
+                "throughDest": {
+                    "en": "Takahagi",
+                    "ja": "高萩"
+                },
+                "type": "Local"
             },
             {
                 "ascending": true,
@@ -1128,9 +1205,11 @@
                 "startsHere": false,
                 "stops": [453, 459, 463, 466, 469, 472, 480, 485, 490, 494, 498, 503, 506, 510, 516],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "勝田",
-                "throughDestEn": "Katsuta"
+                "throughDest": {
+                    "en": "Katsuta",
+                    "ja": "勝田"
+                },
+                "type": "Local"
             },
             {
                 "ascending": true,
@@ -1148,9 +1227,11 @@
                 "startsHere": false,
                 "stops": [503, 509, 512, 515, 518, 521, 525, 531, 535, 539, 543, 548, 554, 558, 563],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "水戸",
-                "throughDestEn": "Mito"
+                "throughDest": {
+                    "en": "Mito",
+                    "ja": "水戸"
+                },
+                "type": "Local"
             },
             {
                 "ascending": true,
@@ -1159,9 +1240,11 @@
                 "startsHere": false,
                 "stops": [548, 553, 556, 559, 562, 565, 569, 575, 579, 583, 587, 592, 595, 600, 606],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "水戸",
-                "throughDestEn": "Mito"
+                "throughDest": {
+                    "en": "Mito",
+                    "ja": "水戸"
+                },
+                "type": "Local"
             },
             {
                 "ascending": true,
@@ -1188,9 +1271,11 @@
                 "startsHere": false,
                 "stops": [636, 642, 646, 649, 652, 655, 661, 667, 671, 675, 679, 683, 687, 693, 698],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "勝田",
-                "throughDestEn": "Katsuta"
+                "throughDest": {
+                    "en": "Katsuta",
+                    "ja": "勝田"
+                },
+                "type": "Local"
             },
             {
                 "ascending": true,
@@ -1271,9 +1356,11 @@
                 "startsHere": false,
                 "stops": [1057, 1063, 1066, 1069, 1072, 1075, 1080, 1086, 1090, 1099, 1102, 1107, 1112, 1116, 1122],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "勝田",
-                "throughDestEn": "Katsuta"
+                "throughDest": {
+                    "en": "Katsuta",
+                    "ja": "勝田"
+                },
+                "type": "Local"
             },
             {
                 "ascending": true,
@@ -1282,9 +1369,11 @@
                 "startsHere": false,
                 "stops": [1085, 1090, 1094, 1097, 1100, 1103, 1114, 1119, 1123, 1128, 1132, 1137, 1141, 1148, 1153],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "勝田",
-                "throughDestEn": "Katsuta"
+                "throughDest": {
+                    "en": "Katsuta",
+                    "ja": "勝田"
+                },
+                "type": "Local"
             },
             {
                 "ascending": true,
@@ -1293,9 +1382,11 @@
                 "startsHere": false,
                 "stops": [1118, 1124, 1127, 1130, 1133, 1136, 1143, 1149, 1153, 1157, 1163, 1168, 1172, 1176, 1182],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "水戸",
-                "throughDestEn": "Mito"
+                "throughDest": {
+                    "en": "Mito",
+                    "ja": "水戸"
+                },
+                "type": "Local"
             },
             {
                 "ascending": true,
@@ -1313,9 +1404,11 @@
                 "startsHere": false,
                 "stops": [1178, 1183, 1186, 1189, 1193, 1196, 1200, 1206, 1210, 1215, 1219, 1223, 1227, 1231, 1237],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "水戸",
-                "throughDestEn": "Mito"
+                "throughDest": {
+                    "en": "Mito",
+                    "ja": "水戸"
+                },
+                "type": "Local"
             },
             {
                 "ascending": true,

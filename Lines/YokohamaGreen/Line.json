@@ -2,10 +2,14 @@
     {
         "colorHex": "#4BA672",
         "delayInfo": {
-            "checkMethodEn": "Check the Yokohama City Transportation Bureau website for service information. Delays and suspensions are posted as they occur.",
-            "checkMethodJa": "横浜市交通局の公式サイトで運行情報を確認できます。遅延・運転見合わせが発生した場合に掲載されます。",
-            "statusPageURL": "https://status.hamabus.city.yokohama.lg.jp/operation/list",
-            "statusPageURLEn": "https://status.hamabus.city.yokohama.lg.jp/operation/list",
+            "checkMethod": {
+                "en": "Check the Yokohama City Transportation Bureau website for service information. Delays and suspensions are posted as they occur.",
+                "ja": "横浜市交通局の公式サイトで運行情報を確認できます。遅延・運転見合わせが発生した場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://status.hamabus.city.yokohama.lg.jp/operation/list",
+                "ja": "https://status.hamabus.city.yokohama.lg.jp/operation/list"
+            },
             "xAccount": "@yokohama_koutuu"
         },
         "directions": [
@@ -21,8 +25,10 @@
                     }
                 ],
                 "isAscending": true,
-                "nameEn": "For Hiyoshi",
-                "nameJa": "日吉方面",
+                "name": {
+                    "en": "For Hiyoshi",
+                    "ja": "日吉方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -118,8 +124,10 @@
                     }
                 ],
                 "isAscending": false,
-                "nameEn": "For Nakayama",
-                "nameJa": "中山方面",
+                "name": {
+                    "en": "For Nakayama",
+                    "ja": "中山方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -219,118 +227,143 @@
         "hopTimesMinutes": [2, 2, 2, 1, 2, 2, 2, 1, 2],
         "id": "Railway:YokohamaMunicipal.Green",
         "isLoop": false,
-        "nameEn": "Yokohama Municipal Subway Green Line",
-        "nameJa": "横浜市営地下鉄グリーンライン",
+        "name": {
+            "en": "Yokohama Municipal Subway Green Line",
+            "ja": "横浜市営地下鉄グリーンライン",
+            "ko": "요코하마 시 교통국 지하철 그린 라인",
+            "zh-Hans": "横滨市营地铁绿线",
+            "zh-Hant": "橫濱市營地下鐵綠線"
+        },
         "operatorId": "Operator:YokohamaMunicipal",
         "stations": [
             {
                 "id": "Station:YokohamaMunicipal.Green.Nakayama",
                 "latitude": 35.515143,
                 "longitude": 139.540439,
-                "name": "中山",
-                "nameEn": "Nakayama",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nakayama",
+                    "ja": "中山",
+                    "ko": "나카야마",
+                    "zh-Hans": "中山",
+                    "zh-Hant": "中山"
+                },
                 "stationCode": "G01"
             },
             {
                 "id": "Station:YokohamaMunicipal.Green.Kawawacho",
                 "latitude": 35.528382,
                 "longitude": 139.549265,
-                "name": "川和町",
-                "nameEn": "Kawawacho",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kawawacho",
+                    "ja": "川和町",
+                    "ko": "가와와초",
+                    "zh-Hans": "川和町",
+                    "zh-Hant": "川和町"
+                },
                 "stationCode": "G02"
             },
             {
                 "id": "Station:YokohamaMunicipal.Green.TsuzukiFureainooka",
                 "latitude": 35.536637,
                 "longitude": 139.561611,
-                "name": "都筑ふれあいの丘",
-                "nameEn": "Tsuzuki-fureainooka",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tsuzuki-fureainooka",
+                    "ja": "都筑ふれあいの丘",
+                    "ko": "쓰즈키후레아이노오카",
+                    "zh-Hans": "都筑接触之丘",
+                    "zh-Hant": "都築接觸之丘"
+                },
                 "stationCode": "G03"
             },
             {
                 "id": "Station:YokohamaMunicipal.Green.CenterMinami",
                 "latitude": 35.545633,
                 "longitude": 139.574713,
-                "name": "センター南",
-                "nameEn": "Center-minami",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Center-minami",
+                    "ja": "センター南",
+                    "ko": "센터 미나미",
+                    "zh-Hans": "中心南",
+                    "zh-Hant": "中心南"
+                },
                 "stationCode": "G04"
             },
             {
                 "id": "Station:YokohamaMunicipal.Green.CenterKita",
                 "latitude": 35.553383,
                 "longitude": 139.579045,
-                "name": "センター北",
-                "nameEn": "Center-kita",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Center-kita",
+                    "ja": "センター北",
+                    "ko": "센터 기타",
+                    "zh-Hans": "中心北",
+                    "zh-Hant": "中心北"
+                },
                 "stationCode": "G05"
             },
             {
                 "id": "Station:YokohamaMunicipal.Green.KitaYamata",
                 "latitude": 35.56095,
                 "longitude": 139.592827,
-                "name": "北山田",
-                "nameEn": "Kita-yamata",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kita-yamata",
+                    "ja": "北山田",
+                    "ko": "기타야마타",
+                    "zh-Hans": "北山田",
+                    "zh-Hant": "北山田"
+                },
                 "stationCode": "G06"
             },
             {
                 "id": "Station:YokohamaMunicipal.Green.HigashiYamata",
                 "latitude": 35.554184,
                 "longitude": 139.604928,
-                "name": "東山田",
-                "nameEn": "Higashi-yamata",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Higashi-yamata",
+                    "ja": "東山田",
+                    "ko": "히가시야마타",
+                    "zh-Hans": "东山田",
+                    "zh-Hant": "東山田"
+                },
                 "stationCode": "G07"
             },
             {
                 "id": "Station:YokohamaMunicipal.Green.Takata",
                 "latitude": 35.549594,
                 "longitude": 139.620231,
-                "name": "高田",
-                "nameEn": "Takata",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Takata",
+                    "ja": "高田",
+                    "ko": "다카타",
+                    "zh-Hans": "高田",
+                    "zh-Hant": "高田"
+                },
                 "stationCode": "G08"
             },
             {
                 "id": "Station:YokohamaMunicipal.Green.HiyoshiHoncho",
                 "latitude": 35.549961,
                 "longitude": 139.633413,
-                "name": "日吉本町",
-                "nameEn": "Hiyoshi-honcho",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Hiyoshi-honcho",
+                    "ja": "日吉本町",
+                    "ko": "히요시혼초",
+                    "zh-Hans": "日吉本町",
+                    "zh-Hant": "日吉本町"
+                },
                 "stationCode": "G09"
             },
             {
                 "id": "Station:YokohamaMunicipal.Green.Hiyoshi",
                 "latitude": 35.553207,
                 "longitude": 139.647449,
-                "name": "日吉",
-                "nameEn": "Hiyoshi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Hiyoshi",
+                    "ja": "日吉",
+                    "ko": "히요시",
+                    "zh-Hans": "日吉",
+                    "zh-Hant": "日吉"
+                },
                 "stationCode": "G10"
             }
         ],

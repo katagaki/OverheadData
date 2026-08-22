@@ -2,10 +2,14 @@
     {
         "colorHex": "#008689",
         "delayInfo": {
-            "checkMethodEn": "Check the JR East Train Operation Information page or the JR East app. In the Tokyo area, delays or suspensions of 15 minutes or more are posted.",
-            "checkMethodJa": "JR東日本「列車運行情報」ページまたはJR東日本アプリで確認できます。首都圏エリアでは15分以上の遅れ・運休が発生または見込まれる場合に掲載されます。",
-            "statusPageURL": "https://traininfo.jreast.co.jp/train_info/line.aspx?gid=1&lineid=agatsumaline",
-            "statusPageURLEn": "https://traininfo.jreast.co.jp/train_info/e/kanto.aspx",
+            "checkMethod": {
+                "en": "Check the JR East Train Operation Information page or the JR East app. In the Tokyo area, delays or suspensions of 15 minutes or more are posted.",
+                "ja": "JR東日本「列車運行情報」ページまたはJR東日本アプリで確認できます。首都圏エリアでは15分以上の遅れ・運休が発生または見込まれる場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://traininfo.jreast.co.jp/train_info/e/kanto.aspx",
+                "ja": "https://traininfo.jreast.co.jp/train_info/line.aspx?gid=1&lineid=agatsumaline"
+            },
             "xAccount": "@JRE_F_Toho_Taka"
         },
         "directions": [
@@ -15,33 +19,35 @@
                 "id": "static.RailDirection:JR-East.Agatsuma.Omae",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Omae",
-                "nameJa": "大前方面",
+                "name": {
+                    "en": "For Omae",
+                    "ja": "大前方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
                             "from": "06:50",
-                            "headwayMinutes": 62.0
+                            "headwayMinutes": 62
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 88.0
+                            "headwayMinutes": 88
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 81.0
+                            "headwayMinutes": 81
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 30.0
+                            "headwayMinutes": 30
                         },
                         {
                             "from": "11:00",
-                            "headwayMinutes": 29.0
+                            "headwayMinutes": 29
                         },
                         {
                             "from": "12:00",
-                            "headwayMinutes": 65.0
+                            "headwayMinutes": 65
                         },
                         {
                             "from": "13:00",
@@ -49,31 +55,31 @@
                         },
                         {
                             "from": "14:00",
-                            "headwayMinutes": 71.0
+                            "headwayMinutes": 71
                         },
                         {
                             "from": "15:00",
-                            "headwayMinutes": 61.0
+                            "headwayMinutes": 61
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 60.0
+                            "headwayMinutes": 60
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 61.0
+                            "headwayMinutes": 61
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 64.0
+                            "headwayMinutes": 64
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 82.0
+                            "headwayMinutes": 82
                         },
                         {
                             "from": "21:00",
-                            "headwayMinutes": 67.0
+                            "headwayMinutes": 67
                         }
                     ],
                     "firstDeparture": "06:50",
@@ -84,23 +90,23 @@
                     "bands": [
                         {
                             "from": "06:50",
-                            "headwayMinutes": 62.0
+                            "headwayMinutes": 62
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 88.0
+                            "headwayMinutes": 88
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 111.0
+                            "headwayMinutes": 111
                         },
                         {
                             "from": "11:00",
-                            "headwayMinutes": 29.0
+                            "headwayMinutes": 29
                         },
                         {
                             "from": "12:00",
-                            "headwayMinutes": 65.0
+                            "headwayMinutes": 65
                         },
                         {
                             "from": "13:00",
@@ -108,31 +114,31 @@
                         },
                         {
                             "from": "14:00",
-                            "headwayMinutes": 71.0
+                            "headwayMinutes": 71
                         },
                         {
                             "from": "15:00",
-                            "headwayMinutes": 61.0
+                            "headwayMinutes": 61
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 60.0
+                            "headwayMinutes": 60
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 61.0
+                            "headwayMinutes": 61
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 64.0
+                            "headwayMinutes": 64
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 82.0
+                            "headwayMinutes": 82
                         },
                         {
                             "from": "21:00",
-                            "headwayMinutes": 67.0
+                            "headwayMinutes": 67
                         }
                     ],
                     "firstDeparture": "06:50",
@@ -146,25 +152,27 @@
                 "id": "static.RailDirection:JR-East.Agatsuma.Shibukawa",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Shibukawa",
-                "nameJa": "渋川方面",
+                "name": {
+                    "en": "For Shibukawa",
+                    "ja": "渋川方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
                             "from": "07:17",
-                            "headwayMinutes": 75.0
+                            "headwayMinutes": 75
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 138.0
+                            "headwayMinutes": 138
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 402.0
+                            "headwayMinutes": 402
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 159.0
+                            "headwayMinutes": 159
                         }
                     ],
                     "firstDeparture": "07:17",
@@ -175,19 +183,19 @@
                     "bands": [
                         {
                             "from": "07:17",
-                            "headwayMinutes": 75.0
+                            "headwayMinutes": 75
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 138.0
+                            "headwayMinutes": 138
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 402.0
+                            "headwayMinutes": 402
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 159.0
+                            "headwayMinutes": 159
                         }
                     ],
                     "firstDeparture": "07:17",
@@ -196,11 +204,16 @@
                 }
             }
         ],
-        "hopTimesMinutes": [7.0, 4.0, 5.0, 3.0, 4.0, 5.0, 4.0, 4.0, 3.0, 4.0, 7.0, 6.0, 3.0, 4.0, 5.0, 5.0, 4.0],
+        "hopTimesMinutes": [7, 4, 5, 3, 4, 5, 4, 4, 3, 4, 7, 6, 3, 4, 5, 5, 4],
         "id": "Railway:JR-East.Agatsuma",
         "isLoop": false,
-        "nameEn": "Agatsuma Line",
-        "nameJa": "吾妻線",
+        "name": {
+            "en": "Agatsuma Line",
+            "ja": "吾妻線",
+            "ko": "아가쓰마선",
+            "zh-Hans": "吾妻线",
+            "zh-Hant": "吾妻線"
+        },
         "operatorId": "Operator:JR-East",
         "segment": "DokoTrain",
         "stations": [
@@ -208,198 +221,234 @@
                 "id": "Station:JR-East.Agatsuma.Shibukawa",
                 "latitude": 36.49123,
                 "longitude": 139.00879,
-                "name": "渋川",
-                "nameEn": "Shibukawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shibukawa",
+                    "ja": "渋川",
+                    "ko": "시부카와",
+                    "zh-Hans": "涩川",
+                    "zh-Hant": "澀川"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Agatsuma.Kanashima",
                 "latitude": 36.52958,
                 "longitude": 138.97642,
-                "name": "金島",
-                "nameEn": "Kanashima",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kanashima",
+                    "ja": "金島",
+                    "ko": "가나시마",
+                    "zh-Hans": "金岛",
+                    "zh-Hant": "金島"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Agatsuma.Ubashima",
                 "latitude": 36.54074,
                 "longitude": 138.95706,
-                "name": "祖母島",
-                "nameEn": "Ubashima",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ubashima",
+                    "ja": "祖母島",
+                    "ko": "우바시마",
+                    "zh-Hans": "祖母岛",
+                    "zh-Hant": "祖母島"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Agatsuma.Onogami",
                 "latitude": 36.55249,
                 "longitude": 138.92224,
-                "name": "小野上",
-                "nameEn": "Onogami",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Onogami",
+                    "ja": "小野上",
+                    "ko": "오노가미",
+                    "zh-Hans": "小野上",
+                    "zh-Hant": "小野上"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Agatsuma.OnogamiOnsen",
                 "latitude": 36.5569,
                 "longitude": 138.90431,
-                "name": "小野上温泉",
-                "nameEn": "Onogami-Onsen",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Onogami-Onsen",
+                    "ja": "小野上温泉",
+                    "ko": "오노가미온센",
+                    "zh-Hans": "小野上温泉",
+                    "zh-Hant": "小野上溫泉"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Agatsuma.Ichishiro",
                 "latitude": 36.57064,
                 "longitude": 138.88228,
-                "name": "市城",
-                "nameEn": "Ichishiro",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ichishiro",
+                    "ja": "市城",
+                    "ko": "이치시로",
+                    "zh-Hans": "市城",
+                    "zh-Hant": "市城"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Agatsuma.Nakanojo",
                 "latitude": 36.58541,
                 "longitude": 138.85148,
-                "name": "中之条",
-                "nameEn": "Nakanojo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nakanojo",
+                    "ja": "中之条",
+                    "ko": "나카노조",
+                    "zh-Hans": "中之条",
+                    "zh-Hant": "中之條"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Agatsuma.GummaHaramachi",
                 "latitude": 36.5717,
                 "longitude": 138.82416,
-                "name": "群馬原町",
-                "nameEn": "Gumma-Haramachi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Gumma-Haramachi",
+                    "ja": "群馬原町",
+                    "ko": "군마하라마치",
+                    "zh-Hans": "群马原町",
+                    "zh-Hant": "羣馬原町"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Agatsuma.Gobara",
                 "latitude": 36.54873,
                 "longitude": 138.8011,
-                "name": "郷原",
-                "nameEn": "Gobara",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Gobara",
+                    "ja": "郷原",
+                    "ko": "고바라",
+                    "zh-Hans": "乡原",
+                    "zh-Hant": "鄉原"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Agatsuma.Yagura",
                 "latitude": 36.55276,
                 "longitude": 138.78426,
-                "name": "矢倉",
-                "nameEn": "Yagura",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Yagura",
+                    "ja": "矢倉",
+                    "ko": "야구라",
+                    "zh-Hans": "矢仓",
+                    "zh-Hant": "矢倉"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Agatsuma.Iwashima",
                 "latitude": 36.56324,
                 "longitude": 138.75994,
-                "name": "岩島",
-                "nameEn": "Iwashima",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Iwashima",
+                    "ja": "岩島",
+                    "ko": "이와시마",
+                    "zh-Hans": "岩島",
+                    "zh-Hant": "巖島"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Agatsuma.KawarayuOnsen",
                 "latitude": 36.54509,
                 "longitude": 138.69723,
-                "name": "川原湯温泉",
-                "nameEn": "Kawarayu-Onsen",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kawarayu-Onsen",
+                    "ja": "川原湯温泉",
+                    "ko": "가와라유온센",
+                    "zh-Hans": "川原汤温泉",
+                    "zh-Hant": "川原湯溫泉"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Agatsuma.Naganoharakusatsuguchi",
                 "latitude": 36.5465,
                 "longitude": 138.64964,
-                "name": "長野原草津口",
-                "nameEn": "Naganoharakusatsuguchi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Naganoharakusatsuguchi",
+                    "ja": "長野原草津口",
+                    "ko": "나가노하라쿠사쓰구치",
+                    "zh-Hans": "长野原草津口",
+                    "zh-Hant": "長野原草津口"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Agatsuma.GummaOtsu",
                 "latitude": 36.55381,
                 "longitude": 138.62809,
-                "name": "群馬大津",
-                "nameEn": "Gumma-Otsu",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Gumma-Otsu",
+                    "ja": "群馬大津",
+                    "ko": "군마오쓰",
+                    "zh-Hans": "群马大津",
+                    "zh-Hant": "羣馬大津"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Agatsuma.Haneo",
                 "latitude": 36.55016,
                 "longitude": 138.6055,
-                "name": "羽根尾",
-                "nameEn": "Haneo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Haneo",
+                    "ja": "羽根尾",
+                    "ko": "하네오",
+                    "zh-Hans": "羽根尾",
+                    "zh-Hant": "羽根尾"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Agatsuma.Fukurogura",
                 "latitude": 36.54402,
                 "longitude": 138.57918,
-                "name": "袋倉",
-                "nameEn": "Fukurogura",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Fukurogura",
+                    "ja": "袋倉",
+                    "ko": "후쿠로구라",
+                    "zh-Hans": "袋仓",
+                    "zh-Hant": "袋倉"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Agatsuma.ManzaKazawaguchi",
                 "latitude": 36.53202,
                 "longitude": 138.5514,
-                "name": "万座・鹿沢口",
-                "nameEn": "Manza-Kazawaguchi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Manza-Kazawaguchi",
+                    "ja": "万座・鹿沢口",
+                    "ko": "만자 · 카자와구치",
+                    "zh-Hans": "万座·鹿泽口",
+                    "zh-Hant": "萬座·鹿澤口"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Agatsuma.Omae",
                 "latitude": 36.51358,
                 "longitude": 138.52902,
-                "name": "大前",
-                "nameEn": "Omae",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Omae",
+                    "ja": "大前",
+                    "ko": "오마에",
+                    "zh-Hans": "大前",
+                    "zh-Hant": "大前"
+                },
                 "stationCode": ""
             }
         ],
@@ -566,8 +615,10 @@
                 "startsHere": true,
                 "stops": [322, 328, 335, 339, 342, 346, 351, 355, 359, 363, 368, 372, 379],
                 "terminates": false,
-                "throughDestEn": "Takasaki",
-                "throughDestJa": "高崎",
+                "throughDest": {
+                    "en": "Takasaki",
+                    "ja": "高崎"
+                },
                 "type": "Local"
             },
             {
@@ -577,8 +628,10 @@
                 "startsHere": true,
                 "stops": [364, 370, 377, 382, 385, 390, 394, 398, 402, 405, 410, 418, 430],
                 "terminates": false,
-                "throughDestEn": "Takasaki",
-                "throughDestJa": "高崎",
+                "throughDest": {
+                    "en": "Takasaki",
+                    "ja": "高崎"
+                },
                 "type": "Local"
             },
             {
@@ -588,8 +641,10 @@
                 "startsHere": true,
                 "stops": [408, 413, 419, 422, 425, 430, 437, 441, 447, 452, 456, 460, 464, 467, 472, 479, 486],
                 "terminates": false,
-                "throughDestEn": "Takasaki",
-                "throughDestJa": "高崎",
+                "throughDest": {
+                    "en": "Takasaki",
+                    "ja": "高崎"
+                },
                 "type": "Local"
             },
             {
@@ -599,8 +654,10 @@
                 "startsHere": true,
                 "stops": [437, 440, 445, 451, 454, 458, 466, 473, 477, 481, 486, 500, 504, 508, 511, 516, 520, 526],
                 "terminates": false,
-                "throughDestEn": "Takasaki",
-                "throughDestJa": "高崎",
+                "throughDest": {
+                    "en": "Takasaki",
+                    "ja": "高崎"
+                },
                 "type": "Local"
             },
             {
@@ -610,8 +667,10 @@
                 "startsHere": true,
                 "stops": [512, 515, 520, 526, 529, 533, 539, 545, 549, 552, 557, 560, 565, 569, 576, 581, 585, 591],
                 "terminates": false,
-                "throughDestEn": "Shim-Maebashi",
-                "throughDestJa": "新前橋",
+                "throughDest": {
+                    "en": "Shim-Maebashi",
+                    "ja": "新前橋"
+                },
                 "type": "Local"
             },
             {
@@ -621,8 +680,10 @@
                 "startsHere": true,
                 "stops": [608, 613, 620, 625, 628, 633, 639, 643, 647, 654, 660, 664, 671],
                 "terminates": false,
-                "throughDestEn": "Takasaki",
-                "throughDestJa": "高崎",
+                "throughDest": {
+                    "en": "Takasaki",
+                    "ja": "高崎"
+                },
                 "type": "Local"
             },
             {
@@ -632,8 +693,10 @@
                 "startsHere": true,
                 "stops": [650, 653, 658, 664, 667, 671, 681, 692, 696, 707, 711, 718, 722, 726, 730, 735, 739, 745],
                 "terminates": false,
-                "throughDestEn": "Shim-Maebashi",
-                "throughDestJa": "新前橋",
+                "throughDest": {
+                    "en": "Shim-Maebashi",
+                    "ja": "新前橋"
+                },
                 "type": "Local"
             },
             {
@@ -643,8 +706,10 @@
                 "startsHere": true,
                 "stops": [767, 772, 778, 781, 800, 806, 813, 817, 821, 826, 831, 835, 839, 845, 851, 854, 862],
                 "terminates": false,
-                "throughDestEn": "Shim-Maebashi",
-                "throughDestJa": "新前橋",
+                "throughDest": {
+                    "en": "Shim-Maebashi",
+                    "ja": "新前橋"
+                },
                 "type": "Local"
             },
             {
@@ -654,8 +719,10 @@
                 "startsHere": true,
                 "stops": [787, -1, -1, -1, -1, -1, 809, -1, -1, -1, -1, -1, 829],
                 "terminates": false,
-                "throughDestEn": "Ueno",
-                "throughDestJa": "上野",
+                "throughDest": {
+                    "en": "Ueno",
+                    "ja": "上野"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -665,8 +732,10 @@
                 "startsHere": true,
                 "stops": [846, -1, -1, -1, -1, -1, 875, -1, -1, -1, -1, -1, 895],
                 "terminates": false,
-                "throughDestEn": "Ueno",
-                "throughDestJa": "上野",
+                "throughDest": {
+                    "en": "Ueno",
+                    "ja": "上野"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -676,8 +745,10 @@
                 "startsHere": true,
                 "stops": [861, 874, 881, 885, 889, 894, 900, 904, 909, 912, 918, 922, 931],
                 "terminates": false,
-                "throughDestEn": "Takasaki",
-                "throughDestJa": "高崎",
+                "throughDest": {
+                    "en": "Takasaki",
+                    "ja": "高崎"
+                },
                 "type": "Local"
             },
             {
@@ -687,8 +758,10 @@
                 "startsHere": true,
                 "stops": [924, 929, 935, 938, 950, 956, 963, 967, 970, 974, 979, 984, 988, 991, 997, 1004, 1012],
                 "terminates": false,
-                "throughDestEn": "Takasaki",
-                "throughDestJa": "高崎",
+                "throughDest": {
+                    "en": "Takasaki",
+                    "ja": "高崎"
+                },
                 "type": "Local"
             },
             {
@@ -698,8 +771,10 @@
                 "startsHere": true,
                 "stops": [943, -1, -1, -1, -1, -1, 966, -1, -1, -1, -1, -1, 986],
                 "terminates": false,
-                "throughDestEn": "Ueno",
-                "throughDestJa": "上野",
+                "throughDest": {
+                    "en": "Ueno",
+                    "ja": "上野"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -709,8 +784,10 @@
                 "startsHere": true,
                 "stops": [981, 986, 992, 995, 999, 1004, 1011, 1015, 1018, 1023, 1028, 1032, 1036, 1040, 1045, 1048, 1057],
                 "terminates": false,
-                "throughDestEn": "Takasaki",
-                "throughDestJa": "高崎",
+                "throughDest": {
+                    "en": "Takasaki",
+                    "ja": "高崎"
+                },
                 "type": "Local"
             },
             {
@@ -720,8 +797,10 @@
                 "startsHere": true,
                 "stops": [1052, 1056, 1060, 1066, 1069, 1072, 1078, 1084, 1088, 1094, 1099, 1102, 1107, 1111, 1114, 1119, 1125, 1132],
                 "terminates": false,
-                "throughDestEn": "Shim-Maebashi",
-                "throughDestJa": "新前橋",
+                "throughDest": {
+                    "en": "Shim-Maebashi",
+                    "ja": "新前橋"
+                },
                 "type": "Local"
             },
             {
@@ -731,8 +810,10 @@
                 "startsHere": true,
                 "stops": [1139, 1144, 1150, 1153, 1158, 1167, 1174, 1178, 1181, 1185, 1189, 1193, 1197, 1201, 1206, 1209, 1217],
                 "terminates": false,
-                "throughDestEn": "Shim-Maebashi",
-                "throughDestJa": "新前橋",
+                "throughDest": {
+                    "en": "Shim-Maebashi",
+                    "ja": "新前橋"
+                },
                 "type": "Local"
             },
             {
@@ -742,8 +823,10 @@
                 "startsHere": true,
                 "stops": [1211, 1214, 1219, 1225, 1228, 1233, 1238, 1245, 1249, 1252, 1256, 1261, 1265, 1269, 1279, 1285, 1288, 1295],
                 "terminates": false,
-                "throughDestEn": "Takasaki",
-                "throughDestJa": "高崎",
+                "throughDest": {
+                    "en": "Takasaki",
+                    "ja": "高崎"
+                },
                 "type": "Local"
             },
             {
@@ -897,8 +980,10 @@
                 "startsHere": true,
                 "stops": [322, 328, 335, 339, 342, 346, 351, 355, 359, 363, 368, 372, 379],
                 "terminates": false,
-                "throughDestEn": "Takasaki",
-                "throughDestJa": "高崎",
+                "throughDest": {
+                    "en": "Takasaki",
+                    "ja": "高崎"
+                },
                 "type": "Local"
             },
             {
@@ -908,8 +993,10 @@
                 "startsHere": true,
                 "stops": [364, 370, 377, 382, 385, 390, 394, 398, 402, 405, 410, 418, 430],
                 "terminates": false,
-                "throughDestEn": "Takasaki",
-                "throughDestJa": "高崎",
+                "throughDest": {
+                    "en": "Takasaki",
+                    "ja": "高崎"
+                },
                 "type": "Local"
             },
             {
@@ -919,8 +1006,10 @@
                 "startsHere": true,
                 "stops": [408, 413, 419, 422, 425, 430, 437, 441, 447, 452, 456, 460, 464, 467, 472, 479, 486],
                 "terminates": false,
-                "throughDestEn": "Takasaki",
-                "throughDestJa": "高崎",
+                "throughDest": {
+                    "en": "Takasaki",
+                    "ja": "高崎"
+                },
                 "type": "Local"
             },
             {
@@ -930,8 +1019,10 @@
                 "startsHere": true,
                 "stops": [437, 440, 445, 451, 454, 458, 466, 473, 477, 481, 486, 500, 504, 508, 511, 516, 520, 526],
                 "terminates": false,
-                "throughDestEn": "Takasaki",
-                "throughDestJa": "高崎",
+                "throughDest": {
+                    "en": "Takasaki",
+                    "ja": "高崎"
+                },
                 "type": "Local"
             },
             {
@@ -941,8 +1032,10 @@
                 "startsHere": true,
                 "stops": [512, 515, 520, 526, 529, 533, 539, 545, 549, 552, 557, 560, 565, 569, 576, 581, 585, 591],
                 "terminates": false,
-                "throughDestEn": "Shim-Maebashi",
-                "throughDestJa": "新前橋",
+                "throughDest": {
+                    "en": "Shim-Maebashi",
+                    "ja": "新前橋"
+                },
                 "type": "Local"
             },
             {
@@ -952,8 +1045,10 @@
                 "startsHere": true,
                 "stops": [608, 613, 620, 625, 628, 633, 639, 643, 647, 654, 660, 664, 671],
                 "terminates": false,
-                "throughDestEn": "Takasaki",
-                "throughDestJa": "高崎",
+                "throughDest": {
+                    "en": "Takasaki",
+                    "ja": "高崎"
+                },
                 "type": "Local"
             },
             {
@@ -963,8 +1058,10 @@
                 "startsHere": true,
                 "stops": [650, 653, 658, 664, 667, 671, 681, 692, 696, 707, 711, 718, 722, 726, 730, 735, 739, 745],
                 "terminates": false,
-                "throughDestEn": "Shim-Maebashi",
-                "throughDestJa": "新前橋",
+                "throughDest": {
+                    "en": "Shim-Maebashi",
+                    "ja": "新前橋"
+                },
                 "type": "Local"
             },
             {
@@ -974,8 +1071,10 @@
                 "startsHere": true,
                 "stops": [767, 772, 778, 781, 800, 806, 813, 817, 821, 826, 831, 835, 839, 845, 851, 854, 862],
                 "terminates": false,
-                "throughDestEn": "Shim-Maebashi",
-                "throughDestJa": "新前橋",
+                "throughDest": {
+                    "en": "Shim-Maebashi",
+                    "ja": "新前橋"
+                },
                 "type": "Local"
             },
             {
@@ -985,8 +1084,10 @@
                 "startsHere": true,
                 "stops": [787, -1, -1, -1, -1, -1, 809, -1, -1, -1, -1, -1, 829],
                 "terminates": false,
-                "throughDestEn": "Ueno",
-                "throughDestJa": "上野",
+                "throughDest": {
+                    "en": "Ueno",
+                    "ja": "上野"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -996,8 +1097,10 @@
                 "startsHere": true,
                 "stops": [861, 874, 881, 885, 889, 894, 900, 904, 909, 912, 918, 922, 931],
                 "terminates": false,
-                "throughDestEn": "Takasaki",
-                "throughDestJa": "高崎",
+                "throughDest": {
+                    "en": "Takasaki",
+                    "ja": "高崎"
+                },
                 "type": "Local"
             },
             {
@@ -1007,8 +1110,10 @@
                 "startsHere": true,
                 "stops": [924, 929, 935, 938, 950, 956, 963, 967, 970, 974, 979, 984, 988, 991, 997, 1004, 1012],
                 "terminates": false,
-                "throughDestEn": "Takasaki",
-                "throughDestJa": "高崎",
+                "throughDest": {
+                    "en": "Takasaki",
+                    "ja": "高崎"
+                },
                 "type": "Local"
             },
             {
@@ -1018,8 +1123,10 @@
                 "startsHere": true,
                 "stops": [943, -1, -1, -1, -1, -1, 966, -1, -1, -1, -1, -1, 986],
                 "terminates": false,
-                "throughDestEn": "Ueno",
-                "throughDestJa": "上野",
+                "throughDest": {
+                    "en": "Ueno",
+                    "ja": "上野"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -1029,8 +1136,10 @@
                 "startsHere": true,
                 "stops": [981, 986, 992, 995, 999, 1004, 1011, 1015, 1018, 1023, 1028, 1032, 1036, 1040, 1045, 1048, 1057],
                 "terminates": false,
-                "throughDestEn": "Takasaki",
-                "throughDestJa": "高崎",
+                "throughDest": {
+                    "en": "Takasaki",
+                    "ja": "高崎"
+                },
                 "type": "Local"
             },
             {
@@ -1040,8 +1149,10 @@
                 "startsHere": true,
                 "stops": [1052, 1056, 1060, 1066, 1069, 1072, 1078, 1084, 1088, 1094, 1099, 1102, 1107, 1111, 1114, 1119, 1125, 1132],
                 "terminates": false,
-                "throughDestEn": "Shim-Maebashi",
-                "throughDestJa": "新前橋",
+                "throughDest": {
+                    "en": "Shim-Maebashi",
+                    "ja": "新前橋"
+                },
                 "type": "Local"
             },
             {
@@ -1051,8 +1162,10 @@
                 "startsHere": true,
                 "stops": [1139, 1144, 1150, 1153, 1158, 1167, 1174, 1178, 1181, 1185, 1189, 1193, 1197, 1201, 1206, 1209, 1217],
                 "terminates": false,
-                "throughDestEn": "Shim-Maebashi",
-                "throughDestJa": "新前橋",
+                "throughDest": {
+                    "en": "Shim-Maebashi",
+                    "ja": "新前橋"
+                },
                 "type": "Local"
             },
             {
@@ -1062,11 +1175,13 @@
                 "startsHere": true,
                 "stops": [1211, 1214, 1219, 1225, 1228, 1233, 1238, 1245, 1249, 1252, 1256, 1261, 1265, 1269, 1279, 1285, 1288, 1295],
                 "terminates": false,
-                "throughDestEn": "Takasaki",
-                "throughDestJa": "高崎",
+                "throughDest": {
+                    "en": "Takasaki",
+                    "ja": "高崎"
+                },
                 "type": "Local"
             }
         ],
-        "upHopTimesMinutes": [7.0, 4.0, 5.0, 3.0, 4.0, 4.0, 5.0, 5.0, 3.0, 4.0, 7.0, 6.0, 4.0, 3.0, 6.0, 5.0, 3.0]
+        "upHopTimesMinutes": [7, 4, 5, 3, 4, 4, 5, 5, 3, 4, 7, 6, 4, 3, 6, 5, 3]
     }
 ]

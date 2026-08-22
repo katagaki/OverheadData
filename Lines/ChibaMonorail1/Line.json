@@ -2,10 +2,14 @@
     {
         "colorHex": "#2843BA",
         "delayInfo": {
-            "checkMethodEn": "Check the Chiba Urban Monorail operation status page. Delays of 10 minutes or more are posted there.",
-            "checkMethodJa": "千葉都市モノレールの運行状況ページで確認できます。10分以上の遅れが発生または見込まれる場合に掲載されます。",
-            "statusPageURL": "https://chiba-monorail.co.jp/index.php/info-detail/",
-            "statusPageURLEn": "https://chiba-monorail.co.jp/index.php/info-detail/",
+            "checkMethod": {
+                "en": "Check the Chiba Urban Monorail operation status page. Delays of 10 minutes or more are posted there.",
+                "ja": "千葉都市モノレールの運行状況ページで確認できます。10分以上の遅れが発生または見込まれる場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://chiba-monorail.co.jp/index.php/info-detail/",
+                "ja": "https://chiba-monorail.co.jp/index.php/info-detail/"
+            },
             "xAccount": "@chibamonoPR"
         },
         "directions": [
@@ -15,8 +19,10 @@
                 "id": "static.RailDirection:ChibaMonorail.Line1.Kenchomae",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Chiba & Kenchomae",
-                "nameJa": "千葉・県庁前方面",
+                "name": {
+                    "en": "For Chiba & Kenchomae",
+                    "ja": "千葉・県庁前方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -106,8 +112,10 @@
                 "id": "static.RailDirection:ChibaMonorail.Line1.Chibaminato",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Chibaminato",
-                "nameJa": "千葉みなと方面",
+                "name": {
+                    "en": "For Chibaminato",
+                    "ja": "千葉みなと方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -151,74 +159,91 @@
         "hopTimesMinutes": [2, 2, 2, 2, 1],
         "id": "Railway:ChibaMonorail.Line1",
         "isLoop": false,
-        "nameEn": "Chiba Urban Monorail Line 1",
-        "nameJa": "千葉都市モノレール1号線",
+        "name": {
+            "en": "Chiba Urban Monorail Line 1",
+            "ja": "千葉都市モノレール1号線",
+            "ko": "지바 도시 모노레일 1호선",
+            "zh-Hans": "千叶都市单轨电车1号线",
+            "zh-Hant": "千葉都市單軌電車1號線"
+        },
         "operatorId": "Operator:ChibaMonorail",
         "stations": [
             {
                 "id": "Station:ChibaMonorail.Line1.Chibaminato",
                 "latitude": 35.607167,
                 "longitude": 140.102417,
-                "name": "千葉みなと",
-                "nameEn": "Chibaminato",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Chibaminato",
+                    "ja": "千葉みなと",
+                    "ko": "지바미나토",
+                    "zh-Hans": "千叶港",
+                    "zh-Hant": "千葉港"
+                },
                 "stationCode": "CM01"
             },
             {
                 "id": "Station:ChibaMonorail.Line1.Shiyakushomae",
                 "latitude": 35.607194,
                 "longitude": 140.107778,
-                "name": "市役所前",
-                "nameEn": "Shiyakusho-mae",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shiyakusho-mae",
+                    "ja": "市役所前",
+                    "ko": "시야쿠쇼마에",
+                    "zh-Hans": "市役所前",
+                    "zh-Hant": "市役所前"
+                },
                 "stationCode": "CM02"
             },
             {
                 "id": "Station:ChibaMonorail.Line1.Chiba",
                 "latitude": 35.613056,
                 "longitude": 140.113889,
-                "name": "千葉",
-                "nameEn": "Chiba",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Chiba",
+                    "ja": "千葉",
+                    "ko": "지바",
+                    "zh-Hans": "千叶",
+                    "zh-Hant": "千葉"
+                },
                 "stationCode": "CM03"
             },
             {
                 "id": "Station:ChibaMonorail.Line1.Sakaecho",
                 "latitude": 35.613,
                 "longitude": 140.118611,
-                "name": "栄町",
-                "nameEn": "Sakaecho",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Sakaecho",
+                    "ja": "栄町",
+                    "ko": "사카에초",
+                    "zh-Hans": "荣町",
+                    "zh-Hant": "榮町"
+                },
                 "stationCode": "CM16"
             },
             {
                 "id": "Station:ChibaMonorail.Line1.Yoshikawakoen",
                 "latitude": 35.608889,
                 "longitude": 140.120083,
-                "name": "葭川公園",
-                "nameEn": "Yoshikawa-koen",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Yoshikawa-koen",
+                    "ja": "葭川公園",
+                    "ko": "요시카와코엔",
+                    "zh-Hans": "葭川公园",
+                    "zh-Hant": "葭川公園"
+                },
                 "stationCode": "CM17"
             },
             {
                 "id": "Station:ChibaMonorail.Line1.Kenchomae",
                 "latitude": 35.603667,
                 "longitude": 140.122139,
-                "name": "県庁前",
-                "nameEn": "Kenchomae",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kenchomae",
+                    "ja": "県庁前",
+                    "ko": "겐초마에",
+                    "zh-Hans": "县厅前",
+                    "zh-Hant": "縣廳前"
+                },
                 "stationCode": "CM18"
             }
         ],
@@ -228,10 +253,14 @@
                 "connectingLineId": "Railway:ChibaMonorail.Line2",
                 "end": "ascending",
                 "junctionStationId": "Station:ChibaMonorail.Line1.Chiba",
-                "lineNameEn": "Chiba Urban Monorail Line 2",
-                "lineNameJa": "千葉都市モノレール2号線",
-                "towardEn": "for Tsuga & Chishirodai",
-                "towardJa": "都賀・千城台方面"
+                "lineName": {
+                    "en": "Chiba Urban Monorail Line 2",
+                    "ja": "千葉都市モノレール2号線"
+                },
+                "toward": {
+                    "en": "for Tsuga & Chishirodai",
+                    "ja": "都賀・千城台方面"
+                }
             }
         ]
     }

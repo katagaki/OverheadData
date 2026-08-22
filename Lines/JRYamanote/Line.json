@@ -2,10 +2,14 @@
     {
         "colorHex": "#9ACD32",
         "delayInfo": {
-            "checkMethodEn": "Check the JR East Train Operation Information page or the JR East app. In the Tokyo area, delays or suspensions of 15 minutes or more are posted.",
-            "checkMethodJa": "JR東日本「列車運行情報」ページまたはJR東日本アプリで確認できます。首都圏エリアでは15分以上の遅れ・運休が発生または見込まれる場合に掲載されます。",
-            "statusPageURL": "https://traininfo.jreast.co.jp/train_info/line.aspx?gid=1&lineid=yamanoteline",
-            "statusPageURLEn": "https://traininfo.jreast.co.jp/train_info/e/kanto.aspx",
+            "checkMethod": {
+                "en": "Check the JR East Train Operation Information page or the JR East app. In the Tokyo area, delays or suspensions of 15 minutes or more are posted.",
+                "ja": "JR東日本「列車運行情報」ページまたはJR東日本アプリで確認できます。首都圏エリアでは15分以上の遅れ・運休が発生または見込まれる場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://traininfo.jreast.co.jp/train_info/e/kanto.aspx",
+                "ja": "https://traininfo.jreast.co.jp/train_info/line.aspx?gid=1&lineid=yamanoteline"
+            },
             "xAccount": "@JRE_F_Tokaido"
         },
         "directions": [
@@ -15,8 +19,10 @@
                 "id": "static.RailDirection:JR-East.Yamanote.InnerLoop",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "Inner Loop (for Ueno & Ikebukuro)",
-                "nameJa": "内回り（上野・池袋方面）",
+                "name": {
+                    "en": "Inner Loop (for Ueno & Ikebukuro)",
+                    "ja": "内回り（上野・池袋方面）"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -82,8 +88,10 @@
                 "id": "static.RailDirection:JR-East.Yamanote.OuterLoop",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "Outer Loop (for Shinagawa & Shibuya)",
-                "nameJa": "外回り（品川・渋谷方面）",
+                "name": {
+                    "en": "Outer Loop (for Shinagawa & Shibuya)",
+                    "ja": "外回り（品川・渋谷方面）"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -147,338 +155,397 @@
         "hopTimesMinutes": [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 2, 2, 2, 2, 2],
         "id": "Railway:JR-East.Yamanote",
         "isLoop": true,
-        "nameEn": "Yamanote Line",
-        "nameJa": "山手線",
+        "name": {
+            "en": "Yamanote Line",
+            "ja": "山手線",
+            "ko": "야마노테선",
+            "zh-Hans": "山手线",
+            "zh-Hant": "山手線"
+        },
         "operatorId": "Operator:JR-East",
         "stations": [
             {
                 "id": "Station:JR-East.Yamanote.Tokyo",
                 "latitude": 35.6812,
                 "longitude": 139.7671,
-                "name": "東京",
-                "nameEn": "Tokyo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tokyo",
+                    "ja": "東京",
+                    "ko": "도쿄",
+                    "zh-Hans": "东京",
+                    "zh-Hant": "東京"
+                },
                 "stationCode": "JY01"
             },
             {
                 "id": "Station:JR-East.Yamanote.Kanda",
                 "latitude": 35.6918,
                 "longitude": 139.7709,
-                "name": "神田",
-                "nameEn": "Kanda",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kanda",
+                    "ja": "神田",
+                    "ko": "간다",
+                    "zh-Hans": "神田",
+                    "zh-Hant": "神田"
+                },
                 "stationCode": "JY02"
             },
             {
                 "id": "Station:JR-East.Yamanote.Akihabara",
                 "latitude": 35.6984,
                 "longitude": 139.7731,
-                "name": "秋葉原",
-                "nameEn": "Akihabara",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Akihabara",
+                    "ja": "秋葉原",
+                    "ko": "아키하바라",
+                    "zh-Hans": "秋叶原",
+                    "zh-Hant": "秋葉原"
+                },
                 "stationCode": "JY03"
             },
             {
                 "id": "Station:JR-East.Yamanote.Okachimachi",
                 "latitude": 35.7075,
                 "longitude": 139.7747,
-                "name": "御徒町",
-                "nameEn": "Okachimachi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Okachimachi",
+                    "ja": "御徒町",
+                    "ko": "오카치마치",
+                    "zh-Hans": "御徒町",
+                    "zh-Hant": "御徒町"
+                },
                 "stationCode": "JY04"
             },
             {
                 "id": "Station:JR-East.Yamanote.Ueno",
                 "latitude": 35.7141,
                 "longitude": 139.7774,
-                "name": "上野",
-                "nameEn": "Ueno",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ueno",
+                    "ja": "上野",
+                    "ko": "우에노",
+                    "zh-Hans": "上野",
+                    "zh-Hant": "上野"
+                },
                 "stationCode": "JY05"
             },
             {
                 "id": "Station:JR-East.Yamanote.Uguisudani",
                 "latitude": 35.7206,
                 "longitude": 139.7785,
-                "name": "鶯谷",
-                "nameEn": "Uguisudani",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Uguisudani",
+                    "ja": "鶯谷",
+                    "ko": "우구이스다니",
+                    "zh-Hans": "莺谷",
+                    "zh-Hant": "鶯谷"
+                },
                 "stationCode": "JY06"
             },
             {
                 "id": "Station:JR-East.Yamanote.Nippori",
                 "latitude": 35.7278,
                 "longitude": 139.7708,
-                "name": "日暮里",
-                "nameEn": "Nippori",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nippori",
+                    "ja": "日暮里",
+                    "ko": "닛포리",
+                    "zh-Hans": "日暮里",
+                    "zh-Hant": "日暮里"
+                },
                 "stationCode": "JY07"
             },
             {
                 "id": "Station:JR-East.Yamanote.NishiNippori",
                 "latitude": 35.7324,
                 "longitude": 139.7669,
-                "name": "西日暮里",
-                "nameEn": "Nishi-Nippori",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nishi-Nippori",
+                    "ja": "西日暮里",
+                    "ko": "니시닛포리",
+                    "zh-Hans": "西日暮里",
+                    "zh-Hant": "西日暮里"
+                },
                 "stationCode": "JY08"
             },
             {
                 "id": "Station:JR-East.Yamanote.Tabata",
                 "latitude": 35.7381,
                 "longitude": 139.7607,
-                "name": "田端",
-                "nameEn": "Tabata",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tabata",
+                    "ja": "田端",
+                    "ko": "다바타",
+                    "zh-Hans": "田端",
+                    "zh-Hant": "田端"
+                },
                 "stationCode": "JY09"
             },
             {
                 "id": "Station:JR-East.Yamanote.Komagome",
                 "latitude": 35.7365,
                 "longitude": 139.746,
-                "name": "駒込",
-                "nameEn": "Komagome",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Komagome",
+                    "ja": "駒込"
+                },
                 "stationCode": "JY10"
             },
             {
                 "id": "Station:JR-East.Yamanote.Sugamo",
                 "latitude": 35.7335,
                 "longitude": 139.7394,
-                "name": "巣鴨",
-                "nameEn": "Sugamo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Sugamo",
+                    "ja": "巣鴨",
+                    "ko": "스가모",
+                    "zh-Hans": "巢鸭",
+                    "zh-Hant": "巢鴨"
+                },
                 "stationCode": "JY11"
             },
             {
                 "id": "Station:JR-East.Yamanote.Otsuka",
                 "latitude": 35.7312,
                 "longitude": 139.7286,
-                "name": "大塚",
-                "nameEn": "Otsuka",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Otsuka",
+                    "ja": "大塚",
+                    "ko": "오쓰카",
+                    "zh-Hans": "大塚",
+                    "zh-Hant": "大塚"
+                },
                 "stationCode": "JY12"
             },
             {
                 "id": "Station:JR-East.Yamanote.Ikebukuro",
                 "latitude": 35.7295,
                 "longitude": 139.7109,
-                "name": "池袋",
-                "nameEn": "Ikebukuro",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋",
+                    "ko": "이케부쿠로",
+                    "zh-Hans": "池袋",
+                    "zh-Hant": "池袋"
+                },
                 "stationCode": "JY13"
             },
             {
                 "id": "Station:JR-East.Yamanote.Mejiro",
                 "latitude": 35.721,
                 "longitude": 139.7068,
-                "name": "目白",
-                "nameEn": "Mejiro",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Mejiro",
+                    "ja": "目白",
+                    "ko": "메지로",
+                    "zh-Hans": "目白",
+                    "zh-Hant": "目白"
+                },
                 "stationCode": "JY14"
             },
             {
                 "id": "Station:JR-East.Yamanote.Takadanobaba",
                 "latitude": 35.7126,
                 "longitude": 139.7038,
-                "name": "高田馬場",
-                "nameEn": "Takadanobaba",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Takadanobaba",
+                    "ja": "高田馬場",
+                    "ko": "다카다노바바",
+                    "zh-Hans": "高田马场",
+                    "zh-Hant": "高田馬場"
+                },
                 "stationCode": "JY15"
             },
             {
                 "id": "Station:JR-East.Yamanote.ShinOkubo",
                 "latitude": 35.7011,
                 "longitude": 139.7001,
-                "name": "新大久保",
-                "nameEn": "Shin-Okubo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shin-Okubo",
+                    "ja": "新大久保",
+                    "ko": "신오쿠보",
+                    "zh-Hans": "新大久保",
+                    "zh-Hant": "新大久保"
+                },
                 "stationCode": "JY16"
             },
             {
                 "id": "Station:JR-East.Yamanote.Shinjuku",
                 "latitude": 35.6896,
                 "longitude": 139.7006,
-                "name": "新宿",
-                "nameEn": "Shinjuku",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shinjuku",
+                    "ja": "新宿",
+                    "ko": "신주쿠",
+                    "zh-Hans": "新宿",
+                    "zh-Hant": "新宿"
+                },
                 "stationCode": "JY17"
             },
             {
                 "id": "Station:JR-East.Yamanote.Yoyogi",
                 "latitude": 35.6832,
                 "longitude": 139.702,
-                "name": "代々木",
-                "nameEn": "Yoyogi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Yoyogi",
+                    "ja": "代々木"
+                },
                 "stationCode": "JY18"
             },
             {
                 "id": "Station:JR-East.Yamanote.Harajuku",
                 "latitude": 35.6702,
                 "longitude": 139.7027,
-                "name": "原宿",
-                "nameEn": "Harajuku",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Harajuku",
+                    "ja": "原宿",
+                    "ko": "하라주쿠",
+                    "zh-Hans": "原宿",
+                    "zh-Hant": "原宿"
+                },
                 "stationCode": "JY19"
             },
             {
                 "id": "Station:JR-East.Yamanote.Shibuya",
                 "latitude": 35.658,
                 "longitude": 139.7016,
-                "name": "渋谷",
-                "nameEn": "Shibuya",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shibuya",
+                    "ja": "渋谷",
+                    "ko": "시부야",
+                    "zh-Hans": "涩谷",
+                    "zh-Hant": "澀谷"
+                },
                 "stationCode": "JY20"
             },
             {
                 "id": "Station:JR-East.Yamanote.Ebisu",
                 "latitude": 35.6467,
                 "longitude": 139.7101,
-                "name": "恵比寿",
-                "nameEn": "Ebisu",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ebisu",
+                    "ja": "恵比寿",
+                    "ko": "에비스",
+                    "zh-Hans": "惠比寿",
+                    "zh-Hant": "惠比壽"
+                },
                 "stationCode": "JY21"
             },
             {
                 "id": "Station:JR-East.Yamanote.Meguro",
                 "latitude": 35.634,
                 "longitude": 139.7157,
-                "name": "目黒",
-                "nameEn": "Meguro",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Meguro",
+                    "ja": "目黒",
+                    "ko": "메구로",
+                    "zh-Hans": "目黑",
+                    "zh-Hant": "目黑"
+                },
                 "stationCode": "JY22"
             },
             {
                 "id": "Station:JR-East.Yamanote.Gotanda",
                 "latitude": 35.6262,
                 "longitude": 139.7233,
-                "name": "五反田",
-                "nameEn": "Gotanda",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Gotanda",
+                    "ja": "五反田",
+                    "ko": "고탄다",
+                    "zh-Hans": "五反田",
+                    "zh-Hant": "五反田"
+                },
                 "stationCode": "JY23"
             },
             {
                 "id": "Station:JR-East.Yamanote.Osaki",
                 "latitude": 35.6197,
                 "longitude": 139.7286,
-                "name": "大崎",
-                "nameEn": "Osaki",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Osaki",
+                    "ja": "大崎",
+                    "ko": "오사키",
+                    "zh-Hans": "大崎",
+                    "zh-Hant": "大崎"
+                },
                 "stationCode": "JY24"
             },
             {
                 "id": "Station:JR-East.Yamanote.Shinagawa",
                 "latitude": 35.6285,
                 "longitude": 139.7388,
-                "name": "品川",
-                "nameEn": "Shinagawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shinagawa",
+                    "ja": "品川",
+                    "ko": "시나가와",
+                    "zh-Hans": "品川",
+                    "zh-Hant": "品川"
+                },
                 "stationCode": "JY25"
             },
             {
                 "id": "Station:JR-East.Yamanote.TakanawaGateway",
                 "latitude": 35.6355,
                 "longitude": 139.7407,
-                "name": "高輪ゲートウェイ",
-                "nameEn": "Takanawa Gateway",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Takanawa Gateway",
+                    "ja": "高輪ゲートウェイ",
+                    "ko": "다카나와 게이트웨이",
+                    "zh-Hans": "高轮Gateway",
+                    "zh-Hant": "高輪Gateway"
+                },
                 "stationCode": "JY26"
             },
             {
                 "id": "Station:JR-East.Yamanote.Tamachi",
                 "latitude": 35.6457,
                 "longitude": 139.7476,
-                "name": "田町",
-                "nameEn": "Tamachi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tamachi",
+                    "ja": "田町",
+                    "ko": "다마치",
+                    "zh-Hans": "田町",
+                    "zh-Hant": "田町"
+                },
                 "stationCode": "JY27"
             },
             {
                 "id": "Station:JR-East.Yamanote.Hamamatsucho",
                 "latitude": 35.6556,
                 "longitude": 139.757,
-                "name": "浜松町",
-                "nameEn": "Hamamatsucho",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Hamamatsucho",
+                    "ja": "浜松町",
+                    "ko": "하마마쓰초",
+                    "zh-Hans": "滨松町",
+                    "zh-Hant": "濱松町"
+                },
                 "stationCode": "JY28"
             },
             {
                 "id": "Station:JR-East.Yamanote.Shimbashi",
                 "latitude": 35.6663,
                 "longitude": 139.7583,
-                "name": "新橋",
-                "nameEn": "Shimbashi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shimbashi",
+                    "ja": "新橋",
+                    "ko": "신바시",
+                    "zh-Hans": "新桥",
+                    "zh-Hant": "新橋"
+                },
                 "stationCode": "JY29"
             },
             {
                 "id": "Station:JR-East.Yamanote.Yurakucho",
                 "latitude": 35.6749,
                 "longitude": 139.7628,
-                "name": "有楽町",
-                "nameEn": "Yurakucho",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Yurakucho",
+                    "ja": "有楽町",
+                    "ko": "유라쿠초",
+                    "zh-Hans": "有乐町",
+                    "zh-Hant": "有樂町"
+                },
                 "stationCode": "JY30"
             }
         ],

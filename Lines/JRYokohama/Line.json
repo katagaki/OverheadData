@@ -2,10 +2,14 @@
     {
         "colorHex": "#7FC342",
         "delayInfo": {
-            "checkMethodEn": "Check the JR East Train Operation Information page or the JR East app. In the Tokyo area, delays or suspensions of 15 minutes or more are posted.",
-            "checkMethodJa": "JR東日本「列車運行情報」ページまたはJR東日本アプリで確認できます。首都圏エリアでは15分以上の遅れ・運休が発生または見込まれる場合に掲載されます。",
-            "statusPageURL": "https://traininfo.jreast.co.jp/train_info/line.aspx?gid=1&lineid=yokohamaline",
-            "statusPageURLEn": "https://traininfo.jreast.co.jp/train_info/e/kanto.aspx",
+            "checkMethod": {
+                "en": "Check the JR East Train Operation Information page or the JR East app. In the Tokyo area, delays or suspensions of 15 minutes or more are posted.",
+                "ja": "JR東日本「列車運行情報」ページまたはJR東日本アプリで確認できます。首都圏エリアでは15分以上の遅れ・運休が発生または見込まれる場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://traininfo.jreast.co.jp/train_info/e/kanto.aspx",
+                "ja": "https://traininfo.jreast.co.jp/train_info/line.aspx?gid=1&lineid=yokohamaline"
+            },
             "xAccount": "@JRE_F_Tokaido"
         },
         "directions": [
@@ -15,8 +19,10 @@
                 "id": "static.RailDirection:JR-East.Yokohama.Hachioji",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Hachioji",
-                "nameJa": "八王子方面",
+                "name": {
+                    "en": "For Hachioji",
+                    "ja": "八王子方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -78,8 +84,10 @@
                 "id": "static.RailDirection:JR-East.Yokohama.HigashiKanagawa",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Higashi-Kanagawa",
-                "nameJa": "東神奈川方面",
+                "name": {
+                    "en": "For Higashi-Kanagawa",
+                    "ja": "東神奈川方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -131,228 +139,273 @@
         "hopTimesMinutes": [3, 3, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 2, 3, 3, 3, 3, 2, 3],
         "id": "Railway:JR-East.Yokohama",
         "isLoop": false,
-        "nameEn": "Yokohama Line",
-        "nameJa": "横浜線",
+        "name": {
+            "en": "Yokohama Line",
+            "ja": "横浜線",
+            "ko": "요코하마선",
+            "zh-Hans": "横滨线",
+            "zh-Hant": "橫濱線"
+        },
         "operatorId": "Operator:JR-East",
         "stations": [
             {
                 "id": "Station:JR-East.Yokohama.HigashiKanagawa",
                 "latitude": 35.4772,
                 "longitude": 139.6343,
-                "name": "東神奈川",
-                "nameEn": "Higashi-Kanagawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Higashi-Kanagawa",
+                    "ja": "東神奈川",
+                    "ko": "히가시카나가와",
+                    "zh-Hans": "东神奈川",
+                    "zh-Hant": "東神奈川"
+                },
                 "stationCode": "JH13"
             },
             {
                 "id": "Station:JR-East.Yokohama.Oguchi",
                 "latitude": 35.492377,
                 "longitude": 139.646287,
-                "name": "大口",
-                "nameEn": "Oguchi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Oguchi",
+                    "ja": "大口",
+                    "ko": "오구치",
+                    "zh-Hans": "大口",
+                    "zh-Hant": "大口"
+                },
                 "stationCode": "JH14"
             },
             {
                 "id": "Station:JR-East.Yokohama.Kikuna",
                 "latitude": 35.5093,
                 "longitude": 139.6303,
-                "name": "菊名",
-                "nameEn": "Kikuna",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kikuna",
+                    "ja": "菊名",
+                    "ko": "기쿠나",
+                    "zh-Hans": "菊名",
+                    "zh-Hant": "菊名"
+                },
                 "stationCode": "JH15"
             },
             {
                 "id": "Station:JR-East.Yokohama.ShinYokohama",
                 "latitude": 35.507,
                 "longitude": 139.617,
-                "name": "新横浜",
-                "nameEn": "Shin-Yokohama",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shin-Yokohama",
+                    "ja": "新横浜",
+                    "ko": "신요코하마",
+                    "zh-Hans": "新横滨",
+                    "zh-Hant": "新橫濱"
+                },
                 "stationCode": "JH16"
             },
             {
                 "id": "Station:JR-East.Yokohama.Kozukue",
                 "latitude": 35.5095,
                 "longitude": 139.601,
-                "name": "小机",
-                "nameEn": "Kozukue",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kozukue",
+                    "ja": "小机",
+                    "ko": "고즈쿠에",
+                    "zh-Hans": "小机",
+                    "zh-Hant": "小机"
+                },
                 "stationCode": "JH17"
             },
             {
                 "id": "Station:JR-East.Yokohama.Kamoi",
                 "latitude": 35.5098,
                 "longitude": 139.5678,
-                "name": "鴨居",
-                "nameEn": "Kamoi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kamoi",
+                    "ja": "鴨居",
+                    "ko": "가모이",
+                    "zh-Hans": "鸭居",
+                    "zh-Hant": "鴨居"
+                },
                 "stationCode": "JH18"
             },
             {
                 "id": "Station:JR-East.Yokohama.Nakayama",
                 "latitude": 35.5149,
                 "longitude": 139.5387,
-                "name": "中山",
-                "nameEn": "Nakayama",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nakayama",
+                    "ja": "中山",
+                    "ko": "나카야마",
+                    "zh-Hans": "中山",
+                    "zh-Hant": "中山"
+                },
                 "stationCode": "JH19"
             },
             {
                 "id": "Station:JR-East.Yokohama.Tokaichiba",
                 "latitude": 35.526306,
                 "longitude": 139.516592,
-                "name": "十日市場",
-                "nameEn": "Tokaichiba",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tokaichiba",
+                    "ja": "十日市場",
+                    "ko": "도카이치바",
+                    "zh-Hans": "十日市场",
+                    "zh-Hant": "十日市場"
+                },
                 "stationCode": "JH20"
             },
             {
                 "id": "Station:JR-East.Yokohama.Nagatsuta",
                 "latitude": 35.5318,
                 "longitude": 139.4944,
-                "name": "長津田",
-                "nameEn": "Nagatsuta",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nagatsuta",
+                    "ja": "長津田",
+                    "ko": "나가쓰타",
+                    "zh-Hans": "长津田",
+                    "zh-Hant": "長津田"
+                },
                 "stationCode": "JH21"
             },
             {
                 "id": "Station:JR-East.Yokohama.Naruse",
                 "latitude": 35.535388,
                 "longitude": 139.472847,
-                "name": "成瀬",
-                "nameEn": "Naruse",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Naruse",
+                    "ja": "成瀬",
+                    "ko": "나루세",
+                    "zh-Hans": "成濑",
+                    "zh-Hant": "成瀨"
+                },
                 "stationCode": "JH22"
             },
             {
                 "id": "Station:JR-East.Yokohama.Machida",
                 "latitude": 35.5421,
                 "longitude": 139.4451,
-                "name": "町田",
-                "nameEn": "Machida",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Machida",
+                    "ja": "町田",
+                    "ko": "마치다",
+                    "zh-Hans": "町田",
+                    "zh-Hant": "町田"
+                },
                 "stationCode": "JH23"
             },
             {
                 "id": "Station:JR-East.Yokohama.Kobuchi",
                 "latitude": 35.555951,
                 "longitude": 139.419314,
-                "name": "古淵",
-                "nameEn": "Kobuchi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kobuchi",
+                    "ja": "古淵",
+                    "ko": "고부치",
+                    "zh-Hans": "古渊",
+                    "zh-Hant": "古淵"
+                },
                 "stationCode": "JH24"
             },
             {
                 "id": "Station:JR-East.Yokohama.Fuchinobe",
                 "latitude": 35.568732,
                 "longitude": 139.39482,
-                "name": "淵野辺",
-                "nameEn": "Fuchinobe",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Fuchinobe",
+                    "ja": "淵野辺",
+                    "ko": "후치노베",
+                    "zh-Hans": "渊野边",
+                    "zh-Hant": "淵野邊"
+                },
                 "stationCode": "JH25"
             },
             {
                 "id": "Station:JR-East.Yokohama.Yabe",
                 "latitude": 35.5737,
                 "longitude": 139.3882,
-                "name": "矢部",
-                "nameEn": "Yabe",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Yabe",
+                    "ja": "矢部",
+                    "ko": "야베",
+                    "zh-Hans": "矢部",
+                    "zh-Hant": "矢部"
+                },
                 "stationCode": "JH26"
             },
             {
                 "id": "Station:JR-East.Yokohama.Sagamihara",
                 "latitude": 35.581455,
                 "longitude": 139.37074,
-                "name": "相模原",
-                "nameEn": "Sagamihara",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Sagamihara",
+                    "ja": "相模原",
+                    "ko": "사가미하라",
+                    "zh-Hans": "相模原",
+                    "zh-Hant": "相模原"
+                },
                 "stationCode": "JH27"
             },
             {
                 "id": "Station:JR-East.Yokohama.Hashimoto",
                 "latitude": 35.5948,
                 "longitude": 139.3449,
-                "name": "橋本",
-                "nameEn": "Hashimoto",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Hashimoto",
+                    "ja": "橋本",
+                    "ko": "하시모토",
+                    "zh-Hans": "桥本",
+                    "zh-Hant": "橋本"
+                },
                 "stationCode": "JH28"
             },
             {
                 "id": "Station:JR-East.Yokohama.Aihara",
                 "latitude": 35.606844,
                 "longitude": 139.331689,
-                "name": "相原",
-                "nameEn": "Aihara",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Aihara",
+                    "ja": "相原",
+                    "ko": "아이하라",
+                    "zh-Hans": "相原",
+                    "zh-Hant": "相原"
+                },
                 "stationCode": "JH29"
             },
             {
                 "id": "Station:JR-East.Yokohama.HachiojiMinamino",
                 "latitude": 35.631256,
                 "longitude": 139.330934,
-                "name": "八王子みなみ野",
-                "nameEn": "Hachioji-Minamino",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Hachioji-Minamino",
+                    "ja": "八王子みなみ野",
+                    "ko": "하치오지미나미노",
+                    "zh-Hans": "八王子南野",
+                    "zh-Hant": "八王子南野"
+                },
                 "stationCode": "JH30"
             },
             {
                 "id": "Station:JR-East.Yokohama.Katakura",
                 "latitude": 35.639801,
                 "longitude": 139.341434,
-                "name": "片倉",
-                "nameEn": "Katakura",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Katakura",
+                    "ja": "片倉",
+                    "ko": "가타쿠라",
+                    "zh-Hans": "片仓",
+                    "zh-Hant": "片倉"
+                },
                 "stationCode": "JH31"
             },
             {
                 "id": "Station:JR-East.Yokohama.Hachioji",
                 "latitude": 35.6553,
                 "longitude": 139.339,
-                "name": "八王子",
-                "nameEn": "Hachioji",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Hachioji",
+                    "ja": "八王子",
+                    "ko": "하치오지",
+                    "zh-Hans": "八王子",
+                    "zh-Hant": "八王子"
+                },
                 "stationCode": "JH32"
             }
         ],
@@ -362,10 +415,14 @@
                 "connectingLineId": "Railway:JR-East.KeihinTohoku",
                 "end": "descending",
                 "junctionStationId": "Station:JR-East.Yokohama.HigashiKanagawa",
-                "lineNameEn": "JR Negishi Line",
-                "lineNameJa": "根岸線",
-                "towardEn": "for Sakuragicho & Ofuna",
-                "towardJa": "桜木町・大船方面"
+                "lineName": {
+                    "en": "JR Negishi Line",
+                    "ja": "根岸線"
+                },
+                "toward": {
+                    "en": "for Sakuragicho & Ofuna",
+                    "ja": "桜木町・大船方面"
+                }
             }
         ],
         "timetableRuns": [

@@ -2,10 +2,14 @@
     {
         "colorHex": "#1D2088",
         "delayInfo": {
-            "checkMethodEn": "Check the Kanto Railway website or X (@kantetsu_train). Notices are posted when a delay of about 15 minutes or more occurs or is expected.",
-            "checkMethodJa": "関東鉄道の公式サイトまたはX（@kantetsu_train）で確認できます。おおむね15分以上の遅れが発生・見込まれる場合に掲載されます。",
-            "statusPageURL": "https://www.kantetsu.co.jp/train/",
-            "statusPageURLEn": "https://www.kantetsu.co.jp/train/",
+            "checkMethod": {
+                "en": "Check the Kanto Railway website or X (@kantetsu_train). Notices are posted when a delay of about 15 minutes or more occurs or is expected.",
+                "ja": "関東鉄道の公式サイトまたはX（@kantetsu_train）で確認できます。おおむね15分以上の遅れが発生・見込まれる場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://www.kantetsu.co.jp/train/",
+                "ja": "https://www.kantetsu.co.jp/train/"
+            },
             "xAccount": "@kantetsu_train"
         },
         "directions": [
@@ -15,13 +19,15 @@
                 "id": "static.RailDirection:Kantetsu.Ryugasaki.Ryugasaki",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Ryugasaki",
-                "nameJa": "竜ヶ崎方面",
+                "name": {
+                    "en": "For Ryugasaki",
+                    "ja": "竜ヶ崎方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
                             "from": "05:42",
-                            "headwayMinutes": 19.0
+                            "headwayMinutes": 19
                         },
                         {
                             "from": "06:00",
@@ -29,19 +35,19 @@
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 29.0
+                            "headwayMinutes": 29
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 35.0
+                            "headwayMinutes": 35
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 30.0
+                            "headwayMinutes": 30
                         },
                         {
                             "from": "15:00",
-                            "headwayMinutes": 35.0
+                            "headwayMinutes": 35
                         },
                         {
                             "from": "16:00",
@@ -57,7 +63,7 @@
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 22.0
+                            "headwayMinutes": 22
                         },
                         {
                             "from": "20:00",
@@ -65,7 +71,7 @@
                         },
                         {
                             "from": "21:00",
-                            "headwayMinutes": 26.0
+                            "headwayMinutes": 26
                         },
                         {
                             "from": "22:00",
@@ -80,7 +86,7 @@
                     "bands": [
                         {
                             "from": "05:42",
-                            "headwayMinutes": 19.0
+                            "headwayMinutes": 19
                         },
                         {
                             "from": "06:00",
@@ -88,19 +94,19 @@
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 29.0
+                            "headwayMinutes": 29
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 35.0
+                            "headwayMinutes": 35
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 30.0
+                            "headwayMinutes": 30
                         },
                         {
                             "from": "15:00",
-                            "headwayMinutes": 35.0
+                            "headwayMinutes": 35
                         },
                         {
                             "from": "16:00",
@@ -116,7 +122,7 @@
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 22.0
+                            "headwayMinutes": 22
                         },
                         {
                             "from": "20:00",
@@ -124,7 +130,7 @@
                         },
                         {
                             "from": "21:00",
-                            "headwayMinutes": 26.0
+                            "headwayMinutes": 26
                         },
                         {
                             "from": "22:00",
@@ -142,8 +148,10 @@
                 "id": "static.RailDirection:Kantetsu.Ryugasaki.Sanuki",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Sanuki",
-                "nameJa": "佐貫方面",
+                "name": {
+                    "en": "For Sanuki",
+                    "ja": "佐貫方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -160,23 +168,23 @@
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 28.0
+                            "headwayMinutes": 28
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 30.0
+                            "headwayMinutes": 30
                         },
                         {
                             "from": "14:00",
-                            "headwayMinutes": 35.0
+                            "headwayMinutes": 35
                         },
                         {
                             "from": "15:00",
-                            "headwayMinutes": 30.0
+                            "headwayMinutes": 30
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 25.0
+                            "headwayMinutes": 25
                         },
                         {
                             "from": "17:00",
@@ -184,7 +192,7 @@
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "19:00",
@@ -192,11 +200,11 @@
                         },
                         {
                             "from": "20:00",
-                            "headwayMinutes": 30.0
+                            "headwayMinutes": 30
                         },
                         {
                             "from": "21:00",
-                            "headwayMinutes": 26.0
+                            "headwayMinutes": 26
                         },
                         {
                             "from": "22:00",
@@ -223,23 +231,23 @@
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 28.0
+                            "headwayMinutes": 28
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 30.0
+                            "headwayMinutes": 30
                         },
                         {
                             "from": "14:00",
-                            "headwayMinutes": 35.0
+                            "headwayMinutes": 35
                         },
                         {
                             "from": "15:00",
-                            "headwayMinutes": 30.0
+                            "headwayMinutes": 30
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 25.0
+                            "headwayMinutes": 25
                         },
                         {
                             "from": "17:00",
@@ -247,7 +255,7 @@
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "19:00",
@@ -255,11 +263,11 @@
                         },
                         {
                             "from": "20:00",
-                            "headwayMinutes": 30.0
+                            "headwayMinutes": 30
                         },
                         {
                             "from": "21:00",
-                            "headwayMinutes": 26.0
+                            "headwayMinutes": 26
                         },
                         {
                             "from": "22:00",
@@ -272,44 +280,55 @@
                 }
             }
         ],
-        "hopTimesMinutes": [3.0, 4.0],
+        "hopTimesMinutes": [3, 4],
         "id": "Railway:Kantetsu.Ryugasaki",
         "isLoop": false,
-        "nameEn": "Kanto Railway Ryugasaki Line",
-        "nameJa": "関東鉄道竜ヶ崎線",
+        "name": {
+            "en": "Kanto Railway Ryugasaki Line",
+            "ja": "関東鉄道竜ヶ崎線",
+            "ko": "간토 철도 류가사키선",
+            "zh-Hans": "龙崎线",
+            "zh-Hant": "龍崎線"
+        },
         "operatorId": "Operator:Kantetsu",
         "stations": [
             {
                 "id": "Station:Kantetsu.Ryugasaki.Sanuki",
                 "latitude": 35.9296,
                 "longitude": 140.13842,
-                "name": "佐貫",
-                "nameEn": "Sanuki",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Sanuki",
+                    "ja": "佐貫",
+                    "ko": "사누키",
+                    "zh-Hans": "佐贯",
+                    "zh-Hant": "佐貫"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Kantetsu.Ryugasaki.Irichi",
                 "latitude": 35.91917,
                 "longitude": 140.157,
-                "name": "入地",
-                "nameEn": "Irichi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Irichi",
+                    "ja": "入地",
+                    "ko": "이레지",
+                    "zh-Hans": "入地",
+                    "zh-Hant": "入地"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Kantetsu.Ryugasaki.Ryugasaki",
                 "latitude": 35.90841,
                 "longitude": 140.17933,
-                "name": "竜ヶ崎",
-                "nameEn": "Ryugasaki",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ryugasaki",
+                    "ja": "竜ヶ崎",
+                    "ko": "류가사키",
+                    "zh-Hans": "龙崎",
+                    "zh-Hant": "龍崎"
+                },
                 "stationCode": ""
             }
         ],
@@ -1757,6 +1776,6 @@
                 "type": "Local"
             }
         ],
-        "upHopTimesMinutes": [4.0, 3.0]
+        "upHopTimesMinutes": [4, 3]
     }
 ]

@@ -2,10 +2,14 @@
     {
         "colorHex": "#00ADA9",
         "delayInfo": {
-            "checkMethodEn": "Check the Tokyo Metro Service Information page, the official app, or X (@tokyometro_info). Delays or suspensions of 15 minutes or more are posted.",
-            "checkMethodJa": "東京メトロ「運行情報」ページ、公式アプリ、またはX（@tokyometro_info）で確認できます。15分以上の遅れ・運転見合わせが発生した場合に掲載されます。",
-            "statusPageURL": "https://www.tokyometro.jp/unkou/history/nanboku.html",
-            "statusPageURLEn": "https://www.tokyometro.jp/lang_en/unkou/history/nanboku.html",
+            "checkMethod": {
+                "en": "Check the Tokyo Metro Service Information page, the official app, or X (@tokyometro_info). Delays or suspensions of 15 minutes or more are posted.",
+                "ja": "東京メトロ「運行情報」ページ、公式アプリ、またはX（@tokyometro_info）で確認できます。15分以上の遅れ・運転見合わせが発生した場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://www.tokyometro.jp/lang_en/unkou/history/nanboku.html",
+                "ja": "https://www.tokyometro.jp/unkou/history/nanboku.html"
+            },
             "xAccount": "@N_line_info"
         },
         "directions": [
@@ -36,8 +40,10 @@
                     }
                 ],
                 "isAscending": true,
-                "nameEn": "For Akabane-iwabuchi",
-                "nameJa": "赤羽岩淵方面",
+                "name": {
+                    "en": "For Akabane-iwabuchi",
+                    "ja": "赤羽岩淵方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -119,8 +125,10 @@
                     }
                 ],
                 "isAscending": false,
-                "nameEn": "For Meguro",
-                "nameJa": "目黒方面",
+                "name": {
+                    "en": "For Meguro",
+                    "ja": "目黒方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -184,217 +192,257 @@
         "hopTimesMinutes": [2, 3, 2, 2, 3, 2, 3, 2, 2, 2, 3, 2, 3, 2, 2, 2, 3, 2],
         "id": "Railway:TokyoMetro.Namboku",
         "isLoop": false,
-        "nameEn": "Namboku Line",
-        "nameJa": "南北線",
+        "name": {
+            "en": "Namboku Line",
+            "ja": "南北線",
+            "ko": "기타오사카 급행전철 난보쿠 선",
+            "zh-Hans": "南北线",
+            "zh-Hant": "南北線"
+        },
         "operatorId": "Operator:TokyoMetro",
         "stations": [
             {
                 "id": "Station:TokyoMetro.Namboku.Meguro",
                 "latitude": 35.632508,
                 "longitude": 139.715772,
-                "name": "目黒",
-                "nameEn": "Meguro",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Meguro",
+                    "ja": "目黒",
+                    "ko": "메구로",
+                    "zh-Hans": "目黑",
+                    "zh-Hant": "目黑"
+                },
                 "stationCode": "N01"
             },
             {
                 "id": "Station:TokyoMetro.Namboku.Shirokanedai",
                 "latitude": 35.6376,
                 "longitude": 139.7263,
-                "name": "白金台",
-                "nameEn": "Shirokanedai",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shirokanedai",
+                    "ja": "白金台",
+                    "ko": "시로카네다이",
+                    "zh-Hans": "白金台",
+                    "zh-Hant": "白金台"
+                },
                 "stationCode": "N02"
             },
             {
                 "id": "Station:TokyoMetro.Namboku.ShirokaneTakanawa",
                 "latitude": 35.6431,
                 "longitude": 139.7343,
-                "name": "白金高輪",
-                "nameEn": "Shirokane-takanawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shirokane-takanawa",
+                    "ja": "白金高輪",
+                    "ko": "시로카네타카나와",
+                    "zh-Hans": "白金高轮",
+                    "zh-Hant": "白金高輪"
+                },
                 "stationCode": "N03"
             },
             {
                 "id": "Station:TokyoMetro.Namboku.AzabuJuban",
                 "latitude": 35.6544,
                 "longitude": 139.7368,
-                "name": "麻布十番",
-                "nameEn": "Azabu-juban",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Azabu-juban",
+                    "ja": "麻布十番",
+                    "ko": "아자부주반",
+                    "zh-Hans": "麻布十番",
+                    "zh-Hant": "麻布十番"
+                },
                 "stationCode": "N04"
             },
             {
                 "id": "Station:TokyoMetro.Namboku.RoppongiItchome",
                 "latitude": 35.664973,
                 "longitude": 139.738849,
-                "name": "六本木一丁目",
-                "nameEn": "Roppongi-itchome",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Roppongi-itchome",
+                    "ja": "六本木一丁目",
+                    "ko": "롯폰기 1초메",
+                    "zh-Hans": "六本木一丁目",
+                    "zh-Hant": "六本木一丁目"
+                },
                 "stationCode": "N05"
             },
             {
                 "id": "Station:TokyoMetro.Namboku.TameikeSanno",
                 "latitude": 35.6739,
                 "longitude": 139.7413,
-                "name": "溜池山王",
-                "nameEn": "Tameike-sanno",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tameike-sanno",
+                    "ja": "溜池山王",
+                    "ko": "다메이케산노",
+                    "zh-Hans": "溜池山王",
+                    "zh-Hant": "溜池山王"
+                },
                 "stationCode": "N06"
             },
             {
                 "id": "Station:TokyoMetro.Namboku.Nagatacho",
                 "latitude": 35.6787,
                 "longitude": 139.7413,
-                "name": "永田町",
-                "nameEn": "Nagatacho",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nagatacho",
+                    "ja": "永田町",
+                    "ko": "나가타초",
+                    "zh-Hans": "永田町",
+                    "zh-Hant": "永田町"
+                },
                 "stationCode": "N07"
             },
             {
                 "id": "Station:TokyoMetro.Namboku.Yotsuya",
                 "latitude": 35.6857,
                 "longitude": 139.7292,
-                "name": "四ツ谷",
-                "nameEn": "Yotsuya",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Yotsuya",
+                    "ja": "四ツ谷",
+                    "ko": "요쓰야",
+                    "zh-Hans": "四谷",
+                    "zh-Hant": "四谷"
+                },
                 "stationCode": "N08"
             },
             {
                 "id": "Station:TokyoMetro.Namboku.Ichigaya",
                 "latitude": 35.6912,
                 "longitude": 139.736,
-                "name": "市ケ谷",
-                "nameEn": "Ichigaya",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ichigaya",
+                    "ja": "市ケ谷",
+                    "ko": "이치가야",
+                    "zh-Hans": "市谷",
+                    "zh-Hant": "市谷"
+                },
                 "stationCode": "N09"
             },
             {
                 "id": "Station:TokyoMetro.Namboku.Iidabashi",
                 "latitude": 35.7018,
                 "longitude": 139.7452,
-                "name": "飯田橋",
-                "nameEn": "Iidabashi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Iidabashi",
+                    "ja": "飯田橋",
+                    "ko": "이다바시",
+                    "zh-Hans": "饭田桥",
+                    "zh-Hant": "飯田橋"
+                },
                 "stationCode": "N10"
             },
             {
                 "id": "Station:TokyoMetro.Namboku.Korakuen",
                 "latitude": 35.708,
                 "longitude": 139.7512,
-                "name": "後楽園",
-                "nameEn": "Korakuen",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Korakuen",
+                    "ja": "後楽園",
+                    "ko": "고라쿠엔",
+                    "zh-Hans": "后乐园",
+                    "zh-Hant": "後樂園"
+                },
                 "stationCode": "N11"
             },
             {
                 "id": "Station:TokyoMetro.Namboku.Todaimae",
                 "latitude": 35.7175,
                 "longitude": 139.7578,
-                "name": "東大前",
-                "nameEn": "Todaimae",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Todaimae",
+                    "ja": "東大前",
+                    "ko": "도다이마에",
+                    "zh-Hans": "东大前",
+                    "zh-Hant": "東大前"
+                },
                 "stationCode": "N12"
             },
             {
                 "id": "Station:TokyoMetro.Namboku.HonKomagome",
                 "latitude": 35.7245,
                 "longitude": 139.754,
-                "name": "本駒込",
-                "nameEn": "Hon-komagome",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Hon-komagome",
+                    "ja": "本駒込",
+                    "ko": "혼코마고메",
+                    "zh-Hans": "本驹込",
+                    "zh-Hant": "本駒込"
+                },
                 "stationCode": "N13"
             },
             {
                 "id": "Station:TokyoMetro.Namboku.Komagome",
                 "latitude": 35.7365,
                 "longitude": 139.746,
-                "name": "駒込",
-                "nameEn": "Komagome",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Komagome",
+                    "ja": "駒込"
+                },
                 "stationCode": "N14"
             },
             {
                 "id": "Station:TokyoMetro.Namboku.Nishigahara",
                 "latitude": 35.74605,
                 "longitude": 139.742172,
-                "name": "西ケ原",
-                "nameEn": "Nishigahara",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nishigahara",
+                    "ja": "西ケ原",
+                    "ko": "니시가하라",
+                    "zh-Hans": "西原",
+                    "zh-Hant": "西原"
+                },
                 "stationCode": "N15"
             },
             {
                 "id": "Station:TokyoMetro.Namboku.Oji",
                 "latitude": 35.753962,
                 "longitude": 139.737524,
-                "name": "王子",
-                "nameEn": "Oji",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Oji",
+                    "ja": "王子",
+                    "ko": "오지",
+                    "zh-Hans": "王子",
+                    "zh-Hant": "王子"
+                },
                 "stationCode": "N16"
             },
             {
                 "id": "Station:TokyoMetro.Namboku.OjiKamiya",
                 "latitude": 35.765055,
                 "longitude": 139.735718,
-                "name": "王子神谷",
-                "nameEn": "Oji-kamiya",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Oji-kamiya",
+                    "ja": "王子神谷",
+                    "ko": "오지카미야",
+                    "zh-Hans": "王子神谷",
+                    "zh-Hant": "王子神谷"
+                },
                 "stationCode": "N17"
             },
             {
                 "id": "Station:TokyoMetro.Namboku.Shimo",
                 "latitude": 35.777904,
                 "longitude": 139.732526,
-                "name": "志茂",
-                "nameEn": "Shimo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shimo",
+                    "ja": "志茂",
+                    "ko": "시모",
+                    "zh-Hans": "志茂",
+                    "zh-Hant": "志茂"
+                },
                 "stationCode": "N18"
             },
             {
                 "id": "Station:TokyoMetro.Namboku.AkabaneIwabuchi",
                 "latitude": 35.783,
                 "longitude": 139.7218,
-                "name": "赤羽岩淵",
-                "nameEn": "Akabane-iwabuchi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Akabane-iwabuchi",
+                    "ja": "赤羽岩淵",
+                    "ko": "아카바네이와부치",
+                    "zh-Hans": "赤羽岩渊",
+                    "zh-Hant": "赤羽岩淵"
+                },
                 "stationCode": "N19"
             }
         ],
@@ -404,19 +452,27 @@
                 "connectingLineId": "Railway:SaitamaRailway.SaitamaRailway",
                 "end": "ascending",
                 "junctionStationId": "Station:TokyoMetro.Namboku.AkabaneIwabuchi",
-                "lineNameEn": "Saitama Rapid Railway Line",
-                "lineNameJa": "埼玉高速鉄道線",
-                "towardEn": "for Urawa-Misono",
-                "towardJa": "浦和美園方面"
+                "lineName": {
+                    "en": "Saitama Rapid Railway Line",
+                    "ja": "埼玉高速鉄道線"
+                },
+                "toward": {
+                    "en": "for Urawa-Misono",
+                    "ja": "浦和美園方面"
+                }
             },
             {
                 "connectingLineId": "Railway:Tokyu.Meguro",
                 "end": "descending",
                 "junctionStationId": "Station:TokyoMetro.Namboku.Meguro",
-                "lineNameEn": "Tokyu Meguro & Shin-Yokohama Lines",
-                "lineNameJa": "東急目黒線・新横浜線",
-                "towardEn": "for Hiyoshi & Shin-Yokohama",
-                "towardJa": "日吉・新横浜方面"
+                "lineName": {
+                    "en": "Tokyu Meguro & Shin-Yokohama Lines",
+                    "ja": "東急目黒線・新横浜線"
+                },
+                "toward": {
+                    "en": "for Hiyoshi & Shin-Yokohama",
+                    "ja": "日吉・新横浜方面"
+                }
             }
         ]
     }

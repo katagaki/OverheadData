@@ -2,10 +2,14 @@
     {
         "colorHex": "#F5A302",
         "delayInfo": {
-            "checkMethodEn": "Check the Tobu Railway service status page, the Tobu app, or X (@TobuRailway_JP). Delays of roughly 10 minutes or more and suspensions are posted.",
-            "checkMethodJa": "東武鉄道「運行情報」ページ、東武線アプリ、またはX（@TobuRailway_JP）で確認できます。おおむね10分以上の遅延・運転見合わせが発生した場合に掲載されます。",
-            "statusPageURL": "https://www.tobu.co.jp/service_status/",
-            "statusPageURLEn": "https://www.tobu.co.jp/service_status/",
+            "checkMethod": {
+                "en": "Check the Tobu Railway service status page, the Tobu app, or X (@TobuRailway_JP). Delays of roughly 10 minutes or more and suspensions are posted.",
+                "ja": "東武鉄道「運行情報」ページ、東武線アプリ、またはX（@TobuRailway_JP）で確認できます。おおむね10分以上の遅延・運転見合わせが発生した場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://www.tobu.co.jp/service_status/",
+                "ja": "https://www.tobu.co.jp/service_status/"
+            },
             "xAccount": "@TobuRailway_JP"
         },
         "directions": [
@@ -15,29 +19,31 @@
                 "id": "static.RailDirection:Tobu.Utsunomiya.TobuUtsunomiya",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Tobu-utsunomiya",
-                "nameJa": "東武宇都宮方面",
+                "name": {
+                    "en": "For Tobu-utsunomiya",
+                    "ja": "東武宇都宮方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
                             "from": "04:59",
-                            "headwayMinutes": 36.0
+                            "headwayMinutes": 36
                         },
                         {
                             "from": "05:00",
-                            "headwayMinutes": 21.0
+                            "headwayMinutes": 21
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 18.0
+                            "headwayMinutes": 18
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 14.0
+                            "headwayMinutes": 14
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 31.0
+                            "headwayMinutes": 31
                         },
                         {
                             "from": "09:00",
@@ -45,11 +51,11 @@
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 41.0
+                            "headwayMinutes": 41
                         },
                         {
                             "from": "11:00",
-                            "headwayMinutes": 24.0
+                            "headwayMinutes": 24
                         },
                         {
                             "from": "12:00",
@@ -65,7 +71,7 @@
                         },
                         {
                             "from": "15:00",
-                            "headwayMinutes": 21.0
+                            "headwayMinutes": 21
                         },
                         {
                             "from": "19:00",
@@ -73,15 +79,15 @@
                         },
                         {
                             "from": "20:00",
-                            "headwayMinutes": 31.0
+                            "headwayMinutes": 31
                         },
                         {
                             "from": "21:00",
-                            "headwayMinutes": 49.0
+                            "headwayMinutes": 49
                         },
                         {
                             "from": "22:00",
-                            "headwayMinutes": 60.0
+                            "headwayMinutes": 60
                         }
                     ],
                     "firstDeparture": "04:59",
@@ -92,23 +98,23 @@
                     "bands": [
                         {
                             "from": "04:59",
-                            "headwayMinutes": 36.0
+                            "headwayMinutes": 36
                         },
                         {
                             "from": "05:00",
-                            "headwayMinutes": 21.0
+                            "headwayMinutes": 21
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 18.0
+                            "headwayMinutes": 18
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 14.0
+                            "headwayMinutes": 14
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 31.0
+                            "headwayMinutes": 31
                         },
                         {
                             "from": "09:00",
@@ -116,11 +122,11 @@
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 41.0
+                            "headwayMinutes": 41
                         },
                         {
                             "from": "11:00",
-                            "headwayMinutes": 24.0
+                            "headwayMinutes": 24
                         },
                         {
                             "from": "12:00",
@@ -136,7 +142,7 @@
                         },
                         {
                             "from": "15:00",
-                            "headwayMinutes": 21.0
+                            "headwayMinutes": 21
                         },
                         {
                             "from": "19:00",
@@ -144,15 +150,15 @@
                         },
                         {
                             "from": "20:00",
-                            "headwayMinutes": 31.0
+                            "headwayMinutes": 31
                         },
                         {
                             "from": "21:00",
-                            "headwayMinutes": 49.0
+                            "headwayMinutes": 49
                         },
                         {
                             "from": "22:00",
-                            "headwayMinutes": 60.0
+                            "headwayMinutes": 60
                         }
                     ],
                     "firstDeparture": "04:59",
@@ -166,29 +172,31 @@
                 "id": "static.RailDirection:Tobu.Utsunomiya.ShinTochigi",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Shin-tochigi",
-                "nameJa": "新栃木方面",
+                "name": {
+                    "en": "For Shin-tochigi",
+                    "ja": "新栃木方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
                             "from": "04:55",
-                            "headwayMinutes": 44.0
+                            "headwayMinutes": 44
                         },
                         {
                             "from": "05:00",
-                            "headwayMinutes": 25.0
+                            "headwayMinutes": 25
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 17.0
+                            "headwayMinutes": 17
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 19.0
+                            "headwayMinutes": 19
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 18.0
+                            "headwayMinutes": 18
                         },
                         {
                             "from": "09:00",
@@ -196,27 +204,27 @@
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 30.0
+                            "headwayMinutes": 30
                         },
                         {
                             "from": "14:00",
-                            "headwayMinutes": 25.0
+                            "headwayMinutes": 25
                         },
                         {
                             "from": "15:00",
-                            "headwayMinutes": 26.0
+                            "headwayMinutes": 26
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 21.0
+                            "headwayMinutes": 21
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 22.0
+                            "headwayMinutes": 22
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "19:00",
@@ -232,7 +240,7 @@
                         },
                         {
                             "from": "22:00",
-                            "headwayMinutes": 50.0
+                            "headwayMinutes": 50
                         }
                     ],
                     "firstDeparture": "04:55",
@@ -243,23 +251,23 @@
                     "bands": [
                         {
                             "from": "04:55",
-                            "headwayMinutes": 44.0
+                            "headwayMinutes": 44
                         },
                         {
                             "from": "05:00",
-                            "headwayMinutes": 25.0
+                            "headwayMinutes": 25
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 17.0
+                            "headwayMinutes": 17
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 19.0
+                            "headwayMinutes": 19
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 18.0
+                            "headwayMinutes": 18
                         },
                         {
                             "from": "09:00",
@@ -267,27 +275,27 @@
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 30.0
+                            "headwayMinutes": 30
                         },
                         {
                             "from": "14:00",
-                            "headwayMinutes": 25.0
+                            "headwayMinutes": 25
                         },
                         {
                             "from": "15:00",
-                            "headwayMinutes": 26.0
+                            "headwayMinutes": 26
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 21.0
+                            "headwayMinutes": 21
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 22.0
+                            "headwayMinutes": 22
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "19:00",
@@ -303,7 +311,7 @@
                         },
                         {
                             "from": "22:00",
-                            "headwayMinutes": 50.0
+                            "headwayMinutes": 50
                         }
                     ],
                     "firstDeparture": "04:55",
@@ -312,132 +320,159 @@
                 }
             }
         ],
-        "hopTimesMinutes": [3.0, 3.0, 4.0, 5.0, 3.0, 3.0, 4.0, 3.0, 3.0, 3.0],
+        "hopTimesMinutes": [3, 3, 4, 5, 3, 3, 4, 3, 3, 3],
         "id": "Railway:Tobu.Utsunomiya",
         "isLoop": false,
-        "nameEn": "Tobu Utsunomiya Line",
-        "nameJa": "東武宇都宮線",
+        "name": {
+            "en": "Tobu Utsunomiya Line",
+            "ja": "東武宇都宮線",
+            "ko": "도부 철도 우쓰노미야 선",
+            "zh-Hans": "宇都宫线",
+            "zh-Hant": "宇都宮線"
+        },
         "operatorId": "Operator:Tobu",
         "stations": [
             {
                 "id": "Station:Tobu.Utsunomiya.ShinTochigi",
                 "latitude": 36.39006,
                 "longitude": 139.74235,
-                "name": "新栃木",
-                "nameEn": "Shin-tochigi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shin-tochigi",
+                    "ja": "新栃木",
+                    "ko": "신토치기",
+                    "zh-Hans": "新栃木",
+                    "zh-Hant": "新栃木"
+                },
                 "stationCode": "TN12"
             },
             {
                 "id": "Station:Tobu.Utsunomiya.YashuHirakawa",
                 "latitude": 36.40156,
                 "longitude": 139.75378,
-                "name": "野州平川",
-                "nameEn": "Yashu-hirakawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Yashu-hirakawa",
+                    "ja": "野州平川",
+                    "ko": "야슈히라카와",
+                    "zh-Hans": "野州平川",
+                    "zh-Hant": "野州平川"
+                },
                 "stationCode": "TN31"
             },
             {
                 "id": "Station:Tobu.Utsunomiya.YashuOtsuka",
                 "latitude": 36.40877,
                 "longitude": 139.77259,
-                "name": "野州大塚",
-                "nameEn": "Yashu-otsuka",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Yashu-otsuka",
+                    "ja": "野州大塚",
+                    "ko": "야슈오쓰카",
+                    "zh-Hans": "野州大冢",
+                    "zh-Hant": "野州大塚"
+                },
                 "stationCode": "TN32"
             },
             {
                 "id": "Station:Tobu.Utsunomiya.Mibu",
                 "latitude": 36.42243,
                 "longitude": 139.80501,
-                "name": "壬生",
-                "nameEn": "Mibu",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Mibu",
+                    "ja": "壬生",
+                    "ko": "미부",
+                    "zh-Hans": "壬生",
+                    "zh-Hant": "壬生"
+                },
                 "stationCode": "TN33"
             },
             {
                 "id": "Station:Tobu.Utsunomiya.Kuniya",
                 "latitude": 36.45145,
                 "longitude": 139.82385,
-                "name": "国谷",
-                "nameEn": "Kuniya",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kuniya",
+                    "ja": "国谷",
+                    "ko": "구니야",
+                    "zh-Hans": "国谷",
+                    "zh-Hant": "國谷"
+                },
                 "stationCode": "TN34"
             },
             {
                 "id": "Station:Tobu.Utsunomiya.Omochanomachi",
                 "latitude": 36.46674,
                 "longitude": 139.82954,
-                "name": "おもちゃのまち",
-                "nameEn": "Omochanomachi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Omochanomachi",
+                    "ja": "おもちゃのまち",
+                    "ko": "오모차노마치",
+                    "zh-Hans": "玩具之町",
+                    "zh-Hant": "玩具之町"
+                },
                 "stationCode": "TN35"
             },
             {
                 "id": "Station:Tobu.Utsunomiya.Yasuzuka",
                 "latitude": 36.48565,
                 "longitude": 139.83562,
-                "name": "安塚",
-                "nameEn": "Yasuzuka",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Yasuzuka",
+                    "ja": "安塚",
+                    "ko": "야스즈카",
+                    "zh-Hans": "安冢",
+                    "zh-Hant": "安塚"
+                },
                 "stationCode": "TN36"
             },
             {
                 "id": "Station:Tobu.Utsunomiya.Nishikawada",
                 "latitude": 36.51425,
                 "longitude": 139.8503,
-                "name": "西川田",
-                "nameEn": "Nishikawada",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nishikawada",
+                    "ja": "西川田",
+                    "ko": "니시카와다",
+                    "zh-Hans": "西川田",
+                    "zh-Hant": "西川田"
+                },
                 "stationCode": "TN37"
             },
             {
                 "id": "Station:Tobu.Utsunomiya.Esojima",
                 "latitude": 36.53096,
                 "longitude": 139.86082,
-                "name": "江曽島",
-                "nameEn": "Esojima",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Esojima",
+                    "ja": "江曽島",
+                    "ko": "에소지마",
+                    "zh-Hans": "江曾岛",
+                    "zh-Hant": "江曾島"
+                },
                 "stationCode": "TN38"
             },
             {
                 "id": "Station:Tobu.Utsunomiya.MinamiUtsunomiya",
                 "latitude": 36.54371,
                 "longitude": 139.87195,
-                "name": "南宇都宮",
-                "nameEn": "Minami-utsunomiya",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Minami-utsunomiya",
+                    "ja": "南宇都宮",
+                    "ko": "미나미우쓰노미야",
+                    "zh-Hans": "南宇都宫",
+                    "zh-Hant": "南宇都宮"
+                },
                 "stationCode": "TN39"
             },
             {
                 "id": "Station:Tobu.Utsunomiya.TobuUtsunomiya",
                 "latitude": 36.55866,
                 "longitude": 139.8806,
-                "name": "東武宇都宮",
-                "nameEn": "Tobu-utsunomiya",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tobu-utsunomiya",
+                    "ja": "東武宇都宮",
+                    "ko": "도부 우쓰노미야",
+                    "zh-Hans": "宇都宮一条町",
+                    "zh-Hant": "宇都宮一條町"
+                },
                 "stationCode": "TN40"
             }
         ],
@@ -838,8 +873,10 @@
                 "startsHere": true,
                 "stops": [295, 298, 301, 304, 308, 311, 314, 318, 322, 325, 328],
                 "terminates": false,
-                "throughDestEn": "Minami-kurihashi",
-                "throughDestJa": "南栗橋",
+                "throughDest": {
+                    "en": "Minami-kurihashi",
+                    "ja": "南栗橋"
+                },
                 "type": "Local"
             },
             {
@@ -849,8 +886,10 @@
                 "startsHere": true,
                 "stops": [339, 342, 345, 347, 351, 354, 357, 361, 365, 368, 371],
                 "terminates": false,
-                "throughDestEn": "Minami-kurihashi",
-                "throughDestJa": "南栗橋",
+                "throughDest": {
+                    "en": "Minami-kurihashi",
+                    "ja": "南栗橋"
+                },
                 "type": "Local"
             },
             {
@@ -869,8 +908,10 @@
                 "startsHere": true,
                 "stops": [381, 384, 387, 390, 394, 397, 400, 404, 408, 411, 414],
                 "terminates": false,
-                "throughDestEn": "Minami-kurihashi",
-                "throughDestJa": "南栗橋",
+                "throughDest": {
+                    "en": "Minami-kurihashi",
+                    "ja": "南栗橋"
+                },
                 "type": "Local"
             },
             {
@@ -889,8 +930,10 @@
                 "startsHere": true,
                 "stops": [422, 425, 430, 432, 436, 439, 442, 447, 451, 454, 456],
                 "terminates": false,
-                "throughDestEn": "Minami-kurihashi",
-                "throughDestJa": "南栗橋",
+                "throughDest": {
+                    "en": "Minami-kurihashi",
+                    "ja": "南栗橋"
+                },
                 "type": "Local"
             },
             {
@@ -909,8 +952,10 @@
                 "startsHere": true,
                 "stops": [461, 464, 467, 470, 474, 477, 480, 485, 488, 492, 494],
                 "terminates": false,
-                "throughDestEn": "Minami-kurihashi",
-                "throughDestJa": "南栗橋",
+                "throughDest": {
+                    "en": "Minami-kurihashi",
+                    "ja": "南栗橋"
+                },
                 "type": "Local"
             },
             {
@@ -938,8 +983,10 @@
                 "startsHere": true,
                 "stops": [516, 519, 522, 524, 528, 531, 534, 538, 542, 546, 548],
                 "terminates": false,
-                "throughDestEn": "Minami-kurihashi",
-                "throughDestJa": "南栗橋",
+                "throughDest": {
+                    "en": "Minami-kurihashi",
+                    "ja": "南栗橋"
+                },
                 "type": "Local"
             },
             {
@@ -967,8 +1014,10 @@
                 "startsHere": true,
                 "stops": [593, 596, 599, 603, 607, 610, 614, 618, 622, 625, 628],
                 "terminates": false,
-                "throughDestEn": "Minami-kurihashi",
-                "throughDestJa": "南栗橋",
+                "throughDest": {
+                    "en": "Minami-kurihashi",
+                    "ja": "南栗橋"
+                },
                 "type": "Local"
             },
             {
@@ -978,8 +1027,10 @@
                 "startsHere": true,
                 "stops": [620, 623, 627, 630, 634, 640, 642, 646, 650, 653, 656],
                 "terminates": false,
-                "throughDestEn": "Minami-kurihashi",
-                "throughDestJa": "南栗橋",
+                "throughDest": {
+                    "en": "Minami-kurihashi",
+                    "ja": "南栗橋"
+                },
                 "type": "Local"
             },
             {
@@ -989,8 +1040,10 @@
                 "startsHere": true,
                 "stops": [649, 653, 656, 659, 663, 666, 668, 673, 677, 680, 683],
                 "terminates": false,
-                "throughDestEn": "Minami-kurihashi",
-                "throughDestJa": "南栗橋",
+                "throughDest": {
+                    "en": "Minami-kurihashi",
+                    "ja": "南栗橋"
+                },
                 "type": "Local"
             },
             {
@@ -1009,8 +1062,10 @@
                 "startsHere": true,
                 "stops": [710, 713, 716, 719, 723, 729, 732, 736, 740, 744, 746],
                 "terminates": false,
-                "throughDestEn": "Minami-kurihashi",
-                "throughDestJa": "南栗橋",
+                "throughDest": {
+                    "en": "Minami-kurihashi",
+                    "ja": "南栗橋"
+                },
                 "type": "Local"
             },
             {
@@ -1047,8 +1102,10 @@
                 "startsHere": true,
                 "stops": [830, 833, 836, 839, 843, 848, 850, 856, 860, 864, 867],
                 "terminates": false,
-                "throughDestEn": "Minami-kurihashi",
-                "throughDestJa": "南栗橋",
+                "throughDest": {
+                    "en": "Minami-kurihashi",
+                    "ja": "南栗橋"
+                },
                 "type": "Local"
             },
             {
@@ -1076,8 +1133,10 @@
                 "startsHere": true,
                 "stops": [910, 913, 916, 919, 923, 926, 928, 934, 937, 941, 943],
                 "terminates": false,
-                "throughDestEn": "Minami-kurihashi",
-                "throughDestJa": "南栗橋",
+                "throughDest": {
+                    "en": "Minami-kurihashi",
+                    "ja": "南栗橋"
+                },
                 "type": "Local"
             },
             {
@@ -1087,8 +1146,10 @@
                 "startsHere": true,
                 "stops": [939, 942, 945, 950, 954, 957, 960, 964, 968, 971, 974],
                 "terminates": false,
-                "throughDestEn": "Minami-kurihashi",
-                "throughDestJa": "南栗橋",
+                "throughDest": {
+                    "en": "Minami-kurihashi",
+                    "ja": "南栗橋"
+                },
                 "type": "Local"
             },
             {
@@ -1116,8 +1177,10 @@
                 "startsHere": true,
                 "stops": [1007, 1010, 1013, 1016, 1020, 1025, 1027, 1034, 1038, 1041, 1044],
                 "terminates": false,
-                "throughDestEn": "Minami-kurihashi",
-                "throughDestJa": "南栗橋",
+                "throughDest": {
+                    "en": "Minami-kurihashi",
+                    "ja": "南栗橋"
+                },
                 "type": "Local"
             },
             {
@@ -1136,8 +1199,10 @@
                 "startsHere": true,
                 "stops": [1046, 1049, 1052, 1054, 1058, 1061, 1064, 1069, 1072, 1076, 1078],
                 "terminates": false,
-                "throughDestEn": "Minami-kurihashi",
-                "throughDestJa": "南栗橋",
+                "throughDest": {
+                    "en": "Minami-kurihashi",
+                    "ja": "南栗橋"
+                },
                 "type": "Local"
             },
             {
@@ -1156,8 +1221,10 @@
                 "startsHere": true,
                 "stops": [1091, 1094, 1097, 1099, 1103, 1108, 1110, 1114, 1118, 1121, 1124],
                 "terminates": false,
-                "throughDestEn": "Minami-kurihashi",
-                "throughDestJa": "南栗橋",
+                "throughDest": {
+                    "en": "Minami-kurihashi",
+                    "ja": "南栗橋"
+                },
                 "type": "Local"
             },
             {
@@ -1176,8 +1243,10 @@
                 "startsHere": true,
                 "stops": [1133, 1136, 1140, 1143, 1147, 1152, 1154, 1159, 1162, 1166, 1168],
                 "terminates": false,
-                "throughDestEn": "Minami-kurihashi",
-                "throughDestJa": "南栗橋",
+                "throughDest": {
+                    "en": "Minami-kurihashi",
+                    "ja": "南栗橋"
+                },
                 "type": "Local"
             },
             {
@@ -1187,8 +1256,10 @@
                 "startsHere": true,
                 "stops": [1152, 1155, 1158, 1161, 1165, 1168, 1170, 1175, 1178, 1182, 1184],
                 "terminates": false,
-                "throughDestEn": "Minami-kurihashi",
-                "throughDestJa": "南栗橋",
+                "throughDest": {
+                    "en": "Minami-kurihashi",
+                    "ja": "南栗橋"
+                },
                 "type": "Local"
             },
             {
@@ -1216,8 +1287,10 @@
                 "startsHere": true,
                 "stops": [1239, 1242, 1245, 1249, 1253, 1256, 1258, 1264, 1268, 1271, 1273],
                 "terminates": false,
-                "throughDestEn": "Minami-kurihashi",
-                "throughDestJa": "南栗橋",
+                "throughDest": {
+                    "en": "Minami-kurihashi",
+                    "ja": "南栗橋"
+                },
                 "type": "Local"
             },
             {
@@ -1236,8 +1309,10 @@
                 "startsHere": true,
                 "stops": [1292, 1295, 1298, 1301, 1305, 1310, 1313, 1317, 1321, 1324, 1327],
                 "terminates": false,
-                "throughDestEn": "Minami-kurihashi",
-                "throughDestJa": "南栗橋",
+                "throughDest": {
+                    "en": "Minami-kurihashi",
+                    "ja": "南栗橋"
+                },
                 "type": "Local"
             },
             {
@@ -1652,8 +1727,10 @@
                 "startsHere": true,
                 "stops": [295, 298, 301, 304, 308, 311, 314, 318, 322, 325, 328],
                 "terminates": false,
-                "throughDestEn": "Minami-kurihashi",
-                "throughDestJa": "南栗橋",
+                "throughDest": {
+                    "en": "Minami-kurihashi",
+                    "ja": "南栗橋"
+                },
                 "type": "Local"
             },
             {
@@ -1663,8 +1740,10 @@
                 "startsHere": true,
                 "stops": [339, 342, 345, 347, 351, 354, 357, 361, 365, 368, 371],
                 "terminates": false,
-                "throughDestEn": "Minami-kurihashi",
-                "throughDestJa": "南栗橋",
+                "throughDest": {
+                    "en": "Minami-kurihashi",
+                    "ja": "南栗橋"
+                },
                 "type": "Local"
             },
             {
@@ -1683,8 +1762,10 @@
                 "startsHere": true,
                 "stops": [381, 384, 387, 390, 394, 397, 400, 404, 408, 411, 414],
                 "terminates": false,
-                "throughDestEn": "Minami-kurihashi",
-                "throughDestJa": "南栗橋",
+                "throughDest": {
+                    "en": "Minami-kurihashi",
+                    "ja": "南栗橋"
+                },
                 "type": "Local"
             },
             {
@@ -1703,8 +1784,10 @@
                 "startsHere": true,
                 "stops": [422, 425, 430, 432, 436, 439, 442, 447, 451, 454, 456],
                 "terminates": false,
-                "throughDestEn": "Minami-kurihashi",
-                "throughDestJa": "南栗橋",
+                "throughDest": {
+                    "en": "Minami-kurihashi",
+                    "ja": "南栗橋"
+                },
                 "type": "Local"
             },
             {
@@ -1723,8 +1806,10 @@
                 "startsHere": true,
                 "stops": [461, 464, 467, 470, 474, 477, 480, 485, 488, 492, 494],
                 "terminates": false,
-                "throughDestEn": "Minami-kurihashi",
-                "throughDestJa": "南栗橋",
+                "throughDest": {
+                    "en": "Minami-kurihashi",
+                    "ja": "南栗橋"
+                },
                 "type": "Local"
             },
             {
@@ -1752,8 +1837,10 @@
                 "startsHere": true,
                 "stops": [516, 519, 522, 524, 528, 531, 534, 538, 542, 546, 548],
                 "terminates": false,
-                "throughDestEn": "Minami-kurihashi",
-                "throughDestJa": "南栗橋",
+                "throughDest": {
+                    "en": "Minami-kurihashi",
+                    "ja": "南栗橋"
+                },
                 "type": "Local"
             },
             {
@@ -1781,8 +1868,10 @@
                 "startsHere": true,
                 "stops": [593, 596, 599, 603, 607, 610, 614, 618, 622, 625, 628],
                 "terminates": false,
-                "throughDestEn": "Minami-kurihashi",
-                "throughDestJa": "南栗橋",
+                "throughDest": {
+                    "en": "Minami-kurihashi",
+                    "ja": "南栗橋"
+                },
                 "type": "Local"
             },
             {
@@ -1792,8 +1881,10 @@
                 "startsHere": true,
                 "stops": [620, 623, 627, 630, 634, 640, 642, 646, 650, 653, 656],
                 "terminates": false,
-                "throughDestEn": "Minami-kurihashi",
-                "throughDestJa": "南栗橋",
+                "throughDest": {
+                    "en": "Minami-kurihashi",
+                    "ja": "南栗橋"
+                },
                 "type": "Local"
             },
             {
@@ -1803,8 +1894,10 @@
                 "startsHere": true,
                 "stops": [649, 653, 656, 659, 663, 666, 668, 673, 677, 680, 683],
                 "terminates": false,
-                "throughDestEn": "Minami-kurihashi",
-                "throughDestJa": "南栗橋",
+                "throughDest": {
+                    "en": "Minami-kurihashi",
+                    "ja": "南栗橋"
+                },
                 "type": "Local"
             },
             {
@@ -1823,8 +1916,10 @@
                 "startsHere": true,
                 "stops": [710, 713, 716, 719, 723, 729, 732, 736, 740, 744, 746],
                 "terminates": false,
-                "throughDestEn": "Minami-kurihashi",
-                "throughDestJa": "南栗橋",
+                "throughDest": {
+                    "en": "Minami-kurihashi",
+                    "ja": "南栗橋"
+                },
                 "type": "Local"
             },
             {
@@ -1861,8 +1956,10 @@
                 "startsHere": true,
                 "stops": [830, 833, 836, 839, 843, 848, 850, 856, 860, 864, 867],
                 "terminates": false,
-                "throughDestEn": "Minami-kurihashi",
-                "throughDestJa": "南栗橋",
+                "throughDest": {
+                    "en": "Minami-kurihashi",
+                    "ja": "南栗橋"
+                },
                 "type": "Local"
             },
             {
@@ -1890,8 +1987,10 @@
                 "startsHere": true,
                 "stops": [910, 913, 916, 919, 923, 926, 928, 934, 937, 941, 943],
                 "terminates": false,
-                "throughDestEn": "Minami-kurihashi",
-                "throughDestJa": "南栗橋",
+                "throughDest": {
+                    "en": "Minami-kurihashi",
+                    "ja": "南栗橋"
+                },
                 "type": "Local"
             },
             {
@@ -1901,8 +2000,10 @@
                 "startsHere": true,
                 "stops": [939, 942, 945, 950, 954, 957, 960, 964, 968, 971, 974],
                 "terminates": false,
-                "throughDestEn": "Minami-kurihashi",
-                "throughDestJa": "南栗橋",
+                "throughDest": {
+                    "en": "Minami-kurihashi",
+                    "ja": "南栗橋"
+                },
                 "type": "Local"
             },
             {
@@ -1930,8 +2031,10 @@
                 "startsHere": true,
                 "stops": [1007, 1010, 1013, 1016, 1020, 1025, 1027, 1034, 1038, 1041, 1044],
                 "terminates": false,
-                "throughDestEn": "Minami-kurihashi",
-                "throughDestJa": "南栗橋",
+                "throughDest": {
+                    "en": "Minami-kurihashi",
+                    "ja": "南栗橋"
+                },
                 "type": "Local"
             },
             {
@@ -1950,8 +2053,10 @@
                 "startsHere": true,
                 "stops": [1046, 1049, 1052, 1054, 1058, 1061, 1064, 1069, 1072, 1076, 1078],
                 "terminates": false,
-                "throughDestEn": "Minami-kurihashi",
-                "throughDestJa": "南栗橋",
+                "throughDest": {
+                    "en": "Minami-kurihashi",
+                    "ja": "南栗橋"
+                },
                 "type": "Local"
             },
             {
@@ -1970,8 +2075,10 @@
                 "startsHere": true,
                 "stops": [1091, 1094, 1097, 1099, 1103, 1108, 1110, 1114, 1118, 1121, 1124],
                 "terminates": false,
-                "throughDestEn": "Minami-kurihashi",
-                "throughDestJa": "南栗橋",
+                "throughDest": {
+                    "en": "Minami-kurihashi",
+                    "ja": "南栗橋"
+                },
                 "type": "Local"
             },
             {
@@ -1990,8 +2097,10 @@
                 "startsHere": true,
                 "stops": [1133, 1136, 1140, 1143, 1147, 1152, 1154, 1159, 1162, 1166, 1168],
                 "terminates": false,
-                "throughDestEn": "Minami-kurihashi",
-                "throughDestJa": "南栗橋",
+                "throughDest": {
+                    "en": "Minami-kurihashi",
+                    "ja": "南栗橋"
+                },
                 "type": "Local"
             },
             {
@@ -2001,8 +2110,10 @@
                 "startsHere": true,
                 "stops": [1152, 1155, 1158, 1161, 1165, 1168, 1170, 1175, 1178, 1182, 1184],
                 "terminates": false,
-                "throughDestEn": "Minami-kurihashi",
-                "throughDestJa": "南栗橋",
+                "throughDest": {
+                    "en": "Minami-kurihashi",
+                    "ja": "南栗橋"
+                },
                 "type": "Local"
             },
             {
@@ -2030,8 +2141,10 @@
                 "startsHere": true,
                 "stops": [1239, 1242, 1245, 1249, 1253, 1256, 1258, 1264, 1268, 1271, 1273],
                 "terminates": false,
-                "throughDestEn": "Minami-kurihashi",
-                "throughDestJa": "南栗橋",
+                "throughDest": {
+                    "en": "Minami-kurihashi",
+                    "ja": "南栗橋"
+                },
                 "type": "Local"
             },
             {
@@ -2050,8 +2163,10 @@
                 "startsHere": true,
                 "stops": [1292, 1295, 1298, 1301, 1305, 1310, 1313, 1317, 1321, 1324, 1327],
                 "terminates": false,
-                "throughDestEn": "Minami-kurihashi",
-                "throughDestJa": "南栗橋",
+                "throughDest": {
+                    "en": "Minami-kurihashi",
+                    "ja": "南栗橋"
+                },
                 "type": "Local"
             },
             {
@@ -2073,6 +2188,6 @@
                 "type": "Local"
             }
         ],
-        "upHopTimesMinutes": [3.0, 3.0, 4.0, 4.0, 3.0, 3.0, 4.0, 3.0, 3.0, 3.0]
+        "upHopTimesMinutes": [3, 3, 4, 4, 3, 3, 4, 3, 3, 3]
     }
 ]

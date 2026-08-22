@@ -2,10 +2,14 @@
     {
         "colorHex": "#880022",
         "delayInfo": {
-            "checkMethodEn": "Check the JR East Train Operation Information page or the JR East app. In the Tokyo area, delays or suspensions of 15 minutes or more are posted.",
-            "checkMethodJa": "JR東日本「列車運行情報」ページまたはJR東日本アプリで確認できます。首都圏エリアでは15分以上の遅れ・運休が発生または見込まれる場合に掲載されます。",
-            "statusPageURL": "https://traininfo.jreast.co.jp/train_info/line.aspx?gid=1&lineid=nikkoline",
-            "statusPageURLEn": "https://traininfo.jreast.co.jp/train_info/e/kanto.aspx",
+            "checkMethod": {
+                "en": "Check the JR East Train Operation Information page or the JR East app. In the Tokyo area, delays or suspensions of 15 minutes or more are posted.",
+                "ja": "JR東日本「列車運行情報」ページまたはJR東日本アプリで確認できます。首都圏エリアでは15分以上の遅れ・運休が発生または見込まれる場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://traininfo.jreast.co.jp/train_info/e/kanto.aspx",
+                "ja": "https://traininfo.jreast.co.jp/train_info/line.aspx?gid=1&lineid=nikkoline"
+            },
             "xAccount": "@JRE_F_Toho_Taka"
         },
         "directions": [
@@ -15,8 +19,10 @@
                 "id": "static.RailDirection:JR-East.Nikko.Nikko",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Nikko",
-                "nameJa": "日光方面",
+                "name": {
+                    "en": "For Nikko",
+                    "ja": "日光方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -164,8 +170,10 @@
                     }
                 ],
                 "isAscending": false,
-                "nameEn": "For Utsunomiya",
-                "nameJa": "宇都宮方面",
+                "name": {
+                    "en": "For Utsunomiya",
+                    "ja": "宇都宮方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -289,85 +297,101 @@
         "hopTimesMinutes": [6, 10, 8, 6, 6, 7],
         "id": "Railway:JR-East.Nikko",
         "isLoop": false,
-        "nameEn": "Nikko Line",
-        "nameJa": "日光線",
+        "name": {
+            "en": "Nikko Line",
+            "ja": "日光線",
+            "ko": "닛코선",
+            "zh-Hans": "日光线",
+            "zh-Hant": "日光線"
+        },
         "operatorId": "Operator:JR-East",
         "stations": [
             {
                 "id": "Station:JR-East.Nikko.Utsunomiya",
                 "latitude": 36.5586,
                 "longitude": 139.8983,
-                "name": "宇都宮",
-                "nameEn": "Utsunomiya",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Utsunomiya",
+                    "ja": "宇都宮",
+                    "ko": "우쓰노미야",
+                    "zh-Hans": "宇都宫",
+                    "zh-Hant": "宇都宮"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Nikko.Tsuruta",
                 "latitude": 36.538253,
                 "longitude": 139.857825,
-                "name": "鶴田",
-                "nameEn": "Tsuruta",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tsuruta",
+                    "ja": "鶴田",
+                    "ko": "쓰루타",
+                    "zh-Hans": "鹤田",
+                    "zh-Hant": "鶴田"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Nikko.Kanuma",
                 "latitude": 36.570861,
                 "longitude": 139.762972,
-                "name": "鹿沼",
-                "nameEn": "Kanuma",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kanuma",
+                    "ja": "鹿沼",
+                    "ko": "가누마",
+                    "zh-Hans": "鹿沼",
+                    "zh-Hant": "鹿沼"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Nikko.Fubasami",
                 "latitude": 36.637208,
                 "longitude": 139.728053,
-                "name": "文挾",
-                "nameEn": "Fubasami",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Fubasami",
+                    "ja": "文挾"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Nikko.ShimotsukeOsawa",
                 "latitude": 36.686503,
                 "longitude": 139.732489,
-                "name": "下野大沢",
-                "nameEn": "Shimotsuke-Osawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shimotsuke-Osawa",
+                    "ja": "下野大沢",
+                    "ko": "시모쓰케오사와",
+                    "zh-Hans": "下野大泽",
+                    "zh-Hant": "下野大澤"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Nikko.Imaichi",
                 "latitude": 36.720833,
                 "longitude": 139.686917,
-                "name": "今市",
-                "nameEn": "Imaichi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Imaichi",
+                    "ja": "今市",
+                    "ko": "이마이치",
+                    "zh-Hans": "今市",
+                    "zh-Hant": "今市"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Nikko.Nikko",
                 "latitude": 36.747222,
                 "longitude": 139.622222,
-                "name": "日光",
-                "nameEn": "Nikko",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nikko",
+                    "ja": "日光",
+                    "ko": "닛코",
+                    "zh-Hans": "日光",
+                    "zh-Hant": "日光"
+                },
                 "stationCode": ""
             }
         ],

@@ -2,10 +2,14 @@
     {
         "colorHex": "#FFE400",
         "delayInfo": {
-            "checkMethodEn": "Check the JR East Train Operation Information page or the JR East app. In the Tokyo area, delays or suspensions of 15 minutes or more are posted.",
-            "checkMethodJa": "JR東日本「列車運行情報」ページまたはJR東日本アプリで確認できます。首都圏エリアでは15分以上の遅れ・運休が発生または見込まれる場合に掲載されます。",
-            "statusPageURL": "https://traininfo.jreast.co.jp/train_info/line.aspx?gid=1&lineid=nambuline",
-            "statusPageURLEn": "https://traininfo.jreast.co.jp/train_info/e/kanto.aspx",
+            "checkMethod": {
+                "en": "Check the JR East Train Operation Information page or the JR East app. In the Tokyo area, delays or suspensions of 15 minutes or more are posted.",
+                "ja": "JR東日本「列車運行情報」ページまたはJR東日本アプリで確認できます。首都圏エリアでは15分以上の遅れ・運休が発生または見込まれる場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://traininfo.jreast.co.jp/train_info/e/kanto.aspx",
+                "ja": "https://traininfo.jreast.co.jp/train_info/line.aspx?gid=1&lineid=nambuline"
+            },
             "xAccount": "@JRE_F_Tokaido"
         },
         "directions": [
@@ -15,13 +19,15 @@
                 "id": "static.RailDirection:JR-East.NambuBranch.Shitte",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Shitte",
-                "nameJa": "尻手方面",
+                "name": {
+                    "en": "For Shitte",
+                    "ja": "尻手方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
                             "from": "05:27",
-                            "headwayMinutes": 45.0
+                            "headwayMinutes": 45
                         },
                         {
                             "from": "06:00",
@@ -29,19 +35,19 @@
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 13.0
+                            "headwayMinutes": 13
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 12.0
+                            "headwayMinutes": 12
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 23.0
+                            "headwayMinutes": 23
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 40.0
+                            "headwayMinutes": 40
                         },
                         {
                             "from": "16:00",
@@ -49,15 +55,15 @@
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 24.0
+                            "headwayMinutes": 24
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 22.0
+                            "headwayMinutes": 22
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 32.0
+                            "headwayMinutes": 32
                         },
                         {
                             "from": "21:00",
@@ -65,7 +71,7 @@
                         },
                         {
                             "from": "22:00",
-                            "headwayMinutes": 29.0
+                            "headwayMinutes": 29
                         }
                     ],
                     "firstDeparture": "05:27",
@@ -76,7 +82,7 @@
                     "bands": [
                         {
                             "from": "05:27",
-                            "headwayMinutes": 45.0
+                            "headwayMinutes": 45
                         },
                         {
                             "from": "06:00",
@@ -84,19 +90,19 @@
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 13.0
+                            "headwayMinutes": 13
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 12.0
+                            "headwayMinutes": 12
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 23.0
+                            "headwayMinutes": 23
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 40.0
+                            "headwayMinutes": 40
                         },
                         {
                             "from": "16:00",
@@ -104,15 +110,15 @@
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 24.0
+                            "headwayMinutes": 24
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 22.0
+                            "headwayMinutes": 22
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 32.0
+                            "headwayMinutes": 32
                         },
                         {
                             "from": "21:00",
@@ -120,7 +126,7 @@
                         },
                         {
                             "from": "22:00",
-                            "headwayMinutes": 29.0
+                            "headwayMinutes": 29
                         }
                     ],
                     "firstDeparture": "05:27",
@@ -134,21 +140,23 @@
                 "id": "static.RailDirection:JR-East.NambuBranch.HamaKawasaki",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Hama-Kawasaki",
-                "nameJa": "浜川崎方面",
+                "name": {
+                    "en": "For Hama-Kawasaki",
+                    "ja": "浜川崎方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
                             "from": "05:16",
-                            "headwayMinutes": 45.0
+                            "headwayMinutes": 45
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 22.0
+                            "headwayMinutes": 22
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 13.0
+                            "headwayMinutes": 13
                         },
                         {
                             "from": "08:00",
@@ -156,23 +164,23 @@
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 23.0
+                            "headwayMinutes": 23
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 40.0
+                            "headwayMinutes": 40
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 28.0
+                            "headwayMinutes": 28
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 24.0
+                            "headwayMinutes": 24
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 23.0
+                            "headwayMinutes": 23
                         },
                         {
                             "from": "19:00",
@@ -180,7 +188,7 @@
                         },
                         {
                             "from": "20:00",
-                            "headwayMinutes": 32.0
+                            "headwayMinutes": 32
                         },
                         {
                             "from": "21:00",
@@ -188,7 +196,7 @@
                         },
                         {
                             "from": "22:00",
-                            "headwayMinutes": 30.0
+                            "headwayMinutes": 30
                         }
                     ],
                     "firstDeparture": "05:16",
@@ -199,15 +207,15 @@
                     "bands": [
                         {
                             "from": "05:16",
-                            "headwayMinutes": 45.0
+                            "headwayMinutes": 45
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 22.0
+                            "headwayMinutes": 22
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 13.0
+                            "headwayMinutes": 13
                         },
                         {
                             "from": "08:00",
@@ -215,31 +223,31 @@
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 23.0
+                            "headwayMinutes": 23
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 40.0
+                            "headwayMinutes": 40
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 28.0
+                            "headwayMinutes": 28
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 24.0
+                            "headwayMinutes": 24
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 23.0
+                            "headwayMinutes": 23
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 30.0
+                            "headwayMinutes": 30
                         },
                         {
                             "from": "20:00",
-                            "headwayMinutes": 33.0
+                            "headwayMinutes": 33
                         },
                         {
                             "from": "21:00",
@@ -247,7 +255,7 @@
                         },
                         {
                             "from": "22:00",
-                            "headwayMinutes": 30.0
+                            "headwayMinutes": 30
                         }
                     ],
                     "firstDeparture": "05:16",
@@ -256,66 +264,78 @@
                 }
             }
         ],
-        "hopTimesMinutes": [2.0, 2.0, 2.0, 2.0],
+        "hopTimesMinutes": [2, 2, 2, 2],
         "id": "Railway:JR-East.NambuBranch",
         "isLoop": false,
-        "nameEn": "Nambu Line Hama-Kawasaki Branch",
-        "nameJa": "南武線浜川崎支線",
+        "name": {
+            "en": "Nambu Line Hama-Kawasaki Branch",
+            "ja": "南武線浜川崎支線"
+        },
         "operatorId": "Operator:JR-East",
         "stations": [
             {
                 "id": "Station:JR-East.NambuBranch.HamaKawasaki",
                 "latitude": 35.51038,
                 "longitude": 139.71378,
-                "name": "浜川崎",
-                "nameEn": "Hama-Kawasaki",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Hama-Kawasaki",
+                    "ja": "浜川崎",
+                    "ko": "하마카와사키",
+                    "zh-Hans": "滨川崎",
+                    "zh-Hant": "濱川崎"
+                },
                 "stationCode": "JN54"
             },
             {
                 "id": "Station:JR-East.NambuBranch.Odasakae",
                 "latitude": 35.51442,
                 "longitude": 139.70508,
-                "name": "小田栄",
-                "nameEn": "Odasakae",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Odasakae",
+                    "ja": "小田栄",
+                    "ko": "오다사카에",
+                    "zh-Hans": "小田荣",
+                    "zh-Hant": "小田榮"
+                },
                 "stationCode": "JN53"
             },
             {
                 "id": "Station:JR-East.NambuBranch.Kawasakishimmachi",
                 "latitude": 35.51832,
                 "longitude": 139.69926,
-                "name": "川崎新町",
-                "nameEn": "Kawasakishimmachi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kawasakishimmachi",
+                    "ja": "川崎新町",
+                    "ko": "가와사키신마치",
+                    "zh-Hans": "川崎新町",
+                    "zh-Hant": "川崎新町"
+                },
                 "stationCode": "JN52"
             },
             {
                 "id": "Station:JR-East.NambuBranch.Hatchonawate",
                 "latitude": 35.52307,
                 "longitude": 139.69138,
-                "name": "八丁畷",
-                "nameEn": "Hatchonawate",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Hatchonawate",
+                    "ja": "八丁畷",
+                    "ko": "핫초나와테",
+                    "zh-Hans": "八丁畷",
+                    "zh-Hant": "八丁畷"
+                },
                 "stationCode": "JN51"
             },
             {
                 "id": "Station:JR-East.NambuBranch.Shitte",
                 "latitude": 35.53098,
                 "longitude": 139.6843,
-                "name": "尻手",
-                "nameEn": "Shitte",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shitte",
+                    "ja": "尻手",
+                    "ko": "싯테",
+                    "zh-Hans": "尻手",
+                    "zh-Hant": "尻手"
+                },
                 "stationCode": "JN02"
             }
         ],
@@ -1763,6 +1783,6 @@
                 "type": "Local"
             }
         ],
-        "upHopTimesMinutes": [2.0, 1.0, 2.0, 2.0]
+        "upHopTimesMinutes": [2, 1, 2, 2]
     }
 ]

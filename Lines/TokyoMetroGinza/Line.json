@@ -2,10 +2,14 @@
     {
         "colorHex": "#F7931D",
         "delayInfo": {
-            "checkMethodEn": "Check the Tokyo Metro Service Information page, the official app, or X (@tokyometro_info). Delays or suspensions of 15 minutes or more are posted.",
-            "checkMethodJa": "東京メトロ「運行情報」ページ、公式アプリ、またはX（@tokyometro_info）で確認できます。15分以上の遅れ・運転見合わせが発生した場合に掲載されます。",
-            "statusPageURL": "https://www.tokyometro.jp/unkou/history/ginza.html",
-            "statusPageURLEn": "https://www.tokyometro.jp/lang_en/unkou/history/ginza.html",
+            "checkMethod": {
+                "en": "Check the Tokyo Metro Service Information page, the official app, or X (@tokyometro_info). Delays or suspensions of 15 minutes or more are posted.",
+                "ja": "東京メトロ「運行情報」ページ、公式アプリ、またはX（@tokyometro_info）で確認できます。15分以上の遅れ・運転見合わせが発生した場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://www.tokyometro.jp/lang_en/unkou/history/ginza.html",
+                "ja": "https://www.tokyometro.jp/unkou/history/ginza.html"
+            },
             "xAccount": "@G_line_info"
         },
         "directions": [
@@ -31,8 +35,10 @@
                     }
                 ],
                 "isAscending": true,
-                "nameEn": "For Asakusa",
-                "nameJa": "浅草方面",
+                "name": {
+                    "en": "For Asakusa",
+                    "ja": "浅草方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -109,8 +115,10 @@
                     }
                 ],
                 "isAscending": false,
-                "nameEn": "For Shibuya",
-                "nameJa": "渋谷方面",
+                "name": {
+                    "en": "For Shibuya",
+                    "ja": "渋谷方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -174,8 +182,10 @@
         "hopTimesMinutes": [2, 2, 1, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 2, 2, 2, 2],
         "id": "Railway:TokyoMetro.Ginza",
         "isLoop": false,
-        "nameEn": "Ginza Line",
-        "nameJa": "銀座線",
+        "name": {
+            "en": "Ginza Line",
+            "ja": "銀座線"
+        },
         "operatorId": "Operator:TokyoMetro",
         "scheduleRevisions": [
             {
@@ -202,8 +212,10 @@
                             }
                         ],
                         "isAscending": true,
-                        "nameEn": "For Asakusa",
-                        "nameJa": "浅草方面",
+                        "name": {
+                            "en": "For Asakusa",
+                            "ja": "浅草方面"
+                        },
                         "saturdayHoliday": {
                             "bands": [
                                 {
@@ -212,11 +224,11 @@
                                 },
                                 {
                                     "from": "07:00",
-                                    "headwayMinutes": 3.0
+                                    "headwayMinutes": 3
                                 },
                                 {
                                     "from": "10:00",
-                                    "headwayMinutes": 3.0
+                                    "headwayMinutes": 3
                                 },
                                 {
                                     "from": "20:00",
@@ -243,7 +255,7 @@
                                 },
                                 {
                                     "from": "09:30",
-                                    "headwayMinutes": 3.0
+                                    "headwayMinutes": 3
                                 },
                                 {
                                     "from": "17:00",
@@ -280,8 +292,10 @@
                             }
                         ],
                         "isAscending": false,
-                        "nameEn": "For Shibuya",
-                        "nameJa": "渋谷方面",
+                        "name": {
+                            "en": "For Shibuya",
+                            "ja": "渋谷方面"
+                        },
                         "saturdayHoliday": {
                             "bands": [
                                 {
@@ -290,11 +304,11 @@
                                 },
                                 {
                                     "from": "07:00",
-                                    "headwayMinutes": 3.0
+                                    "headwayMinutes": 3
                                 },
                                 {
                                     "from": "10:00",
-                                    "headwayMinutes": 3.0
+                                    "headwayMinutes": 3
                                 },
                                 {
                                     "from": "20:00",
@@ -321,7 +335,7 @@
                                 },
                                 {
                                     "from": "09:30",
-                                    "headwayMinutes": 3.0
+                                    "headwayMinutes": 3
                                 },
                                 {
                                     "from": "17:00",
@@ -342,8 +356,10 @@
                         }
                     }
                 ],
-                "nameEn": "19 September 2026 timetable revision",
-                "nameJa": "2026年9月19日ダイヤ改正",
+                "name": {
+                    "en": "19 September 2026 timetable revision",
+                    "ja": "2026年9月19日ダイヤ改正"
+                },
                 "validFrom": "2026-09-19"
             }
         ],
@@ -352,209 +368,247 @@
                 "id": "Station:TokyoMetro.Ginza.Shibuya",
                 "latitude": 35.658,
                 "longitude": 139.7016,
-                "name": "渋谷",
-                "nameEn": "Shibuya",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shibuya",
+                    "ja": "渋谷",
+                    "ko": "시부야",
+                    "zh-Hans": "涩谷",
+                    "zh-Hant": "澀谷"
+                },
                 "stationCode": "G01"
             },
             {
                 "id": "Station:TokyoMetro.Ginza.Omotesando",
                 "latitude": 35.6654,
                 "longitude": 139.7122,
-                "name": "表参道",
-                "nameEn": "Omote-sando",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Omote-sando",
+                    "ja": "表参道",
+                    "ko": "오모테산도",
+                    "zh-Hans": "表参道",
+                    "zh-Hant": "表參道"
+                },
                 "stationCode": "G02"
             },
             {
                 "id": "Station:TokyoMetro.Ginza.Gaiemmae",
                 "latitude": 35.6706,
                 "longitude": 139.7178,
-                "name": "外苑前",
-                "nameEn": "Gaiemmae",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Gaiemmae",
+                    "ja": "外苑前",
+                    "ko": "가이엔마에",
+                    "zh-Hans": "外苑前",
+                    "zh-Hant": "外苑前"
+                },
                 "stationCode": "G03"
             },
             {
                 "id": "Station:TokyoMetro.Ginza.AoyamaItchome",
                 "latitude": 35.6726,
                 "longitude": 139.7244,
-                "name": "青山一丁目",
-                "nameEn": "Aoyama-itchome",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Aoyama-itchome",
+                    "ja": "青山一丁目",
+                    "ko": "아오야마 1초메",
+                    "zh-Hans": "青山一丁目",
+                    "zh-Hant": "青山一丁目"
+                },
                 "stationCode": "G04"
             },
             {
                 "id": "Station:TokyoMetro.Ginza.AkasakaMitsuke",
                 "latitude": 35.677,
                 "longitude": 139.737,
-                "name": "赤坂見附",
-                "nameEn": "Akasaka-mitsuke",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Akasaka-mitsuke",
+                    "ja": "赤坂見附",
+                    "ko": "아카사카미쓰케",
+                    "zh-Hans": "赤坂见附",
+                    "zh-Hant": "赤坂見附"
+                },
                 "stationCode": "G05"
             },
             {
                 "id": "Station:TokyoMetro.Ginza.TameikeSanno",
                 "latitude": 35.671534,
                 "longitude": 139.741961,
-                "name": "溜池山王",
-                "nameEn": "Tameike-sanno",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tameike-sanno",
+                    "ja": "溜池山王",
+                    "ko": "다메이케산노",
+                    "zh-Hans": "溜池山王",
+                    "zh-Hant": "溜池山王"
+                },
                 "stationCode": "G06"
             },
             {
                 "id": "Station:TokyoMetro.Ginza.Toranomon",
                 "latitude": 35.67,
                 "longitude": 139.7496,
-                "name": "虎ノ門",
-                "nameEn": "Toranomon",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Toranomon",
+                    "ja": "虎ノ門",
+                    "ko": "도라노몬",
+                    "zh-Hans": "虎之门",
+                    "zh-Hant": "虎之門"
+                },
                 "stationCode": "G07"
             },
             {
                 "id": "Station:TokyoMetro.Ginza.Shimbashi",
                 "latitude": 35.666,
                 "longitude": 139.7583,
-                "name": "新橋",
-                "nameEn": "Shimbashi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shimbashi",
+                    "ja": "新橋",
+                    "ko": "신바시",
+                    "zh-Hans": "新桥",
+                    "zh-Hant": "新橋"
+                },
                 "stationCode": "G08"
             },
             {
                 "id": "Station:TokyoMetro.Ginza.Ginza",
                 "latitude": 35.6717,
                 "longitude": 139.764,
-                "name": "銀座",
-                "nameEn": "Ginza",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ginza",
+                    "ja": "銀座",
+                    "ko": "긴자",
+                    "zh-Hans": "银座",
+                    "zh-Hant": "銀座"
+                },
                 "stationCode": "G09"
             },
             {
                 "id": "Station:TokyoMetro.Ginza.Kyobashi",
                 "latitude": 35.6767,
                 "longitude": 139.7701,
-                "name": "京橋",
-                "nameEn": "Kyobashi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kyobashi",
+                    "ja": "京橋",
+                    "ko": "교바시",
+                    "zh-Hans": "京桥",
+                    "zh-Hant": "京橋"
+                },
                 "stationCode": "G10"
             },
             {
                 "id": "Station:TokyoMetro.Ginza.Nihombashi",
                 "latitude": 35.6824,
                 "longitude": 139.7742,
-                "name": "日本橋",
-                "nameEn": "Nihombashi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nihombashi",
+                    "ja": "日本橋",
+                    "ko": "니혼바시",
+                    "zh-Hans": "日本桥",
+                    "zh-Hant": "日本橋"
+                },
                 "stationCode": "G11"
             },
             {
                 "id": "Station:TokyoMetro.Ginza.Mitsukoshimae",
                 "latitude": 35.6866,
                 "longitude": 139.773,
-                "name": "三越前",
-                "nameEn": "Mitsukoshimae",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Mitsukoshimae",
+                    "ja": "三越前",
+                    "ko": "미쓰코시마에",
+                    "zh-Hans": "三越前",
+                    "zh-Hant": "三越前"
+                },
                 "stationCode": "G12"
             },
             {
                 "id": "Station:TokyoMetro.Ginza.Kanda",
                 "latitude": 35.693715,
                 "longitude": 139.77089,
-                "name": "神田",
-                "nameEn": "Kanda",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kanda",
+                    "ja": "神田",
+                    "ko": "간다",
+                    "zh-Hans": "神田",
+                    "zh-Hant": "神田"
+                },
                 "stationCode": "G13"
             },
             {
                 "id": "Station:TokyoMetro.Ginza.Suehirocho",
                 "latitude": 35.7023,
                 "longitude": 139.7715,
-                "name": "末広町",
-                "nameEn": "Suehirocho",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Suehirocho",
+                    "ja": "末広町",
+                    "ko": "스에히로초",
+                    "zh-Hans": "末广町",
+                    "zh-Hant": "末廣町"
+                },
                 "stationCode": "G14"
             },
             {
                 "id": "Station:TokyoMetro.Ginza.UenoHirokoji",
                 "latitude": 35.7076,
                 "longitude": 139.7727,
-                "name": "上野広小路",
-                "nameEn": "Ueno-hirokoji",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ueno-hirokoji",
+                    "ja": "上野広小路",
+                    "ko": "우에노히로코지",
+                    "zh-Hans": "上野广小路",
+                    "zh-Hant": "上野廣小路"
+                },
                 "stationCode": "G15"
             },
             {
                 "id": "Station:TokyoMetro.Ginza.Ueno",
                 "latitude": 35.7115,
                 "longitude": 139.7772,
-                "name": "上野",
-                "nameEn": "Ueno",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ueno",
+                    "ja": "上野",
+                    "ko": "우에노",
+                    "zh-Hans": "上野",
+                    "zh-Hant": "上野"
+                },
                 "stationCode": "G16"
             },
             {
                 "id": "Station:TokyoMetro.Ginza.Inaricho",
                 "latitude": 35.7115,
                 "longitude": 139.7827,
-                "name": "稲荷町",
-                "nameEn": "Inaricho",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Inaricho",
+                    "ja": "稲荷町",
+                    "ko": "이나리초",
+                    "zh-Hans": "稻荷町",
+                    "zh-Hant": "稻荷町"
+                },
                 "stationCode": "G17"
             },
             {
                 "id": "Station:TokyoMetro.Ginza.Tawaramachi",
                 "latitude": 35.71,
                 "longitude": 139.7905,
-                "name": "田原町",
-                "nameEn": "Tawaramachi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tawaramachi",
+                    "ja": "田原町",
+                    "ko": "다와라마치",
+                    "zh-Hans": "田原町",
+                    "zh-Hant": "田原町"
+                },
                 "stationCode": "G18"
             },
             {
                 "id": "Station:TokyoMetro.Ginza.Asakusa",
                 "latitude": 35.7109,
                 "longitude": 139.7966,
-                "name": "浅草",
-                "nameEn": "Asakusa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Asakusa",
+                    "ja": "浅草",
+                    "ko": "아사쿠사",
+                    "zh-Hans": "浅草",
+                    "zh-Hant": "淺草"
+                },
                 "stationCode": "G19"
             }
         ],

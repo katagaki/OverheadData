@@ -2,10 +2,14 @@
     {
         "colorHex": "#F22335",
         "delayInfo": {
-            "checkMethodEn": "Check the JR East Train Operation Information page or the JR East app. In the Tokyo area, delays or suspensions of 15 minutes or more are posted.",
-            "checkMethodJa": "JR東日本「列車運行情報」ページまたはJR東日本アプリで確認できます。首都圏エリアでは15分以上の遅れ・運休が発生または見込まれる場合に掲載されます。",
-            "statusPageURL": "https://traininfo.jreast.co.jp/train_info/line.aspx?gid=1&lineid=sotoboline",
-            "statusPageURLEn": "https://traininfo.jreast.co.jp/train_info/e/kanto.aspx",
+            "checkMethod": {
+                "en": "Check the JR East Train Operation Information page or the JR East app. In the Tokyo area, delays or suspensions of 15 minutes or more are posted.",
+                "ja": "JR東日本「列車運行情報」ページまたはJR東日本アプリで確認できます。首都圏エリアでは15分以上の遅れ・運休が発生または見込まれる場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://traininfo.jreast.co.jp/train_info/e/kanto.aspx",
+                "ja": "https://traininfo.jreast.co.jp/train_info/line.aspx?gid=1&lineid=sotoboline"
+            },
             "xAccount": "@JRE_F_Sobu"
         },
         "directions": [
@@ -15,13 +19,15 @@
                 "id": "static.RailDirection:JR-East.Sotobo.AwaKamogawa",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Awa-Kamogawa",
-                "nameJa": "安房鴨川方面",
+                "name": {
+                    "en": "For Awa-Kamogawa",
+                    "ja": "安房鴨川方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
                             "from": "05:41",
-                            "headwayMinutes": 12.0
+                            "headwayMinutes": 12
                         },
                         {
                             "from": "06:00",
@@ -29,11 +35,11 @@
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 19.0
+                            "headwayMinutes": 19
                         },
                         {
                             "from": "10:00",
@@ -41,19 +47,19 @@
                         },
                         {
                             "from": "11:00",
-                            "headwayMinutes": 17.0
+                            "headwayMinutes": 17
                         },
                         {
                             "from": "14:00",
-                            "headwayMinutes": 26.0
+                            "headwayMinutes": 26
                         },
                         {
                             "from": "15:00",
-                            "headwayMinutes": 16.0
+                            "headwayMinutes": 16
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 12.0
+                            "headwayMinutes": 12
                         },
                         {
                             "from": "18:00",
@@ -61,11 +67,11 @@
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 22.0
+                            "headwayMinutes": 22
                         },
                         {
                             "from": "20:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "21:00",
@@ -73,11 +79,11 @@
                         },
                         {
                             "from": "22:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "23:00",
-                            "headwayMinutes": 17.0
+                            "headwayMinutes": 17
                         }
                     ],
                     "firstDeparture": "05:41",
@@ -88,7 +94,7 @@
                     "bands": [
                         {
                             "from": "05:21",
-                            "headwayMinutes": 14.0
+                            "headwayMinutes": 14
                         },
                         {
                             "from": "06:00",
@@ -96,59 +102,59 @@
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 19.0
+                            "headwayMinutes": 19
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 16.0
+                            "headwayMinutes": 16
                         },
                         {
                             "from": "11:00",
-                            "headwayMinutes": 17.0
+                            "headwayMinutes": 17
                         },
                         {
                             "from": "14:00",
-                            "headwayMinutes": 26.0
+                            "headwayMinutes": 26
                         },
                         {
                             "from": "15:00",
-                            "headwayMinutes": 14.0
+                            "headwayMinutes": 14
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 13.0
+                            "headwayMinutes": 13
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 11.0
+                            "headwayMinutes": 11
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 13.0
+                            "headwayMinutes": 13
                         },
                         {
                             "from": "20:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "21:00",
-                            "headwayMinutes": 14.0
+                            "headwayMinutes": 14
                         },
                         {
                             "from": "22:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "23:00",
-                            "headwayMinutes": 17.0
+                            "headwayMinutes": 17
                         }
                     ],
                     "firstDeparture": "05:21",
@@ -162,17 +168,19 @@
                 "id": "static.RailDirection:JR-East.Sotobo.Chiba",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Chiba",
-                "nameJa": "千葉方面",
+                "name": {
+                    "en": "For Chiba",
+                    "ja": "千葉方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
                             "from": "05:11",
-                            "headwayMinutes": 39.0
+                            "headwayMinutes": 39
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 47.0
+                            "headwayMinutes": 47
                         },
                         {
                             "from": "07:00",
@@ -180,15 +188,15 @@
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 66.0
+                            "headwayMinutes": 66
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 77.0
+                            "headwayMinutes": 77
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 46.0
+                            "headwayMinutes": 46
                         },
                         {
                             "from": "11:00",
@@ -196,31 +204,31 @@
                         },
                         {
                             "from": "12:00",
-                            "headwayMinutes": 64.0
+                            "headwayMinutes": 64
                         },
                         {
                             "from": "13:00",
-                            "headwayMinutes": 44.0
+                            "headwayMinutes": 44
                         },
                         {
                             "from": "14:00",
-                            "headwayMinutes": 22.0
+                            "headwayMinutes": 22
                         },
                         {
                             "from": "15:00",
-                            "headwayMinutes": 33.0
+                            "headwayMinutes": 33
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 32.0
+                            "headwayMinutes": 32
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 121.0
+                            "headwayMinutes": 121
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 105.0
+                            "headwayMinutes": 105
                         }
                     ],
                     "firstDeparture": "05:11",
@@ -231,11 +239,11 @@
                     "bands": [
                         {
                             "from": "05:11",
-                            "headwayMinutes": 39.0
+                            "headwayMinutes": 39
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 47.0
+                            "headwayMinutes": 47
                         },
                         {
                             "from": "07:00",
@@ -243,15 +251,15 @@
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 66.0
+                            "headwayMinutes": 66
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 77.0
+                            "headwayMinutes": 77
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 46.0
+                            "headwayMinutes": 46
                         },
                         {
                             "from": "11:00",
@@ -259,31 +267,31 @@
                         },
                         {
                             "from": "12:00",
-                            "headwayMinutes": 64.0
+                            "headwayMinutes": 64
                         },
                         {
                             "from": "13:00",
-                            "headwayMinutes": 44.0
+                            "headwayMinutes": 44
                         },
                         {
                             "from": "14:00",
-                            "headwayMinutes": 22.0
+                            "headwayMinutes": 22
                         },
                         {
                             "from": "15:00",
-                            "headwayMinutes": 33.0
+                            "headwayMinutes": 33
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 32.0
+                            "headwayMinutes": 32
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 121.0
+                            "headwayMinutes": 121
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 105.0
+                            "headwayMinutes": 105
                         }
                     ],
                     "firstDeparture": "05:11",
@@ -292,11 +300,16 @@
                 }
             }
         ],
-        "hopTimesMinutes": [3.0, 4.0, 5.0, 4.0, 5.0, 5.0, 3.0, 3.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 3.0, 2.0, 4.0, 4.0, 5.0, 6.0, 4.0, 4.0, 5.0, 5.0, 5.0, 6.0],
+        "hopTimesMinutes": [3, 4, 5, 4, 5, 5, 3, 3, 4, 4, 4, 4, 4, 4, 3, 2, 4, 4, 5, 6, 4, 4, 5, 5, 5, 6],
         "id": "Railway:JR-East.Sotobo",
         "isLoop": false,
-        "nameEn": "Sotobo Line",
-        "nameJa": "外房線",
+        "name": {
+            "en": "Sotobo Line",
+            "ja": "外房線",
+            "ko": "소토보선",
+            "zh-Hans": "外房线",
+            "zh-Hant": "外房線"
+        },
         "operatorId": "Operator:JR-East",
         "segment": "DokoTrain",
         "stations": [
@@ -304,297 +317,351 @@
                 "id": "Station:JR-East.Sotobo.Chiba",
                 "latitude": 35.61315,
                 "longitude": 140.11308,
-                "name": "千葉",
-                "nameEn": "Chiba",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Chiba",
+                    "ja": "千葉",
+                    "ko": "지바",
+                    "zh-Hans": "千叶",
+                    "zh-Hant": "千葉"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Sotobo.HonChiba",
                 "latitude": 35.60062,
                 "longitude": 140.12143,
-                "name": "本千葉",
-                "nameEn": "Hon-Chiba",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Hon-Chiba",
+                    "ja": "本千葉",
+                    "ko": "혼치바",
+                    "zh-Hans": "本千叶",
+                    "zh-Hant": "本千葉"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Sotobo.Soga",
                 "latitude": 35.58216,
                 "longitude": 140.13074,
-                "name": "蘇我",
-                "nameEn": "Soga",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Soga",
+                    "ja": "蘇我",
+                    "ko": "소가",
+                    "zh-Hans": "苏我",
+                    "zh-Hant": "蘇我"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Sotobo.Kamatori",
                 "latitude": 35.56266,
                 "longitude": 140.17875,
-                "name": "鎌取",
-                "nameEn": "Kamatori",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kamatori",
+                    "ja": "鎌取",
+                    "ko": "가마토리",
+                    "zh-Hans": "镰取",
+                    "zh-Hant": "鎌取"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Sotobo.Honda",
                 "latitude": 35.547,
                 "longitude": 140.21378,
-                "name": "誉田",
-                "nameEn": "Honda",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Honda",
+                    "ja": "誉田",
+                    "ko": "혼다",
+                    "zh-Hans": "誉田",
+                    "zh-Hant": "譽田"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Sotobo.Toke",
                 "latitude": 35.53092,
                 "longitude": 140.26977,
-                "name": "土気",
-                "nameEn": "Toke",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Toke",
+                    "ja": "土気",
+                    "ko": "도케",
+                    "zh-Hans": "土气",
+                    "zh-Hant": "土氣"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Sotobo.Oami",
                 "latitude": 35.5223,
                 "longitude": 140.31101,
-                "name": "大網",
-                "nameEn": "Oami",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Oami",
+                    "ja": "大網",
+                    "ko": "오아미",
+                    "zh-Hans": "大网",
+                    "zh-Hant": "大網"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Sotobo.Nagata",
                 "latitude": 35.50324,
                 "longitude": 140.31127,
-                "name": "永田",
-                "nameEn": "Nagata",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nagata",
+                    "ja": "永田",
+                    "ko": "나가타",
+                    "zh-Hans": "永田",
+                    "zh-Hant": "永田"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Sotobo.Honno",
                 "latitude": 35.48216,
                 "longitude": 140.30757,
-                "name": "本納",
-                "nameEn": "Honno",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Honno",
+                    "ja": "本納",
+                    "ko": "혼노",
+                    "zh-Hans": "本纳",
+                    "zh-Hant": "本納"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Sotobo.ShimMobara",
                 "latitude": 35.44943,
                 "longitude": 140.29972,
-                "name": "新茂原",
-                "nameEn": "Shim-Mobara",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shim-Mobara",
+                    "ja": "新茂原",
+                    "ko": "신모바라",
+                    "zh-Hans": "新茂原",
+                    "zh-Hant": "新茂原"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Sotobo.Mobara",
                 "latitude": 35.42683,
                 "longitude": 140.30407,
-                "name": "茂原",
-                "nameEn": "Mobara",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Mobara",
+                    "ja": "茂原",
+                    "ko": "모바라",
+                    "zh-Hans": "茂原",
+                    "zh-Hant": "茂原"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Sotobo.Yatsumi",
                 "latitude": 35.40396,
                 "longitude": 140.34536,
-                "name": "八積",
-                "nameEn": "Yatsumi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Yatsumi",
+                    "ja": "八積",
+                    "ko": "야쓰미",
+                    "zh-Hans": "八积",
+                    "zh-Hant": "八積"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Sotobo.KazusaIchinomiya",
                 "latitude": 35.37468,
                 "longitude": 140.36552,
-                "name": "上総一ノ宮",
-                "nameEn": "Kazusa-Ichinomiya",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kazusa-Ichinomiya",
+                    "ja": "上総一ノ宮",
+                    "ko": "가즈사이치노미야",
+                    "zh-Hans": "上总一之宫",
+                    "zh-Hant": "上總一之宮"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Sotobo.Torami",
                 "latitude": 35.34677,
                 "longitude": 140.37665,
-                "name": "東浪見",
-                "nameEn": "Torami",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Torami",
+                    "ja": "東浪見",
+                    "ko": "도라미",
+                    "zh-Hans": "东浪见",
+                    "zh-Hant": "東浪見"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Sotobo.Taito",
                 "latitude": 35.3201,
                 "longitude": 140.38129,
-                "name": "太東",
-                "nameEn": "Taito",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Taito",
+                    "ja": "太東",
+                    "ko": "다이토",
+                    "zh-Hans": "太东",
+                    "zh-Hant": "太東"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Sotobo.Chojamachi",
                 "latitude": 35.29626,
                 "longitude": 140.38481,
-                "name": "長者町",
-                "nameEn": "Chojamachi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Chojamachi",
+                    "ja": "長者町",
+                    "ko": "조자마치",
+                    "zh-Hans": "长者町",
+                    "zh-Hant": "長者町"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Sotobo.Mikado",
                 "latitude": 35.28292,
                 "longitude": 140.39144,
-                "name": "三門",
-                "nameEn": "Mikado",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Mikado",
+                    "ja": "三門",
+                    "ko": "미카도",
+                    "zh-Hans": "三门",
+                    "zh-Hant": "三門"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Sotobo.Ohara",
                 "latitude": 35.25101,
                 "longitude": 140.39102,
-                "name": "大原",
-                "nameEn": "Ohara",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ohara",
+                    "ja": "大原",
+                    "ko": "오하라",
+                    "zh-Hans": "大原",
+                    "zh-Hant": "大原"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Sotobo.Namihana",
                 "latitude": 35.22264,
                 "longitude": 140.37914,
-                "name": "浪花",
-                "nameEn": "Namihana",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Namihana",
+                    "ja": "浪花",
+                    "ko": "나미하나",
+                    "zh-Hans": "浪花",
+                    "zh-Hant": "浪花"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Sotobo.Onjuku",
                 "latitude": 35.18754,
                 "longitude": 140.35144,
-                "name": "御宿",
-                "nameEn": "Onjuku",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Onjuku",
+                    "ja": "御宿",
+                    "ko": "온주쿠",
+                    "zh-Hans": "御宿",
+                    "zh-Hant": "御宿"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Sotobo.Katsuura",
                 "latitude": 35.15262,
                 "longitude": 140.31197,
-                "name": "勝浦",
-                "nameEn": "Katsuura",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Katsuura",
+                    "ja": "勝浦",
+                    "ko": "가쓰우라",
+                    "zh-Hans": "胜浦",
+                    "zh-Hant": "勝浦"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Sotobo.Ubara",
                 "latitude": 35.14125,
                 "longitude": 140.27896,
-                "name": "鵜原",
-                "nameEn": "Ubara",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ubara",
+                    "ja": "鵜原",
+                    "ko": "우바라",
+                    "zh-Hans": "鹈原",
+                    "zh-Hant": "鵜原"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Sotobo.KazusaOkitsu",
                 "latitude": 35.13722,
                 "longitude": 140.25047,
-                "name": "上総興津",
-                "nameEn": "Kazusa-Okitsu",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kazusa-Okitsu",
+                    "ja": "上総興津",
+                    "ko": "가즈사오키쓰",
+                    "zh-Hans": "上总兴津",
+                    "zh-Hant": "上總興津"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Sotobo.NamegawaIsland",
                 "latitude": 35.11826,
                 "longitude": 140.22571,
-                "name": "行川アイランド",
-                "nameEn": "Namegawa Island",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Namegawa Island",
+                    "ja": "行川アイランド",
+                    "ko": "나메가와 아일랜드",
+                    "zh-Hans": "行川岛",
+                    "zh-Hant": "行川島"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Sotobo.AwaKominato",
                 "latitude": 35.12864,
                 "longitude": 140.18977,
-                "name": "安房小湊",
-                "nameEn": "Awa-Kominato",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Awa-Kominato",
+                    "ja": "安房小湊",
+                    "ko": "아와코미나토",
+                    "zh-Hans": "安房小凑",
+                    "zh-Hant": "安房小湊"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Sotobo.AwaAmatsu",
                 "latitude": 35.12579,
                 "longitude": 140.15474,
-                "name": "安房天津",
-                "nameEn": "Awa-Amatsu",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Awa-Amatsu",
+                    "ja": "安房天津",
+                    "ko": "아와아마쓰",
+                    "zh-Hans": "安房天津",
+                    "zh-Hant": "安房天津"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Sotobo.AwaKamogawa",
                 "latitude": 35.10762,
                 "longitude": 140.10371,
-                "name": "安房鴨川",
-                "nameEn": "Awa-Kamogawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Awa-Kamogawa",
+                    "ja": "安房鴨川",
+                    "ko": "아와카모가와",
+                    "zh-Hans": "安房鸭川",
+                    "zh-Hant": "安房鴨川"
+                },
                 "stationCode": ""
             }
         ],
@@ -608,8 +675,10 @@
                 "startsHere": true,
                 "stops": [341, 343, 349, 354, 358, 363, 369],
                 "terminates": false,
-                "throughDestEn": "Naruto",
-                "throughDestJa": "成東",
+                "throughDest": {
+                    "en": "Naruto",
+                    "ja": "成東"
+                },
                 "type": "Local"
             },
             {
@@ -646,8 +715,10 @@
                 "startsHere": true,
                 "stops": [365, 367, 371, 376, 380, 385, 390],
                 "terminates": false,
-                "throughDestEn": "Naruto",
-                "throughDestJa": "成東",
+                "throughDest": {
+                    "en": "Naruto",
+                    "ja": "成東"
+                },
                 "type": "Local"
             },
             {
@@ -684,8 +755,10 @@
                 "startsHere": true,
                 "stops": [429, 434, 439, 446, 450, 456, 460, 468, 473, 484],
                 "terminates": false,
-                "throughDestEn": "Kisarazu",
-                "throughDestJa": "木更津",
+                "throughDest": {
+                    "en": "Kisarazu",
+                    "ja": "木更津"
+                },
                 "type": "Local"
             },
             {
@@ -713,8 +786,10 @@
                 "startsHere": true,
                 "stops": [452, 456, 462, 467, 471, 476, 482],
                 "terminates": false,
-                "throughDestEn": "Naruto",
-                "throughDestJa": "成東",
+                "throughDest": {
+                    "en": "Naruto",
+                    "ja": "成東"
+                },
                 "type": "Local"
             },
             {
@@ -742,8 +817,10 @@
                 "startsHere": true,
                 "stops": [481, 484, 488, 493, 497, 502, 507],
                 "terminates": false,
-                "throughDestEn": "Naruto",
-                "throughDestJa": "成東",
+                "throughDest": {
+                    "en": "Naruto",
+                    "ja": "成東"
+                },
                 "type": "Local"
             },
             {
@@ -789,8 +866,10 @@
                 "startsHere": true,
                 "stops": [556, 559, 563, 568, 572, 577, 583],
                 "terminates": false,
-                "throughDestEn": "Naruto",
-                "throughDestJa": "成東",
+                "throughDest": {
+                    "en": "Naruto",
+                    "ja": "成東"
+                },
                 "type": "Local"
             },
             {
@@ -827,8 +906,10 @@
                 "startsHere": true,
                 "stops": [591, 593, 604, 609, 613, 618, 626],
                 "terminates": false,
-                "throughDestEn": "Naruto",
-                "throughDestJa": "成東",
+                "throughDest": {
+                    "en": "Naruto",
+                    "ja": "成東"
+                },
                 "type": "Local"
             },
             {
@@ -838,8 +919,10 @@
                 "startsHere": true,
                 "stops": [591, 593, 607, 612, 616, 621, 627],
                 "terminates": false,
-                "throughDestEn": "Naruto",
-                "throughDestJa": "成東",
+                "throughDest": {
+                    "en": "Naruto",
+                    "ja": "成東"
+                },
                 "type": "Local"
             },
             {
@@ -858,8 +941,10 @@
                 "startsHere": true,
                 "stops": [633, 637, 640, 643, 645, 650, 654, 659, 666, 670, 674, 678, 690, 695, 722],
                 "terminates": false,
-                "throughDestEn": "Kisarazu",
-                "throughDestJa": "木更津",
+                "throughDest": {
+                    "en": "Kisarazu",
+                    "ja": "木更津"
+                },
                 "type": "Local"
             },
             {
@@ -878,8 +963,10 @@
                 "startsHere": true,
                 "stops": [637, 640, 644, 647, 649, 653, 657, 662, 668, 672, 676, 681, 690, 695, 722],
                 "terminates": false,
-                "throughDestEn": "Kisarazu",
-                "throughDestJa": "木更津",
+                "throughDest": {
+                    "en": "Kisarazu",
+                    "ja": "木更津"
+                },
                 "type": "Local"
             },
             {
@@ -898,8 +985,10 @@
                 "startsHere": true,
                 "stops": [655, 658, 663, 668, 672, 677, 682],
                 "terminates": false,
-                "throughDestEn": "Naruto",
-                "throughDestJa": "成東",
+                "throughDest": {
+                    "en": "Naruto",
+                    "ja": "成東"
+                },
                 "type": "Local"
             },
             {
@@ -936,8 +1025,10 @@
                 "startsHere": true,
                 "stops": [700, 704, 708, 711, 713, 718, 722, 727, 734, 738, 742, 747, 755, 760, 779],
                 "terminates": false,
-                "throughDestEn": "Kisarazu",
-                "throughDestJa": "木更津",
+                "throughDest": {
+                    "en": "Kisarazu",
+                    "ja": "木更津"
+                },
                 "type": "Local"
             },
             {
@@ -956,8 +1047,10 @@
                 "startsHere": true,
                 "stops": [714, 717, 723, 728, 732, 737, 742],
                 "terminates": false,
-                "throughDestEn": "Naruto",
-                "throughDestJa": "成東",
+                "throughDest": {
+                    "en": "Naruto",
+                    "ja": "成東"
+                },
                 "type": "Local"
             },
             {
@@ -985,8 +1078,10 @@
                 "startsHere": true,
                 "stops": [756, 760, 764, 767, 769, 774, 778, 783, 789, 793, 797, 802, 807, 815, 833],
                 "terminates": false,
-                "throughDestEn": "Kisarazu",
-                "throughDestJa": "木更津",
+                "throughDest": {
+                    "en": "Kisarazu",
+                    "ja": "木更津"
+                },
                 "type": "Local"
             },
             {
@@ -1005,8 +1100,10 @@
                 "startsHere": true,
                 "stops": [774, 777, 783, 788, 792, 797, 802],
                 "terminates": false,
-                "throughDestEn": "Naruto",
-                "throughDestJa": "成東",
+                "throughDest": {
+                    "en": "Naruto",
+                    "ja": "成東"
+                },
                 "type": "Local"
             },
             {
@@ -1034,8 +1131,10 @@
                 "startsHere": true,
                 "stops": [820, 823, 827, 830, 832, 837, 847, 852, 858, 863, 871, 875, 881, 885, 893],
                 "terminates": false,
-                "throughDestEn": "Kisarazu",
-                "throughDestJa": "木更津",
+                "throughDest": {
+                    "en": "Kisarazu",
+                    "ja": "木更津"
+                },
                 "type": "Local"
             },
             {
@@ -1054,8 +1153,10 @@
                 "startsHere": true,
                 "stops": [834, 837, 843, 848, 852, 857, 862],
                 "terminates": false,
-                "throughDestEn": "Naruto",
-                "throughDestJa": "成東",
+                "throughDest": {
+                    "en": "Naruto",
+                    "ja": "成東"
+                },
                 "type": "Local"
             },
             {
@@ -1101,8 +1202,10 @@
                 "startsHere": true,
                 "stops": [903, 906, 910, 915, 919, 924, 934],
                 "terminates": false,
-                "throughDestEn": "Naruto",
-                "throughDestJa": "成東",
+                "throughDest": {
+                    "en": "Naruto",
+                    "ja": "成東"
+                },
                 "type": "Local"
             },
             {
@@ -1121,8 +1224,10 @@
                 "startsHere": true,
                 "stops": [937, 940, 944, 948, 950, 954, 957, 962, 968, 972, 976, 981, 986, 997, 1020],
                 "terminates": false,
-                "throughDestEn": "Kisarazu",
-                "throughDestJa": "木更津",
+                "throughDest": {
+                    "en": "Kisarazu",
+                    "ja": "木更津"
+                },
                 "type": "Local"
             },
             {
@@ -1177,8 +1282,10 @@
                 "startsHere": true,
                 "stops": [1010, 1014, 1017, 1021, 1023, 1027, 1031, 1036, 1046, 1051, 1055, 1059, 1066, 1070, 1084],
                 "terminates": false,
-                "throughDestEn": "Kisarazu",
-                "throughDestJa": "木更津",
+                "throughDest": {
+                    "en": "Kisarazu",
+                    "ja": "木更津"
+                },
                 "type": "Local"
             },
             {
@@ -1251,8 +1358,10 @@
                 "startsHere": true,
                 "stops": [1087, 1090, 1093, 1099, 1103, 1108, 1115],
                 "terminates": false,
-                "throughDestEn": "Naruto",
-                "throughDestJa": "成東",
+                "throughDest": {
+                    "en": "Naruto",
+                    "ja": "成東"
+                },
                 "type": "Local"
             },
             {
@@ -1316,8 +1425,10 @@
                 "startsHere": true,
                 "stops": [1151, 1155, 1159, 1166, 1169, 1172, 1176, 1181, 1187, 1191, 1195, 1200, 1205, 1209, 1216],
                 "terminates": false,
-                "throughDestEn": "Kisarazu",
-                "throughDestJa": "木更津",
+                "throughDest": {
+                    "en": "Kisarazu",
+                    "ja": "木更津"
+                },
                 "type": "Local"
             },
             {
@@ -1336,8 +1447,10 @@
                 "startsHere": false,
                 "stops": [1165, 1170, 1177, 1182, 1187],
                 "terminates": false,
-                "throughDestEn": "Naruto",
-                "throughDestJa": "成東",
+                "throughDest": {
+                    "en": "Naruto",
+                    "ja": "成東"
+                },
                 "type": "Local"
             },
             {
@@ -1446,8 +1559,10 @@
                 "startsHere": true,
                 "stops": [1287, 1290, 1299, 1304, 1308, 1313, 1319],
                 "terminates": false,
-                "throughDestEn": "Togane",
-                "throughDestJa": "東金",
+                "throughDest": {
+                    "en": "Togane",
+                    "ja": "東金"
+                },
                 "type": "Local"
             },
             {
@@ -1610,8 +1725,10 @@
                 "startsHere": true,
                 "stops": [363, 368, 372, 375, 379, 382, 385, 389, 394, 398, 403],
                 "terminates": false,
-                "throughDestEn": "Tokyo",
-                "throughDestJa": "東京",
+                "throughDest": {
+                    "en": "Tokyo",
+                    "ja": "東京"
+                },
                 "type": "Rapid"
             },
             {
@@ -1657,8 +1774,10 @@
                 "startsHere": true,
                 "stops": [390, 394, 398, 402, 405, 408, 411, 415, 420, 424, 430],
                 "terminates": false,
-                "throughDestEn": "Tokyo",
-                "throughDestJa": "東京",
+                "throughDest": {
+                    "en": "Tokyo",
+                    "ja": "東京"
+                },
                 "type": "Rapid"
             },
             {
@@ -1668,8 +1787,10 @@
                 "startsHere": true,
                 "stops": [413, 418, 422, 425, 429, 432, 435, 440, 454, 459, 464],
                 "terminates": false,
-                "throughDestEn": "Tokyo",
-                "throughDestJa": "東京",
+                "throughDest": {
+                    "en": "Tokyo",
+                    "ja": "東京"
+                },
                 "type": "Local"
             },
             {
@@ -1724,8 +1845,10 @@
                 "startsHere": false,
                 "stops": [438, 443, 454, 459, 464],
                 "terminates": false,
-                "throughDestEn": "Tokyo",
-                "throughDestJa": "東京",
+                "throughDest": {
+                    "en": "Tokyo",
+                    "ja": "東京"
+                },
                 "type": "Local"
             },
             {
@@ -1771,8 +1894,10 @@
                 "startsHere": true,
                 "stops": [459, -1, 468, -1, 477, -1, 485, 491, -1, 500, -1, -1, -1, -1, 513, -1, 519, -1, -1, -1, 528, 532, -1, -1, 543],
                 "terminates": false,
-                "throughDestEn": "Tokyo",
-                "throughDestJa": "東京",
+                "throughDest": {
+                    "en": "Tokyo",
+                    "ja": "東京"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -1872,8 +1997,10 @@
                 "startsHere": true,
                 "stops": [548, 553, -1, 561, -1, -1, -1, -1, 573, -1, 579, -1, -1, -1, 587, 591, -1, -1, 602],
                 "terminates": false,
-                "throughDestEn": "Tokyo",
-                "throughDestJa": "東京",
+                "throughDest": {
+                    "en": "Tokyo",
+                    "ja": "東京"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -1982,8 +2109,10 @@
                 "startsHere": true,
                 "stops": [640, 644, 648, 652, 655, 658, 661, 665, 670, 674, 680],
                 "terminates": false,
-                "throughDestEn": "Tokyo",
-                "throughDestJa": "東京",
+                "throughDest": {
+                    "en": "Tokyo",
+                    "ja": "東京"
+                },
                 "type": "Rapid"
             },
             {
@@ -2065,8 +2194,10 @@
                 "startsHere": true,
                 "stops": [698, 702, 706, 710, 713, 716, 719, 723, 728, 732, 740],
                 "terminates": false,
-                "throughDestEn": "Tokyo",
-                "throughDestJa": "東京",
+                "throughDest": {
+                    "en": "Tokyo",
+                    "ja": "東京"
+                },
                 "type": "Rapid"
             },
             {
@@ -2076,8 +2207,10 @@
                 "startsHere": true,
                 "stops": [701, -1, 711, -1, -1, -1, 727, 732, -1, 743, -1, -1, -1, -1, 754, -1, 761, -1, -1, -1, 769, -1, -1, -1, 782],
                 "terminates": false,
-                "throughDestEn": "Tokyo",
-                "throughDestJa": "東京",
+                "throughDest": {
+                    "en": "Tokyo",
+                    "ja": "東京"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -2141,8 +2274,10 @@
                 "startsHere": true,
                 "stops": [759, 763, 767, 771, 774, 777, 780, 784, 789, 793, 800],
                 "terminates": false,
-                "throughDestEn": "Tokyo",
-                "throughDestJa": "東京",
+                "throughDest": {
+                    "en": "Tokyo",
+                    "ja": "東京"
+                },
                 "type": "Rapid"
             },
             {
@@ -2206,8 +2341,10 @@
                 "startsHere": true,
                 "stops": [819, 823, 827, 831, 834, 837, 840, 844, 849, 853, 860],
                 "terminates": false,
-                "throughDestEn": "Tokyo",
-                "throughDestJa": "東京",
+                "throughDest": {
+                    "en": "Tokyo",
+                    "ja": "東京"
+                },
                 "type": "Rapid"
             },
             {
@@ -2235,8 +2372,10 @@
                 "startsHere": true,
                 "stops": [853, -1, 862, -1, -1, -1, 877, 882, -1, 890, -1, -1, -1, -1, 902, -1, 908, -1, -1, -1, 916, -1, -1, -1, 930],
                 "terminates": false,
-                "throughDestEn": "Tokyo",
-                "throughDestJa": "東京",
+                "throughDest": {
+                    "en": "Tokyo",
+                    "ja": "東京"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -2282,8 +2421,10 @@
                 "startsHere": true,
                 "stops": [879, 883, 887, 891, 894, 897, 900, 904, 909, 913, 920],
                 "terminates": false,
-                "throughDestEn": "Tokyo",
-                "throughDestJa": "東京",
+                "throughDest": {
+                    "en": "Tokyo",
+                    "ja": "東京"
+                },
                 "type": "Rapid"
             },
             {
@@ -2293,8 +2434,10 @@
                 "startsHere": true,
                 "stops": [892, -1, 902, -1, -1, -1, 921, 926, -1, 934, -1, -1, -1, -1, 948, -1, 954, -1, -1, -1, 966, -1, -1, -1, 983],
                 "terminates": false,
-                "throughDestEn": "Tokyo",
-                "throughDestJa": "東京",
+                "throughDest": {
+                    "en": "Tokyo",
+                    "ja": "東京"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -2349,8 +2492,10 @@
                 "startsHere": true,
                 "stops": [938, -1, 952, -1, -1, -1, 967, 972, -1, 980, -1, -1, -1, -1, 992, -1, 998, -1, -1, -1, 1006, -1, -1, -1, 1020],
                 "terminates": false,
-                "throughDestEn": "Tokyo",
-                "throughDestJa": "東京",
+                "throughDest": {
+                    "en": "Tokyo",
+                    "ja": "東京"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -2360,8 +2505,10 @@
                 "startsHere": true,
                 "stops": [939, 943, 947, 951, 954, 957, 960, 964, 969, 973, 979],
                 "terminates": false,
-                "throughDestEn": "Tokyo",
-                "throughDestJa": "東京",
+                "throughDest": {
+                    "en": "Tokyo",
+                    "ja": "東京"
+                },
                 "type": "Local"
             },
             {
@@ -2434,8 +2581,10 @@
                 "startsHere": true,
                 "stops": [1005, -1, 1014, -1, 1023, -1, 1030, 1036, -1, 1044, -1, -1, -1, -1, 1056, -1, 1063, -1, -1, -1, 1071, -1, -1, -1, 1085],
                 "terminates": false,
-                "throughDestEn": "Tokyo",
-                "throughDestJa": "東京",
+                "throughDest": {
+                    "en": "Tokyo",
+                    "ja": "東京"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -2544,8 +2693,10 @@
                 "startsHere": true,
                 "stops": [1089, 1095, -1, 1104, -1, -1, -1, -1, 1118, -1, 1125, -1, -1, -1, 1134, -1, -1, -1, 1148],
                 "terminates": false,
-                "throughDestEn": "Tokyo",
-                "throughDestJa": "東京",
+                "throughDest": {
+                    "en": "Tokyo",
+                    "ja": "東京"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -2681,8 +2832,10 @@
                 "startsHere": true,
                 "stops": [1212, 1216, 1221, 1225, 1229, 1232, 1235, 1239, 1244, 1247, 1254],
                 "terminates": false,
-                "throughDestEn": "Tokyo",
-                "throughDestJa": "東京",
+                "throughDest": {
+                    "en": "Tokyo",
+                    "ja": "東京"
+                },
                 "type": "Local"
             },
             {
@@ -2737,8 +2890,10 @@
                 "startsHere": true,
                 "stops": [1273, 1278, 1282, 1286, 1290, 1293, 1296, 1301, 1306, 1310, 1317],
                 "terminates": false,
-                "throughDestEn": "Tokyo",
-                "throughDestJa": "東京",
+                "throughDest": {
+                    "en": "Tokyo",
+                    "ja": "東京"
+                },
                 "type": "Local"
             },
             {
@@ -2838,8 +2993,10 @@
                 "startsHere": true,
                 "stops": [341, 343, 349, 354, 358, 363, 369],
                 "terminates": false,
-                "throughDestEn": "Naruto",
-                "throughDestJa": "成東",
+                "throughDest": {
+                    "en": "Naruto",
+                    "ja": "成東"
+                },
                 "type": "Local"
             },
             {
@@ -2876,8 +3033,10 @@
                 "startsHere": true,
                 "stops": [365, 367, 371, 376, 380, 385, 390],
                 "terminates": false,
-                "throughDestEn": "Naruto",
-                "throughDestJa": "成東",
+                "throughDest": {
+                    "en": "Naruto",
+                    "ja": "成東"
+                },
                 "type": "Local"
             },
             {
@@ -2914,8 +3073,10 @@
                 "startsHere": true,
                 "stops": [429, 434, 439, 446, 450, 456, 460, 468, 473, 484],
                 "terminates": false,
-                "throughDestEn": "Kisarazu",
-                "throughDestJa": "木更津",
+                "throughDest": {
+                    "en": "Kisarazu",
+                    "ja": "木更津"
+                },
                 "type": "Local"
             },
             {
@@ -2943,8 +3104,10 @@
                 "startsHere": true,
                 "stops": [452, 456, 462, 467, 471, 476, 482],
                 "terminates": false,
-                "throughDestEn": "Naruto",
-                "throughDestJa": "成東",
+                "throughDest": {
+                    "en": "Naruto",
+                    "ja": "成東"
+                },
                 "type": "Local"
             },
             {
@@ -2972,8 +3135,10 @@
                 "startsHere": true,
                 "stops": [481, 484, 488, 493, 497, 502, 507],
                 "terminates": false,
-                "throughDestEn": "Naruto",
-                "throughDestJa": "成東",
+                "throughDest": {
+                    "en": "Naruto",
+                    "ja": "成東"
+                },
                 "type": "Local"
             },
             {
@@ -3019,8 +3184,10 @@
                 "startsHere": true,
                 "stops": [556, 559, 563, 568, 572, 577, 583],
                 "terminates": false,
-                "throughDestEn": "Naruto",
-                "throughDestJa": "成東",
+                "throughDest": {
+                    "en": "Naruto",
+                    "ja": "成東"
+                },
                 "type": "Local"
             },
             {
@@ -3066,8 +3233,10 @@
                 "startsHere": true,
                 "stops": [591, 593, 604, 609, 613, 618, 626],
                 "terminates": false,
-                "throughDestEn": "Naruto",
-                "throughDestJa": "成東",
+                "throughDest": {
+                    "en": "Naruto",
+                    "ja": "成東"
+                },
                 "type": "Local"
             },
             {
@@ -3095,8 +3264,10 @@
                 "startsHere": true,
                 "stops": [633, 637, 640, 643, 645, 650, 654, 659, 666, 670, 674, 678, 690, 695, 722],
                 "terminates": false,
-                "throughDestEn": "Kisarazu",
-                "throughDestJa": "木更津",
+                "throughDest": {
+                    "en": "Kisarazu",
+                    "ja": "木更津"
+                },
                 "type": "Local"
             },
             {
@@ -3124,8 +3295,10 @@
                 "startsHere": true,
                 "stops": [655, 658, 663, 668, 672, 677, 682],
                 "terminates": false,
-                "throughDestEn": "Naruto",
-                "throughDestJa": "成東",
+                "throughDest": {
+                    "en": "Naruto",
+                    "ja": "成東"
+                },
                 "type": "Local"
             },
             {
@@ -3162,8 +3335,10 @@
                 "startsHere": true,
                 "stops": [700, 704, 708, 711, 713, 718, 722, 727, 734, 738, 742, 747, 755, 760, 779],
                 "terminates": false,
-                "throughDestEn": "Kisarazu",
-                "throughDestJa": "木更津",
+                "throughDest": {
+                    "en": "Kisarazu",
+                    "ja": "木更津"
+                },
                 "type": "Local"
             },
             {
@@ -3182,8 +3357,10 @@
                 "startsHere": true,
                 "stops": [714, 717, 723, 728, 732, 737, 742],
                 "terminates": false,
-                "throughDestEn": "Naruto",
-                "throughDestJa": "成東",
+                "throughDest": {
+                    "en": "Naruto",
+                    "ja": "成東"
+                },
                 "type": "Local"
             },
             {
@@ -3211,8 +3388,10 @@
                 "startsHere": true,
                 "stops": [756, 760, 764, 767, 769, 774, 778, 783, 789, 793, 797, 802, 807, 815, 833],
                 "terminates": false,
-                "throughDestEn": "Kisarazu",
-                "throughDestJa": "木更津",
+                "throughDest": {
+                    "en": "Kisarazu",
+                    "ja": "木更津"
+                },
                 "type": "Local"
             },
             {
@@ -3231,8 +3410,10 @@
                 "startsHere": true,
                 "stops": [774, 777, 783, 788, 792, 797, 802],
                 "terminates": false,
-                "throughDestEn": "Naruto",
-                "throughDestJa": "成東",
+                "throughDest": {
+                    "en": "Naruto",
+                    "ja": "成東"
+                },
                 "type": "Local"
             },
             {
@@ -3260,8 +3441,10 @@
                 "startsHere": true,
                 "stops": [820, 823, 827, 830, 832, 837, 847, 852, 858, 863, 871, 875, 881, 885, 893],
                 "terminates": false,
-                "throughDestEn": "Kisarazu",
-                "throughDestJa": "木更津",
+                "throughDest": {
+                    "en": "Kisarazu",
+                    "ja": "木更津"
+                },
                 "type": "Local"
             },
             {
@@ -3280,8 +3463,10 @@
                 "startsHere": true,
                 "stops": [834, 837, 843, 848, 852, 857, 862],
                 "terminates": false,
-                "throughDestEn": "Naruto",
-                "throughDestJa": "成東",
+                "throughDest": {
+                    "en": "Naruto",
+                    "ja": "成東"
+                },
                 "type": "Local"
             },
             {
@@ -3327,8 +3512,10 @@
                 "startsHere": true,
                 "stops": [903, 906, 910, 915, 919, 924, 934],
                 "terminates": false,
-                "throughDestEn": "Naruto",
-                "throughDestJa": "成東",
+                "throughDest": {
+                    "en": "Naruto",
+                    "ja": "成東"
+                },
                 "type": "Local"
             },
             {
@@ -3356,8 +3543,10 @@
                 "startsHere": true,
                 "stops": [937, 940, 944, 948, 950, 954, 957, 962, 968, 972, 976, 981, 986, 997, 1020],
                 "terminates": false,
-                "throughDestEn": "Kisarazu",
-                "throughDestJa": "木更津",
+                "throughDest": {
+                    "en": "Kisarazu",
+                    "ja": "木更津"
+                },
                 "type": "Local"
             },
             {
@@ -3421,8 +3610,10 @@
                 "startsHere": true,
                 "stops": [1010, 1014, 1017, 1021, 1023, 1027, 1031, 1036, 1046, 1051, 1055, 1059, 1066, 1070, 1084],
                 "terminates": false,
-                "throughDestEn": "Kisarazu",
-                "throughDestJa": "木更津",
+                "throughDest": {
+                    "en": "Kisarazu",
+                    "ja": "木更津"
+                },
                 "type": "Local"
             },
             {
@@ -3504,8 +3695,10 @@
                 "startsHere": true,
                 "stops": [1087, 1090, 1093, 1099, 1103, 1108, 1115],
                 "terminates": false,
-                "throughDestEn": "Naruto",
-                "throughDestJa": "成東",
+                "throughDest": {
+                    "en": "Naruto",
+                    "ja": "成東"
+                },
                 "type": "Local"
             },
             {
@@ -3587,8 +3780,10 @@
                 "startsHere": true,
                 "stops": [1151, 1155, 1159, 1166, 1169, 1172, 1176, 1181, 1187, 1191, 1195, 1200, 1205, 1209, 1216],
                 "terminates": false,
-                "throughDestEn": "Kisarazu",
-                "throughDestJa": "木更津",
+                "throughDest": {
+                    "en": "Kisarazu",
+                    "ja": "木更津"
+                },
                 "type": "Local"
             },
             {
@@ -3607,8 +3802,10 @@
                 "startsHere": false,
                 "stops": [1165, 1170, 1177, 1182, 1187],
                 "terminates": false,
-                "throughDestEn": "Naruto",
-                "throughDestJa": "成東",
+                "throughDest": {
+                    "en": "Naruto",
+                    "ja": "成東"
+                },
                 "type": "Local"
             },
             {
@@ -3744,8 +3941,10 @@
                 "startsHere": true,
                 "stops": [1287, 1290, 1299, 1304, 1308, 1313, 1319],
                 "terminates": false,
-                "throughDestEn": "Togane",
-                "throughDestJa": "東金",
+                "throughDest": {
+                    "en": "Togane",
+                    "ja": "東金"
+                },
                 "type": "Local"
             },
             {
@@ -3926,8 +4125,10 @@
                 "startsHere": true,
                 "stops": [363, 368, 372, 375, 379, 382, 385, 389, 394, 398, 403],
                 "terminates": false,
-                "throughDestEn": "Tokyo",
-                "throughDestJa": "東京",
+                "throughDest": {
+                    "en": "Tokyo",
+                    "ja": "東京"
+                },
                 "type": "Rapid"
             },
             {
@@ -3955,8 +4156,10 @@
                 "startsHere": true,
                 "stops": [368, -1, -1, -1, 377, 382, -1, -1, 392],
                 "terminates": false,
-                "throughDestEn": "Tokyo",
-                "throughDestJa": "東京",
+                "throughDest": {
+                    "en": "Tokyo",
+                    "ja": "東京"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -3966,8 +4169,10 @@
                 "startsHere": true,
                 "stops": [374, -1, 381, -1, -1, -1, 389, 394, 399, 402, 411, 415, 421],
                 "terminates": false,
-                "throughDestEn": "Kurihama",
-                "throughDestJa": "久里浜",
+                "throughDest": {
+                    "en": "Kurihama",
+                    "ja": "久里浜"
+                },
                 "type": "Rapid"
             },
             {
@@ -3995,8 +4200,10 @@
                 "startsHere": true,
                 "stops": [390, 394, 398, 402, 405, 408, 411, 415, 420, 424, 430],
                 "terminates": false,
-                "throughDestEn": "Tokyo",
-                "throughDestJa": "東京",
+                "throughDest": {
+                    "en": "Tokyo",
+                    "ja": "東京"
+                },
                 "type": "Rapid"
             },
             {
@@ -4006,8 +4213,10 @@
                 "startsHere": false,
                 "stops": [403, 406, 411],
                 "terminates": false,
-                "throughDestEn": "Zushi",
-                "throughDestJa": "逗子",
+                "throughDest": {
+                    "en": "Zushi",
+                    "ja": "逗子"
+                },
                 "type": "Rapid"
             },
             {
@@ -4017,8 +4226,10 @@
                 "startsHere": true,
                 "stops": [404, 410, -1, 417, -1, -1, -1, -1, 429, -1, 436, -1, -1, -1, 444, 449, -1, -1, 459],
                 "terminates": false,
-                "throughDestEn": "Tokyo",
-                "throughDestJa": "東京",
+                "throughDest": {
+                    "en": "Tokyo",
+                    "ja": "東京"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -4028,8 +4239,10 @@
                 "startsHere": true,
                 "stops": [405, -1, 412, -1, -1, -1, 421, 426, 431, 435, 441, 444, 451],
                 "terminates": false,
-                "throughDestEn": "Tokyo",
-                "throughDestJa": "東京",
+                "throughDest": {
+                    "en": "Tokyo",
+                    "ja": "東京"
+                },
                 "type": "Rapid"
             },
             {
@@ -4039,8 +4252,10 @@
                 "startsHere": true,
                 "stops": [413, 418, 422, 425, 429, 432, 435, 440, 454, 459, 464],
                 "terminates": false,
-                "throughDestEn": "Tokyo",
-                "throughDestJa": "東京",
+                "throughDest": {
+                    "en": "Tokyo",
+                    "ja": "東京"
+                },
                 "type": "Local"
             },
             {
@@ -4068,8 +4283,10 @@
                 "startsHere": false,
                 "stops": [429, 432, 437],
                 "terminates": false,
-                "throughDestEn": "Zushi",
-                "throughDestJa": "逗子",
+                "throughDest": {
+                    "en": "Zushi",
+                    "ja": "逗子"
+                },
                 "type": "Rapid"
             },
             {
@@ -4079,8 +4296,10 @@
                 "startsHere": true,
                 "stops": [433, -1, 440, -1, -1, -1, 450, 455, 460, 464, 469, 472, 476],
                 "terminates": false,
-                "throughDestEn": "Tokyo",
-                "throughDestJa": "東京",
+                "throughDest": {
+                    "en": "Tokyo",
+                    "ja": "東京"
+                },
                 "type": "Rapid"
             },
             {
@@ -4117,8 +4336,10 @@
                 "startsHere": false,
                 "stops": [438, 443, 454, 459, 464],
                 "terminates": false,
-                "throughDestEn": "Tokyo",
-                "throughDestJa": "東京",
+                "throughDest": {
+                    "en": "Tokyo",
+                    "ja": "東京"
+                },
                 "type": "Local"
             },
             {
@@ -4146,8 +4367,10 @@
                 "startsHere": true,
                 "stops": [447, 453, -1, 461, -1, -1, -1, -1, 474, -1, 480, -1, -1, -1, 489, 493, -1, -1, 504],
                 "terminates": false,
-                "throughDestEn": "Tokyo",
-                "throughDestJa": "東京",
+                "throughDest": {
+                    "en": "Tokyo",
+                    "ja": "東京"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -4175,8 +4398,10 @@
                 "startsHere": true,
                 "stops": [459, -1, 468, -1, 477, -1, 485, 491, -1, 500, -1, -1, -1, -1, 513, -1, 519, -1, -1, -1, 528, 532, -1, -1, 543],
                 "terminates": false,
-                "throughDestEn": "Tokyo",
-                "throughDestJa": "東京",
+                "throughDest": {
+                    "en": "Tokyo",
+                    "ja": "東京"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -4186,8 +4411,10 @@
                 "startsHere": false,
                 "stops": [459, 462, 466],
                 "terminates": false,
-                "throughDestEn": "Tokyo",
-                "throughDestJa": "東京",
+                "throughDest": {
+                    "en": "Tokyo",
+                    "ja": "東京"
+                },
                 "type": "Rapid"
             },
             {
@@ -4197,8 +4424,10 @@
                 "startsHere": false,
                 "stops": [464, 467, 471],
                 "terminates": false,
-                "throughDestEn": "Zushi",
-                "throughDestJa": "逗子",
+                "throughDest": {
+                    "en": "Zushi",
+                    "ja": "逗子"
+                },
                 "type": "Rapid"
             },
             {
@@ -4217,8 +4446,10 @@
                 "startsHere": true,
                 "stops": [472, 476, 482],
                 "terminates": false,
-                "throughDestEn": "Tokyo",
-                "throughDestJa": "東京",
+                "throughDest": {
+                    "en": "Tokyo",
+                    "ja": "東京"
+                },
                 "type": "Local"
             },
             {
@@ -4237,8 +4468,10 @@
                 "startsHere": false,
                 "stops": [483, 487, 497],
                 "terminates": false,
-                "throughDestEn": "Zushi",
-                "throughDestJa": "逗子",
+                "throughDest": {
+                    "en": "Zushi",
+                    "ja": "逗子"
+                },
                 "type": "Rapid"
             },
             {
@@ -4320,8 +4553,10 @@
                 "startsHere": true,
                 "stops": [548, 553, -1, 561, -1, -1, -1, -1, 573, -1, 579, -1, -1, -1, 587, 591, -1, -1, 602],
                 "terminates": false,
-                "throughDestEn": "Tokyo",
-                "throughDestJa": "東京",
+                "throughDest": {
+                    "en": "Tokyo",
+                    "ja": "東京"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -4358,8 +4593,10 @@
                 "startsHere": false,
                 "stops": [560, 563, 571],
                 "terminates": false,
-                "throughDestEn": "Kurihama",
-                "throughDestJa": "久里浜",
+                "throughDest": {
+                    "en": "Kurihama",
+                    "ja": "久里浜"
+                },
                 "type": "Rapid"
             },
             {
@@ -4387,8 +4624,10 @@
                 "startsHere": false,
                 "stops": [577, 580, 584],
                 "terminates": false,
-                "throughDestEn": "Zushi",
-                "throughDestJa": "逗子",
+                "throughDest": {
+                    "en": "Zushi",
+                    "ja": "逗子"
+                },
                 "type": "Rapid"
             },
             {
@@ -4443,8 +4682,10 @@
                 "startsHere": true,
                 "stops": [621, -1, 628, -1, -1, -1, 636, 641, 646, 649, 655, 659, 662],
                 "terminates": false,
-                "throughDestEn": "Tokyo",
-                "throughDestJa": "東京",
+                "throughDest": {
+                    "en": "Tokyo",
+                    "ja": "東京"
+                },
                 "type": "Rapid"
             },
             {
@@ -4454,8 +4695,10 @@
                 "startsHere": false,
                 "stops": [633, 636, 641],
                 "terminates": false,
-                "throughDestEn": "Zushi",
-                "throughDestJa": "逗子",
+                "throughDest": {
+                    "en": "Zushi",
+                    "ja": "逗子"
+                },
                 "type": "Rapid"
             },
             {
@@ -4474,8 +4717,10 @@
                 "startsHere": true,
                 "stops": [640, 644, 648, 652, 655, 658, 661, 665, 670, 674, 680],
                 "terminates": false,
-                "throughDestEn": "Tokyo",
-                "throughDestJa": "東京",
+                "throughDest": {
+                    "en": "Tokyo",
+                    "ja": "東京"
+                },
                 "type": "Rapid"
             },
             {
@@ -4548,8 +4793,10 @@
                 "startsHere": true,
                 "stops": [681, -1, 688, -1, -1, -1, 696, 701, 706, 710, 715, 718, 722],
                 "terminates": false,
-                "throughDestEn": "Tokyo",
-                "throughDestJa": "東京",
+                "throughDest": {
+                    "en": "Tokyo",
+                    "ja": "東京"
+                },
                 "type": "Rapid"
             },
             {
@@ -4559,8 +4806,10 @@
                 "startsHere": false,
                 "stops": [693, 696, 701],
                 "terminates": false,
-                "throughDestEn": "Zushi",
-                "throughDestJa": "逗子",
+                "throughDest": {
+                    "en": "Zushi",
+                    "ja": "逗子"
+                },
                 "type": "Rapid"
             },
             {
@@ -4570,8 +4819,10 @@
                 "startsHere": true,
                 "stops": [698, 702, 706, 710, 713, 716, 719, 723, 728, 732, 740],
                 "terminates": false,
-                "throughDestEn": "Tokyo",
-                "throughDestJa": "東京",
+                "throughDest": {
+                    "en": "Tokyo",
+                    "ja": "東京"
+                },
                 "type": "Rapid"
             },
             {
@@ -4581,8 +4832,10 @@
                 "startsHere": true,
                 "stops": [701, -1, 711, -1, -1, -1, 727, 732, -1, 743, -1, -1, -1, -1, 754, -1, 761, -1, -1, -1, 769, -1, -1, -1, 782],
                 "terminates": false,
-                "throughDestEn": "Tokyo",
-                "throughDestJa": "東京",
+                "throughDest": {
+                    "en": "Tokyo",
+                    "ja": "東京"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -4646,8 +4899,10 @@
                 "startsHere": true,
                 "stops": [759, 763, 767, 771, 774, 777, 780, 784, 789, 793, 800],
                 "terminates": false,
-                "throughDestEn": "Tokyo",
-                "throughDestJa": "東京",
+                "throughDest": {
+                    "en": "Tokyo",
+                    "ja": "東京"
+                },
                 "type": "Rapid"
             },
             {
@@ -4711,8 +4966,10 @@
                 "startsHere": false,
                 "stops": [813, 816, 821],
                 "terminates": false,
-                "throughDestEn": "Zushi",
-                "throughDestJa": "逗子",
+                "throughDest": {
+                    "en": "Zushi",
+                    "ja": "逗子"
+                },
                 "type": "Rapid"
             },
             {
@@ -4722,8 +4979,10 @@
                 "startsHere": true,
                 "stops": [819, 823, 827, 831, 834, 837, 840, 844, 849, 853, 860],
                 "terminates": false,
-                "throughDestEn": "Tokyo",
-                "throughDestJa": "東京",
+                "throughDest": {
+                    "en": "Tokyo",
+                    "ja": "東京"
+                },
                 "type": "Rapid"
             },
             {
@@ -4751,8 +5010,10 @@
                 "startsHere": true,
                 "stops": [853, -1, 862, -1, -1, -1, 877, 882, -1, 890, -1, -1, -1, -1, 902, -1, 908, -1, -1, -1, 916, -1, -1, -1, 930],
                 "terminates": false,
-                "throughDestEn": "Tokyo",
-                "throughDestJa": "東京",
+                "throughDest": {
+                    "en": "Tokyo",
+                    "ja": "東京"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -4798,8 +5059,10 @@
                 "startsHere": false,
                 "stops": [873, 876, 881],
                 "terminates": false,
-                "throughDestEn": "Kurihama",
-                "throughDestJa": "久里浜",
+                "throughDest": {
+                    "en": "Kurihama",
+                    "ja": "久里浜"
+                },
                 "type": "Rapid"
             },
             {
@@ -4809,8 +5072,10 @@
                 "startsHere": true,
                 "stops": [879, 883, 887, 891, 894, 897, 900, 904, 909, 913, 920],
                 "terminates": false,
-                "throughDestEn": "Tokyo",
-                "throughDestJa": "東京",
+                "throughDest": {
+                    "en": "Tokyo",
+                    "ja": "東京"
+                },
                 "type": "Rapid"
             },
             {
@@ -4820,8 +5085,10 @@
                 "startsHere": true,
                 "stops": [892, -1, 902, -1, -1, -1, 921, 926, -1, 934, -1, -1, -1, -1, 948, -1, 954, -1, -1, -1, 966, -1, -1, -1, 983],
                 "terminates": false,
-                "throughDestEn": "Tokyo",
-                "throughDestJa": "東京",
+                "throughDest": {
+                    "en": "Tokyo",
+                    "ja": "東京"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -4876,8 +5143,10 @@
                 "startsHere": false,
                 "stops": [933, 936, 941],
                 "terminates": false,
-                "throughDestEn": "Kurihama",
-                "throughDestJa": "久里浜",
+                "throughDest": {
+                    "en": "Kurihama",
+                    "ja": "久里浜"
+                },
                 "type": "Rapid"
             },
             {
@@ -4887,8 +5156,10 @@
                 "startsHere": true,
                 "stops": [938, -1, 952, -1, -1, -1, 967, 972, -1, 980, -1, -1, -1, -1, 992, -1, 998, -1, -1, -1, 1006, -1, -1, -1, 1020],
                 "terminates": false,
-                "throughDestEn": "Tokyo",
-                "throughDestJa": "東京",
+                "throughDest": {
+                    "en": "Tokyo",
+                    "ja": "東京"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -4898,8 +5169,10 @@
                 "startsHere": true,
                 "stops": [939, 943, 947, 951, 954, 957, 960, 964, 969, 973, 979],
                 "terminates": false,
-                "throughDestEn": "Tokyo",
-                "throughDestJa": "東京",
+                "throughDest": {
+                    "en": "Tokyo",
+                    "ja": "東京"
+                },
                 "type": "Local"
             },
             {
@@ -4936,8 +5209,10 @@
                 "startsHere": true,
                 "stops": [981, -1, 988, -1, -1, -1, 997, 1001, 1006, 1010, 1020, 1023, 1028],
                 "terminates": false,
-                "throughDestEn": "Kurihama",
-                "throughDestJa": "久里浜",
+                "throughDest": {
+                    "en": "Kurihama",
+                    "ja": "久里浜"
+                },
                 "type": "Rapid"
             },
             {
@@ -4947,8 +5222,10 @@
                 "startsHere": false,
                 "stops": [981, 985, 993],
                 "terminates": false,
-                "throughDestEn": "Kurihama",
-                "throughDestJa": "久里浜",
+                "throughDest": {
+                    "en": "Kurihama",
+                    "ja": "久里浜"
+                },
                 "type": "Rapid"
             },
             {
@@ -4994,8 +5271,10 @@
                 "startsHere": true,
                 "stops": [1005, -1, 1014, -1, 1023, -1, 1030, 1036, -1, 1044, -1, -1, -1, -1, 1056, -1, 1063, -1, -1, -1, 1071, -1, -1, -1, 1085],
                 "terminates": false,
-                "throughDestEn": "Tokyo",
-                "throughDestJa": "東京",
+                "throughDest": {
+                    "en": "Tokyo",
+                    "ja": "東京"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -5032,8 +5311,10 @@
                 "startsHere": false,
                 "stops": [1034, 1037, 1042],
                 "terminates": false,
-                "throughDestEn": "Zushi",
-                "throughDestJa": "逗子",
+                "throughDest": {
+                    "en": "Zushi",
+                    "ja": "逗子"
+                },
                 "type": "Rapid"
             },
             {
@@ -5079,8 +5360,10 @@
                 "startsHere": true,
                 "stops": [1071, -1, 1078, -1, -1, -1, 1087, 1092, 1097, 1100, 1108, 1111, 1118],
                 "terminates": false,
-                "throughDestEn": "Kurihama",
-                "throughDestJa": "久里浜",
+                "throughDest": {
+                    "en": "Kurihama",
+                    "ja": "久里浜"
+                },
                 "type": "Rapid"
             },
             {
@@ -5126,8 +5409,10 @@
                 "startsHere": true,
                 "stops": [1089, 1095, -1, 1104, -1, -1, -1, -1, 1118, -1, 1125, -1, -1, -1, 1134, -1, -1, -1, 1148],
                 "terminates": false,
-                "throughDestEn": "Tokyo",
-                "throughDestJa": "東京",
+                "throughDest": {
+                    "en": "Tokyo",
+                    "ja": "東京"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -5146,8 +5431,10 @@
                 "startsHere": false,
                 "stops": [1096, 1099, 1102],
                 "terminates": false,
-                "throughDestEn": "Tokyo",
-                "throughDestJa": "東京",
+                "throughDest": {
+                    "en": "Tokyo",
+                    "ja": "東京"
+                },
                 "type": "Rapid"
             },
             {
@@ -5175,8 +5462,10 @@
                 "startsHere": true,
                 "stops": [1121, 1125, 1131],
                 "terminates": false,
-                "throughDestEn": "Tokyo",
-                "throughDestJa": "東京",
+                "throughDest": {
+                    "en": "Tokyo",
+                    "ja": "東京"
+                },
                 "type": "Local"
             },
             {
@@ -5195,8 +5484,10 @@
                 "startsHere": true,
                 "stops": [1135, -1, 1142, -1, -1, -1, 1151, 1156, 1161, 1166, 1171, 1174, 1180],
                 "terminates": false,
-                "throughDestEn": "Tokyo",
-                "throughDestJa": "東京",
+                "throughDest": {
+                    "en": "Tokyo",
+                    "ja": "東京"
+                },
                 "type": "Rapid"
             },
             {
@@ -5215,8 +5506,10 @@
                 "startsHere": false,
                 "stops": [1148, 1151, 1155],
                 "terminates": false,
-                "throughDestEn": "Tokyo",
-                "throughDestJa": "東京",
+                "throughDest": {
+                    "en": "Tokyo",
+                    "ja": "東京"
+                },
                 "type": "Rapid"
             },
             {
@@ -5289,8 +5582,10 @@
                 "startsHere": true,
                 "stops": [1193, -1, 1201, -1, -1, -1, 1210, 1215, 1221, 1225, 1235, 1239, 1243],
                 "terminates": false,
-                "throughDestEn": "Kurihama",
-                "throughDestJa": "久里浜",
+                "throughDest": {
+                    "en": "Kurihama",
+                    "ja": "久里浜"
+                },
                 "type": "Rapid"
             },
             {
@@ -5309,8 +5604,10 @@
                 "startsHere": false,
                 "stops": [1205, 1208, 1214],
                 "terminates": false,
-                "throughDestEn": "Tokyo",
-                "throughDestJa": "東京",
+                "throughDest": {
+                    "en": "Tokyo",
+                    "ja": "東京"
+                },
                 "type": "Rapid"
             },
             {
@@ -5329,8 +5626,10 @@
                 "startsHere": true,
                 "stops": [1212, 1216, 1221, 1225, 1229, 1232, 1235, 1239, 1244, 1247, 1254],
                 "terminates": false,
-                "throughDestEn": "Tokyo",
-                "throughDestJa": "東京",
+                "throughDest": {
+                    "en": "Tokyo",
+                    "ja": "東京"
+                },
                 "type": "Local"
             },
             {
@@ -5385,8 +5684,10 @@
                 "startsHere": true,
                 "stops": [1264, -1, 1272, -1, -1, -1, 1282, 1286, 1291, 1295, 1300, 1303, 1309],
                 "terminates": false,
-                "throughDestEn": "Kurihama",
-                "throughDestJa": "久里浜",
+                "throughDest": {
+                    "en": "Kurihama",
+                    "ja": "久里浜"
+                },
                 "type": "Rapid"
             },
             {
@@ -5396,8 +5697,10 @@
                 "startsHere": false,
                 "stops": [1267, 1270, 1276],
                 "terminates": false,
-                "throughDestEn": "Kurihama",
-                "throughDestJa": "久里浜",
+                "throughDest": {
+                    "en": "Kurihama",
+                    "ja": "久里浜"
+                },
                 "type": "Rapid"
             },
             {
@@ -5407,8 +5710,10 @@
                 "startsHere": true,
                 "stops": [1273, 1278, 1282, 1286, 1290, 1293, 1296, 1301, 1306, 1310, 1316],
                 "terminates": false,
-                "throughDestEn": "Tokyo",
-                "throughDestJa": "東京",
+                "throughDest": {
+                    "en": "Tokyo",
+                    "ja": "東京"
+                },
                 "type": "Local"
             },
             {
@@ -5454,8 +5759,10 @@
                 "startsHere": false,
                 "stops": [1335, 1339, 1342],
                 "terminates": false,
-                "throughDestEn": "Kurihama",
-                "throughDestJa": "久里浜",
+                "throughDest": {
+                    "en": "Kurihama",
+                    "ja": "久里浜"
+                },
                 "type": "Rapid"
             },
             {
@@ -5504,6 +5811,6 @@
                 "type": "Local"
             }
         ],
-        "upHopTimesMinutes": [2.0, 3.0, 5.0, 4.0, 5.0, 5.0, 3.0, 3.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 3.0, 3.0, 4.0, 4.0, 5.0, 5.0, 4.0, 4.0, 5.0, 5.0, 5.0, 6.0]
+        "upHopTimesMinutes": [2, 3, 5, 4, 5, 5, 3, 3, 4, 4, 4, 4, 4, 4, 3, 3, 4, 4, 5, 5, 4, 4, 5, 5, 5, 6]
     }
 ]

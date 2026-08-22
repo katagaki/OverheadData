@@ -2,10 +2,14 @@
     {
         "colorHex": "#FF710A",
         "delayInfo": {
-            "checkMethodEn": "Check the Seibu Railway service status page, the Seibu app, or X (@seiburailway). Delays of roughly 15 minutes or more and suspensions are posted.",
-            "checkMethodJa": "西武鉄道「運行情報」ページ、西武線アプリ、またはX（@seiburailway）で確認できます。おおむね15分以上の遅延・運転見合わせが発生した場合に掲載されます。",
-            "statusPageURL": "https://www.seiburailway.jp/railway/railwayinfo/",
-            "statusPageURLEn": "https://www.seiburailway.jp/en/railway/railwayinfo/",
+            "checkMethod": {
+                "en": "Check the Seibu Railway service status page, the Seibu app, or X (@seiburailway). Delays of roughly 15 minutes or more and suspensions are posted.",
+                "ja": "西武鉄道「運行情報」ページ、西武線アプリ、またはX（@seiburailway）で確認できます。おおむね15分以上の遅延・運転見合わせが発生した場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://www.seiburailway.jp/en/railway/railwayinfo/",
+                "ja": "https://www.seiburailway.jp/railway/railwayinfo/"
+            },
             "xAccount": "@seiburailway"
         },
         "directions": [
@@ -15,21 +19,23 @@
                 "id": "static.RailDirection:Seibu.Tamagawa.Koremasa",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Koremasa",
-                "nameJa": "是政方面",
+                "name": {
+                    "en": "For Koremasa",
+                    "ja": "是政方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
                             "from": "05:28",
-                            "headwayMinutes": 21.0
+                            "headwayMinutes": 21
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 12.0
+                            "headwayMinutes": 12
                         },
                         {
                             "from": "22:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         }
                     ],
                     "firstDeparture": "05:28",
@@ -40,15 +46,15 @@
                     "bands": [
                         {
                             "from": "05:28",
-                            "headwayMinutes": 21.0
+                            "headwayMinutes": 21
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 12.0
+                            "headwayMinutes": 12
                         },
                         {
                             "from": "22:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         }
                     ],
                     "firstDeparture": "05:28",
@@ -62,21 +68,23 @@
                 "id": "static.RailDirection:Seibu.Tamagawa.MusashiSakai",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Musashi-Sakai",
-                "nameJa": "武蔵境方面",
+                "name": {
+                    "en": "For Musashi-Sakai",
+                    "ja": "武蔵境方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
                             "from": "05:31",
-                            "headwayMinutes": 21.0
+                            "headwayMinutes": 21
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 12.0
+                            "headwayMinutes": 12
                         },
                         {
                             "from": "22:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         }
                     ],
                     "firstDeparture": "05:31",
@@ -87,15 +95,15 @@
                     "bands": [
                         {
                             "from": "05:31",
-                            "headwayMinutes": 21.0
+                            "headwayMinutes": 21
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 12.0
+                            "headwayMinutes": 12
                         },
                         {
                             "from": "22:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         }
                     ],
                     "firstDeparture": "05:31",
@@ -104,77 +112,94 @@
                 }
             }
         ],
-        "hopTimesMinutes": [2.0, 3.0, 2.0, 3.0, 2.0],
+        "hopTimesMinutes": [2, 3, 2, 3, 2],
         "id": "Railway:Seibu.Tamagawa",
         "isLoop": false,
-        "nameEn": "Seibu Tamagawa Line",
-        "nameJa": "西武多摩川線",
+        "name": {
+            "en": "Seibu Tamagawa Line",
+            "ja": "西武多摩川線",
+            "ko": "세이부 철도 다마가와 선",
+            "zh-Hans": "多摩川线",
+            "zh-Hant": "多摩川線"
+        },
         "operatorId": "Operator:Seibu",
         "stations": [
             {
                 "id": "Station:Seibu.Tamagawa.MusashiSakai",
                 "latitude": 35.70196,
                 "longitude": 139.544,
-                "name": "武蔵境",
-                "nameEn": "Musashi-Sakai",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Musashi-Sakai",
+                    "ja": "武蔵境",
+                    "ko": "무사시사카이",
+                    "zh-Hans": "武藏境",
+                    "zh-Hant": "武藏境"
+                },
                 "stationCode": "SW01"
             },
             {
                 "id": "Station:Seibu.Tamagawa.ShinKoganei",
                 "latitude": 35.69586,
                 "longitude": 139.52653,
-                "name": "新小金井",
-                "nameEn": "Shin-Koganei",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shin-Koganei",
+                    "ja": "新小金井",
+                    "ko": "신코가네이",
+                    "zh-Hans": "新小金井",
+                    "zh-Hant": "新小金井"
+                },
                 "stationCode": "SW02"
             },
             {
                 "id": "Station:Seibu.Tamagawa.Tama",
                 "latitude": 35.67725,
                 "longitude": 139.51719,
-                "name": "多磨",
-                "nameEn": "Tama",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tama",
+                    "ja": "多磨",
+                    "ko": "다마",
+                    "zh-Hans": "多磨",
+                    "zh-Hant": "多磨"
+                },
                 "stationCode": "SW03"
             },
             {
                 "id": "Station:Seibu.Tamagawa.Shiraitodai",
                 "latitude": 35.6665,
                 "longitude": 139.50986,
-                "name": "白糸台",
-                "nameEn": "Shiraitodai",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shiraitodai",
+                    "ja": "白糸台",
+                    "ko": "시라이토다이",
+                    "zh-Hans": "白糸台",
+                    "zh-Hant": "白糸臺"
+                },
                 "stationCode": "SW04"
             },
             {
                 "id": "Station:Seibu.Tamagawa.KyoteijoMae",
                 "latitude": 35.65608,
                 "longitude": 139.49957,
-                "name": "競艇場前",
-                "nameEn": "Kyoteijo-Mae",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kyoteijo-Mae",
+                    "ja": "競艇場前",
+                    "ko": "교테이조마에",
+                    "zh-Hans": "竞艇场前",
+                    "zh-Hant": "競艇場前"
+                },
                 "stationCode": "SW05"
             },
             {
                 "id": "Station:Seibu.Tamagawa.Koremasa",
                 "latitude": 35.65631,
                 "longitude": 139.48876,
-                "name": "是政",
-                "nameEn": "Koremasa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Koremasa",
+                    "ja": "是政",
+                    "ko": "고레마사",
+                    "zh-Hans": "是政",
+                    "zh-Hant": "是政"
+                },
                 "stationCode": "SW06"
             }
         ],
@@ -3404,6 +3429,6 @@
                 "type": "Local"
             }
         ],
-        "upHopTimesMinutes": [3.0, 4.0, 2.0, 3.0, 2.0]
+        "upHopTimesMinutes": [3, 4, 2, 3, 2]
     }
 ]

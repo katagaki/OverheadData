@@ -2,10 +2,14 @@
     {
         "colorHex": "#E60012",
         "delayInfo": {
-            "checkMethodEn": "Check the Keikyu train operation information page or the Keikyu app. Delays and suspensions are posted as they occur.",
-            "checkMethodJa": "京急電鉄「運行情報」ページまたは京急線アプリで確認できます。遅延・運転見合わせが発生した場合に掲載されます。",
-            "statusPageURL": "https://unkou.keikyu.co.jp/",
-            "statusPageURLEn": "https://unkou.keikyu.co.jp/",
+            "checkMethod": {
+                "en": "Check the Keikyu train operation information page or the Keikyu app. Delays and suspensions are posted as they occur.",
+                "ja": "京急電鉄「運行情報」ページまたは京急線アプリで確認できます。遅延・運転見合わせが発生した場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://unkou.keikyu.co.jp/",
+                "ja": "https://unkou.keikyu.co.jp/"
+            },
             "xAccount": "@keikyu_official"
         },
         "directions": [
@@ -1931,8 +1935,10 @@
                 "id": "static.RailDirection:Keikyu.Airport.HanedaAirport",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Haneda Airport",
-                "nameJa": "羽田空港方面",
+                "name": {
+                    "en": "For Haneda Airport",
+                    "ja": "羽田空港方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -1994,1336 +2000,1670 @@
                         "continuesBeyond": true,
                         "departure": "05:23",
                         "startsHere": true,
-                        "throughDestEn": "Imba-Nihon-Idai",
-                        "throughDestJa": "印旛日本医大",
+                        "throughDest": {
+                            "en": "Imba-Nihon-Idai",
+                            "ja": "印旛日本医大"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "05:34",
                         "startsHere": true,
-                        "throughDestEn": "Keisei-Takasago",
-                        "throughDestJa": "京成高砂",
+                        "throughDest": {
+                            "en": "Keisei-Takasago",
+                            "ja": "京成高砂"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "05:40",
                         "startsHere": true,
-                        "throughDestEn": "Shinagawa",
-                        "throughDestJa": "品川",
+                        "throughDest": {
+                            "en": "Shinagawa",
+                            "ja": "品川"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "05:58",
                         "startsHere": true,
-                        "throughDestEn": "Sengakuji",
-                        "throughDestJa": "泉岳寺",
+                        "throughDest": {
+                            "en": "Sengakuji",
+                            "ja": "泉岳寺"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "06:06",
                         "startsHere": true,
-                        "throughDestEn": "Kanagawa-shimmachi",
-                        "throughDestJa": "神奈川新町",
+                        "throughDest": {
+                            "en": "Kanagawa-shimmachi",
+                            "ja": "神奈川新町"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "06:16",
                         "startsHere": true,
-                        "throughDestEn": "Sengakuji",
-                        "throughDestJa": "泉岳寺",
+                        "throughDest": {
+                            "en": "Sengakuji",
+                            "ja": "泉岳寺"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "06:23",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "06:31",
                         "startsHere": true,
-                        "throughDestEn": "Keisei-Takasago",
-                        "throughDestJa": "京成高砂",
+                        "throughDest": {
+                            "en": "Keisei-Takasago",
+                            "ja": "京成高砂"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "06:40",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "06:46",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "06:53",
                         "startsHere": true,
-                        "throughDestEn": "Keisei-Takasago",
-                        "throughDestJa": "京成高砂",
+                        "throughDest": {
+                            "en": "Keisei-Takasago",
+                            "ja": "京成高砂"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "07:03",
                         "startsHere": true,
-                        "throughDestEn": "Sengakuji",
-                        "throughDestJa": "泉岳寺",
+                        "throughDest": {
+                            "en": "Sengakuji",
+                            "ja": "泉岳寺"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "07:08",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "07:13",
                         "startsHere": true,
-                        "throughDestEn": "Keisei-Takasago",
-                        "throughDestJa": "京成高砂",
+                        "throughDest": {
+                            "en": "Keisei-Takasago",
+                            "ja": "京成高砂"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "07:22",
                         "startsHere": true,
-                        "throughDestEn": "Imba-Nihon-Idai",
-                        "throughDestJa": "印旛日本医大",
+                        "throughDest": {
+                            "en": "Imba-Nihon-Idai",
+                            "ja": "印旛日本医大"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "07:26",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "07:32",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "07:36",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "07:42",
                         "startsHere": true,
-                        "throughDestEn": "Imba-Nihon-Idai",
-                        "throughDestJa": "印旛日本医大",
+                        "throughDest": {
+                            "en": "Imba-Nihon-Idai",
+                            "ja": "印旛日本医大"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "07:46",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "07:52",
                         "startsHere": true,
-                        "throughDestEn": "Keisei-Sakura",
-                        "throughDestJa": "京成佐倉",
+                        "throughDest": {
+                            "en": "Keisei-Sakura",
+                            "ja": "京成佐倉"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "07:56",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "08:02",
                         "startsHere": true,
-                        "throughDestEn": "Imba-Nihon-Idai",
-                        "throughDestJa": "印旛日本医大",
+                        "throughDest": {
+                            "en": "Imba-Nihon-Idai",
+                            "ja": "印旛日本医大"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "08:06",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "08:12",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "08:16",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "08:22",
                         "startsHere": true,
-                        "throughDestEn": "Inzai-makinohara",
-                        "throughDestJa": "印西牧の原",
+                        "throughDest": {
+                            "en": "Inzai-makinohara",
+                            "ja": "印西牧の原"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "08:26",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "08:32",
                         "startsHere": true,
-                        "throughDestEn": "Imba-Nihon-Idai",
-                        "throughDestJa": "印旛日本医大",
+                        "throughDest": {
+                            "en": "Imba-Nihon-Idai",
+                            "ja": "印旛日本医大"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "08:37",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "08:42",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "08:47",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "08:52",
                         "startsHere": true,
-                        "throughDestEn": "Imba-Nihon-Idai",
-                        "throughDestJa": "印旛日本医大",
+                        "throughDest": {
+                            "en": "Imba-Nihon-Idai",
+                            "ja": "印旛日本医大"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "08:57",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "09:02",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "09:07",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "09:12",
                         "startsHere": true,
-                        "throughDestEn": "Imba-Nihon-Idai",
-                        "throughDestJa": "印旛日本医大",
+                        "throughDest": {
+                            "en": "Imba-Nihon-Idai",
+                            "ja": "印旛日本医大"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "09:17",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "09:20",
                         "startsHere": true,
-                        "throughDestEn": "Keisei-Takasago",
-                        "throughDestJa": "京成高砂",
+                        "throughDest": {
+                            "en": "Keisei-Takasago",
+                            "ja": "京成高砂"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "09:26",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "09:31",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "RapidLimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "09:36",
                         "startsHere": true,
-                        "throughDestEn": "Kanagawa-shimmachi",
-                        "throughDestJa": "神奈川新町",
+                        "throughDest": {
+                            "en": "Kanagawa-shimmachi",
+                            "ja": "神奈川新町"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "09:41",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "RapidLimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "09:45",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "09:57",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "10:02",
                         "startsHere": true,
-                        "throughDestEn": "Keisei-Takasago",
-                        "throughDestJa": "京成高砂",
+                        "throughDest": {
+                            "en": "Keisei-Takasago",
+                            "ja": "京成高砂"
+                        },
                         "trainType": "RapidLimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "10:06",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "10:17",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "10:23",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "RapidLimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "10:26",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "10:37",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "10:42",
                         "startsHere": true,
-                        "throughDestEn": "Keisei-Takasago",
-                        "throughDestJa": "京成高砂",
+                        "throughDest": {
+                            "en": "Keisei-Takasago",
+                            "ja": "京成高砂"
+                        },
                         "trainType": "RapidLimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "10:46",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "10:57",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "11:03",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "RapidLimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "11:06",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "11:17",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "11:22",
                         "startsHere": true,
-                        "throughDestEn": "Keisei-Takasago",
-                        "throughDestJa": "京成高砂",
+                        "throughDest": {
+                            "en": "Keisei-Takasago",
+                            "ja": "京成高砂"
+                        },
                         "trainType": "RapidLimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "11:26",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "11:37",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "11:43",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "RapidLimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "11:46",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "11:57",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "12:02",
                         "startsHere": true,
-                        "throughDestEn": "Keisei-Takasago",
-                        "throughDestJa": "京成高砂",
+                        "throughDest": {
+                            "en": "Keisei-Takasago",
+                            "ja": "京成高砂"
+                        },
                         "trainType": "RapidLimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "12:06",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "12:17",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "12:23",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "RapidLimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "12:26",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "12:37",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "12:42",
                         "startsHere": true,
-                        "throughDestEn": "Keisei-Takasago",
-                        "throughDestJa": "京成高砂",
+                        "throughDest": {
+                            "en": "Keisei-Takasago",
+                            "ja": "京成高砂"
+                        },
                         "trainType": "RapidLimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "12:46",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "12:57",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "13:03",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "RapidLimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "13:06",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "13:17",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "13:22",
                         "startsHere": true,
-                        "throughDestEn": "Keisei-Takasago",
-                        "throughDestJa": "京成高砂",
+                        "throughDest": {
+                            "en": "Keisei-Takasago",
+                            "ja": "京成高砂"
+                        },
                         "trainType": "RapidLimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "13:26",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "13:37",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "13:43",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "RapidLimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "13:46",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "13:57",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "14:02",
                         "startsHere": true,
-                        "throughDestEn": "Keisei-Takasago",
-                        "throughDestJa": "京成高砂",
+                        "throughDest": {
+                            "en": "Keisei-Takasago",
+                            "ja": "京成高砂"
+                        },
                         "trainType": "RapidLimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "14:06",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "14:17",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "14:23",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "RapidLimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "14:26",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "14:37",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "14:42",
                         "startsHere": true,
-                        "throughDestEn": "Keisei-Takasago",
-                        "throughDestJa": "京成高砂",
+                        "throughDest": {
+                            "en": "Keisei-Takasago",
+                            "ja": "京成高砂"
+                        },
                         "trainType": "RapidLimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "14:46",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "14:57",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "15:03",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "RapidLimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "15:06",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "15:17",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "15:22",
                         "startsHere": true,
-                        "throughDestEn": "Keisei-Takasago",
-                        "throughDestJa": "京成高砂",
+                        "throughDest": {
+                            "en": "Keisei-Takasago",
+                            "ja": "京成高砂"
+                        },
                         "trainType": "RapidLimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "15:26",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "15:37",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "15:43",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "RapidLimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "15:46",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "15:57",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "16:02",
                         "startsHere": true,
-                        "throughDestEn": "Keisei-Takasago",
-                        "throughDestJa": "京成高砂",
+                        "throughDest": {
+                            "en": "Keisei-Takasago",
+                            "ja": "京成高砂"
+                        },
                         "trainType": "RapidLimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "16:06",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "16:17",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "16:23",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "RapidLimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "16:26",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "16:37",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "16:42",
                         "startsHere": true,
-                        "throughDestEn": "Keisei-Takasago",
-                        "throughDestJa": "京成高砂",
+                        "throughDest": {
+                            "en": "Keisei-Takasago",
+                            "ja": "京成高砂"
+                        },
                         "trainType": "RapidLimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "16:46",
                         "startsHere": true,
-                        "throughDestEn": "Shibayama-Chiyoda",
-                        "throughDestJa": "芝山千代田",
+                        "throughDest": {
+                            "en": "Shibayama-Chiyoda",
+                            "ja": "芝山千代田"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "16:57",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "17:03",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "RapidLimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "17:06",
                         "startsHere": true,
-                        "throughDestEn": "Keisei-Narita",
-                        "throughDestJa": "京成成田",
+                        "throughDest": {
+                            "en": "Keisei-Narita",
+                            "ja": "京成成田"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "17:17",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "17:22",
                         "startsHere": true,
-                        "throughDestEn": "Keisei-Takasago",
-                        "throughDestJa": "京成高砂",
+                        "throughDest": {
+                            "en": "Keisei-Takasago",
+                            "ja": "京成高砂"
+                        },
                         "trainType": "RapidLimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "17:26",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "17:37",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "17:43",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "RapidLimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "17:46",
                         "startsHere": true,
-                        "throughDestEn": "Keisei-Narita",
-                        "throughDestJa": "京成成田",
+                        "throughDest": {
+                            "en": "Keisei-Narita",
+                            "ja": "京成成田"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "17:57",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "18:02",
                         "startsHere": true,
-                        "throughDestEn": "Keisei-Takasago",
-                        "throughDestJa": "京成高砂",
+                        "throughDest": {
+                            "en": "Keisei-Takasago",
+                            "ja": "京成高砂"
+                        },
                         "trainType": "RapidLimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "18:06",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "18:17",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "18:23",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "RapidLimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "18:26",
                         "startsHere": true,
-                        "throughDestEn": "Keisei-Narita",
-                        "throughDestJa": "京成成田",
+                        "throughDest": {
+                            "en": "Keisei-Narita",
+                            "ja": "京成成田"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "18:37",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "18:42",
                         "startsHere": true,
-                        "throughDestEn": "Aoto",
-                        "throughDestJa": "青砥",
+                        "throughDest": {
+                            "en": "Aoto",
+                            "ja": "青砥"
+                        },
                         "trainType": "RapidLimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "18:46",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "18:57",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "19:02",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "RapidLimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "19:07",
                         "startsHere": true,
-                        "throughDestEn": "Keisei-Narita",
-                        "throughDestJa": "京成成田",
+                        "throughDest": {
+                            "en": "Keisei-Narita",
+                            "ja": "京成成田"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "19:18",
                         "startsHere": true,
-                        "throughDestEn": "Keisei-Takasago",
-                        "throughDestJa": "京成高砂",
+                        "throughDest": {
+                            "en": "Keisei-Takasago",
+                            "ja": "京成高砂"
+                        },
                         "trainType": "RapidLimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "19:20",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "19:30",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "RapidLimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "19:35",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "19:40",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "19:50",
                         "startsHere": true,
-                        "throughDestEn": "Keisei-Takasago",
-                        "throughDestJa": "京成高砂",
+                        "throughDest": {
+                            "en": "Keisei-Takasago",
+                            "ja": "京成高砂"
+                        },
                         "trainType": "RapidLimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "19:55",
                         "startsHere": true,
-                        "throughDestEn": "Imba-Nihon-Idai",
-                        "throughDestJa": "印旛日本医大",
+                        "throughDest": {
+                            "en": "Imba-Nihon-Idai",
+                            "ja": "印旛日本医大"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "20:00",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "20:10",
                         "startsHere": true,
-                        "throughDestEn": "Keisei-Takasago",
-                        "throughDestJa": "京成高砂",
+                        "throughDest": {
+                            "en": "Keisei-Takasago",
+                            "ja": "京成高砂"
+                        },
                         "trainType": "RapidLimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "20:15",
                         "startsHere": true,
-                        "throughDestEn": "Aoto",
-                        "throughDestJa": "青砥",
+                        "throughDest": {
+                            "en": "Aoto",
+                            "ja": "青砥"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "20:20",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "20:30",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "RapidLimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "20:35",
                         "startsHere": true,
-                        "throughDestEn": "Imba-Nihon-Idai",
-                        "throughDestJa": "印旛日本医大",
+                        "throughDest": {
+                            "en": "Imba-Nihon-Idai",
+                            "ja": "印旛日本医大"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "20:40",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "20:50",
                         "startsHere": true,
-                        "throughDestEn": "Keisei-Takasago",
-                        "throughDestJa": "京成高砂",
+                        "throughDest": {
+                            "en": "Keisei-Takasago",
+                            "ja": "京成高砂"
+                        },
                         "trainType": "RapidLimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "20:55",
                         "startsHere": true,
-                        "throughDestEn": "Imba-Nihon-Idai",
-                        "throughDestJa": "印旛日本医大",
+                        "throughDest": {
+                            "en": "Imba-Nihon-Idai",
+                            "ja": "印旛日本医大"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "21:00",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "21:10",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "RapidLimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "21:15",
                         "startsHere": true,
-                        "throughDestEn": "Imba-Nihon-Idai",
-                        "throughDestJa": "印旛日本医大",
+                        "throughDest": {
+                            "en": "Imba-Nihon-Idai",
+                            "ja": "印旛日本医大"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "21:20",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "21:31",
                         "startsHere": true,
-                        "throughDestEn": "Imba-Nihon-Idai",
-                        "throughDestJa": "印旛日本医大",
+                        "throughDest": {
+                            "en": "Imba-Nihon-Idai",
+                            "ja": "印旛日本医大"
+                        },
                         "trainType": "RapidLimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "21:37",
                         "startsHere": true,
-                        "throughDestEn": "Inzai-makinohara",
-                        "throughDestJa": "印西牧の原",
+                        "throughDest": {
+                            "en": "Inzai-makinohara",
+                            "ja": "印西牧の原"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "21:47",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "21:51",
                         "startsHere": true,
-                        "throughDestEn": "Shinagawa",
-                        "throughDestJa": "品川",
+                        "throughDest": {
+                            "en": "Shinagawa",
+                            "ja": "品川"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "22:00",
                         "startsHere": true,
-                        "throughDestEn": "Imba-Nihon-Idai",
-                        "throughDestJa": "印旛日本医大",
+                        "throughDest": {
+                            "en": "Imba-Nihon-Idai",
+                            "ja": "印旛日本医大"
+                        },
                         "trainType": "RapidLimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "22:04",
                         "startsHere": true,
-                        "throughDestEn": "Keisei-Takasago",
-                        "throughDestJa": "京成高砂",
+                        "throughDest": {
+                            "en": "Keisei-Takasago",
+                            "ja": "京成高砂"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "22:14",
                         "startsHere": true,
-                        "throughDestEn": "Sengakuji",
-                        "throughDestJa": "泉岳寺",
+                        "throughDest": {
+                            "en": "Sengakuji",
+                            "ja": "泉岳寺"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "22:20",
                         "startsHere": true,
-                        "throughDestEn": "Kanazawa-bunko",
-                        "throughDestJa": "金沢文庫",
+                        "throughDest": {
+                            "en": "Kanazawa-bunko",
+                            "ja": "金沢文庫"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "22:27",
                         "startsHere": true,
-                        "throughDestEn": "Aoto",
-                        "throughDestJa": "青砥",
+                        "throughDest": {
+                            "en": "Aoto",
+                            "ja": "青砥"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "22:39",
                         "startsHere": true,
-                        "throughDestEn": "Imba-Nihon-Idai",
-                        "throughDestJa": "印旛日本医大",
+                        "throughDest": {
+                            "en": "Imba-Nihon-Idai",
+                            "ja": "印旛日本医大"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "22:48",
                         "startsHere": true,
-                        "throughDestEn": "Kanazawa-bunko",
-                        "throughDestJa": "金沢文庫",
+                        "throughDest": {
+                            "en": "Kanazawa-bunko",
+                            "ja": "金沢文庫"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "22:53",
                         "startsHere": true,
-                        "throughDestEn": "Sengakuji",
-                        "throughDestJa": "泉岳寺",
+                        "throughDest": {
+                            "en": "Sengakuji",
+                            "ja": "泉岳寺"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "23:01",
                         "startsHere": true,
-                        "throughDestEn": "Shinagawa",
-                        "throughDestJa": "品川",
+                        "throughDest": {
+                            "en": "Shinagawa",
+                            "ja": "品川"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "23:09",
                         "startsHere": true,
-                        "throughDestEn": "Imba-Nihon-Idai",
-                        "throughDestJa": "印旛日本医大",
+                        "throughDest": {
+                            "en": "Imba-Nihon-Idai",
+                            "ja": "印旛日本医大"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "23:17",
                         "startsHere": true,
-                        "throughDestEn": "Kanazawa-bunko",
-                        "throughDestJa": "金沢文庫",
+                        "throughDest": {
+                            "en": "Kanazawa-bunko",
+                            "ja": "金沢文庫"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "23:21",
                         "startsHere": true,
-                        "throughDestEn": "Keisei-Takasago",
-                        "throughDestJa": "京成高砂",
+                        "throughDest": {
+                            "en": "Keisei-Takasago",
+                            "ja": "京成高砂"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "23:34",
                         "startsHere": true,
-                        "throughDestEn": "Sengakuji",
-                        "throughDestJa": "泉岳寺",
+                        "throughDest": {
+                            "en": "Sengakuji",
+                            "ja": "泉岳寺"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "23:48",
                         "startsHere": true,
-                        "throughDestEn": "Shinagawa",
-                        "throughDestJa": "品川",
+                        "throughDest": {
+                            "en": "Shinagawa",
+                            "ja": "品川"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "24:05",
                         "startsHere": true,
-                        "throughDestEn": "Shinagawa",
-                        "throughDestJa": "品川",
+                        "throughDest": {
+                            "en": "Shinagawa",
+                            "ja": "品川"
+                        },
                         "trainType": "RapidLimitedExpress"
                     }
                 ],
@@ -3332,1504 +3672,1880 @@
                         "continuesBeyond": true,
                         "departure": "05:23",
                         "startsHere": true,
-                        "throughDestEn": "Imba-Nihon-Idai",
-                        "throughDestJa": "印旛日本医大",
+                        "throughDest": {
+                            "en": "Imba-Nihon-Idai",
+                            "ja": "印旛日本医大"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "05:34",
                         "startsHere": true,
-                        "throughDestEn": "Aoto",
-                        "throughDestJa": "青砥",
+                        "throughDest": {
+                            "en": "Aoto",
+                            "ja": "青砥"
+                        },
                         "trainType": "RapidLimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "05:39",
                         "startsHere": true,
-                        "throughDestEn": "Shinagawa",
-                        "throughDestJa": "品川",
+                        "throughDest": {
+                            "en": "Shinagawa",
+                            "ja": "品川"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "05:48",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "05:56",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "06:01",
                         "startsHere": true,
-                        "throughDestEn": "Sengakuji",
-                        "throughDestJa": "泉岳寺",
+                        "throughDest": {
+                            "en": "Sengakuji",
+                            "ja": "泉岳寺"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "06:09",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "06:13",
                         "startsHere": true,
-                        "throughDestEn": "Shinagawa",
-                        "throughDestJa": "品川",
+                        "throughDest": {
+                            "en": "Shinagawa",
+                            "ja": "品川"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "06:29",
                         "startsHere": true,
-                        "throughDestEn": "Shinagawa",
-                        "throughDestJa": "品川",
+                        "throughDest": {
+                            "en": "Shinagawa",
+                            "ja": "品川"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "06:35",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "06:38",
                         "startsHere": true,
-                        "throughDestEn": "Shinagawa",
-                        "throughDestJa": "品川",
+                        "throughDest": {
+                            "en": "Shinagawa",
+                            "ja": "品川"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "06:44",
                         "startsHere": true,
-                        "throughDestEn": "Imba-Nihon-Idai",
-                        "throughDestJa": "印旛日本医大",
+                        "throughDest": {
+                            "en": "Imba-Nihon-Idai",
+                            "ja": "印旛日本医大"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "06:52",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "06:55",
                         "startsHere": true,
-                        "throughDestEn": "Inzai-makinohara",
-                        "throughDestJa": "印西牧の原",
+                        "throughDest": {
+                            "en": "Inzai-makinohara",
+                            "ja": "印西牧の原"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "07:00",
                         "startsHere": true,
-                        "throughDestEn": "Kanazawa-bunko",
-                        "throughDestJa": "金沢文庫",
+                        "throughDest": {
+                            "en": "Kanazawa-bunko",
+                            "ja": "金沢文庫"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "07:05",
                         "startsHere": true,
-                        "throughDestEn": "Imba-Nihon-Idai",
-                        "throughDestJa": "印旛日本医大",
+                        "throughDest": {
+                            "en": "Imba-Nihon-Idai",
+                            "ja": "印旛日本医大"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "07:13",
                         "startsHere": true,
-                        "throughDestEn": "Keisei-Sakura",
-                        "throughDestJa": "京成佐倉",
+                        "throughDest": {
+                            "en": "Keisei-Sakura",
+                            "ja": "京成佐倉"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "07:16",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "07:26",
                         "startsHere": true,
-                        "throughDestEn": "Imba-Nihon-Idai",
-                        "throughDestJa": "印旛日本医大",
+                        "throughDest": {
+                            "en": "Imba-Nihon-Idai",
+                            "ja": "印旛日本医大"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "07:31",
                         "startsHere": true,
-                        "throughDestEn": "Kanazawa-bunko",
-                        "throughDestJa": "金沢文庫",
+                        "throughDest": {
+                            "en": "Kanazawa-bunko",
+                            "ja": "金沢文庫"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "07:36",
                         "startsHere": true,
-                        "throughDestEn": "Keisei-Takasago",
-                        "throughDestJa": "京成高砂",
+                        "throughDest": {
+                            "en": "Keisei-Takasago",
+                            "ja": "京成高砂"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "07:40",
                         "startsHere": true,
-                        "throughDestEn": "Kanazawa-bunko",
-                        "throughDestJa": "金沢文庫",
+                        "throughDest": {
+                            "en": "Kanazawa-bunko",
+                            "ja": "金沢文庫"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "07:44",
                         "startsHere": true,
-                        "throughDestEn": "Keisei-Takasago",
-                        "throughDestJa": "京成高砂",
+                        "throughDest": {
+                            "en": "Keisei-Takasago",
+                            "ja": "京成高砂"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "07:50",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "07:57",
                         "startsHere": true,
-                        "throughDestEn": "Imba-Nihon-Idai",
-                        "throughDestJa": "印旛日本医大",
+                        "throughDest": {
+                            "en": "Imba-Nihon-Idai",
+                            "ja": "印旛日本医大"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "08:01",
                         "startsHere": true,
-                        "throughDestEn": "Kanazawa-bunko",
-                        "throughDestJa": "金沢文庫",
+                        "throughDest": {
+                            "en": "Kanazawa-bunko",
+                            "ja": "金沢文庫"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "08:10",
                         "startsHere": true,
-                        "throughDestEn": "Keisei-Takasago",
-                        "throughDestJa": "京成高砂",
+                        "throughDest": {
+                            "en": "Keisei-Takasago",
+                            "ja": "京成高砂"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "08:20",
                         "startsHere": true,
-                        "throughDestEn": "Keisei-Takasago",
-                        "throughDestJa": "京成高砂",
+                        "throughDest": {
+                            "en": "Keisei-Takasago",
+                            "ja": "京成高砂"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "08:26",
                         "startsHere": true,
-                        "throughDestEn": "Kanazawa-bunko",
-                        "throughDestJa": "金沢文庫",
+                        "throughDest": {
+                            "en": "Kanazawa-bunko",
+                            "ja": "金沢文庫"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "08:32",
                         "startsHere": true,
-                        "throughDestEn": "Oshiage",
-                        "throughDestJa": "押上",
+                        "throughDest": {
+                            "en": "Oshiage",
+                            "ja": "押上"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "08:37",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "08:42",
                         "startsHere": true,
-                        "throughDestEn": "Oshiage",
-                        "throughDestJa": "押上",
+                        "throughDest": {
+                            "en": "Oshiage",
+                            "ja": "押上"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "08:47",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "08:52",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "08:56",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "09:03",
                         "startsHere": true,
-                        "throughDestEn": "Imba-Nihon-Idai",
-                        "throughDestJa": "印旛日本医大",
+                        "throughDest": {
+                            "en": "Imba-Nihon-Idai",
+                            "ja": "印旛日本医大"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "09:08",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "09:13",
                         "startsHere": true,
-                        "throughDestEn": "Aoto",
-                        "throughDestJa": "青砥",
+                        "throughDest": {
+                            "en": "Aoto",
+                            "ja": "青砥"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "09:18",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "09:24",
                         "startsHere": true,
-                        "throughDestEn": "Imba-Nihon-Idai",
-                        "throughDestJa": "印旛日本医大",
+                        "throughDest": {
+                            "en": "Imba-Nihon-Idai",
+                            "ja": "印旛日本医大"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "09:30",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "09:33",
                         "startsHere": true,
-                        "throughDestEn": "Keisei-Takasago",
-                        "throughDestJa": "京成高砂",
+                        "throughDest": {
+                            "en": "Keisei-Takasago",
+                            "ja": "京成高砂"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "09:38",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "09:47",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "09:51",
                         "startsHere": true,
-                        "throughDestEn": "Inzai-makinohara",
-                        "throughDestJa": "印西牧の原",
+                        "throughDest": {
+                            "en": "Inzai-makinohara",
+                            "ja": "印西牧の原"
+                        },
                         "trainType": "RapidLimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "09:59",
                         "startsHere": true,
-                        "throughDestEn": "Keisei-Takasago",
-                        "throughDestJa": "京成高砂",
+                        "throughDest": {
+                            "en": "Keisei-Takasago",
+                            "ja": "京成高砂"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "10:06",
                         "startsHere": true,
-                        "throughDestEn": "Imba-Nihon-Idai",
-                        "throughDestJa": "印旛日本医大",
+                        "throughDest": {
+                            "en": "Imba-Nihon-Idai",
+                            "ja": "印旛日本医大"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "10:12",
                         "startsHere": true,
-                        "throughDestEn": "Kanazawa-bunko",
-                        "throughDestJa": "金沢文庫",
+                        "throughDest": {
+                            "en": "Kanazawa-bunko",
+                            "ja": "金沢文庫"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "10:20",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "RapidLimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "10:22",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "10:30",
                         "startsHere": true,
-                        "throughDestEn": "Imba-Nihon-Idai",
-                        "throughDestJa": "印旛日本医大",
+                        "throughDest": {
+                            "en": "Imba-Nihon-Idai",
+                            "ja": "印旛日本医大"
+                        },
                         "trainType": "RapidLimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "10:32",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "10:41",
                         "startsHere": true,
-                        "throughDestEn": "Keisei-Takasago",
-                        "throughDestJa": "京成高砂",
+                        "throughDest": {
+                            "en": "Keisei-Takasago",
+                            "ja": "京成高砂"
+                        },
                         "trainType": "RapidLimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "10:43",
                         "startsHere": true,
-                        "throughDestEn": "Keikyu Kawasaki",
-                        "throughDestJa": "京急川崎",
+                        "throughDest": {
+                            "en": "Keikyu Kawasaki",
+                            "ja": "京急川崎"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "10:51",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "RapidLimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "10:55",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "11:04",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "RapidLimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "11:06",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "11:17",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "11:22",
                         "startsHere": true,
-                        "throughDestEn": "Keisei-Takasago",
-                        "throughDestJa": "京成高砂",
+                        "throughDest": {
+                            "en": "Keisei-Takasago",
+                            "ja": "京成高砂"
+                        },
                         "trainType": "RapidLimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "11:26",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "11:37",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "11:43",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "RapidLimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "11:46",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "11:57",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "12:02",
                         "startsHere": true,
-                        "throughDestEn": "Keisei-Takasago",
-                        "throughDestJa": "京成高砂",
+                        "throughDest": {
+                            "en": "Keisei-Takasago",
+                            "ja": "京成高砂"
+                        },
                         "trainType": "RapidLimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "12:06",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "12:17",
                         "startsHere": true,
-                        "throughDestEn": "Kanazawa-bunko",
-                        "throughDestJa": "金沢文庫",
+                        "throughDest": {
+                            "en": "Kanazawa-bunko",
+                            "ja": "金沢文庫"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "12:23",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "RapidLimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "12:26",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "12:37",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "12:42",
                         "startsHere": true,
-                        "throughDestEn": "Keisei-Takasago",
-                        "throughDestJa": "京成高砂",
+                        "throughDest": {
+                            "en": "Keisei-Takasago",
+                            "ja": "京成高砂"
+                        },
                         "trainType": "RapidLimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "12:46",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "12:57",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "13:03",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "RapidLimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "13:06",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "13:17",
                         "startsHere": true,
-                        "throughDestEn": "Kanazawa-bunko",
-                        "throughDestJa": "金沢文庫",
+                        "throughDest": {
+                            "en": "Kanazawa-bunko",
+                            "ja": "金沢文庫"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "13:22",
                         "startsHere": true,
-                        "throughDestEn": "Keisei-Takasago",
-                        "throughDestJa": "京成高砂",
+                        "throughDest": {
+                            "en": "Keisei-Takasago",
+                            "ja": "京成高砂"
+                        },
                         "trainType": "RapidLimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "13:26",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "13:37",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "13:43",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "RapidLimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "13:46",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "13:57",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "14:02",
                         "startsHere": true,
-                        "throughDestEn": "Keisei-Takasago",
-                        "throughDestJa": "京成高砂",
+                        "throughDest": {
+                            "en": "Keisei-Takasago",
+                            "ja": "京成高砂"
+                        },
                         "trainType": "RapidLimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "14:06",
                         "startsHere": true,
-                        "throughDestEn": "Keisei-Sakura",
-                        "throughDestJa": "京成佐倉",
+                        "throughDest": {
+                            "en": "Keisei-Sakura",
+                            "ja": "京成佐倉"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "14:17",
                         "startsHere": true,
-                        "throughDestEn": "Kanazawa-bunko",
-                        "throughDestJa": "金沢文庫",
+                        "throughDest": {
+                            "en": "Kanazawa-bunko",
+                            "ja": "金沢文庫"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "14:23",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "RapidLimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "14:26",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "14:37",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "14:42",
                         "startsHere": true,
-                        "throughDestEn": "Keisei-Takasago",
-                        "throughDestJa": "京成高砂",
+                        "throughDest": {
+                            "en": "Keisei-Takasago",
+                            "ja": "京成高砂"
+                        },
                         "trainType": "RapidLimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "14:46",
                         "startsHere": true,
-                        "throughDestEn": "Keisei-Sakura",
-                        "throughDestJa": "京成佐倉",
+                        "throughDest": {
+                            "en": "Keisei-Sakura",
+                            "ja": "京成佐倉"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "14:57",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "15:03",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "RapidLimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "15:06",
                         "startsHere": true,
-                        "throughDestEn": "Imba-Nihon-Idai",
-                        "throughDestJa": "印旛日本医大",
+                        "throughDest": {
+                            "en": "Imba-Nihon-Idai",
+                            "ja": "印旛日本医大"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "15:17",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "15:22",
                         "startsHere": true,
-                        "throughDestEn": "Aoto",
-                        "throughDestJa": "青砥",
+                        "throughDest": {
+                            "en": "Aoto",
+                            "ja": "青砥"
+                        },
                         "trainType": "RapidLimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "15:26",
                         "startsHere": true,
-                        "throughDestEn": "Imba-Nihon-Idai",
-                        "throughDestJa": "印旛日本医大",
+                        "throughDest": {
+                            "en": "Imba-Nihon-Idai",
+                            "ja": "印旛日本医大"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "15:36",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "15:41",
                         "startsHere": true,
-                        "throughDestEn": "Imba-Nihon-Idai",
-                        "throughDestJa": "印旛日本医大",
+                        "throughDest": {
+                            "en": "Imba-Nihon-Idai",
+                            "ja": "印旛日本医大"
+                        },
                         "trainType": "RapidLimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "15:46",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "15:50",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "RapidLimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "15:55",
                         "startsHere": true,
-                        "throughDestEn": "Inzai-makinohara",
-                        "throughDestJa": "印西牧の原",
+                        "throughDest": {
+                            "en": "Inzai-makinohara",
+                            "ja": "印西牧の原"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "15:58",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "16:06",
                         "startsHere": true,
-                        "throughDestEn": "Sengakuji",
-                        "throughDestJa": "泉岳寺",
+                        "throughDest": {
+                            "en": "Sengakuji",
+                            "ja": "泉岳寺"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "16:12",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "16:15",
                         "startsHere": true,
-                        "throughDestEn": "Imba-Nihon-Idai",
-                        "throughDestJa": "印旛日本医大",
+                        "throughDest": {
+                            "en": "Imba-Nihon-Idai",
+                            "ja": "印旛日本医大"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "16:21",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "16:26",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "16:31",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "16:37",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "16:42",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "16:46",
                         "startsHere": true,
-                        "throughDestEn": "Shinagawa",
-                        "throughDestJa": "品川",
+                        "throughDest": {
+                            "en": "Shinagawa",
+                            "ja": "品川"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "16:52",
                         "startsHere": true,
-                        "throughDestEn": "Imba-Nihon-Idai",
-                        "throughDestJa": "印旛日本医大",
+                        "throughDest": {
+                            "en": "Imba-Nihon-Idai",
+                            "ja": "印旛日本医大"
+                        },
                         "trainType": "RapidLimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "16:56",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "16:58",
                         "startsHere": true,
-                        "throughDestEn": "Keisei-Narita",
-                        "throughDestJa": "京成成田",
+                        "throughDest": {
+                            "en": "Keisei-Narita",
+                            "ja": "京成成田"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "17:07",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "17:09",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "17:18",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "17:21",
                         "startsHere": true,
-                        "throughDestEn": "Inzai-makinohara",
-                        "throughDestJa": "印西牧の原",
+                        "throughDest": {
+                            "en": "Inzai-makinohara",
+                            "ja": "印西牧の原"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "17:29",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "17:32",
                         "startsHere": true,
-                        "throughDestEn": "Imba-Nihon-Idai",
-                        "throughDestJa": "印旛日本医大",
+                        "throughDest": {
+                            "en": "Imba-Nihon-Idai",
+                            "ja": "印旛日本医大"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "17:40",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "17:42",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "17:50",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "17:52",
                         "startsHere": true,
-                        "throughDestEn": "Imba-Nihon-Idai",
-                        "throughDestJa": "印旛日本医大",
+                        "throughDest": {
+                            "en": "Imba-Nihon-Idai",
+                            "ja": "印旛日本医大"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "17:58",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "18:01",
                         "startsHere": true,
-                        "throughDestEn": "Inzai-makinohara",
-                        "throughDestJa": "印西牧の原",
+                        "throughDest": {
+                            "en": "Inzai-makinohara",
+                            "ja": "印西牧の原"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "18:10",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "18:12",
                         "startsHere": true,
-                        "throughDestEn": "Imba-Nihon-Idai",
-                        "throughDestJa": "印旛日本医大",
+                        "throughDest": {
+                            "en": "Imba-Nihon-Idai",
+                            "ja": "印旛日本医大"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "18:20",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "18:22",
                         "startsHere": true,
-                        "throughDestEn": "Inzai-makinohara",
-                        "throughDestJa": "印西牧の原",
+                        "throughDest": {
+                            "en": "Inzai-makinohara",
+                            "ja": "印西牧の原"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "18:30",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "18:32",
                         "startsHere": true,
-                        "throughDestEn": "Keisei-Takasago",
-                        "throughDestJa": "京成高砂",
+                        "throughDest": {
+                            "en": "Keisei-Takasago",
+                            "ja": "京成高砂"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "18:39",
                         "startsHere": true,
-                        "throughDestEn": "Imba-Nihon-Idai",
-                        "throughDestJa": "印旛日本医大",
+                        "throughDest": {
+                            "en": "Imba-Nihon-Idai",
+                            "ja": "印旛日本医大"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "18:42",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "18:50",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "18:52",
                         "startsHere": true,
-                        "throughDestEn": "Keisei-Narita",
-                        "throughDestJa": "京成成田",
+                        "throughDest": {
+                            "en": "Keisei-Narita",
+                            "ja": "京成成田"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "19:00",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "19:02",
                         "startsHere": true,
-                        "throughDestEn": "Shibayama-Chiyoda",
-                        "throughDestJa": "芝山千代田",
+                        "throughDest": {
+                            "en": "Shibayama-Chiyoda",
+                            "ja": "芝山千代田"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "19:08",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "19:12",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "19:17",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "19:21",
                         "startsHere": true,
-                        "throughDestEn": "Keisei-Sakura",
-                        "throughDestJa": "京成佐倉",
+                        "throughDest": {
+                            "en": "Keisei-Sakura",
+                            "ja": "京成佐倉"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "19:27",
                         "startsHere": true,
-                        "throughDestEn": "Kanazawa-bunko",
-                        "throughDestJa": "金沢文庫",
+                        "throughDest": {
+                            "en": "Kanazawa-bunko",
+                            "ja": "金沢文庫"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "19:31",
                         "startsHere": true,
-                        "throughDestEn": "Inzai-makinohara",
-                        "throughDestJa": "印西牧の原",
+                        "throughDest": {
+                            "en": "Inzai-makinohara",
+                            "ja": "印西牧の原"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "19:38",
                         "startsHere": true,
-                        "throughDestEn": "Kanazawa-bunko",
-                        "throughDestJa": "金沢文庫",
+                        "throughDest": {
+                            "en": "Kanazawa-bunko",
+                            "ja": "金沢文庫"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "19:41",
                         "startsHere": true,
-                        "throughDestEn": "Keisei-Takasago",
-                        "throughDestJa": "京成高砂",
+                        "throughDest": {
+                            "en": "Keisei-Takasago",
+                            "ja": "京成高砂"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "19:48",
                         "startsHere": true,
-                        "throughDestEn": "Shibayama-Chiyoda",
-                        "throughDestJa": "芝山千代田",
+                        "throughDest": {
+                            "en": "Shibayama-Chiyoda",
+                            "ja": "芝山千代田"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "19:53",
                         "startsHere": true,
-                        "throughDestEn": "Aoto",
-                        "throughDestJa": "青砥",
+                        "throughDest": {
+                            "en": "Aoto",
+                            "ja": "青砥"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "19:58",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "20:03",
                         "startsHere": true,
-                        "throughDestEn": "Keisei-Narita",
-                        "throughDestJa": "京成成田",
+                        "throughDest": {
+                            "en": "Keisei-Narita",
+                            "ja": "京成成田"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "20:08",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "20:14",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "20:20",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "20:27",
                         "startsHere": true,
-                        "throughDestEn": "Sengakuji",
-                        "throughDestJa": "泉岳寺",
+                        "throughDest": {
+                            "en": "Sengakuji",
+                            "ja": "泉岳寺"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "20:30",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "20:37",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "20:40",
                         "startsHere": true,
-                        "throughDestEn": "Keisei-Takasago",
-                        "throughDestJa": "京成高砂",
+                        "throughDest": {
+                            "en": "Keisei-Takasago",
+                            "ja": "京成高砂"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "20:47",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "20:51",
                         "startsHere": true,
-                        "throughDestEn": "Keisei-Narita",
-                        "throughDestJa": "京成成田",
+                        "throughDest": {
+                            "en": "Keisei-Narita",
+                            "ja": "京成成田"
+                        },
                         "trainType": "RapidLimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "20:58",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "21:00",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "21:08",
                         "startsHere": true,
-                        "throughDestEn": "Sengakuji",
-                        "throughDestJa": "泉岳寺",
+                        "throughDest": {
+                            "en": "Sengakuji",
+                            "ja": "泉岳寺"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "21:11",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "21:19",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "21:23",
                         "startsHere": true,
-                        "throughDestEn": "Keisei-Narita",
-                        "throughDestJa": "京成成田",
+                        "throughDest": {
+                            "en": "Keisei-Narita",
+                            "ja": "京成成田"
+                        },
                         "trainType": "RapidLimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "21:29",
                         "startsHere": true,
-                        "throughDestEn": "Aoto",
-                        "throughDestJa": "青砥",
+                        "throughDest": {
+                            "en": "Aoto",
+                            "ja": "青砥"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "21:32",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "21:40",
                         "startsHere": true,
-                        "throughDestEn": "Keikyu Kurihama",
-                        "throughDestJa": "京急久里浜",
+                        "throughDest": {
+                            "en": "Keikyu Kurihama",
+                            "ja": "京急久里浜"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "21:43",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "RapidLimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "21:48",
                         "startsHere": true,
-                        "throughDestEn": "Narita Airport",
-                        "throughDestJa": "成田空港",
+                        "throughDest": {
+                            "en": "Narita Airport",
+                            "ja": "成田空港"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "21:52",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "22:00",
                         "startsHere": true,
-                        "throughDestEn": "Imba-Nihon-Idai",
-                        "throughDestJa": "印旛日本医大",
+                        "throughDest": {
+                            "en": "Imba-Nihon-Idai",
+                            "ja": "印旛日本医大"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "22:08",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "22:13",
                         "startsHere": true,
-                        "throughDestEn": "Sogosando",
-                        "throughDestJa": "宗吾参道",
+                        "throughDest": {
+                            "en": "Sogosando",
+                            "ja": "宗吾参道"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "22:25",
                         "startsHere": true,
-                        "throughDestEn": "Sengakuji",
-                        "throughDestJa": "泉岳寺",
+                        "throughDest": {
+                            "en": "Sengakuji",
+                            "ja": "泉岳寺"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "22:35",
                         "startsHere": true,
-                        "throughDestEn": "Inzai-makinohara",
-                        "throughDestJa": "印西牧の原",
+                        "throughDest": {
+                            "en": "Inzai-makinohara",
+                            "ja": "印西牧の原"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "22:42",
                         "startsHere": true,
-                        "throughDestEn": "Kanazawa-bunko",
-                        "throughDestJa": "金沢文庫",
+                        "throughDest": {
+                            "en": "Kanazawa-bunko",
+                            "ja": "金沢文庫"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "22:51",
                         "startsHere": true,
-                        "throughDestEn": "Keisei-Takasago",
-                        "throughDestJa": "京成高砂",
+                        "throughDest": {
+                            "en": "Keisei-Takasago",
+                            "ja": "京成高砂"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "22:56",
                         "startsHere": true,
-                        "throughDestEn": "Zushi-Hayama",
-                        "throughDestJa": "逗子・葉山",
+                        "throughDest": {
+                            "en": "Zushi-Hayama",
+                            "ja": "逗子・葉山"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "23:06",
                         "startsHere": true,
-                        "throughDestEn": "Imba-Nihon-Idai",
-                        "throughDestJa": "印旛日本医大",
+                        "throughDest": {
+                            "en": "Imba-Nihon-Idai",
+                            "ja": "印旛日本医大"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "23:16",
                         "startsHere": true,
-                        "throughDestEn": "Shinagawa",
-                        "throughDestJa": "品川",
+                        "throughDest": {
+                            "en": "Shinagawa",
+                            "ja": "品川"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "23:25",
                         "startsHere": true,
-                        "throughDestEn": "Shinagawa",
-                        "throughDestJa": "品川",
+                        "throughDest": {
+                            "en": "Shinagawa",
+                            "ja": "品川"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "23:34",
                         "startsHere": true,
-                        "throughDestEn": "Kanazawa-bunko",
-                        "throughDestJa": "金沢文庫",
+                        "throughDest": {
+                            "en": "Kanazawa-bunko",
+                            "ja": "金沢文庫"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "23:42",
                         "startsHere": true,
-                        "throughDestEn": "Shinagawa",
-                        "throughDestJa": "品川",
+                        "throughDest": {
+                            "en": "Shinagawa",
+                            "ja": "品川"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "23:49",
                         "startsHere": true,
-                        "throughDestEn": "Shinagawa",
-                        "throughDestJa": "品川",
+                        "throughDest": {
+                            "en": "Shinagawa",
+                            "ja": "品川"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "24:05",
                         "startsHere": true,
-                        "throughDestEn": "Shinagawa",
-                        "throughDestJa": "品川",
+                        "throughDest": {
+                            "en": "Shinagawa",
+                            "ja": "品川"
+                        },
                         "trainType": "RapidLimitedExpress"
                     }
                 ],
                 "id": "static.RailDirection:Keikyu.Airport.KeikyuKamata",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Keikyu Kamata & Shinagawa",
-                "nameJa": "京急蒲田・品川方面",
+                "name": {
+                    "en": "For Keikyu Kamata & Shinagawa",
+                    "ja": "京急蒲田・品川方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -4889,85 +5605,104 @@
         "hopTimesMinutes": [2, 2, 2, 2, 2, 3],
         "id": "Railway:Keikyu.Airport",
         "isLoop": false,
-        "nameEn": "Keikyu Airport Line",
-        "nameJa": "京急空港線",
+        "name": {
+            "en": "Keikyu Airport Line",
+            "ja": "京急空港線",
+            "ko": "게이힌 급행 전철 공항선",
+            "zh-Hans": "机场线",
+            "zh-Hant": "機場線"
+        },
         "operatorId": "Operator:Keikyu",
         "stations": [
             {
                 "id": "Station:Keikyu.Airport.KeikyuKamata",
                 "latitude": 35.5607,
                 "longitude": 139.7237,
-                "name": "京急蒲田",
-                "nameEn": "Keikyu Kamata",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Keikyu Kamata",
+                    "ja": "京急蒲田",
+                    "ko": "게이큐 가마타",
+                    "zh-Hans": "京急蒲田",
+                    "zh-Hant": "京急蒲田"
+                },
                 "stationCode": "KK11"
             },
             {
                 "id": "Station:Keikyu.Airport.Kojiya",
                 "latitude": 35.554702,
                 "longitude": 139.729467,
-                "name": "糀谷",
-                "nameEn": "Kojiya",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kojiya",
+                    "ja": "糀谷",
+                    "ko": "고지야",
+                    "zh-Hans": "糀谷",
+                    "zh-Hant": "糀谷"
+                },
                 "stationCode": "KK12"
             },
             {
                 "id": "Station:Keikyu.Airport.Otorii",
                 "latitude": 35.552518,
                 "longitude": 139.739516,
-                "name": "大鳥居",
-                "nameEn": "Otorii",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Otorii",
+                    "ja": "大鳥居",
+                    "ko": "오토리이",
+                    "zh-Hans": "大鸟居",
+                    "zh-Hant": "大鳥居"
+                },
                 "stationCode": "KK13"
             },
             {
                 "id": "Station:Keikyu.Airport.AnamoriInari",
                 "latitude": 35.55031,
                 "longitude": 139.746776,
-                "name": "穴守稲荷",
-                "nameEn": "Anamori-inari",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Anamori-inari",
+                    "ja": "穴守稲荷",
+                    "ko": "아나모리이나리",
+                    "zh-Hans": "穴守稻荷",
+                    "zh-Hant": "穴守稻荷"
+                },
                 "stationCode": "KK14"
             },
             {
                 "id": "Station:Keikyu.Airport.Tenkubashi",
                 "latitude": 35.54812,
                 "longitude": 139.754678,
-                "name": "天空橋",
-                "nameEn": "Tenkubashi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tenkubashi",
+                    "ja": "天空橋",
+                    "ko": "덴쿠바시",
+                    "zh-Hans": "天空桥",
+                    "zh-Hant": "天空橋"
+                },
                 "stationCode": "KK15"
             },
             {
                 "id": "Station:Keikyu.Airport.HanedaAirportTerminal3",
                 "latitude": 35.5447,
                 "longitude": 139.7677,
-                "name": "羽田空港第3ターミナル",
-                "nameEn": "Haneda Airport Terminal 3",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Haneda Airport Terminal 3",
+                    "ja": "羽田空港第3ターミナル",
+                    "ko": "하네다 공항 제3터미널",
+                    "zh-Hans": "羽田机场国际线航站楼",
+                    "zh-Hant": "羽田機場國際線航站樓"
+                },
                 "stationCode": "KK16"
             },
             {
                 "id": "Station:Keikyu.Airport.HanedaAirportTerminal1and2",
                 "latitude": 35.549849,
                 "longitude": 139.786092,
-                "name": "羽田空港第1・第2ターミナル",
-                "nameEn": "Haneda Airport Terminal 1 & 2",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Haneda Airport Terminal 1 & 2",
+                    "ja": "羽田空港第1・第2ターミナル",
+                    "ko": "하네다 공항 국내선 터미널",
+                    "zh-Hans": "羽田机场第1・第2航站楼",
+                    "zh-Hant": "羽田機場第1・第2航廈"
+                },
                 "stationCode": "KK17"
             }
         ],
@@ -4980,10 +5715,14 @@
                 "connectingLineId": "Railway:Keikyu.Main",
                 "end": "descending",
                 "junctionStationId": "Station:Keikyu.Airport.KeikyuKamata",
-                "lineNameEn": "Keikyu Main Line",
-                "lineNameJa": "京急本線",
-                "towardEn": "for Shinagawa, Sengakuji & the Toei Asakusa Line",
-                "towardJa": "品川・泉岳寺・都営浅草線方面"
+                "lineName": {
+                    "en": "Keikyu Main Line",
+                    "ja": "京急本線"
+                },
+                "toward": {
+                    "en": "for Shinagawa, Sengakuji & the Toei Asakusa Line",
+                    "ja": "品川・泉岳寺・都営浅草線方面"
+                }
             }
         ]
     }

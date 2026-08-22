@@ -2,10 +2,14 @@
     {
         "colorHex": "#9C5E31",
         "delayInfo": {
-            "checkMethodEn": "Check the Tokyo Metro Service Information page, the official app, or X (@tokyometro_info). Delays or suspensions of 15 minutes or more are posted.",
-            "checkMethodJa": "東京メトロ「運行情報」ページ、公式アプリ、またはX（@tokyometro_info）で確認できます。15分以上の遅れ・運転見合わせが発生した場合に掲載されます。",
-            "statusPageURL": "https://www.tokyometro.jp/unkou/history/fukutoshin.html",
-            "statusPageURLEn": "https://www.tokyometro.jp/lang_en/unkou/history/fukutoshin.html",
+            "checkMethod": {
+                "en": "Check the Tokyo Metro Service Information page, the official app, or X (@tokyometro_info). Delays or suspensions of 15 minutes or more are posted.",
+                "ja": "東京メトロ「運行情報」ページ、公式アプリ、またはX（@tokyometro_info）で確認できます。15分以上の遅れ・運転見合わせが発生した場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://www.tokyometro.jp/lang_en/unkou/history/fukutoshin.html",
+                "ja": "https://www.tokyometro.jp/unkou/history/fukutoshin.html"
+            },
             "xAccount": "@F_line_info"
         },
         "directions": [
@@ -16,8 +20,10 @@
                         "departure": "05:41",
                         "startsHere": true,
                         "stopIndices": [0, 5, 8, 12, 14, 15],
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -25,8 +31,10 @@
                         "departure": "06:11",
                         "startsHere": true,
                         "stopIndices": [0, 5, 8, 12, 14, 15],
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -34,8 +42,10 @@
                         "departure": "06:31",
                         "startsHere": false,
                         "stopIndices": [0, 5, 8, 12, 14, 15],
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -43,8 +53,10 @@
                         "departure": "06:45",
                         "startsHere": false,
                         "stopIndices": [0, 5, 8, 12, 14, 15],
-                        "throughDestEn": "Shonandai",
-                        "throughDestJa": "湘南台",
+                        "throughDest": {
+                            "en": "Shonandai",
+                            "ja": "湘南台"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -52,8 +64,10 @@
                         "departure": "07:25",
                         "startsHere": false,
                         "stopIndices": [0, 5, 8, 12, 14, 15],
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -61,8 +75,10 @@
                         "departure": "07:38",
                         "startsHere": true,
                         "stopIndices": [0, 5, 8, 12, 14, 15],
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -70,8 +86,10 @@
                         "departure": "07:55",
                         "startsHere": true,
                         "stopIndices": [0, 5, 8, 12, 14, 15],
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -79,8 +97,10 @@
                         "departure": "08:27",
                         "startsHere": false,
                         "stopIndices": [0, 5, 8, 12, 14, 15],
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -88,8 +108,10 @@
                         "departure": "08:55",
                         "startsHere": false,
                         "stopIndices": [0, 5, 8, 12, 14, 15],
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -97,8 +119,10 @@
                         "departure": "09:25",
                         "startsHere": false,
                         "stopIndices": [0, 5, 8, 12, 14, 15],
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -106,8 +130,10 @@
                         "departure": "09:55",
                         "startsHere": false,
                         "stopIndices": [0, 5, 8, 12, 14, 15],
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -115,8 +141,10 @@
                         "departure": "10:26",
                         "startsHere": false,
                         "stopIndices": [0, 5, 8, 12, 14, 15],
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -124,8 +152,10 @@
                         "departure": "10:56",
                         "startsHere": false,
                         "stopIndices": [0, 5, 8, 12, 14, 15],
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -133,8 +163,10 @@
                         "departure": "11:26",
                         "startsHere": false,
                         "stopIndices": [0, 5, 8, 12, 14, 15],
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -142,8 +174,10 @@
                         "departure": "11:56",
                         "startsHere": false,
                         "stopIndices": [0, 5, 8, 12, 14, 15],
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -151,8 +185,10 @@
                         "departure": "12:26",
                         "startsHere": false,
                         "stopIndices": [0, 5, 8, 12, 14, 15],
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -160,8 +196,10 @@
                         "departure": "12:56",
                         "startsHere": false,
                         "stopIndices": [0, 5, 8, 12, 14, 15],
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -169,8 +207,10 @@
                         "departure": "13:26",
                         "startsHere": false,
                         "stopIndices": [0, 5, 8, 12, 14, 15],
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -178,8 +218,10 @@
                         "departure": "13:56",
                         "startsHere": false,
                         "stopIndices": [0, 5, 8, 12, 14, 15],
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -187,8 +229,10 @@
                         "departure": "14:26",
                         "startsHere": false,
                         "stopIndices": [0, 5, 8, 12, 14, 15],
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -196,8 +240,10 @@
                         "departure": "14:56",
                         "startsHere": false,
                         "stopIndices": [0, 5, 8, 12, 14, 15],
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -205,8 +251,10 @@
                         "departure": "15:26",
                         "startsHere": false,
                         "stopIndices": [0, 5, 8, 12, 14, 15],
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -214,8 +262,10 @@
                         "departure": "15:54",
                         "startsHere": false,
                         "stopIndices": [0, 5, 8, 12, 14, 15],
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -223,8 +273,10 @@
                         "departure": "16:26",
                         "startsHere": false,
                         "stopIndices": [0, 5, 8, 12, 14, 15],
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -232,8 +284,10 @@
                         "departure": "16:54",
                         "startsHere": false,
                         "stopIndices": [0, 5, 8, 12, 14, 15],
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -241,8 +295,10 @@
                         "departure": "17:26",
                         "startsHere": false,
                         "stopIndices": [0, 5, 8, 12, 14, 15],
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -250,8 +306,10 @@
                         "departure": "17:56",
                         "startsHere": false,
                         "stopIndices": [0, 5, 8, 12, 14, 15],
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -259,8 +317,10 @@
                         "departure": "18:23",
                         "startsHere": true,
                         "stopIndices": [0, 5, 8, 12, 14, 15],
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -268,8 +328,10 @@
                         "departure": "18:45",
                         "startsHere": false,
                         "stopIndices": [0, 5, 8, 12, 14, 15],
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -277,8 +339,10 @@
                         "departure": "19:15",
                         "startsHere": true,
                         "stopIndices": [0, 5, 8, 12, 14, 15],
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -286,8 +350,10 @@
                         "departure": "19:46",
                         "startsHere": false,
                         "stopIndices": [0, 5, 8, 12, 14, 15],
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -295,8 +361,10 @@
                         "departure": "20:10",
                         "startsHere": true,
                         "stopIndices": [0, 5, 8, 12, 14, 15],
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -304,8 +372,10 @@
                         "departure": "20:52",
                         "startsHere": true,
                         "stopIndices": [0, 5, 8, 12, 14, 15],
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -313,8 +383,10 @@
                         "departure": "21:39",
                         "startsHere": false,
                         "stopIndices": [0, 5, 8, 12, 14, 15],
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -322,8 +394,10 @@
                         "departure": "21:56",
                         "startsHere": false,
                         "stopIndices": [0, 5, 8, 12, 14, 15],
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -331,8 +405,10 @@
                         "departure": "22:26",
                         "startsHere": false,
                         "stopIndices": [0, 5, 8, 12, 14, 15],
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "Express"
                     }
                 ],
@@ -342,8 +418,10 @@
                         "departure": "06:21",
                         "startsHere": true,
                         "stopIndices": [0, 1, 2, 3, 4, 5, 8, 12, 14, 15],
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "CommuterExpress"
                     },
                     {
@@ -351,8 +429,10 @@
                         "departure": "06:42",
                         "startsHere": true,
                         "stopIndices": [0, 1, 2, 3, 4, 5, 8, 12, 14, 15],
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "CommuterExpress"
                     },
                     {
@@ -360,8 +440,10 @@
                         "departure": "07:15",
                         "startsHere": true,
                         "stopIndices": [0, 1, 2, 3, 4, 5, 8, 12, 14, 15],
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "CommuterExpress"
                     },
                     {
@@ -369,8 +451,10 @@
                         "departure": "07:23",
                         "startsHere": true,
                         "stopIndices": [0, 1, 2, 3, 4, 5, 8, 12, 14, 15],
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "CommuterExpress"
                     },
                     {
@@ -378,8 +462,10 @@
                         "departure": "07:37",
                         "startsHere": false,
                         "stopIndices": [0, 1, 2, 3, 4, 5, 8, 12, 14, 15],
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "CommuterExpress"
                     },
                     {
@@ -387,8 +473,10 @@
                         "departure": "07:53",
                         "startsHere": false,
                         "stopIndices": [0, 1, 2, 3, 4, 5, 8, 12, 14, 15],
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "CommuterExpress"
                     },
                     {
@@ -396,8 +484,10 @@
                         "departure": "08:08",
                         "startsHere": false,
                         "stopIndices": [0, 1, 2, 3, 4, 5, 8, 12, 14, 15],
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "CommuterExpress"
                     },
                     {
@@ -405,8 +495,10 @@
                         "departure": "08:27",
                         "startsHere": true,
                         "stopIndices": [0, 1, 2, 3, 4, 5, 8, 12, 14, 15],
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "CommuterExpress"
                     },
                     {
@@ -414,8 +506,10 @@
                         "departure": "08:53",
                         "startsHere": true,
                         "stopIndices": [0, 1, 2, 3, 4, 5, 8, 12, 14, 15],
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "CommuterExpress"
                     },
                     {
@@ -423,8 +517,10 @@
                         "departure": "09:37",
                         "startsHere": false,
                         "stopIndices": [0, 1, 2, 3, 4, 5, 8, 12, 14, 15],
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "CommuterExpress"
                     },
                     {
@@ -432,8 +528,10 @@
                         "departure": "09:53",
                         "startsHere": false,
                         "stopIndices": [0, 5, 8, 12, 14, 15],
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -441,8 +539,10 @@
                         "departure": "10:24",
                         "startsHere": false,
                         "stopIndices": [0, 5, 8, 12, 14, 15],
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -450,8 +550,10 @@
                         "departure": "10:56",
                         "startsHere": false,
                         "stopIndices": [0, 5, 8, 12, 14, 15],
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -459,8 +561,10 @@
                         "departure": "11:26",
                         "startsHere": false,
                         "stopIndices": [0, 5, 8, 12, 14, 15],
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -468,8 +572,10 @@
                         "departure": "11:56",
                         "startsHere": false,
                         "stopIndices": [0, 5, 8, 12, 14, 15],
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -477,8 +583,10 @@
                         "departure": "12:26",
                         "startsHere": false,
                         "stopIndices": [0, 5, 8, 12, 14, 15],
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -486,8 +594,10 @@
                         "departure": "12:56",
                         "startsHere": false,
                         "stopIndices": [0, 5, 8, 12, 14, 15],
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -495,8 +605,10 @@
                         "departure": "13:26",
                         "startsHere": false,
                         "stopIndices": [0, 5, 8, 12, 14, 15],
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -504,8 +616,10 @@
                         "departure": "13:56",
                         "startsHere": false,
                         "stopIndices": [0, 5, 8, 12, 14, 15],
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -513,8 +627,10 @@
                         "departure": "14:26",
                         "startsHere": false,
                         "stopIndices": [0, 5, 8, 12, 14, 15],
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -522,8 +638,10 @@
                         "departure": "14:56",
                         "startsHere": false,
                         "stopIndices": [0, 5, 8, 12, 14, 15],
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -531,8 +649,10 @@
                         "departure": "15:26",
                         "startsHere": false,
                         "stopIndices": [0, 5, 8, 12, 14, 15],
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -540,8 +660,10 @@
                         "departure": "15:59",
                         "startsHere": false,
                         "stopIndices": [0, 5, 8, 12, 14, 15],
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -549,8 +671,10 @@
                         "departure": "16:29",
                         "startsHere": false,
                         "stopIndices": [0, 1, 2, 3, 4, 5, 8, 12, 14, 15],
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "CommuterExpress"
                     },
                     {
@@ -558,8 +682,10 @@
                         "departure": "16:58",
                         "startsHere": false,
                         "stopIndices": [0, 1, 2, 3, 4, 5, 8, 12, 14, 15],
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "CommuterExpress"
                     },
                     {
@@ -567,8 +693,10 @@
                         "departure": "17:28",
                         "startsHere": false,
                         "stopIndices": [0, 1, 2, 3, 4, 5, 8, 12, 14, 15],
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "CommuterExpress"
                     },
                     {
@@ -576,8 +704,10 @@
                         "departure": "17:43",
                         "startsHere": true,
                         "stopIndices": [0, 1, 2, 3, 4, 5, 8, 12, 14, 15],
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "CommuterExpress"
                     },
                     {
@@ -585,8 +715,10 @@
                         "departure": "17:59",
                         "startsHere": true,
                         "stopIndices": [0, 1, 2, 3, 4, 5, 8, 12, 14, 15],
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "CommuterExpress"
                     },
                     {
@@ -594,8 +726,10 @@
                         "departure": "18:36",
                         "startsHere": true,
                         "stopIndices": [0, 1, 2, 3, 4, 5, 8, 12, 14, 15],
-                        "throughDestEn": "Shonandai",
-                        "throughDestJa": "湘南台",
+                        "throughDest": {
+                            "en": "Shonandai",
+                            "ja": "湘南台"
+                        },
                         "trainType": "CommuterExpress"
                     },
                     {
@@ -603,8 +737,10 @@
                         "departure": "18:59",
                         "startsHere": true,
                         "stopIndices": [0, 1, 2, 3, 4, 5, 8, 12, 14, 15],
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "CommuterExpress"
                     },
                     {
@@ -612,8 +748,10 @@
                         "departure": "19:15",
                         "startsHere": false,
                         "stopIndices": [0, 1, 2, 3, 4, 5, 8, 12, 14, 15],
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "CommuterExpress"
                     },
                     {
@@ -621,8 +759,10 @@
                         "departure": "19:27",
                         "startsHere": true,
                         "stopIndices": [0, 1, 2, 3, 4, 5, 8, 12, 14, 15],
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "CommuterExpress"
                     },
                     {
@@ -630,8 +770,10 @@
                         "departure": "19:44",
                         "startsHere": false,
                         "stopIndices": [0, 1, 2, 3, 4, 5, 8, 12, 14, 15],
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "CommuterExpress"
                     },
                     {
@@ -639,8 +781,10 @@
                         "departure": "20:29",
                         "startsHere": true,
                         "stopIndices": [0, 1, 2, 3, 4, 5, 8, 12, 14, 15],
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "CommuterExpress"
                     },
                     {
@@ -648,8 +792,10 @@
                         "departure": "20:59",
                         "startsHere": false,
                         "stopIndices": [0, 1, 2, 3, 4, 5, 8, 12, 14, 15],
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "CommuterExpress"
                     },
                     {
@@ -657,8 +803,10 @@
                         "departure": "21:14",
                         "startsHere": true,
                         "stopIndices": [0, 1, 2, 3, 4, 5, 8, 12, 14, 15],
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "CommuterExpress"
                     },
                     {
@@ -666,8 +814,10 @@
                         "departure": "21:29",
                         "startsHere": false,
                         "stopIndices": [0, 1, 2, 3, 4, 5, 8, 12, 14, 15],
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "CommuterExpress"
                     },
                     {
@@ -675,8 +825,10 @@
                         "departure": "21:54",
                         "startsHere": false,
                         "stopIndices": [0, 1, 2, 3, 4, 5, 8, 12, 14, 15],
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "CommuterExpress"
                     },
                     {
@@ -684,8 +836,10 @@
                         "departure": "22:30",
                         "startsHere": false,
                         "stopIndices": [0, 1, 2, 3, 4, 5, 8, 12, 14, 15],
-                        "throughDestEn": "Motomachi-Chukagai",
-                        "throughDestJa": "元町・中華街",
+                        "throughDest": {
+                            "en": "Motomachi-Chukagai",
+                            "ja": "元町・中華街"
+                        },
                         "trainType": "CommuterExpress"
                     }
                 ],
@@ -719,8 +873,10 @@
                                 "departure": "07:17",
                                 "startsHere": false,
                                 "stopIndices": [5, 8, 12, 14, 15],
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "Express"
                             },
                             {
@@ -728,8 +884,10 @@
                                 "departure": "08:21",
                                 "startsHere": false,
                                 "stopIndices": [5, 8, 12, 14, 15],
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "Express"
                             },
                             {
@@ -737,8 +895,10 @@
                                 "departure": "08:52",
                                 "startsHere": false,
                                 "stopIndices": [5, 8, 12, 14, 15],
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "Express"
                             },
                             {
@@ -746,8 +906,10 @@
                                 "departure": "09:22",
                                 "startsHere": false,
                                 "stopIndices": [5, 8, 12, 14, 15],
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "Express"
                             },
                             {
@@ -755,8 +917,10 @@
                                 "departure": "09:51",
                                 "startsHere": false,
                                 "stopIndices": [5, 8, 12, 14, 15],
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "Express"
                             },
                             {
@@ -764,8 +928,10 @@
                                 "departure": "10:22",
                                 "startsHere": false,
                                 "stopIndices": [5, 8, 12, 14, 15],
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "Express"
                             },
                             {
@@ -773,8 +939,10 @@
                                 "departure": "10:52",
                                 "startsHere": false,
                                 "stopIndices": [5, 8, 12, 14, 15],
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "Express"
                             },
                             {
@@ -782,8 +950,10 @@
                                 "departure": "11:22",
                                 "startsHere": false,
                                 "stopIndices": [5, 8, 12, 14, 15],
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "Express"
                             },
                             {
@@ -791,8 +961,10 @@
                                 "departure": "11:52",
                                 "startsHere": false,
                                 "stopIndices": [5, 8, 12, 14, 15],
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "Express"
                             },
                             {
@@ -800,8 +972,10 @@
                                 "departure": "12:22",
                                 "startsHere": false,
                                 "stopIndices": [5, 8, 12, 14, 15],
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "Express"
                             },
                             {
@@ -809,8 +983,10 @@
                                 "departure": "12:52",
                                 "startsHere": false,
                                 "stopIndices": [5, 8, 12, 14, 15],
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "Express"
                             },
                             {
@@ -818,8 +994,10 @@
                                 "departure": "13:22",
                                 "startsHere": false,
                                 "stopIndices": [5, 8, 12, 14, 15],
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "Express"
                             },
                             {
@@ -827,8 +1005,10 @@
                                 "departure": "13:52",
                                 "startsHere": false,
                                 "stopIndices": [5, 8, 12, 14, 15],
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "Express"
                             },
                             {
@@ -836,8 +1016,10 @@
                                 "departure": "14:22",
                                 "startsHere": false,
                                 "stopIndices": [5, 8, 12, 14, 15],
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "Express"
                             },
                             {
@@ -845,8 +1027,10 @@
                                 "departure": "14:52",
                                 "startsHere": false,
                                 "stopIndices": [5, 8, 12, 14, 15],
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "Express"
                             },
                             {
@@ -854,8 +1038,10 @@
                                 "departure": "15:22",
                                 "startsHere": false,
                                 "stopIndices": [5, 8, 12, 14, 15],
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "Express"
                             },
                             {
@@ -863,8 +1049,10 @@
                                 "departure": "15:52",
                                 "startsHere": false,
                                 "stopIndices": [5, 8, 12, 14, 15],
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "Express"
                             },
                             {
@@ -872,8 +1060,10 @@
                                 "departure": "16:22",
                                 "startsHere": false,
                                 "stopIndices": [5, 8, 12, 14, 15],
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "Express"
                             },
                             {
@@ -881,8 +1071,10 @@
                                 "departure": "16:52",
                                 "startsHere": false,
                                 "stopIndices": [5, 8, 12, 14, 15],
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "Express"
                             },
                             {
@@ -890,8 +1082,10 @@
                                 "departure": "17:22",
                                 "startsHere": false,
                                 "stopIndices": [5, 8, 12, 14, 15],
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "Express"
                             },
                             {
@@ -899,8 +1093,10 @@
                                 "departure": "17:48",
                                 "startsHere": false,
                                 "stopIndices": [5, 8, 12, 14, 15],
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "Express"
                             },
                             {
@@ -908,8 +1104,10 @@
                                 "departure": "18:22",
                                 "startsHere": false,
                                 "stopIndices": [5, 8, 12, 14, 15],
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "Express"
                             },
                             {
@@ -917,8 +1115,10 @@
                                 "departure": "19:07",
                                 "startsHere": false,
                                 "stopIndices": [5, 8, 12, 14, 15],
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "Express"
                             },
                             {
@@ -926,8 +1126,10 @@
                                 "departure": "19:37",
                                 "startsHere": false,
                                 "stopIndices": [5, 8, 12, 14, 15],
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "Express"
                             },
                             {
@@ -935,8 +1137,10 @@
                                 "departure": "20:07",
                                 "startsHere": false,
                                 "stopIndices": [5, 8, 12, 14, 15],
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "Express"
                             },
                             {
@@ -944,8 +1148,10 @@
                                 "departure": "20:37",
                                 "startsHere": false,
                                 "stopIndices": [5, 8, 12, 14, 15],
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "Express"
                             },
                             {
@@ -953,8 +1159,10 @@
                                 "departure": "20:57",
                                 "startsHere": false,
                                 "stopIndices": [5, 8, 12, 14, 15],
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "Express"
                             },
                             {
@@ -962,8 +1170,10 @@
                                 "departure": "21:36",
                                 "startsHere": false,
                                 "stopIndices": [5, 8, 12, 14, 15],
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "Express"
                             }
                         ],
@@ -975,8 +1185,10 @@
                                 "departure": "06:16",
                                 "startsHere": false,
                                 "stopIndices": [5, 8, 12, 14, 15],
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "Express"
                             },
                             {
@@ -984,8 +1196,10 @@
                                 "departure": "06:50",
                                 "startsHere": false,
                                 "stopIndices": [5, 8, 12, 14, 15],
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "Express"
                             },
                             {
@@ -993,8 +1207,10 @@
                                 "departure": "07:12",
                                 "startsHere": false,
                                 "stopIndices": [5, 8, 12, 14, 15],
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "Express"
                             },
                             {
@@ -1002,8 +1218,10 @@
                                 "departure": "07:45",
                                 "startsHere": false,
                                 "stopIndices": [5, 8, 12, 14, 15],
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "Express"
                             },
                             {
@@ -1011,8 +1229,10 @@
                                 "departure": "08:00",
                                 "startsHere": false,
                                 "stopIndices": [5, 8, 12, 14, 15],
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "Express"
                             },
                             {
@@ -1020,8 +1240,10 @@
                                 "departure": "08:14",
                                 "startsHere": false,
                                 "stopIndices": [5, 8, 12, 14, 15],
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "Express"
                             },
                             {
@@ -1029,8 +1251,10 @@
                                 "departure": "08:30",
                                 "startsHere": false,
                                 "stopIndices": [5, 8, 12, 14, 15],
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "Express"
                             },
                             {
@@ -1038,8 +1262,10 @@
                                 "departure": "08:52",
                                 "startsHere": false,
                                 "stopIndices": [5, 8, 12, 14, 15],
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "Express"
                             },
                             {
@@ -1047,8 +1273,10 @@
                                 "departure": "09:21",
                                 "startsHere": false,
                                 "stopIndices": [5, 8, 12, 14, 15],
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "Express"
                             },
                             {
@@ -1056,8 +1284,10 @@
                                 "departure": "09:36",
                                 "startsHere": false,
                                 "stopIndices": [5, 8, 12, 14, 15],
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "Express"
                             },
                             {
@@ -1065,8 +1295,10 @@
                                 "departure": "10:22",
                                 "startsHere": false,
                                 "stopIndices": [5, 8, 12, 14, 15],
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "Express"
                             },
                             {
@@ -1074,8 +1306,10 @@
                                 "departure": "10:52",
                                 "startsHere": false,
                                 "stopIndices": [5, 8, 12, 14, 15],
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "Express"
                             },
                             {
@@ -1083,8 +1317,10 @@
                                 "departure": "11:22",
                                 "startsHere": false,
                                 "stopIndices": [5, 8, 12, 14, 15],
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "Express"
                             },
                             {
@@ -1092,8 +1328,10 @@
                                 "departure": "11:52",
                                 "startsHere": false,
                                 "stopIndices": [5, 8, 12, 14, 15],
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "Express"
                             },
                             {
@@ -1101,8 +1339,10 @@
                                 "departure": "12:22",
                                 "startsHere": false,
                                 "stopIndices": [5, 8, 12, 14, 15],
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "Express"
                             },
                             {
@@ -1110,8 +1350,10 @@
                                 "departure": "12:52",
                                 "startsHere": false,
                                 "stopIndices": [5, 8, 12, 14, 15],
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "Express"
                             },
                             {
@@ -1119,8 +1361,10 @@
                                 "departure": "13:22",
                                 "startsHere": false,
                                 "stopIndices": [5, 8, 12, 14, 15],
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "Express"
                             },
                             {
@@ -1128,8 +1372,10 @@
                                 "departure": "13:52",
                                 "startsHere": false,
                                 "stopIndices": [5, 8, 12, 14, 15],
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "Express"
                             },
                             {
@@ -1137,8 +1383,10 @@
                                 "departure": "14:22",
                                 "startsHere": false,
                                 "stopIndices": [5, 8, 12, 14, 15],
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "Express"
                             },
                             {
@@ -1146,8 +1394,10 @@
                                 "departure": "14:52",
                                 "startsHere": false,
                                 "stopIndices": [5, 8, 12, 14, 15],
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "Express"
                             },
                             {
@@ -1155,8 +1405,10 @@
                                 "departure": "15:22",
                                 "startsHere": false,
                                 "stopIndices": [5, 8, 12, 14, 15],
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "Express"
                             },
                             {
@@ -1164,8 +1416,10 @@
                                 "departure": "15:55",
                                 "startsHere": false,
                                 "stopIndices": [5, 8, 12, 14, 15],
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "Express"
                             },
                             {
@@ -1173,8 +1427,10 @@
                                 "departure": "16:25",
                                 "startsHere": false,
                                 "stopIndices": [5, 8, 12, 14, 15],
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "Express"
                             },
                             {
@@ -1182,8 +1438,10 @@
                                 "departure": "16:55",
                                 "startsHere": false,
                                 "stopIndices": [5, 8, 12, 14, 15],
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "Express"
                             },
                             {
@@ -1191,8 +1449,10 @@
                                 "departure": "17:27",
                                 "startsHere": false,
                                 "stopIndices": [5, 8, 12, 14, 15],
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "Express"
                             },
                             {
@@ -1200,8 +1460,10 @@
                                 "departure": "18:26",
                                 "startsHere": false,
                                 "stopIndices": [5, 8, 12, 14, 15],
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "Express"
                             },
                             {
@@ -1209,8 +1471,10 @@
                                 "departure": "18:41",
                                 "startsHere": false,
                                 "stopIndices": [5, 8, 12, 14, 15],
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "Express"
                             },
                             {
@@ -1218,8 +1482,10 @@
                                 "departure": "20:12",
                                 "startsHere": false,
                                 "stopIndices": [5, 8, 12, 14, 15],
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "Express"
                             },
                             {
@@ -1227,8 +1493,10 @@
                                 "departure": "20:27",
                                 "startsHere": false,
                                 "stopIndices": [5, 8, 12, 14, 15],
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "Express"
                             },
                             {
@@ -1236,16 +1504,20 @@
                                 "departure": "20:57",
                                 "startsHere": false,
                                 "stopIndices": [5, 8, 12, 14, 15],
-                                "throughDestEn": "Motomachi-Chukagai",
-                                "throughDestJa": "元町・中華街",
+                                "throughDest": {
+                                    "en": "Motomachi-Chukagai",
+                                    "ja": "元町・中華街"
+                                },
                                 "trainType": "Express"
                             }
                         ]
                     }
                 ],
                 "isAscending": true,
-                "nameEn": "For Shibuya",
-                "nameJa": "渋谷方面",
+                "name": {
+                    "en": "For Shibuya",
+                    "ja": "渋谷方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -1312,8 +1584,10 @@
                         "departure": "06:12",
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5, 0],
-                        "throughDestEn": "Ogawamachi",
-                        "throughDestJa": "小川町",
+                        "throughDest": {
+                            "en": "Ogawamachi",
+                            "ja": "小川町"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -1322,8 +1596,10 @@
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5],
                         "terminusStationId": "Station:TokyoMetro.Fukutoshin.KotakeMukaihara",
-                        "throughDestEn": "Hanno",
-                        "throughDestJa": "飯能",
+                        "throughDest": {
+                            "en": "Hanno",
+                            "ja": "飯能"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -1331,8 +1607,10 @@
                         "departure": "07:11",
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5, 0],
-                        "throughDestEn": "Ogawamachi",
-                        "throughDestJa": "小川町",
+                        "throughDest": {
+                            "en": "Ogawamachi",
+                            "ja": "小川町"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -1341,8 +1619,10 @@
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5],
                         "terminusStationId": "Station:TokyoMetro.Fukutoshin.KotakeMukaihara",
-                        "throughDestEn": "Kotesashi",
-                        "throughDestJa": "小手指",
+                        "throughDest": {
+                            "en": "Kotesashi",
+                            "ja": "小手指"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -1351,8 +1631,10 @@
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5],
                         "terminusStationId": "Station:TokyoMetro.Fukutoshin.KotakeMukaihara",
-                        "throughDestEn": "Kiyose",
-                        "throughDestJa": "清瀬",
+                        "throughDest": {
+                            "en": "Kiyose",
+                            "ja": "清瀬"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -1367,8 +1649,10 @@
                         "departure": "08:11",
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5, 0],
-                        "throughDestEn": "Ogawamachi",
-                        "throughDestJa": "小川町",
+                        "throughDest": {
+                            "en": "Ogawamachi",
+                            "ja": "小川町"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -1376,8 +1660,10 @@
                         "departure": "08:41",
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5, 0],
-                        "throughDestEn": "Shinrin-Koen",
-                        "throughDestJa": "森林公園",
+                        "throughDest": {
+                            "en": "Shinrin-Koen",
+                            "ja": "森林公園"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -1386,8 +1672,10 @@
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5],
                         "terminusStationId": "Station:TokyoMetro.Fukutoshin.KotakeMukaihara",
-                        "throughDestEn": "Kotesashi",
-                        "throughDestJa": "小手指",
+                        "throughDest": {
+                            "en": "Kotesashi",
+                            "ja": "小手指"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -1395,8 +1683,10 @@
                         "departure": "09:11",
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5, 0],
-                        "throughDestEn": "Shinrin-Koen",
-                        "throughDestJa": "森林公園",
+                        "throughDest": {
+                            "en": "Shinrin-Koen",
+                            "ja": "森林公園"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -1411,8 +1701,10 @@
                         "departure": "09:41",
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5, 0],
-                        "throughDestEn": "Shinrin-Koen",
-                        "throughDestJa": "森林公園",
+                        "throughDest": {
+                            "en": "Shinrin-Koen",
+                            "ja": "森林公園"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -1421,8 +1713,10 @@
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5],
                         "terminusStationId": "Station:TokyoMetro.Fukutoshin.KotakeMukaihara",
-                        "throughDestEn": "Hanno",
-                        "throughDestJa": "飯能",
+                        "throughDest": {
+                            "en": "Hanno",
+                            "ja": "飯能"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -1430,8 +1724,10 @@
                         "departure": "10:10",
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5, 0],
-                        "throughDestEn": "Shinrin-Koen",
-                        "throughDestJa": "森林公園",
+                        "throughDest": {
+                            "en": "Shinrin-Koen",
+                            "ja": "森林公園"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -1440,8 +1736,10 @@
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5],
                         "terminusStationId": "Station:TokyoMetro.Fukutoshin.KotakeMukaihara",
-                        "throughDestEn": "Hanno",
-                        "throughDestJa": "飯能",
+                        "throughDest": {
+                            "en": "Hanno",
+                            "ja": "飯能"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -1457,8 +1755,10 @@
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5],
                         "terminusStationId": "Station:TokyoMetro.Fukutoshin.KotakeMukaihara",
-                        "throughDestEn": "Kotesashi",
-                        "throughDestJa": "小手指",
+                        "throughDest": {
+                            "en": "Kotesashi",
+                            "ja": "小手指"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -1466,8 +1766,10 @@
                         "departure": "11:10",
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5, 0],
-                        "throughDestEn": "Shinrin-Koen",
-                        "throughDestJa": "森林公園",
+                        "throughDest": {
+                            "en": "Shinrin-Koen",
+                            "ja": "森林公園"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -1476,8 +1778,10 @@
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5],
                         "terminusStationId": "Station:TokyoMetro.Fukutoshin.KotakeMukaihara",
-                        "throughDestEn": "Kotesashi",
-                        "throughDestJa": "小手指",
+                        "throughDest": {
+                            "en": "Kotesashi",
+                            "ja": "小手指"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -1485,8 +1789,10 @@
                         "departure": "11:40",
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5, 0],
-                        "throughDestEn": "Shinrin-Koen",
-                        "throughDestJa": "森林公園",
+                        "throughDest": {
+                            "en": "Shinrin-Koen",
+                            "ja": "森林公園"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -1495,8 +1801,10 @@
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5],
                         "terminusStationId": "Station:TokyoMetro.Fukutoshin.KotakeMukaihara",
-                        "throughDestEn": "Kotesashi",
-                        "throughDestJa": "小手指",
+                        "throughDest": {
+                            "en": "Kotesashi",
+                            "ja": "小手指"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -1504,8 +1812,10 @@
                         "departure": "12:10",
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5, 0],
-                        "throughDestEn": "Shinrin-Koen",
-                        "throughDestJa": "森林公園",
+                        "throughDest": {
+                            "en": "Shinrin-Koen",
+                            "ja": "森林公園"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -1514,8 +1824,10 @@
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5],
                         "terminusStationId": "Station:TokyoMetro.Fukutoshin.KotakeMukaihara",
-                        "throughDestEn": "Kotesashi",
-                        "throughDestJa": "小手指",
+                        "throughDest": {
+                            "en": "Kotesashi",
+                            "ja": "小手指"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -1523,8 +1835,10 @@
                         "departure": "12:40",
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5, 0],
-                        "throughDestEn": "Shinrin-Koen",
-                        "throughDestJa": "森林公園",
+                        "throughDest": {
+                            "en": "Shinrin-Koen",
+                            "ja": "森林公園"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -1533,8 +1847,10 @@
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5],
                         "terminusStationId": "Station:TokyoMetro.Fukutoshin.KotakeMukaihara",
-                        "throughDestEn": "Kotesashi",
-                        "throughDestJa": "小手指",
+                        "throughDest": {
+                            "en": "Kotesashi",
+                            "ja": "小手指"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -1542,8 +1858,10 @@
                         "departure": "13:10",
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5, 0],
-                        "throughDestEn": "Shinrin-Koen",
-                        "throughDestJa": "森林公園",
+                        "throughDest": {
+                            "en": "Shinrin-Koen",
+                            "ja": "森林公園"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -1552,8 +1870,10 @@
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5],
                         "terminusStationId": "Station:TokyoMetro.Fukutoshin.KotakeMukaihara",
-                        "throughDestEn": "Kotesashi",
-                        "throughDestJa": "小手指",
+                        "throughDest": {
+                            "en": "Kotesashi",
+                            "ja": "小手指"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -1561,8 +1881,10 @@
                         "departure": "13:40",
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5, 0],
-                        "throughDestEn": "Shinrin-Koen",
-                        "throughDestJa": "森林公園",
+                        "throughDest": {
+                            "en": "Shinrin-Koen",
+                            "ja": "森林公園"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -1571,8 +1893,10 @@
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5],
                         "terminusStationId": "Station:TokyoMetro.Fukutoshin.KotakeMukaihara",
-                        "throughDestEn": "Kotesashi",
-                        "throughDestJa": "小手指",
+                        "throughDest": {
+                            "en": "Kotesashi",
+                            "ja": "小手指"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -1580,8 +1904,10 @@
                         "departure": "14:10",
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5, 0],
-                        "throughDestEn": "Shinrin-Koen",
-                        "throughDestJa": "森林公園",
+                        "throughDest": {
+                            "en": "Shinrin-Koen",
+                            "ja": "森林公園"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -1590,8 +1916,10 @@
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5],
                         "terminusStationId": "Station:TokyoMetro.Fukutoshin.KotakeMukaihara",
-                        "throughDestEn": "Kotesashi",
-                        "throughDestJa": "小手指",
+                        "throughDest": {
+                            "en": "Kotesashi",
+                            "ja": "小手指"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -1599,8 +1927,10 @@
                         "departure": "14:40",
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5, 0],
-                        "throughDestEn": "Shinrin-Koen",
-                        "throughDestJa": "森林公園",
+                        "throughDest": {
+                            "en": "Shinrin-Koen",
+                            "ja": "森林公園"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -1609,8 +1939,10 @@
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5],
                         "terminusStationId": "Station:TokyoMetro.Fukutoshin.KotakeMukaihara",
-                        "throughDestEn": "Kotesashi",
-                        "throughDestJa": "小手指",
+                        "throughDest": {
+                            "en": "Kotesashi",
+                            "ja": "小手指"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -1618,8 +1950,10 @@
                         "departure": "15:10",
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5, 0],
-                        "throughDestEn": "Shinrin-Koen",
-                        "throughDestJa": "森林公園",
+                        "throughDest": {
+                            "en": "Shinrin-Koen",
+                            "ja": "森林公園"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -1628,8 +1962,10 @@
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5],
                         "terminusStationId": "Station:TokyoMetro.Fukutoshin.KotakeMukaihara",
-                        "throughDestEn": "Kotesashi",
-                        "throughDestJa": "小手指",
+                        "throughDest": {
+                            "en": "Kotesashi",
+                            "ja": "小手指"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -1637,8 +1973,10 @@
                         "departure": "15:40",
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5, 0],
-                        "throughDestEn": "Shinrin-Koen",
-                        "throughDestJa": "森林公園",
+                        "throughDest": {
+                            "en": "Shinrin-Koen",
+                            "ja": "森林公園"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -1647,8 +1985,10 @@
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5],
                         "terminusStationId": "Station:TokyoMetro.Fukutoshin.KotakeMukaihara",
-                        "throughDestEn": "Tokorozawa",
-                        "throughDestJa": "所沢",
+                        "throughDest": {
+                            "en": "Tokorozawa",
+                            "ja": "所沢"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -1656,8 +1996,10 @@
                         "departure": "16:10",
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5, 0],
-                        "throughDestEn": "Shinrin-Koen",
-                        "throughDestJa": "森林公園",
+                        "throughDest": {
+                            "en": "Shinrin-Koen",
+                            "ja": "森林公園"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -1666,8 +2008,10 @@
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5],
                         "terminusStationId": "Station:TokyoMetro.Fukutoshin.KotakeMukaihara",
-                        "throughDestEn": "Kotesashi",
-                        "throughDestJa": "小手指",
+                        "throughDest": {
+                            "en": "Kotesashi",
+                            "ja": "小手指"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -1675,8 +2019,10 @@
                         "departure": "16:40",
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5, 0],
-                        "throughDestEn": "Kawagoeshi",
-                        "throughDestJa": "川越市",
+                        "throughDest": {
+                            "en": "Kawagoeshi",
+                            "ja": "川越市"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -1685,8 +2031,10 @@
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5],
                         "terminusStationId": "Station:TokyoMetro.Fukutoshin.KotakeMukaihara",
-                        "throughDestEn": "Kotesashi",
-                        "throughDestJa": "小手指",
+                        "throughDest": {
+                            "en": "Kotesashi",
+                            "ja": "小手指"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -1695,8 +2043,10 @@
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5],
                         "terminusStationId": "Station:TokyoMetro.Fukutoshin.KotakeMukaihara",
-                        "throughDestEn": "Tokorozawa",
-                        "throughDestJa": "所沢",
+                        "throughDest": {
+                            "en": "Tokorozawa",
+                            "ja": "所沢"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -1712,8 +2062,10 @@
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5],
                         "terminusStationId": "Station:TokyoMetro.Fukutoshin.KotakeMukaihara",
-                        "throughDestEn": "Tokorozawa",
-                        "throughDestJa": "所沢",
+                        "throughDest": {
+                            "en": "Tokorozawa",
+                            "ja": "所沢"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -1742,8 +2094,10 @@
                         "departure": "18:57",
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5, 0],
-                        "throughDestEn": "Shinrin-Koen",
-                        "throughDestJa": "森林公園",
+                        "throughDest": {
+                            "en": "Shinrin-Koen",
+                            "ja": "森林公園"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -1773,8 +2127,10 @@
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5],
                         "terminusStationId": "Station:TokyoMetro.Fukutoshin.KotakeMukaihara",
-                        "throughDestEn": "Hanno",
-                        "throughDestJa": "飯能",
+                        "throughDest": {
+                            "en": "Hanno",
+                            "ja": "飯能"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -1790,8 +2146,10 @@
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5],
                         "terminusStationId": "Station:TokyoMetro.Fukutoshin.KotakeMukaihara",
-                        "throughDestEn": "Kiyose",
-                        "throughDestJa": "清瀬",
+                        "throughDest": {
+                            "en": "Kiyose",
+                            "ja": "清瀬"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -1800,8 +2158,10 @@
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5],
                         "terminusStationId": "Station:TokyoMetro.Fukutoshin.KotakeMukaihara",
-                        "throughDestEn": "Hanno",
-                        "throughDestJa": "飯能",
+                        "throughDest": {
+                            "en": "Hanno",
+                            "ja": "飯能"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -1809,8 +2169,10 @@
                         "departure": "21:42",
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5, 0],
-                        "throughDestEn": "Shinrin-Koen",
-                        "throughDestJa": "森林公園",
+                        "throughDest": {
+                            "en": "Shinrin-Koen",
+                            "ja": "森林公園"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -1834,8 +2196,10 @@
                         "departure": "06:12",
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Kawagoeshi",
-                        "throughDestJa": "川越市",
+                        "throughDest": {
+                            "en": "Kawagoeshi",
+                            "ja": "川越市"
+                        },
                         "trainType": "CommuterExpress"
                     },
                     {
@@ -1843,8 +2207,10 @@
                         "departure": "06:29",
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Kawagoeshi",
-                        "throughDestJa": "川越市",
+                        "throughDest": {
+                            "en": "Kawagoeshi",
+                            "ja": "川越市"
+                        },
                         "trainType": "CommuterExpress"
                     },
                     {
@@ -1866,8 +2232,10 @@
                         "departure": "07:32",
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Shinrin-Koen",
-                        "throughDestJa": "森林公園",
+                        "throughDest": {
+                            "en": "Shinrin-Koen",
+                            "ja": "森林公園"
+                        },
                         "trainType": "CommuterExpress"
                     },
                     {
@@ -1882,8 +2250,10 @@
                         "departure": "07:57",
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Shinrin-Koen",
-                        "throughDestJa": "森林公園",
+                        "throughDest": {
+                            "en": "Shinrin-Koen",
+                            "ja": "森林公園"
+                        },
                         "trainType": "CommuterExpress"
                     },
                     {
@@ -1906,8 +2276,10 @@
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5],
                         "terminusStationId": "Station:TokyoMetro.Fukutoshin.KotakeMukaihara",
-                        "throughDestEn": "Kotesashi",
-                        "throughDestJa": "小手指",
+                        "throughDest": {
+                            "en": "Kotesashi",
+                            "ja": "小手指"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -1915,8 +2287,10 @@
                         "departure": "08:28",
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Shinrin-Koen",
-                        "throughDestJa": "森林公園",
+                        "throughDest": {
+                            "en": "Shinrin-Koen",
+                            "ja": "森林公園"
+                        },
                         "trainType": "CommuterExpress"
                     },
                     {
@@ -1932,8 +2306,10 @@
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5],
                         "terminusStationId": "Station:TokyoMetro.Fukutoshin.KotakeMukaihara",
-                        "throughDestEn": "Kotesashi",
-                        "throughDestJa": "小手指",
+                        "throughDest": {
+                            "en": "Kotesashi",
+                            "ja": "小手指"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -1950,8 +2326,10 @@
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5],
                         "terminusStationId": "Station:TokyoMetro.Fukutoshin.KotakeMukaihara",
-                        "throughDestEn": "Tokorozawa",
-                        "throughDestJa": "所沢",
+                        "throughDest": {
+                            "en": "Tokorozawa",
+                            "ja": "所沢"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -1973,8 +2351,10 @@
                         "departure": "09:47",
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Kawagoeshi",
-                        "throughDestJa": "川越市",
+                        "throughDest": {
+                            "en": "Kawagoeshi",
+                            "ja": "川越市"
+                        },
                         "trainType": "CommuterExpress"
                     },
                     {
@@ -1997,8 +2377,10 @@
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5],
                         "terminusStationId": "Station:TokyoMetro.Fukutoshin.KotakeMukaihara",
-                        "throughDestEn": "Kotesashi",
-                        "throughDestJa": "小手指",
+                        "throughDest": {
+                            "en": "Kotesashi",
+                            "ja": "小手指"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -2006,8 +2388,10 @@
                         "departure": "10:41",
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5, 0],
-                        "throughDestEn": "Shinrin-Koen",
-                        "throughDestJa": "森林公園",
+                        "throughDest": {
+                            "en": "Shinrin-Koen",
+                            "ja": "森林公園"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -2016,8 +2400,10 @@
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5],
                         "terminusStationId": "Station:TokyoMetro.Fukutoshin.KotakeMukaihara",
-                        "throughDestEn": "Kotesashi",
-                        "throughDestJa": "小手指",
+                        "throughDest": {
+                            "en": "Kotesashi",
+                            "ja": "小手指"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -2025,8 +2411,10 @@
                         "departure": "11:10",
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5, 0],
-                        "throughDestEn": "Shinrin-Koen",
-                        "throughDestJa": "森林公園",
+                        "throughDest": {
+                            "en": "Shinrin-Koen",
+                            "ja": "森林公園"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -2035,8 +2423,10 @@
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5],
                         "terminusStationId": "Station:TokyoMetro.Fukutoshin.KotakeMukaihara",
-                        "throughDestEn": "Kotesashi",
-                        "throughDestJa": "小手指",
+                        "throughDest": {
+                            "en": "Kotesashi",
+                            "ja": "小手指"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -2044,8 +2434,10 @@
                         "departure": "11:40",
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5, 0],
-                        "throughDestEn": "Shinrin-Koen",
-                        "throughDestJa": "森林公園",
+                        "throughDest": {
+                            "en": "Shinrin-Koen",
+                            "ja": "森林公園"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -2054,8 +2446,10 @@
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5],
                         "terminusStationId": "Station:TokyoMetro.Fukutoshin.KotakeMukaihara",
-                        "throughDestEn": "Kotesashi",
-                        "throughDestJa": "小手指",
+                        "throughDest": {
+                            "en": "Kotesashi",
+                            "ja": "小手指"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -2063,8 +2457,10 @@
                         "departure": "12:10",
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5, 0],
-                        "throughDestEn": "Shinrin-Koen",
-                        "throughDestJa": "森林公園",
+                        "throughDest": {
+                            "en": "Shinrin-Koen",
+                            "ja": "森林公園"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -2073,8 +2469,10 @@
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5],
                         "terminusStationId": "Station:TokyoMetro.Fukutoshin.KotakeMukaihara",
-                        "throughDestEn": "Kotesashi",
-                        "throughDestJa": "小手指",
+                        "throughDest": {
+                            "en": "Kotesashi",
+                            "ja": "小手指"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -2082,8 +2480,10 @@
                         "departure": "12:40",
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5, 0],
-                        "throughDestEn": "Shinrin-Koen",
-                        "throughDestJa": "森林公園",
+                        "throughDest": {
+                            "en": "Shinrin-Koen",
+                            "ja": "森林公園"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -2092,8 +2492,10 @@
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5],
                         "terminusStationId": "Station:TokyoMetro.Fukutoshin.KotakeMukaihara",
-                        "throughDestEn": "Kotesashi",
-                        "throughDestJa": "小手指",
+                        "throughDest": {
+                            "en": "Kotesashi",
+                            "ja": "小手指"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -2101,8 +2503,10 @@
                         "departure": "13:10",
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5, 0],
-                        "throughDestEn": "Shinrin-Koen",
-                        "throughDestJa": "森林公園",
+                        "throughDest": {
+                            "en": "Shinrin-Koen",
+                            "ja": "森林公園"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -2111,8 +2515,10 @@
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5],
                         "terminusStationId": "Station:TokyoMetro.Fukutoshin.KotakeMukaihara",
-                        "throughDestEn": "Kotesashi",
-                        "throughDestJa": "小手指",
+                        "throughDest": {
+                            "en": "Kotesashi",
+                            "ja": "小手指"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -2120,8 +2526,10 @@
                         "departure": "13:40",
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5, 0],
-                        "throughDestEn": "Shinrin-Koen",
-                        "throughDestJa": "森林公園",
+                        "throughDest": {
+                            "en": "Shinrin-Koen",
+                            "ja": "森林公園"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -2130,8 +2538,10 @@
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5],
                         "terminusStationId": "Station:TokyoMetro.Fukutoshin.KotakeMukaihara",
-                        "throughDestEn": "Kotesashi",
-                        "throughDestJa": "小手指",
+                        "throughDest": {
+                            "en": "Kotesashi",
+                            "ja": "小手指"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -2139,8 +2549,10 @@
                         "departure": "14:10",
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5, 0],
-                        "throughDestEn": "Shinrin-Koen",
-                        "throughDestJa": "森林公園",
+                        "throughDest": {
+                            "en": "Shinrin-Koen",
+                            "ja": "森林公園"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -2149,8 +2561,10 @@
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5],
                         "terminusStationId": "Station:TokyoMetro.Fukutoshin.KotakeMukaihara",
-                        "throughDestEn": "Kotesashi",
-                        "throughDestJa": "小手指",
+                        "throughDest": {
+                            "en": "Kotesashi",
+                            "ja": "小手指"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -2158,8 +2572,10 @@
                         "departure": "14:40",
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5, 0],
-                        "throughDestEn": "Shinrin-Koen",
-                        "throughDestJa": "森林公園",
+                        "throughDest": {
+                            "en": "Shinrin-Koen",
+                            "ja": "森林公園"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -2168,8 +2584,10 @@
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5],
                         "terminusStationId": "Station:TokyoMetro.Fukutoshin.KotakeMukaihara",
-                        "throughDestEn": "Kotesashi",
-                        "throughDestJa": "小手指",
+                        "throughDest": {
+                            "en": "Kotesashi",
+                            "ja": "小手指"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -2177,8 +2595,10 @@
                         "departure": "15:10",
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5, 0],
-                        "throughDestEn": "Shinrin-Koen",
-                        "throughDestJa": "森林公園",
+                        "throughDest": {
+                            "en": "Shinrin-Koen",
+                            "ja": "森林公園"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -2187,8 +2607,10 @@
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5],
                         "terminusStationId": "Station:TokyoMetro.Fukutoshin.KotakeMukaihara",
-                        "throughDestEn": "Kotesashi",
-                        "throughDestJa": "小手指",
+                        "throughDest": {
+                            "en": "Kotesashi",
+                            "ja": "小手指"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -2196,8 +2618,10 @@
                         "departure": "15:40",
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5, 0],
-                        "throughDestEn": "Shinrin-Koen",
-                        "throughDestJa": "森林公園",
+                        "throughDest": {
+                            "en": "Shinrin-Koen",
+                            "ja": "森林公園"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -2206,8 +2630,10 @@
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5],
                         "terminusStationId": "Station:TokyoMetro.Fukutoshin.KotakeMukaihara",
-                        "throughDestEn": "Kotesashi",
-                        "throughDestJa": "小手指",
+                        "throughDest": {
+                            "en": "Kotesashi",
+                            "ja": "小手指"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -2215,8 +2641,10 @@
                         "departure": "16:11",
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5, 0],
-                        "throughDestEn": "Shinrin-Koen",
-                        "throughDestJa": "森林公園",
+                        "throughDest": {
+                            "en": "Shinrin-Koen",
+                            "ja": "森林公園"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -2225,8 +2653,10 @@
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5],
                         "terminusStationId": "Station:TokyoMetro.Fukutoshin.KotakeMukaihara",
-                        "throughDestEn": "Kotesashi",
-                        "throughDestJa": "小手指",
+                        "throughDest": {
+                            "en": "Kotesashi",
+                            "ja": "小手指"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -2242,8 +2672,10 @@
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5],
                         "terminusStationId": "Station:TokyoMetro.Fukutoshin.KotakeMukaihara",
-                        "throughDestEn": "Tokorozawa",
-                        "throughDestJa": "所沢",
+                        "throughDest": {
+                            "en": "Tokorozawa",
+                            "ja": "所沢"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -2266,8 +2698,10 @@
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5],
                         "terminusStationId": "Station:TokyoMetro.Fukutoshin.KotakeMukaihara",
-                        "throughDestEn": "Hanno",
-                        "throughDestJa": "飯能",
+                        "throughDest": {
+                            "en": "Hanno",
+                            "ja": "飯能"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -2283,8 +2717,10 @@
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5],
                         "terminusStationId": "Station:TokyoMetro.Fukutoshin.KotakeMukaihara",
-                        "throughDestEn": "Hanno",
-                        "throughDestJa": "飯能",
+                        "throughDest": {
+                            "en": "Hanno",
+                            "ja": "飯能"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -2292,8 +2728,10 @@
                         "departure": "18:22",
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Kawagoeshi",
-                        "throughDestJa": "川越市",
+                        "throughDest": {
+                            "en": "Kawagoeshi",
+                            "ja": "川越市"
+                        },
                         "trainType": "CommuterExpress"
                     },
                     {
@@ -2302,8 +2740,10 @@
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5],
                         "terminusStationId": "Station:TokyoMetro.Fukutoshin.KotakeMukaihara",
-                        "throughDestEn": "Tokorozawa",
-                        "throughDestJa": "所沢",
+                        "throughDest": {
+                            "en": "Tokorozawa",
+                            "ja": "所沢"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -2319,8 +2759,10 @@
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5],
                         "terminusStationId": "Station:TokyoMetro.Fukutoshin.KotakeMukaihara",
-                        "throughDestEn": "Hanno",
-                        "throughDestJa": "飯能",
+                        "throughDest": {
+                            "en": "Hanno",
+                            "ja": "飯能"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -2329,8 +2771,10 @@
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5],
                         "terminusStationId": "Station:TokyoMetro.Fukutoshin.KotakeMukaihara",
-                        "throughDestEn": "Kiyose",
-                        "throughDestJa": "清瀬",
+                        "throughDest": {
+                            "en": "Kiyose",
+                            "ja": "清瀬"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -2339,8 +2783,10 @@
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5],
                         "terminusStationId": "Station:TokyoMetro.Fukutoshin.KotakeMukaihara",
-                        "throughDestEn": "Kotesashi",
-                        "throughDestJa": "小手指",
+                        "throughDest": {
+                            "en": "Kotesashi",
+                            "ja": "小手指"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -2356,8 +2802,10 @@
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5],
                         "terminusStationId": "Station:TokyoMetro.Fukutoshin.KotakeMukaihara",
-                        "throughDestEn": "Hanno",
-                        "throughDestJa": "飯能",
+                        "throughDest": {
+                            "en": "Hanno",
+                            "ja": "飯能"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -2373,8 +2821,10 @@
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5],
                         "terminusStationId": "Station:TokyoMetro.Fukutoshin.KotakeMukaihara",
-                        "throughDestEn": "Kotesashi",
-                        "throughDestJa": "小手指",
+                        "throughDest": {
+                            "en": "Kotesashi",
+                            "ja": "小手指"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -2389,8 +2839,10 @@
                         "departure": "21:12",
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Shinrin-Koen",
-                        "throughDestJa": "森林公園",
+                        "throughDest": {
+                            "en": "Shinrin-Koen",
+                            "ja": "森林公園"
+                        },
                         "trainType": "CommuterExpress"
                     },
                     {
@@ -2405,8 +2857,10 @@
                         "departure": "21:37",
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Kawagoeshi",
-                        "throughDestJa": "川越市",
+                        "throughDest": {
+                            "en": "Kawagoeshi",
+                            "ja": "川越市"
+                        },
                         "trainType": "CommuterExpress"
                     },
                     {
@@ -2428,16 +2882,20 @@
                         "departure": "23:21",
                         "startsHere": false,
                         "stopIndices": [15, 14, 12, 8, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Shinrin-Koen",
-                        "throughDestJa": "森林公園",
+                        "throughDest": {
+                            "en": "Shinrin-Koen",
+                            "ja": "森林公園"
+                        },
                         "trainType": "CommuterExpress"
                     }
                 ],
                 "id": "static.RailDirection:TokyoMetro.Fukutoshin.Wakoshi",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Wakoshi",
-                "nameJa": "和光市方面",
+                "name": {
+                    "en": "For Wakoshi",
+                    "ja": "和光市方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -2501,184 +2959,218 @@
         "hopTimesMinutes": [3, 2, 3, 2, 2, 2, 2, 2, 3, 2, 2, 2, 3, 2, 2],
         "id": "Railway:TokyoMetro.Fukutoshin",
         "isLoop": false,
-        "nameEn": "Fukutoshin Line",
-        "nameJa": "副都心線",
+        "name": {
+            "en": "Fukutoshin Line",
+            "ja": "副都心線"
+        },
         "operatorId": "Operator:TokyoMetro",
         "stations": [
             {
                 "id": "Station:TokyoMetro.Fukutoshin.Wakoshi",
                 "latitude": 35.7887,
                 "longitude": 139.6122,
-                "name": "和光市",
-                "nameEn": "Wakoshi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Wakoshi",
+                    "ja": "和光市",
+                    "ko": "와코시",
+                    "zh-Hans": "和光市",
+                    "zh-Hant": "和光市"
+                },
                 "stationCode": "F01"
             },
             {
                 "id": "Station:TokyoMetro.Fukutoshin.ChikatetsuNarimasu",
                 "latitude": 35.7775,
                 "longitude": 139.6317,
-                "name": "地下鉄成増",
-                "nameEn": "Chikatetsu-narimasu",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Chikatetsu-narimasu",
+                    "ja": "地下鉄成増",
+                    "ko": "지카테쓰나리마스",
+                    "zh-Hans": "地下铁成增",
+                    "zh-Hant": "地下鐵成增"
+                },
                 "stationCode": "F02"
             },
             {
                 "id": "Station:TokyoMetro.Fukutoshin.ChikatetsuAkatsuka",
                 "latitude": 35.7709,
                 "longitude": 139.6447,
-                "name": "地下鉄赤塚",
-                "nameEn": "Chikatetsu-akatsuka",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Chikatetsu-akatsuka",
+                    "ja": "地下鉄赤塚",
+                    "ko": "지카테쓰아카쓰카",
+                    "zh-Hans": "地下铁赤冢",
+                    "zh-Hant": "地下鐵赤塚"
+                },
                 "stationCode": "F03"
             },
             {
                 "id": "Station:TokyoMetro.Fukutoshin.Heiwadai",
                 "latitude": 35.7578,
                 "longitude": 139.653,
-                "name": "平和台",
-                "nameEn": "Heiwadai",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Heiwadai",
+                    "ja": "平和台",
+                    "ko": "헤이와다이",
+                    "zh-Hans": "平和台",
+                    "zh-Hant": "平和台"
+                },
                 "stationCode": "F04"
             },
             {
                 "id": "Station:TokyoMetro.Fukutoshin.Hikawadai",
                 "latitude": 35.749782,
                 "longitude": 139.665008,
-                "name": "氷川台",
-                "nameEn": "Hikawadai",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Hikawadai",
+                    "ja": "氷川台",
+                    "ko": "히카와다이",
+                    "zh-Hans": "冰川台",
+                    "zh-Hant": "冰川台"
+                },
                 "stationCode": "F05"
             },
             {
                 "id": "Station:TokyoMetro.Fukutoshin.KotakeMukaihara",
                 "latitude": 35.7433,
                 "longitude": 139.6788,
-                "name": "小竹向原",
-                "nameEn": "Kotake-mukaihara",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kotake-mukaihara",
+                    "ja": "小竹向原",
+                    "ko": "고타케무카이하라",
+                    "zh-Hans": "小竹向原",
+                    "zh-Hant": "小竹向原"
+                },
                 "stationCode": "F06"
             },
             {
                 "id": "Station:TokyoMetro.Fukutoshin.Senkawa",
                 "latitude": 35.7382,
                 "longitude": 139.6898,
-                "name": "千川",
-                "nameEn": "Senkawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Senkawa",
+                    "ja": "千川",
+                    "ko": "센카와",
+                    "zh-Hans": "千川",
+                    "zh-Hant": "千川"
+                },
                 "stationCode": "F07"
             },
             {
                 "id": "Station:TokyoMetro.Fukutoshin.Kanamecho",
                 "latitude": 35.7323,
                 "longitude": 139.6992,
-                "name": "要町",
-                "nameEn": "Kanamecho",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kanamecho",
+                    "ja": "要町",
+                    "ko": "가나메초",
+                    "zh-Hans": "要町",
+                    "zh-Hant": "要町"
+                },
                 "stationCode": "F08"
             },
             {
                 "id": "Station:TokyoMetro.Fukutoshin.Ikebukuro",
                 "latitude": 35.731142,
                 "longitude": 139.708944,
-                "name": "池袋",
-                "nameEn": "Ikebukuro",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋",
+                    "ko": "이케부쿠로",
+                    "zh-Hans": "池袋",
+                    "zh-Hant": "池袋"
+                },
                 "stationCode": "F09"
             },
             {
                 "id": "Station:TokyoMetro.Fukutoshin.Zoshigaya",
                 "latitude": 35.7205,
                 "longitude": 139.7147,
-                "name": "雑司が谷",
-                "nameEn": "Zoshigaya",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Zoshigaya",
+                    "ja": "雑司が谷",
+                    "ko": "조시가야",
+                    "zh-Hans": "杂司谷",
+                    "zh-Hant": "雜司谷"
+                },
                 "stationCode": "F10"
             },
             {
                 "id": "Station:TokyoMetro.Fukutoshin.NishiWaseda",
                 "latitude": 35.7084,
                 "longitude": 139.7093,
-                "name": "西早稲田",
-                "nameEn": "Nishi-waseda",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nishi-waseda",
+                    "ja": "西早稲田",
+                    "ko": "니시와세다",
+                    "zh-Hans": "西早稻田",
+                    "zh-Hant": "西早稻田"
+                },
                 "stationCode": "F11"
             },
             {
                 "id": "Station:TokyoMetro.Fukutoshin.HigashiShinjuku",
                 "latitude": 35.6983,
                 "longitude": 139.7073,
-                "name": "東新宿",
-                "nameEn": "Higashi-shinjuku",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Higashi-shinjuku",
+                    "ja": "東新宿",
+                    "ko": "히가시신주쿠",
+                    "zh-Hans": "东新宿",
+                    "zh-Hant": "東新宿"
+                },
                 "stationCode": "F12"
             },
             {
                 "id": "Station:TokyoMetro.Fukutoshin.ShinjukuSanchome",
                 "latitude": 35.6909,
                 "longitude": 139.7047,
-                "name": "新宿三丁目",
-                "nameEn": "Shinjuku-sanchome",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shinjuku-sanchome",
+                    "ja": "新宿三丁目",
+                    "ko": "신주쿠 3초메",
+                    "zh-Hans": "新宿三丁目",
+                    "zh-Hant": "新宿三丁目"
+                },
                 "stationCode": "F13"
             },
             {
                 "id": "Station:TokyoMetro.Fukutoshin.KitaSando",
                 "latitude": 35.679,
                 "longitude": 139.7048,
-                "name": "北参道",
-                "nameEn": "Kita-sando",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kita-sando",
+                    "ja": "北参道",
+                    "ko": "기타산도",
+                    "zh-Hans": "北参道",
+                    "zh-Hant": "北參道"
+                },
                 "stationCode": "F14"
             },
             {
                 "id": "Station:TokyoMetro.Fukutoshin.MeijiJingumae",
                 "latitude": 35.6685,
                 "longitude": 139.7063,
-                "name": "明治神宮前",
-                "nameEn": "Meiji-jingumae 'Harajuku'",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Meiji-jingumae 'Harajuku'",
+                    "ja": "明治神宮前",
+                    "ko": "메이지진구마에",
+                    "zh-Hans": "明治神宫前",
+                    "zh-Hant": "明治神宮前"
+                },
                 "stationCode": "F15"
             },
             {
                 "id": "Station:TokyoMetro.Fukutoshin.Shibuya",
                 "latitude": 35.658,
                 "longitude": 139.7016,
-                "name": "渋谷",
-                "nameEn": "Shibuya",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shibuya",
+                    "ja": "渋谷",
+                    "ko": "시부야",
+                    "zh-Hans": "涩谷",
+                    "zh-Hant": "澀谷"
+                },
                 "stationCode": "F16"
             }
         ],
@@ -2688,28 +3180,40 @@
                 "connectingLineId": "Railway:Tokyu.Toyoko",
                 "end": "ascending",
                 "junctionStationId": "Station:TokyoMetro.Fukutoshin.Shibuya",
-                "lineNameEn": "Tokyu Toyoko & Minatomirai Lines",
-                "lineNameJa": "東急東横線・みなとみらい線",
-                "towardEn": "for Yokohama & Motomachi-Chukagai",
-                "towardJa": "横浜・元町・中華街方面"
+                "lineName": {
+                    "en": "Tokyu Toyoko & Minatomirai Lines",
+                    "ja": "東急東横線・みなとみらい線"
+                },
+                "toward": {
+                    "en": "for Yokohama & Motomachi-Chukagai",
+                    "ja": "横浜・元町・中華街方面"
+                }
             },
             {
                 "connectingLineId": "Railway:Tobu.Tojo",
                 "end": "descending",
                 "junctionStationId": "Station:TokyoMetro.Fukutoshin.Wakoshi",
-                "lineNameEn": "Tobu Tojo Line",
-                "lineNameJa": "東武東上線",
-                "towardEn": "for Kawagoeshi & Shinrin-Koen",
-                "towardJa": "川越市・森林公園方面"
+                "lineName": {
+                    "en": "Tobu Tojo Line",
+                    "ja": "東武東上線"
+                },
+                "toward": {
+                    "en": "for Kawagoeshi & Shinrin-Koen",
+                    "ja": "川越市・森林公園方面"
+                }
             },
             {
                 "connectingLineId": "Railway:Seibu.SeibuYurakucho",
                 "end": "descending",
                 "junctionStationId": "Station:TokyoMetro.Fukutoshin.KotakeMukaihara",
-                "lineNameEn": "Seibu Yurakucho & Ikebukuro Lines",
-                "lineNameJa": "西武有楽町線・池袋線",
-                "towardEn": "for Tokorozawa & Hanno",
-                "towardJa": "所沢・飯能方面"
+                "lineName": {
+                    "en": "Seibu Yurakucho & Ikebukuro Lines",
+                    "ja": "西武有楽町線・池袋線"
+                },
+                "toward": {
+                    "en": "for Tokorozawa & Hanno",
+                    "ja": "所沢・飯能方面"
+                }
             }
         ]
     }

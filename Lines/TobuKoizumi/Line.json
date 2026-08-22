@@ -2,10 +2,14 @@
     {
         "colorHex": "#E62119",
         "delayInfo": {
-            "checkMethodEn": "Check the Tobu Railway service status page, the Tobu app, or X (@TobuRailway_JP). Delays of roughly 10 minutes or more and suspensions are posted.",
-            "checkMethodJa": "東武鉄道「運行情報」ページ、東武線アプリ、またはX（@TobuRailway_JP）で確認できます。おおむね10分以上の遅延・運転見合わせが発生した場合に掲載されます。",
-            "statusPageURL": "https://www.tobu.co.jp/service_status/",
-            "statusPageURLEn": "https://www.tobu.co.jp/service_status/",
+            "checkMethod": {
+                "en": "Check the Tobu Railway service status page, the Tobu app, or X (@TobuRailway_JP). Delays of roughly 10 minutes or more and suspensions are posted.",
+                "ja": "東武鉄道「運行情報」ページ、東武線アプリ、またはX（@TobuRailway_JP）で確認できます。おおむね10分以上の遅延・運転見合わせが発生した場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://www.tobu.co.jp/service_status/",
+                "ja": "https://www.tobu.co.jp/service_status/"
+            },
             "xAccount": "@TobuRailway_JP"
         },
         "directions": [
@@ -15,13 +19,15 @@
                 "id": "static.RailDirection:Tobu.Koizumi.NishiKoizumi",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Nishi-koizumi",
-                "nameJa": "西小泉方面",
+                "name": {
+                    "en": "For Nishi-koizumi",
+                    "ja": "西小泉方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
                             "from": "05:03",
-                            "headwayMinutes": 25.0
+                            "headwayMinutes": 25
                         },
                         {
                             "from": "06:00",
@@ -33,15 +39,15 @@
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 49.0
+                            "headwayMinutes": 49
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 56.0
+                            "headwayMinutes": 56
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 60.0
+                            "headwayMinutes": 60
                         },
                         {
                             "from": "14:00",
@@ -53,31 +59,31 @@
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 32.0
+                            "headwayMinutes": 32
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 26.0
+                            "headwayMinutes": 26
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 31.0
+                            "headwayMinutes": 31
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 30.0
+                            "headwayMinutes": 30
                         },
                         {
                             "from": "20:00",
-                            "headwayMinutes": 29.0
+                            "headwayMinutes": 29
                         },
                         {
                             "from": "21:00",
-                            "headwayMinutes": 37.0
+                            "headwayMinutes": 37
                         },
                         {
                             "from": "22:00",
-                            "headwayMinutes": 38.0
+                            "headwayMinutes": 38
                         }
                     ],
                     "firstDeparture": "05:03",
@@ -88,7 +94,7 @@
                     "bands": [
                         {
                             "from": "05:03",
-                            "headwayMinutes": 25.0
+                            "headwayMinutes": 25
                         },
                         {
                             "from": "06:00",
@@ -100,15 +106,15 @@
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 49.0
+                            "headwayMinutes": 49
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 56.0
+                            "headwayMinutes": 56
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 60.0
+                            "headwayMinutes": 60
                         },
                         {
                             "from": "14:00",
@@ -120,31 +126,31 @@
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 32.0
+                            "headwayMinutes": 32
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 26.0
+                            "headwayMinutes": 26
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 31.0
+                            "headwayMinutes": 31
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 30.0
+                            "headwayMinutes": 30
                         },
                         {
                             "from": "20:00",
-                            "headwayMinutes": 29.0
+                            "headwayMinutes": 29
                         },
                         {
                             "from": "21:00",
-                            "headwayMinutes": 37.0
+                            "headwayMinutes": 37
                         },
                         {
                             "from": "22:00",
-                            "headwayMinutes": 38.0
+                            "headwayMinutes": 38
                         }
                     ],
                     "firstDeparture": "05:03",
@@ -158,21 +164,23 @@
                 "id": "static.RailDirection:Tobu.Koizumi.Tatebayashi",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Tatebayashi",
-                "nameJa": "館林方面",
+                "name": {
+                    "en": "For Tatebayashi",
+                    "ja": "館林方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
                             "from": "05:02",
-                            "headwayMinutes": 26.0
+                            "headwayMinutes": 26
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 27.0
+                            "headwayMinutes": 27
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 30.0
+                            "headwayMinutes": 30
                         },
                         {
                             "from": "08:00",
@@ -180,19 +188,19 @@
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 53.0
+                            "headwayMinutes": 53
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 61.0
+                            "headwayMinutes": 61
                         },
                         {
                             "from": "11:00",
-                            "headwayMinutes": 60.0
+                            "headwayMinutes": 60
                         },
                         {
                             "from": "14:00",
-                            "headwayMinutes": 56.0
+                            "headwayMinutes": 56
                         },
                         {
                             "from": "15:00",
@@ -200,7 +208,7 @@
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 29.0
+                            "headwayMinutes": 29
                         },
                         {
                             "from": "17:00",
@@ -212,7 +220,7 @@
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 29.0
+                            "headwayMinutes": 29
                         },
                         {
                             "from": "20:00",
@@ -224,11 +232,11 @@
                         },
                         {
                             "from": "22:00",
-                            "headwayMinutes": 30.0
+                            "headwayMinutes": 30
                         },
                         {
                             "from": "23:00",
-                            "headwayMinutes": 32.0
+                            "headwayMinutes": 32
                         }
                     ],
                     "firstDeparture": "05:02",
@@ -239,15 +247,15 @@
                     "bands": [
                         {
                             "from": "05:02",
-                            "headwayMinutes": 26.0
+                            "headwayMinutes": 26
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 27.0
+                            "headwayMinutes": 27
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 30.0
+                            "headwayMinutes": 30
                         },
                         {
                             "from": "08:00",
@@ -255,19 +263,19 @@
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 53.0
+                            "headwayMinutes": 53
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 61.0
+                            "headwayMinutes": 61
                         },
                         {
                             "from": "11:00",
-                            "headwayMinutes": 60.0
+                            "headwayMinutes": 60
                         },
                         {
                             "from": "14:00",
-                            "headwayMinutes": 56.0
+                            "headwayMinutes": 56
                         },
                         {
                             "from": "15:00",
@@ -275,7 +283,7 @@
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 29.0
+                            "headwayMinutes": 29
                         },
                         {
                             "from": "17:00",
@@ -287,7 +295,7 @@
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 29.0
+                            "headwayMinutes": 29
                         },
                         {
                             "from": "20:00",
@@ -299,11 +307,11 @@
                         },
                         {
                             "from": "22:00",
-                            "headwayMinutes": 30.0
+                            "headwayMinutes": 30
                         },
                         {
                             "from": "23:00",
-                            "headwayMinutes": 32.0
+                            "headwayMinutes": 32
                         }
                     ],
                     "firstDeparture": "05:02",
@@ -312,88 +320,107 @@
                 }
             }
         ],
-        "hopTimesMinutes": [3.0, 5.0, 3.0, 3.0, 2.0, 2.0],
+        "hopTimesMinutes": [3, 5, 3, 3, 2, 2],
         "id": "Railway:Tobu.Koizumi",
         "isLoop": false,
-        "nameEn": "Tobu Koizumi Line",
-        "nameJa": "東武小泉線",
+        "name": {
+            "en": "Tobu Koizumi Line",
+            "ja": "東武小泉線",
+            "ko": "도부 철도 고이즈미 선",
+            "zh-Hans": "小泉线",
+            "zh-Hant": "小泉線"
+        },
         "operatorId": "Operator:Tobu",
         "stations": [
             {
                 "id": "Station:Tobu.Koizumi.Tatebayashi",
                 "latitude": 36.24662,
                 "longitude": 139.52781,
-                "name": "館林",
-                "nameEn": "Tatebayashi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tatebayashi",
+                    "ja": "館林",
+                    "ko": "다테바야시",
+                    "zh-Hans": "馆林",
+                    "zh-Hant": "館林"
+                },
                 "stationCode": "TI10"
             },
             {
                 "id": "Station:Tobu.Koizumi.Narushima",
                 "latitude": 36.24908,
                 "longitude": 139.50557,
-                "name": "成島",
-                "nameEn": "Narushima",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Narushima",
+                    "ja": "成島",
+                    "ko": "나루시마",
+                    "zh-Hans": "成岛",
+                    "zh-Hant": "成島"
+                },
                 "stationCode": "TI41"
             },
             {
                 "id": "Station:Tobu.Koizumi.HonNakano",
                 "latitude": 36.25845,
                 "longitude": 139.46954,
-                "name": "本中野",
-                "nameEn": "Hon-nakano",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Hon-nakano",
+                    "ja": "本中野",
+                    "ko": "혼나카노",
+                    "zh-Hans": "本中野",
+                    "zh-Hant": "本中野"
+                },
                 "stationCode": "TI42"
             },
             {
                 "id": "Station:Tobu.Koizumi.Shinozuka",
                 "latitude": 36.25681,
                 "longitude": 139.44609,
-                "name": "篠塚",
-                "nameEn": "Shinozuka",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shinozuka",
+                    "ja": "篠塚",
+                    "ko": "시노즈카",
+                    "zh-Hans": "筿冢",
+                    "zh-Hant": "篠塚"
+                },
                 "stationCode": "TI43"
             },
             {
                 "id": "Station:Tobu.Koizumi.HigashiKoizumi",
                 "latitude": 36.25972,
                 "longitude": 139.42856,
-                "name": "東小泉",
-                "nameEn": "Higashi-koizumi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Higashi-koizumi",
+                    "ja": "東小泉",
+                    "ko": "히가시코이즈미",
+                    "zh-Hans": "东小泉",
+                    "zh-Hant": "東小泉"
+                },
                 "stationCode": "TI44"
             },
             {
                 "id": "Station:Tobu.Koizumi.Koizumimachi",
                 "latitude": 36.26153,
                 "longitude": 139.42025,
-                "name": "小泉町",
-                "nameEn": "Koizumimachi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Koizumimachi",
+                    "ja": "小泉町",
+                    "ko": "고이즈미마치",
+                    "zh-Hans": "小泉町",
+                    "zh-Hant": "小泉町"
+                },
                 "stationCode": "TI45"
             },
             {
                 "id": "Station:Tobu.Koizumi.NishiKoizumi",
                 "latitude": 36.25866,
                 "longitude": 139.40851,
-                "name": "西小泉",
-                "nameEn": "Nishi-koizumi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nishi-koizumi",
+                    "ja": "西小泉",
+                    "ko": "니시코이즈미",
+                    "zh-Hans": "西小泉",
+                    "zh-Hant": "西小泉"
+                },
                 "stationCode": "TI46"
             }
         ],
@@ -1535,6 +1562,6 @@
                 "type": "Local"
             }
         ],
-        "upHopTimesMinutes": [4.0, 4.0, 3.0, 3.0, 1.0, 2.0]
+        "upHopTimesMinutes": [4, 4, 3, 3, 1, 2]
     }
 ]

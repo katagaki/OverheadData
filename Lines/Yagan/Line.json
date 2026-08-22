@@ -2,10 +2,14 @@
     {
         "colorHex": "#009933",
         "delayInfo": {
-            "checkMethodEn": "Check the Yagan Railway website or its X account. Suspensions and delays are posted in the notices on the top page.",
-            "checkMethodJa": "野岩鉄道の公式サイトまたはX（旧Twitter）で確認できます。運転見合わせ・遅延はトップページのお知らせに掲載されます。",
-            "statusPageURL": "https://www.yagan.co.jp/",
-            "statusPageURLEn": "https://www.yagan.co.jp/",
+            "checkMethod": {
+                "en": "Check the Yagan Railway website or its X account. Suspensions and delays are posted in the notices on the top page.",
+                "ja": "野岩鉄道の公式サイトまたはX（旧Twitter）で確認できます。運転見合わせ・遅延はトップページのお知らせに掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://www.yagan.co.jp/",
+                "ja": "https://www.yagan.co.jp/"
+            },
             "xAccount": "@yagan_railway"
         },
         "directions": [
@@ -15,8 +19,10 @@
                 "id": "static.RailDirection:Yagan.AizuKinugawa.AizuKogen",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Aizu-Kogen-Ozeguchi",
-                "nameJa": "会津高原尾瀬口方面",
+                "name": {
+                    "en": "For Aizu-Kogen-Ozeguchi",
+                    "ja": "会津高原尾瀬口方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -102,8 +108,10 @@
                 "id": "static.RailDirection:Yagan.AizuKinugawa.ShinFujiwara",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Shin-Fujiwara",
-                "nameJa": "新藤原方面",
+                "name": {
+                    "en": "For Shin-Fujiwara",
+                    "ja": "新藤原方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -195,107 +203,127 @@
         "hopTimesMinutes": [3, 5, 2, 7, 11, 7, 6, 9],
         "id": "Railway:Yagan.AizuKinugawa",
         "isLoop": false,
-        "nameEn": "Yagan Railway Aizu-Kinugawa Line",
-        "nameJa": "野岩鉄道会津鬼怒川線",
+        "name": {
+            "en": "Yagan Railway Aizu-Kinugawa Line",
+            "ja": "野岩鉄道会津鬼怒川線"
+        },
         "operatorId": "Operator:Yagan",
         "stations": [
             {
                 "id": "Station:Yagan.AizuKinugawa.ShinFujiwara",
                 "latitude": 36.852361,
                 "longitude": 139.733028,
-                "name": "新藤原",
-                "nameEn": "Shin-Fujiwara",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shin-Fujiwara",
+                    "ja": "新藤原",
+                    "ko": "신후지와라",
+                    "zh-Hans": "新藤原",
+                    "zh-Hant": "新藤原"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Yagan.AizuKinugawa.Ryuokyo",
                 "latitude": 36.860889,
                 "longitude": 139.718583,
-                "name": "龍王峡",
-                "nameEn": "Ryuokyo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ryuokyo",
+                    "ja": "龍王峡",
+                    "ko": "류오쿄",
+                    "zh-Hans": "龙王峡",
+                    "zh-Hant": "龍王峽"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Yagan.AizuKinugawa.KawajiOnsen",
                 "latitude": 36.884056,
                 "longitude": 139.703778,
-                "name": "川治温泉",
-                "nameEn": "Kawaji-Onsen",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kawaji-Onsen",
+                    "ja": "川治温泉",
+                    "ko": "가와지온센",
+                    "zh-Hans": "川治温泉",
+                    "zh-Hant": "川治溫泉"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Yagan.AizuKinugawa.KawajiYumoto",
                 "latitude": 36.895167,
                 "longitude": 139.702778,
-                "name": "川治湯元",
-                "nameEn": "Kawaji-Yumoto",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kawaji-Yumoto",
+                    "ja": "川治湯元",
+                    "ko": "가와지유모토",
+                    "zh-Hans": "川治汤元",
+                    "zh-Hant": "川治湯元"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Yagan.AizuKinugawa.YunishigawaOnsen",
                 "latitude": 36.929472,
                 "longitude": 139.68825,
-                "name": "湯西川温泉",
-                "nameEn": "Yunishigawa-Onsen",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Yunishigawa-Onsen",
+                    "ja": "湯西川温泉",
+                    "ko": "유니시가와온센",
+                    "zh-Hans": "汤西川温泉",
+                    "zh-Hant": "湯西川溫泉"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Yagan.AizuKinugawa.NakamiyoriOnsen",
                 "latitude": 36.985306,
                 "longitude": 139.698972,
-                "name": "中三依温泉",
-                "nameEn": "Nakamiyori-Onsen",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nakamiyori-Onsen",
+                    "ja": "中三依温泉",
+                    "ko": "나카미요리온센",
+                    "zh-Hans": "中三依温泉",
+                    "zh-Hant": "中三依溫泉"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Yagan.AizuKinugawa.KamimiyoriShiobaraonsenguchi",
                 "latitude": 37.014361,
                 "longitude": 139.727194,
-                "name": "上三依塩原温泉口",
-                "nameEn": "Kamimiyori-Shiobaraonsenguchi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kamimiyori-Shiobaraonsenguchi",
+                    "ja": "上三依塩原温泉口",
+                    "ko": "가미미요리시오바라온센구치",
+                    "zh-Hans": "上三依盐原温泉口",
+                    "zh-Hant": "上三依鹽原溫泉口"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Yagan.AizuKinugawa.Ojikakogen",
                 "latitude": 37.047861,
                 "longitude": 139.723861,
-                "name": "男鹿高原",
-                "nameEn": "Ojikakogen",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ojikakogen",
+                    "ja": "男鹿高原",
+                    "ko": "오지카코겐",
+                    "zh-Hans": "男鹿高原",
+                    "zh-Hant": "男鹿高原"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Yagan.AizuKinugawa.AizuKogenOzeguchi",
                 "latitude": 37.090028,
                 "longitude": 139.705111,
-                "name": "会津高原尾瀬口",
-                "nameEn": "Aizu-Kogen-Ozeguchi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Aizu-Kogen-Ozeguchi",
+                    "ja": "会津高原尾瀬口",
+                    "ko": "아이즈코겐오제구치",
+                    "zh-Hans": "会津高原尾濑口",
+                    "zh-Hant": "會津高原尾瀨口"
+                },
                 "stationCode": ""
             }
         ],
@@ -305,10 +333,14 @@
                 "connectingLineId": "Railway:Tobu.Kinugawa",
                 "end": "descending",
                 "junctionStationId": "Station:Yagan.AizuKinugawa.ShinFujiwara",
-                "lineNameEn": "Tobu Kinugawa Line",
-                "lineNameJa": "東武鬼怒川線",
-                "towardEn": "for Kinugawa-Onsen & Asakusa",
-                "towardJa": "鬼怒川温泉・浅草方面"
+                "lineName": {
+                    "en": "Tobu Kinugawa Line",
+                    "ja": "東武鬼怒川線"
+                },
+                "toward": {
+                    "en": "for Kinugawa-Onsen & Asakusa",
+                    "ja": "鬼怒川温泉・浅草方面"
+                }
             }
         ]
     }

@@ -2,10 +2,14 @@
     {
         "colorHex": "#B6007A",
         "delayInfo": {
-            "checkMethodEn": "Check the Toei Transportation service information page, the Toei app, or X (@toeikotsu). Delays and suspensions are posted as they occur.",
-            "checkMethodJa": "都営交通「運行情報」ページ、都営交通アプリ、またはX（@toeikotsu）で確認できます。遅延・運転見合わせが発生した場合に掲載されます。",
-            "statusPageURL": "https://www.kotsu.metro.tokyo.jp/subway/schedule/oedo.html",
-            "statusPageURLEn": "https://www.kotsu.metro.tokyo.jp/eng/operation_status/",
+            "checkMethod": {
+                "en": "Check the Toei Transportation service information page, the Toei app, or X (@toeikotsu). Delays and suspensions are posted as they occur.",
+                "ja": "都営交通「運行情報」ページ、都営交通アプリ、またはX（@toeikotsu）で確認できます。遅延・運転見合わせが発生した場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://www.kotsu.metro.tokyo.jp/eng/operation_status/",
+                "ja": "https://www.kotsu.metro.tokyo.jp/subway/schedule/oedo.html"
+            },
             "xAccount": "@toeikotsu"
         },
         "directions": [
@@ -21,8 +25,10 @@
                     }
                 ],
                 "isAscending": true,
-                "nameEn": "For Roppongi & Ryogoku",
-                "nameJa": "六本木・両国方面",
+                "name": {
+                    "en": "For Roppongi & Ryogoku",
+                    "ja": "六本木・両国方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -109,8 +115,10 @@
                     }
                 ],
                 "isAscending": false,
-                "nameEn": "For Tochomae & Hikarigaoka",
-                "nameJa": "都庁前・光が丘方面",
+                "name": {
+                    "en": "For Tochomae & Hikarigaoka",
+                    "ja": "都庁前・光が丘方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -174,426 +182,501 @@
         "hopTimesMinutes": [2.25, 2.25, 2.25, 2.25, 2.25, 2.25, 2.25, 2.25, 2.25, 2.25, 2.25, 2.25, 2.25, 2.25, 2.25, 2.25, 2.25, 2.25, 2.25, 2.25, 2.25, 2.25, 2.25, 2.25, 2.25, 2.25, 2.25, 2.25, 2.25, 2.25, 2.25, 2.25, 2.25, 2.25, 2.25, 2.25, 2.25],
         "id": "Railway:Toei.Oedo",
         "isLoop": false,
-        "nameEn": "Toei Oedo Line",
-        "nameJa": "都営大江戸線",
+        "name": {
+            "en": "Toei Oedo Line",
+            "ja": "都営大江戸線"
+        },
         "operatorId": "Operator:Toei",
         "stations": [
             {
                 "id": "Station:Toei.Oedo.Hikarigaoka",
                 "latitude": 35.7583,
                 "longitude": 139.6289,
-                "name": "光が丘",
-                "nameEn": "Hikarigaoka",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Hikarigaoka",
+                    "ja": "光が丘",
+                    "ko": "히카리가오카",
+                    "zh-Hans": "光丘",
+                    "zh-Hant": "光丘"
+                },
                 "stationCode": "E38"
             },
             {
                 "id": "Station:Toei.Oedo.NerimaKasugacho",
                 "latitude": 35.751398,
                 "longitude": 139.640376,
-                "name": "練馬春日町",
-                "nameEn": "Nerima-kasugacho",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nerima-kasugacho",
+                    "ja": "練馬春日町",
+                    "ko": "네리마카스가초",
+                    "zh-Hans": "练马春日町",
+                    "zh-Hant": "練馬春日町"
+                },
                 "stationCode": "E37"
             },
             {
                 "id": "Station:Toei.Oedo.Toshimaen",
                 "latitude": 35.7418,
                 "longitude": 139.6483,
-                "name": "豊島園",
-                "nameEn": "Toshimaen",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Toshimaen",
+                    "ja": "豊島園",
+                    "ko": "도시마엔",
+                    "zh-Hans": "丰岛园",
+                    "zh-Hant": "豐島園"
+                },
                 "stationCode": "E36"
             },
             {
                 "id": "Station:Toei.Oedo.Nerima",
                 "latitude": 35.7375,
                 "longitude": 139.6535,
-                "name": "練馬",
-                "nameEn": "Nerima",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nerima",
+                    "ja": "練馬",
+                    "ko": "네리마",
+                    "zh-Hans": "练马",
+                    "zh-Hant": "練馬"
+                },
                 "stationCode": "E35"
             },
             {
                 "id": "Station:Toei.Oedo.ShinEgota",
                 "latitude": 35.732602,
                 "longitude": 139.670417,
-                "name": "新江古田",
-                "nameEn": "Shin-egota",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shin-egota",
+                    "ja": "新江古田",
+                    "ko": "신에고타",
+                    "zh-Hans": "新江古田",
+                    "zh-Hant": "新江古田"
+                },
                 "stationCode": "E34"
             },
             {
                 "id": "Station:Toei.Oedo.OchiaiMinamiNagasaki",
                 "latitude": 35.723225,
                 "longitude": 139.683578,
-                "name": "落合南長崎",
-                "nameEn": "Ochiai-minami-nagasaki",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ochiai-minami-nagasaki",
+                    "ja": "落合南長崎",
+                    "ko": "오치아이미나미나가사키",
+                    "zh-Hans": "落合南长崎",
+                    "zh-Hant": "落合南長崎"
+                },
                 "stationCode": "E33"
             },
             {
                 "id": "Station:Toei.Oedo.Nakai",
                 "latitude": 35.7138,
                 "longitude": 139.687,
-                "name": "中井",
-                "nameEn": "Nakai",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nakai",
+                    "ja": "中井",
+                    "ko": "나카이",
+                    "zh-Hans": "中井",
+                    "zh-Hant": "中井"
+                },
                 "stationCode": "E32"
             },
             {
                 "id": "Station:Toei.Oedo.HigashiNakano",
                 "latitude": 35.7062,
                 "longitude": 139.6835,
-                "name": "東中野",
-                "nameEn": "Higashi-nakano",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Higashi-nakano",
+                    "ja": "東中野",
+                    "ko": "히가시나카노",
+                    "zh-Hans": "东中野",
+                    "zh-Hant": "東中野"
+                },
                 "stationCode": "E31"
             },
             {
                 "id": "Station:Toei.Oedo.NakanoSakaue",
                 "latitude": 35.6975,
                 "longitude": 139.6827,
-                "name": "中野坂上",
-                "nameEn": "Nakano-sakaue",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nakano-sakaue",
+                    "ja": "中野坂上",
+                    "ko": "나카노사카우에",
+                    "zh-Hans": "中野坂上",
+                    "zh-Hant": "中野坂上"
+                },
                 "stationCode": "E30"
             },
             {
                 "id": "Station:Toei.Oedo.NishiShinjukuGochome",
                 "latitude": 35.689884,
                 "longitude": 139.684518,
-                "name": "西新宿五丁目",
-                "nameEn": "Nishi-shinjuku-gochome",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nishi-shinjuku-gochome",
+                    "ja": "西新宿五丁目",
+                    "ko": "니시신주쿠 5초메",
+                    "zh-Hans": "西新宿五丁目",
+                    "zh-Hant": "西新宿五丁目"
+                },
                 "stationCode": "E29"
             },
             {
                 "id": "Station:Toei.Oedo.Tochomae",
                 "latitude": 35.6895,
                 "longitude": 139.6925,
-                "name": "都庁前",
-                "nameEn": "Tochomae",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tochomae",
+                    "ja": "都庁前",
+                    "ko": "도청 앞",
+                    "zh-Hans": "都厅前",
+                    "zh-Hant": "都廳前"
+                },
                 "stationCode": "E28"
             },
             {
                 "id": "Station:Toei.Oedo.Shinjuku",
                 "latitude": 35.6885,
                 "longitude": 139.6985,
-                "name": "新宿",
-                "nameEn": "Shinjuku",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shinjuku",
+                    "ja": "新宿",
+                    "ko": "신주쿠",
+                    "zh-Hans": "新宿",
+                    "zh-Hant": "新宿"
+                },
                 "stationCode": "E27"
             },
             {
                 "id": "Station:Toei.Oedo.Yoyogi",
                 "latitude": 35.6832,
                 "longitude": 139.702,
-                "name": "代々木",
-                "nameEn": "Yoyogi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Yoyogi",
+                    "ja": "代々木"
+                },
                 "stationCode": "E26"
             },
             {
                 "id": "Station:Toei.Oedo.KokuritsuKyogijo",
                 "latitude": 35.6795,
                 "longitude": 139.7145,
-                "name": "国立競技場",
-                "nameEn": "Kokuritsu-kyogijo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kokuritsu-kyogijo",
+                    "ja": "国立競技場",
+                    "ko": "고쿠리쓰쿄기조",
+                    "zh-Hans": "国立竞技场",
+                    "zh-Hant": "國立競技場"
+                },
                 "stationCode": "E25"
             },
             {
                 "id": "Station:Toei.Oedo.AoyamaItchome",
                 "latitude": 35.6726,
                 "longitude": 139.7244,
-                "name": "青山一丁目",
-                "nameEn": "Aoyama-itchome",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Aoyama-itchome",
+                    "ja": "青山一丁目",
+                    "ko": "아오야마 1초메",
+                    "zh-Hans": "青山一丁目",
+                    "zh-Hant": "青山一丁目"
+                },
                 "stationCode": "E24"
             },
             {
                 "id": "Station:Toei.Oedo.Roppongi",
                 "latitude": 35.663,
                 "longitude": 139.7315,
-                "name": "六本木",
-                "nameEn": "Roppongi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Roppongi",
+                    "ja": "六本木",
+                    "ko": "롯폰기",
+                    "zh-Hans": "六本木",
+                    "zh-Hant": "六本木"
+                },
                 "stationCode": "E23"
             },
             {
                 "id": "Station:Toei.Oedo.AzabuJuban",
                 "latitude": 35.656501,
                 "longitude": 139.736161,
-                "name": "麻布十番",
-                "nameEn": "Azabu-juban",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Azabu-juban",
+                    "ja": "麻布十番",
+                    "ko": "아자부주반",
+                    "zh-Hans": "麻布十番",
+                    "zh-Hant": "麻布十番"
+                },
                 "stationCode": "E22"
             },
             {
                 "id": "Station:Toei.Oedo.Akabanebashi",
                 "latitude": 35.6545,
                 "longitude": 139.7438,
-                "name": "赤羽橋",
-                "nameEn": "Akabanebashi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Akabanebashi",
+                    "ja": "赤羽橋",
+                    "ko": "아카바네바시",
+                    "zh-Hans": "赤羽桥",
+                    "zh-Hant": "赤羽橋"
+                },
                 "stationCode": "E21"
             },
             {
                 "id": "Station:Toei.Oedo.Daimon",
                 "latitude": 35.6567,
                 "longitude": 139.7546,
-                "name": "大門",
-                "nameEn": "Daimon",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Daimon",
+                    "ja": "大門",
+                    "ko": "다이몬",
+                    "zh-Hans": "大门",
+                    "zh-Hant": "大門"
+                },
                 "stationCode": "E20"
             },
             {
                 "id": "Station:Toei.Oedo.Shiodome",
                 "latitude": 35.6625,
                 "longitude": 139.7597,
-                "name": "汐留",
-                "nameEn": "Shiodome",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shiodome",
+                    "ja": "汐留",
+                    "ko": "시오도메",
+                    "zh-Hans": "汐留",
+                    "zh-Hant": "汐留"
+                },
                 "stationCode": "E19"
             },
             {
                 "id": "Station:Toei.Oedo.Tsukijishijo",
                 "latitude": 35.665,
                 "longitude": 139.7668,
-                "name": "築地市場",
-                "nameEn": "Tsukijishijo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tsukijishijo",
+                    "ja": "築地市場",
+                    "ko": "쓰키지시조",
+                    "zh-Hans": "筑地市场",
+                    "zh-Hant": "築地市場"
+                },
                 "stationCode": "E18"
             },
             {
                 "id": "Station:Toei.Oedo.Kachidoki",
                 "latitude": 35.659,
                 "longitude": 139.7768,
-                "name": "勝どき",
-                "nameEn": "Kachidoki",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kachidoki",
+                    "ja": "勝どき",
+                    "ko": "가치도키",
+                    "zh-Hans": "胜哄",
+                    "zh-Hant": "勝鬨"
+                },
                 "stationCode": "E17"
             },
             {
                 "id": "Station:Toei.Oedo.Tsukishima",
                 "latitude": 35.664,
                 "longitude": 139.7838,
-                "name": "月島",
-                "nameEn": "Tsukishima",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tsukishima",
+                    "ja": "月島",
+                    "ko": "쓰키시마",
+                    "zh-Hans": "月岛",
+                    "zh-Hant": "月島"
+                },
                 "stationCode": "E16"
             },
             {
                 "id": "Station:Toei.Oedo.MonzenNakacho",
                 "latitude": 35.6718,
                 "longitude": 139.7957,
-                "name": "門前仲町",
-                "nameEn": "Monzen-nakacho",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Monzen-nakacho",
+                    "ja": "門前仲町",
+                    "ko": "몬젠나카초",
+                    "zh-Hans": "门前仲町",
+                    "zh-Hant": "門前仲町"
+                },
                 "stationCode": "E15"
             },
             {
                 "id": "Station:Toei.Oedo.KiyosumiShirakawa",
                 "latitude": 35.6816,
                 "longitude": 139.7994,
-                "name": "清澄白河",
-                "nameEn": "Kiyosumi-shirakawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kiyosumi-shirakawa",
+                    "ja": "清澄白河",
+                    "ko": "기요스미시라카와",
+                    "zh-Hans": "清澄白河",
+                    "zh-Hant": "清澄白河"
+                },
                 "stationCode": "E14"
             },
             {
                 "id": "Station:Toei.Oedo.Morishita",
                 "latitude": 35.6877,
                 "longitude": 139.797,
-                "name": "森下",
-                "nameEn": "Morishita",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Morishita",
+                    "ja": "森下",
+                    "ko": "모리시타",
+                    "zh-Hans": "森下",
+                    "zh-Hant": "森下"
+                },
                 "stationCode": "E13"
             },
             {
                 "id": "Station:Toei.Oedo.Ryogoku",
                 "latitude": 35.696854,
                 "longitude": 139.797428,
-                "name": "両国",
-                "nameEn": "Ryogoku",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ryogoku",
+                    "ja": "両国",
+                    "ko": "료고쿠",
+                    "zh-Hans": "两国",
+                    "zh-Hant": "兩國"
+                },
                 "stationCode": "E12"
             },
             {
                 "id": "Station:Toei.Oedo.Kuramae",
                 "latitude": 35.705519,
                 "longitude": 139.79241,
-                "name": "蔵前",
-                "nameEn": "Kuramae",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kuramae",
+                    "ja": "蔵前",
+                    "ko": "구라마에",
+                    "zh-Hans": "藏前",
+                    "zh-Hant": "藏前"
+                },
                 "stationCode": "E11"
             },
             {
                 "id": "Station:Toei.Oedo.ShinOkachimachi",
                 "latitude": 35.7074,
                 "longitude": 139.7828,
-                "name": "新御徒町",
-                "nameEn": "Shin-okachimachi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shin-okachimachi",
+                    "ja": "新御徒町",
+                    "ko": "신오카치마치",
+                    "zh-Hans": "新御徒町",
+                    "zh-Hant": "新御徒町"
+                },
                 "stationCode": "E10"
             },
             {
                 "id": "Station:Toei.Oedo.UenoOkachimachi",
                 "latitude": 35.7077,
                 "longitude": 139.7745,
-                "name": "上野御徒町",
-                "nameEn": "Ueno-okachimachi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ueno-okachimachi",
+                    "ja": "上野御徒町",
+                    "ko": "우에노오카치마치",
+                    "zh-Hans": "上野御徒町",
+                    "zh-Hant": "上野御徒町"
+                },
                 "stationCode": "E09"
             },
             {
                 "id": "Station:Toei.Oedo.HongoSanchome",
                 "latitude": 35.707,
                 "longitude": 139.76,
-                "name": "本郷三丁目",
-                "nameEn": "Hongo-sanchome",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Hongo-sanchome",
+                    "ja": "本郷三丁目",
+                    "ko": "혼고 3초메",
+                    "zh-Hans": "本乡三丁目",
+                    "zh-Hant": "本鄉三丁目"
+                },
                 "stationCode": "E08"
             },
             {
                 "id": "Station:Toei.Oedo.Kasuga",
                 "latitude": 35.70849,
                 "longitude": 139.752741,
-                "name": "春日",
-                "nameEn": "Kasuga",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kasuga",
+                    "ja": "春日",
+                    "ko": "가스가",
+                    "zh-Hans": "春日",
+                    "zh-Hant": "春日"
+                },
                 "stationCode": "E07"
             },
             {
                 "id": "Station:Toei.Oedo.Iidabashi",
                 "latitude": 35.703133,
                 "longitude": 139.745708,
-                "name": "飯田橋",
-                "nameEn": "Iidabashi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Iidabashi",
+                    "ja": "飯田橋",
+                    "ko": "이다바시",
+                    "zh-Hans": "饭田桥",
+                    "zh-Hant": "飯田橋"
+                },
                 "stationCode": "E06"
             },
             {
                 "id": "Station:Toei.Oedo.UshigomeKagurazaka",
                 "latitude": 35.7005,
                 "longitude": 139.7368,
-                "name": "牛込神楽坂",
-                "nameEn": "Ushigome-kagurazaka",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ushigome-kagurazaka",
+                    "ja": "牛込神楽坂",
+                    "ko": "우시고메카구라자카",
+                    "zh-Hans": "牛込神乐坂",
+                    "zh-Hant": "牛込神樂坂"
+                },
                 "stationCode": "E05"
             },
             {
                 "id": "Station:Toei.Oedo.UshigomeYanagicho",
                 "latitude": 35.699456,
                 "longitude": 139.725574,
-                "name": "牛込柳町",
-                "nameEn": "Ushigome-yanagicho",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ushigome-yanagicho",
+                    "ja": "牛込柳町",
+                    "ko": "우시고메야나기초",
+                    "zh-Hans": "牛込柳町",
+                    "zh-Hant": "牛込柳町"
+                },
                 "stationCode": "E04"
             },
             {
                 "id": "Station:Toei.Oedo.WakamatsuKawada",
                 "latitude": 35.699285,
                 "longitude": 139.718408,
-                "name": "若松河田",
-                "nameEn": "Wakamatsu-kawada",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Wakamatsu-kawada",
+                    "ja": "若松河田",
+                    "ko": "와카마쓰카와다",
+                    "zh-Hans": "若松河田",
+                    "zh-Hant": "若松河田"
+                },
                 "stationCode": "E03"
             },
             {
                 "id": "Station:Toei.Oedo.HigashiShinjuku",
                 "latitude": 35.6983,
                 "longitude": 139.7073,
-                "name": "東新宿",
-                "nameEn": "Higashi-shinjuku",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Higashi-shinjuku",
+                    "ja": "東新宿",
+                    "ko": "히가시신주쿠",
+                    "zh-Hans": "东新宿",
+                    "zh-Hant": "東新宿"
+                },
                 "stationCode": "E02"
             },
             {
                 "id": "Station:Toei.Oedo.ShinjukuNishiguchi",
                 "latitude": 35.6935,
                 "longitude": 139.6992,
-                "name": "新宿西口",
-                "nameEn": "Shinjuku-nishiguchi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shinjuku-nishiguchi",
+                    "ja": "新宿西口",
+                    "ko": "신주쿠니시구치",
+                    "zh-Hans": "新宿西口",
+                    "zh-Hant": "新宿西口"
+                },
                 "stationCode": "E01"
             }
         ],

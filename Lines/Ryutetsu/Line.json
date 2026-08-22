@@ -2,10 +2,14 @@
     {
         "colorHex": "#F08300",
         "delayInfo": {
-            "checkMethodEn": "Check the Ryutetsu website. Ryutetsu posts a notice when a delay of 30 minutes or more occurs or is expected.",
-            "checkMethodJa": "流鉄の公式サイトで確認できます。30分以上の遅れが発生した場合、または見込まれる場合にお知らせが掲載されます。",
-            "statusPageURL": "http://www.ryutetsu.jp/",
-            "statusPageURLEn": "http://www.ryutetsu.jp/",
+            "checkMethod": {
+                "en": "Check the Ryutetsu website. Ryutetsu posts a notice when a delay of 30 minutes or more occurs or is expected.",
+                "ja": "流鉄の公式サイトで確認できます。30分以上の遅れが発生した場合、または見込まれる場合にお知らせが掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "http://www.ryutetsu.jp/",
+                "ja": "http://www.ryutetsu.jp/"
+            },
             "xAccount": null
         },
         "directions": [
@@ -15,13 +19,15 @@
                 "id": "static.RailDirection:Ryutetsu.Nagareyama.Nagareyama",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Nagareyama",
-                "nameJa": "流山方面",
+                "name": {
+                    "en": "For Nagareyama",
+                    "ja": "流山方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
                             "from": "05:15",
-                            "headwayMinutes": 35.0
+                            "headwayMinutes": 35
                         },
                         {
                             "from": "06:00",
@@ -29,11 +35,11 @@
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "17:00",
@@ -56,7 +62,7 @@
                     "bands": [
                         {
                             "from": "05:15",
-                            "headwayMinutes": 29.0
+                            "headwayMinutes": 29
                         },
                         {
                             "from": "06:00",
@@ -68,7 +74,7 @@
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 17.0
+                            "headwayMinutes": 17
                         },
                         {
                             "from": "10:00",
@@ -94,8 +100,10 @@
                 "id": "static.RailDirection:Ryutetsu.Nagareyama.Mabashi",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Mabashi",
-                "nameJa": "馬橋方面",
+                "name": {
+                    "en": "For Mabashi",
+                    "ja": "馬橋方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -112,7 +120,7 @@
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "17:00",
@@ -139,7 +147,7 @@
                         },
                         {
                             "from": "05:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "06:00",
@@ -151,7 +159,7 @@
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 17.0
+                            "headwayMinutes": 17
                         },
                         {
                             "from": "10:00",
@@ -167,7 +175,7 @@
                         },
                         {
                             "from": "23:00",
-                            "headwayMinutes": 25.0
+                            "headwayMinutes": 25
                         }
                     ],
                     "firstDeparture": "04:53",
@@ -179,74 +187,86 @@
         "hopTimesMinutes": [3, 3, 2, 3, 1],
         "id": "Railway:Ryutetsu.Nagareyama",
         "isLoop": false,
-        "nameEn": "Ryutetsu Nagareyama Line",
-        "nameJa": "流鉄流山線",
+        "name": {
+            "en": "Ryutetsu Nagareyama Line",
+            "ja": "流鉄流山線",
+            "zh-Hans": "流山线",
+            "zh-Hant": "流山線"
+        },
         "operatorId": "Operator:Ryutetsu",
         "stations": [
             {
                 "id": "Station:Ryutetsu.Nagareyama.Mabashi",
                 "latitude": 35.81212,
                 "longitude": 139.91712,
-                "name": "馬橋",
-                "nameEn": "Mabashi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Mabashi",
+                    "ja": "馬橋",
+                    "ko": "마바시",
+                    "zh-Hans": "马桥",
+                    "zh-Hant": "馬橋"
+                },
                 "stationCode": "RN1"
             },
             {
                 "id": "Station:Ryutetsu.Nagareyama.Koya",
                 "latitude": 35.8266,
                 "longitude": 139.91982,
-                "name": "幸谷",
-                "nameEn": "Koya",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Koya",
+                    "ja": "幸谷",
+                    "zh-Hans": "幸谷",
+                    "zh-Hant": "幸谷"
+                },
                 "stationCode": "RN2"
             },
             {
                 "id": "Station:Ryutetsu.Nagareyama.Koganejoshi",
                 "latitude": 35.83575,
                 "longitude": 139.91734,
-                "name": "小金城趾",
-                "nameEn": "Koganejoshi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Koganejoshi",
+                    "ja": "小金城趾",
+                    "zh-Hans": "小金城趾",
+                    "zh-Hant": "小金城趾"
+                },
                 "stationCode": "RN3"
             },
             {
                 "id": "Station:Ryutetsu.Nagareyama.Hiregasaki",
                 "latitude": 35.84101,
                 "longitude": 139.91089,
-                "name": "鰭ヶ崎",
-                "nameEn": "Hiregasaki",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Hiregasaki",
+                    "ja": "鰭ヶ崎",
+                    "zh-Hans": "鳍崎",
+                    "zh-Hant": "鰭崎"
+                },
                 "stationCode": "RN4"
             },
             {
                 "id": "Station:Ryutetsu.Nagareyama.Heiwadai",
                 "latitude": 35.85088,
                 "longitude": 139.90109,
-                "name": "平和台",
-                "nameEn": "Heiwadai",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Heiwadai",
+                    "ja": "平和台",
+                    "ko": "헤이와다이",
+                    "zh-Hans": "平和台",
+                    "zh-Hant": "平和臺"
+                },
                 "stationCode": "RN5"
             },
             {
                 "id": "Station:Ryutetsu.Nagareyama.Nagareyama",
                 "latitude": 35.85587,
                 "longitude": 139.90169,
-                "name": "流山",
-                "nameEn": "Nagareyama",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nagareyama",
+                    "ja": "流山",
+                    "zh-Hans": "流山",
+                    "zh-Hant": "流山"
+                },
                 "stationCode": "RN6"
             }
         ],

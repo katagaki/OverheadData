@@ -2,10 +2,14 @@
     {
         "colorHex": "#E95098",
         "delayInfo": {
-            "checkMethodEn": "Check the Keisei Electric Railway service information page or X (@keisei_official). Delays and suspensions are posted as they occur.",
-            "checkMethodJa": "京成電鉄「運行情報」ページまたはX（@keisei_official）で確認できます。遅延・運転見合わせが発生した場合に掲載されます。",
-            "statusPageURL": "https://www.keisei.co.jp/traininfo/index.php",
-            "statusPageURLEn": "https://www.keisei.co.jp/traininfo/index.php",
+            "checkMethod": {
+                "en": "Check the Keisei Electric Railway service information page or X (@keisei_official). Delays and suspensions are posted as they occur.",
+                "ja": "京成電鉄「運行情報」ページまたはX（@keisei_official）で確認できます。遅延・運転見合わせが発生した場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://www.keisei.co.jp/traininfo/index.php",
+                "ja": "https://www.keisei.co.jp/traininfo/index.php"
+            },
             "xAccount": "@keisei_official"
         },
         "directions": [
@@ -15,13 +19,15 @@
                 "id": "static.RailDirection:Keisei.Matsudo.KS26",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Keisei Tsudanuma",
-                "nameJa": "京成津田沼方面",
+                "name": {
+                    "en": "For Keisei Tsudanuma",
+                    "ja": "京成津田沼方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
                             "from": "05:02",
-                            "headwayMinutes": 29.0
+                            "headwayMinutes": 29
                         },
                         {
                             "from": "06:00",
@@ -29,11 +35,11 @@
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 10.0
+                            "headwayMinutes": 10
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 11.0
+                            "headwayMinutes": 11
                         },
                         {
                             "from": "20:00",
@@ -41,19 +47,19 @@
                         },
                         {
                             "from": "21:00",
-                            "headwayMinutes": 13.0
+                            "headwayMinutes": 13
                         },
                         {
                             "from": "22:00",
-                            "headwayMinutes": 14.0
+                            "headwayMinutes": 14
                         },
                         {
                             "from": "23:00",
-                            "headwayMinutes": 13.0
+                            "headwayMinutes": 13
                         },
                         {
                             "from": "00:00",
-                            "headwayMinutes": 18.0
+                            "headwayMinutes": 18
                         }
                     ],
                     "firstDeparture": "05:02",
@@ -64,27 +70,27 @@
                     "bands": [
                         {
                             "from": "05:02",
-                            "headwayMinutes": 18.0
+                            "headwayMinutes": 18
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 8.0
+                            "headwayMinutes": 8
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 4.0
+                            "headwayMinutes": 4
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 5.0
+                            "headwayMinutes": 5
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 10.0
+                            "headwayMinutes": 10
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 8.0
+                            "headwayMinutes": 8
                         },
                         {
                             "from": "18:00",
@@ -92,7 +98,7 @@
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 8.0
+                            "headwayMinutes": 8
                         },
                         {
                             "from": "20:00",
@@ -104,11 +110,11 @@
                         },
                         {
                             "from": "23:00",
-                            "headwayMinutes": 13.0
+                            "headwayMinutes": 13
                         },
                         {
                             "from": "00:00",
-                            "headwayMinutes": 18.0
+                            "headwayMinutes": 18
                         }
                     ],
                     "firstDeparture": "05:02",
@@ -122,17 +128,19 @@
                 "id": "static.RailDirection:Keisei.Matsudo.KS88",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Matsudo",
-                "nameJa": "松戸方面",
+                "name": {
+                    "en": "For Matsudo",
+                    "ja": "松戸方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
                             "from": "04:56",
-                            "headwayMinutes": 31.0
+                            "headwayMinutes": 31
                         },
                         {
                             "from": "05:00",
-                            "headwayMinutes": 13.0
+                            "headwayMinutes": 13
                         },
                         {
                             "from": "07:00",
@@ -140,27 +148,27 @@
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 10.0
+                            "headwayMinutes": 10
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 9.0
+                            "headwayMinutes": 9
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 10.0
+                            "headwayMinutes": 10
                         },
                         {
                             "from": "20:00",
-                            "headwayMinutes": 13.0
+                            "headwayMinutes": 13
                         },
                         {
                             "from": "22:00",
-                            "headwayMinutes": 14.0
+                            "headwayMinutes": 14
                         },
                         {
                             "from": "00:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         }
                     ],
                     "firstDeparture": "04:56",
@@ -171,19 +179,19 @@
                     "bands": [
                         {
                             "from": "04:56",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "05:00",
-                            "headwayMinutes": 19.0
+                            "headwayMinutes": 19
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 10.0
+                            "headwayMinutes": 10
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 8.0
+                            "headwayMinutes": 8
                         },
                         {
                             "from": "08:00",
@@ -191,35 +199,35 @@
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 10.0
+                            "headwayMinutes": 10
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 9.0
+                            "headwayMinutes": 9
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 8.0
+                            "headwayMinutes": 8
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 7.0
+                            "headwayMinutes": 7
                         },
                         {
                             "from": "20:00",
-                            "headwayMinutes": 8.0
+                            "headwayMinutes": 8
                         },
                         {
                             "from": "21:00",
-                            "headwayMinutes": 13.0
+                            "headwayMinutes": 13
                         },
                         {
                             "from": "22:00",
-                            "headwayMinutes": 14.0
+                            "headwayMinutes": 14
                         },
                         {
                             "from": "00:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         }
                     ],
                     "firstDeparture": "04:56",
@@ -228,275 +236,328 @@
                 }
             }
         ],
-        "hopTimesMinutes": [3.0, 1.0, 1.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 1.0, 2.0, 2.0, 1.0, 2.0, 1.0, 2.0, 2.0, 3.0, 3.0],
+        "hopTimesMinutes": [3, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 2, 2, 1, 2, 1, 2, 2, 3, 3],
         "id": "Railway:Keisei.Matsudo",
         "isLoop": false,
-        "nameEn": "Keisei Matsudo Line",
-        "nameJa": "京成松戸線",
+        "name": {
+            "en": "Keisei Matsudo Line",
+            "ja": "京成松戸線",
+            "ko": "게이세이 전철 마쓰도선",
+            "zh-Hans": "松户线",
+            "zh-Hant": "松戶線"
+        },
         "operatorId": "Operator:Keisei",
         "stations": [
             {
                 "id": "Station:Keisei.Matsudo.KS88",
                 "latitude": 35.784406,
                 "longitude": 139.900911,
-                "name": "松戸",
-                "nameEn": "Matsudo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Matsudo",
+                    "ja": "松戸",
+                    "ko": "마쓰도",
+                    "zh-Hans": "松户",
+                    "zh-Hant": "松戶"
+                },
                 "stationCode": "KS88"
             },
             {
                 "id": "Station:Keisei.Matsudo.KS87",
                 "latitude": 35.789708,
                 "longitude": 139.91621,
-                "name": "上本郷",
-                "nameEn": "Kamihongo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kamihongo",
+                    "ja": "上本郷",
+                    "ko": "가미혼고",
+                    "zh-Hans": "上本乡",
+                    "zh-Hant": "上本鄉"
+                },
                 "stationCode": "KS87"
             },
             {
                 "id": "Station:Keisei.Matsudo.KS86",
                 "latitude": 35.790638,
                 "longitude": 139.922621,
-                "name": "松戸新田",
-                "nameEn": "Matsudo-Shinden",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Matsudo-Shinden",
+                    "ja": "松戸新田",
+                    "ko": "마쓰도신덴",
+                    "zh-Hans": "松戶新田",
+                    "zh-Hant": "松戶新田"
+                },
                 "stationCode": "KS86"
             },
             {
                 "id": "Station:Keisei.Matsudo.KS85",
                 "latitude": 35.789315,
                 "longitude": 139.92919,
-                "name": "みのり台",
-                "nameEn": "Minoridai",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Minoridai",
+                    "ja": "みのり台",
+                    "ko": "미노리다이",
+                    "zh-Hans": "稔台",
+                    "zh-Hant": "稔臺"
+                },
                 "stationCode": "KS85"
             },
             {
                 "id": "Station:Keisei.Matsudo.KS84",
                 "latitude": 35.79162,
                 "longitude": 139.937596,
-                "name": "八柱",
-                "nameEn": "Yabashira",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Yabashira",
+                    "ja": "八柱",
+                    "ko": "야바시라",
+                    "zh-Hans": "八柱",
+                    "zh-Hant": "八柱"
+                },
                 "stationCode": "KS84"
             },
             {
                 "id": "Station:Keisei.Matsudo.KS83",
                 "latitude": 35.80341,
                 "longitude": 139.950095,
-                "name": "常盤平",
-                "nameEn": "Tokiwadaira",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tokiwadaira",
+                    "ja": "常盤平",
+                    "ko": "도키와다이라",
+                    "zh-Hans": "常盘平",
+                    "zh-Hant": "常盤平"
+                },
                 "stationCode": "KS83"
             },
             {
                 "id": "Station:Keisei.Matsudo.KS82",
                 "latitude": 35.796996,
                 "longitude": 139.965983,
-                "name": "五香",
-                "nameEn": "Goko",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Goko",
+                    "ja": "五香",
+                    "ko": "고코",
+                    "zh-Hans": "五香",
+                    "zh-Hant": "五香"
+                },
                 "stationCode": "KS82"
             },
             {
                 "id": "Station:Keisei.Matsudo.KS81",
                 "latitude": 35.790267,
                 "longitude": 139.975796,
-                "name": "元山",
-                "nameEn": "Motoyama",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Motoyama",
+                    "ja": "元山",
+                    "ko": "모토야마",
+                    "zh-Hans": "元山",
+                    "zh-Hant": "元山"
+                },
                 "stationCode": "KS81"
             },
             {
                 "id": "Station:Keisei.Matsudo.KS80",
                 "latitude": 35.78228,
                 "longitude": 139.975772,
-                "name": "くぬぎ山",
-                "nameEn": "Kunugiyama",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kunugiyama",
+                    "ja": "くぬぎ山",
+                    "ko": "구누기야마",
+                    "zh-Hans": "栎山",
+                    "zh-Hant": "櫟山"
+                },
                 "stationCode": "KS80"
             },
             {
                 "id": "Station:Keisei.Matsudo.KS79",
                 "latitude": 35.77718,
                 "longitude": 139.991619,
-                "name": "北初富",
-                "nameEn": "Kita-hatsutomi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kita-hatsutomi",
+                    "ja": "北初富",
+                    "ko": "기타하쓰토미",
+                    "zh-Hans": "北初富",
+                    "zh-Hant": "北初富"
+                },
                 "stationCode": "KS79"
             },
             {
                 "id": "Station:Keisei.Matsudo.KS78",
                 "latitude": 35.779344,
                 "longitude": 139.998506,
-                "name": "新鎌ヶ谷",
-                "nameEn": "Shin-kamagaya",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shin-kamagaya",
+                    "ja": "新鎌ヶ谷",
+                    "ko": "신카마가야",
+                    "zh-Hans": "新镰谷",
+                    "zh-Hant": "新鎌谷"
+                },
                 "stationCode": "KS78"
             },
             {
                 "id": "Station:Keisei.Matsudo.KS77",
                 "latitude": 35.77219,
                 "longitude": 140.000617,
-                "name": "初富",
-                "nameEn": "Hatsutomi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Hatsutomi",
+                    "ja": "初富",
+                    "ko": "하쓰토미",
+                    "zh-Hans": "初富",
+                    "zh-Hant": "初富"
+                },
                 "stationCode": "KS77"
             },
             {
                 "id": "Station:Keisei.Matsudo.KS76",
                 "latitude": 35.757957,
                 "longitude": 140.013859,
-                "name": "鎌ヶ谷大仏",
-                "nameEn": "Kamagayadaibutsu",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kamagayadaibutsu",
+                    "ja": "鎌ヶ谷大仏",
+                    "ko": "가마가야다이부쓰",
+                    "zh-Hans": "镰谷大佛",
+                    "zh-Hant": "鎌谷大佛"
+                },
                 "stationCode": "KS76"
             },
             {
                 "id": "Station:Keisei.Matsudo.KS75",
                 "latitude": 35.753967,
                 "longitude": 140.023581,
-                "name": "二和向台",
-                "nameEn": "Futawamukodai",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Futawamukodai",
+                    "ja": "二和向台",
+                    "ko": "후타와무코다이",
+                    "zh-Hans": "二和向台",
+                    "zh-Hant": "二和向臺"
+                },
                 "stationCode": "KS75"
             },
             {
                 "id": "Station:Keisei.Matsudo.KS74",
                 "latitude": 35.749078,
                 "longitude": 140.028543,
-                "name": "三咲",
-                "nameEn": "Misaki",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Misaki",
+                    "ja": "三咲",
+                    "ko": "미사키",
+                    "zh-Hans": "三咲",
+                    "zh-Hant": "三咲"
+                },
                 "stationCode": "KS74"
             },
             {
                 "id": "Station:Keisei.Matsudo.KS73",
                 "latitude": 35.737709,
                 "longitude": 140.026008,
-                "name": "滝不動",
-                "nameEn": "Takifudo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Takifudo",
+                    "ja": "滝不動",
+                    "ko": "다키후도",
+                    "zh-Hans": "泷不动",
+                    "zh-Hant": "瀧不動"
+                },
                 "stationCode": "KS73"
             },
             {
                 "id": "Station:Keisei.Matsudo.KS72",
                 "latitude": 35.730269,
                 "longitude": 140.029702,
-                "name": "高根公団",
-                "nameEn": "Takanekodan",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Takanekodan",
+                    "ja": "高根公団",
+                    "ko": "다카네코단",
+                    "zh-Hans": "高根公团",
+                    "zh-Hant": "高根公團"
+                },
                 "stationCode": "KS72"
             },
             {
                 "id": "Station:Keisei.Matsudo.KS71",
                 "latitude": 35.726757,
                 "longitude": 140.034823,
-                "name": "高根木戸",
-                "nameEn": "Takanekido",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Takanekido",
+                    "ja": "高根木戸",
+                    "ko": "다카네키도",
+                    "zh-Hans": "高根木户",
+                    "zh-Hant": "高根木戶"
+                },
                 "stationCode": "KS71"
             },
             {
                 "id": "Station:Keisei.Matsudo.KS70",
                 "latitude": 35.721494,
                 "longitude": 140.04204,
-                "name": "北習志野",
-                "nameEn": "Kita-Narashino",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kita-Narashino",
+                    "ja": "北習志野",
+                    "ko": "기타나라시노",
+                    "zh-Hans": "北习志野",
+                    "zh-Hant": "北習志野"
+                },
                 "stationCode": "KS70"
             },
             {
                 "id": "Station:Keisei.Matsudo.KS69",
                 "latitude": 35.715151,
                 "longitude": 140.042738,
-                "name": "習志野",
-                "nameEn": "Narashino",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Narashino",
+                    "ja": "習志野",
+                    "ko": "나라시노",
+                    "zh-Hans": "习志野",
+                    "zh-Hant": "習志野"
+                },
                 "stationCode": "KS69"
             },
             {
                 "id": "Station:Keisei.Matsudo.KS68",
                 "latitude": 35.710169,
                 "longitude": 140.037951,
-                "name": "薬園台",
-                "nameEn": "Yakuendai",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Yakuendai",
+                    "ja": "薬園台",
+                    "ko": "야쿠엔다이",
+                    "zh-Hans": "藥園台",
+                    "zh-Hant": "藥園臺"
+                },
                 "stationCode": "KS68"
             },
             {
                 "id": "Station:Keisei.Matsudo.KS67",
                 "latitude": 35.700937,
                 "longitude": 140.027852,
-                "name": "前原",
-                "nameEn": "Maebara",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Maebara",
+                    "ja": "前原",
+                    "ko": "마에바라",
+                    "zh-Hans": "前原",
+                    "zh-Hant": "前原"
+                },
                 "stationCode": "KS67"
             },
             {
                 "id": "Station:Keisei.Matsudo.KS66",
                 "latitude": 35.690177,
                 "longitude": 140.023828,
-                "name": "新津田沼",
-                "nameEn": "Shin-Tsudanuma",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shin-Tsudanuma",
+                    "ja": "新津田沼",
+                    "ko": "신쓰다누마",
+                    "zh-Hans": "新津田沼",
+                    "zh-Hant": "新津田沼"
+                },
                 "stationCode": "KS66"
             },
             {
                 "id": "Station:Keisei.Matsudo.KS26",
                 "latitude": 35.683788,
                 "longitude": 140.024858,
-                "name": "京成津田沼",
-                "nameEn": "Keisei Tsudanuma",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Keisei Tsudanuma",
+                    "ja": "京成津田沼",
+                    "ko": "게이세이쓰다누마",
+                    "zh-Hans": "京成津田沼",
+                    "zh-Hant": "京成津田沼"
+                },
                 "stationCode": "KS26"
             }
         ],
@@ -591,7 +652,9 @@
                 "startsHere": true,
                 "stops": [380, 382, 383, 385, 386, 389, 391, 393, 395, 397, 398, 400, 403, 405, 406, 408, 410, 411, 413, 414, 416, 417, 422, 425],
                 "terminates": false,
-                "throughDestJa": "千葉中央",
+                "throughDest": {
+                    "ja": "千葉中央"
+                },
                 "type": "Local"
             },
             {
@@ -619,7 +682,9 @@
                 "startsHere": true,
                 "stops": [399, 401, 402, 404, 405, 408, 410, 412, 414, 416, 418, 420, 422, 424, 425, 427, 429, 430, 432, 433, 435, 437, 442, 445],
                 "terminates": false,
-                "throughDestJa": "千葉中央",
+                "throughDest": {
+                    "ja": "千葉中央"
+                },
                 "type": "Local"
             },
             {
@@ -656,7 +721,9 @@
                 "startsHere": true,
                 "stops": [421, 423, 424, 426, 427, 430, 432, 434, 436, 438, 439, 441, 444, 446, 447, 449, 451, 452, 454, 455, 457, 458, 462, 465],
                 "terminates": false,
-                "throughDestJa": "千葉中央",
+                "throughDest": {
+                    "ja": "千葉中央"
+                },
                 "type": "Local"
             },
             {
@@ -675,7 +742,9 @@
                 "startsHere": true,
                 "stops": [440, 443, 444, 445, 447, 449, 451, 453, 455, 457, 459, 461, 463, 465, 466, 468, 470, 471, 473, 474, 476, 478, 481, 486],
                 "terminates": false,
-                "throughDestJa": "千葉中央",
+                "throughDest": {
+                    "ja": "千葉中央"
+                },
                 "type": "Local"
             },
             {
@@ -694,7 +763,9 @@
                 "startsHere": true,
                 "stops": [460, 463, 464, 465, 467, 469, 471, 473, 475, 477, 479, 481, 483, 485, 486, 488, 490, 491, 493, 494, 496, 498, 501, 505],
                 "terminates": false,
-                "throughDestJa": "千葉中央",
+                "throughDest": {
+                    "ja": "千葉中央"
+                },
                 "type": "Local"
             },
             {
@@ -713,7 +784,9 @@
                 "startsHere": true,
                 "stops": [480, 483, 484, 485, 487, 489, 491, 493, 495, 497, 499, 501, 503, 505, 506, 508, 510, 511, 513, 514, 516, 518, 521, 525],
                 "terminates": false,
-                "throughDestJa": "千葉中央",
+                "throughDest": {
+                    "ja": "千葉中央"
+                },
                 "type": "Local"
             },
             {
@@ -732,7 +805,9 @@
                 "startsHere": true,
                 "stops": [500, 503, 504, 505, 507, 509, 511, 513, 515, 517, 519, 521, 523, 525, 526, 528, 530, 531, 533, 534, 536, 538, 541, 545],
                 "terminates": false,
-                "throughDestJa": "千葉中央",
+                "throughDest": {
+                    "ja": "千葉中央"
+                },
                 "type": "Local"
             },
             {
@@ -751,7 +826,9 @@
                 "startsHere": true,
                 "stops": [520, 523, 524, 525, 527, 529, 531, 533, 535, 537, 539, 541, 543, 545, 546, 548, 550, 551, 553, 554, 556, 558, 561, 565],
                 "terminates": false,
-                "throughDestJa": "千葉中央",
+                "throughDest": {
+                    "ja": "千葉中央"
+                },
                 "type": "Local"
             },
             {
@@ -770,7 +847,9 @@
                 "startsHere": true,
                 "stops": [540, 543, 544, 545, 547, 549, 551, 553, 555, 557, 559, 561, 563, 565, 566, 568, 570, 571, 573, 574, 576, 578, 581, 585],
                 "terminates": false,
-                "throughDestJa": "千葉中央",
+                "throughDest": {
+                    "ja": "千葉中央"
+                },
                 "type": "Local"
             },
             {
@@ -789,7 +868,9 @@
                 "startsHere": true,
                 "stops": [560, 563, 564, 565, 567, 569, 571, 573, 575, 577, 579, 581, 583, 585, 586, 588, 590, 591, 593, 594, 596, 598, 601, 605],
                 "terminates": false,
-                "throughDestJa": "千葉中央",
+                "throughDest": {
+                    "ja": "千葉中央"
+                },
                 "type": "Local"
             },
             {
@@ -808,7 +889,9 @@
                 "startsHere": true,
                 "stops": [580, 583, 584, 585, 587, 589, 591, 593, 595, 597, 599, 601, 603, 605, 606, 608, 610, 611, 613, 614, 616, 618, 621, 625],
                 "terminates": false,
-                "throughDestJa": "千葉中央",
+                "throughDest": {
+                    "ja": "千葉中央"
+                },
                 "type": "Local"
             },
             {
@@ -827,7 +910,9 @@
                 "startsHere": true,
                 "stops": [600, 603, 604, 605, 607, 609, 611, 613, 615, 617, 619, 621, 623, 625, 626, 628, 630, 631, 633, 634, 636, 638, 641, 645],
                 "terminates": false,
-                "throughDestJa": "千葉中央",
+                "throughDest": {
+                    "ja": "千葉中央"
+                },
                 "type": "Local"
             },
             {
@@ -846,7 +931,9 @@
                 "startsHere": true,
                 "stops": [620, 623, 624, 625, 627, 629, 631, 633, 635, 637, 639, 641, 643, 645, 646, 648, 650, 651, 653, 654, 656, 658, 661, 665],
                 "terminates": false,
-                "throughDestJa": "千葉中央",
+                "throughDest": {
+                    "ja": "千葉中央"
+                },
                 "type": "Local"
             },
             {
@@ -865,7 +952,9 @@
                 "startsHere": true,
                 "stops": [640, 643, 644, 645, 647, 649, 651, 653, 655, 657, 659, 661, 663, 665, 666, 668, 670, 671, 673, 674, 676, 678, 681, 685],
                 "terminates": false,
-                "throughDestJa": "千葉中央",
+                "throughDest": {
+                    "ja": "千葉中央"
+                },
                 "type": "Local"
             },
             {
@@ -884,7 +973,9 @@
                 "startsHere": true,
                 "stops": [660, 663, 664, 665, 667, 669, 671, 673, 675, 677, 679, 681, 683, 685, 686, 688, 690, 691, 693, 694, 696, 698, 701, 705],
                 "terminates": false,
-                "throughDestJa": "千葉中央",
+                "throughDest": {
+                    "ja": "千葉中央"
+                },
                 "type": "Local"
             },
             {
@@ -903,7 +994,9 @@
                 "startsHere": true,
                 "stops": [680, 683, 684, 685, 687, 689, 691, 693, 695, 697, 699, 701, 703, 705, 706, 708, 710, 711, 713, 714, 716, 718, 721, 725],
                 "terminates": false,
-                "throughDestJa": "千葉中央",
+                "throughDest": {
+                    "ja": "千葉中央"
+                },
                 "type": "Local"
             },
             {
@@ -922,7 +1015,9 @@
                 "startsHere": true,
                 "stops": [700, 703, 704, 705, 707, 709, 711, 713, 715, 717, 719, 721, 723, 725, 726, 728, 730, 731, 733, 734, 736, 738, 741, 745],
                 "terminates": false,
-                "throughDestJa": "千葉中央",
+                "throughDest": {
+                    "ja": "千葉中央"
+                },
                 "type": "Local"
             },
             {
@@ -941,7 +1036,9 @@
                 "startsHere": true,
                 "stops": [720, 723, 724, 725, 727, 729, 731, 733, 735, 737, 739, 741, 743, 745, 746, 748, 750, 751, 753, 754, 756, 758, 761, 765],
                 "terminates": false,
-                "throughDestJa": "千葉中央",
+                "throughDest": {
+                    "ja": "千葉中央"
+                },
                 "type": "Local"
             },
             {
@@ -960,7 +1057,9 @@
                 "startsHere": true,
                 "stops": [740, 743, 744, 745, 747, 749, 751, 753, 755, 757, 759, 761, 763, 765, 766, 768, 770, 771, 773, 774, 776, 778, 781, 785],
                 "terminates": false,
-                "throughDestJa": "千葉中央",
+                "throughDest": {
+                    "ja": "千葉中央"
+                },
                 "type": "Local"
             },
             {
@@ -979,7 +1078,9 @@
                 "startsHere": true,
                 "stops": [760, 763, 764, 765, 767, 769, 771, 773, 775, 777, 779, 781, 783, 785, 786, 788, 790, 791, 793, 794, 796, 798, 801, 805],
                 "terminates": false,
-                "throughDestJa": "千葉中央",
+                "throughDest": {
+                    "ja": "千葉中央"
+                },
                 "type": "Local"
             },
             {
@@ -998,7 +1099,9 @@
                 "startsHere": true,
                 "stops": [780, 783, 784, 785, 787, 789, 791, 793, 795, 797, 799, 801, 803, 805, 806, 808, 810, 811, 813, 814, 816, 818, 821, 825],
                 "terminates": false,
-                "throughDestJa": "千葉中央",
+                "throughDest": {
+                    "ja": "千葉中央"
+                },
                 "type": "Local"
             },
             {
@@ -1017,7 +1120,9 @@
                 "startsHere": true,
                 "stops": [800, 803, 804, 805, 807, 809, 811, 813, 815, 817, 819, 821, 823, 825, 826, 828, 830, 831, 833, 834, 836, 838, 841, 845],
                 "terminates": false,
-                "throughDestJa": "千葉中央",
+                "throughDest": {
+                    "ja": "千葉中央"
+                },
                 "type": "Local"
             },
             {
@@ -1036,7 +1141,9 @@
                 "startsHere": true,
                 "stops": [820, 823, 824, 825, 827, 829, 831, 833, 835, 837, 839, 841, 843, 845, 846, 848, 850, 851, 853, 854, 856, 858, 861, 865],
                 "terminates": false,
-                "throughDestJa": "千葉中央",
+                "throughDest": {
+                    "ja": "千葉中央"
+                },
                 "type": "Local"
             },
             {
@@ -1055,7 +1162,9 @@
                 "startsHere": true,
                 "stops": [840, 843, 844, 845, 847, 849, 851, 853, 855, 857, 859, 861, 863, 865, 866, 868, 870, 871, 873, 874, 876, 878, 881, 885],
                 "terminates": false,
-                "throughDestJa": "千葉中央",
+                "throughDest": {
+                    "ja": "千葉中央"
+                },
                 "type": "Local"
             },
             {
@@ -1074,7 +1183,9 @@
                 "startsHere": true,
                 "stops": [860, 863, 864, 865, 867, 869, 871, 873, 875, 877, 879, 881, 883, 885, 886, 888, 890, 891, 893, 894, 896, 898, 901, 905],
                 "terminates": false,
-                "throughDestJa": "千葉中央",
+                "throughDest": {
+                    "ja": "千葉中央"
+                },
                 "type": "Local"
             },
             {
@@ -1093,7 +1204,9 @@
                 "startsHere": true,
                 "stops": [880, 883, 884, 885, 887, 889, 891, 893, 895, 897, 899, 901, 903, 905, 906, 908, 910, 911, 913, 914, 916, 918, 921, 925],
                 "terminates": false,
-                "throughDestJa": "千葉中央",
+                "throughDest": {
+                    "ja": "千葉中央"
+                },
                 "type": "Local"
             },
             {
@@ -1112,7 +1225,9 @@
                 "startsHere": true,
                 "stops": [900, 903, 904, 905, 907, 909, 911, 913, 915, 917, 919, 921, 923, 925, 926, 928, 930, 931, 933, 934, 936, 938, 941, 945],
                 "terminates": false,
-                "throughDestJa": "千葉中央",
+                "throughDest": {
+                    "ja": "千葉中央"
+                },
                 "type": "Local"
             },
             {
@@ -1131,7 +1246,9 @@
                 "startsHere": true,
                 "stops": [920, 923, 924, 925, 927, 929, 931, 933, 935, 937, 939, 941, 943, 945, 946, 948, 950, 951, 953, 954, 956, 958, 961, 965],
                 "terminates": false,
-                "throughDestJa": "千葉中央",
+                "throughDest": {
+                    "ja": "千葉中央"
+                },
                 "type": "Local"
             },
             {
@@ -1150,7 +1267,9 @@
                 "startsHere": true,
                 "stops": [940, 943, 944, 945, 947, 949, 951, 953, 955, 957, 959, 961, 963, 965, 966, 968, 970, 971, 973, 974, 976, 978, 981, 985],
                 "terminates": false,
-                "throughDestJa": "千葉中央",
+                "throughDest": {
+                    "ja": "千葉中央"
+                },
                 "type": "Local"
             },
             {
@@ -1169,7 +1288,9 @@
                 "startsHere": true,
                 "stops": [960, 963, 964, 965, 967, 969, 971, 973, 975, 977, 979, 981, 983, 985, 986, 988, 990, 991, 993, 994, 996, 998, 1001, 1005],
                 "terminates": false,
-                "throughDestJa": "千葉中央",
+                "throughDest": {
+                    "ja": "千葉中央"
+                },
                 "type": "Local"
             },
             {
@@ -1188,7 +1309,9 @@
                 "startsHere": true,
                 "stops": [980, 983, 984, 985, 987, 989, 991, 993, 995, 997, 999, 1001, 1003, 1005, 1006, 1008, 1010, 1011, 1013, 1014, 1016, 1018, 1021, 1025],
                 "terminates": false,
-                "throughDestJa": "千葉中央",
+                "throughDest": {
+                    "ja": "千葉中央"
+                },
                 "type": "Local"
             },
             {
@@ -1207,7 +1330,9 @@
                 "startsHere": true,
                 "stops": [1000, 1003, 1004, 1005, 1007, 1009, 1011, 1013, 1015, 1017, 1019, 1021, 1023, 1025, 1026, 1028, 1030, 1031, 1033, 1034, 1036, 1038, 1042, 1048],
                 "terminates": false,
-                "throughDestJa": "千葉中央",
+                "throughDest": {
+                    "ja": "千葉中央"
+                },
                 "type": "Local"
             },
             {
@@ -2963,7 +3088,9 @@
                 "startsHere": true,
                 "stops": [478, 480, 481, 482, 484, 486, 489, 490, 494, 496, 498, 500, 502, 504, 505, 507, 509, 510, 512, 514, 515, 517, 522, 527],
                 "terminates": false,
-                "throughDestJa": "千葉中央",
+                "throughDest": {
+                    "ja": "千葉中央"
+                },
                 "type": "Local"
             },
             {
@@ -3009,7 +3136,9 @@
                 "startsHere": true,
                 "stops": [501, 503, 504, 506, 507, 510, 512, 514, 517, 519, 521, 523, 525, 527, 528, 530, 532, 533, 535, 536, 538, 540, 545, 548],
                 "terminates": false,
-                "throughDestJa": "千葉中央",
+                "throughDest": {
+                    "ja": "千葉中央"
+                },
                 "type": "Local"
             },
             {
@@ -3046,7 +3175,9 @@
                 "startsHere": true,
                 "stops": [519, 522, 523, 524, 526, 528, 530, 532, 534, 536, 538, 540, 542, 544, 545, 547, 549, 550, 552, 553, 555, 557, 563, 566],
                 "terminates": false,
-                "throughDestJa": "千葉中央",
+                "throughDest": {
+                    "ja": "千葉中央"
+                },
                 "type": "Local"
             },
             {
@@ -3074,7 +3205,9 @@
                 "startsHere": true,
                 "stops": [538, 540, 541, 543, 544, 547, 549, 551, 553, 555, 557, 559, 561, 563, 564, 566, 568, 569, 571, 572, 574, 576, 581, 584],
                 "terminates": false,
-                "throughDestJa": "千葉中央",
+                "throughDest": {
+                    "ja": "千葉中央"
+                },
                 "type": "Local"
             },
             {
@@ -3102,7 +3235,9 @@
                 "startsHere": true,
                 "stops": [560, 563, 564, 565, 567, 569, 571, 573, 575, 577, 579, 581, 583, 585, 586, 588, 590, 591, 593, 594, 596, 598, 601, 604],
                 "terminates": false,
-                "throughDestJa": "千葉中央",
+                "throughDest": {
+                    "ja": "千葉中央"
+                },
                 "type": "Local"
             },
             {
@@ -3121,7 +3256,9 @@
                 "startsHere": true,
                 "stops": [580, 583, 584, 585, 587, 589, 591, 593, 595, 597, 599, 601, 603, 605, 606, 608, 610, 611, 613, 614, 616, 618, 621, 625],
                 "terminates": false,
-                "throughDestJa": "千葉中央",
+                "throughDest": {
+                    "ja": "千葉中央"
+                },
                 "type": "Local"
             },
             {
@@ -3140,7 +3277,9 @@
                 "startsHere": true,
                 "stops": [600, 603, 604, 605, 607, 609, 611, 613, 615, 617, 619, 621, 623, 625, 626, 628, 630, 631, 633, 634, 636, 638, 641, 645],
                 "terminates": false,
-                "throughDestJa": "千葉中央",
+                "throughDest": {
+                    "ja": "千葉中央"
+                },
                 "type": "Local"
             },
             {
@@ -3159,7 +3298,9 @@
                 "startsHere": true,
                 "stops": [620, 623, 624, 625, 627, 629, 631, 633, 635, 637, 639, 641, 643, 645, 646, 648, 650, 651, 653, 654, 656, 658, 661, 665],
                 "terminates": false,
-                "throughDestJa": "千葉中央",
+                "throughDest": {
+                    "ja": "千葉中央"
+                },
                 "type": "Local"
             },
             {
@@ -3178,7 +3319,9 @@
                 "startsHere": true,
                 "stops": [640, 643, 644, 645, 647, 649, 651, 653, 655, 657, 659, 661, 663, 665, 666, 668, 670, 671, 673, 674, 676, 678, 681, 685],
                 "terminates": false,
-                "throughDestJa": "千葉中央",
+                "throughDest": {
+                    "ja": "千葉中央"
+                },
                 "type": "Local"
             },
             {
@@ -3197,7 +3340,9 @@
                 "startsHere": true,
                 "stops": [660, 663, 664, 665, 667, 669, 671, 673, 675, 677, 679, 681, 683, 685, 686, 688, 690, 691, 693, 694, 696, 698, 701, 705],
                 "terminates": false,
-                "throughDestJa": "千葉中央",
+                "throughDest": {
+                    "ja": "千葉中央"
+                },
                 "type": "Local"
             },
             {
@@ -3216,7 +3361,9 @@
                 "startsHere": true,
                 "stops": [680, 683, 684, 685, 687, 689, 691, 693, 695, 697, 699, 701, 703, 705, 706, 708, 710, 711, 713, 714, 716, 718, 721, 725],
                 "terminates": false,
-                "throughDestJa": "千葉中央",
+                "throughDest": {
+                    "ja": "千葉中央"
+                },
                 "type": "Local"
             },
             {
@@ -3235,7 +3382,9 @@
                 "startsHere": true,
                 "stops": [700, 703, 704, 705, 707, 709, 711, 713, 715, 717, 719, 721, 723, 725, 726, 728, 730, 731, 733, 734, 736, 738, 741, 745],
                 "terminates": false,
-                "throughDestJa": "千葉中央",
+                "throughDest": {
+                    "ja": "千葉中央"
+                },
                 "type": "Local"
             },
             {
@@ -3254,7 +3403,9 @@
                 "startsHere": true,
                 "stops": [720, 723, 724, 725, 727, 729, 731, 733, 735, 737, 739, 741, 743, 745, 746, 748, 750, 751, 753, 754, 756, 758, 761, 765],
                 "terminates": false,
-                "throughDestJa": "千葉中央",
+                "throughDest": {
+                    "ja": "千葉中央"
+                },
                 "type": "Local"
             },
             {
@@ -3273,7 +3424,9 @@
                 "startsHere": true,
                 "stops": [740, 743, 744, 745, 747, 749, 751, 753, 755, 757, 759, 761, 763, 765, 766, 768, 770, 771, 773, 774, 776, 778, 781, 785],
                 "terminates": false,
-                "throughDestJa": "千葉中央",
+                "throughDest": {
+                    "ja": "千葉中央"
+                },
                 "type": "Local"
             },
             {
@@ -3292,7 +3445,9 @@
                 "startsHere": true,
                 "stops": [760, 763, 764, 765, 767, 769, 771, 773, 775, 777, 779, 781, 783, 785, 786, 788, 790, 791, 793, 794, 796, 798, 801, 805],
                 "terminates": false,
-                "throughDestJa": "千葉中央",
+                "throughDest": {
+                    "ja": "千葉中央"
+                },
                 "type": "Local"
             },
             {
@@ -3311,7 +3466,9 @@
                 "startsHere": true,
                 "stops": [780, 783, 784, 785, 787, 789, 791, 793, 795, 797, 799, 801, 803, 805, 806, 808, 810, 811, 813, 814, 816, 818, 821, 825],
                 "terminates": false,
-                "throughDestJa": "千葉中央",
+                "throughDest": {
+                    "ja": "千葉中央"
+                },
                 "type": "Local"
             },
             {
@@ -3330,7 +3487,9 @@
                 "startsHere": true,
                 "stops": [800, 803, 804, 805, 807, 809, 811, 813, 815, 817, 819, 821, 823, 825, 826, 828, 830, 831, 833, 834, 836, 838, 841, 845],
                 "terminates": false,
-                "throughDestJa": "千葉中央",
+                "throughDest": {
+                    "ja": "千葉中央"
+                },
                 "type": "Local"
             },
             {
@@ -3349,7 +3508,9 @@
                 "startsHere": true,
                 "stops": [820, 823, 824, 825, 827, 829, 831, 833, 835, 837, 839, 841, 843, 845, 846, 848, 850, 851, 853, 854, 856, 858, 861, 865],
                 "terminates": false,
-                "throughDestJa": "千葉中央",
+                "throughDest": {
+                    "ja": "千葉中央"
+                },
                 "type": "Local"
             },
             {
@@ -3368,7 +3529,9 @@
                 "startsHere": true,
                 "stops": [840, 843, 844, 845, 847, 849, 851, 853, 855, 857, 859, 861, 863, 865, 866, 868, 870, 871, 873, 874, 876, 878, 881, 885],
                 "terminates": false,
-                "throughDestJa": "千葉中央",
+                "throughDest": {
+                    "ja": "千葉中央"
+                },
                 "type": "Local"
             },
             {
@@ -3387,7 +3550,9 @@
                 "startsHere": true,
                 "stops": [860, 863, 864, 865, 867, 869, 871, 873, 875, 877, 879, 881, 883, 885, 886, 888, 890, 891, 893, 894, 896, 898, 901, 905],
                 "terminates": false,
-                "throughDestJa": "千葉中央",
+                "throughDest": {
+                    "ja": "千葉中央"
+                },
                 "type": "Local"
             },
             {
@@ -3406,7 +3571,9 @@
                 "startsHere": true,
                 "stops": [880, 883, 884, 885, 887, 889, 891, 893, 895, 897, 899, 901, 903, 905, 906, 908, 910, 911, 913, 914, 916, 918, 921, 925],
                 "terminates": false,
-                "throughDestJa": "千葉中央",
+                "throughDest": {
+                    "ja": "千葉中央"
+                },
                 "type": "Local"
             },
             {
@@ -3425,7 +3592,9 @@
                 "startsHere": true,
                 "stops": [900, 903, 904, 905, 907, 909, 911, 913, 915, 917, 919, 921, 923, 925, 926, 928, 930, 931, 933, 934, 936, 938, 941, 945],
                 "terminates": false,
-                "throughDestJa": "千葉中央",
+                "throughDest": {
+                    "ja": "千葉中央"
+                },
                 "type": "Local"
             },
             {
@@ -3444,7 +3613,9 @@
                 "startsHere": true,
                 "stops": [920, 923, 924, 925, 927, 929, 931, 933, 935, 937, 939, 941, 943, 945, 946, 948, 950, 951, 953, 954, 956, 958, 961, 965],
                 "terminates": false,
-                "throughDestJa": "千葉中央",
+                "throughDest": {
+                    "ja": "千葉中央"
+                },
                 "type": "Local"
             },
             {
@@ -3463,7 +3634,9 @@
                 "startsHere": true,
                 "stops": [940, 943, 944, 945, 947, 949, 951, 953, 955, 957, 959, 961, 963, 965, 966, 968, 970, 971, 973, 974, 976, 978, 981, 985],
                 "terminates": false,
-                "throughDestJa": "千葉中央",
+                "throughDest": {
+                    "ja": "千葉中央"
+                },
                 "type": "Local"
             },
             {
@@ -3482,7 +3655,9 @@
                 "startsHere": true,
                 "stops": [960, 963, 964, 965, 967, 969, 971, 973, 975, 977, 979, 981, 983, 985, 986, 988, 990, 991, 993, 994, 996, 998, 1001, 1008],
                 "terminates": false,
-                "throughDestJa": "千葉中央",
+                "throughDest": {
+                    "ja": "千葉中央"
+                },
                 "type": "Local"
             },
             {
@@ -3501,7 +3676,9 @@
                 "startsHere": true,
                 "stops": [980, 983, 984, 985, 987, 989, 991, 993, 995, 997, 999, 1001, 1003, 1005, 1006, 1008, 1010, 1011, 1013, 1014, 1016, 1018, 1021, 1029],
                 "terminates": false,
-                "throughDestJa": "千葉中央",
+                "throughDest": {
+                    "ja": "千葉中央"
+                },
                 "type": "Local"
             },
             {
@@ -5278,6 +5455,6 @@
                 "type": "Local"
             }
         ],
-        "upHopTimesMinutes": [3.0, 1.0, 1.0, 2.0, 2.0, 2.0, 2.0, 2.0, 3.0, 1.0, 2.0, 3.0, 1.0, 2.0, 1.0, 2.0, 1.0, 2.0, 1.0, 2.0, 2.0, 2.0, 3.0]
+        "upHopTimesMinutes": [3, 1, 1, 2, 2, 2, 2, 2, 3, 1, 2, 3, 1, 2, 1, 2, 1, 2, 1, 2, 2, 2, 3]
     }
 ]

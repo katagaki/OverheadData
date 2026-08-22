@@ -2,10 +2,14 @@
     {
         "colorHex": "#00A943",
         "delayInfo": {
-            "checkMethodEn": "Check the Seibu Railway service status page, the Seibu app, or X (@seiburailway). Delays of roughly 15 minutes or more and suspensions are posted.",
-            "checkMethodJa": "西武鉄道「運行情報」ページ、西武線アプリ、またはX（@seiburailway）で確認できます。おおむね15分以上の遅延・運転見合わせが発生した場合に掲載されます。",
-            "statusPageURL": "https://www.seiburailway.jp/railway/railwayinfo/",
-            "statusPageURLEn": "https://www.seiburailway.jp/en/railway/railwayinfo/",
+            "checkMethod": {
+                "en": "Check the Seibu Railway service status page, the Seibu app, or X (@seiburailway). Delays of roughly 15 minutes or more and suspensions are posted.",
+                "ja": "西武鉄道「運行情報」ページ、西武線アプリ、またはX（@seiburailway）で確認できます。おおむね15分以上の遅延・運転見合わせが発生した場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://www.seiburailway.jp/en/railway/railwayinfo/",
+                "ja": "https://www.seiburailway.jp/railway/railwayinfo/"
+            },
             "xAccount": "@seiburailway"
         },
         "directions": [
@@ -15,29 +19,31 @@
                 "id": "static.RailDirection:Seibu.Kokubunji.HigashiMurayama",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Higashi-Murayama",
-                "nameJa": "東村山方面",
+                "name": {
+                    "en": "For Higashi-Murayama",
+                    "ja": "東村山方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
                             "from": "05:20",
-                            "headwayMinutes": 17.0
+                            "headwayMinutes": 17
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 10.0
+                            "headwayMinutes": 10
                         },
                         {
                             "from": "21:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "23:00",
-                            "headwayMinutes": 19.0
+                            "headwayMinutes": 19
                         }
                     ],
                     "firstDeparture": "05:20",
@@ -48,27 +54,27 @@
                     "bands": [
                         {
                             "from": "05:20",
-                            "headwayMinutes": 16.0
+                            "headwayMinutes": 16
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 11.0
+                            "headwayMinutes": 11
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 8.0
+                            "headwayMinutes": 8
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 10.0
+                            "headwayMinutes": 10
                         },
                         {
                             "from": "21:00",
-                            "headwayMinutes": 12.0
+                            "headwayMinutes": 12
                         },
                         {
                             "from": "22:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "23:00",
@@ -76,7 +82,7 @@
                         },
                         {
                             "from": "00:00",
-                            "headwayMinutes": 16.0
+                            "headwayMinutes": 16
                         }
                     ],
                     "firstDeparture": "05:20",
@@ -90,8 +96,10 @@
                 "id": "static.RailDirection:Seibu.Kokubunji.Kokubunji",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Kokubunji",
-                "nameJa": "国分寺方面",
+                "name": {
+                    "en": "For Kokubunji",
+                    "ja": "国分寺方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -100,7 +108,7 @@
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 14.0
+                            "headwayMinutes": 14
                         },
                         {
                             "from": "07:00",
@@ -108,15 +116,15 @@
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 10.0
+                            "headwayMinutes": 10
                         },
                         {
                             "from": "21:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "23:00",
-                            "headwayMinutes": 22.0
+                            "headwayMinutes": 22
                         }
                     ],
                     "firstDeparture": "05:04",
@@ -127,7 +135,7 @@
                     "bands": [
                         {
                             "from": "05:04",
-                            "headwayMinutes": 16.0
+                            "headwayMinutes": 16
                         },
                         {
                             "from": "06:00",
@@ -135,15 +143,15 @@
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 8.0
+                            "headwayMinutes": 8
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 9.0
+                            "headwayMinutes": 9
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 10.0
+                            "headwayMinutes": 10
                         },
                         {
                             "from": "20:00",
@@ -155,11 +163,11 @@
                         },
                         {
                             "from": "22:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "23:00",
-                            "headwayMinutes": 16.0
+                            "headwayMinutes": 16
                         }
                     ],
                     "firstDeparture": "05:04",
@@ -168,66 +176,81 @@
                 }
             }
         ],
-        "hopTimesMinutes": [2.0, 3.0, 2.0, 3.0],
+        "hopTimesMinutes": [2, 3, 2, 3],
         "id": "Railway:Seibu.Kokubunji",
         "isLoop": false,
-        "nameEn": "Seibu Kokubunji Line",
-        "nameJa": "西武国分寺線",
+        "name": {
+            "en": "Seibu Kokubunji Line",
+            "ja": "西武国分寺線",
+            "ko": "세이부 철도 고쿠분지 선",
+            "zh-Hans": "国分寺线",
+            "zh-Hant": "國分寺線"
+        },
         "operatorId": "Operator:Seibu",
         "stations": [
             {
                 "id": "Station:Seibu.Kokubunji.Kokubunji",
                 "latitude": 35.70032,
                 "longitude": 139.48011,
-                "name": "国分寺",
-                "nameEn": "Kokubunji",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kokubunji",
+                    "ja": "国分寺",
+                    "ko": "고쿠분지",
+                    "zh-Hans": "国分寺",
+                    "zh-Hant": "國分寺"
+                },
                 "stationCode": "SK01"
             },
             {
                 "id": "Station:Seibu.Kokubunji.Koigakubo",
                 "latitude": 35.71092,
                 "longitude": 139.46414,
-                "name": "恋ヶ窪",
-                "nameEn": "Koigakubo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Koigakubo",
+                    "ja": "恋ヶ窪",
+                    "ko": "고이가쿠보",
+                    "zh-Hans": "恋洼",
+                    "zh-Hant": "戀窪"
+                },
                 "stationCode": "SK02"
             },
             {
                 "id": "Station:Seibu.Kokubunji.Takanodai",
                 "latitude": 35.72339,
                 "longitude": 139.46104,
-                "name": "鷹の台",
-                "nameEn": "Takanodai",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Takanodai",
+                    "ja": "鷹の台",
+                    "ko": "다카노다이",
+                    "zh-Hans": "鷹之台",
+                    "zh-Hant": "鷹之臺"
+                },
                 "stationCode": "SK03"
             },
             {
                 "id": "Station:Seibu.Kokubunji.Ogawa",
                 "latitude": 35.73748,
                 "longitude": 139.46353,
-                "name": "小川",
-                "nameEn": "Ogawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ogawa",
+                    "ja": "小川",
+                    "ko": "오가와",
+                    "zh-Hans": "小川",
+                    "zh-Hant": "小川"
+                },
                 "stationCode": "SK04"
             },
             {
                 "id": "Station:Seibu.Kokubunji.HigashiMurayama",
                 "latitude": 35.76048,
                 "longitude": 139.46585,
-                "name": "東村山",
-                "nameEn": "Higashi-Murayama",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Higashi-Murayama",
+                    "ja": "東村山",
+                    "ko": "히가시무라야마",
+                    "zh-Hans": "东村山",
+                    "zh-Hant": "東村山"
+                },
                 "stationCode": "SK05"
             }
         ],
@@ -4051,6 +4074,6 @@
                 "type": "Local"
             }
         ],
-        "upHopTimesMinutes": [3.0, 3.0, 2.0, 4.0]
+        "upHopTimesMinutes": [3, 3, 2, 4]
     }
 ]

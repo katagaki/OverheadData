@@ -2,10 +2,14 @@
     {
         "colorHex": "#368C44",
         "delayInfo": {
-            "checkMethodEn": "Check the JR East Train Operation Information page or the JR East app. In the Tokyo area, delays or suspensions of 15 minutes or more are posted.",
-            "checkMethodJa": "JR東日本「列車運行情報」ページまたはJR東日本アプリで確認できます。首都圏エリアでは15分以上の遅れ・運休が発生または見込まれる場合に掲載されます。",
-            "statusPageURL": "https://traininfo.jreast.co.jp/train_info/line.aspx?gid=1&lineid=suigunline",
-            "statusPageURLEn": "https://traininfo.jreast.co.jp/train_info/e/kanto.aspx",
+            "checkMethod": {
+                "en": "Check the JR East Train Operation Information page or the JR East app. In the Tokyo area, delays or suspensions of 15 minutes or more are posted.",
+                "ja": "JR東日本「列車運行情報」ページまたはJR東日本アプリで確認できます。首都圏エリアでは15分以上の遅れ・運休が発生または見込まれる場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://traininfo.jreast.co.jp/train_info/e/kanto.aspx",
+                "ja": "https://traininfo.jreast.co.jp/train_info/line.aspx?gid=1&lineid=suigunline"
+            },
             "xAccount": "@JRE_Tohoku_A"
         },
         "directions": [
@@ -26,8 +30,10 @@
                     }
                 ],
                 "isAscending": true,
-                "nameEn": "For Hitachi-Daigo & Koriyama",
-                "nameJa": "常陸大子・郡山方面",
+                "name": {
+                    "en": "For Hitachi-Daigo & Koriyama",
+                    "ja": "常陸大子・郡山方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -201,8 +207,10 @@
                     }
                 ],
                 "isAscending": false,
-                "nameEn": "For Mito",
-                "nameJa": "水戸方面",
+                "name": {
+                    "en": "For Mito",
+                    "ja": "水戸方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -286,459 +294,546 @@
         "hopTimesMinutes": [4, 3, 3, 3, 2, 3, 4, 4, 3, 6, 6, 4, 4, 4, 4, 5, 4, 6, 12, 7, 6, 5, 3, 2, 7, 6, 4, 3, 7, 4, 8, 7, 3.5, 4, 7, 5, 4, 4, 6, 6],
         "id": "Railway:JR-East.Suigun",
         "isLoop": false,
-        "nameEn": "Suigun Line",
-        "nameJa": "水郡線",
+        "name": {
+            "en": "Suigun Line",
+            "ja": "水郡線",
+            "ko": "스이군선",
+            "zh-Hans": "水郡线",
+            "zh-Hant": "水郡線"
+        },
         "operatorId": "Operator:JR-East",
         "stations": [
             {
                 "id": "Station:JR-East.Suigun.Mito",
                 "latitude": 36.370903,
                 "longitude": 140.476072,
-                "name": "水戸",
-                "nameEn": "Mito",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Mito",
+                    "ja": "水戸",
+                    "ko": "미토",
+                    "zh-Hans": "水户",
+                    "zh-Hant": "水戶"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Suigun.HitachiAoyagi",
                 "latitude": 36.383861,
                 "longitude": 140.4845,
-                "name": "常陸青柳",
-                "nameEn": "Hitachi-Aoyagi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Hitachi-Aoyagi",
+                    "ja": "常陸青柳",
+                    "ko": "히타치아오야기",
+                    "zh-Hans": "常陆青柳",
+                    "zh-Hant": "常陸青柳"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Suigun.HitachiTsuda",
                 "latitude": 36.403917,
                 "longitude": 140.482889,
-                "name": "常陸津田",
-                "nameEn": "Hitachi-Tsuda",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Hitachi-Tsuda",
+                    "ja": "常陸津田",
+                    "ko": "히타치쓰다",
+                    "zh-Hans": "常陆津田",
+                    "zh-Hant": "常陸津田"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Suigun.Godai",
                 "latitude": 36.42375,
                 "longitude": 140.489917,
-                "name": "後台",
-                "nameEn": "Godai",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Godai",
+                    "ja": "後台",
+                    "ko": "고다이",
+                    "zh-Hans": "後台",
+                    "zh-Hant": "後臺"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Suigun.ShimoSugaya",
                 "latitude": 36.435361,
                 "longitude": 140.494028,
-                "name": "下菅谷",
-                "nameEn": "Shimo-Sugaya",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shimo-Sugaya",
+                    "ja": "下菅谷",
+                    "ko": "시모스가야",
+                    "zh-Hans": "下菅谷",
+                    "zh-Hant": "下菅谷"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Suigun.NakaSugaya",
                 "latitude": 36.445583,
                 "longitude": 140.492639,
-                "name": "中菅谷",
-                "nameEn": "Naka-Sugaya",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Naka-Sugaya",
+                    "ja": "中菅谷",
+                    "ko": "나카스가야",
+                    "zh-Hans": "中菅谷",
+                    "zh-Hant": "中菅谷"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Suigun.KamiSugaya",
                 "latitude": 36.455361,
                 "longitude": 140.492639,
-                "name": "上菅谷",
-                "nameEn": "Kami-Sugaya",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kami-Sugaya",
+                    "ja": "上菅谷",
+                    "ko": "가미스가야",
+                    "zh-Hans": "上菅谷",
+                    "zh-Hant": "上菅谷"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Suigun.HitachiKonosu",
                 "latitude": 36.4725,
                 "longitude": 140.467417,
-                "name": "常陸鴻巣",
-                "nameEn": "Hitachi-Konosu",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Hitachi-Konosu",
+                    "ja": "常陸鴻巣",
+                    "ko": "히타치코노스",
+                    "zh-Hans": "常陆鸿巢",
+                    "zh-Hant": "常陸鴻巢"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Suigun.Urizura",
                 "latitude": 36.498056,
                 "longitude": 140.449806,
-                "name": "瓜連",
-                "nameEn": "Urizura",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Urizura",
+                    "ja": "瓜連",
+                    "ko": "우리즈라",
+                    "zh-Hans": "瓜连",
+                    "zh-Hant": "瓜連"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Suigun.Shizu",
                 "latitude": 36.506,
                 "longitude": 140.438111,
-                "name": "静",
-                "nameEn": "Shizu",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shizu",
+                    "ja": "静",
+                    "ko": "시즈",
+                    "zh-Hans": "静",
+                    "zh-Hant": "靜"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Suigun.HitachiOmiya",
                 "latitude": 36.547556,
                 "longitude": 140.412444,
-                "name": "常陸大宮",
-                "nameEn": "Hitachi-Omiya",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Hitachi-Omiya",
+                    "ja": "常陸大宮",
+                    "ko": "히타치오미야",
+                    "zh-Hans": "常陆大宫",
+                    "zh-Hant": "常陸大宮"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Suigun.Tamagawamura",
                 "latitude": 36.579111,
                 "longitude": 140.374417,
-                "name": "玉川村",
-                "nameEn": "Tamagawamura",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tamagawamura",
+                    "ja": "玉川村",
+                    "ko": "다마가와무라",
+                    "zh-Hans": "玉川村",
+                    "zh-Hant": "玉川村"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Suigun.Nogamihara",
                 "latitude": 36.605861,
                 "longitude": 140.390139,
-                "name": "野上原",
-                "nameEn": "Nogamihara",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nogamihara",
+                    "ja": "野上原",
+                    "ko": "노가미하라",
+                    "zh-Hans": "野上原",
+                    "zh-Hant": "野上原"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Suigun.Yamagatajuku",
                 "latitude": 36.624583,
                 "longitude": 140.40125,
-                "name": "山方宿",
-                "nameEn": "Yamagatajuku",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Yamagatajuku",
+                    "ja": "山方宿",
+                    "ko": "야마가타주쿠",
+                    "zh-Hans": "山方宿",
+                    "zh-Hant": "山方宿"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Suigun.NakaFunyu",
                 "latitude": 36.645667,
                 "longitude": 140.39225,
-                "name": "中舟生",
-                "nameEn": "Naka-Funyu",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Naka-Funyu",
+                    "ja": "中舟生",
+                    "ko": "나카후뉴",
+                    "zh-Hans": "中舟生",
+                    "zh-Hant": "中舟生"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Suigun.ShimoOgawa",
                 "latitude": 36.669083,
                 "longitude": 140.387111,
-                "name": "下小川",
-                "nameEn": "Shimo-Ogawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shimo-Ogawa",
+                    "ja": "下小川",
+                    "ko": "시모오가와",
+                    "zh-Hans": "下小川",
+                    "zh-Hant": "下小川"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Suigun.Saigane",
                 "latitude": 36.6955,
                 "longitude": 140.386472,
-                "name": "西金",
-                "nameEn": "Saigane",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Saigane",
+                    "ja": "西金",
+                    "ko": "사이가네",
+                    "zh-Hans": "西金",
+                    "zh-Hant": "西金"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Suigun.KamiOgawa",
                 "latitude": 36.719389,
                 "longitude": 140.378694,
-                "name": "上小川",
-                "nameEn": "Kami-Ogawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kami-Ogawa",
+                    "ja": "上小川",
+                    "ko": "가미오가와",
+                    "zh-Hans": "上小川",
+                    "zh-Hant": "上小川"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Suigun.Fukuroda",
                 "latitude": 36.754611,
                 "longitude": 140.379583,
-                "name": "袋田",
-                "nameEn": "Fukuroda",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Fukuroda",
+                    "ja": "袋田",
+                    "ko": "후쿠로다",
+                    "zh-Hans": "袋田",
+                    "zh-Hant": "袋田"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Suigun.HitachiDaigo",
                 "latitude": 36.770972,
                 "longitude": 140.350806,
-                "name": "常陸大子",
-                "nameEn": "Hitachi-Daigo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Hitachi-Daigo",
+                    "ja": "常陸大子",
+                    "ko": "히타치다이고",
+                    "zh-Hans": "常陆大子",
+                    "zh-Hant": "常陸大子"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Suigun.Shimonomiya",
                 "latitude": 36.81575,
                 "longitude": 140.375278,
-                "name": "下野宮",
-                "nameEn": "Shimonomiya",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shimonomiya",
+                    "ja": "下野宮",
+                    "ko": "시모노미야",
+                    "zh-Hans": "下野宫",
+                    "zh-Hant": "下野宮"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Suigun.Yamatsuriyama",
                 "latitude": 36.849944,
                 "longitude": 140.395333,
-                "name": "矢祭山",
-                "nameEn": "Yamatsuriyama",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Yamatsuriyama",
+                    "ja": "矢祭山",
+                    "ko": "야마쓰리야마",
+                    "zh-Hans": "矢祭山",
+                    "zh-Hant": "矢祭山"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Suigun.Higashidate",
                 "latitude": 36.870194,
                 "longitude": 140.423444,
-                "name": "東館",
-                "nameEn": "Higashidate",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Higashidate",
+                    "ja": "東館",
+                    "ko": "히가시다테",
+                    "zh-Hans": "东馆",
+                    "zh-Hant": "東館"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Suigun.MinamiIshii",
                 "latitude": 36.894694,
                 "longitude": 140.416917,
-                "name": "南石井",
-                "nameEn": "Minami-Ishii",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Minami-Ishii",
+                    "ja": "南石井",
+                    "ko": "미나미이시이",
+                    "zh-Hans": "南石井",
+                    "zh-Hant": "南石井"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Suigun.IwakiIshii",
                 "latitude": 36.904639,
                 "longitude": 140.415306,
-                "name": "磐城石井",
-                "nameEn": "Iwaki-Ishii",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Iwaki-Ishii",
+                    "ja": "磐城石井",
+                    "ko": "이와키이시이",
+                    "zh-Hans": "磐城石井",
+                    "zh-Hant": "磐城石井"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Suigun.IwakiHanawa",
                 "latitude": 36.958583,
                 "longitude": 140.412056,
-                "name": "磐城塙",
-                "nameEn": "Iwaki-Hanawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Iwaki-Hanawa",
+                    "ja": "磐城塙",
+                    "ko": "이와키하나와",
+                    "zh-Hans": "磐城塙",
+                    "zh-Hant": "磐城塙"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Suigun.Chikatsu",
                 "latitude": 37.000472,
                 "longitude": 140.393667,
-                "name": "近津",
-                "nameEn": "Chikatsu",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Chikatsu",
+                    "ja": "近津",
+                    "ko": "지카쓰",
+                    "zh-Hans": "近津",
+                    "zh-Hant": "近津"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Suigun.Nakatoyo",
                 "latitude": 37.022472,
                 "longitude": 140.39325,
-                "name": "中豊",
-                "nameEn": "Nakatoyo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nakatoyo",
+                    "ja": "中豊",
+                    "ko": "나카토요",
+                    "zh-Hans": "中丰",
+                    "zh-Hant": "中豐"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Suigun.IwakiTanakura",
                 "latitude": 37.035056,
                 "longitude": 140.384417,
-                "name": "磐城棚倉",
-                "nameEn": "Iwaki-Tanakura",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Iwaki-Tanakura",
+                    "ja": "磐城棚倉",
+                    "ko": "이와키타나쿠라",
+                    "zh-Hans": "磐城棚仓",
+                    "zh-Hant": "磐城棚倉"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Suigun.IwakiAsakawa",
                 "latitude": 37.079806,
                 "longitude": 140.414417,
-                "name": "磐城浅川",
-                "nameEn": "Iwaki-Asakawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Iwaki-Asakawa",
+                    "ja": "磐城浅川",
+                    "ko": "이와키아사카와",
+                    "zh-Hans": "磐城浅川",
+                    "zh-Hant": "磐城淺川"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Suigun.Satoshiraishi",
                 "latitude": 37.104417,
                 "longitude": 140.41675,
-                "name": "里白石",
-                "nameEn": "Satoshiraishi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Satoshiraishi",
+                    "ja": "里白石",
+                    "ko": "사토시라이시",
+                    "zh-Hans": "里白石",
+                    "zh-Hant": "裏白石"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Suigun.IwakiIshikawa",
                 "latitude": 37.140722,
                 "longitude": 140.444111,
-                "name": "磐城石川",
-                "nameEn": "Iwaki-Ishikawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Iwaki-Ishikawa",
+                    "ja": "磐城石川",
+                    "ko": "이와키이시카와",
+                    "zh-Hans": "磐城石川",
+                    "zh-Hant": "磐城石川"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Suigun.Nogisawa",
                 "latitude": 37.17525,
                 "longitude": 140.421028,
-                "name": "野木沢",
-                "nameEn": "Nogisawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nogisawa",
+                    "ja": "野木沢",
+                    "ko": "노기사와",
+                    "zh-Hans": "野木泽",
+                    "zh-Hant": "野木澤"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Suigun.Kawabeoki",
                 "latitude": 37.192528,
                 "longitude": 140.405917,
-                "name": "川辺沖",
-                "nameEn": "Kawabeoki",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kawabeoki",
+                    "ja": "川辺沖",
+                    "ko": "가와베오키",
+                    "zh-Hans": "川边冲",
+                    "zh-Hant": "川邊沖"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Suigun.Izumigo",
                 "latitude": 37.214472,
                 "longitude": 140.405667,
-                "name": "泉郷",
-                "nameEn": "Izumigo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Izumigo",
+                    "ja": "泉郷",
+                    "ko": "이즈미고",
+                    "zh-Hans": "泉乡",
+                    "zh-Hant": "泉鄉"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Suigun.Kawahigashi",
                 "latitude": 37.269861,
                 "longitude": 140.406139,
-                "name": "川東",
-                "nameEn": "Kawahigashi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kawahigashi",
+                    "ja": "川東",
+                    "ko": "가와히가시",
+                    "zh-Hans": "川东",
+                    "zh-Hant": "川東"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Suigun.Oshioe",
                 "latitude": 37.295694,
                 "longitude": 140.430333,
-                "name": "小塩江",
-                "nameEn": "Oshioe",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Oshioe",
+                    "ja": "小塩江",
+                    "ko": "오시오에",
+                    "zh-Hans": "小盐江",
+                    "zh-Hant": "小鹽江"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Suigun.Yatagawa",
                 "latitude": 37.31375,
                 "longitude": 140.431139,
-                "name": "谷田川",
-                "nameEn": "Yatagawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Yatagawa",
+                    "ja": "谷田川",
+                    "ko": "야타가와",
+                    "zh-Hans": "谷田川",
+                    "zh-Hant": "谷田川"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Suigun.IwakiMoriyama",
                 "latitude": 37.33075,
                 "longitude": 140.406611,
-                "name": "磐城守山",
-                "nameEn": "Iwaki-Moriyama",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Iwaki-Moriyama",
+                    "ja": "磐城守山",
+                    "ko": "이와키모리야마",
+                    "zh-Hans": "磐城守山",
+                    "zh-Hant": "磐城守山"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Suigun.AsakaNagamori",
                 "latitude": 37.357011,
                 "longitude": 140.369089,
-                "name": "安積永盛",
-                "nameEn": "Asaka-Nagamori",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Asaka-Nagamori",
+                    "ja": "安積永盛",
+                    "ko": "아사카나가모리",
+                    "zh-Hans": "安积永盛",
+                    "zh-Hant": "安積永盛"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Suigun.Koriyama",
                 "latitude": 37.397778,
                 "longitude": 140.388333,
-                "name": "郡山",
-                "nameEn": "Koriyama",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Koriyama",
+                    "ja": "郡山",
+                    "ko": "고리야마",
+                    "zh-Hans": "郡山",
+                    "zh-Hant": "郡山"
+                },
                 "stationCode": ""
             }
         ],
@@ -748,10 +843,14 @@
                 "connectingLineId": "Railway:JR-East.SuigunHitachiota",
                 "end": "descending",
                 "junctionStationId": "Station:JR-East.Suigun.KamiSugaya",
-                "lineNameEn": "Suigun Line (Hitachiota Branch)",
-                "lineNameJa": "水郡線常陸太田支線",
-                "towardEn": "for Hitachiota",
-                "towardJa": "常陸太田方面"
+                "lineName": {
+                    "en": "Suigun Line (Hitachiota Branch)",
+                    "ja": "水郡線常陸太田支線"
+                },
+                "toward": {
+                    "en": "for Hitachiota",
+                    "ja": "常陸太田方面"
+                }
             }
         ],
         "timetableRuns": [
@@ -780,9 +879,11 @@
                 "startsHere": false,
                 "stops": [370, 374, 377, 380, 382, 384, 390],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "常陸太田",
-                "throughDestEn": "Hitachiota"
+                "throughDest": {
+                    "en": "Hitachiota",
+                    "ja": "常陸太田"
+                },
+                "type": "Local"
             },
             {
                 "ascending": true,
@@ -809,9 +910,11 @@
                 "startsHere": false,
                 "stops": [428, 432, 435, 439, 442, 445, 451],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "常陸太田",
-                "throughDestEn": "Hitachiota"
+                "throughDest": {
+                    "en": "Hitachiota",
+                    "ja": "常陸太田"
+                },
+                "type": "Local"
             },
             {
                 "ascending": true,
@@ -829,9 +932,11 @@
                 "startsHere": false,
                 "stops": [497, 502, 505, 508, 512, 514, 517],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "常陸太田",
-                "throughDestEn": "Hitachiota"
+                "throughDest": {
+                    "en": "Hitachiota",
+                    "ja": "常陸太田"
+                },
+                "type": "Local"
             },
             {
                 "ascending": true,
@@ -840,9 +945,11 @@
                 "startsHere": false,
                 "stops": [548, 552, 555, 558, 561, 563, 585],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "常陸太田",
-                "throughDestEn": "Hitachiota"
+                "throughDest": {
+                    "en": "Hitachiota",
+                    "ja": "常陸太田"
+                },
+                "type": "Local"
             },
             {
                 "ascending": true,
@@ -923,9 +1030,11 @@
                 "startsHere": false,
                 "stops": [930, 934, 937, 940, 943, 945, 948],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "常陸太田",
-                "throughDestEn": "Hitachiota"
+                "throughDest": {
+                    "en": "Hitachiota",
+                    "ja": "常陸太田"
+                },
+                "type": "Local"
             },
             {
                 "ascending": true,
@@ -952,9 +1061,11 @@
                 "startsHere": false,
                 "stops": [1011, 1015, 1018, 1021, 1023, 1025, 1028],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "常陸太田",
-                "throughDestEn": "Hitachiota"
+                "throughDest": {
+                    "en": "Hitachiota",
+                    "ja": "常陸太田"
+                },
+                "type": "Local"
             },
             {
                 "ascending": true,
@@ -990,9 +1101,11 @@
                 "startsHere": false,
                 "stops": [1104, 1107, 1110, 1114, 1117, 1119, 1128],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "常陸太田",
-                "throughDestEn": "Hitachiota"
+                "throughDest": {
+                    "en": "Hitachiota",
+                    "ja": "常陸太田"
+                },
+                "type": "Local"
             },
             {
                 "ascending": true,
@@ -1019,9 +1132,11 @@
                 "startsHere": false,
                 "stops": [1162, 1166, 1169, 1172, 1175, 1178, 1181],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "常陸太田",
-                "throughDestEn": "Hitachiota"
+                "throughDest": {
+                    "en": "Hitachiota",
+                    "ja": "常陸太田"
+                },
+                "type": "Local"
             },
             {
                 "ascending": true,
@@ -1318,9 +1433,11 @@
                 "startsHere": false,
                 "stops": [1184, 1194, 1199, 1203, 1207, 1212, 1219, 1223, 1226],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "磐城石川",
-                "throughDestEn": "磐城石川"
+                "throughDest": {
+                    "en": "磐城石川",
+                    "ja": "磐城石川"
+                },
+                "type": "Local"
             },
             {
                 "ascending": false,
@@ -1338,9 +1455,11 @@
                 "startsHere": false,
                 "stops": [1297, 1303, 1309, 1321, 1325, 1330, 1337, 1340, 1344, 1350, 1357, 1361],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "磐城棚倉",
-                "throughDestEn": "磐城棚倉"
+                "throughDest": {
+                    "en": "磐城棚倉",
+                    "ja": "磐城棚倉"
+                },
+                "type": "Local"
             },
             {
                 "ascending": true,
@@ -1367,9 +1486,11 @@
                 "startsHere": false,
                 "stops": [370, 374, 377, 380, 382, 384, 390],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "常陸太田",
-                "throughDestEn": "Hitachiota"
+                "throughDest": {
+                    "en": "Hitachiota",
+                    "ja": "常陸太田"
+                },
+                "type": "Local"
             },
             {
                 "ascending": true,
@@ -1378,9 +1499,7 @@
                 "startsHere": false,
                 "stops": [383, 386, 389, 392, 395, 397, 400, 404, 411, 413, 420, 428, 432, 439, 443, 447, 452, 456, 462],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "",
-                "throughDestEn": ""
+                "type": "Local"
             },
             {
                 "ascending": true,
@@ -1398,9 +1517,11 @@
                 "startsHere": false,
                 "stops": [428, 432, 435, 439, 442, 445, 451],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "常陸太田",
-                "throughDestEn": "Hitachiota"
+                "throughDest": {
+                    "en": "Hitachiota",
+                    "ja": "常陸太田"
+                },
+                "type": "Local"
             },
             {
                 "ascending": true,
@@ -1418,9 +1539,11 @@
                 "startsHere": false,
                 "stops": [497, 502, 505, 508, 512, 514, 517],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "常陸太田",
-                "throughDestEn": "Hitachiota"
+                "throughDest": {
+                    "en": "Hitachiota",
+                    "ja": "常陸太田"
+                },
+                "type": "Local"
             },
             {
                 "ascending": true,
@@ -1429,9 +1552,11 @@
                 "startsHere": false,
                 "stops": [548, 552, 555, 558, 561, 563, 585],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "常陸太田",
-                "throughDestEn": "Hitachiota"
+                "throughDest": {
+                    "en": "Hitachiota",
+                    "ja": "常陸太田"
+                },
+                "type": "Local"
             },
             {
                 "ascending": true,
@@ -1458,9 +1583,7 @@
                 "startsHere": false,
                 "stops": [675, 678, 681, 685, 688, 691, 693, 697, 701, 704, 710, 719, 723, 727, 731, 735, 740, 744, 750],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "",
-                "throughDestEn": ""
+                "type": "Local"
             },
             {
                 "ascending": true,
@@ -1478,9 +1601,7 @@
                 "startsHere": false,
                 "stops": [793, 796, 799, 802, 804, 807, 809, 813, 817, 819, 826, 831, 836, 840, 844, 848, 853, 860, 865],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "",
-                "throughDestEn": ""
+                "type": "Local"
             },
             {
                 "ascending": true,
@@ -1516,9 +1637,11 @@
                 "startsHere": false,
                 "stops": [930, 934, 937, 940, 943, 945, 948],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "常陸太田",
-                "throughDestEn": "Hitachiota"
+                "throughDest": {
+                    "en": "Hitachiota",
+                    "ja": "常陸太田"
+                },
+                "type": "Local"
             },
             {
                 "ascending": true,
@@ -1536,9 +1659,7 @@
                 "startsHere": false,
                 "stops": [977, 981, 984, 988, 991, 993, 1003, 1007, 1010, 1013, 1019, 1025, 1029, 1033, 1037, 1041, 1046, 1050, 1056],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "",
-                "throughDestEn": ""
+                "type": "Local"
             },
             {
                 "ascending": true,
@@ -1547,9 +1668,11 @@
                 "startsHere": false,
                 "stops": [1011, 1015, 1018, 1021, 1023, 1025, 1028],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "常陸太田",
-                "throughDestEn": "Hitachiota"
+                "throughDest": {
+                    "en": "Hitachiota",
+                    "ja": "常陸太田"
+                },
+                "type": "Local"
             },
             {
                 "ascending": true,
@@ -1567,9 +1690,7 @@
                 "startsHere": false,
                 "stops": [1058, 1062, 1065, 1068, 1072, 1074, 1077, 1081, 1085, 1087, 1094, 1103, 1107, 1111, 1115, 1119, 1124, 1128, 1134],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "",
-                "throughDestEn": ""
+                "type": "Local"
             },
             {
                 "ascending": true,
@@ -1587,9 +1708,11 @@
                 "startsHere": false,
                 "stops": [1104, 1107, 1110, 1114, 1117, 1119, 1128],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "常陸太田",
-                "throughDestEn": "Hitachiota"
+                "throughDest": {
+                    "en": "Hitachiota",
+                    "ja": "常陸太田"
+                },
+                "type": "Local"
             },
             {
                 "ascending": true,
@@ -1598,9 +1721,7 @@
                 "startsHere": false,
                 "stops": [1122, 1126, 1129, 1132, 1135, 1137, 1140, 1144, 1148, 1150, 1157, 1163, 1167, 1175, 1179, 1183, 1188, 1193, 1199],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "",
-                "throughDestEn": ""
+                "type": "Local"
             },
             {
                 "ascending": true,
@@ -1618,9 +1739,11 @@
                 "startsHere": false,
                 "stops": [1162, 1166, 1169, 1172, 1175, 1178, 1181],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "常陸太田",
-                "throughDestEn": "Hitachiota"
+                "throughDest": {
+                    "en": "Hitachiota",
+                    "ja": "常陸太田"
+                },
+                "type": "Local"
             },
             {
                 "ascending": true,
@@ -1629,9 +1752,7 @@
                 "startsHere": false,
                 "stops": [1217, 1221, 1224, 1228, 1231, 1233, 1236, 1240, 1244, 1246, 1253, 1265, 1270, 1273, 1277, 1281, 1286, 1290, 1296],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "",
-                "throughDestEn": ""
+                "type": "Local"
             },
             {
                 "ascending": true,
@@ -1640,9 +1761,7 @@
                 "startsHere": false,
                 "stops": [1282, 1285, 1288, 1291, 1294, 1297, 1299, 1303, 1307, 1310, 1316, 1322, 1326, 1330, 1334, 1338, 1343, 1347, 1353],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "",
-                "throughDestEn": ""
+                "type": "Local"
             },
             {
                 "ascending": true,
@@ -1651,9 +1770,7 @@
                 "startsHere": false,
                 "stops": [1350, 1353, 1357, 1360, 1363, 1365, 1368, 1372, 1375, 1378, 1384, 1390, 1395, 1398, 1402, 1406, 1411, 1415, 1421],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "",
-                "throughDestEn": ""
+                "type": "Local"
             },
             {
                 "ascending": true,
@@ -1923,9 +2040,11 @@
                 "startsHere": false,
                 "stops": [1184, 1194, 1199, 1203, 1207, 1212, 1219, 1223, 1226],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "磐城石川",
-                "throughDestEn": "磐城石川"
+                "throughDest": {
+                    "en": "磐城石川",
+                    "ja": "磐城石川"
+                },
+                "type": "Local"
             },
             {
                 "ascending": false,
@@ -1943,9 +2062,11 @@
                 "startsHere": false,
                 "stops": [1297, 1303, 1309, 1321, 1325, 1330, 1337, 1340, 1344, 1350, 1357, 1361],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "磐城棚倉",
-                "throughDestEn": "磐城棚倉"
+                "throughDest": {
+                    "en": "磐城棚倉",
+                    "ja": "磐城棚倉"
+                },
+                "type": "Local"
             }
         ],
         "upHopTimesMinutes": [4, 3, 3, 2, 3, 2, 5, 4, 3, 6, 6, 5, 4, 3.5, 4, 5, 4, 6, 5.5, 16, 6, 5, 3, 2, 7, 7.5, 3, 3, 8, 4, 6.5, 7, 4, 3, 7, 5, 4, 5, 6, 6]

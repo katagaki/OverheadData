@@ -2,10 +2,14 @@
     {
         "colorHex": "#DB0042",
         "delayInfo": {
-            "checkMethodEn": "Check the Tokyu train operation information page, the Tokyu Lines app, or X (@tokyu_official). Delays or suspensions of 15 minutes or more are posted.",
-            "checkMethodJa": "東急電鉄「運行情報」ページ、東急線アプリ、またはX（@tokyu_official）で確認できます。15分以上の遅れ・運転見合わせが発生または見込まれる場合に掲載されます。",
-            "statusPageURL": "https://www.tokyu.co.jp/unten2/unten.html",
-            "statusPageURLEn": "https://www.tokyu.co.jp/unten2/unten.html",
+            "checkMethod": {
+                "en": "Check the Tokyu train operation information page, the Tokyu Lines app, or X (@tokyu_official). Delays or suspensions of 15 minutes or more are posted.",
+                "ja": "東急電鉄「運行情報」ページ、東急線アプリ、またはX（@tokyu_official）で確認できます。15分以上の遅れ・運転見合わせが発生または見込まれる場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://www.tokyu.co.jp/unten2/unten.html",
+                "ja": "https://www.tokyu.co.jp/unten2/unten.html"
+            },
             "xAccount": "@tokyu_official"
         },
         "directions": [
@@ -2103,8 +2107,10 @@
                 "id": "static.RailDirection:Tokyu.Toyoko.Yokohama",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Yokohama & Motomachi-Chukagai",
-                "nameJa": "横浜・元町・中華街方面",
+                "name": {
+                    "en": "For Yokohama & Motomachi-Chukagai",
+                    "ja": "横浜・元町・中華街方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -3760,8 +3766,10 @@
                 "id": "static.RailDirection:Tokyu.Toyoko.Shibuya",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Shibuya & Wakoshi",
-                "nameJa": "渋谷・和光市方面",
+                "name": {
+                    "en": "For Shibuya & Wakoshi",
+                    "ja": "渋谷・和光市方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -3821,239 +3829,286 @@
         "hopTimesMinutes": [2, 1.5, 2, 2, 2, 2, 5, 1, 2, 2, 2, 2, 2, 2, 2, 5.5, 2, 1.5, 2, 2],
         "id": "Railway:Tokyu.Toyoko",
         "isLoop": false,
-        "nameEn": "Tokyu Toyoko Line",
-        "nameJa": "東急東横線",
+        "name": {
+            "en": "Tokyu Toyoko Line",
+            "ja": "東急東横線",
+            "ko": "도쿄 급행 전철 도요코선",
+            "zh-Hans": "东横线",
+            "zh-Hant": "東橫線"
+        },
         "operatorId": "Operator:Tokyu",
         "stations": [
             {
                 "id": "Station:Tokyu.Toyoko.Shibuya",
                 "latitude": 35.658,
                 "longitude": 139.7016,
-                "name": "渋谷",
-                "nameEn": "Shibuya",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shibuya",
+                    "ja": "渋谷",
+                    "ko": "시부야",
+                    "zh-Hans": "涩谷",
+                    "zh-Hant": "澀谷"
+                },
                 "stationCode": "TY01"
             },
             {
                 "id": "Station:Tokyu.Toyoko.Daikanyama",
                 "latitude": 35.6485,
                 "longitude": 139.703,
-                "name": "代官山",
-                "nameEn": "Daikanyama",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Daikanyama",
+                    "ja": "代官山",
+                    "ko": "다이칸야마",
+                    "zh-Hans": "代官山",
+                    "zh-Hant": "代官山"
+                },
                 "stationCode": "TY02"
             },
             {
                 "id": "Station:Tokyu.Toyoko.Nakameguro",
                 "latitude": 35.644,
                 "longitude": 139.699,
-                "name": "中目黒",
-                "nameEn": "Nakameguro",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nakameguro",
+                    "ja": "中目黒",
+                    "ko": "나카메구로",
+                    "zh-Hans": "中目黑",
+                    "zh-Hant": "中目黑"
+                },
                 "stationCode": "TY03"
             },
             {
                 "id": "Station:Tokyu.Toyoko.Yutenji",
                 "latitude": 35.637575,
                 "longitude": 139.691007,
-                "name": "祐天寺",
-                "nameEn": "Yutenji",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Yutenji",
+                    "ja": "祐天寺",
+                    "ko": "유텐지",
+                    "zh-Hans": "祐天寺",
+                    "zh-Hant": "祐天寺"
+                },
                 "stationCode": "TY04"
             },
             {
                 "id": "Station:Tokyu.Toyoko.GakugeiDaigaku",
                 "latitude": 35.628,
                 "longitude": 139.6855,
-                "name": "学芸大学",
-                "nameEn": "Gakugei-daigaku",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Gakugei-daigaku",
+                    "ja": "学芸大学",
+                    "ko": "가쿠게이 대학",
+                    "zh-Hans": "学艺大学",
+                    "zh-Hant": "學藝大學"
+                },
                 "stationCode": "TY05"
             },
             {
                 "id": "Station:Tokyu.Toyoko.ToritsuDaigaku",
                 "latitude": 35.617543,
                 "longitude": 139.676184,
-                "name": "都立大学",
-                "nameEn": "Toritsu-daigaku",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Toritsu-daigaku",
+                    "ja": "都立大学",
+                    "ko": "도립대학",
+                    "zh-Hans": "都立大学",
+                    "zh-Hant": "都立大學"
+                },
                 "stationCode": "TY06"
             },
             {
                 "id": "Station:Tokyu.Toyoko.Jiyugaoka",
                 "latitude": 35.6076,
                 "longitude": 139.669,
-                "name": "自由が丘",
-                "nameEn": "Jiyugaoka",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Jiyugaoka",
+                    "ja": "自由が丘",
+                    "ko": "지유가오카",
+                    "zh-Hans": "自由之丘",
+                    "zh-Hant": "自由之丘"
+                },
                 "stationCode": "TY07"
             },
             {
                 "id": "Station:Tokyu.Toyoko.DenenChofu",
                 "latitude": 35.59689,
                 "longitude": 139.667368,
-                "name": "田園調布",
-                "nameEn": "Den-en-chofu",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Den-en-chofu",
+                    "ja": "田園調布",
+                    "ko": "덴엔초후",
+                    "zh-Hans": "田园调布",
+                    "zh-Hant": "田園調布"
+                },
                 "stationCode": "TY08"
             },
             {
                 "id": "Station:Tokyu.Toyoko.Tamagawa",
                 "latitude": 35.589691,
                 "longitude": 139.668794,
-                "name": "多摩川",
-                "nameEn": "Tamagawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tamagawa",
+                    "ja": "多摩川",
+                    "ko": "다마가와",
+                    "zh-Hans": "多摩川",
+                    "zh-Hant": "多摩川"
+                },
                 "stationCode": "TY09"
             },
             {
                 "id": "Station:Tokyu.Toyoko.ShinMaruko",
                 "latitude": 35.580665,
                 "longitude": 139.662052,
-                "name": "新丸子",
-                "nameEn": "Shin-maruko",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shin-maruko",
+                    "ja": "新丸子",
+                    "ko": "신마루코",
+                    "zh-Hans": "新丸子",
+                    "zh-Hant": "新丸子"
+                },
                 "stationCode": "TY10"
             },
             {
                 "id": "Station:Tokyu.Toyoko.MusashiKosugi",
                 "latitude": 35.5766,
                 "longitude": 139.6597,
-                "name": "武蔵小杉",
-                "nameEn": "Musashi-Kosugi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Musashi-Kosugi",
+                    "ja": "武蔵小杉",
+                    "ko": "무사시코스기",
+                    "zh-Hans": "武藏小杉",
+                    "zh-Hant": "武藏小杉"
+                },
                 "stationCode": "TY11"
             },
             {
                 "id": "Station:Tokyu.Toyoko.Motosumiyoshi",
                 "latitude": 35.564449,
                 "longitude": 139.654064,
-                "name": "元住吉",
-                "nameEn": "Motosumiyoshi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Motosumiyoshi",
+                    "ja": "元住吉",
+                    "ko": "모토스미요시",
+                    "zh-Hans": "元住吉",
+                    "zh-Hant": "元住吉"
+                },
                 "stationCode": "TY12"
             },
             {
                 "id": "Station:Tokyu.Toyoko.Hiyoshi",
                 "latitude": 35.554,
                 "longitude": 139.647,
-                "name": "日吉",
-                "nameEn": "Hiyoshi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Hiyoshi",
+                    "ja": "日吉",
+                    "ko": "히요시",
+                    "zh-Hans": "日吉",
+                    "zh-Hant": "日吉"
+                },
                 "stationCode": "TY13"
             },
             {
                 "id": "Station:Tokyu.Toyoko.Tsunashima",
                 "latitude": 35.536742,
                 "longitude": 139.634683,
-                "name": "綱島",
-                "nameEn": "Tsunashima",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tsunashima",
+                    "ja": "綱島",
+                    "ko": "쓰나시마",
+                    "zh-Hans": "纲岛",
+                    "zh-Hant": "綱島"
+                },
                 "stationCode": "TY14"
             },
             {
                 "id": "Station:Tokyu.Toyoko.Okurayama",
                 "latitude": 35.52186,
                 "longitude": 139.629859,
-                "name": "大倉山",
-                "nameEn": "Okurayama",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Okurayama",
+                    "ja": "大倉山",
+                    "ko": "오쿠라야마",
+                    "zh-Hans": "大仓山",
+                    "zh-Hant": "大倉山"
+                },
                 "stationCode": "TY15"
             },
             {
                 "id": "Station:Tokyu.Toyoko.Kikuna",
                 "latitude": 35.510385,
                 "longitude": 139.631331,
-                "name": "菊名",
-                "nameEn": "Kikuna",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kikuna",
+                    "ja": "菊名",
+                    "ko": "기쿠나",
+                    "zh-Hans": "菊名",
+                    "zh-Hant": "菊名"
+                },
                 "stationCode": "TY16"
             },
             {
                 "id": "Station:Tokyu.Toyoko.Myorenji",
                 "latitude": 35.498536,
                 "longitude": 139.633226,
-                "name": "妙蓮寺",
-                "nameEn": "Myorenji",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Myorenji",
+                    "ja": "妙蓮寺",
+                    "ko": "묘렌지",
+                    "zh-Hans": "妙莲寺",
+                    "zh-Hant": "妙蓮寺"
+                },
                 "stationCode": "TY17"
             },
             {
                 "id": "Station:Tokyu.Toyoko.Hakuraku",
                 "latitude": 35.489675,
                 "longitude": 139.627922,
-                "name": "白楽",
-                "nameEn": "Hakuraku",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Hakuraku",
+                    "ja": "白楽",
+                    "ko": "하쿠라쿠",
+                    "zh-Hans": "白乐",
+                    "zh-Hant": "白樂"
+                },
                 "stationCode": "TY18"
             },
             {
                 "id": "Station:Tokyu.Toyoko.HigashiHakuraku",
                 "latitude": 35.483247,
                 "longitude": 139.629475,
-                "name": "東白楽",
-                "nameEn": "Higashi-hakuraku",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Higashi-hakuraku",
+                    "ja": "東白楽",
+                    "ko": "히가시하쿠라쿠",
+                    "zh-Hans": "东白乐",
+                    "zh-Hant": "東白樂"
+                },
                 "stationCode": "TY19"
             },
             {
                 "id": "Station:Tokyu.Toyoko.Tammachi",
                 "latitude": 35.474682,
                 "longitude": 139.625249,
-                "name": "反町",
-                "nameEn": "Tammachi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tammachi",
+                    "ja": "反町",
+                    "ko": "단마치",
+                    "zh-Hans": "反町",
+                    "zh-Hant": "反町"
+                },
                 "stationCode": "TY20"
             },
             {
                 "id": "Station:Tokyu.Toyoko.Yokohama",
                 "latitude": 35.4657,
                 "longitude": 139.6224,
-                "name": "横浜",
-                "nameEn": "Yokohama",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Yokohama",
+                    "ja": "横浜",
+                    "ko": "요코하마",
+                    "zh-Hans": "横滨",
+                    "zh-Hant": "橫濱"
+                },
                 "stationCode": "TY21"
             }
         ],
@@ -4070,28 +4125,40 @@
                 "connectingLineId": "Railway:TokyoMetro.Fukutoshin",
                 "end": "descending",
                 "junctionStationId": "Station:Tokyu.Toyoko.Shibuya",
-                "lineNameEn": "Tokyo Metro Fukutoshin Line",
-                "lineNameJa": "東京メトロ副都心線",
-                "towardEn": "for Ikebukuro & Wakoshi",
-                "towardJa": "池袋・和光市方面"
+                "lineName": {
+                    "en": "Tokyo Metro Fukutoshin Line",
+                    "ja": "東京メトロ副都心線"
+                },
+                "toward": {
+                    "en": "for Ikebukuro & Wakoshi",
+                    "ja": "池袋・和光市方面"
+                }
             },
             {
                 "connectingLineId": "Railway:Minatomirai.Minatomirai",
                 "end": "ascending",
                 "junctionStationId": "Station:Tokyu.Toyoko.Yokohama",
-                "lineNameEn": "Minatomirai Line",
-                "lineNameJa": "みなとみらい線",
-                "towardEn": "for Motomachi-Chukagai",
-                "towardJa": "元町・中華街方面"
+                "lineName": {
+                    "en": "Minatomirai Line",
+                    "ja": "みなとみらい線"
+                },
+                "toward": {
+                    "en": "for Motomachi-Chukagai",
+                    "ja": "元町・中華街方面"
+                }
             },
             {
                 "connectingLineId": "Railway:Tokyu.TokyuShinYokohama",
                 "end": "ascending",
                 "junctionStationId": "Station:Tokyu.Toyoko.Hiyoshi",
-                "lineNameEn": "Tokyu Shin-Yokohama Line",
-                "lineNameJa": "東急新横浜線",
-                "towardEn": "for Shin-Yokohama & the Sotetsu Line",
-                "towardJa": "新横浜・相鉄線方面"
+                "lineName": {
+                    "en": "Tokyu Shin-Yokohama Line",
+                    "ja": "東急新横浜線"
+                },
+                "toward": {
+                    "en": "for Shin-Yokohama & the Sotetsu Line",
+                    "ja": "新横浜・相鉄線方面"
+                }
             }
         ],
         "upHopTimesMinutes": [3, 2, 3, 2, 2, 5, 2, 2, 2, 1, 2, 2, 2.5, 2, 5, 2.5, 2, 2, 2, 1]

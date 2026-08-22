@@ -2,10 +2,14 @@
     {
         "colorHex": "#00B2E5",
         "delayInfo": {
-            "checkMethodEn": "Check the JR East Train Operation Information page or the JR East app. In the Tokyo area, delays or suspensions of 15 minutes or more are posted.",
-            "checkMethodJa": "JR東日本「列車運行情報」ページまたはJR東日本アプリで確認できます。首都圏エリアでは15分以上の遅れ・運休が発生または見込まれる場合に掲載されます。",
-            "statusPageURL": "https://traininfo.jreast.co.jp/train_info/line.aspx?gid=1&lineid=keihin-tohokuline",
-            "statusPageURLEn": "https://traininfo.jreast.co.jp/train_info/e/kanto.aspx",
+            "checkMethod": {
+                "en": "Check the JR East Train Operation Information page or the JR East app. In the Tokyo area, delays or suspensions of 15 minutes or more are posted.",
+                "ja": "JR東日本「列車運行情報」ページまたはJR東日本アプリで確認できます。首都圏エリアでは15分以上の遅れ・運休が発生または見込まれる場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://traininfo.jreast.co.jp/train_info/e/kanto.aspx",
+                "ja": "https://traininfo.jreast.co.jp/train_info/line.aspx?gid=1&lineid=keihin-tohokuline"
+            },
             "xAccount": "@JRE_F_Tokaido"
         },
         "directions": [
@@ -87,16 +91,20 @@
                                 "departure": "08:22",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "08:40",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -298,16 +306,20 @@
                                 "departure": "18:49",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "19:35",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -324,8 +336,10 @@
                                 "departure": "20:24",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -451,32 +465,40 @@
                                 "departure": "08:27",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "08:40",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "08:54",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "09:14",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -606,8 +628,10 @@
                                 "departure": "17:01",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -619,8 +643,10 @@
                                 "departure": "17:28",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -653,8 +679,10 @@
                                 "departure": "18:30",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hashimoto",
-                                "throughDestJa": "橋本"
+                                "throughDest": {
+                                    "en": "Hashimoto",
+                                    "ja": "橋本"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -666,16 +694,20 @@
                                 "departure": "19:13",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hashimoto",
-                                "throughDestJa": "橋本"
+                                "throughDest": {
+                                    "en": "Hashimoto",
+                                    "ja": "橋本"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "19:33",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -688,8 +720,10 @@
                                 "departure": "19:55",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -757,32 +791,40 @@
                                 "departure": "05:37",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "06:03",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "06:55",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hashimoto",
-                                "throughDestJa": "橋本"
+                                "throughDest": {
+                                    "en": "Hashimoto",
+                                    "ja": "橋本"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "07:12",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -794,416 +836,520 @@
                                 "departure": "08:03",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "09:09",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "09:21",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "10:01",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "10:21",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "10:32",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "10:41",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "10:52",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "11:01",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "11:12",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "11:21",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "11:32",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "11:41",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "11:52",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "12:01",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "12:12",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "12:21",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "12:32",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "12:41",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "12:52",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "13:01",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "13:12",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "13:21",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "13:32",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "13:41",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "13:52",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "14:01",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "14:12",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "14:21",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "14:32",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "14:41",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "14:52",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "15:01",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "15:12",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "15:21",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "15:31",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "15:41",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "15:51",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "16:01",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "16:11",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "16:21",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "16:32",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "16:41",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "16:53",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "17:01",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "17:12",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "17:21",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "17:30",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "17:41",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hashimoto",
-                                "throughDestJa": "橋本"
+                                "throughDest": {
+                                    "en": "Hashimoto",
+                                    "ja": "橋本"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "17:53",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "18:16",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hashimoto",
-                                "throughDestJa": "橋本"
+                                "throughDest": {
+                                    "en": "Hashimoto",
+                                    "ja": "橋本"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "18:43",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hashimoto",
-                                "throughDestJa": "橋本"
+                                "throughDest": {
+                                    "en": "Hashimoto",
+                                    "ja": "橋本"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -1243,24 +1389,30 @@
                                 "departure": "20:59",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "21:49",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "22:47",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -1279,8 +1431,10 @@
                                 "departure": "23:22",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             }
                         ],
                         "stationId": "Station:JR-East.KeihinTohoku.Sakuragicho",
@@ -1301,24 +1455,30 @@
                                 "departure": "05:39",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "06:06",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "06:24",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -1330,8 +1490,10 @@
                                 "departure": "06:53",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -1343,8 +1505,10 @@
                                 "departure": "07:15",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -1357,8 +1521,10 @@
                                 "departure": "07:54",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -1371,16 +1537,20 @@
                                 "departure": "08:18",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hashimoto",
-                                "throughDestJa": "橋本"
+                                "throughDest": {
+                                    "en": "Hashimoto",
+                                    "ja": "橋本"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "08:32",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hashimoto",
-                                "throughDestJa": "橋本"
+                                "throughDest": {
+                                    "en": "Hashimoto",
+                                    "ja": "橋本"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -1398,328 +1568,410 @@
                                 "departure": "09:42",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hashimoto",
-                                "throughDestJa": "橋本"
+                                "throughDest": {
+                                    "en": "Hashimoto",
+                                    "ja": "橋本"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "09:51",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "10:01",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "10:21",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "10:31",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "10:42",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "10:52",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "11:01",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "11:12",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "11:22",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "11:32",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "11:42",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "11:52",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "12:01",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "12:12",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "12:21",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "12:32",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "12:42",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "12:52",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "13:01",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "13:12",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "13:21",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "13:32",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "13:42",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "13:52",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "14:02",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "14:12",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "14:21",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "14:32",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "14:42",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "14:53",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "15:02",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "15:12",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "15:21",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "15:32",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "15:42",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "15:52",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "16:02",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "16:15",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "16:23",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "16:33",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -1731,8 +1983,10 @@
                                 "departure": "16:57",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -1744,8 +1998,10 @@
                                 "departure": "17:25",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -1757,16 +2013,20 @@
                                 "departure": "17:47",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "18:01",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -1805,24 +2065,30 @@
                                 "departure": "20:17",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hashimoto",
-                                "throughDestJa": "橋本"
+                                "throughDest": {
+                                    "en": "Hashimoto",
+                                    "ja": "橋本"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "20:31",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "20:49",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -1840,8 +2106,10 @@
                                 "departure": "21:37",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -1854,8 +2122,10 @@
                                 "departure": "22:18",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -1885,8 +2155,10 @@
                                 "departure": "23:22",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                                "throughDestEn": "Hachioji",
-                                "throughDestJa": "八王子"
+                                "throughDest": {
+                                    "en": "Hachioji",
+                                    "ja": "八王子"
+                                }
                             }
                         ]
                     },
@@ -2493,8 +2765,10 @@
                     }
                 ],
                 "isAscending": true,
-                "nameEn": "For Omiya",
-                "nameJa": "大宮方面",
+                "name": {
+                    "en": "For Omiya",
+                    "ja": "大宮方面"
+                },
                 "saturdayHoliday": {
                     "bands": [],
                     "exactRuns": [
@@ -5717,8 +5991,10 @@
                     }
                 ],
                 "isAscending": false,
-                "nameEn": "For Ofuna",
-                "nameJa": "大船方面",
+                "name": {
+                    "en": "For Ofuna",
+                    "ja": "大船方面"
+                },
                 "saturdayHoliday": {
                     "bands": [],
                     "exactRuns": [
@@ -8730,525 +9006,624 @@
         "hopTimesMinutes": [4, 3, 2, 3, 2, 3, 3, 2, 2, 2, 3, 3, 3, 4, 4, 4, 4, 3, 3, 2, 2, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 2, 3, 3, 2, 2, 2, 3],
         "id": "Railway:JR-East.KeihinTohoku",
         "isLoop": false,
-        "nameEn": "Keihin-Tohoku Line",
-        "nameJa": "京浜東北線",
+        "name": {
+            "en": "Keihin-Tohoku Line",
+            "ja": "京浜東北線",
+            "ko": "게이힌 도호쿠선",
+            "zh-Hans": "京滨东北线",
+            "zh-Hant": "京濱東北線"
+        },
         "operatorId": "Operator:JR-East",
         "stations": [
             {
                 "id": "Station:JR-East.KeihinTohoku.Ofuna",
                 "latitude": 35.354,
                 "longitude": 139.5313,
-                "name": "大船",
-                "nameEn": "Ofuna",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ofuna",
+                    "ja": "大船",
+                    "ko": "오후나",
+                    "zh-Hans": "大船",
+                    "zh-Hant": "大船"
+                },
                 "stationCode": "JK01"
             },
             {
                 "id": "Station:JR-East.KeihinTohoku.Hongodai",
                 "latitude": 35.367437,
                 "longitude": 139.5503,
-                "name": "本郷台",
-                "nameEn": "Hongodai",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Hongodai",
+                    "ja": "本郷台",
+                    "ko": "혼고다이",
+                    "zh-Hans": "本乡台",
+                    "zh-Hant": "本鄉台"
+                },
                 "stationCode": "JK02"
             },
             {
                 "id": "Station:JR-East.KeihinTohoku.Konandai",
                 "latitude": 35.375295,
                 "longitude": 139.576696,
-                "name": "港南台",
-                "nameEn": "Konandai",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Konandai",
+                    "ja": "港南台",
+                    "ko": "고난다이",
+                    "zh-Hans": "港南台",
+                    "zh-Hant": "港南台"
+                },
                 "stationCode": "JK03"
             },
             {
                 "id": "Station:JR-East.KeihinTohoku.Yokodai",
                 "latitude": 35.378698,
                 "longitude": 139.596465,
-                "name": "洋光台",
-                "nameEn": "Yokodai",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Yokodai",
+                    "ja": "洋光台",
+                    "ko": "요코다이",
+                    "zh-Hans": "洋光台",
+                    "zh-Hant": "洋光台"
+                },
                 "stationCode": "JK04"
             },
             {
                 "id": "Station:JR-East.KeihinTohoku.ShinSugita",
                 "latitude": 35.386554,
                 "longitude": 139.619574,
-                "name": "新杉田",
-                "nameEn": "Shin-Sugita",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shin-Sugita",
+                    "ja": "新杉田",
+                    "ko": "신스기타",
+                    "zh-Hans": "新杉田",
+                    "zh-Hant": "新杉田"
+                },
                 "stationCode": "JK05"
             },
             {
                 "id": "Station:JR-East.KeihinTohoku.Isogo",
                 "latitude": 35.4009,
                 "longitude": 139.6187,
-                "name": "磯子",
-                "nameEn": "Isogo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Isogo",
+                    "ja": "磯子",
+                    "ko": "이소고",
+                    "zh-Hans": "矶子",
+                    "zh-Hant": "磯子"
+                },
                 "stationCode": "JK06"
             },
             {
                 "id": "Station:JR-East.KeihinTohoku.Negishi",
                 "latitude": 35.415657,
                 "longitude": 139.63505,
-                "name": "根岸",
-                "nameEn": "Negishi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Negishi",
+                    "ja": "根岸",
+                    "ko": "네기시",
+                    "zh-Hans": "根岸",
+                    "zh-Hant": "根岸"
+                },
                 "stationCode": "JK07"
             },
             {
                 "id": "Station:JR-East.KeihinTohoku.Yamate",
                 "latitude": 35.427203,
                 "longitude": 139.646284,
-                "name": "山手",
-                "nameEn": "Yamate",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Yamate",
+                    "ja": "山手",
+                    "ko": "야마테",
+                    "zh-Hans": "山手",
+                    "zh-Hant": "山手"
+                },
                 "stationCode": "JK08"
             },
             {
                 "id": "Station:JR-East.KeihinTohoku.Ishikawacho",
                 "latitude": 35.4395,
                 "longitude": 139.6424,
-                "name": "石川町",
-                "nameEn": "Ishikawacho",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ishikawacho",
+                    "ja": "石川町",
+                    "ko": "이시카와초",
+                    "zh-Hans": "石川町",
+                    "zh-Hant": "石川町"
+                },
                 "stationCode": "JK09"
             },
             {
                 "id": "Station:JR-East.KeihinTohoku.Kannai",
                 "latitude": 35.4437,
                 "longitude": 139.6367,
-                "name": "関内",
-                "nameEn": "Kannai",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kannai",
+                    "ja": "関内",
+                    "ko": "간나이",
+                    "zh-Hans": "关内",
+                    "zh-Hant": "關內"
+                },
                 "stationCode": "JK10"
             },
             {
                 "id": "Station:JR-East.KeihinTohoku.Sakuragicho",
                 "latitude": 35.4507,
                 "longitude": 139.6317,
-                "name": "桜木町",
-                "nameEn": "Sakuragicho",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Sakuragicho",
+                    "ja": "桜木町",
+                    "ko": "사쿠라기초",
+                    "zh-Hans": "樱木町",
+                    "zh-Hant": "櫻木町"
+                },
                 "stationCode": "JK11"
             },
             {
                 "id": "Station:JR-East.KeihinTohoku.Yokohama",
                 "latitude": 35.4657,
                 "longitude": 139.6224,
-                "name": "横浜",
-                "nameEn": "Yokohama",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Yokohama",
+                    "ja": "横浜",
+                    "ko": "요코하마",
+                    "zh-Hans": "横滨",
+                    "zh-Hant": "橫濱"
+                },
                 "stationCode": "JK12"
             },
             {
                 "id": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
                 "latitude": 35.4772,
                 "longitude": 139.6343,
-                "name": "東神奈川",
-                "nameEn": "Higashi-Kanagawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Higashi-Kanagawa",
+                    "ja": "東神奈川",
+                    "ko": "히가시카나가와",
+                    "zh-Hans": "东神奈川",
+                    "zh-Hant": "東神奈川"
+                },
                 "stationCode": "JK13"
             },
             {
                 "id": "Station:JR-East.KeihinTohoku.ShinKoyasu",
                 "latitude": 35.486875,
                 "longitude": 139.654164,
-                "name": "新子安",
-                "nameEn": "Shin-Koyasu",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shin-Koyasu",
+                    "ja": "新子安",
+                    "ko": "신코야스",
+                    "zh-Hans": "新子安",
+                    "zh-Hant": "新子安"
+                },
                 "stationCode": "JK14"
             },
             {
                 "id": "Station:JR-East.KeihinTohoku.Tsurumi",
                 "latitude": 35.508339,
                 "longitude": 139.675976,
-                "name": "鶴見",
-                "nameEn": "Tsurumi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tsurumi",
+                    "ja": "鶴見",
+                    "ko": "쓰루미",
+                    "zh-Hans": "鹤见",
+                    "zh-Hant": "鶴見"
+                },
                 "stationCode": "JK15"
             },
             {
                 "id": "Station:JR-East.KeihinTohoku.Kawasaki",
                 "latitude": 35.5308,
                 "longitude": 139.697,
-                "name": "川崎",
-                "nameEn": "Kawasaki",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kawasaki",
+                    "ja": "川崎",
+                    "ko": "가와사키",
+                    "zh-Hans": "川崎",
+                    "zh-Hant": "川崎"
+                },
                 "stationCode": "JK16"
             },
             {
                 "id": "Station:JR-East.KeihinTohoku.Kamata",
                 "latitude": 35.5626,
                 "longitude": 139.716,
-                "name": "蒲田",
-                "nameEn": "Kamata",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kamata",
+                    "ja": "蒲田",
+                    "ko": "가마타",
+                    "zh-Hans": "蒲田",
+                    "zh-Hant": "蒲田"
+                },
                 "stationCode": "JK17"
             },
             {
                 "id": "Station:JR-East.KeihinTohoku.Omori",
                 "latitude": 35.5884,
                 "longitude": 139.7278,
-                "name": "大森",
-                "nameEn": "Omori",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Omori",
+                    "ja": "大森",
+                    "ko": "오모리",
+                    "zh-Hans": "大森",
+                    "zh-Hant": "大森"
+                },
                 "stationCode": "JK18"
             },
             {
                 "id": "Station:JR-East.KeihinTohoku.Oimachi",
                 "latitude": 35.6062,
                 "longitude": 139.734,
-                "name": "大井町",
-                "nameEn": "Oimachi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Oimachi",
+                    "ja": "大井町",
+                    "ko": "오이마치",
+                    "zh-Hans": "大井町",
+                    "zh-Hant": "大井町"
+                },
                 "stationCode": "JK19"
             },
             {
                 "id": "Station:JR-East.KeihinTohoku.Shinagawa",
                 "latitude": 35.6285,
                 "longitude": 139.7388,
-                "name": "品川",
-                "nameEn": "Shinagawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shinagawa",
+                    "ja": "品川",
+                    "ko": "시나가와",
+                    "zh-Hans": "品川",
+                    "zh-Hant": "品川"
+                },
                 "stationCode": "JK20"
             },
             {
                 "id": "Station:JR-East.KeihinTohoku.TakanawaGateway",
                 "latitude": 35.6355,
                 "longitude": 139.7407,
-                "name": "高輪ゲートウェイ",
-                "nameEn": "Takanawa Gateway",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Takanawa Gateway",
+                    "ja": "高輪ゲートウェイ",
+                    "ko": "다카나와 게이트웨이",
+                    "zh-Hans": "高轮Gateway",
+                    "zh-Hant": "高輪Gateway"
+                },
                 "stationCode": "JK21"
             },
             {
                 "id": "Station:JR-East.KeihinTohoku.Tamachi",
                 "latitude": 35.6457,
                 "longitude": 139.7476,
-                "name": "田町",
-                "nameEn": "Tamachi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tamachi",
+                    "ja": "田町",
+                    "ko": "다마치",
+                    "zh-Hans": "田町",
+                    "zh-Hant": "田町"
+                },
                 "stationCode": "JK22"
             },
             {
                 "id": "Station:JR-East.KeihinTohoku.Hamamatsucho",
                 "latitude": 35.6556,
                 "longitude": 139.757,
-                "name": "浜松町",
-                "nameEn": "Hamamatsucho",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Hamamatsucho",
+                    "ja": "浜松町",
+                    "ko": "하마마쓰초",
+                    "zh-Hans": "滨松町",
+                    "zh-Hant": "濱松町"
+                },
                 "stationCode": "JK23"
             },
             {
                 "id": "Station:JR-East.KeihinTohoku.Shimbashi",
                 "latitude": 35.6663,
                 "longitude": 139.7583,
-                "name": "新橋",
-                "nameEn": "Shimbashi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shimbashi",
+                    "ja": "新橋",
+                    "ko": "신바시",
+                    "zh-Hans": "新桥",
+                    "zh-Hant": "新橋"
+                },
                 "stationCode": "JK24"
             },
             {
                 "id": "Station:JR-East.KeihinTohoku.Yurakucho",
                 "latitude": 35.6749,
                 "longitude": 139.7628,
-                "name": "有楽町",
-                "nameEn": "Yurakucho",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Yurakucho",
+                    "ja": "有楽町",
+                    "ko": "유라쿠초",
+                    "zh-Hans": "有乐町",
+                    "zh-Hant": "有樂町"
+                },
                 "stationCode": "JK25"
             },
             {
                 "id": "Station:JR-East.KeihinTohoku.Tokyo",
                 "latitude": 35.6812,
                 "longitude": 139.7671,
-                "name": "東京",
-                "nameEn": "Tokyo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tokyo",
+                    "ja": "東京",
+                    "ko": "도쿄",
+                    "zh-Hans": "东京",
+                    "zh-Hant": "東京"
+                },
                 "stationCode": "JK26"
             },
             {
                 "id": "Station:JR-East.KeihinTohoku.Kanda",
                 "latitude": 35.6918,
                 "longitude": 139.7709,
-                "name": "神田",
-                "nameEn": "Kanda",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kanda",
+                    "ja": "神田",
+                    "ko": "간다",
+                    "zh-Hans": "神田",
+                    "zh-Hant": "神田"
+                },
                 "stationCode": "JK27"
             },
             {
                 "id": "Station:JR-East.KeihinTohoku.Akihabara",
                 "latitude": 35.6984,
                 "longitude": 139.7731,
-                "name": "秋葉原",
-                "nameEn": "Akihabara",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Akihabara",
+                    "ja": "秋葉原",
+                    "ko": "아키하바라",
+                    "zh-Hans": "秋叶原",
+                    "zh-Hant": "秋葉原"
+                },
                 "stationCode": "JK28"
             },
             {
                 "id": "Station:JR-East.KeihinTohoku.Okachimachi",
                 "latitude": 35.7075,
                 "longitude": 139.7747,
-                "name": "御徒町",
-                "nameEn": "Okachimachi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Okachimachi",
+                    "ja": "御徒町",
+                    "ko": "오카치마치",
+                    "zh-Hans": "御徒町",
+                    "zh-Hant": "御徒町"
+                },
                 "stationCode": "JK29"
             },
             {
                 "id": "Station:JR-East.KeihinTohoku.Ueno",
                 "latitude": 35.7141,
                 "longitude": 139.7774,
-                "name": "上野",
-                "nameEn": "Ueno",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ueno",
+                    "ja": "上野",
+                    "ko": "우에노",
+                    "zh-Hans": "上野",
+                    "zh-Hant": "上野"
+                },
                 "stationCode": "JK30"
             },
             {
                 "id": "Station:JR-East.KeihinTohoku.Uguisudani",
                 "latitude": 35.7206,
                 "longitude": 139.7785,
-                "name": "鶯谷",
-                "nameEn": "Uguisudani",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Uguisudani",
+                    "ja": "鶯谷",
+                    "ko": "우구이스다니",
+                    "zh-Hans": "莺谷",
+                    "zh-Hant": "鶯谷"
+                },
                 "stationCode": "JK31"
             },
             {
                 "id": "Station:JR-East.KeihinTohoku.Nippori",
                 "latitude": 35.7278,
                 "longitude": 139.7708,
-                "name": "日暮里",
-                "nameEn": "Nippori",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nippori",
+                    "ja": "日暮里",
+                    "ko": "닛포리",
+                    "zh-Hans": "日暮里",
+                    "zh-Hant": "日暮里"
+                },
                 "stationCode": "JK32"
             },
             {
                 "id": "Station:JR-East.KeihinTohoku.NishiNippori",
                 "latitude": 35.7324,
                 "longitude": 139.7669,
-                "name": "西日暮里",
-                "nameEn": "Nishi-Nippori",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nishi-Nippori",
+                    "ja": "西日暮里",
+                    "ko": "니시닛포리",
+                    "zh-Hans": "西日暮里",
+                    "zh-Hant": "西日暮里"
+                },
                 "stationCode": "JK33"
             },
             {
                 "id": "Station:JR-East.KeihinTohoku.Tabata",
                 "latitude": 35.7381,
                 "longitude": 139.7607,
-                "name": "田端",
-                "nameEn": "Tabata",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tabata",
+                    "ja": "田端",
+                    "ko": "다바타",
+                    "zh-Hans": "田端",
+                    "zh-Hant": "田端"
+                },
                 "stationCode": "JK34"
             },
             {
                 "id": "Station:JR-East.KeihinTohoku.Kaminakazato",
                 "latitude": 35.7472,
                 "longitude": 139.7472,
-                "name": "上中里",
-                "nameEn": "Kaminakazato",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kaminakazato",
+                    "ja": "上中里",
+                    "ko": "가미나카자토",
+                    "zh-Hans": "上中里",
+                    "zh-Hant": "上中里"
+                },
                 "stationCode": "JK35"
             },
             {
                 "id": "Station:JR-East.KeihinTohoku.Oji",
                 "latitude": 35.7526,
                 "longitude": 139.738,
-                "name": "王子",
-                "nameEn": "Oji",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Oji",
+                    "ja": "王子",
+                    "ko": "오지",
+                    "zh-Hans": "王子",
+                    "zh-Hant": "王子"
+                },
                 "stationCode": "JK36"
             },
             {
                 "id": "Station:JR-East.KeihinTohoku.HigashiJujo",
                 "latitude": 35.763848,
                 "longitude": 139.726875,
-                "name": "東十条",
-                "nameEn": "Higashi-Jujo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Higashi-Jujo",
+                    "ja": "東十条",
+                    "ko": "히가시주조",
+                    "zh-Hans": "东十条",
+                    "zh-Hant": "東十條"
+                },
                 "stationCode": "JK37"
             },
             {
                 "id": "Station:JR-East.KeihinTohoku.Akabane",
                 "latitude": 35.7782,
                 "longitude": 139.7208,
-                "name": "赤羽",
-                "nameEn": "Akabane",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Akabane",
+                    "ja": "赤羽",
+                    "ko": "아카바네",
+                    "zh-Hans": "赤羽",
+                    "zh-Hant": "赤羽"
+                },
                 "stationCode": "JK38"
             },
             {
                 "id": "Station:JR-East.KeihinTohoku.Kawaguchi",
                 "latitude": 35.801926,
                 "longitude": 139.717512,
-                "name": "川口",
-                "nameEn": "Kawaguchi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kawaguchi",
+                    "ja": "川口",
+                    "ko": "가와구치",
+                    "zh-Hans": "川口",
+                    "zh-Hant": "川口"
+                },
                 "stationCode": "JK39"
             },
             {
                 "id": "Station:JR-East.KeihinTohoku.NishiKawaguchi",
                 "latitude": 35.8158,
                 "longitude": 139.704,
-                "name": "西川口",
-                "nameEn": "Nishi-Kawaguchi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nishi-Kawaguchi",
+                    "ja": "西川口",
+                    "ko": "니시카와구치",
+                    "zh-Hans": "西川口",
+                    "zh-Hant": "西川口"
+                },
                 "stationCode": "JK40"
             },
             {
                 "id": "Station:JR-East.KeihinTohoku.Warabi",
                 "latitude": 35.828123,
                 "longitude": 139.69038,
-                "name": "蕨",
-                "nameEn": "Warabi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Warabi",
+                    "ja": "蕨",
+                    "ko": "와라비",
+                    "zh-Hans": "蕨",
+                    "zh-Hant": "蕨"
+                },
                 "stationCode": "JK41"
             },
             {
                 "id": "Station:JR-East.KeihinTohoku.MinamiUrawa",
                 "latitude": 35.847732,
                 "longitude": 139.669144,
-                "name": "南浦和",
-                "nameEn": "Minami-Urawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Minami-Urawa",
+                    "ja": "南浦和",
+                    "ko": "미나미우라와",
+                    "zh-Hans": "南浦和",
+                    "zh-Hant": "南浦和"
+                },
                 "stationCode": "JK42"
             },
             {
                 "id": "Station:JR-East.KeihinTohoku.Urawa",
                 "latitude": 35.8593,
                 "longitude": 139.657,
-                "name": "浦和",
-                "nameEn": "Urawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Urawa",
+                    "ja": "浦和",
+                    "ko": "우라와",
+                    "zh-Hans": "浦和",
+                    "zh-Hant": "浦和"
+                },
                 "stationCode": "JK43"
             },
             {
                 "id": "Station:JR-East.KeihinTohoku.KitaUrawa",
                 "latitude": 35.872155,
                 "longitude": 139.646106,
-                "name": "北浦和",
-                "nameEn": "Kita-Urawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kita-Urawa",
+                    "ja": "北浦和",
+                    "ko": "기타우라와",
+                    "zh-Hans": "北浦和",
+                    "zh-Hant": "北浦和"
+                },
                 "stationCode": "JK44"
             },
             {
                 "id": "Station:JR-East.KeihinTohoku.Yono",
                 "latitude": 35.884398,
                 "longitude": 139.639152,
-                "name": "与野",
-                "nameEn": "Yono",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Yono",
+                    "ja": "与野",
+                    "ko": "요노",
+                    "zh-Hans": "与野",
+                    "zh-Hant": "與野"
+                },
                 "stationCode": "JK45"
             },
             {
                 "id": "Station:JR-East.KeihinTohoku.SaitamaShintoshin",
                 "latitude": 35.894,
                 "longitude": 139.6339,
-                "name": "さいたま新都心",
-                "nameEn": "Saitama-Shintoshin",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Saitama-Shintoshin",
+                    "ja": "さいたま新都心",
+                    "ko": "사이타마신토신",
+                    "zh-Hans": "埼玉新都心",
+                    "zh-Hant": "埼玉新都心"
+                },
                 "stationCode": "JK46"
             },
             {
                 "id": "Station:JR-East.KeihinTohoku.Omiya",
                 "latitude": 35.9064,
                 "longitude": 139.6238,
-                "name": "大宮",
-                "nameEn": "Omiya",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Omiya",
+                    "ja": "大宮",
+                    "ko": "오미야",
+                    "zh-Hans": "大宫",
+                    "zh-Hant": "大宮"
+                },
                 "stationCode": "JK47"
             }
         ],
@@ -9258,10 +9633,14 @@
                 "connectingLineId": "Railway:JR-East.Yokohama",
                 "end": "ascending",
                 "junctionStationId": "Station:JR-East.KeihinTohoku.HigashiKanagawa",
-                "lineNameEn": "JR Yokohama Line",
-                "lineNameJa": "横浜線",
-                "towardEn": "for Machida & Hachioji",
-                "towardJa": "町田・八王子方面"
+                "lineName": {
+                    "en": "JR Yokohama Line",
+                    "ja": "横浜線"
+                },
+                "toward": {
+                    "en": "for Machida & Hachioji",
+                    "ja": "町田・八王子方面"
+                }
             }
         ]
     }

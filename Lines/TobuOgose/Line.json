@@ -2,10 +2,14 @@
     {
         "colorHex": "#10428B",
         "delayInfo": {
-            "checkMethodEn": "Check the Tobu Railway service status page, the Tobu app, or X (@TobuRailway_JP). Delays of roughly 10 minutes or more and suspensions are posted.",
-            "checkMethodJa": "東武鉄道「運行情報」ページ、東武線アプリ、またはX（@TobuRailway_JP）で確認できます。おおむね10分以上の遅延・運転見合わせが発生した場合に掲載されます。",
-            "statusPageURL": "https://www.tobu.co.jp/service_status/",
-            "statusPageURLEn": "https://www.tobu.co.jp/service_status/",
+            "checkMethod": {
+                "en": "Check the Tobu Railway service status page, the Tobu app, or X (@TobuRailway_JP). Delays of roughly 10 minutes or more and suspensions are posted.",
+                "ja": "東武鉄道「運行情報」ページ、東武線アプリ、またはX（@TobuRailway_JP）で確認できます。おおむね10分以上の遅延・運転見合わせが発生した場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://www.tobu.co.jp/service_status/",
+                "ja": "https://www.tobu.co.jp/service_status/"
+            },
             "xAccount": "@TobuRailway_JP"
         },
         "directions": [
@@ -15,8 +19,10 @@
                 "id": "static.RailDirection:Tobu.Ogose.Ogose",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Ogose",
-                "nameJa": "越生方面",
+                "name": {
+                    "en": "For Ogose",
+                    "ja": "越生方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -25,7 +31,7 @@
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 16.0
+                            "headwayMinutes": 16
                         },
                         {
                             "from": "07:00",
@@ -33,15 +39,15 @@
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 13.0
+                            "headwayMinutes": 13
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 12.0
+                            "headwayMinutes": 12
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "17:00",
@@ -49,19 +55,19 @@
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "20:00",
-                            "headwayMinutes": 17.0
+                            "headwayMinutes": 17
                         },
                         {
                             "from": "21:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "22:00",
-                            "headwayMinutes": 18.0
+                            "headwayMinutes": 18
                         },
                         {
                             "from": "23:00",
@@ -84,19 +90,19 @@
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 13.0
+                            "headwayMinutes": 13
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 12.0
+                            "headwayMinutes": 12
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 13.0
+                            "headwayMinutes": 13
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "16:00",
@@ -104,11 +110,11 @@
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "21:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "23:00",
@@ -126,13 +132,15 @@
                 "id": "static.RailDirection:Tobu.Ogose.Sakado",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Sakado",
-                "nameJa": "坂戸方面",
+                "name": {
+                    "en": "For Sakado",
+                    "ja": "坂戸方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
                             "from": "05:10",
-                            "headwayMinutes": 22.0
+                            "headwayMinutes": 22
                         },
                         {
                             "from": "06:00",
@@ -144,7 +152,7 @@
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 14.0
+                            "headwayMinutes": 14
                         },
                         {
                             "from": "09:00",
@@ -152,15 +160,15 @@
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 17.0
+                            "headwayMinutes": 17
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "21:00",
@@ -168,11 +176,11 @@
                         },
                         {
                             "from": "22:00",
-                            "headwayMinutes": 19.0
+                            "headwayMinutes": 19
                         },
                         {
                             "from": "23:00",
-                            "headwayMinutes": 17.0
+                            "headwayMinutes": 17
                         }
                     ],
                     "firstDeparture": "05:10",
@@ -183,7 +191,7 @@
                     "bands": [
                         {
                             "from": "05:10",
-                            "headwayMinutes": 22.0
+                            "headwayMinutes": 22
                         },
                         {
                             "from": "06:00",
@@ -191,7 +199,7 @@
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 13.0
+                            "headwayMinutes": 13
                         },
                         {
                             "from": "08:00",
@@ -199,11 +207,11 @@
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 13.0
+                            "headwayMinutes": 13
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "16:00",
@@ -211,15 +219,15 @@
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "21:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "23:00",
-                            "headwayMinutes": 33.0
+                            "headwayMinutes": 33
                         }
                     ],
                     "firstDeparture": "05:10",
@@ -228,99 +236,120 @@
                 }
             }
         ],
-        "hopTimesMinutes": [4.0, 3.0, 3.0, 3.0, 2.0, 2.0, 2.0],
+        "hopTimesMinutes": [4, 3, 3, 3, 2, 2, 2],
         "id": "Railway:Tobu.Ogose",
         "isLoop": false,
-        "nameEn": "Tobu Ogose Line",
-        "nameJa": "東武越生線",
+        "name": {
+            "en": "Tobu Ogose Line",
+            "ja": "東武越生線",
+            "ko": "도부 철도 오고세 선",
+            "zh-Hans": "越生线",
+            "zh-Hant": "越生線"
+        },
         "operatorId": "Operator:Tobu",
         "stations": [
             {
                 "id": "Station:Tobu.Ogose.Sakado",
                 "latitude": 35.95724,
                 "longitude": 139.39391,
-                "name": "坂戸",
-                "nameEn": "Sakado",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Sakado",
+                    "ja": "坂戸",
+                    "ko": "사카도",
+                    "zh-Hans": "坂户",
+                    "zh-Hant": "阪戶"
+                },
                 "stationCode": "TJ26"
             },
             {
                 "id": "Station:Tobu.Ogose.Ippommatsu",
                 "latitude": 35.94022,
                 "longitude": 139.37008,
-                "name": "一本松",
-                "nameEn": "Ippommatsu",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ippommatsu",
+                    "ja": "一本松",
+                    "ko": "잇폰마쓰",
+                    "zh-Hans": "一本松",
+                    "zh-Hant": "一本松"
+                },
                 "stationCode": "TJ41"
             },
             {
                 "id": "Station:Tobu.Ogose.NishiOya",
                 "latitude": 35.93176,
                 "longitude": 139.35646,
-                "name": "西大家",
-                "nameEn": "Nishi-oya",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nishi-oya",
+                    "ja": "西大家",
+                    "ko": "니시오야",
+                    "zh-Hans": "西大家",
+                    "zh-Hant": "西大家"
+                },
                 "stationCode": "TJ42"
             },
             {
                 "id": "Station:Tobu.Ogose.Kawakado",
                 "latitude": 35.93761,
                 "longitude": 139.34648,
-                "name": "川角",
-                "nameEn": "Kawakado",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kawakado",
+                    "ja": "川角",
+                    "ko": "가와카도",
+                    "zh-Hans": "川角",
+                    "zh-Hant": "川角"
+                },
                 "stationCode": "TJ43"
             },
             {
                 "id": "Station:Tobu.Ogose.BushuNagase",
                 "latitude": 35.94199,
                 "longitude": 139.32619,
-                "name": "武州長瀬",
-                "nameEn": "Bushu-nagase",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Bushu-nagase",
+                    "ja": "武州長瀬",
+                    "ko": "부슈나가세",
+                    "zh-Hans": "武州长濑",
+                    "zh-Hant": "武州長瀨"
+                },
                 "stationCode": "TJ44"
             },
             {
                 "id": "Station:Tobu.Ogose.HigashiMoro",
                 "latitude": 35.94715,
                 "longitude": 139.31533,
-                "name": "東毛呂",
-                "nameEn": "Higashi-moro",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Higashi-moro",
+                    "ja": "東毛呂",
+                    "ko": "히가시모로",
+                    "zh-Hans": "东毛吕",
+                    "zh-Hant": "東毛呂"
+                },
                 "stationCode": "TJ45"
             },
             {
                 "id": "Station:Tobu.Ogose.BushuKarasawa",
                 "latitude": 35.9522,
                 "longitude": 139.30928,
-                "name": "武州唐沢",
-                "nameEn": "Bushu-karasawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Bushu-karasawa",
+                    "ja": "武州唐沢",
+                    "ko": "부슈카라사와",
+                    "zh-Hans": "武州唐泽",
+                    "zh-Hant": "武州唐澤"
+                },
                 "stationCode": "TJ46"
             },
             {
                 "id": "Station:Tobu.Ogose.Ogose",
                 "latitude": 35.9628,
                 "longitude": 139.29961,
-                "name": "越生",
-                "nameEn": "Ogose",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ogose",
+                    "ja": "越生",
+                    "ko": "오고세",
+                    "zh-Hans": "越生",
+                    "zh-Hant": "越生"
+                },
                 "stationCode": "TJ47"
             }
         ],
@@ -2938,6 +2967,6 @@
                 "type": "Local"
             }
         ],
-        "upHopTimesMinutes": [4.0, 3.0, 2.0, 3.0, 2.0, 2.0, 2.0]
+        "upHopTimesMinutes": [4, 3, 2, 3, 2, 2, 2]
     }
 ]

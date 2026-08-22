@@ -2,10 +2,14 @@
     {
         "colorHex": "#0071BE",
         "delayInfo": {
-            "checkMethodEn": "Check the Tokyu train operation information page, the Tokyu Lines app, or X (@tokyu_official). Delays or suspensions of 15 minutes or more are posted.",
-            "checkMethodJa": "東急電鉄「運行情報」ページ、東急線アプリ、またはX（@tokyu_official）で確認できます。15分以上の遅れ・運転見合わせが発生または見込まれる場合に掲載されます。",
-            "statusPageURL": "https://www.tokyu.co.jp/unten2/unten.html",
-            "statusPageURLEn": "https://www.tokyu.co.jp/unten2/unten.html",
+            "checkMethod": {
+                "en": "Check the Tokyu train operation information page, the Tokyu Lines app, or X (@tokyu_official). Delays or suspensions of 15 minutes or more are posted.",
+                "ja": "東急電鉄「運行情報」ページ、東急線アプリ、またはX（@tokyu_official）で確認できます。15分以上の遅れ・運転見合わせが発生または見込まれる場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://www.tokyu.co.jp/unten2/unten.html",
+                "ja": "https://www.tokyu.co.jp/unten2/unten.html"
+            },
             "xAccount": "@tokyu_official"
         },
         "directions": [
@@ -15,8 +19,10 @@
                 "id": "static.RailDirection:Tokyu.Kodomonokuni.Kodomonokuni",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Kodomonokuni",
-                "nameJa": "こどもの国方面",
+                "name": {
+                    "en": "For Kodomonokuni",
+                    "ja": "こどもの国方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -94,8 +100,10 @@
                 "id": "static.RailDirection:Tokyu.Kodomonokuni.Nagatsuta",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Nagatsuta",
-                "nameJa": "長津田方面",
+                "name": {
+                    "en": "For Nagatsuta",
+                    "ja": "長津田方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -171,41 +179,49 @@
         "hopTimesMinutes": [4, 4],
         "id": "Railway:Tokyu.Kodomonokuni",
         "isLoop": false,
-        "nameEn": "Kodomonokuni Line",
-        "nameJa": "こどもの国線",
+        "name": {
+            "en": "Kodomonokuni Line",
+            "ja": "こどもの国線"
+        },
         "operatorId": "Operator:Tokyu",
         "stations": [
             {
                 "id": "Station:Tokyu.Kodomonokuni.Nagatsuta",
                 "latitude": 35.532083,
                 "longitude": 139.493926,
-                "name": "長津田",
-                "nameEn": "Nagatsuta",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nagatsuta",
+                    "ja": "長津田",
+                    "ko": "나가쓰타",
+                    "zh-Hans": "长津田",
+                    "zh-Hant": "長津田"
+                },
                 "stationCode": "KD01"
             },
             {
                 "id": "Station:Tokyu.Kodomonokuni.Onda",
                 "latitude": 35.54559,
                 "longitude": 139.492129,
-                "name": "恩田",
-                "nameEn": "Onda",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Onda",
+                    "ja": "恩田",
+                    "ko": "온다",
+                    "zh-Hans": "恩田",
+                    "zh-Hant": "恩田"
+                },
                 "stationCode": "KD02"
             },
             {
                 "id": "Station:Tokyu.Kodomonokuni.Kodomonokuni",
                 "latitude": 35.558128,
                 "longitude": 139.486489,
-                "name": "こどもの国",
-                "nameEn": "Kodomonokuni",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kodomonokuni",
+                    "ja": "こどもの国",
+                    "ko": "고도모노쿠니",
+                    "zh-Hans": "儿童国",
+                    "zh-Hant": "兒童國"
+                },
                 "stationCode": "KD03"
             }
         ],

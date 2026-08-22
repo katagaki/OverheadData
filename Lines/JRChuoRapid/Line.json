@@ -2,10 +2,14 @@
     {
         "colorHex": "#F15A22",
         "delayInfo": {
-            "checkMethodEn": "Check the JR East Train Operation Information page or the JR East app. In the Tokyo area, delays or suspensions of 15 minutes or more are posted.",
-            "checkMethodJa": "JR東日本「列車運行情報」ページまたはJR東日本アプリで確認できます。首都圏エリアでは15分以上の遅れ・運休が発生または見込まれる場合に掲載されます。",
-            "statusPageURL": "https://traininfo.jreast.co.jp/train_info/line.aspx?gid=1&lineid=chuoline_rapidservice",
-            "statusPageURLEn": "https://traininfo.jreast.co.jp/train_info/e/kanto.aspx",
+            "checkMethod": {
+                "en": "Check the JR East Train Operation Information page or the JR East app. In the Tokyo area, delays or suspensions of 15 minutes or more are posted.",
+                "ja": "JR東日本「列車運行情報」ページまたはJR東日本アプリで確認できます。首都圏エリアでは15分以上の遅れ・運休が発生または見込まれる場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://traininfo.jreast.co.jp/train_info/e/kanto.aspx",
+                "ja": "https://traininfo.jreast.co.jp/train_info/line.aspx?gid=1&lineid=chuoline_rapidservice"
+            },
             "xAccount": "@JRE_F_Chuo"
         },
         "directions": [
@@ -21,8 +25,10 @@
                                 "continuesBeyond": true,
                                 "departure": "04:39",
                                 "startsHere": true,
-                                "throughDestEn": "Otsuki",
-                                "throughDestJa": "大月"
+                                "throughDest": {
+                                    "en": "Otsuki",
+                                    "ja": "大月"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -37,8 +43,10 @@
                                 "continuesBeyond": true,
                                 "departure": "04:39",
                                 "startsHere": true,
-                                "throughDestEn": "Otsuki",
-                                "throughDestJa": "大月"
+                                "throughDest": {
+                                    "en": "Otsuki",
+                                    "ja": "大月"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -59,8 +67,10 @@
                                 "continuesBeyond": true,
                                 "departure": "05:12",
                                 "startsHere": true,
-                                "throughDestEn": "Otsuki",
-                                "throughDestJa": "大月"
+                                "throughDest": {
+                                    "en": "Otsuki",
+                                    "ja": "大月"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -72,8 +82,10 @@
                                 "departure": "07:24",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.ChuoRapid.Tachikawa",
-                                "throughDestEn": "Ome",
-                                "throughDestJa": "青梅"
+                                "throughDest": {
+                                    "en": "Ome",
+                                    "ja": "青梅"
+                                }
                             }
                         ],
                         "stationId": "Station:JR-East.ChuoRapid.MusashiKoganei",
@@ -94,32 +106,40 @@
                                 "departure": "05:54",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.ChuoRapid.Tachikawa",
-                                "throughDestEn": "Ome",
-                                "throughDestJa": "青梅"
+                                "throughDest": {
+                                    "en": "Ome",
+                                    "ja": "青梅"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "06:12",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.ChuoRapid.Tachikawa",
-                                "throughDestEn": "Ome",
-                                "throughDestJa": "青梅"
+                                "throughDest": {
+                                    "en": "Ome",
+                                    "ja": "青梅"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "06:25",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.ChuoRapid.Tachikawa",
-                                "throughDestEn": "Ome",
-                                "throughDestJa": "青梅"
+                                "throughDest": {
+                                    "en": "Ome",
+                                    "ja": "青梅"
+                                }
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "06:41",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.ChuoRapid.Tachikawa",
-                                "throughDestEn": "Ome",
-                                "throughDestJa": "青梅"
+                                "throughDest": {
+                                    "en": "Ome",
+                                    "ja": "青梅"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -131,8 +151,10 @@
                                 "departure": "07:17",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.ChuoRapid.Tachikawa",
-                                "throughDestEn": "Ome",
-                                "throughDestJa": "青梅"
+                                "throughDest": {
+                                    "en": "Ome",
+                                    "ja": "青梅"
+                                }
                             }
                         ]
                     },
@@ -143,8 +165,10 @@
                                 "continuesBeyond": true,
                                 "departure": "06:10",
                                 "startsHere": true,
-                                "throughDestEn": "Otsuki",
-                                "throughDestJa": "大月"
+                                "throughDest": {
+                                    "en": "Otsuki",
+                                    "ja": "大月"
+                                }
                             }
                         ],
                         "stationId": "Station:JR-East.ChuoRapid.Tachikawa",
@@ -154,8 +178,10 @@
                                 "continuesBeyond": true,
                                 "departure": "05:25",
                                 "startsHere": true,
-                                "throughDestEn": "Otsuki",
-                                "throughDestJa": "大月"
+                                "throughDest": {
+                                    "en": "Otsuki",
+                                    "ja": "大月"
+                                }
                             }
                         ]
                     },
@@ -174,8 +200,10 @@
                     }
                 ],
                 "isAscending": true,
-                "nameEn": "For Takao",
-                "nameJa": "高尾方面",
+                "name": {
+                    "en": "For Takao",
+                    "ja": "高尾方面"
+                },
                 "saturdayHoliday": {
                     "bands": [],
                     "exactRuns": [
@@ -3604,8 +3632,10 @@
                     }
                 ],
                 "isAscending": false,
-                "nameEn": "For Tokyo",
-                "nameJa": "東京方面",
+                "name": {
+                    "en": "For Tokyo",
+                    "ja": "東京方面"
+                },
                 "saturdayHoliday": {
                     "bands": [],
                     "exactRuns": [
@@ -5470,272 +5500,325 @@
         "hopTimesMinutes": [2, 2, 5, 4, 4, 2, 2, 2, 2, 2, 3, 2, 2, 2, 3, 2, 2, 3, 3, 3, 5, 3, 3],
         "id": "Railway:JR-East.ChuoRapid",
         "isLoop": false,
-        "nameEn": "Chuo Rapid Line",
-        "nameJa": "中央線快速",
+        "name": {
+            "en": "Chuo Rapid Line",
+            "ja": "中央線快速",
+            "ko": "주오 쾌속선",
+            "zh-Hans": "中央线快速",
+            "zh-Hant": "中央線快速"
+        },
         "operatorId": "Operator:JR-East",
         "stations": [
             {
                 "id": "Station:JR-East.ChuoRapid.Tokyo",
                 "latitude": 35.6812,
                 "longitude": 139.7671,
-                "name": "東京",
-                "nameEn": "Tokyo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tokyo",
+                    "ja": "東京",
+                    "ko": "도쿄",
+                    "zh-Hans": "东京",
+                    "zh-Hant": "東京"
+                },
                 "stationCode": "JC01"
             },
             {
                 "id": "Station:JR-East.ChuoRapid.Kanda",
                 "latitude": 35.6918,
                 "longitude": 139.7709,
-                "name": "神田",
-                "nameEn": "Kanda",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kanda",
+                    "ja": "神田",
+                    "ko": "간다",
+                    "zh-Hans": "神田",
+                    "zh-Hant": "神田"
+                },
                 "stationCode": "JC02"
             },
             {
                 "id": "Station:JR-East.ChuoRapid.Ochanomizu",
                 "latitude": 35.6994,
                 "longitude": 139.7649,
-                "name": "御茶ノ水",
-                "nameEn": "Ochanomizu",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ochanomizu",
+                    "ja": "御茶ノ水",
+                    "ko": "오차노미즈",
+                    "zh-Hans": "御茶之水",
+                    "zh-Hant": "御茶之水"
+                },
                 "stationCode": "JC03"
             },
             {
                 "id": "Station:JR-East.ChuoRapid.Yotsuya",
                 "latitude": 35.686,
                 "longitude": 139.7301,
-                "name": "四ツ谷",
-                "nameEn": "Yotsuya",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Yotsuya",
+                    "ja": "四ツ谷",
+                    "ko": "요쓰야",
+                    "zh-Hans": "四谷",
+                    "zh-Hant": "四谷"
+                },
                 "stationCode": "JC04"
             },
             {
                 "id": "Station:JR-East.ChuoRapid.Shinjuku",
                 "latitude": 35.6896,
                 "longitude": 139.7006,
-                "name": "新宿",
-                "nameEn": "Shinjuku",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shinjuku",
+                    "ja": "新宿",
+                    "ko": "신주쿠",
+                    "zh-Hans": "新宿",
+                    "zh-Hant": "新宿"
+                },
                 "stationCode": "JC05"
             },
             {
                 "id": "Station:JR-East.ChuoRapid.Nakano",
                 "latitude": 35.7056,
                 "longitude": 139.6659,
-                "name": "中野",
-                "nameEn": "Nakano",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nakano",
+                    "ja": "中野",
+                    "ko": "나카노",
+                    "zh-Hans": "中野",
+                    "zh-Hant": "中野"
+                },
                 "stationCode": "JC06"
             },
             {
                 "id": "Station:JR-East.ChuoRapid.Koenji",
                 "latitude": 35.7053,
                 "longitude": 139.6497,
-                "name": "高円寺",
-                "nameEn": "Koenji",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Koenji",
+                    "ja": "高円寺",
+                    "ko": "고엔지",
+                    "zh-Hans": "高圆寺",
+                    "zh-Hant": "高圓寺"
+                },
                 "stationCode": "JC07"
             },
             {
                 "id": "Station:JR-East.ChuoRapid.Asagaya",
                 "latitude": 35.7047,
                 "longitude": 139.6357,
-                "name": "阿佐ケ谷",
-                "nameEn": "Asagaya",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Asagaya",
+                    "ja": "阿佐ケ谷",
+                    "ko": "아사가야",
+                    "zh-Hans": "阿佐谷",
+                    "zh-Hant": "阿佐谷"
+                },
                 "stationCode": "JC08"
             },
             {
                 "id": "Station:JR-East.ChuoRapid.Ogikubo",
                 "latitude": 35.7047,
                 "longitude": 139.6202,
-                "name": "荻窪",
-                "nameEn": "Ogikubo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ogikubo",
+                    "ja": "荻窪",
+                    "ko": "오기쿠보",
+                    "zh-Hans": "荻洼",
+                    "zh-Hant": "荻窪"
+                },
                 "stationCode": "JC09"
             },
             {
                 "id": "Station:JR-East.ChuoRapid.NishiOgikubo",
                 "latitude": 35.7037,
                 "longitude": 139.5993,
-                "name": "西荻窪",
-                "nameEn": "Nishi-Ogikubo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nishi-Ogikubo",
+                    "ja": "西荻窪",
+                    "ko": "니시오기쿠보",
+                    "zh-Hans": "西荻洼",
+                    "zh-Hant": "西荻窪"
+                },
                 "stationCode": "JC10"
             },
             {
                 "id": "Station:JR-East.ChuoRapid.Kichijoji",
                 "latitude": 35.703,
                 "longitude": 139.5796,
-                "name": "吉祥寺",
-                "nameEn": "Kichijoji",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kichijoji",
+                    "ja": "吉祥寺",
+                    "ko": "기치조지",
+                    "zh-Hans": "吉祥寺",
+                    "zh-Hant": "吉祥寺"
+                },
                 "stationCode": "JC11"
             },
             {
                 "id": "Station:JR-East.ChuoRapid.Mitaka",
                 "latitude": 35.7027,
                 "longitude": 139.5607,
-                "name": "三鷹",
-                "nameEn": "Mitaka",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Mitaka",
+                    "ja": "三鷹",
+                    "ko": "미타카",
+                    "zh-Hans": "三鹰",
+                    "zh-Hant": "三鷹"
+                },
                 "stationCode": "JC12"
             },
             {
                 "id": "Station:JR-East.ChuoRapid.MusashiSakai",
                 "latitude": 35.7021,
                 "longitude": 139.5434,
-                "name": "武蔵境",
-                "nameEn": "Musashi-Sakai",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Musashi-Sakai",
+                    "ja": "武蔵境",
+                    "ko": "무사시사카이",
+                    "zh-Hans": "武藏境",
+                    "zh-Hant": "武藏境"
+                },
                 "stationCode": "JC13"
             },
             {
                 "id": "Station:JR-East.ChuoRapid.HigashiKoganei",
                 "latitude": 35.7014,
                 "longitude": 139.524,
-                "name": "東小金井",
-                "nameEn": "Higashi-Koganei",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Higashi-Koganei",
+                    "ja": "東小金井",
+                    "ko": "히가시코가네이",
+                    "zh-Hans": "东小金井",
+                    "zh-Hant": "東小金井"
+                },
                 "stationCode": "JC14"
             },
             {
                 "id": "Station:JR-East.ChuoRapid.MusashiKoganei",
                 "latitude": 35.701,
                 "longitude": 139.5063,
-                "name": "武蔵小金井",
-                "nameEn": "Musashi-Koganei",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Musashi-Koganei",
+                    "ja": "武蔵小金井",
+                    "ko": "무사시코가네이",
+                    "zh-Hans": "武藏小金井",
+                    "zh-Hant": "武藏小金井"
+                },
                 "stationCode": "JC15"
             },
             {
                 "id": "Station:JR-East.ChuoRapid.Kokubunji",
                 "latitude": 35.7003,
                 "longitude": 139.4807,
-                "name": "国分寺",
-                "nameEn": "Kokubunji",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kokubunji",
+                    "ja": "国分寺",
+                    "ko": "고쿠분지",
+                    "zh-Hans": "国分寺",
+                    "zh-Hant": "國分寺"
+                },
                 "stationCode": "JC16"
             },
             {
                 "id": "Station:JR-East.ChuoRapid.NishiKokubunji",
                 "latitude": 35.6997,
                 "longitude": 139.4665,
-                "name": "西国分寺",
-                "nameEn": "Nishi-Kokubunji",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nishi-Kokubunji",
+                    "ja": "西国分寺",
+                    "ko": "니시코쿠분지",
+                    "zh-Hans": "西国分寺",
+                    "zh-Hant": "西國分寺"
+                },
                 "stationCode": "JC17"
             },
             {
                 "id": "Station:JR-East.ChuoRapid.Kunitachi",
                 "latitude": 35.6998,
                 "longitude": 139.4468,
-                "name": "国立",
-                "nameEn": "Kunitachi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kunitachi",
+                    "ja": "国立",
+                    "ko": "구니타치",
+                    "zh-Hans": "国立",
+                    "zh-Hant": "國立"
+                },
                 "stationCode": "JC18"
             },
             {
                 "id": "Station:JR-East.ChuoRapid.Tachikawa",
                 "latitude": 35.698,
                 "longitude": 139.4139,
-                "name": "立川",
-                "nameEn": "Tachikawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tachikawa",
+                    "ja": "立川",
+                    "ko": "다치카와",
+                    "zh-Hans": "立川",
+                    "zh-Hant": "立川"
+                },
                 "stationCode": "JC19"
             },
             {
                 "id": "Station:JR-East.ChuoRapid.Hino",
                 "latitude": 35.679389,
                 "longitude": 139.393846,
-                "name": "日野",
-                "nameEn": "Hino",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Hino",
+                    "ja": "日野",
+                    "ko": "히노",
+                    "zh-Hans": "日野",
+                    "zh-Hant": "日野"
+                },
                 "stationCode": "JC20"
             },
             {
                 "id": "Station:JR-East.ChuoRapid.Toyoda",
                 "latitude": 35.659515,
                 "longitude": 139.381485,
-                "name": "豊田",
-                "nameEn": "Toyoda",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Toyoda",
+                    "ja": "豊田",
+                    "ko": "도요다",
+                    "zh-Hans": "丰田",
+                    "zh-Hant": "豐田"
+                },
                 "stationCode": "JC21"
             },
             {
                 "id": "Station:JR-East.ChuoRapid.Hachioji",
                 "latitude": 35.6553,
                 "longitude": 139.339,
-                "name": "八王子",
-                "nameEn": "Hachioji",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Hachioji",
+                    "ja": "八王子",
+                    "ko": "하치오지",
+                    "zh-Hans": "八王子",
+                    "zh-Hant": "八王子"
+                },
                 "stationCode": "JC22"
             },
             {
                 "id": "Station:JR-East.ChuoRapid.NishiHachioji",
                 "latitude": 35.656523,
                 "longitude": 139.312416,
-                "name": "西八王子",
-                "nameEn": "Nishi-Hachioji",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nishi-Hachioji",
+                    "ja": "西八王子",
+                    "ko": "니시하치오지",
+                    "zh-Hans": "西八王子",
+                    "zh-Hant": "西八王子"
+                },
                 "stationCode": "JC23"
             },
             {
                 "id": "Station:JR-East.ChuoRapid.Takao",
                 "latitude": 35.6422,
                 "longitude": 139.282,
-                "name": "高尾",
-                "nameEn": "Takao",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Takao",
+                    "ja": "高尾",
+                    "ko": "다카오",
+                    "zh-Hans": "高尾",
+                    "zh-Hant": "高尾"
+                },
                 "stationCode": "JC24"
             }
         ],
@@ -5745,18 +5828,26 @@
                 "connectingLineId": "Railway:JR-East.Ome",
                 "end": "ascending",
                 "junctionStationId": "Station:JR-East.ChuoRapid.Tachikawa",
-                "lineNameEn": "JR Ome Line",
-                "lineNameJa": "青梅線",
-                "towardEn": "for Ome",
-                "towardJa": "青梅方面"
+                "lineName": {
+                    "en": "JR Ome Line",
+                    "ja": "青梅線"
+                },
+                "toward": {
+                    "en": "for Ome",
+                    "ja": "青梅方面"
+                }
             },
             {
                 "end": "ascending",
                 "junctionStationId": "Station:JR-East.ChuoRapid.Takao",
-                "lineNameEn": "JR Chuo Main Line",
-                "lineNameJa": "中央本線",
-                "towardEn": "for Otsuki",
-                "towardJa": "大月方面"
+                "lineName": {
+                    "en": "JR Chuo Main Line",
+                    "ja": "中央本線"
+                },
+                "toward": {
+                    "en": "for Otsuki",
+                    "ja": "大月方面"
+                }
             }
         ]
     }

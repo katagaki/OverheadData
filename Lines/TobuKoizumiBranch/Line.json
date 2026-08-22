@@ -2,10 +2,14 @@
     {
         "colorHex": "#E62119",
         "delayInfo": {
-            "checkMethodEn": "Check the Tobu Railway service status page, the Tobu app, or X (@TobuRailway_JP). Delays of roughly 10 minutes or more and suspensions are posted.",
-            "checkMethodJa": "東武鉄道「運行情報」ページ、東武線アプリ、またはX（@TobuRailway_JP）で確認できます。おおむね10分以上の遅延・運転見合わせが発生した場合に掲載されます。",
-            "statusPageURL": "https://www.tobu.co.jp/service_status/",
-            "statusPageURLEn": "https://www.tobu.co.jp/service_status/",
+            "checkMethod": {
+                "en": "Check the Tobu Railway service status page, the Tobu app, or X (@TobuRailway_JP). Delays of roughly 10 minutes or more and suspensions are posted.",
+                "ja": "東武鉄道「運行情報」ページ、東武線アプリ、またはX（@TobuRailway_JP）で確認できます。おおむね10分以上の遅延・運転見合わせが発生した場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://www.tobu.co.jp/service_status/",
+                "ja": "https://www.tobu.co.jp/service_status/"
+            },
             "xAccount": "@TobuRailway_JP"
         },
         "directions": [
@@ -15,13 +19,15 @@
                 "id": "static.RailDirection:Tobu.KoizumiBranch.Ota",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Ota",
-                "nameJa": "太田方面",
+                "name": {
+                    "en": "For Ota",
+                    "ja": "太田方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
                             "from": "05:45",
-                            "headwayMinutes": 22.0
+                            "headwayMinutes": 22
                         },
                         {
                             "from": "06:00",
@@ -29,27 +35,27 @@
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 28.0
+                            "headwayMinutes": 28
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 43.0
+                            "headwayMinutes": 43
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 61.0
+                            "headwayMinutes": 61
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 62.0
+                            "headwayMinutes": 62
                         },
                         {
                             "from": "11:00",
-                            "headwayMinutes": 60.0
+                            "headwayMinutes": 60
                         },
                         {
                             "from": "14:00",
-                            "headwayMinutes": 56.0
+                            "headwayMinutes": 56
                         },
                         {
                             "from": "15:00",
@@ -57,23 +63,23 @@
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 46.0
+                            "headwayMinutes": 46
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 41.0
+                            "headwayMinutes": 41
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 32.0
+                            "headwayMinutes": 32
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 38.0
+                            "headwayMinutes": 38
                         },
                         {
                             "from": "20:00",
-                            "headwayMinutes": 42.0
+                            "headwayMinutes": 42
                         },
                         {
                             "from": "21:00",
@@ -81,7 +87,7 @@
                         },
                         {
                             "from": "22:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         }
                     ],
                     "firstDeparture": "05:45",
@@ -92,7 +98,7 @@
                     "bands": [
                         {
                             "from": "05:45",
-                            "headwayMinutes": 22.0
+                            "headwayMinutes": 22
                         },
                         {
                             "from": "06:00",
@@ -100,27 +106,27 @@
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 28.0
+                            "headwayMinutes": 28
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 43.0
+                            "headwayMinutes": 43
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 61.0
+                            "headwayMinutes": 61
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 62.0
+                            "headwayMinutes": 62
                         },
                         {
                             "from": "11:00",
-                            "headwayMinutes": 60.0
+                            "headwayMinutes": 60
                         },
                         {
                             "from": "14:00",
-                            "headwayMinutes": 56.0
+                            "headwayMinutes": 56
                         },
                         {
                             "from": "15:00",
@@ -128,23 +134,23 @@
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 46.0
+                            "headwayMinutes": 46
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 41.0
+                            "headwayMinutes": 41
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 32.0
+                            "headwayMinutes": 32
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 38.0
+                            "headwayMinutes": 38
                         },
                         {
                             "from": "20:00",
-                            "headwayMinutes": 42.0
+                            "headwayMinutes": 42
                         },
                         {
                             "from": "21:00",
@@ -152,7 +158,7 @@
                         },
                         {
                             "from": "22:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         }
                     ],
                     "firstDeparture": "05:45",
@@ -166,8 +172,10 @@
                 "id": "static.RailDirection:Tobu.KoizumiBranch.HigashiKoizumi",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Higashi-koizumi",
-                "nameJa": "東小泉方面",
+                "name": {
+                    "en": "For Higashi-koizumi",
+                    "ja": "東小泉方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -176,31 +184,31 @@
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 45.0
+                            "headwayMinutes": 45
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 34.0
+                            "headwayMinutes": 34
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 49.0
+                            "headwayMinutes": 49
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 51.0
+                            "headwayMinutes": 51
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 60.0
+                            "headwayMinutes": 60
                         },
                         {
                             "from": "14:00",
-                            "headwayMinutes": 63.0
+                            "headwayMinutes": 63
                         },
                         {
                             "from": "15:00",
-                            "headwayMinutes": 57.0
+                            "headwayMinutes": 57
                         },
                         {
                             "from": "16:00",
@@ -208,7 +216,7 @@
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 47.0
+                            "headwayMinutes": 47
                         },
                         {
                             "from": "18:00",
@@ -216,15 +224,15 @@
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 33.0
+                            "headwayMinutes": 33
                         },
                         {
                             "from": "20:00",
-                            "headwayMinutes": 38.0
+                            "headwayMinutes": 38
                         },
                         {
                             "from": "21:00",
-                            "headwayMinutes": 71.0
+                            "headwayMinutes": 71
                         }
                     ],
                     "firstDeparture": "05:33",
@@ -239,31 +247,31 @@
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 45.0
+                            "headwayMinutes": 45
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 34.0
+                            "headwayMinutes": 34
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 49.0
+                            "headwayMinutes": 49
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 51.0
+                            "headwayMinutes": 51
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 60.0
+                            "headwayMinutes": 60
                         },
                         {
                             "from": "14:00",
-                            "headwayMinutes": 63.0
+                            "headwayMinutes": 63
                         },
                         {
                             "from": "15:00",
-                            "headwayMinutes": 57.0
+                            "headwayMinutes": 57
                         },
                         {
                             "from": "16:00",
@@ -271,7 +279,7 @@
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 47.0
+                            "headwayMinutes": 47
                         },
                         {
                             "from": "18:00",
@@ -279,15 +287,15 @@
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 33.0
+                            "headwayMinutes": 33
                         },
                         {
                             "from": "20:00",
-                            "headwayMinutes": 38.0
+                            "headwayMinutes": 38
                         },
                         {
                             "from": "21:00",
-                            "headwayMinutes": 71.0
+                            "headwayMinutes": 71
                         }
                     ],
                     "firstDeparture": "05:33",
@@ -296,44 +304,52 @@
                 }
             }
         ],
-        "hopTimesMinutes": [5.0, 4.0],
+        "hopTimesMinutes": [5, 4],
         "id": "Railway:Tobu.KoizumiBranch",
         "isLoop": false,
-        "nameEn": "Tobu Koizumi Line (Higashi-Koizumi – Ota)",
-        "nameJa": "東武小泉線（東小泉-太田）",
+        "name": {
+            "en": "Tobu Koizumi Line (Higashi-Koizumi – Ota)",
+            "ja": "東武小泉線（東小泉-太田）"
+        },
         "operatorId": "Operator:Tobu",
         "stations": [
             {
                 "id": "Station:Tobu.KoizumiBranch.HigashiKoizumi",
                 "latitude": 36.25972,
                 "longitude": 139.42856,
-                "name": "東小泉",
-                "nameEn": "Higashi-koizumi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Higashi-koizumi",
+                    "ja": "東小泉",
+                    "ko": "히가시코이즈미",
+                    "zh-Hans": "东小泉",
+                    "zh-Hant": "東小泉"
+                },
                 "stationCode": "TI44"
             },
             {
                 "id": "Station:Tobu.KoizumiBranch.Ryumai",
                 "latitude": 36.27885,
                 "longitude": 139.4091,
-                "name": "竜舞",
-                "nameEn": "Ryumai",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ryumai",
+                    "ja": "竜舞",
+                    "ko": "류마이",
+                    "zh-Hans": "龙舞",
+                    "zh-Hant": "龍舞"
+                },
                 "stationCode": "TI47"
             },
             {
                 "id": "Station:Tobu.KoizumiBranch.Ota",
                 "latitude": 36.29421,
                 "longitude": 139.37877,
-                "name": "太田",
-                "nameEn": "Ota",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ota",
+                    "ja": "太田",
+                    "ko": "오타",
+                    "zh-Hans": "太田",
+                    "zh-Hant": "太田"
+                },
                 "stationCode": "TI18"
             }
         ],
@@ -347,8 +363,10 @@
                 "startsHere": true,
                 "stops": [345, 349, 354],
                 "terminates": false,
-                "throughDestEn": "Akagi",
-                "throughDestJa": "赤城",
+                "throughDest": {
+                    "en": "Akagi",
+                    "ja": "赤城"
+                },
                 "type": "Local"
             },
             {
@@ -358,8 +376,10 @@
                 "startsHere": true,
                 "stops": [367, 372, 376],
                 "terminates": false,
-                "throughDestEn": "Akagi",
-                "throughDestJa": "赤城",
+                "throughDest": {
+                    "en": "Akagi",
+                    "ja": "赤城"
+                },
                 "type": "Local"
             },
             {
@@ -369,8 +389,10 @@
                 "startsHere": true,
                 "stops": [413, 418, 422],
                 "terminates": false,
-                "throughDestEn": "Akagi",
-                "throughDestJa": "赤城",
+                "throughDest": {
+                    "en": "Akagi",
+                    "ja": "赤城"
+                },
                 "type": "Local"
             },
             {
@@ -380,8 +402,10 @@
                 "startsHere": true,
                 "stops": [452, 456, 461],
                 "terminates": false,
-                "throughDestEn": "Akagi",
-                "throughDestJa": "赤城",
+                "throughDest": {
+                    "en": "Akagi",
+                    "ja": "赤城"
+                },
                 "type": "Local"
             },
             {
@@ -391,8 +415,10 @@
                 "startsHere": true,
                 "stops": [480, 485, 489],
                 "terminates": false,
-                "throughDestEn": "Akagi",
-                "throughDestJa": "赤城",
+                "throughDest": {
+                    "en": "Akagi",
+                    "ja": "赤城"
+                },
                 "type": "Local"
             },
             {
@@ -411,8 +437,10 @@
                 "startsHere": true,
                 "stops": [566, 570, 575],
                 "terminates": false,
-                "throughDestEn": "Akagi",
-                "throughDestJa": "赤城",
+                "throughDest": {
+                    "en": "Akagi",
+                    "ja": "赤城"
+                },
                 "type": "Local"
             },
             {
@@ -422,8 +450,10 @@
                 "startsHere": true,
                 "stops": [627, 632, 636],
                 "terminates": false,
-                "throughDestEn": "Akagi",
-                "throughDestJa": "赤城",
+                "throughDest": {
+                    "en": "Akagi",
+                    "ja": "赤城"
+                },
                 "type": "Local"
             },
             {
@@ -433,8 +463,10 @@
                 "startsHere": true,
                 "stops": [689, 693, 698],
                 "terminates": false,
-                "throughDestEn": "Akagi",
-                "throughDestJa": "赤城",
+                "throughDest": {
+                    "en": "Akagi",
+                    "ja": "赤城"
+                },
                 "type": "Local"
             },
             {
@@ -444,8 +476,10 @@
                 "startsHere": true,
                 "stops": [749, 753, 758],
                 "terminates": false,
-                "throughDestEn": "Akagi",
-                "throughDestJa": "赤城",
+                "throughDest": {
+                    "en": "Akagi",
+                    "ja": "赤城"
+                },
                 "type": "Local"
             },
             {
@@ -455,8 +489,10 @@
                 "startsHere": true,
                 "stops": [809, 813, 818],
                 "terminates": false,
-                "throughDestEn": "Akagi",
-                "throughDestJa": "赤城",
+                "throughDest": {
+                    "en": "Akagi",
+                    "ja": "赤城"
+                },
                 "type": "Local"
             },
             {
@@ -466,8 +502,10 @@
                 "startsHere": true,
                 "stops": [869, 873, 878],
                 "terminates": false,
-                "throughDestEn": "Akagi",
-                "throughDestJa": "赤城",
+                "throughDest": {
+                    "en": "Akagi",
+                    "ja": "赤城"
+                },
                 "type": "Local"
             },
             {
@@ -477,8 +515,10 @@
                 "startsHere": true,
                 "stops": [925, 929, 934],
                 "terminates": false,
-                "throughDestEn": "Akagi",
-                "throughDestJa": "赤城",
+                "throughDest": {
+                    "en": "Akagi",
+                    "ja": "赤城"
+                },
                 "type": "Local"
             },
             {
@@ -488,8 +528,10 @@
                 "startsHere": true,
                 "stops": [948, 953, 957],
                 "terminates": false,
-                "throughDestEn": "Akagi",
-                "throughDestJa": "赤城",
+                "throughDest": {
+                    "en": "Akagi",
+                    "ja": "赤城"
+                },
                 "type": "Local"
             },
             {
@@ -499,8 +541,10 @@
                 "startsHere": true,
                 "stops": [990, 994, 999],
                 "terminates": false,
-                "throughDestEn": "Akagi",
-                "throughDestJa": "赤城",
+                "throughDest": {
+                    "en": "Akagi",
+                    "ja": "赤城"
+                },
                 "type": "Local"
             },
             {
@@ -510,8 +554,10 @@
                 "startsHere": true,
                 "stops": [1036, 1041, 1045],
                 "terminates": false,
-                "throughDestEn": "Akagi",
-                "throughDestJa": "赤城",
+                "throughDest": {
+                    "en": "Akagi",
+                    "ja": "赤城"
+                },
                 "type": "Local"
             },
             {
@@ -521,8 +567,10 @@
                 "startsHere": true,
                 "stops": [1068, 1073, 1077],
                 "terminates": false,
-                "throughDestEn": "Akagi",
-                "throughDestJa": "赤城",
+                "throughDest": {
+                    "en": "Akagi",
+                    "ja": "赤城"
+                },
                 "type": "Local"
             },
             {
@@ -532,8 +580,10 @@
                 "startsHere": true,
                 "stops": [1118, 1123, 1127],
                 "terminates": false,
-                "throughDestEn": "Akagi",
-                "throughDestJa": "赤城",
+                "throughDest": {
+                    "en": "Akagi",
+                    "ja": "赤城"
+                },
                 "type": "Local"
             },
             {
@@ -543,8 +593,10 @@
                 "startsHere": true,
                 "stops": [1150, 1155, 1159],
                 "terminates": false,
-                "throughDestEn": "Akagi",
-                "throughDestJa": "赤城",
+                "throughDest": {
+                    "en": "Akagi",
+                    "ja": "赤城"
+                },
                 "type": "Local"
             },
             {
@@ -554,8 +606,10 @@
                 "startsHere": true,
                 "stops": [1182, 1186, 1191],
                 "terminates": false,
-                "throughDestEn": "Akagi",
-                "throughDestJa": "赤城",
+                "throughDest": {
+                    "en": "Akagi",
+                    "ja": "赤城"
+                },
                 "type": "Local"
             },
             {
@@ -565,8 +619,10 @@
                 "startsHere": true,
                 "stops": [1226, 1230, 1235],
                 "terminates": false,
-                "throughDestEn": "Akagi",
-                "throughDestJa": "赤城",
+                "throughDest": {
+                    "en": "Akagi",
+                    "ja": "赤城"
+                },
                 "type": "Local"
             },
             {
@@ -576,8 +632,10 @@
                 "startsHere": true,
                 "stops": [1268, 1273, 1277],
                 "terminates": false,
-                "throughDestEn": "Akagi",
-                "throughDestJa": "赤城",
+                "throughDest": {
+                    "en": "Akagi",
+                    "ja": "赤城"
+                },
                 "type": "Local"
             },
             {
@@ -605,8 +663,10 @@
                 "startsHere": true,
                 "stops": [1391, 1396, 1400],
                 "terminates": false,
-                "throughDestEn": "Akagi",
-                "throughDestJa": "赤城",
+                "throughDest": {
+                    "en": "Akagi",
+                    "ja": "赤城"
+                },
                 "type": "Local"
             },
             {
@@ -823,8 +883,10 @@
                 "startsHere": true,
                 "stops": [345, 349, 354],
                 "terminates": false,
-                "throughDestEn": "Akagi",
-                "throughDestJa": "赤城",
+                "throughDest": {
+                    "en": "Akagi",
+                    "ja": "赤城"
+                },
                 "type": "Local"
             },
             {
@@ -834,8 +896,10 @@
                 "startsHere": true,
                 "stops": [367, 372, 376],
                 "terminates": false,
-                "throughDestEn": "Akagi",
-                "throughDestJa": "赤城",
+                "throughDest": {
+                    "en": "Akagi",
+                    "ja": "赤城"
+                },
                 "type": "Local"
             },
             {
@@ -845,8 +909,10 @@
                 "startsHere": true,
                 "stops": [413, 418, 422],
                 "terminates": false,
-                "throughDestEn": "Akagi",
-                "throughDestJa": "赤城",
+                "throughDest": {
+                    "en": "Akagi",
+                    "ja": "赤城"
+                },
                 "type": "Local"
             },
             {
@@ -856,8 +922,10 @@
                 "startsHere": true,
                 "stops": [452, 456, 461],
                 "terminates": false,
-                "throughDestEn": "Akagi",
-                "throughDestJa": "赤城",
+                "throughDest": {
+                    "en": "Akagi",
+                    "ja": "赤城"
+                },
                 "type": "Local"
             },
             {
@@ -867,8 +935,10 @@
                 "startsHere": true,
                 "stops": [480, 485, 489],
                 "terminates": false,
-                "throughDestEn": "Akagi",
-                "throughDestJa": "赤城",
+                "throughDest": {
+                    "en": "Akagi",
+                    "ja": "赤城"
+                },
                 "type": "Local"
             },
             {
@@ -887,8 +957,10 @@
                 "startsHere": true,
                 "stops": [566, 570, 575],
                 "terminates": false,
-                "throughDestEn": "Akagi",
-                "throughDestJa": "赤城",
+                "throughDest": {
+                    "en": "Akagi",
+                    "ja": "赤城"
+                },
                 "type": "Local"
             },
             {
@@ -898,8 +970,10 @@
                 "startsHere": true,
                 "stops": [627, 632, 636],
                 "terminates": false,
-                "throughDestEn": "Akagi",
-                "throughDestJa": "赤城",
+                "throughDest": {
+                    "en": "Akagi",
+                    "ja": "赤城"
+                },
                 "type": "Local"
             },
             {
@@ -909,8 +983,10 @@
                 "startsHere": true,
                 "stops": [689, 693, 698],
                 "terminates": false,
-                "throughDestEn": "Akagi",
-                "throughDestJa": "赤城",
+                "throughDest": {
+                    "en": "Akagi",
+                    "ja": "赤城"
+                },
                 "type": "Local"
             },
             {
@@ -920,8 +996,10 @@
                 "startsHere": true,
                 "stops": [749, 753, 758],
                 "terminates": false,
-                "throughDestEn": "Akagi",
-                "throughDestJa": "赤城",
+                "throughDest": {
+                    "en": "Akagi",
+                    "ja": "赤城"
+                },
                 "type": "Local"
             },
             {
@@ -931,8 +1009,10 @@
                 "startsHere": true,
                 "stops": [809, 813, 818],
                 "terminates": false,
-                "throughDestEn": "Akagi",
-                "throughDestJa": "赤城",
+                "throughDest": {
+                    "en": "Akagi",
+                    "ja": "赤城"
+                },
                 "type": "Local"
             },
             {
@@ -942,8 +1022,10 @@
                 "startsHere": true,
                 "stops": [869, 873, 878],
                 "terminates": false,
-                "throughDestEn": "Akagi",
-                "throughDestJa": "赤城",
+                "throughDest": {
+                    "en": "Akagi",
+                    "ja": "赤城"
+                },
                 "type": "Local"
             },
             {
@@ -953,8 +1035,10 @@
                 "startsHere": true,
                 "stops": [925, 929, 934],
                 "terminates": false,
-                "throughDestEn": "Akagi",
-                "throughDestJa": "赤城",
+                "throughDest": {
+                    "en": "Akagi",
+                    "ja": "赤城"
+                },
                 "type": "Local"
             },
             {
@@ -964,8 +1048,10 @@
                 "startsHere": true,
                 "stops": [948, 953, 957],
                 "terminates": false,
-                "throughDestEn": "Akagi",
-                "throughDestJa": "赤城",
+                "throughDest": {
+                    "en": "Akagi",
+                    "ja": "赤城"
+                },
                 "type": "Local"
             },
             {
@@ -975,8 +1061,10 @@
                 "startsHere": true,
                 "stops": [990, 994, 999],
                 "terminates": false,
-                "throughDestEn": "Akagi",
-                "throughDestJa": "赤城",
+                "throughDest": {
+                    "en": "Akagi",
+                    "ja": "赤城"
+                },
                 "type": "Local"
             },
             {
@@ -986,8 +1074,10 @@
                 "startsHere": true,
                 "stops": [1036, 1041, 1045],
                 "terminates": false,
-                "throughDestEn": "Akagi",
-                "throughDestJa": "赤城",
+                "throughDest": {
+                    "en": "Akagi",
+                    "ja": "赤城"
+                },
                 "type": "Local"
             },
             {
@@ -997,8 +1087,10 @@
                 "startsHere": true,
                 "stops": [1068, 1073, 1077],
                 "terminates": false,
-                "throughDestEn": "Akagi",
-                "throughDestJa": "赤城",
+                "throughDest": {
+                    "en": "Akagi",
+                    "ja": "赤城"
+                },
                 "type": "Local"
             },
             {
@@ -1008,8 +1100,10 @@
                 "startsHere": true,
                 "stops": [1118, 1123, 1127],
                 "terminates": false,
-                "throughDestEn": "Akagi",
-                "throughDestJa": "赤城",
+                "throughDest": {
+                    "en": "Akagi",
+                    "ja": "赤城"
+                },
                 "type": "Local"
             },
             {
@@ -1019,8 +1113,10 @@
                 "startsHere": true,
                 "stops": [1150, 1155, 1159],
                 "terminates": false,
-                "throughDestEn": "Akagi",
-                "throughDestJa": "赤城",
+                "throughDest": {
+                    "en": "Akagi",
+                    "ja": "赤城"
+                },
                 "type": "Local"
             },
             {
@@ -1030,8 +1126,10 @@
                 "startsHere": true,
                 "stops": [1182, 1186, 1191],
                 "terminates": false,
-                "throughDestEn": "Akagi",
-                "throughDestJa": "赤城",
+                "throughDest": {
+                    "en": "Akagi",
+                    "ja": "赤城"
+                },
                 "type": "Local"
             },
             {
@@ -1041,8 +1139,10 @@
                 "startsHere": true,
                 "stops": [1226, 1230, 1235],
                 "terminates": false,
-                "throughDestEn": "Akagi",
-                "throughDestJa": "赤城",
+                "throughDest": {
+                    "en": "Akagi",
+                    "ja": "赤城"
+                },
                 "type": "Local"
             },
             {
@@ -1052,8 +1152,10 @@
                 "startsHere": true,
                 "stops": [1268, 1273, 1277],
                 "terminates": false,
-                "throughDestEn": "Akagi",
-                "throughDestJa": "赤城",
+                "throughDest": {
+                    "en": "Akagi",
+                    "ja": "赤城"
+                },
                 "type": "Local"
             },
             {
@@ -1081,8 +1183,10 @@
                 "startsHere": true,
                 "stops": [1391, 1396, 1400],
                 "terminates": false,
-                "throughDestEn": "Akagi",
-                "throughDestJa": "赤城",
+                "throughDest": {
+                    "en": "Akagi",
+                    "ja": "赤城"
+                },
                 "type": "Local"
             },
             {
@@ -1293,6 +1397,6 @@
                 "type": "Local"
             }
         ],
-        "upHopTimesMinutes": [4.0, 4.0]
+        "upHopTimesMinutes": [4, 4]
     }
 ]

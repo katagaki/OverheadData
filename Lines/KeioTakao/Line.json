@@ -2,10 +2,14 @@
     {
         "colorHex": "#DD0077",
         "delayInfo": {
-            "checkMethodEn": "Check the Keio train operation information page or the Keio app. Delays and suspensions are posted as they occur.",
-            "checkMethodJa": "京王電鉄「運行情報」ページまたは京王アプリで確認できます。遅延・運転見合わせが発生した場合に掲載されます。",
-            "statusPageURL": "https://www.keio.co.jp/unkou/unkou_pc.html",
-            "statusPageURLEn": "https://www.keio.co.jp/unkou/unkou_pc_e.html",
+            "checkMethod": {
+                "en": "Check the Keio train operation information page or the Keio app. Delays and suspensions are posted as they occur.",
+                "ja": "京王電鉄「運行情報」ページまたは京王アプリで確認できます。遅延・運転見合わせが発生した場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://www.keio.co.jp/unkou/unkou_pc_e.html",
+                "ja": "https://www.keio.co.jp/unkou/unkou_pc.html"
+            },
             "xAccount": "@keiodentetsu"
         },
         "directions": [
@@ -409,8 +413,10 @@
                 "id": "static.RailDirection:Keio.Takao.Takaosanguchi",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Takaosanguchi",
-                "nameJa": "高尾山口方面",
+                "name": {
+                    "en": "For Takaosanguchi",
+                    "ja": "高尾山口方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -473,8 +479,10 @@
                         "departure": "05:33",
                         "startsHere": true,
                         "stopIndices": [6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -482,8 +490,10 @@
                         "departure": "06:00",
                         "startsHere": true,
                         "stopIndices": [6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -491,8 +501,10 @@
                         "departure": "06:44",
                         "startsHere": true,
                         "stopIndices": [6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -500,8 +512,10 @@
                         "departure": "07:16",
                         "startsHere": true,
                         "stopIndices": [6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -509,8 +523,10 @@
                         "departure": "07:45",
                         "startsHere": true,
                         "stopIndices": [6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -518,8 +534,10 @@
                         "departure": "08:15",
                         "startsHere": true,
                         "stopIndices": [6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -527,8 +545,10 @@
                         "departure": "08:39",
                         "startsHere": true,
                         "stopIndices": [6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -536,8 +556,10 @@
                         "departure": "09:15",
                         "startsHere": true,
                         "stopIndices": [6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -545,8 +567,10 @@
                         "departure": "10:29",
                         "startsHere": true,
                         "stopIndices": [6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -554,8 +578,10 @@
                         "departure": "10:48",
                         "startsHere": true,
                         "stopIndices": [6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -563,8 +589,10 @@
                         "departure": "11:10",
                         "startsHere": true,
                         "stopIndices": [6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -572,8 +600,10 @@
                         "departure": "11:50",
                         "startsHere": true,
                         "stopIndices": [6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -581,8 +611,10 @@
                         "departure": "12:09",
                         "startsHere": true,
                         "stopIndices": [6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -590,8 +622,10 @@
                         "departure": "12:28",
                         "startsHere": true,
                         "stopIndices": [6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -599,8 +633,10 @@
                         "departure": "12:47",
                         "startsHere": true,
                         "stopIndices": [6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -608,8 +644,10 @@
                         "departure": "13:08",
                         "startsHere": true,
                         "stopIndices": [6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -617,8 +655,10 @@
                         "departure": "13:28",
                         "startsHere": true,
                         "stopIndices": [6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -626,8 +666,10 @@
                         "departure": "13:46",
                         "startsHere": true,
                         "stopIndices": [6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -635,8 +677,10 @@
                         "departure": "14:07",
                         "startsHere": true,
                         "stopIndices": [6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -644,8 +688,10 @@
                         "departure": "14:26",
                         "startsHere": true,
                         "stopIndices": [6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -653,8 +699,10 @@
                         "departure": "14:47",
                         "startsHere": true,
                         "stopIndices": [6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -662,8 +710,10 @@
                         "departure": "15:07",
                         "startsHere": true,
                         "stopIndices": [6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -671,8 +721,10 @@
                         "departure": "15:29",
                         "startsHere": true,
                         "stopIndices": [6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -680,8 +732,10 @@
                         "departure": "15:49",
                         "startsHere": true,
                         "stopIndices": [6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -689,8 +743,10 @@
                         "departure": "16:47",
                         "startsHere": true,
                         "stopIndices": [6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -698,8 +754,10 @@
                         "departure": "17:28",
                         "startsHere": true,
                         "stopIndices": [6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -707,8 +765,10 @@
                         "departure": "17:48",
                         "startsHere": true,
                         "stopIndices": [6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -716,8 +776,10 @@
                         "departure": "18:07",
                         "startsHere": true,
                         "stopIndices": [6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -725,8 +787,10 @@
                         "departure": "18:27",
                         "startsHere": true,
                         "stopIndices": [6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -734,8 +798,10 @@
                         "departure": "18:48",
                         "startsHere": true,
                         "stopIndices": [6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -743,8 +809,10 @@
                         "departure": "19:07",
                         "startsHere": true,
                         "stopIndices": [6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -752,8 +820,10 @@
                         "departure": "19:27",
                         "startsHere": true,
                         "stopIndices": [6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -761,8 +831,10 @@
                         "departure": "19:46",
                         "startsHere": true,
                         "stopIndices": [6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -770,8 +842,10 @@
                         "departure": "20:07",
                         "startsHere": true,
                         "stopIndices": [6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -779,8 +853,10 @@
                         "departure": "20:33",
                         "startsHere": true,
                         "stopIndices": [6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -788,8 +864,10 @@
                         "departure": "20:55",
                         "startsHere": true,
                         "stopIndices": [6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     }
                 ],
@@ -799,8 +877,10 @@
                         "departure": "05:33",
                         "startsHere": true,
                         "stopIndices": [6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -808,8 +888,10 @@
                         "departure": "05:57",
                         "startsHere": true,
                         "stopIndices": [6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -817,8 +899,10 @@
                         "departure": "06:31",
                         "startsHere": true,
                         "stopIndices": [6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -826,8 +910,10 @@
                         "departure": "06:55",
                         "startsHere": true,
                         "stopIndices": [6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "SemiExpress"
                     },
                     {
@@ -835,8 +921,10 @@
                         "departure": "07:22",
                         "startsHere": true,
                         "stopIndices": [6, 5, 3, 0],
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -844,8 +932,10 @@
                         "departure": "07:50",
                         "startsHere": true,
                         "stopIndices": [6, 5, 3, 0],
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
@@ -853,8 +943,10 @@
                         "departure": "08:06",
                         "startsHere": true,
                         "stopIndices": [6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -862,8 +954,10 @@
                         "departure": "09:29",
                         "startsHere": true,
                         "stopIndices": [6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -871,8 +965,10 @@
                         "departure": "09:45",
                         "startsHere": true,
                         "stopIndices": [6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -880,8 +976,10 @@
                         "departure": "10:09",
                         "startsHere": true,
                         "stopIndices": [6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -889,8 +987,10 @@
                         "departure": "10:27",
                         "startsHere": true,
                         "stopIndices": [6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -898,8 +998,10 @@
                         "departure": "10:47",
                         "startsHere": true,
                         "stopIndices": [6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -907,8 +1009,10 @@
                         "departure": "11:08",
                         "startsHere": true,
                         "stopIndices": [6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -916,8 +1020,10 @@
                         "departure": "11:27",
                         "startsHere": true,
                         "stopIndices": [6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -925,8 +1031,10 @@
                         "departure": "11:47",
                         "startsHere": true,
                         "stopIndices": [6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -934,8 +1042,10 @@
                         "departure": "12:07",
                         "startsHere": true,
                         "stopIndices": [6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -943,8 +1053,10 @@
                         "departure": "12:27",
                         "startsHere": true,
                         "stopIndices": [6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -952,8 +1064,10 @@
                         "departure": "12:47",
                         "startsHere": true,
                         "stopIndices": [6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -961,8 +1075,10 @@
                         "departure": "13:07",
                         "startsHere": true,
                         "stopIndices": [6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -970,8 +1086,10 @@
                         "departure": "13:27",
                         "startsHere": true,
                         "stopIndices": [6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -979,8 +1097,10 @@
                         "departure": "13:47",
                         "startsHere": true,
                         "stopIndices": [6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -988,8 +1108,10 @@
                         "departure": "14:07",
                         "startsHere": true,
                         "stopIndices": [6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -997,8 +1119,10 @@
                         "departure": "14:27",
                         "startsHere": true,
                         "stopIndices": [6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -1006,8 +1130,10 @@
                         "departure": "14:47",
                         "startsHere": true,
                         "stopIndices": [6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -1015,8 +1141,10 @@
                         "departure": "15:07",
                         "startsHere": true,
                         "stopIndices": [6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -1024,8 +1152,10 @@
                         "departure": "15:27",
                         "startsHere": true,
                         "stopIndices": [6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -1033,8 +1163,10 @@
                         "departure": "15:47",
                         "startsHere": true,
                         "stopIndices": [6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -1042,8 +1174,10 @@
                         "departure": "16:07",
                         "startsHere": true,
                         "stopIndices": [6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -1051,16 +1185,20 @@
                         "departure": "16:27",
                         "startsHere": true,
                         "stopIndices": [6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     }
                 ],
                 "id": "static.RailDirection:Keio.Takao.Kitano",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Kitano & Shinjuku",
-                "nameJa": "北野・新宿方面",
+                "name": {
+                    "en": "For Kitano & Shinjuku",
+                    "ja": "北野・新宿方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -1120,85 +1258,104 @@
         "hopTimesMinutes": [2, 2, 2, 2, 3, 3],
         "id": "Railway:Keio.Takao",
         "isLoop": false,
-        "nameEn": "Keio Takao Line",
-        "nameJa": "京王高尾線",
+        "name": {
+            "en": "Keio Takao Line",
+            "ja": "京王高尾線",
+            "ko": "게이오 전철 다카오 선",
+            "zh-Hans": "高尾线",
+            "zh-Hant": "高尾線"
+        },
         "operatorId": "Operator:Keio",
         "stations": [
             {
                 "id": "Station:Keio.Takao.Kitano",
                 "latitude": 35.644604,
                 "longitude": 139.354084,
-                "name": "北野",
-                "nameEn": "Kitano",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kitano",
+                    "ja": "北野",
+                    "ko": "기타노",
+                    "zh-Hans": "北野",
+                    "zh-Hant": "北野"
+                },
                 "stationCode": "KO33"
             },
             {
                 "id": "Station:Keio.Takao.KeioKatakura",
                 "latitude": 35.6444,
                 "longitude": 139.3373,
-                "name": "京王片倉",
-                "nameEn": "Keio-katakura",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Keio-katakura",
+                    "ja": "京王片倉",
+                    "ko": "게이오 가타쿠라",
+                    "zh-Hans": "京王片仓",
+                    "zh-Hant": "京王片倉"
+                },
                 "stationCode": "KO48"
             },
             {
                 "id": "Station:Keio.Takao.Yamada",
                 "latitude": 35.6444,
                 "longitude": 139.3213,
-                "name": "山田",
-                "nameEn": "Yamada",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Yamada",
+                    "ja": "山田",
+                    "ko": "야마다",
+                    "zh-Hans": "山田",
+                    "zh-Hant": "山田"
+                },
                 "stationCode": "KO49"
             },
             {
                 "id": "Station:Keio.Takao.Mejirodai",
                 "latitude": 35.6433,
                 "longitude": 139.3077,
-                "name": "めじろ台",
-                "nameEn": "Mejirodai",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Mejirodai",
+                    "ja": "めじろ台",
+                    "ko": "메지로다이",
+                    "zh-Hans": "目白台",
+                    "zh-Hant": "目白台"
+                },
                 "stationCode": "KO50"
             },
             {
                 "id": "Station:Keio.Takao.Hazama",
                 "latitude": 35.6406,
                 "longitude": 139.2933,
-                "name": "狭間",
-                "nameEn": "Hazama",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Hazama",
+                    "ja": "狭間",
+                    "ko": "하자마",
+                    "zh-Hans": "狭间",
+                    "zh-Hant": "狹間"
+                },
                 "stationCode": "KO51"
             },
             {
                 "id": "Station:Keio.Takao.Takao",
                 "latitude": 35.6422,
                 "longitude": 139.2819,
-                "name": "高尾",
-                "nameEn": "Takao",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Takao",
+                    "ja": "高尾",
+                    "ko": "다카오",
+                    "zh-Hans": "高尾",
+                    "zh-Hant": "高尾"
+                },
                 "stationCode": "KO52"
             },
             {
                 "id": "Station:Keio.Takao.Takaosanguchi",
                 "latitude": 35.6322,
                 "longitude": 139.2699,
-                "name": "高尾山口",
-                "nameEn": "Takaosanguchi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Takaosanguchi",
+                    "ja": "高尾山口",
+                    "ko": "다카오산구치",
+                    "zh-Hans": "高尾山口",
+                    "zh-Hant": "高尾山口"
+                },
                 "stationCode": "KO53"
             }
         ],
@@ -1208,10 +1365,14 @@
                 "connectingLineId": "Railway:Keio.Keio",
                 "end": "descending",
                 "junctionStationId": "Station:Keio.Takao.Kitano",
-                "lineNameEn": "Keio Line",
-                "lineNameJa": "京王線",
-                "towardEn": "for Meidaimae & Shinjuku",
-                "towardJa": "明大前・新宿方面"
+                "lineName": {
+                    "en": "Keio Line",
+                    "ja": "京王線"
+                },
+                "toward": {
+                    "en": "for Meidaimae & Shinjuku",
+                    "ja": "明大前・新宿方面"
+                }
             }
         ]
     }

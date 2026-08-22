@@ -2,10 +2,14 @@
     {
         "colorHex": "#DD0077",
         "delayInfo": {
-            "checkMethodEn": "Check the Keio train operation information page or the Keio app. Delays and suspensions are posted as they occur.",
-            "checkMethodJa": "京王電鉄「運行情報」ページまたは京王アプリで確認できます。遅延・運転見合わせが発生した場合に掲載されます。",
-            "statusPageURL": "https://www.keio.co.jp/unkou/unkou_pc.html",
-            "statusPageURLEn": "https://www.keio.co.jp/unkou/unkou_pc_e.html",
+            "checkMethod": {
+                "en": "Check the Keio train operation information page or the Keio app. Delays and suspensions are posted as they occur.",
+                "ja": "京王電鉄「運行情報」ページまたは京王アプリで確認できます。遅延・運転見合わせが発生した場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://www.keio.co.jp/unkou/unkou_pc_e.html",
+                "ja": "https://www.keio.co.jp/unkou/unkou_pc.html"
+            },
             "xAccount": "@keiodentetsu"
         },
         "directions": [
@@ -15,49 +19,51 @@
                 "id": "static.RailDirection:Keio.Keibajo.FuchukeibaSeimommae",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Fuchūkeiba-seimommae",
-                "nameJa": "府中競馬正門前方面",
+                "name": {
+                    "en": "For Fuchūkeiba-seimommae",
+                    "ja": "府中競馬正門前方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
                             "from": "06:22",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "15:00",
-                            "headwayMinutes": 19.0
+                            "headwayMinutes": 19
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 21.0
+                            "headwayMinutes": 21
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 17.0
+                            "headwayMinutes": 17
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "20:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "21:00",
-                            "headwayMinutes": 18.0
+                            "headwayMinutes": 18
                         }
                     ],
                     "firstDeparture": "06:22",
@@ -68,19 +74,19 @@
                     "bands": [
                         {
                             "from": "06:22",
-                            "headwayMinutes": 11.0
+                            "headwayMinutes": 11
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 17.0
+                            "headwayMinutes": 17
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "20:00",
@@ -88,7 +94,7 @@
                         },
                         {
                             "from": "21:00",
-                            "headwayMinutes": 19.0
+                            "headwayMinutes": 19
                         }
                     ],
                     "firstDeparture": "06:22",
@@ -102,49 +108,51 @@
                 "id": "static.RailDirection:Keio.Keibajo.HigashiFuchu",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Higashi-fuchū",
-                "nameJa": "東府中方面",
+                "name": {
+                    "en": "For Higashi-fuchū",
+                    "ja": "東府中方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
                             "from": "06:29",
-                            "headwayMinutes": 22.0
+                            "headwayMinutes": 22
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 16.0
+                            "headwayMinutes": 16
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 18.0
+                            "headwayMinutes": 18
                         },
                         {
                             "from": "11:00",
-                            "headwayMinutes": 19.0
+                            "headwayMinutes": 19
                         },
                         {
                             "from": "13:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "15:00",
-                            "headwayMinutes": 19.0
+                            "headwayMinutes": 19
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 18.0
+                            "headwayMinutes": 18
                         },
                         {
                             "from": "19:00",
@@ -152,11 +160,11 @@
                         },
                         {
                             "from": "20:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "21:00",
-                            "headwayMinutes": 16.0
+                            "headwayMinutes": 16
                         }
                     ],
                     "firstDeparture": "06:29",
@@ -167,7 +175,7 @@
                     "bands": [
                         {
                             "from": "06:27",
-                            "headwayMinutes": 11.0
+                            "headwayMinutes": 11
                         },
                         {
                             "from": "08:00",
@@ -175,19 +183,19 @@
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 17.0
+                            "headwayMinutes": 17
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "20:00",
-                            "headwayMinutes": 17.0
+                            "headwayMinutes": 17
                         },
                         {
                             "from": "21:00",
-                            "headwayMinutes": 18.0
+                            "headwayMinutes": 18
                         }
                     ],
                     "firstDeparture": "06:27",
@@ -196,33 +204,42 @@
                 }
             }
         ],
-        "hopTimesMinutes": [2.0],
+        "hopTimesMinutes": [2],
         "id": "Railway:Keio.Keibajo",
         "isLoop": false,
-        "nameEn": "Keio Keibajo Line",
-        "nameJa": "京王競馬場線",
+        "name": {
+            "en": "Keio Keibajo Line",
+            "ja": "京王競馬場線",
+            "ko": "게이오 전철 경마장선",
+            "zh-Hans": "竞马场线",
+            "zh-Hant": "競馬場線"
+        },
         "operatorId": "Operator:Keio",
         "stations": [
             {
                 "id": "Station:Keio.Keibajo.HigashiFuchu",
                 "latitude": 35.66877,
                 "longitude": 139.4954,
-                "name": "東府中",
-                "nameEn": "Higashi-fuchū",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Higashi-fuchū",
+                    "ja": "東府中",
+                    "ko": "히가시후추",
+                    "zh-Hans": "东府中",
+                    "zh-Hant": "東府中"
+                },
                 "stationCode": "KO23"
             },
             {
                 "id": "Station:Keio.Keibajo.FuchukeibaSeimommae",
                 "latitude": 35.66836,
                 "longitude": 139.48516,
-                "name": "府中競馬正門前",
-                "nameEn": "Fuchūkeiba-seimommae",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Fuchūkeiba-seimommae",
+                    "ja": "府中競馬正門前",
+                    "ko": "후추케이바세이몬마에",
+                    "zh-Hans": "府中竞马正门前",
+                    "zh-Hant": "府中競馬正門前"
+                },
                 "stationCode": "KO46"
             }
         ],
@@ -2120,6 +2137,6 @@
                 "type": "Local"
             }
         ],
-        "upHopTimesMinutes": [2.0]
+        "upHopTimesMinutes": [2]
     }
 ]

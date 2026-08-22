@@ -2,10 +2,14 @@
     {
         "colorHex": "#FFE500",
         "delayInfo": {
-            "checkMethodEn": "Check the JR East Train Operation Information page or the JR East app. In the Tokyo area, delays or suspensions of 15 minutes or more are posted.",
-            "checkMethodJa": "JR東日本「列車運行情報」ページまたはJR東日本アプリで確認できます。首都圏エリアでは15分以上の遅れ・運休が発生または見込まれる場合に掲載されます。",
-            "statusPageURL": "https://traininfo.jreast.co.jp/train_info/line.aspx?gid=1&lineid=tsurumiline",
-            "statusPageURLEn": "https://traininfo.jreast.co.jp/train_info/e/kanto.aspx",
+            "checkMethod": {
+                "en": "Check the JR East Train Operation Information page or the JR East app. In the Tokyo area, delays or suspensions of 15 minutes or more are posted.",
+                "ja": "JR東日本「列車運行情報」ページまたはJR東日本アプリで確認できます。首都圏エリアでは15分以上の遅れ・運休が発生または見込まれる場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://traininfo.jreast.co.jp/train_info/e/kanto.aspx",
+                "ja": "https://traininfo.jreast.co.jp/train_info/line.aspx?gid=1&lineid=tsurumiline"
+            },
             "xAccount": "@JRE_F_Tokaido"
         },
         "directions": [
@@ -15,21 +19,23 @@
                 "id": "static.RailDirection:JR-East.TsurumiUmiShibauraBranch.UmiShibaura",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Umi-Shibaura",
-                "nameJa": "海芝浦方面",
+                "name": {
+                    "en": "For Umi-Shibaura",
+                    "ja": "海芝浦方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
                             "from": "06:37",
-                            "headwayMinutes": 33.0
+                            "headwayMinutes": 33
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 29.0
+                            "headwayMinutes": 29
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 53.0
+                            "headwayMinutes": 53
                         },
                         {
                             "from": "09:00",
@@ -37,7 +43,7 @@
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 80.0
+                            "headwayMinutes": 80
                         },
                         {
                             "from": "16:00",
@@ -45,15 +51,15 @@
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 31.0
+                            "headwayMinutes": 31
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 78.0
+                            "headwayMinutes": 78
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 50.0
+                            "headwayMinutes": 50
                         }
                     ],
                     "firstDeparture": "06:37",
@@ -68,31 +74,31 @@
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 12.0
+                            "headwayMinutes": 12
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 41.0
+                            "headwayMinutes": 41
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 77.0
+                            "headwayMinutes": 77
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 80.0
+                            "headwayMinutes": 80
                         },
                         {
                             "from": "14:00",
-                            "headwayMinutes": 90.0
+                            "headwayMinutes": 90
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 32.0
+                            "headwayMinutes": 32
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 18.0
+                            "headwayMinutes": 18
                         },
                         {
                             "from": "18:00",
@@ -104,7 +110,7 @@
                         },
                         {
                             "from": "20:00",
-                            "headwayMinutes": 80.0
+                            "headwayMinutes": 80
                         }
                     ],
                     "firstDeparture": "06:28",
@@ -118,21 +124,23 @@
                 "id": "static.RailDirection:JR-East.TsurumiUmiShibauraBranch.Asano",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Asano",
-                "nameJa": "浅野方面",
+                "name": {
+                    "en": "For Asano",
+                    "ja": "浅野方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
                             "from": "06:56",
-                            "headwayMinutes": 21.0
+                            "headwayMinutes": 21
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 29.0
+                            "headwayMinutes": 29
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 62.0
+                            "headwayMinutes": 62
                         },
                         {
                             "from": "09:00",
@@ -140,23 +148,23 @@
                         },
                         {
                             "from": "11:00",
-                            "headwayMinutes": 80.0
+                            "headwayMinutes": 80
                         },
                         {
                             "from": "15:00",
-                            "headwayMinutes": 79.0
+                            "headwayMinutes": 79
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 30.0
+                            "headwayMinutes": 30
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 55.0
+                            "headwayMinutes": 55
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 65.0
+                            "headwayMinutes": 65
                         }
                     ],
                     "firstDeparture": "06:56",
@@ -167,11 +175,11 @@
                     "bands": [
                         {
                             "from": "06:38",
-                            "headwayMinutes": 16.0
+                            "headwayMinutes": 16
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 13.0
+                            "headwayMinutes": 13
                         },
                         {
                             "from": "08:00",
@@ -179,39 +187,39 @@
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 59.0
+                            "headwayMinutes": 59
                         },
                         {
                             "from": "11:00",
-                            "headwayMinutes": 80.0
+                            "headwayMinutes": 80
                         },
                         {
                             "from": "15:00",
-                            "headwayMinutes": 96.0
+                            "headwayMinutes": 96
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 17.0
+                            "headwayMinutes": 17
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 21.0
+                            "headwayMinutes": 21
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 35.0
+                            "headwayMinutes": 35
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 40.0
+                            "headwayMinutes": 40
                         },
                         {
                             "from": "20:00",
-                            "headwayMinutes": 60.0
+                            "headwayMinutes": 60
                         },
                         {
                             "from": "21:00",
-                            "headwayMinutes": 80.0
+                            "headwayMinutes": 80
                         }
                     ],
                     "firstDeparture": "06:38",
@@ -220,44 +228,52 @@
                 }
             }
         ],
-        "hopTimesMinutes": [2.0, 2.0],
+        "hopTimesMinutes": [2, 2],
         "id": "Railway:JR-East.TsurumiUmiShibauraBranch",
         "isLoop": false,
-        "nameEn": "Tsurumi Line Umi-Shibaura Branch",
-        "nameJa": "鶴見線海芝浦支線",
+        "name": {
+            "en": "Tsurumi Line Umi-Shibaura Branch",
+            "ja": "鶴見線海芝浦支線"
+        },
         "operatorId": "Operator:JR-East",
         "stations": [
             {
                 "id": "Station:JR-East.TsurumiUmiShibauraBranch.Asano",
                 "latitude": 35.49744,
                 "longitude": 139.69571,
-                "name": "浅野",
-                "nameEn": "Asano",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Asano",
+                    "ja": "浅野",
+                    "ko": "아사노",
+                    "zh-Hans": "浅野",
+                    "zh-Hant": "淺野"
+                },
                 "stationCode": "JI05"
             },
             {
                 "id": "Station:JR-East.TsurumiUmiShibauraBranch.ShinShibaura",
                 "latitude": 35.49192,
                 "longitude": 139.70012,
-                "name": "新芝浦",
-                "nameEn": "Shin-Shibaura",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shin-Shibaura",
+                    "ja": "新芝浦",
+                    "ko": "신시바우라",
+                    "zh-Hans": "新芝浦",
+                    "zh-Hant": "新芝浦"
+                },
                 "stationCode": "JI51"
             },
             {
                 "id": "Station:JR-East.TsurumiUmiShibauraBranch.UmiShibaura",
                 "latitude": 35.48613,
                 "longitude": 139.70068,
-                "name": "海芝浦",
-                "nameEn": "Umi-Shibaura",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Umi-Shibaura",
+                    "ja": "海芝浦",
+                    "ko": "우미시바우라",
+                    "zh-Hans": "海芝浦",
+                    "zh-Hant": "海芝浦"
+                },
                 "stationCode": "JI52"
             }
         ],
@@ -424,8 +440,10 @@
                 "startsHere": true,
                 "stops": [416, 418, 420],
                 "terminates": false,
-                "throughDestEn": "Tsurumi",
-                "throughDestJa": "鶴見",
+                "throughDest": {
+                    "en": "Tsurumi",
+                    "ja": "鶴見"
+                },
                 "type": "Local"
             },
             {
@@ -435,8 +453,10 @@
                 "startsHere": true,
                 "stops": [437, 439, 441],
                 "terminates": false,
-                "throughDestEn": "Tsurumi",
-                "throughDestJa": "鶴見",
+                "throughDest": {
+                    "en": "Tsurumi",
+                    "ja": "鶴見"
+                },
                 "type": "Local"
             },
             {
@@ -446,8 +466,10 @@
                 "startsHere": true,
                 "stops": [466, 468, 470],
                 "terminates": false,
-                "throughDestEn": "Tsurumi",
-                "throughDestJa": "鶴見",
+                "throughDest": {
+                    "en": "Tsurumi",
+                    "ja": "鶴見"
+                },
                 "type": "Local"
             },
             {
@@ -457,8 +479,10 @@
                 "startsHere": true,
                 "stops": [495, 497, 499],
                 "terminates": false,
-                "throughDestEn": "Tsurumi",
-                "throughDestJa": "鶴見",
+                "throughDest": {
+                    "en": "Tsurumi",
+                    "ja": "鶴見"
+                },
                 "type": "Local"
             },
             {
@@ -468,8 +492,10 @@
                 "startsHere": true,
                 "stops": [557, 559, 561],
                 "terminates": false,
-                "throughDestEn": "Tsurumi",
-                "throughDestJa": "鶴見",
+                "throughDest": {
+                    "en": "Tsurumi",
+                    "ja": "鶴見"
+                },
                 "type": "Local"
             },
             {
@@ -479,8 +505,10 @@
                 "startsHere": true,
                 "stops": [592, 594, 596],
                 "terminates": false,
-                "throughDestEn": "Tsurumi",
-                "throughDestJa": "鶴見",
+                "throughDest": {
+                    "en": "Tsurumi",
+                    "ja": "鶴見"
+                },
                 "type": "Local"
             },
             {
@@ -490,8 +518,10 @@
                 "startsHere": true,
                 "stops": [676, 678, 680],
                 "terminates": false,
-                "throughDestEn": "Tsurumi",
-                "throughDestJa": "鶴見",
+                "throughDest": {
+                    "en": "Tsurumi",
+                    "ja": "鶴見"
+                },
                 "type": "Local"
             },
             {
@@ -501,8 +531,10 @@
                 "startsHere": true,
                 "stops": [756, 758, 760],
                 "terminates": false,
-                "throughDestEn": "Tsurumi",
-                "throughDestJa": "鶴見",
+                "throughDest": {
+                    "en": "Tsurumi",
+                    "ja": "鶴見"
+                },
                 "type": "Local"
             },
             {
@@ -512,8 +544,10 @@
                 "startsHere": true,
                 "stops": [836, 838, 840],
                 "terminates": false,
-                "throughDestEn": "Tsurumi",
-                "throughDestJa": "鶴見",
+                "throughDest": {
+                    "en": "Tsurumi",
+                    "ja": "鶴見"
+                },
                 "type": "Local"
             },
             {
@@ -523,8 +557,10 @@
                 "startsHere": true,
                 "stops": [916, 918, 920],
                 "terminates": false,
-                "throughDestEn": "Tsurumi",
-                "throughDestJa": "鶴見",
+                "throughDest": {
+                    "en": "Tsurumi",
+                    "ja": "鶴見"
+                },
                 "type": "Local"
             },
             {
@@ -534,8 +570,10 @@
                 "startsHere": true,
                 "stops": [995, 997, 999],
                 "terminates": false,
-                "throughDestEn": "Tsurumi",
-                "throughDestJa": "鶴見",
+                "throughDest": {
+                    "en": "Tsurumi",
+                    "ja": "鶴見"
+                },
                 "type": "Local"
             },
             {
@@ -545,8 +583,10 @@
                 "startsHere": true,
                 "stops": [1025, 1027, 1029],
                 "terminates": false,
-                "throughDestEn": "Tsurumi",
-                "throughDestJa": "鶴見",
+                "throughDest": {
+                    "en": "Tsurumi",
+                    "ja": "鶴見"
+                },
                 "type": "Local"
             },
             {
@@ -556,8 +596,10 @@
                 "startsHere": true,
                 "stops": [1064, 1066, 1068],
                 "terminates": false,
-                "throughDestEn": "Tsurumi",
-                "throughDestJa": "鶴見",
+                "throughDest": {
+                    "en": "Tsurumi",
+                    "ja": "鶴見"
+                },
                 "type": "Local"
             },
             {
@@ -567,8 +609,10 @@
                 "startsHere": true,
                 "stops": [1085, 1087, 1089],
                 "terminates": false,
-                "throughDestEn": "Tsurumi",
-                "throughDestJa": "鶴見",
+                "throughDest": {
+                    "en": "Tsurumi",
+                    "ja": "鶴見"
+                },
                 "type": "Local"
             },
             {
@@ -578,8 +622,10 @@
                 "startsHere": true,
                 "stops": [1127, 1129, 1131],
                 "terminates": false,
-                "throughDestEn": "Tsurumi",
-                "throughDestJa": "鶴見",
+                "throughDest": {
+                    "en": "Tsurumi",
+                    "ja": "鶴見"
+                },
                 "type": "Local"
             },
             {
@@ -589,8 +635,10 @@
                 "startsHere": true,
                 "stops": [1195, 1197, 1199],
                 "terminates": false,
-                "throughDestEn": "Tsurumi",
-                "throughDestJa": "鶴見",
+                "throughDest": {
+                    "en": "Tsurumi",
+                    "ja": "鶴見"
+                },
                 "type": "Local"
             },
             {
@@ -600,8 +648,10 @@
                 "startsHere": true,
                 "stops": [1260, 1262, 1264],
                 "terminates": false,
-                "throughDestEn": "Tsurumi",
-                "throughDestJa": "鶴見",
+                "throughDest": {
+                    "en": "Tsurumi",
+                    "ja": "鶴見"
+                },
                 "type": "Local"
             },
             {
@@ -827,8 +877,10 @@
                 "startsHere": true,
                 "stops": [398, 400, 402],
                 "terminates": false,
-                "throughDestEn": "Tsurumi",
-                "throughDestJa": "鶴見",
+                "throughDest": {
+                    "en": "Tsurumi",
+                    "ja": "鶴見"
+                },
                 "type": "Local"
             },
             {
@@ -838,8 +890,10 @@
                 "startsHere": true,
                 "stops": [417, 419, 421],
                 "terminates": false,
-                "throughDestEn": "Tsurumi",
-                "throughDestJa": "鶴見",
+                "throughDest": {
+                    "en": "Tsurumi",
+                    "ja": "鶴見"
+                },
                 "type": "Local"
             },
             {
@@ -849,8 +903,10 @@
                 "startsHere": true,
                 "stops": [430, 432, 434],
                 "terminates": false,
-                "throughDestEn": "Tsurumi",
-                "throughDestJa": "鶴見",
+                "throughDest": {
+                    "en": "Tsurumi",
+                    "ja": "鶴見"
+                },
                 "type": "Local"
             },
             {
@@ -860,8 +916,10 @@
                 "startsHere": true,
                 "stops": [444, 446, 448],
                 "terminates": false,
-                "throughDestEn": "Tsurumi",
-                "throughDestJa": "鶴見",
+                "throughDest": {
+                    "en": "Tsurumi",
+                    "ja": "鶴見"
+                },
                 "type": "Local"
             },
             {
@@ -871,8 +929,10 @@
                 "startsHere": true,
                 "stops": [453, 455, 457],
                 "terminates": false,
-                "throughDestEn": "Tsurumi",
-                "throughDestJa": "鶴見",
+                "throughDest": {
+                    "en": "Tsurumi",
+                    "ja": "鶴見"
+                },
                 "type": "Local"
             },
             {
@@ -882,8 +942,10 @@
                 "startsHere": true,
                 "stops": [465, 467, 469],
                 "terminates": false,
-                "throughDestEn": "Tsurumi",
-                "throughDestJa": "鶴見",
+                "throughDest": {
+                    "en": "Tsurumi",
+                    "ja": "鶴見"
+                },
                 "type": "Local"
             },
             {
@@ -893,8 +955,10 @@
                 "startsHere": true,
                 "stops": [481, 483, 485],
                 "terminates": false,
-                "throughDestEn": "Tsurumi",
-                "throughDestJa": "鶴見",
+                "throughDest": {
+                    "en": "Tsurumi",
+                    "ja": "鶴見"
+                },
                 "type": "Local"
             },
             {
@@ -904,8 +968,10 @@
                 "startsHere": true,
                 "stops": [509, 511, 513],
                 "terminates": false,
-                "throughDestEn": "Tsurumi",
-                "throughDestJa": "鶴見",
+                "throughDest": {
+                    "en": "Tsurumi",
+                    "ja": "鶴見"
+                },
                 "type": "Local"
             },
             {
@@ -915,8 +981,10 @@
                 "startsHere": true,
                 "stops": [558, 560, 562],
                 "terminates": false,
-                "throughDestEn": "Tsurumi",
-                "throughDestJa": "鶴見",
+                "throughDest": {
+                    "en": "Tsurumi",
+                    "ja": "鶴見"
+                },
                 "type": "Local"
             },
             {
@@ -926,8 +994,10 @@
                 "startsHere": true,
                 "stops": [596, 598, 600],
                 "terminates": false,
-                "throughDestEn": "Tsurumi",
-                "throughDestJa": "鶴見",
+                "throughDest": {
+                    "en": "Tsurumi",
+                    "ja": "鶴見"
+                },
                 "type": "Local"
             },
             {
@@ -937,8 +1007,10 @@
                 "startsHere": true,
                 "stops": [676, 678, 680],
                 "terminates": false,
-                "throughDestEn": "Tsurumi",
-                "throughDestJa": "鶴見",
+                "throughDest": {
+                    "en": "Tsurumi",
+                    "ja": "鶴見"
+                },
                 "type": "Local"
             },
             {
@@ -948,8 +1020,10 @@
                 "startsHere": true,
                 "stops": [756, 758, 760],
                 "terminates": false,
-                "throughDestEn": "Tsurumi",
-                "throughDestJa": "鶴見",
+                "throughDest": {
+                    "en": "Tsurumi",
+                    "ja": "鶴見"
+                },
                 "type": "Local"
             },
             {
@@ -959,8 +1033,10 @@
                 "startsHere": true,
                 "stops": [836, 838, 840],
                 "terminates": false,
-                "throughDestEn": "Tsurumi",
-                "throughDestJa": "鶴見",
+                "throughDest": {
+                    "en": "Tsurumi",
+                    "ja": "鶴見"
+                },
                 "type": "Local"
             },
             {
@@ -970,8 +1046,10 @@
                 "startsHere": true,
                 "stops": [916, 918, 920],
                 "terminates": false,
-                "throughDestEn": "Tsurumi",
-                "throughDestJa": "鶴見",
+                "throughDest": {
+                    "en": "Tsurumi",
+                    "ja": "鶴見"
+                },
                 "type": "Local"
             },
             {
@@ -981,8 +1059,10 @@
                 "startsHere": true,
                 "stops": [1012, 1014, 1016],
                 "terminates": false,
-                "throughDestEn": "Tsurumi",
-                "throughDestJa": "鶴見",
+                "throughDest": {
+                    "en": "Tsurumi",
+                    "ja": "鶴見"
+                },
                 "type": "Local"
             },
             {
@@ -992,8 +1072,10 @@
                 "startsHere": true,
                 "stops": [1029, 1031, 1033],
                 "terminates": false,
-                "throughDestEn": "Tsurumi",
-                "throughDestJa": "鶴見",
+                "throughDest": {
+                    "en": "Tsurumi",
+                    "ja": "鶴見"
+                },
                 "type": "Local"
             },
             {
@@ -1003,8 +1085,10 @@
                 "startsHere": true,
                 "stops": [1043, 1045, 1047],
                 "terminates": false,
-                "throughDestEn": "Tsurumi",
-                "throughDestJa": "鶴見",
+                "throughDest": {
+                    "en": "Tsurumi",
+                    "ja": "鶴見"
+                },
                 "type": "Local"
             },
             {
@@ -1014,8 +1098,10 @@
                 "startsHere": true,
                 "stops": [1064, 1066, 1068],
                 "terminates": false,
-                "throughDestEn": "Tsurumi",
-                "throughDestJa": "鶴見",
+                "throughDest": {
+                    "en": "Tsurumi",
+                    "ja": "鶴見"
+                },
                 "type": "Local"
             },
             {
@@ -1025,8 +1111,10 @@
                 "startsHere": true,
                 "stops": [1090, 1092, 1094],
                 "terminates": false,
-                "throughDestEn": "Tsurumi",
-                "throughDestJa": "鶴見",
+                "throughDest": {
+                    "en": "Tsurumi",
+                    "ja": "鶴見"
+                },
                 "type": "Local"
             },
             {
@@ -1036,8 +1124,10 @@
                 "startsHere": true,
                 "stops": [1114, 1116, 1118],
                 "terminates": false,
-                "throughDestEn": "Tsurumi",
-                "throughDestJa": "鶴見",
+                "throughDest": {
+                    "en": "Tsurumi",
+                    "ja": "鶴見"
+                },
                 "type": "Local"
             },
             {
@@ -1047,8 +1137,10 @@
                 "startsHere": true,
                 "stops": [1160, 1162, 1164],
                 "terminates": false,
-                "throughDestEn": "Tsurumi",
-                "throughDestJa": "鶴見",
+                "throughDest": {
+                    "en": "Tsurumi",
+                    "ja": "鶴見"
+                },
                 "type": "Local"
             },
             {
@@ -1058,8 +1150,10 @@
                 "startsHere": true,
                 "stops": [1200, 1202, 1204],
                 "terminates": false,
-                "throughDestEn": "Tsurumi",
-                "throughDestJa": "鶴見",
+                "throughDest": {
+                    "en": "Tsurumi",
+                    "ja": "鶴見"
+                },
                 "type": "Local"
             },
             {
@@ -1069,8 +1163,10 @@
                 "startsHere": true,
                 "stops": [1260, 1262, 1264],
                 "terminates": false,
-                "throughDestEn": "Tsurumi",
-                "throughDestJa": "鶴見",
+                "throughDest": {
+                    "en": "Tsurumi",
+                    "ja": "鶴見"
+                },
                 "type": "Local"
             },
             {
@@ -1080,11 +1176,13 @@
                 "startsHere": true,
                 "stops": [1340, 1342, 1344],
                 "terminates": false,
-                "throughDestEn": "Tsurumi",
-                "throughDestJa": "鶴見",
+                "throughDest": {
+                    "en": "Tsurumi",
+                    "ja": "鶴見"
+                },
                 "type": "Local"
             }
         ],
-        "upHopTimesMinutes": [2.0, 2.0]
+        "upHopTimesMinutes": [2, 2]
     }
 ]

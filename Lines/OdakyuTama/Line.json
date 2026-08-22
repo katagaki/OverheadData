@@ -2,10 +2,14 @@
     {
         "colorHex": "#0085CE",
         "delayInfo": {
-            "checkMethodEn": "Check the Odakyu train information page, the Odakyu app, or X (@odakyuline_info). Delays and suspensions are posted as they occur.",
-            "checkMethodJa": "小田急電鉄「運行情報」ページ、小田急アプリ、またはX（@odakyuline_info）で確認できます。遅延・運転見合わせが発生した場合に掲載されます。",
-            "statusPageURL": "https://traininfo.odakyu-rt.jp/train_status",
-            "statusPageURLEn": "https://traininfo.odakyu-rt.jp/train_status",
+            "checkMethod": {
+                "en": "Check the Odakyu train information page, the Odakyu app, or X (@odakyuline_info). Delays and suspensions are posted as they occur.",
+                "ja": "小田急電鉄「運行情報」ページ、小田急アプリ、またはX（@odakyuline_info）で確認できます。遅延・運転見合わせが発生した場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://traininfo.odakyu-rt.jp/train_status",
+                "ja": "https://traininfo.odakyu-rt.jp/train_status"
+            },
             "xAccount": "@odakyuline_info"
         },
         "directions": [
@@ -809,8 +813,10 @@
                 "id": "static.RailDirection:Odakyu.Tama.Karakida",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Karakida",
-                "nameJa": "唐木田方面",
+                "name": {
+                    "en": "For Karakida",
+                    "ja": "唐木田方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -872,528 +878,660 @@
                         "continuesBeyond": true,
                         "departure": "06:09",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "RapidExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "06:29",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "RapidExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "06:47",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "07:03",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "07:24",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "07:43",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "08:04",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "08:24",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "08:43",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "09:04",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "09:22",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "09:31",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "09:48",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "10:08",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "10:28",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "10:49",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "11:08",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "11:38",
                         "startsHere": true,
-                        "throughDestEn": "Abiko",
-                        "throughDestJa": "我孫子",
+                        "throughDest": {
+                            "en": "Abiko",
+                            "ja": "我孫子"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "11:45",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "11:55",
                         "startsHere": true,
-                        "throughDestEn": "Abiko",
-                        "throughDestJa": "我孫子",
+                        "throughDest": {
+                            "en": "Abiko",
+                            "ja": "我孫子"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "12:04",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "12:14",
                         "startsHere": true,
-                        "throughDestEn": "Abiko",
-                        "throughDestJa": "我孫子",
+                        "throughDest": {
+                            "en": "Abiko",
+                            "ja": "我孫子"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "12:23",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "12:33",
                         "startsHere": true,
-                        "throughDestEn": "Abiko",
-                        "throughDestJa": "我孫子",
+                        "throughDest": {
+                            "en": "Abiko",
+                            "ja": "我孫子"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "12:43",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "12:53",
                         "startsHere": true,
-                        "throughDestEn": "Abiko",
-                        "throughDestJa": "我孫子",
+                        "throughDest": {
+                            "en": "Abiko",
+                            "ja": "我孫子"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "13:03",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "13:14",
                         "startsHere": true,
-                        "throughDestEn": "Abiko",
-                        "throughDestJa": "我孫子",
+                        "throughDest": {
+                            "en": "Abiko",
+                            "ja": "我孫子"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "13:23",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "13:33",
                         "startsHere": true,
-                        "throughDestEn": "Abiko",
-                        "throughDestJa": "我孫子",
+                        "throughDest": {
+                            "en": "Abiko",
+                            "ja": "我孫子"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "13:43",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "13:53",
                         "startsHere": true,
-                        "throughDestEn": "Abiko",
-                        "throughDestJa": "我孫子",
+                        "throughDest": {
+                            "en": "Abiko",
+                            "ja": "我孫子"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "14:03",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "14:13",
                         "startsHere": true,
-                        "throughDestEn": "Abiko",
-                        "throughDestJa": "我孫子",
+                        "throughDest": {
+                            "en": "Abiko",
+                            "ja": "我孫子"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "14:23",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "14:33",
                         "startsHere": true,
-                        "throughDestEn": "Abiko",
-                        "throughDestJa": "我孫子",
+                        "throughDest": {
+                            "en": "Abiko",
+                            "ja": "我孫子"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "14:43",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "14:53",
                         "startsHere": true,
-                        "throughDestEn": "Abiko",
-                        "throughDestJa": "我孫子",
+                        "throughDest": {
+                            "en": "Abiko",
+                            "ja": "我孫子"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "15:03",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "15:13",
                         "startsHere": true,
-                        "throughDestEn": "Abiko",
-                        "throughDestJa": "我孫子",
+                        "throughDest": {
+                            "en": "Abiko",
+                            "ja": "我孫子"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "15:23",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "15:33",
                         "startsHere": true,
-                        "throughDestEn": "Abiko",
-                        "throughDestJa": "我孫子",
+                        "throughDest": {
+                            "en": "Abiko",
+                            "ja": "我孫子"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "15:43",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "15:53",
                         "startsHere": true,
-                        "throughDestEn": "Abiko",
-                        "throughDestJa": "我孫子",
+                        "throughDest": {
+                            "en": "Abiko",
+                            "ja": "我孫子"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "16:04",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "16:13",
                         "startsHere": true,
-                        "throughDestEn": "Abiko",
-                        "throughDestJa": "我孫子",
+                        "throughDest": {
+                            "en": "Abiko",
+                            "ja": "我孫子"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "16:23",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "16:33",
                         "startsHere": true,
-                        "throughDestEn": "Abiko",
-                        "throughDestJa": "我孫子",
+                        "throughDest": {
+                            "en": "Abiko",
+                            "ja": "我孫子"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "16:43",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "17:03",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "17:23",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "17:44",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "18:03",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "18:24",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "18:46",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "19:04",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "19:14",
                         "startsHere": true,
-                        "throughDestEn": "Kita-ayase",
-                        "throughDestJa": "北綾瀬",
+                        "throughDest": {
+                            "en": "Kita-ayase",
+                            "ja": "北綾瀬"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "19:23",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "19:43",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "20:04",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "20:23",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "20:43",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "21:04",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "21:23",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "21:43",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "22:04",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     }
                 ],
@@ -1402,480 +1540,600 @@
                         "continuesBeyond": true,
                         "departure": "05:56",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "06:11",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "06:34",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "CommuterExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "07:14",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "CommuterExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "07:44",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "CommuterExpress"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "08:28",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "08:56",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "09:18",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "09:41",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "10:04",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "10:14",
                         "startsHere": true,
-                        "throughDestEn": "Abiko",
-                        "throughDestJa": "我孫子",
+                        "throughDest": {
+                            "en": "Abiko",
+                            "ja": "我孫子"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "10:24",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "10:34",
                         "startsHere": true,
-                        "throughDestEn": "Abiko",
-                        "throughDestJa": "我孫子",
+                        "throughDest": {
+                            "en": "Abiko",
+                            "ja": "我孫子"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "10:44",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "10:54",
                         "startsHere": true,
-                        "throughDestEn": "Abiko",
-                        "throughDestJa": "我孫子",
+                        "throughDest": {
+                            "en": "Abiko",
+                            "ja": "我孫子"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "11:04",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "11:14",
                         "startsHere": true,
-                        "throughDestEn": "Abiko",
-                        "throughDestJa": "我孫子",
+                        "throughDest": {
+                            "en": "Abiko",
+                            "ja": "我孫子"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "11:24",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "11:34",
                         "startsHere": true,
-                        "throughDestEn": "Abiko",
-                        "throughDestJa": "我孫子",
+                        "throughDest": {
+                            "en": "Abiko",
+                            "ja": "我孫子"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "11:44",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "11:54",
                         "startsHere": true,
-                        "throughDestEn": "Abiko",
-                        "throughDestJa": "我孫子",
+                        "throughDest": {
+                            "en": "Abiko",
+                            "ja": "我孫子"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "12:04",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "12:14",
                         "startsHere": true,
-                        "throughDestEn": "Abiko",
-                        "throughDestJa": "我孫子",
+                        "throughDest": {
+                            "en": "Abiko",
+                            "ja": "我孫子"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "12:24",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "12:34",
                         "startsHere": true,
-                        "throughDestEn": "Abiko",
-                        "throughDestJa": "我孫子",
+                        "throughDest": {
+                            "en": "Abiko",
+                            "ja": "我孫子"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "12:44",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "12:54",
                         "startsHere": true,
-                        "throughDestEn": "Abiko",
-                        "throughDestJa": "我孫子",
+                        "throughDest": {
+                            "en": "Abiko",
+                            "ja": "我孫子"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "13:04",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "13:14",
                         "startsHere": true,
-                        "throughDestEn": "Abiko",
-                        "throughDestJa": "我孫子",
+                        "throughDest": {
+                            "en": "Abiko",
+                            "ja": "我孫子"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "13:24",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "13:34",
                         "startsHere": true,
-                        "throughDestEn": "Abiko",
-                        "throughDestJa": "我孫子",
+                        "throughDest": {
+                            "en": "Abiko",
+                            "ja": "我孫子"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "13:44",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "13:54",
                         "startsHere": true,
-                        "throughDestEn": "Abiko",
-                        "throughDestJa": "我孫子",
+                        "throughDest": {
+                            "en": "Abiko",
+                            "ja": "我孫子"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "14:04",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "14:14",
                         "startsHere": true,
-                        "throughDestEn": "Abiko",
-                        "throughDestJa": "我孫子",
+                        "throughDest": {
+                            "en": "Abiko",
+                            "ja": "我孫子"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "14:24",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "14:34",
                         "startsHere": true,
-                        "throughDestEn": "Abiko",
-                        "throughDestJa": "我孫子",
+                        "throughDest": {
+                            "en": "Abiko",
+                            "ja": "我孫子"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "14:44",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "14:54",
                         "startsHere": true,
-                        "throughDestEn": "Abiko",
-                        "throughDestJa": "我孫子",
+                        "throughDest": {
+                            "en": "Abiko",
+                            "ja": "我孫子"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "15:04",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "15:14",
                         "startsHere": true,
-                        "throughDestEn": "Abiko",
-                        "throughDestJa": "我孫子",
+                        "throughDest": {
+                            "en": "Abiko",
+                            "ja": "我孫子"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "15:24",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "15:34",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "15:43",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "15:54",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "16:03",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "16:14",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "16:23",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "16:34",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "17:18",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "17:25",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "17:39",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "17:59",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "18:18",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "18:38",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "18:58",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "19:10",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "19:38",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "20:02",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     },
                     {
                         "continuesBeyond": true,
                         "departure": "21:47",
                         "startsHere": true,
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "Express"
                     }
                 ],
@@ -1891,56 +2149,70 @@
                                 "continuesBeyond": true,
                                 "departure": "06:55",
                                 "startsHere": true,
-                                "throughDestEn": "Shinjuku",
-                                "throughDestJa": "新宿",
+                                "throughDest": {
+                                    "en": "Shinjuku",
+                                    "ja": "新宿"
+                                },
                                 "trainType": "CommuterExpress"
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "07:07",
                                 "startsHere": true,
-                                "throughDestEn": "Shinjuku",
-                                "throughDestJa": "新宿",
+                                "throughDest": {
+                                    "en": "Shinjuku",
+                                    "ja": "新宿"
+                                },
                                 "trainType": "CommuterExpress"
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "07:27",
                                 "startsHere": true,
-                                "throughDestEn": "Shinjuku",
-                                "throughDestJa": "新宿",
+                                "throughDest": {
+                                    "en": "Shinjuku",
+                                    "ja": "新宿"
+                                },
                                 "trainType": "CommuterExpress"
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "07:36",
                                 "startsHere": true,
-                                "throughDestEn": "Shinjuku",
-                                "throughDestJa": "新宿",
+                                "throughDest": {
+                                    "en": "Shinjuku",
+                                    "ja": "新宿"
+                                },
                                 "trainType": "CommuterExpress"
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "07:57",
                                 "startsHere": true,
-                                "throughDestEn": "Shinjuku",
-                                "throughDestJa": "新宿",
+                                "throughDest": {
+                                    "en": "Shinjuku",
+                                    "ja": "新宿"
+                                },
                                 "trainType": "CommuterExpress"
                             },
                             {
                                 "continuesBeyond": true,
                                 "departure": "08:10",
                                 "startsHere": true,
-                                "throughDestEn": "Shinjuku",
-                                "throughDestJa": "新宿",
+                                "throughDest": {
+                                    "en": "Shinjuku",
+                                    "ja": "新宿"
+                                },
                                 "trainType": "CommuterExpress"
                             }
                         ]
                     }
                 ],
                 "isAscending": false,
-                "nameEn": "For Shin-Yurigaoka",
-                "nameJa": "新百合ヶ丘方面",
+                "name": {
+                    "en": "For Shin-Yurigaoka",
+                    "ja": "新百合ヶ丘方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -2000,96 +2272,111 @@
         "hopTimesMinutes": [2.5, 1.5, 1.5, 1.5, 2.5, 2.5, 2.5],
         "id": "Railway:Odakyu.Tama",
         "isLoop": false,
-        "nameEn": "Odakyu Tama Line",
-        "nameJa": "小田急多摩線",
+        "name": {
+            "en": "Odakyu Tama Line",
+            "ja": "小田急多摩線",
+            "ko": "오다큐 전철 다마 선",
+            "zh-Hans": "多摩线",
+            "zh-Hant": "多摩線"
+        },
         "operatorId": "Operator:Odakyu",
         "stations": [
             {
                 "id": "Station:Odakyu.Tama.ShinYurigaoka",
                 "latitude": 35.6039,
                 "longitude": 139.5083,
-                "name": "新百合ヶ丘",
-                "nameEn": "Shin-Yurigaoka",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shin-Yurigaoka",
+                    "ja": "新百合ヶ丘",
+                    "ko": "신유리가오카",
+                    "zh-Hans": "新百合丘",
+                    "zh-Hant": "新百合丘"
+                },
                 "stationCode": "OH23"
             },
             {
                 "id": "Station:Odakyu.Tama.Satsukidai",
                 "latitude": 35.600175,
                 "longitude": 139.493614,
-                "name": "五月台",
-                "nameEn": "Satsukidai",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Satsukidai",
+                    "ja": "五月台",
+                    "ko": "사쓰키다이",
+                    "zh-Hans": "五月台",
+                    "zh-Hant": "五月臺"
+                },
                 "stationCode": "OT01"
             },
             {
                 "id": "Station:Odakyu.Tama.Kurihira",
                 "latitude": 35.60608,
                 "longitude": 139.480889,
-                "name": "栗平",
-                "nameEn": "Kurihira",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kurihira",
+                    "ja": "栗平",
+                    "ko": "구리히라",
+                    "zh-Hans": "栗平",
+                    "zh-Hant": "慄平"
+                },
                 "stationCode": "OT02"
             },
             {
                 "id": "Station:Odakyu.Tama.Kurokawa",
                 "latitude": 35.613233,
                 "longitude": 139.470742,
-                "name": "黒川",
-                "nameEn": "Kurokawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kurokawa",
+                    "ja": "黒川",
+                    "ko": "구로카와",
+                    "zh-Hans": "黑川",
+                    "zh-Hant": "黑川"
+                },
                 "stationCode": "OT03"
             },
             {
                 "id": "Station:Odakyu.Tama.Haruhino",
                 "latitude": 35.61884,
                 "longitude": 139.464619,
-                "name": "はるひ野",
-                "nameEn": "Haruhino",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Haruhino",
+                    "ja": "はるひ野",
+                    "ko": "하루히노",
+                    "zh-Hans": "春日野",
+                    "zh-Hant": "春日野"
+                },
                 "stationCode": "OT04"
             },
             {
                 "id": "Station:Odakyu.Tama.OdakyuNagayama",
                 "latitude": 35.629933,
                 "longitude": 139.44821,
-                "name": "小田急永山",
-                "nameEn": "Odakyu-Nagayama",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Odakyu-Nagayama",
+                    "ja": "小田急永山"
+                },
                 "stationCode": "OT05"
             },
             {
                 "id": "Station:Odakyu.Tama.OdakyuTamaCenter",
                 "latitude": 35.6244,
                 "longitude": 139.4243,
-                "name": "小田急多摩センター",
-                "nameEn": "Odakyu-Tama-Center",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Odakyu-Tama-Center",
+                    "ja": "小田急多摩センター"
+                },
                 "stationCode": "OT06"
             },
             {
                 "id": "Station:Odakyu.Tama.Karakida",
                 "latitude": 35.6146,
                 "longitude": 139.411,
-                "name": "唐木田",
-                "nameEn": "Karakida",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Karakida",
+                    "ja": "唐木田",
+                    "ko": "가라키다",
+                    "zh-Hans": "唐木田",
+                    "zh-Hant": "唐木田"
+                },
                 "stationCode": "OT07"
             }
         ],
@@ -2106,10 +2393,14 @@
                 "connectingLineId": "Railway:Odakyu.Odawara",
                 "end": "descending",
                 "junctionStationId": "Station:Odakyu.Tama.ShinYurigaoka",
-                "lineNameEn": "Odakyu Odawara Line",
-                "lineNameJa": "小田急小田原線",
-                "towardEn": "for Shinjuku & the Chiyoda Line",
-                "towardJa": "新宿・千代田線方面"
+                "lineName": {
+                    "en": "Odakyu Odawara Line",
+                    "ja": "小田急小田原線"
+                },
+                "toward": {
+                    "en": "for Shinjuku & the Chiyoda Line",
+                    "ja": "新宿・千代田線方面"
+                }
             }
         ]
     }

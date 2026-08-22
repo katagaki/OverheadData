@@ -2,10 +2,14 @@
     {
         "colorHex": "#E85298",
         "delayInfo": {
-            "checkMethodEn": "Check the Toei Transportation service information page, the Toei app, or X (@toeikotsu). Delays and suspensions are posted as they occur.",
-            "checkMethodJa": "都営交通「運行情報」ページ、都営交通アプリ、またはX（@toeikotsu）で確認できます。遅延・運転見合わせが発生した場合に掲載されます。",
-            "statusPageURL": "https://www.kotsu.metro.tokyo.jp/subway/schedule/asakusa.html",
-            "statusPageURLEn": "https://www.kotsu.metro.tokyo.jp/eng/operation_status/",
+            "checkMethod": {
+                "en": "Check the Toei Transportation service information page, the Toei app, or X (@toeikotsu). Delays and suspensions are posted as they occur.",
+                "ja": "都営交通「運行情報」ページ、都営交通アプリ、またはX（@toeikotsu）で確認できます。遅延・運転見合わせが発生した場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://www.kotsu.metro.tokyo.jp/eng/operation_status/",
+                "ja": "https://www.kotsu.metro.tokyo.jp/subway/schedule/asakusa.html"
+            },
             "xAccount": "@toeikotsu"
         },
         "directions": [
@@ -26,8 +30,10 @@
                     }
                 ],
                 "isAscending": true,
-                "nameEn": "For Oshiage",
-                "nameJa": "押上方面",
+                "name": {
+                    "en": "For Oshiage",
+                    "ja": "押上方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -99,8 +105,10 @@
                     }
                 ],
                 "isAscending": false,
-                "nameEn": "For Nishi-magome",
-                "nameJa": "西馬込方面",
+                "name": {
+                    "en": "For Nishi-magome",
+                    "ja": "西馬込方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -164,228 +172,270 @@
         "hopTimesMinutes": [2, 2, 2, 2, 2, 2, 3, 2, 2, 2, 2, 2, 2, 1, 2, 2, 2, 2, 2],
         "id": "Railway:Toei.Asakusa",
         "isLoop": false,
-        "nameEn": "Toei Asakusa Line",
-        "nameJa": "都営浅草線",
+        "name": {
+            "en": "Toei Asakusa Line",
+            "ja": "都営浅草線"
+        },
         "operatorId": "Operator:Toei",
         "stations": [
             {
                 "id": "Station:Toei.Asakusa.NishiMagome",
                 "latitude": 35.5866,
                 "longitude": 139.7053,
-                "name": "西馬込",
-                "nameEn": "Nishi-magome",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nishi-magome",
+                    "ja": "西馬込",
+                    "ko": "니시마고메",
+                    "zh-Hans": "西马込",
+                    "zh-Hant": "西馬込"
+                },
                 "stationCode": "A01"
             },
             {
                 "id": "Station:Toei.Asakusa.Magome",
                 "latitude": 35.596779,
                 "longitude": 139.711927,
-                "name": "馬込",
-                "nameEn": "Magome",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Magome",
+                    "ja": "馬込",
+                    "ko": "마고메",
+                    "zh-Hans": "马込",
+                    "zh-Hant": "馬込"
+                },
                 "stationCode": "A02"
             },
             {
                 "id": "Station:Toei.Asakusa.Nakanobu",
                 "latitude": 35.6057,
                 "longitude": 139.713,
-                "name": "中延",
-                "nameEn": "Nakanobu",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nakanobu",
+                    "ja": "中延",
+                    "ko": "나카노부",
+                    "zh-Hans": "中延",
+                    "zh-Hant": "中延"
+                },
                 "stationCode": "A03"
             },
             {
                 "id": "Station:Toei.Asakusa.Togoshi",
                 "latitude": 35.614502,
                 "longitude": 139.716364,
-                "name": "戸越",
-                "nameEn": "Togoshi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Togoshi",
+                    "ja": "戸越",
+                    "ko": "도고시",
+                    "zh-Hans": "户越",
+                    "zh-Hant": "戶越"
+                },
                 "stationCode": "A04"
             },
             {
                 "id": "Station:Toei.Asakusa.Gotanda",
                 "latitude": 35.6262,
                 "longitude": 139.7233,
-                "name": "五反田",
-                "nameEn": "Gotanda",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Gotanda",
+                    "ja": "五反田",
+                    "ko": "고탄다",
+                    "zh-Hans": "五反田",
+                    "zh-Hant": "五反田"
+                },
                 "stationCode": "A05"
             },
             {
                 "id": "Station:Toei.Asakusa.Takanawadai",
                 "latitude": 35.631735,
                 "longitude": 139.730426,
-                "name": "高輪台",
-                "nameEn": "Takanawadai",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Takanawadai",
+                    "ja": "高輪台",
+                    "ko": "다카나와다이",
+                    "zh-Hans": "高轮台",
+                    "zh-Hant": "高輪台"
+                },
                 "stationCode": "A06"
             },
             {
                 "id": "Station:Toei.Asakusa.Sengakuji",
                 "latitude": 35.6387,
                 "longitude": 139.7402,
-                "name": "泉岳寺",
-                "nameEn": "Sengakuji",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Sengakuji",
+                    "ja": "泉岳寺",
+                    "ko": "센가쿠지",
+                    "zh-Hans": "泉岳寺",
+                    "zh-Hant": "泉岳寺"
+                },
                 "stationCode": "A07"
             },
             {
                 "id": "Station:Toei.Asakusa.Mita",
                 "latitude": 35.6484,
                 "longitude": 139.7476,
-                "name": "三田",
-                "nameEn": "Mita",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Mita",
+                    "ja": "三田",
+                    "ko": "미타",
+                    "zh-Hans": "三田",
+                    "zh-Hant": "三田"
+                },
                 "stationCode": "A08"
             },
             {
                 "id": "Station:Toei.Asakusa.Daimon",
                 "latitude": 35.6567,
                 "longitude": 139.7546,
-                "name": "大門",
-                "nameEn": "Daimon",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Daimon",
+                    "ja": "大門",
+                    "ko": "다이몬",
+                    "zh-Hans": "大门",
+                    "zh-Hant": "大門"
+                },
                 "stationCode": "A09"
             },
             {
                 "id": "Station:Toei.Asakusa.Shimbashi",
                 "latitude": 35.6663,
                 "longitude": 139.7583,
-                "name": "新橋",
-                "nameEn": "Shimbashi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shimbashi",
+                    "ja": "新橋",
+                    "ko": "신바시",
+                    "zh-Hans": "新桥",
+                    "zh-Hant": "新橋"
+                },
                 "stationCode": "A10"
             },
             {
                 "id": "Station:Toei.Asakusa.HigashiGinza",
                 "latitude": 35.6698,
                 "longitude": 139.7674,
-                "name": "東銀座",
-                "nameEn": "Higashi-ginza",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Higashi-ginza",
+                    "ja": "東銀座",
+                    "ko": "히가시긴자",
+                    "zh-Hans": "东银座",
+                    "zh-Hant": "東銀座"
+                },
                 "stationCode": "A11"
             },
             {
                 "id": "Station:Toei.Asakusa.Takaracho",
                 "latitude": 35.6754,
                 "longitude": 139.771,
-                "name": "宝町",
-                "nameEn": "Takaracho",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Takaracho",
+                    "ja": "宝町",
+                    "ko": "다카라초",
+                    "zh-Hans": "宝町",
+                    "zh-Hant": "寶町"
+                },
                 "stationCode": "A12"
             },
             {
                 "id": "Station:Toei.Asakusa.Nihombashi",
                 "latitude": 35.681831,
                 "longitude": 139.77581,
-                "name": "日本橋",
-                "nameEn": "Nihombashi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nihombashi",
+                    "ja": "日本橋",
+                    "ko": "니혼바시",
+                    "zh-Hans": "日本桥",
+                    "zh-Hant": "日本橋"
+                },
                 "stationCode": "A13"
             },
             {
                 "id": "Station:Toei.Asakusa.Ningyocho",
                 "latitude": 35.6864,
                 "longitude": 139.7825,
-                "name": "人形町",
-                "nameEn": "Ningyocho",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ningyocho",
+                    "ja": "人形町",
+                    "ko": "닌교초",
+                    "zh-Hans": "人形町",
+                    "zh-Hant": "人形町"
+                },
                 "stationCode": "A14"
             },
             {
                 "id": "Station:Toei.Asakusa.HigashiNihombashi",
                 "latitude": 35.6922,
                 "longitude": 139.7851,
-                "name": "東日本橋",
-                "nameEn": "Higashi-nihombashi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Higashi-nihombashi",
+                    "ja": "東日本橋",
+                    "ko": "히가시니혼바시",
+                    "zh-Hans": "东日本桥",
+                    "zh-Hant": "東日本橋"
+                },
                 "stationCode": "A15"
             },
             {
                 "id": "Station:Toei.Asakusa.Asakusabashi",
                 "latitude": 35.6986,
                 "longitude": 139.7862,
-                "name": "浅草橋",
-                "nameEn": "Asakusabashi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Asakusabashi",
+                    "ja": "浅草橋",
+                    "ko": "아사쿠사바시",
+                    "zh-Hans": "浅草桥",
+                    "zh-Hant": "淺草橋"
+                },
                 "stationCode": "A16"
             },
             {
                 "id": "Station:Toei.Asakusa.Kuramae",
                 "latitude": 35.7035,
                 "longitude": 139.7905,
-                "name": "蔵前",
-                "nameEn": "Kuramae",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kuramae",
+                    "ja": "蔵前",
+                    "ko": "구라마에",
+                    "zh-Hans": "藏前",
+                    "zh-Hant": "藏前"
+                },
                 "stationCode": "A17"
             },
             {
                 "id": "Station:Toei.Asakusa.Asakusa",
                 "latitude": 35.708959,
                 "longitude": 139.796567,
-                "name": "浅草",
-                "nameEn": "Asakusa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Asakusa",
+                    "ja": "浅草",
+                    "ko": "아사쿠사",
+                    "zh-Hans": "浅草",
+                    "zh-Hant": "淺草"
+                },
                 "stationCode": "A18"
             },
             {
                 "id": "Station:Toei.Asakusa.HonjoAzumabashi",
                 "latitude": 35.7098,
                 "longitude": 139.8049,
-                "name": "本所吾妻橋",
-                "nameEn": "Honjo-azumabashi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Honjo-azumabashi",
+                    "ja": "本所吾妻橋",
+                    "ko": "혼조아즈마바시",
+                    "zh-Hans": "本所吾妻挢",
+                    "zh-Hant": "本所吾妻橋"
+                },
                 "stationCode": "A19"
             },
             {
                 "id": "Station:Toei.Asakusa.Oshiage",
                 "latitude": 35.7103,
                 "longitude": 139.8129,
-                "name": "押上",
-                "nameEn": "Oshiage 'SKYTREE'",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Oshiage 'SKYTREE'",
+                    "ja": "押上",
+                    "ko": "오시아게",
+                    "zh-Hans": "押上",
+                    "zh-Hant": "押上"
+                },
                 "stationCode": "A20"
             }
         ],
@@ -395,19 +445,27 @@
                 "connectingLineId": "Railway:Keisei.Oshiage",
                 "end": "ascending",
                 "junctionStationId": "Station:Toei.Asakusa.Oshiage",
-                "lineNameEn": "Keisei Oshiage & Main Lines",
-                "lineNameJa": "京成押上線・京成本線",
-                "towardEn": "for Aoto & Narita Airport",
-                "towardJa": "青砥・成田空港方面"
+                "lineName": {
+                    "en": "Keisei Oshiage & Main Lines",
+                    "ja": "京成押上線・京成本線"
+                },
+                "toward": {
+                    "en": "for Aoto & Narita Airport",
+                    "ja": "青砥・成田空港方面"
+                }
             },
             {
                 "connectingLineId": "Railway:Keikyu.Main",
                 "end": "descending",
                 "junctionStationId": "Station:Toei.Asakusa.Sengakuji",
-                "lineNameEn": "Keikyu Line",
-                "lineNameJa": "京急線",
-                "towardEn": "for Haneda Airport & Yokohama",
-                "towardJa": "羽田空港・横浜方面"
+                "lineName": {
+                    "en": "Keikyu Line",
+                    "ja": "京急線"
+                },
+                "toward": {
+                    "en": "for Haneda Airport & Yokohama",
+                    "ja": "羽田空港・横浜方面"
+                }
             }
         ]
     }

@@ -2,10 +2,14 @@
     {
         "colorHex": "#F15A22",
         "delayInfo": {
-            "checkMethodEn": "Check the JR East Train Operation Information page or the JR East app. In the Tokyo area, delays or suspensions of 15 minutes or more are posted.",
-            "checkMethodJa": "JR東日本「列車運行情報」ページまたはJR東日本アプリで確認できます。首都圏エリアでは15分以上の遅れ・運休が発生または見込まれる場合に掲載されます。",
-            "statusPageURL": "https://traininfo.jreast.co.jp/train_info/line.aspx?gid=1&lineid=omeline",
-            "statusPageURLEn": "https://traininfo.jreast.co.jp/train_info/e/kanto.aspx",
+            "checkMethod": {
+                "en": "Check the JR East Train Operation Information page or the JR East app. In the Tokyo area, delays or suspensions of 15 minutes or more are posted.",
+                "ja": "JR東日本「列車運行情報」ページまたはJR東日本アプリで確認できます。首都圏エリアでは15分以上の遅れ・運休が発生または見込まれる場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://traininfo.jreast.co.jp/train_info/e/kanto.aspx",
+                "ja": "https://traininfo.jreast.co.jp/train_info/line.aspx?gid=1&lineid=omeline"
+            },
             "xAccount": "@JRE_F_Chuo"
         },
         "directions": [
@@ -15,8 +19,10 @@
                 "id": "static.RailDirection:JR-East.Ome.Ome",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Ome",
-                "nameJa": "青梅方面",
+                "name": {
+                    "en": "For Ome",
+                    "ja": "青梅方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -78,8 +84,10 @@
                 "id": "static.RailDirection:JR-East.Ome.Tachikawa",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Tachikawa",
-                "nameJa": "立川方面",
+                "name": {
+                    "en": "For Tachikawa",
+                    "ja": "立川方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -135,151 +143,182 @@
         "hopTimesMinutes": [3, 2, 2, 2, 3, 3, 2, 3, 3, 3, 2, 2],
         "id": "Railway:JR-East.Ome",
         "isLoop": false,
-        "nameEn": "Ome Line",
-        "nameJa": "青梅線",
+        "name": {
+            "en": "Ome Line",
+            "ja": "青梅線",
+            "ko": "오메선",
+            "zh-Hans": "青梅线",
+            "zh-Hant": "青梅線"
+        },
         "operatorId": "Operator:JR-East",
         "stations": [
             {
                 "id": "Station:JR-East.Ome.Tachikawa",
                 "latitude": 35.698,
                 "longitude": 139.4139,
-                "name": "立川",
-                "nameEn": "Tachikawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tachikawa",
+                    "ja": "立川",
+                    "ko": "다치카와",
+                    "zh-Hans": "立川",
+                    "zh-Hant": "立川"
+                },
                 "stationCode": "JC19"
             },
             {
                 "id": "Station:JR-East.Ome.NishiTachikawa",
                 "latitude": 35.703528,
                 "longitude": 139.393634,
-                "name": "西立川",
-                "nameEn": "Nishi-Tachikawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nishi-Tachikawa",
+                    "ja": "西立川",
+                    "ko": "니시타치카와",
+                    "zh-Hans": "西立川",
+                    "zh-Hant": "西立川"
+                },
                 "stationCode": "JC51"
             },
             {
                 "id": "Station:JR-East.Ome.HigashiNakagami",
                 "latitude": 35.706367,
                 "longitude": 139.384433,
-                "name": "東中神",
-                "nameEn": "Higashi-Nakagami",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Higashi-Nakagami",
+                    "ja": "東中神",
+                    "ko": "히가시나카가미",
+                    "zh-Hans": "东中神",
+                    "zh-Hant": "東中神"
+                },
                 "stationCode": "JC52"
             },
             {
                 "id": "Station:JR-East.Ome.Nakagami",
                 "latitude": 35.709026,
                 "longitude": 139.37579,
-                "name": "中神",
-                "nameEn": "Nakagami",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nakagami",
+                    "ja": "中神",
+                    "ko": "나카가미",
+                    "zh-Hans": "中神",
+                    "zh-Hant": "中神"
+                },
                 "stationCode": "JC53"
             },
             {
                 "id": "Station:JR-East.Ome.Akishima",
                 "latitude": 35.71357,
                 "longitude": 139.360894,
-                "name": "昭島",
-                "nameEn": "Akishima",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Akishima",
+                    "ja": "昭島",
+                    "ko": "아키시마",
+                    "zh-Hans": "昭岛",
+                    "zh-Hant": "昭島"
+                },
                 "stationCode": "JC54"
             },
             {
                 "id": "Station:JR-East.Ome.Haijima",
                 "latitude": 35.721133,
                 "longitude": 139.343626,
-                "name": "拝島",
-                "nameEn": "Haijima",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Haijima",
+                    "ja": "拝島",
+                    "ko": "하이지마",
+                    "zh-Hans": "拜岛",
+                    "zh-Hant": "拜島"
+                },
                 "stationCode": "JC55"
             },
             {
                 "id": "Station:JR-East.Ome.Ushihama",
                 "latitude": 35.734611,
                 "longitude": 139.333601,
-                "name": "牛浜",
-                "nameEn": "Ushihama",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ushihama",
+                    "ja": "牛浜",
+                    "ko": "우시하마",
+                    "zh-Hans": "牛滨",
+                    "zh-Hant": "牛濱"
+                },
                 "stationCode": "JC56"
             },
             {
                 "id": "Station:JR-East.Ome.Fussa",
                 "latitude": 35.742331,
                 "longitude": 139.327879,
-                "name": "福生",
-                "nameEn": "Fussa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Fussa",
+                    "ja": "福生",
+                    "ko": "훗사",
+                    "zh-Hans": "福生",
+                    "zh-Hant": "福生"
+                },
                 "stationCode": "JC57"
             },
             {
                 "id": "Station:JR-East.Ome.Hamura",
                 "latitude": 35.758352,
                 "longitude": 139.316009,
-                "name": "羽村",
-                "nameEn": "Hamura",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Hamura",
+                    "ja": "羽村",
+                    "ko": "하무라",
+                    "zh-Hans": "羽村",
+                    "zh-Hant": "羽村"
+                },
                 "stationCode": "JC58"
             },
             {
                 "id": "Station:JR-East.Ome.Ozaku",
                 "latitude": 35.776311,
                 "longitude": 139.301923,
-                "name": "小作",
-                "nameEn": "Ozaku",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ozaku",
+                    "ja": "小作",
+                    "ko": "오자쿠",
+                    "zh-Hans": "小作",
+                    "zh-Hant": "小作"
+                },
                 "stationCode": "JC59"
             },
             {
                 "id": "Station:JR-East.Ome.Kabe",
                 "latitude": 35.78451,
                 "longitude": 139.284738,
-                "name": "河辺",
-                "nameEn": "Kabe",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kabe",
+                    "ja": "河辺",
+                    "ko": "가베",
+                    "zh-Hans": "河边",
+                    "zh-Hant": "河邊"
+                },
                 "stationCode": "JC60"
             },
             {
                 "id": "Station:JR-East.Ome.HigashiOme",
                 "latitude": 35.789904,
                 "longitude": 139.272501,
-                "name": "東青梅",
-                "nameEn": "Higashi-Ome",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Higashi-Ome",
+                    "ja": "東青梅",
+                    "ko": "히가시오메",
+                    "zh-Hans": "东青梅",
+                    "zh-Hant": "東青梅"
+                },
                 "stationCode": "JC61"
             },
             {
                 "id": "Station:JR-East.Ome.Ome",
                 "latitude": 35.79045,
                 "longitude": 139.258332,
-                "name": "青梅",
-                "nameEn": "Ome",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ome",
+                    "ja": "青梅",
+                    "ko": "오메",
+                    "zh-Hans": "青梅",
+                    "zh-Hant": "青梅"
+                },
                 "stationCode": "JC62"
             }
         ],
@@ -289,27 +328,39 @@
                 "connectingLineId": "Railway:JR-East.ChuoRapid",
                 "end": "descending",
                 "junctionStationId": "Station:JR-East.Ome.Tachikawa",
-                "lineNameEn": "JR Chuo Rapid Line",
-                "lineNameJa": "中央線快速",
-                "towardEn": "for Tokyo",
-                "towardJa": "東京方面"
+                "lineName": {
+                    "en": "JR Chuo Rapid Line",
+                    "ja": "中央線快速"
+                },
+                "toward": {
+                    "en": "for Tokyo",
+                    "ja": "東京方面"
+                }
             },
             {
                 "connectingLineId": "Railway:JR-East.Itsukaichi",
                 "end": "ascending",
                 "junctionStationId": "Station:JR-East.Ome.Haijima",
-                "lineNameEn": "JR Itsukaichi Line",
-                "lineNameJa": "五日市線",
-                "towardEn": "for Musashi-Itsukaichi",
-                "towardJa": "武蔵五日市方面"
+                "lineName": {
+                    "en": "JR Itsukaichi Line",
+                    "ja": "五日市線"
+                },
+                "toward": {
+                    "en": "for Musashi-Itsukaichi",
+                    "ja": "武蔵五日市方面"
+                }
             },
             {
                 "end": "ascending",
                 "junctionStationId": "Station:JR-East.Ome.Ome",
-                "lineNameEn": "JR Ome Line (Tokyo Adventure Line)",
-                "lineNameJa": "青梅線（東京アドベンチャーライン）",
-                "towardEn": "for Okutama",
-                "towardJa": "奥多摩方面"
+                "lineName": {
+                    "en": "JR Ome Line (Tokyo Adventure Line)",
+                    "ja": "青梅線（東京アドベンチャーライン）"
+                },
+                "toward": {
+                    "en": "for Okutama",
+                    "ja": "奥多摩方面"
+                }
             }
         ],
         "timetableRuns": [

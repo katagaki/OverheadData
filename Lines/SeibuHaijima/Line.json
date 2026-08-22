@@ -2,10 +2,14 @@
     {
         "colorHex": "#00A8B5",
         "delayInfo": {
-            "checkMethodEn": "Check the Seibu Railway service status page, the Seibu app, or X (@seiburailway). Delays of roughly 15 minutes or more and suspensions are posted.",
-            "checkMethodJa": "西武鉄道「運行情報」ページ、西武線アプリ、またはX（@seiburailway）で確認できます。おおむね15分以上の遅延・運転見合わせが発生した場合に掲載されます。",
-            "statusPageURL": "https://www.seiburailway.jp/railway/railwayinfo/",
-            "statusPageURLEn": "https://www.seiburailway.jp/en/railway/railwayinfo/",
+            "checkMethod": {
+                "en": "Check the Seibu Railway service status page, the Seibu app, or X (@seiburailway). Delays of roughly 15 minutes or more and suspensions are posted.",
+                "ja": "西武鉄道「運行情報」ページ、西武線アプリ、またはX（@seiburailway）で確認できます。おおむね15分以上の遅延・運転見合わせが発生した場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://www.seiburailway.jp/en/railway/railwayinfo/",
+                "ja": "https://www.seiburailway.jp/railway/railwayinfo/"
+            },
             "xAccount": "@seiburailway"
         },
         "directions": [
@@ -15,21 +19,23 @@
                 "id": "static.RailDirection:Seibu.Haijima.Haijima",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Haijima",
-                "nameJa": "拝島方面",
+                "name": {
+                    "en": "For Haijima",
+                    "ja": "拝島方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
                             "from": "05:10",
-                            "headwayMinutes": 18.0
+                            "headwayMinutes": 18
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 14.0
+                            "headwayMinutes": 14
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 10.0
+                            "headwayMinutes": 10
                         },
                         {
                             "from": "09:00",
@@ -37,7 +43,7 @@
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 10.0
+                            "headwayMinutes": 10
                         },
                         {
                             "from": "16:00",
@@ -45,23 +51,23 @@
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 10.0
+                            "headwayMinutes": 10
                         },
                         {
                             "from": "20:00",
-                            "headwayMinutes": 11.0
+                            "headwayMinutes": 11
                         },
                         {
                             "from": "21:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "22:00",
-                            "headwayMinutes": 11.0
+                            "headwayMinutes": 11
                         },
                         {
                             "from": "23:00",
-                            "headwayMinutes": 16.0
+                            "headwayMinutes": 16
                         }
                     ],
                     "firstDeparture": "05:10",
@@ -72,19 +78,19 @@
                     "bands": [
                         {
                             "from": "05:10",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 10.0
+                            "headwayMinutes": 10
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 7.0
+                            "headwayMinutes": 7
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 10.0
+                            "headwayMinutes": 10
                         },
                         {
                             "from": "21:00",
@@ -92,15 +98,15 @@
                         },
                         {
                             "from": "22:00",
-                            "headwayMinutes": 8.0
+                            "headwayMinutes": 8
                         },
                         {
                             "from": "23:00",
-                            "headwayMinutes": 14.0
+                            "headwayMinutes": 14
                         },
                         {
                             "from": "00:00",
-                            "headwayMinutes": 13.0
+                            "headwayMinutes": 13
                         }
                     ],
                     "firstDeparture": "05:10",
@@ -114,13 +120,15 @@
                 "id": "static.RailDirection:Seibu.Haijima.Kodaira",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Kodaira",
-                "nameJa": "小平方面",
+                "name": {
+                    "en": "For Kodaira",
+                    "ja": "小平方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
                             "from": "05:12",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "06:00",
@@ -128,31 +136,31 @@
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 11.0
+                            "headwayMinutes": 11
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 9.0
+                            "headwayMinutes": 9
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 10.0
+                            "headwayMinutes": 10
                         },
                         {
                             "from": "11:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 11.0
+                            "headwayMinutes": 11
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 10.0
+                            "headwayMinutes": 10
                         },
                         {
                             "from": "20:00",
-                            "headwayMinutes": 14.0
+                            "headwayMinutes": 14
                         },
                         {
                             "from": "21:00",
@@ -160,7 +168,7 @@
                         },
                         {
                             "from": "22:00",
-                            "headwayMinutes": 21.0
+                            "headwayMinutes": 21
                         }
                     ],
                     "firstDeparture": "05:12",
@@ -171,15 +179,15 @@
                     "bands": [
                         {
                             "from": "05:12",
-                            "headwayMinutes": 18.0
+                            "headwayMinutes": 18
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 9.0
+                            "headwayMinutes": 9
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 10.0
+                            "headwayMinutes": 10
                         },
                         {
                             "from": "08:00",
@@ -187,11 +195,11 @@
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 18.0
+                            "headwayMinutes": 18
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "15:00",
@@ -199,15 +207,15 @@
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 10.0
+                            "headwayMinutes": 10
                         },
                         {
                             "from": "21:00",
-                            "headwayMinutes": 13.0
+                            "headwayMinutes": 13
                         },
                         {
                             "from": "22:00",
-                            "headwayMinutes": 12.0
+                            "headwayMinutes": 12
                         },
                         {
                             "from": "23:00",
@@ -220,99 +228,120 @@
                 }
             }
         ],
-        "hopTimesMinutes": [2.0, 3.0, 4.0, 2.0, 3.0, 3.0, 3.0],
+        "hopTimesMinutes": [2, 3, 4, 2, 3, 3, 3],
         "id": "Railway:Seibu.Haijima",
         "isLoop": false,
-        "nameEn": "Seibu Haijima Line",
-        "nameJa": "西武拝島線",
+        "name": {
+            "en": "Seibu Haijima Line",
+            "ja": "西武拝島線",
+            "ko": "세이부 철도 하이지마 선",
+            "zh-Hans": "拜岛线",
+            "zh-Hant": "拜島線"
+        },
         "operatorId": "Operator:Seibu",
         "stations": [
             {
                 "id": "Station:Seibu.Haijima.Kodaira",
                 "latitude": 35.73701,
                 "longitude": 139.48829,
-                "name": "小平",
-                "nameEn": "Kodaira",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kodaira",
+                    "ja": "小平",
+                    "ko": "고다이라",
+                    "zh-Hans": "小平",
+                    "zh-Hant": "小平"
+                },
                 "stationCode": "SS19"
             },
             {
                 "id": "Station:Seibu.Haijima.Hagiyama",
                 "latitude": 35.7404,
                 "longitude": 139.47745,
-                "name": "萩山",
-                "nameEn": "Hagiyama",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Hagiyama",
+                    "ja": "萩山",
+                    "ko": "하기야마",
+                    "zh-Hans": "萩山",
+                    "zh-Hant": "萩山"
+                },
                 "stationCode": "SS30"
             },
             {
                 "id": "Station:Seibu.Haijima.Ogawa",
                 "latitude": 35.73748,
                 "longitude": 139.46353,
-                "name": "小川",
-                "nameEn": "Ogawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ogawa",
+                    "ja": "小川",
+                    "ko": "오가와",
+                    "zh-Hans": "小川",
+                    "zh-Hant": "小川"
+                },
                 "stationCode": "SS31"
             },
             {
                 "id": "Station:Seibu.Haijima.HigashiYamatoshi",
                 "latitude": 35.73286,
                 "longitude": 139.43432,
-                "name": "東大和市",
-                "nameEn": "Higashi-Yamatoshi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Higashi-Yamatoshi",
+                    "ja": "東大和市",
+                    "ko": "히가시야마토시",
+                    "zh-Hans": "东大和市",
+                    "zh-Hant": "東大和市"
+                },
                 "stationCode": "SS32"
             },
             {
                 "id": "Station:Seibu.Haijima.TamagawaJosui",
                 "latitude": 35.73192,
                 "longitude": 139.41825,
-                "name": "玉川上水",
-                "nameEn": "Tamagawa-Josui",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tamagawa-Josui",
+                    "ja": "玉川上水",
+                    "ko": "다마가와조스이",
+                    "zh-Hans": "玉川上水",
+                    "zh-Hant": "玉川上水"
+                },
                 "stationCode": "SS33"
             },
             {
                 "id": "Station:Seibu.Haijima.MusashiSunagawa",
                 "latitude": 35.72902,
                 "longitude": 139.39223,
-                "name": "武蔵砂川",
-                "nameEn": "Musashi-Sunagawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Musashi-Sunagawa",
+                    "ja": "武蔵砂川",
+                    "ko": "무사시스나가와",
+                    "zh-Hans": "武藏砂川",
+                    "zh-Hant": "武藏砂川"
+                },
                 "stationCode": "SS34"
             },
             {
                 "id": "Station:Seibu.Haijima.SeibuTachikawa",
                 "latitude": 35.72611,
                 "longitude": 139.37026,
-                "name": "西武立川",
-                "nameEn": "Seibu-Tachikawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Seibu-Tachikawa",
+                    "ja": "西武立川",
+                    "ko": "세이부 다치카와",
+                    "zh-Hans": "西武立川",
+                    "zh-Hant": "西武立川"
+                },
                 "stationCode": "SS35"
             },
             {
                 "id": "Station:Seibu.Haijima.Haijima",
                 "latitude": 35.72121,
                 "longitude": 139.34436,
-                "name": "拝島",
-                "nameEn": "Haijima",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Haijima",
+                    "ja": "拝島",
+                    "ko": "하이지마",
+                    "zh-Hans": "拜岛",
+                    "zh-Hant": "拜島"
+                },
                 "stationCode": "SS36"
             }
         ],
@@ -1298,8 +1327,10 @@
                 "startsHere": true,
                 "stops": [312, 315, 318, 321, 323, 328, 333, 336],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "SemiExpress"
             },
             {
@@ -1309,8 +1340,10 @@
                 "startsHere": true,
                 "stops": [333, 335, 338, 341, 349],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Local"
             },
             {
@@ -1320,8 +1353,10 @@
                 "startsHere": true,
                 "stops": [336, 339, 341, 344, 347, 350, 353, 361],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Local"
             },
             {
@@ -1331,8 +1366,10 @@
                 "startsHere": true,
                 "stops": [354, 356, 359, 363, 372],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Local"
             },
             {
@@ -1342,8 +1379,10 @@
                 "startsHere": true,
                 "stops": [356, 359, 361, 364, 367, 370, 373, 378],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Express"
             },
             {
@@ -1353,8 +1392,10 @@
                 "startsHere": true,
                 "stops": [372, 375, 377, 380, 383, 386, 389, 392],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Local"
             },
             {
@@ -1364,8 +1405,10 @@
                 "startsHere": true,
                 "stops": [388, 391, 393, 396, 399, 402, 405, 408],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Express"
             },
             {
@@ -1375,8 +1418,10 @@
                 "startsHere": true,
                 "stops": [405, 408, 410, 414, 417, 421, 424, 432],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Local"
             },
             {
@@ -1386,8 +1431,10 @@
                 "startsHere": true,
                 "stops": [405, 407, 412, 415, 421],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Local"
             },
             {
@@ -1397,8 +1444,10 @@
                 "startsHere": true,
                 "stops": [418, 421, 423, 426, 429, 432, 435, 438],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Express"
             },
             {
@@ -1408,8 +1457,10 @@
                 "startsHere": true,
                 "stops": [429, 432, 434, 437, 440, 443, 447, 454],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Local"
             },
             {
@@ -1419,8 +1470,10 @@
                 "startsHere": true,
                 "stops": [440, 443, 445, 448, 451, 454, 457, 463],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Local"
             },
             {
@@ -1430,8 +1483,10 @@
                 "startsHere": true,
                 "stops": [450, 453, 455, 458, 461, 465, 469, 474],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "SemiExpress"
             },
             {
@@ -1441,8 +1496,10 @@
                 "startsHere": true,
                 "stops": [458, 462, 464, 467, 469, 473, 477, 481],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "SemiExpress"
             },
             {
@@ -1452,8 +1509,10 @@
                 "startsHere": true,
                 "stops": [469, 472, 475, 478, 480, 484, 487, 489],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Local"
             },
             {
@@ -1463,8 +1522,10 @@
                 "startsHere": true,
                 "stops": [480, 484, 486, 489, 491, 495, 498, 503],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "SemiExpress"
             },
             {
@@ -1474,8 +1535,10 @@
                 "startsHere": true,
                 "stops": [491, 494, 497, 500, 502, 505, 509, 514],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Local"
             },
             {
@@ -1485,8 +1548,10 @@
                 "startsHere": true,
                 "stops": [500, 503, 505, 508, 511, 514, 517, 523],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Local"
             },
             {
@@ -1496,8 +1561,10 @@
                 "startsHere": true,
                 "stops": [509, 512, 515, 518, 520, 524, 527, 529],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Express"
             },
             {
@@ -1507,8 +1574,10 @@
                 "startsHere": true,
                 "stops": [518, 521, 524, 527, 529, 533, 538, 541],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Express"
             },
             {
@@ -1518,8 +1587,10 @@
                 "startsHere": true,
                 "stops": [529, 532, 534, 537, 540, 543, 546, 553],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Local"
             },
             {
@@ -1529,8 +1600,10 @@
                 "startsHere": true,
                 "stops": [538, 541, 543, 546, 549, 552, 555, 558],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Express"
             },
             {
@@ -1540,8 +1613,10 @@
                 "startsHere": true,
                 "stops": [549, 553, 555, 558, 560, 564, 567, 575],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Local"
             },
             {
@@ -1551,8 +1626,10 @@
                 "startsHere": true,
                 "stops": [560, 563, 566, 569, 571, 575, 578, 584],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Local"
             },
             {
@@ -1571,8 +1648,10 @@
                 "startsHere": true,
                 "stops": [580, 583, 585, 588, 591, 594, 597, 604],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Local"
             },
             {
@@ -1582,8 +1661,10 @@
                 "startsHere": true,
                 "stops": [590, 593, 595, 598, 601, 604, 608, 614],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Local"
             },
             {
@@ -1593,8 +1674,10 @@
                 "startsHere": true,
                 "stops": [600, 603, 606, 609, 611, 615, 618, 625],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Local"
             },
             {
@@ -1604,8 +1687,10 @@
                 "startsHere": true,
                 "stops": [609, 613, 615, 618, 620, 624, 627, 631],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Express"
             },
             {
@@ -1615,8 +1700,10 @@
                 "startsHere": true,
                 "stops": [619, 623, 625, 628, 630, 634, 637, 645],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Local"
             },
             {
@@ -1635,8 +1722,10 @@
                 "startsHere": true,
                 "stops": [639, 643, 645, 648, 650, 654, 657, 660],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Express"
             },
             {
@@ -1655,8 +1744,10 @@
                 "startsHere": true,
                 "stops": [659, 663, 665, 668, 670, 674, 677, 680],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Express"
             },
             {
@@ -1675,8 +1766,10 @@
                 "startsHere": true,
                 "stops": [679, 683, 685, 688, 690, 694, 697, 700],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Express"
             },
             {
@@ -1695,8 +1788,10 @@
                 "startsHere": true,
                 "stops": [699, 703, 705, 708, 710, 714, 717, 720],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Express"
             },
             {
@@ -1715,8 +1810,10 @@
                 "startsHere": true,
                 "stops": [719, 723, 725, 728, 730, 734, 737, 740],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Express"
             },
             {
@@ -1735,8 +1832,10 @@
                 "startsHere": true,
                 "stops": [739, 743, 745, 748, 750, 754, 757, 760],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Express"
             },
             {
@@ -1755,8 +1854,10 @@
                 "startsHere": true,
                 "stops": [759, 763, 765, 768, 770, 774, 777, 780],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Express"
             },
             {
@@ -1775,8 +1876,10 @@
                 "startsHere": true,
                 "stops": [779, 783, 785, 788, 790, 794, 797, 800],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Express"
             },
             {
@@ -1795,8 +1898,10 @@
                 "startsHere": true,
                 "stops": [799, 803, 805, 808, 810, 814, 817, 820],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Express"
             },
             {
@@ -1815,8 +1920,10 @@
                 "startsHere": true,
                 "stops": [819, 823, 825, 828, 830, 834, 837, 840],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Express"
             },
             {
@@ -1835,8 +1942,10 @@
                 "startsHere": true,
                 "stops": [839, 843, 845, 848, 850, 854, 857, 860],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Express"
             },
             {
@@ -1855,8 +1964,10 @@
                 "startsHere": true,
                 "stops": [859, 863, 865, 868, 870, 874, 877, 880],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Express"
             },
             {
@@ -1875,8 +1986,10 @@
                 "startsHere": true,
                 "stops": [879, 883, 885, 888, 890, 894, 897, 900],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Express"
             },
             {
@@ -1895,8 +2008,10 @@
                 "startsHere": true,
                 "stops": [899, 903, 905, 908, 910, 914, 917, 920],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Express"
             },
             {
@@ -1915,8 +2030,10 @@
                 "startsHere": true,
                 "stops": [919, 923, 925, 928, 930, 934, 937, 940],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Express"
             },
             {
@@ -1935,8 +2052,10 @@
                 "startsHere": true,
                 "stops": [939, 943, 945, 948, 950, 954, 957, 960],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Express"
             },
             {
@@ -1964,8 +2083,10 @@
                 "startsHere": true,
                 "stops": [968, 970, 974, 977, 980],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Express"
             },
             {
@@ -1975,8 +2096,10 @@
                 "startsHere": true,
                 "stops": [978, 980, 984, 987, 995],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Local"
             },
             {
@@ -1986,8 +2109,10 @@
                 "startsHere": true,
                 "stops": [979, 983, 985, 988, 990, 994, 997, 1003],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "SemiExpress"
             },
             {
@@ -1997,8 +2122,10 @@
                 "startsHere": true,
                 "stops": [989, 993, 995, 998, 1000, 1004, 1007, 1017],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Local"
             },
             {
@@ -2008,8 +2135,10 @@
                 "startsHere": true,
                 "stops": [1000, 1003, 1005, 1008, 1011, 1014, 1017, 1021],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Express"
             },
             {
@@ -2019,8 +2148,10 @@
                 "startsHere": true,
                 "stops": [1011, 1015, 1017, 1020, 1022, 1026, 1029, 1032],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "SemiExpress"
             },
             {
@@ -2030,8 +2161,10 @@
                 "startsHere": true,
                 "stops": [1019, 1022, 1025, 1028, 1030, 1033, 1036, 1040],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Express"
             },
             {
@@ -2041,8 +2174,10 @@
                 "startsHere": true,
                 "stops": [1030, 1033, 1035, 1038, 1041, 1044, 1047, 1055],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Local"
             },
             {
@@ -2061,8 +2196,10 @@
                 "startsHere": true,
                 "stops": [1048, 1051, 1054, 1057, 1063],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "SemiExpress"
             },
             {
@@ -2081,8 +2218,10 @@
                 "startsHere": true,
                 "stops": [1060, 1063, 1065, 1068, 1071, 1074, 1077, 1085],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Local"
             },
             {
@@ -2092,8 +2231,10 @@
                 "startsHere": true,
                 "stops": [1072, 1075, 1078, 1081, 1083, 1087, 1090, 1093],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "SemiExpress"
             },
             {
@@ -2103,8 +2244,10 @@
                 "startsHere": true,
                 "stops": [1080, 1083, 1085, 1088, 1091, 1094, 1097, 1102],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Local"
             },
             {
@@ -2123,8 +2266,10 @@
                 "startsHere": true,
                 "stops": [1100, 1103, 1105, 1108, 1111, 1114, 1117, 1120],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Express"
             },
             {
@@ -2134,8 +2279,10 @@
                 "startsHere": true,
                 "stops": [1110, 1113, 1115, 1118, 1121, 1124, 1127, 1130],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "SemiExpress"
             },
             {
@@ -2145,8 +2292,10 @@
                 "startsHere": true,
                 "stops": [1120, 1123, 1125, 1128, 1131, 1134, 1137, 1142],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Express"
             },
             {
@@ -2156,8 +2305,10 @@
                 "startsHere": true,
                 "stops": [1130, 1133, 1135, 1138, 1141, 1144, 1147, 1153],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Local"
             },
             {
@@ -2185,8 +2336,10 @@
                 "startsHere": true,
                 "stops": [1160, 1163, 1165, 1168, 1171, 1174, 1177, 1181],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Express"
             },
             {
@@ -2205,8 +2358,10 @@
                 "startsHere": true,
                 "stops": [1180, 1183, 1185, 1188, 1191, 1194, 1197, 1200],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Local"
             },
             {
@@ -2216,8 +2371,10 @@
                 "startsHere": true,
                 "stops": [1190, 1193, 1195, 1198, 1201, 1204, 1207, 1210],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Express"
             },
             {
@@ -2254,8 +2411,10 @@
                 "startsHere": true,
                 "stops": [1239, 1242, 1244, 1247, 1250, 1253, 1256, 1261],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Express"
             },
             {
@@ -2274,8 +2433,10 @@
                 "startsHere": true,
                 "stops": [1264, 1267, 1270, 1274, 1276, 1283, 1286, 1288],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Express"
             },
             {
@@ -2294,8 +2455,10 @@
                 "startsHere": true,
                 "stops": [1293, 1296, 1299, 1302, 1304, 1307, 1311, 1314],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "SemiExpress"
             },
             {
@@ -2305,8 +2468,10 @@
                 "startsHere": true,
                 "stops": [1309, 1312, 1314, 1317, 1320, 1323, 1326, 1329],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Local"
             },
             {
@@ -2316,8 +2481,10 @@
                 "startsHere": true,
                 "stops": [1329, 1332, 1334, 1337, 1340, 1343, 1346, 1349],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Express"
             },
             {
@@ -2327,8 +2494,10 @@
                 "startsHere": true,
                 "stops": [1349, 1352, 1355, 1358, 1360, 1363, 1366, 1371],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Local"
             },
             {
@@ -2428,8 +2597,10 @@
                 "startsHere": true,
                 "stops": [400, 403],
                 "terminates": false,
-                "throughDestEn": "Tamako",
-                "throughDestJa": "多摩湖",
+                "throughDest": {
+                    "en": "Tamako",
+                    "ja": "多摩湖"
+                },
                 "type": "Local"
             },
             {
@@ -3420,8 +3591,10 @@
                 "startsHere": true,
                 "stops": [312, 315, 318, 321, 323, 328, 333, 336],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "SemiExpress"
             },
             {
@@ -3431,8 +3604,10 @@
                 "startsHere": true,
                 "stops": [333, 335, 339, 342, 349],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Local"
             },
             {
@@ -3442,8 +3617,10 @@
                 "startsHere": true,
                 "stops": [335, 338, 341, 344, 346, 350, 353, 358],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Local"
             },
             {
@@ -3453,8 +3630,10 @@
                 "startsHere": true,
                 "stops": [349, 353, 356, 359, 361, 364, 368, 371],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Express"
             },
             {
@@ -3464,8 +3643,10 @@
                 "startsHere": true,
                 "stops": [351, 353, 357, 360, 365],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Local"
             },
             {
@@ -3475,8 +3656,10 @@
                 "startsHere": true,
                 "stops": [366, 369, 373, 376, 384],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Local"
             },
             {
@@ -3486,8 +3669,10 @@
                 "startsHere": true,
                 "stops": [367, 371, 373, 376, 379, 383, 386, 389],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Express"
             },
             {
@@ -3497,8 +3682,10 @@
                 "startsHere": true,
                 "stops": [378, 381, 384, 387, 390, 394, 397, 400],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Liner"
             },
             {
@@ -3508,8 +3695,10 @@
                 "startsHere": true,
                 "stops": [380, 383, 386, 390, 392, 396, 400, 405],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Local"
             },
             {
@@ -3519,8 +3708,10 @@
                 "startsHere": true,
                 "stops": [391, 395, 398, 401, 404, 407, 411, 414],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Express"
             },
             {
@@ -3530,8 +3721,10 @@
                 "startsHere": true,
                 "stops": [399, 403, 406, 410, 413, 416, 420, 424],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Express"
             },
             {
@@ -3541,8 +3734,10 @@
                 "startsHere": true,
                 "stops": [408, 411, 414, 418, 420, 424, 428, 432],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Liner"
             },
             {
@@ -3561,8 +3756,10 @@
                 "startsHere": true,
                 "stops": [421, 424, 427, 430, 432, 436, 440, 443],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "SemiExpress"
             },
             {
@@ -3572,8 +3769,10 @@
                 "startsHere": false,
                 "stops": [422, 427],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Local"
             },
             {
@@ -3583,8 +3782,10 @@
                 "startsHere": true,
                 "stops": [432, 435, 438, 441, 443, 447, 450, 453],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Express"
             },
             {
@@ -3594,8 +3795,10 @@
                 "startsHere": true,
                 "stops": [442, 445, 448, 451, 453, 458, 462, 465],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Express"
             },
             {
@@ -3605,8 +3808,10 @@
                 "startsHere": true,
                 "stops": [452, 455, 458, 461, 463, 467, 471, 474],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Express"
             },
             {
@@ -3616,8 +3821,10 @@
                 "startsHere": true,
                 "stops": [462, 465, 468, 471, 473, 477, 480, 483],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "SemiExpress"
             },
             {
@@ -3627,8 +3834,10 @@
                 "startsHere": true,
                 "stops": [473, 476, 479, 482, 484, 488, 491, 499],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Local"
             },
             {
@@ -3638,8 +3847,10 @@
                 "startsHere": true,
                 "stops": [481, 484, 487, 490, 493, 497, 500, 504],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Liner"
             },
             {
@@ -3649,8 +3860,10 @@
                 "startsHere": true,
                 "stops": [484, 488, 491, 494, 496, 500, 503, 508],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "SemiExpress"
             },
             {
@@ -3660,8 +3873,10 @@
                 "startsHere": true,
                 "stops": [495, 498, 501, 504, 506, 510, 513, 520],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "SemiExpress"
             },
             {
@@ -3671,8 +3886,10 @@
                 "startsHere": true,
                 "stops": [509, 512, 515, 519, 522, 525, 529, 532],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Express"
             },
             {
@@ -3682,8 +3899,10 @@
                 "startsHere": true,
                 "stops": [511, 514, 518, 521, 527],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Local"
             },
             {
@@ -3693,8 +3912,10 @@
                 "startsHere": true,
                 "stops": [520, 524, 526, 529, 532, 535, 538, 541],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Express"
             },
             {
@@ -3704,8 +3925,10 @@
                 "startsHere": true,
                 "stops": [530, 533, 536, 539, 542, 545, 549, 551],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Express"
             },
             {
@@ -3724,8 +3947,10 @@
                 "startsHere": true,
                 "stops": [558, 562, 564, 568, 571, 574, 577, 581],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Express"
             },
             {
@@ -3735,8 +3960,10 @@
                 "startsHere": true,
                 "stops": [559, 561, 565, 568, 575],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Local"
             },
             {
@@ -3764,8 +3991,10 @@
                 "startsHere": true,
                 "stops": [598, 601, 604, 607, 615],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Local"
             },
             {
@@ -3775,8 +4004,10 @@
                 "startsHere": true,
                 "stops": [599, 603, 605, 608, 610, 614, 617, 620],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Express"
             },
             {
@@ -3795,8 +4026,10 @@
                 "startsHere": true,
                 "stops": [619, 623, 625, 628, 630, 634, 637, 640],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Express"
             },
             {
@@ -3806,8 +4039,10 @@
                 "startsHere": true,
                 "stops": [629, 633, 635, 638, 640, 644, 647, 653],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Local"
             },
             {
@@ -3817,8 +4052,10 @@
                 "startsHere": true,
                 "stops": [639, 643, 645, 648, 650, 654, 657, 661],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Express"
             },
             {
@@ -3837,8 +4074,10 @@
                 "startsHere": true,
                 "stops": [659, 663, 665, 668, 670, 674, 677, 680],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Express"
             },
             {
@@ -3857,8 +4096,10 @@
                 "startsHere": true,
                 "stops": [679, 683, 685, 688, 690, 694, 697, 700],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Express"
             },
             {
@@ -3877,8 +4118,10 @@
                 "startsHere": true,
                 "stops": [699, 703, 705, 708, 710, 714, 717, 721],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Express"
             },
             {
@@ -3897,8 +4140,10 @@
                 "startsHere": true,
                 "stops": [719, 723, 725, 728, 730, 734, 737, 740],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Express"
             },
             {
@@ -3917,8 +4162,10 @@
                 "startsHere": true,
                 "stops": [739, 743, 745, 748, 750, 754, 757, 760],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Express"
             },
             {
@@ -3937,8 +4184,10 @@
                 "startsHere": true,
                 "stops": [759, 763, 765, 768, 770, 774, 777, 780],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Express"
             },
             {
@@ -3957,8 +4206,10 @@
                 "startsHere": true,
                 "stops": [779, 783, 785, 788, 790, 794, 797, 800],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Express"
             },
             {
@@ -3977,8 +4228,10 @@
                 "startsHere": true,
                 "stops": [799, 803, 805, 808, 810, 814, 817, 820],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Express"
             },
             {
@@ -3997,8 +4250,10 @@
                 "startsHere": true,
                 "stops": [819, 823, 825, 828, 830, 834, 837, 840],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Express"
             },
             {
@@ -4017,8 +4272,10 @@
                 "startsHere": true,
                 "stops": [839, 843, 845, 848, 850, 854, 857, 860],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Express"
             },
             {
@@ -4037,8 +4294,10 @@
                 "startsHere": true,
                 "stops": [859, 863, 865, 868, 870, 874, 877, 880],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Express"
             },
             {
@@ -4057,8 +4316,10 @@
                 "startsHere": true,
                 "stops": [879, 883, 885, 888, 890, 894, 897, 900],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Express"
             },
             {
@@ -4077,8 +4338,10 @@
                 "startsHere": true,
                 "stops": [899, 903, 905, 908, 910, 914, 917, 920],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Express"
             },
             {
@@ -4088,8 +4351,10 @@
                 "startsHere": true,
                 "stops": [918, 920, 924, 927, 935],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Local"
             },
             {
@@ -4099,8 +4364,10 @@
                 "startsHere": true,
                 "stops": [919, 923, 925, 928, 930, 934, 937, 940],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Express"
             },
             {
@@ -4119,8 +4386,10 @@
                 "startsHere": true,
                 "stops": [939, 943, 945, 948, 950, 954, 957, 960],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Express"
             },
             {
@@ -4130,8 +4399,10 @@
                 "startsHere": true,
                 "stops": [958, 960, 964, 967, 975],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Local"
             },
             {
@@ -4141,8 +4412,10 @@
                 "startsHere": true,
                 "stops": [959, 963, 965, 968, 970, 974, 977, 979],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Express"
             },
             {
@@ -4152,8 +4425,10 @@
                 "startsHere": true,
                 "stops": [970, 973, 976, 979, 981, 985, 989, 992],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Express"
             },
             {
@@ -4163,8 +4438,10 @@
                 "startsHere": true,
                 "stops": [980, 983, 986, 990, 992, 995, 999, 1001],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Express"
             },
             {
@@ -4183,8 +4460,10 @@
                 "startsHere": true,
                 "stops": [1002, 1005, 1008, 1012, 1014, 1018, 1021, 1023],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Express"
             },
             {
@@ -4194,8 +4473,10 @@
                 "startsHere": true,
                 "stops": [1012, 1015, 1018, 1022, 1024, 1028, 1031, 1034],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "SemiExpress"
             },
             {
@@ -4205,8 +4486,10 @@
                 "startsHere": true,
                 "stops": [1022, 1025, 1028, 1032, 1034, 1038, 1041, 1043],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Express"
             },
             {
@@ -4216,8 +4499,10 @@
                 "startsHere": true,
                 "stops": [1033, 1036, 1039, 1042, 1044, 1048, 1051, 1054],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "SemiExpress"
             },
             {
@@ -4227,8 +4512,10 @@
                 "startsHere": true,
                 "stops": [1043, 1046, 1049, 1052, 1054, 1057, 1061, 1063],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Express"
             },
             {
@@ -4238,8 +4525,10 @@
                 "startsHere": true,
                 "stops": [1054, 1057, 1060, 1063, 1065, 1069, 1072, 1074],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Express"
             },
             {
@@ -4258,8 +4547,10 @@
                 "startsHere": true,
                 "stops": [1074, 1077, 1080, 1083, 1085, 1089, 1092, 1097],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "SemiExpress"
             },
             {
@@ -4269,8 +4560,10 @@
                 "startsHere": true,
                 "stops": [1084, 1087, 1090, 1093, 1095, 1099, 1102, 1104],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Express"
             },
             {
@@ -4289,8 +4582,10 @@
                 "startsHere": true,
                 "stops": [1104, 1107, 1110, 1113, 1115, 1119, 1122, 1127],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Local"
             },
             {
@@ -4300,8 +4595,10 @@
                 "startsHere": true,
                 "stops": [1114, 1117, 1120, 1123, 1125, 1129, 1132, 1137],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Local"
             },
             {
@@ -4311,8 +4608,10 @@
                 "startsHere": true,
                 "stops": [1124, 1127, 1130, 1133, 1135, 1139, 1142, 1147],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Express"
             },
             {
@@ -4322,8 +4621,10 @@
                 "startsHere": true,
                 "stops": [1134, 1137, 1140, 1143, 1145, 1149, 1152, 1158],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Local"
             },
             {
@@ -4333,8 +4634,10 @@
                 "startsHere": true,
                 "stops": [1144, 1148, 1150, 1153, 1155, 1159, 1162, 1166],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Express"
             },
             {
@@ -4353,8 +4656,10 @@
                 "startsHere": true,
                 "stops": [1164, 1167, 1170, 1173, 1175, 1179, 1182, 1188],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Local"
             },
             {
@@ -4373,8 +4678,10 @@
                 "startsHere": true,
                 "stops": [1184, 1187, 1190, 1193, 1195, 1199, 1202, 1207],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "SemiExpress"
             },
             {
@@ -4384,8 +4691,10 @@
                 "startsHere": true,
                 "stops": [1194, 1197, 1200, 1203, 1205, 1209, 1212, 1218],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Local"
             },
             {
@@ -4395,8 +4704,10 @@
                 "startsHere": true,
                 "stops": [1204, 1207, 1210, 1213, 1215, 1219, 1222, 1225],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Express"
             },
             {
@@ -4415,8 +4726,10 @@
                 "startsHere": true,
                 "stops": [1224, 1227, 1230, 1233, 1235, 1239, 1242, 1248],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Local"
             },
             {
@@ -4435,8 +4748,10 @@
                 "startsHere": true,
                 "stops": [1245, 1248, 1251, 1254, 1256, 1260, 1265, 1273],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Local"
             },
             {
@@ -4455,8 +4770,10 @@
                 "startsHere": true,
                 "stops": [1263, 1267, 1269, 1272, 1274, 1278, 1281, 1284],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Express"
             },
             {
@@ -4475,8 +4792,10 @@
                 "startsHere": true,
                 "stops": [1287, 1290, 1292, 1295, 1298, 1301, 1304, 1307],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Local"
             },
             {
@@ -4486,8 +4805,10 @@
                 "startsHere": true,
                 "stops": [1301, 1304, 1307, 1310, 1312, 1318, 1321, 1323],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Express"
             },
             {
@@ -4497,8 +4818,10 @@
                 "startsHere": true,
                 "stops": [1302, 1304, 1308, 1311, 1315],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Local"
             },
             {
@@ -4508,8 +4831,10 @@
                 "startsHere": true,
                 "stops": [1312, 1315, 1318, 1321, 1323, 1327, 1330, 1335],
                 "terminates": false,
-                "throughDestEn": "Seibu-Shinjuku",
-                "throughDestJa": "西武新宿",
+                "throughDest": {
+                    "en": "Seibu-Shinjuku",
+                    "ja": "西武新宿"
+                },
                 "type": "Local"
             },
             {
@@ -4585,6 +4910,6 @@
                 "type": "Local"
             }
         ],
-        "upHopTimesMinutes": [2.0, 3.0, 4.0, 2.0, 3.0, 2.0, 3.0]
+        "upHopTimesMinutes": [2, 3, 4, 2, 3, 2, 3]
     }
 ]

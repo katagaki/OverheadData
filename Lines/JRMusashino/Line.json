@@ -2,10 +2,14 @@
     {
         "colorHex": "#EB6100",
         "delayInfo": {
-            "checkMethodEn": "Check the JR East Train Operation Information page or the JR East app. In the Tokyo area, delays or suspensions of 15 minutes or more are posted.",
-            "checkMethodJa": "JR東日本「列車運行情報」ページまたはJR東日本アプリで確認できます。首都圏エリアでは15分以上の遅れ・運休が発生または見込まれる場合に掲載されます。",
-            "statusPageURL": "https://traininfo.jreast.co.jp/train_info/line.aspx?gid=1&lineid=musashinoline",
-            "statusPageURLEn": "https://traininfo.jreast.co.jp/train_info/e/kanto.aspx",
+            "checkMethod": {
+                "en": "Check the JR East Train Operation Information page or the JR East app. In the Tokyo area, delays or suspensions of 15 minutes or more are posted.",
+                "ja": "JR東日本「列車運行情報」ページまたはJR東日本アプリで確認できます。首都圏エリアでは15分以上の遅れ・運休が発生または見込まれる場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://traininfo.jreast.co.jp/train_info/e/kanto.aspx",
+                "ja": "https://traininfo.jreast.co.jp/train_info/line.aspx?gid=1&lineid=musashinoline"
+            },
             "xAccount": "@JRE_F_Chuo"
         },
         "directions": [
@@ -15,8 +19,10 @@
                 "id": "static.RailDirection:JR-East.Musashino.FuchuHommachi",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Fuchu-Hommachi",
-                "nameJa": "府中本町方面",
+                "name": {
+                    "en": "For Fuchu-Hommachi",
+                    "ja": "府中本町方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -78,8 +84,10 @@
                 "id": "static.RailDirection:JR-East.Musashino.NishiFunabashi",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Nishi-Funabashi",
-                "nameJa": "西船橋方面",
+                "name": {
+                    "en": "For Nishi-Funabashi",
+                    "ja": "西船橋方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -139,294 +147,351 @@
         "hopTimesMinutes": [3, 3, 2, 2, 4, 2, 2, 2, 2, 2, 2, 3, 4, 4, 3, 3, 2, 4, 3, 3, 3, 5, 3, 3, 2],
         "id": "Railway:JR-East.Musashino",
         "isLoop": false,
-        "nameEn": "Musashino Line",
-        "nameJa": "武蔵野線",
+        "name": {
+            "en": "Musashino Line",
+            "ja": "武蔵野線",
+            "ko": "무사시노선",
+            "zh-Hans": "武藏野线",
+            "zh-Hant": "武藏野線"
+        },
         "operatorId": "Operator:JR-East",
         "stations": [
             {
                 "id": "Station:JR-East.Musashino.NishiFunabashi",
                 "latitude": 35.7075,
                 "longitude": 139.9594,
-                "name": "西船橋",
-                "nameEn": "Nishi-Funabashi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nishi-Funabashi",
+                    "ja": "西船橋",
+                    "ko": "니시후나바시",
+                    "zh-Hans": "西船桥",
+                    "zh-Hant": "西船橋"
+                },
                 "stationCode": "JM10"
             },
             {
                 "id": "Station:JR-East.Musashino.FunabashiHoten",
                 "latitude": 35.730874,
                 "longitude": 139.96657,
-                "name": "船橋法典",
-                "nameEn": "Funabashi-Hoten",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Funabashi-Hoten",
+                    "ja": "船橋法典",
+                    "ko": "후나바시호텐",
+                    "zh-Hans": "船桥法典",
+                    "zh-Hant": "船橋法典"
+                },
                 "stationCode": "JM11"
             },
             {
                 "id": "Station:JR-East.Musashino.IchikawaOno",
                 "latitude": 35.755385,
                 "longitude": 139.951271,
-                "name": "市川大野",
-                "nameEn": "Ichikawa-Ono",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ichikawa-Ono",
+                    "ja": "市川大野",
+                    "ko": "이치카와오노",
+                    "zh-Hans": "市川大野",
+                    "zh-Hant": "市川大野"
+                },
                 "stationCode": "JM12"
             },
             {
                 "id": "Station:JR-East.Musashino.HigashiMatsudo",
                 "latitude": 35.7706,
                 "longitude": 139.9438,
-                "name": "東松戸",
-                "nameEn": "Higashi-Matsudo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Higashi-Matsudo",
+                    "ja": "東松戸",
+                    "ko": "히가시마쓰도",
+                    "zh-Hans": "东松户",
+                    "zh-Hant": "東松戶"
+                },
                 "stationCode": "JM13"
             },
             {
                 "id": "Station:JR-East.Musashino.ShinYahashira",
                 "latitude": 35.791951,
                 "longitude": 139.938384,
-                "name": "新八柱",
-                "nameEn": "Shin-Yahashira",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shin-Yahashira",
+                    "ja": "新八柱",
+                    "ko": "신야하시라",
+                    "zh-Hans": "新八柱",
+                    "zh-Hant": "新八柱"
+                },
                 "stationCode": "JM14"
             },
             {
                 "id": "Station:JR-East.Musashino.ShimMatsudo",
                 "latitude": 35.825373,
                 "longitude": 139.921129,
-                "name": "新松戸",
-                "nameEn": "Shim-Matsudo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shim-Matsudo",
+                    "ja": "新松戸",
+                    "ko": "신마쓰도",
+                    "zh-Hans": "新松户",
+                    "zh-Hant": "新松戶"
+                },
                 "stationCode": "JM15"
             },
             {
                 "id": "Station:JR-East.Musashino.MinamiNagareyama",
                 "latitude": 35.8378,
                 "longitude": 139.9028,
-                "name": "南流山",
-                "nameEn": "Minami-Nagareyama",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Minami-Nagareyama",
+                    "ja": "南流山",
+                    "ko": "미나미나가레야마",
+                    "zh-Hans": "南流山",
+                    "zh-Hant": "南流山"
+                },
                 "stationCode": "JM16"
             },
             {
                 "id": "Station:JR-East.Musashino.Misato",
                 "latitude": 35.845037,
                 "longitude": 139.885779,
-                "name": "三郷",
-                "nameEn": "Misato",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Misato",
+                    "ja": "三郷",
+                    "ko": "미사토",
+                    "zh-Hans": "三乡",
+                    "zh-Hant": "三鄉"
+                },
                 "stationCode": "JM17"
             },
             {
                 "id": "Station:JR-East.Musashino.ShinMisato",
                 "latitude": 35.858801,
                 "longitude": 139.869226,
-                "name": "新三郷",
-                "nameEn": "Shin-Misato",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shin-Misato",
+                    "ja": "新三郷",
+                    "ko": "신미사토",
+                    "zh-Hans": "新三乡",
+                    "zh-Hant": "新三鄉"
+                },
                 "stationCode": "JM18"
             },
             {
                 "id": "Station:JR-East.Musashino.Yoshikawaminami",
                 "latitude": 35.868067,
                 "longitude": 139.858081,
-                "name": "吉川美南",
-                "nameEn": "Yoshikawaminami",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Yoshikawaminami",
+                    "ja": "吉川美南",
+                    "ko": "요시카와미나미",
+                    "zh-Hans": "吉川美南",
+                    "zh-Hant": "吉川美南"
+                },
                 "stationCode": "JM19"
             },
             {
                 "id": "Station:JR-East.Musashino.Yoshikawa",
                 "latitude": 35.876578,
                 "longitude": 139.843505,
-                "name": "吉川",
-                "nameEn": "Yoshikawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Yoshikawa",
+                    "ja": "吉川",
+                    "ko": "요시카와",
+                    "zh-Hans": "吉川",
+                    "zh-Hant": "吉川"
+                },
                 "stationCode": "JM20"
             },
             {
                 "id": "Station:JR-East.Musashino.KoshigayaLaketown",
                 "latitude": 35.876217,
                 "longitude": 139.822401,
-                "name": "越谷レイクタウン",
-                "nameEn": "Koshigaya-Laketown",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Koshigaya-Laketown",
+                    "ja": "越谷レイクタウン",
+                    "ko": "고시가야 레이크타운",
+                    "zh-Hans": "越谷湖城",
+                    "zh-Hant": "越谷湖城"
+                },
                 "stationCode": "JM21"
             },
             {
                 "id": "Station:JR-East.Musashino.MinamiKoshigaya",
                 "latitude": 35.8758,
                 "longitude": 139.7918,
-                "name": "南越谷",
-                "nameEn": "Minami-Koshigaya",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Minami-Koshigaya",
+                    "ja": "南越谷",
+                    "ko": "미나미코시가야",
+                    "zh-Hans": "南越谷",
+                    "zh-Hant": "南越谷"
+                },
                 "stationCode": "JM22"
             },
             {
                 "id": "Station:JR-East.Musashino.HigashiKawaguchi",
                 "latitude": 35.875271,
                 "longitude": 139.744371,
-                "name": "東川口",
-                "nameEn": "Higashi-Kawaguchi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Higashi-Kawaguchi",
+                    "ja": "東川口",
+                    "ko": "히가시카와구치",
+                    "zh-Hans": "东川口",
+                    "zh-Hant": "東川口"
+                },
                 "stationCode": "JM23"
             },
             {
                 "id": "Station:JR-East.Musashino.HigashiUrawa",
                 "latitude": 35.864081,
                 "longitude": 139.704507,
-                "name": "東浦和",
-                "nameEn": "Higashi-Urawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Higashi-Urawa",
+                    "ja": "東浦和",
+                    "ko": "히가시우라와",
+                    "zh-Hans": "东浦和",
+                    "zh-Hant": "東浦和"
+                },
                 "stationCode": "JM24"
             },
             {
                 "id": "Station:JR-East.Musashino.MinamiUrawa",
                 "latitude": 35.847732,
                 "longitude": 139.669144,
-                "name": "南浦和",
-                "nameEn": "Minami-Urawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Minami-Urawa",
+                    "ja": "南浦和",
+                    "ko": "미나미우라와",
+                    "zh-Hans": "南浦和",
+                    "zh-Hant": "南浦和"
+                },
                 "stationCode": "JM25"
             },
             {
                 "id": "Station:JR-East.Musashino.MusashiUrawa",
                 "latitude": 35.8456,
                 "longitude": 139.6484,
-                "name": "武蔵浦和",
-                "nameEn": "Musashi-Urawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Musashi-Urawa",
+                    "ja": "武蔵浦和",
+                    "ko": "무사시우라와",
+                    "zh-Hans": "武藏浦和",
+                    "zh-Hant": "武藏浦和"
+                },
                 "stationCode": "JM26"
             },
             {
                 "id": "Station:JR-East.Musashino.NishiUrawa",
                 "latitude": 35.844206,
                 "longitude": 139.62792,
-                "name": "西浦和",
-                "nameEn": "Nishi-Urawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nishi-Urawa",
+                    "ja": "西浦和",
+                    "ko": "니시우라와",
+                    "zh-Hans": "西浦和",
+                    "zh-Hant": "西浦和"
+                },
                 "stationCode": "JM27"
             },
             {
                 "id": "Station:JR-East.Musashino.KitaAsaka",
                 "latitude": 35.815317,
                 "longitude": 139.586997,
-                "name": "北朝霞",
-                "nameEn": "Kita-Asaka",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kita-Asaka",
+                    "ja": "北朝霞",
+                    "ko": "기타아사카",
+                    "zh-Hans": "北朝霞",
+                    "zh-Hant": "北朝霞"
+                },
                 "stationCode": "JM28"
             },
             {
                 "id": "Station:JR-East.Musashino.Niiza",
                 "latitude": 35.803734,
                 "longitude": 139.5562,
-                "name": "新座",
-                "nameEn": "Niiza",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Niiza",
+                    "ja": "新座",
+                    "ko": "니자",
+                    "zh-Hans": "新座",
+                    "zh-Hant": "新座"
+                },
                 "stationCode": "JM29"
             },
             {
                 "id": "Station:JR-East.Musashino.HigashiTokorozawa",
                 "latitude": 35.794596,
                 "longitude": 139.513758,
-                "name": "東所沢",
-                "nameEn": "Higashi-Tokorozawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Higashi-Tokorozawa",
+                    "ja": "東所沢",
+                    "ko": "히가시토코로자와",
+                    "zh-Hans": "东所泽",
+                    "zh-Hant": "東所澤"
+                },
                 "stationCode": "JM30"
             },
             {
                 "id": "Station:JR-East.Musashino.ShinAkitsu",
                 "latitude": 35.777873,
                 "longitude": 139.493386,
-                "name": "新秋津",
-                "nameEn": "Shin-Akitsu",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shin-Akitsu",
+                    "ja": "新秋津",
+                    "ko": "신아키쓰",
+                    "zh-Hans": "新秋津",
+                    "zh-Hant": "新秋津"
+                },
                 "stationCode": "JM31"
             },
             {
                 "id": "Station:JR-East.Musashino.ShinKodaira",
                 "latitude": 35.730841,
                 "longitude": 139.470549,
-                "name": "新小平",
-                "nameEn": "Shin-Kodaira",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shin-Kodaira",
+                    "ja": "新小平",
+                    "ko": "신코다이라",
+                    "zh-Hans": "新小平",
+                    "zh-Hant": "新小平"
+                },
                 "stationCode": "JM32"
             },
             {
                 "id": "Station:JR-East.Musashino.NishiKokubunji",
                 "latitude": 35.6997,
                 "longitude": 139.4665,
-                "name": "西国分寺",
-                "nameEn": "Nishi-Kokubunji",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nishi-Kokubunji",
+                    "ja": "西国分寺",
+                    "ko": "니시코쿠분지",
+                    "zh-Hans": "西国分寺",
+                    "zh-Hant": "西國分寺"
+                },
                 "stationCode": "JM33"
             },
             {
                 "id": "Station:JR-East.Musashino.KitaFuchu",
                 "latitude": 35.680766,
                 "longitude": 139.471755,
-                "name": "北府中",
-                "nameEn": "Kita-Fuchu",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kita-Fuchu",
+                    "ja": "北府中",
+                    "ko": "기타후추",
+                    "zh-Hans": "北府中",
+                    "zh-Hant": "北府中"
+                },
                 "stationCode": "JM34"
             },
             {
                 "id": "Station:JR-East.Musashino.FuchuHommachi",
                 "latitude": 35.666105,
                 "longitude": 139.477104,
-                "name": "府中本町",
-                "nameEn": "Fuchu-Hommachi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Fuchu-Hommachi",
+                    "ja": "府中本町",
+                    "ko": "후추혼마치",
+                    "zh-Hans": "府中本町",
+                    "zh-Hant": "府中本町"
+                },
                 "stationCode": "JM35"
             }
         ],
@@ -436,10 +501,14 @@
                 "connectingLineId": "Railway:JR-East.KeiyoBranch",
                 "end": "descending",
                 "junctionStationId": "Station:JR-East.Musashino.NishiFunabashi",
-                "lineNameEn": "JR Keiyo Line",
-                "lineNameJa": "京葉線",
-                "towardEn": "for Tokyo",
-                "towardJa": "東京方面"
+                "lineName": {
+                    "en": "JR Keiyo Line",
+                    "ja": "京葉線"
+                },
+                "toward": {
+                    "en": "for Tokyo",
+                    "ja": "東京方面"
+                }
             }
         ],
         "timetableRuns": [

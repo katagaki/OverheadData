@@ -2,10 +2,14 @@
     {
         "colorHex": "#003685",
         "delayInfo": {
-            "checkMethodEn": "Check the Tokyo Monorail service information page or X (@TokyoMonorail). Delays and suspensions are posted as they occur.",
-            "checkMethodJa": "東京モノレール「運行情報」ページまたはX（@TokyoMonorail）で確認できます。遅延・運転見合わせが発生した場合に掲載されます。",
-            "statusPageURL": "https://traininfo.jreast.co.jp/train_info/line.aspx?gid=1&lineid=monorail",
-            "statusPageURLEn": "https://traininfo.jreast.co.jp/train_info/e/kanto.aspx",
+            "checkMethod": {
+                "en": "Check the Tokyo Monorail service information page or X (@TokyoMonorail). Delays and suspensions are posted as they occur.",
+                "ja": "東京モノレール「運行情報」ページまたはX（@TokyoMonorail）で確認できます。遅延・運転見合わせが発生した場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://traininfo.jreast.co.jp/train_info/e/kanto.aspx",
+                "ja": "https://traininfo.jreast.co.jp/train_info/line.aspx?gid=1&lineid=monorail"
+            },
             "xAccount": "@TokyoMonorail"
         },
         "directions": [
@@ -15,25 +19,27 @@
                 "id": "static.RailDirection:TokyoMonorail.HanedaAirport.MO11",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Haneda Airport Terminal 2",
-                "nameJa": "羽田空港第2ターミナル方面",
+                "name": {
+                    "en": "For Haneda Airport Terminal 2",
+                    "ja": "羽田空港第2ターミナル方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
                             "from": "04:59",
-                            "headwayMinutes": 12.0
+                            "headwayMinutes": 12
                         },
                         {
                             "from": "05:00",
-                            "headwayMinutes": 8.0
+                            "headwayMinutes": 8
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 5.0
+                            "headwayMinutes": 5
                         },
                         {
                             "from": "20:00",
-                            "headwayMinutes": 6.0
+                            "headwayMinutes": 6
                         },
                         {
                             "from": "21:00",
@@ -41,11 +47,11 @@
                         },
                         {
                             "from": "22:00",
-                            "headwayMinutes": 10.0
+                            "headwayMinutes": 10
                         },
                         {
                             "from": "23:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         }
                     ],
                     "firstDeparture": "04:59",
@@ -56,23 +62,23 @@
                     "bands": [
                         {
                             "from": "04:59",
-                            "headwayMinutes": 12.0
+                            "headwayMinutes": 12
                         },
                         {
                             "from": "05:00",
-                            "headwayMinutes": 6.0
+                            "headwayMinutes": 6
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 5.0
+                            "headwayMinutes": 5
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 4.0
+                            "headwayMinutes": 4
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 5.0
+                            "headwayMinutes": 5
                         },
                         {
                             "from": "17:00",
@@ -80,7 +86,7 @@
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 4.0
+                            "headwayMinutes": 4
                         },
                         {
                             "from": "19:00",
@@ -88,19 +94,19 @@
                         },
                         {
                             "from": "20:00",
-                            "headwayMinutes": 6.0
+                            "headwayMinutes": 6
                         },
                         {
                             "from": "21:00",
-                            "headwayMinutes": 7.0
+                            "headwayMinutes": 7
                         },
                         {
                             "from": "22:00",
-                            "headwayMinutes": 10.0
+                            "headwayMinutes": 10
                         },
                         {
                             "from": "23:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         }
                     ],
                     "firstDeparture": "04:59",
@@ -114,41 +120,43 @@
                 "id": "static.RailDirection:TokyoMonorail.HanedaAirport.MO01",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Monorail Hamamatsucho",
-                "nameJa": "モノレール浜松町方面",
+                "name": {
+                    "en": "For Monorail Hamamatsucho",
+                    "ja": "モノレール浜松町方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
                             "from": "05:03",
-                            "headwayMinutes": 10.0
+                            "headwayMinutes": 10
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 6.0
+                            "headwayMinutes": 6
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 5.0
+                            "headwayMinutes": 5
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 4.0
+                            "headwayMinutes": 4
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 5.0
+                            "headwayMinutes": 5
                         },
                         {
                             "from": "20:00",
-                            "headwayMinutes": 8.0
+                            "headwayMinutes": 8
                         },
                         {
                             "from": "22:00",
-                            "headwayMinutes": 10.0
+                            "headwayMinutes": 10
                         },
                         {
                             "from": "23:00",
-                            "headwayMinutes": 14.0
+                            "headwayMinutes": 14
                         }
                     ],
                     "firstDeparture": "05:03",
@@ -159,35 +167,35 @@
                     "bands": [
                         {
                             "from": "05:03",
-                            "headwayMinutes": 10.0
+                            "headwayMinutes": 10
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 5.0
+                            "headwayMinutes": 5
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 4.0
+                            "headwayMinutes": 4
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 5.0
+                            "headwayMinutes": 5
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 4.0
+                            "headwayMinutes": 4
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 5.0
+                            "headwayMinutes": 5
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 4.0
+                            "headwayMinutes": 4
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 5.0
+                            "headwayMinutes": 5
                         },
                         {
                             "from": "20:00",
@@ -195,15 +203,15 @@
                         },
                         {
                             "from": "21:00",
-                            "headwayMinutes": 7.0
+                            "headwayMinutes": 7
                         },
                         {
                             "from": "22:00",
-                            "headwayMinutes": 10.0
+                            "headwayMinutes": 10
                         },
                         {
                             "from": "23:00",
-                            "headwayMinutes": 14.0
+                            "headwayMinutes": 14
                         }
                     ],
                     "firstDeparture": "05:03",
@@ -212,132 +220,158 @@
                 }
             }
         ],
-        "hopTimesMinutes": [5.0, 4.0, 2.0, 4.0, 2.0, 2.0, 2.0, 3.0, 1.0, 2.0],
+        "hopTimesMinutes": [5, 4, 2, 4, 2, 2, 2, 3, 1, 2],
         "id": "Railway:TokyoMonorail.HanedaAirport",
         "isLoop": false,
-        "nameEn": "Tokyo Monorail Haneda Airport Line",
-        "nameJa": "東京モノレール羽田空港線",
+        "name": {
+            "en": "Tokyo Monorail Haneda Airport Line",
+            "ja": "東京モノレール羽田空港線",
+            "ko": "도쿄 모노레일 하네다 공항선",
+            "zh-Hans": "东京单轨电车羽田机场线",
+            "zh-Hant": "東京單軌電車羽田機場線"
+        },
         "operatorId": "Operator:TokyoMonorail",
         "stations": [
             {
                 "id": "Station:TokyoMonorail.HanedaAirport.MO01",
                 "latitude": 35.655598,
                 "longitude": 139.756793,
-                "name": "モノレール浜松町",
-                "nameEn": "Monorail Hamamatsucho",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Monorail Hamamatsucho",
+                    "ja": "モノレール浜松町",
+                    "zh-Hans": "单轨电车滨松町",
+                    "zh-Hant": "單軌電車濱松町"
+                },
                 "stationCode": "MO01"
             },
             {
                 "id": "Station:TokyoMonorail.HanedaAirport.MO02",
                 "latitude": 35.622752,
                 "longitude": 139.750806,
-                "name": "天王洲アイル",
-                "nameEn": "Tennozu Isle",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tennozu Isle",
+                    "ja": "天王洲アイル",
+                    "ko": "덴노즈 아일",
+                    "zh-Hans": "天王洲岛",
+                    "zh-Hant": "天王洲島"
+                },
                 "stationCode": "MO02"
             },
             {
                 "id": "Station:TokyoMonorail.HanedaAirport.MO03",
                 "latitude": 35.595129,
                 "longitude": 139.747074,
-                "name": "大井競馬場前",
-                "nameEn": "Oikeibajo-Mae",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Oikeibajo-Mae",
+                    "ja": "大井競馬場前",
+                    "ko": "오이케이바조마에",
+                    "zh-Hans": "大井竞马场前",
+                    "zh-Hant": "大井競馬場前"
+                },
                 "stationCode": "MO03"
             },
             {
                 "id": "Station:TokyoMonorail.HanedaAirport.MO04",
                 "latitude": 35.58169,
                 "longitude": 139.749144,
-                "name": "流通センター",
-                "nameEn": "Ryutsu Center",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ryutsu Center",
+                    "ja": "流通センター",
+                    "ko": "류쓰 센터",
+                    "zh-Hans": "流通中心",
+                    "zh-Hant": "流通中心"
+                },
                 "stationCode": "MO04"
             },
             {
                 "id": "Station:TokyoMonorail.HanedaAirport.MO05",
                 "latitude": 35.570769,
                 "longitude": 139.750068,
-                "name": "昭和島",
-                "nameEn": "Showajima",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Showajima",
+                    "ja": "昭和島",
+                    "ko": "쇼와지마",
+                    "zh-Hans": "昭和岛",
+                    "zh-Hant": "昭和島"
+                },
                 "stationCode": "MO05"
             },
             {
                 "id": "Station:TokyoMonorail.HanedaAirport.MO06",
                 "latitude": 35.555163,
                 "longitude": 139.753378,
-                "name": "整備場",
-                "nameEn": "Seibijo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Seibijo",
+                    "ja": "整備場",
+                    "ko": "세이비조",
+                    "zh-Hans": "整备场",
+                    "zh-Hant": "整備場"
+                },
                 "stationCode": "MO06"
             },
             {
                 "id": "Station:TokyoMonorail.HanedaAirport.MO07",
                 "latitude": 35.54899,
                 "longitude": 139.754394,
-                "name": "天空橋",
-                "nameEn": "Tenkubashi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tenkubashi",
+                    "ja": "天空橋",
+                    "ko": "덴쿠바시",
+                    "zh-Hans": "天空桥",
+                    "zh-Hant": "天空橋"
+                },
                 "stationCode": "MO07"
             },
             {
                 "id": "Station:TokyoMonorail.HanedaAirport.MO08",
                 "latitude": 35.543894,
                 "longitude": 139.768668,
-                "name": "羽田空港第3ターミナル",
-                "nameEn": "Haneda Airport Terminal 3",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Haneda Airport Terminal 3",
+                    "ja": "羽田空港第3ターミナル",
+                    "ko": "하네다 공항 제3터미널",
+                    "zh-Hans": "羽田机场国际线航站楼",
+                    "zh-Hant": "羽田機場國際線航站樓"
+                },
                 "stationCode": "MO08"
             },
             {
                 "id": "Station:TokyoMonorail.HanedaAirport.MO09",
                 "latitude": 35.542837,
                 "longitude": 139.786813,
-                "name": "新整備場",
-                "nameEn": "Shinseibijo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shinseibijo",
+                    "ja": "新整備場",
+                    "ko": "신세이비조",
+                    "zh-Hans": "新整备场",
+                    "zh-Hant": "新整備場"
+                },
                 "stationCode": "MO09"
             },
             {
                 "id": "Station:TokyoMonorail.HanedaAirport.MO10",
                 "latitude": 35.549147,
                 "longitude": 139.784504,
-                "name": "羽田空港第1ターミナル",
-                "nameEn": "Haneda Airport Terminal 1",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Haneda Airport Terminal 1",
+                    "ja": "羽田空港第1ターミナル",
+                    "ko": "하네다 공항 제1빌딩",
+                    "zh-Hans": "羽田机场第1大楼",
+                    "zh-Hant": "羽田機場第1大樓"
+                },
                 "stationCode": "MO10"
             },
             {
                 "id": "Station:TokyoMonorail.HanedaAirport.MO11",
                 "latitude": 35.550838,
                 "longitude": 139.788286,
-                "name": "羽田空港第2ターミナル",
-                "nameEn": "Haneda Airport Terminal 2",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Haneda Airport Terminal 2",
+                    "ja": "羽田空港第2ターミナル",
+                    "ko": "하네다 공항 제2빌딩",
+                    "zh-Hans": "羽田机场第2大楼",
+                    "zh-Hant": "羽田機場第2大樓"
+                },
                 "stationCode": "MO11"
             }
         ],
@@ -7986,6 +8020,6 @@
                 "type": "SectionRapid"
             }
         ],
-        "upHopTimesMinutes": [5.0, 3.0, 2.0, 2.0, 5.0, 1.0, 2.0, 3.0, 2.0, 2.0]
+        "upHopTimesMinutes": [5, 3, 2, 2, 5, 1, 2, 3, 2, 2]
     }
 ]

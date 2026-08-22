@@ -2,10 +2,14 @@
     {
         "colorHex": "#F08300",
         "delayInfo": {
-            "checkMethodEn": "Check the Tama Toshi Monorail website. Delays and suspensions are posted as they occur.",
-            "checkMethodJa": "多摩都市モノレールの公式サイトで確認できます。遅延・運転見合わせが発生した場合に掲載されます。",
-            "statusPageURL": "https://www.tama-monorail.co.jp/monorail/operation/",
-            "statusPageURLEn": "https://www.tama-monorail.co.jp/monorail/operation/",
+            "checkMethod": {
+                "en": "Check the Tama Toshi Monorail website. Delays and suspensions are posted as they occur.",
+                "ja": "多摩都市モノレールの公式サイトで確認できます。遅延・運転見合わせが発生した場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://www.tama-monorail.co.jp/monorail/operation/",
+                "ja": "https://www.tama-monorail.co.jp/monorail/operation/"
+            },
             "xAccount": "@tamamono_info"
         },
         "directions": [
@@ -21,8 +25,10 @@
                     }
                 ],
                 "isAscending": true,
-                "nameEn": "For Kamikitadai",
-                "nameJa": "上北台方面",
+                "name": {
+                    "en": "For Kamikitadai",
+                    "ja": "上北台方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -126,8 +132,10 @@
                     }
                 ],
                 "isAscending": false,
-                "nameEn": "For Tama Center",
-                "nameJa": "多摩センター方面",
+                "name": {
+                    "en": "For Tama Center",
+                    "ja": "多摩センター方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -231,217 +239,260 @@
         "hopTimesMinutes": [2, 2, 2, 3, 2, 2, 3, 2, 3, 2, 2, 3, 2, 2, 1, 2, 2, 2],
         "id": "Railway:TamaMonorail.TamaMonorail",
         "isLoop": false,
-        "nameEn": "Tama Toshi Monorail Line",
-        "nameJa": "多摩都市モノレール線",
+        "name": {
+            "en": "Tama Toshi Monorail Line",
+            "ja": "多摩都市モノレール線",
+            "ko": "다마 도시 모노레일선",
+            "zh-Hans": "多摩都市单轨电车线",
+            "zh-Hant": "多摩都市單軌電車線"
+        },
         "operatorId": "Operator:TamaMonorail",
         "stations": [
             {
                 "id": "Station:TamaMonorail.TamaMonorail.TamaCenter",
                 "latitude": 35.6239,
                 "longitude": 139.4228,
-                "name": "多摩センター",
-                "nameEn": "Tama Center",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tama Center",
+                    "ja": "多摩センター",
+                    "ko": "다마 센터",
+                    "zh-Hans": "多摩中心",
+                    "zh-Hant": "多摩中心"
+                },
                 "stationCode": "TT01"
             },
             {
                 "id": "Station:TamaMonorail.TamaMonorail.Matsugaya",
                 "latitude": 35.6318,
                 "longitude": 139.422,
-                "name": "松が谷",
-                "nameEn": "Matsugaya",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Matsugaya",
+                    "ja": "松が谷",
+                    "ko": "마쓰가야",
+                    "zh-Hans": "松谷",
+                    "zh-Hant": "松谷"
+                },
                 "stationCode": "TT02"
             },
             {
                 "id": "Station:TamaMonorail.TamaMonorail.OtsukaTeikyoDaigaku",
                 "latitude": 35.6369,
                 "longitude": 139.4164,
-                "name": "大塚・帝京大学",
-                "nameEn": "Otsuka-teikyo-daigaku",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Otsuka-teikyo-daigaku",
+                    "ja": "大塚・帝京大学",
+                    "ko": "오쓰카테이쿄다이가쿠",
+                    "zh-Hans": "大塚·帝京大学",
+                    "zh-Hant": "大塚·帝京大學"
+                },
                 "stationCode": "TT03"
             },
             {
                 "id": "Station:TamaMonorail.TamaMonorail.ChuoDaigakuMeiseiDaigaku",
                 "latitude": 35.6419,
                 "longitude": 139.4087,
-                "name": "中央大学・明星大学",
-                "nameEn": "Chuo-daigaku-meisei-daigaku",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Chuo-daigaku-meisei-daigaku",
+                    "ja": "中央大学・明星大学",
+                    "ko": "주오다이가쿠·메이세이다이가쿠",
+                    "zh-Hans": "中央大学·明星大学",
+                    "zh-Hant": "中央大學·明星大學"
+                },
                 "stationCode": "TT04"
             },
             {
                 "id": "Station:TamaMonorail.TamaMonorail.TamaDobutsukoen",
                 "latitude": 35.6485,
                 "longitude": 139.4038,
-                "name": "多摩動物公園",
-                "nameEn": "Tama-dobutsukoen",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tama-dobutsukoen",
+                    "ja": "多摩動物公園",
+                    "ko": "다마도부쓰코엔",
+                    "zh-Hans": "多摩动物公园",
+                    "zh-Hant": "多摩動物公園"
+                },
                 "stationCode": "TT05"
             },
             {
                 "id": "Station:TamaMonorail.TamaMonorail.Hodokubo",
                 "latitude": 35.6552,
                 "longitude": 139.4108,
-                "name": "程久保",
-                "nameEn": "Hodokubo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Hodokubo",
+                    "ja": "程久保",
+                    "ko": "호도쿠보",
+                    "zh-Hans": "程久保",
+                    "zh-Hant": "程久保"
+                },
                 "stationCode": "TT06"
             },
             {
                 "id": "Station:TamaMonorail.TamaMonorail.Takahatafudo",
                 "latitude": 35.6613,
                 "longitude": 139.4152,
-                "name": "高幡不動",
-                "nameEn": "Takahatafudo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Takahatafudo",
+                    "ja": "高幡不動",
+                    "ko": "다카하타후도",
+                    "zh-Hans": "高幡不动",
+                    "zh-Hant": "高幡不動"
+                },
                 "stationCode": "TT07"
             },
             {
                 "id": "Station:TamaMonorail.TamaMonorail.Manganji",
                 "latitude": 35.6713,
                 "longitude": 139.4199,
-                "name": "万願寺",
-                "nameEn": "Manganji",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Manganji",
+                    "ja": "万願寺",
+                    "ko": "만간지",
+                    "zh-Hans": "万愿寺",
+                    "zh-Hant": "萬願寺"
+                },
                 "stationCode": "TT08"
             },
             {
                 "id": "Station:TamaMonorail.TamaMonorail.Koshukaido",
                 "latitude": 35.6782,
                 "longitude": 139.4092,
-                "name": "甲州街道",
-                "nameEn": "Koshukaido",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Koshukaido",
+                    "ja": "甲州街道",
+                    "ko": "고슈카이도",
+                    "zh-Hans": "甲州街道",
+                    "zh-Hant": "甲州街道"
+                },
                 "stationCode": "TT09"
             },
             {
                 "id": "Station:TamaMonorail.TamaMonorail.ShibasakiTaiikukan",
                 "latitude": 35.6898,
                 "longitude": 139.4093,
-                "name": "柴崎体育館",
-                "nameEn": "Shibasaki-taiikukan",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shibasaki-taiikukan",
+                    "ja": "柴崎体育館",
+                    "ko": "시바사키타이이쿠칸",
+                    "zh-Hans": "柴崎体育馆",
+                    "zh-Hant": "柴崎體育館"
+                },
                 "stationCode": "TT10"
             },
             {
                 "id": "Station:TamaMonorail.TamaMonorail.TachikawaMinami",
                 "latitude": 35.6962,
                 "longitude": 139.4126,
-                "name": "立川南",
-                "nameEn": "Tachikawa-minami",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tachikawa-minami",
+                    "ja": "立川南",
+                    "ko": "다치카와미나미",
+                    "zh-Hans": "立川南",
+                    "zh-Hant": "立川南"
+                },
                 "stationCode": "TT11"
             },
             {
                 "id": "Station:TamaMonorail.TamaMonorail.TachikawaKita",
                 "latitude": 35.6995,
                 "longitude": 139.4127,
-                "name": "立川北",
-                "nameEn": "Tachikawa-kita",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tachikawa-kita",
+                    "ja": "立川北",
+                    "ko": "다치카와키타",
+                    "zh-Hans": "立川北",
+                    "zh-Hant": "立川北"
+                },
                 "stationCode": "TT12"
             },
             {
                 "id": "Station:TamaMonorail.TamaMonorail.Takamatsu",
                 "latitude": 35.71,
                 "longitude": 139.4133,
-                "name": "高松",
-                "nameEn": "Takamatsu",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Takamatsu",
+                    "ja": "高松",
+                    "ko": "다카마쓰",
+                    "zh-Hans": "高松",
+                    "zh-Hant": "高松"
+                },
                 "stationCode": "TT13"
             },
             {
                 "id": "Station:TamaMonorail.TamaMonorail.Tachihi",
                 "latitude": 35.7143,
                 "longitude": 139.4171,
-                "name": "立飛",
-                "nameEn": "Tachihi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tachihi",
+                    "ja": "立飛",
+                    "ko": "다치히",
+                    "zh-Hans": "立飞",
+                    "zh-Hant": "立飛"
+                },
                 "stationCode": "TT14"
             },
             {
                 "id": "Station:TamaMonorail.TamaMonorail.IzumiTaiikukan",
                 "latitude": 35.7188,
                 "longitude": 139.4196,
-                "name": "泉体育館",
-                "nameEn": "Izumi-taiikukan",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Izumi-taiikukan",
+                    "ja": "泉体育館",
+                    "ko": "이즈미타이이쿠칸",
+                    "zh-Hans": "泉体育馆",
+                    "zh-Hant": "泉體育館"
+                },
                 "stationCode": "TT15"
             },
             {
                 "id": "Station:TamaMonorail.TamaMonorail.SunagawaNanaban",
                 "latitude": 35.7234,
                 "longitude": 139.4181,
-                "name": "砂川七番",
-                "nameEn": "Sunagawa-nanaban",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Sunagawa-nanaban",
+                    "ja": "砂川七番",
+                    "ko": "스나가와나나반",
+                    "zh-Hans": "砂川七番",
+                    "zh-Hant": "砂川七番"
+                },
                 "stationCode": "TT16"
             },
             {
                 "id": "Station:TamaMonorail.TamaMonorail.TamagawaJosui",
                 "latitude": 35.7322,
                 "longitude": 139.4177,
-                "name": "玉川上水",
-                "nameEn": "Tamagawa-josui",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tamagawa-josui",
+                    "ja": "玉川上水",
+                    "ko": "다마가와조스이",
+                    "zh-Hans": "玉川上水",
+                    "zh-Hant": "玉川上水"
+                },
                 "stationCode": "TT17"
             },
             {
                 "id": "Station:TamaMonorail.TamaMonorail.Sakurakaido",
                 "latitude": 35.739,
                 "longitude": 139.4166,
-                "name": "桜街道",
-                "nameEn": "Sakurakaido",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Sakurakaido",
+                    "ja": "桜街道",
+                    "ko": "사쿠라카이도",
+                    "zh-Hans": "樱街道",
+                    "zh-Hant": "櫻街道"
+                },
                 "stationCode": "TT18"
             },
             {
                 "id": "Station:TamaMonorail.TamaMonorail.Kamikitadai",
                 "latitude": 35.7458,
                 "longitude": 139.4159,
-                "name": "上北台",
-                "nameEn": "Kamikitadai",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kamikitadai",
+                    "ja": "上北台",
+                    "ko": "가미키타다이",
+                    "zh-Hans": "上北台",
+                    "zh-Hant": "上北臺"
+                },
                 "stationCode": "TT19"
             }
         ],

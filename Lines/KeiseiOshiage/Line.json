@@ -2,10 +2,14 @@
     {
         "colorHex": "#005AAA",
         "delayInfo": {
-            "checkMethodEn": "Check the Keisei train information page, the Keisei app, or X (@keiseirailway). Delays and suspensions are posted as they occur.",
-            "checkMethodJa": "京成電鉄「運行情報」ページ、京成アプリ、またはX（@keiseirailway）で確認できます。遅延・運転見合わせが発生した場合に掲載されます。",
-            "statusPageURL": "https://www.keisei.co.jp/traininfo/index.php",
-            "statusPageURLEn": "https://www.keisei.co.jp/traininfo/index.php",
+            "checkMethod": {
+                "en": "Check the Keisei train information page, the Keisei app, or X (@keiseirailway). Delays and suspensions are posted as they occur.",
+                "ja": "京成電鉄「運行情報」ページ、京成アプリ、またはX（@keiseirailway）で確認できます。遅延・運転見合わせが発生した場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://www.keisei.co.jp/traininfo/index.php",
+                "ja": "https://www.keisei.co.jp/traininfo/index.php"
+            },
             "xAccount": "@keiseirailway"
         },
         "directions": [
@@ -15,8 +19,10 @@
                 "id": "static.RailDirection:Keisei.Oshiage.Aoto",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Aoto",
-                "nameJa": "青砥方面",
+                "name": {
+                    "en": "For Aoto",
+                    "ja": "青砥方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -78,8 +84,10 @@
                 "id": "static.RailDirection:Keisei.Oshiage.Oshiage",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Oshiage",
-                "nameJa": "押上方面",
+                "name": {
+                    "en": "For Oshiage",
+                    "ja": "押上方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -139,74 +147,91 @@
         "hopTimesMinutes": [2, 2, 2, 2, 3],
         "id": "Railway:Keisei.Oshiage",
         "isLoop": false,
-        "nameEn": "Keisei Oshiage Line",
-        "nameJa": "京成押上線",
+        "name": {
+            "en": "Keisei Oshiage Line",
+            "ja": "京成押上線",
+            "ko": "게이세이 전철 오시아게 선",
+            "zh-Hans": "押上线",
+            "zh-Hant": "押上線"
+        },
         "operatorId": "Operator:Keisei",
         "stations": [
             {
                 "id": "Station:Keisei.Oshiage.Oshiage",
                 "latitude": 35.7103,
                 "longitude": 139.8129,
-                "name": "押上",
-                "nameEn": "Oshiage 'SKYTREE'",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Oshiage 'SKYTREE'",
+                    "ja": "押上",
+                    "ko": "오시아게",
+                    "zh-Hans": "押上",
+                    "zh-Hant": "押上"
+                },
                 "stationCode": "KS45"
             },
             {
                 "id": "Station:Keisei.Oshiage.KeiseiHikifune",
                 "latitude": 35.718188,
                 "longitude": 139.81975,
-                "name": "京成曳舟",
-                "nameEn": "Keisei-Hikifune",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Keisei-Hikifune",
+                    "ja": "京成曳舟",
+                    "ko": "게이세이 히키후네",
+                    "zh-Hans": "京成曳舟",
+                    "zh-Hant": "京成曳舟"
+                },
                 "stationCode": "KS46"
             },
             {
                 "id": "Station:Keisei.Oshiage.Yahiro",
                 "latitude": 35.727185,
                 "longitude": 139.828234,
-                "name": "八広",
-                "nameEn": "Yahiro",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Yahiro",
+                    "ja": "八広",
+                    "ko": "야히로",
+                    "zh-Hans": "八广",
+                    "zh-Hant": "八廣"
+                },
                 "stationCode": "KS47"
             },
             {
                 "id": "Station:Keisei.Oshiage.Yotsugi",
                 "latitude": 35.731743,
                 "longitude": 139.834856,
-                "name": "四ツ木",
-                "nameEn": "Yotsugi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Yotsugi",
+                    "ja": "四ツ木",
+                    "ko": "요쓰기",
+                    "zh-Hans": "四木",
+                    "zh-Hant": "四木"
+                },
                 "stationCode": "KS48"
             },
             {
                 "id": "Station:Keisei.Oshiage.KeiseiTateishi",
                 "latitude": 35.7378,
                 "longitude": 139.8478,
-                "name": "京成立石",
-                "nameEn": "Keisei-Tateishi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Keisei-Tateishi",
+                    "ja": "京成立石",
+                    "ko": "게이세이 다테이시",
+                    "zh-Hans": "京成立石",
+                    "zh-Hant": "京成立石"
+                },
                 "stationCode": "KS49"
             },
             {
                 "id": "Station:Keisei.Oshiage.Aoto",
                 "latitude": 35.7448,
                 "longitude": 139.8552,
-                "name": "青砥",
-                "nameEn": "Aoto",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Aoto",
+                    "ja": "青砥",
+                    "ko": "아오토",
+                    "zh-Hans": "青砥",
+                    "zh-Hant": "青砥"
+                },
                 "stationCode": "KS09"
             }
         ],
@@ -216,19 +241,27 @@
                 "connectingLineId": "Railway:Keisei.Main",
                 "end": "ascending",
                 "junctionStationId": "Station:Keisei.Oshiage.Aoto",
-                "lineNameEn": "Keisei Main Line",
-                "lineNameJa": "京成本線",
-                "towardEn": "for Keisei-Funabashi & Narita Airport",
-                "towardJa": "京成船橋・成田空港方面"
+                "lineName": {
+                    "en": "Keisei Main Line",
+                    "ja": "京成本線"
+                },
+                "toward": {
+                    "en": "for Keisei-Funabashi & Narita Airport",
+                    "ja": "京成船橋・成田空港方面"
+                }
             },
             {
                 "connectingLineId": "Railway:Toei.Asakusa",
                 "end": "descending",
                 "junctionStationId": "Station:Keisei.Oshiage.Oshiage",
-                "lineNameEn": "Toei Asakusa & Keikyu Lines",
-                "lineNameJa": "都営浅草線・京急線",
-                "towardEn": "for Haneda Airport & Nishi-magome",
-                "towardJa": "羽田空港・西馬込方面"
+                "lineName": {
+                    "en": "Toei Asakusa & Keikyu Lines",
+                    "ja": "都営浅草線・京急線"
+                },
+                "toward": {
+                    "en": "for Haneda Airport & Nishi-magome",
+                    "ja": "羽田空港・西馬込方面"
+                }
             }
         ]
     }

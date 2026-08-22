@@ -2,10 +2,14 @@
     {
         "colorHex": "#3C4184",
         "delayInfo": {
-            "checkMethodEn": "Check the Choshi Electric Railway website. Suspensions and delays are posted in the notices on the top page.",
-            "checkMethodJa": "銚子電鉄の公式サイトで確認できます。運転見合わせ・遅延はトップページのお知らせに掲載されます。",
-            "statusPageURL": "https://www.choshi-dentetsu.jp/",
-            "statusPageURLEn": "https://www.choshi-dentetsu.jp/",
+            "checkMethod": {
+                "en": "Check the Choshi Electric Railway website. Suspensions and delays are posted in the notices on the top page.",
+                "ja": "銚子電鉄の公式サイトで確認できます。運転見合わせ・遅延はトップページのお知らせに掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://www.choshi-dentetsu.jp/",
+                "ja": "https://www.choshi-dentetsu.jp/"
+            },
             "xAccount": null
         },
         "directions": [
@@ -15,41 +19,43 @@
                 "id": "static.RailDirection:Choshi.Choshi.Tokawa",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Tokawa",
-                "nameJa": "外川方面",
+                "name": {
+                    "en": "For Tokawa",
+                    "ja": "外川方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
                             "from": "06:26",
-                            "headwayMinutes": 50.0
+                            "headwayMinutes": 50
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 27.0
+                            "headwayMinutes": 27
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 53.0
+                            "headwayMinutes": 53
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 57.0
+                            "headwayMinutes": 57
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 75.0
+                            "headwayMinutes": 75
                         },
                         {
                             "from": "11:00",
-                            "headwayMinutes": 65.0
+                            "headwayMinutes": 65
                         },
                         {
                             "from": "12:00",
-                            "headwayMinutes": 52.0
+                            "headwayMinutes": 52
                         },
                         {
                             "from": "13:00",
-                            "headwayMinutes": 56.0
+                            "headwayMinutes": 56
                         },
                         {
                             "from": "14:00",
@@ -57,15 +63,15 @@
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 62.0
+                            "headwayMinutes": 62
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 51.0
+                            "headwayMinutes": 51
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 67.0
+                            "headwayMinutes": 67
                         }
                     ],
                     "firstDeparture": "06:26",
@@ -76,35 +82,35 @@
                     "bands": [
                         {
                             "from": "06:26",
-                            "headwayMinutes": 50.0
+                            "headwayMinutes": 50
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 27.0
+                            "headwayMinutes": 27
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 53.0
+                            "headwayMinutes": 53
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 57.0
+                            "headwayMinutes": 57
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 75.0
+                            "headwayMinutes": 75
                         },
                         {
                             "from": "11:00",
-                            "headwayMinutes": 65.0
+                            "headwayMinutes": 65
                         },
                         {
                             "from": "12:00",
-                            "headwayMinutes": 52.0
+                            "headwayMinutes": 52
                         },
                         {
                             "from": "13:00",
-                            "headwayMinutes": 56.0
+                            "headwayMinutes": 56
                         },
                         {
                             "from": "14:00",
@@ -112,15 +118,15 @@
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 62.0
+                            "headwayMinutes": 62
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 51.0
+                            "headwayMinutes": 51
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 67.0
+                            "headwayMinutes": 67
                         }
                     ],
                     "firstDeparture": "06:26",
@@ -134,65 +140,67 @@
                 "id": "static.RailDirection:Choshi.Choshi.Choshi",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Choshi",
-                "nameJa": "銚子方面",
+                "name": {
+                    "en": "For Choshi",
+                    "ja": "銚子方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
                             "from": "06:00",
-                            "headwayMinutes": 38.0
+                            "headwayMinutes": 38
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 27.0
+                            "headwayMinutes": 27
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 40.0
+                            "headwayMinutes": 40
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 69.0
+                            "headwayMinutes": 69
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 65.0
+                            "headwayMinutes": 65
                         },
                         {
                             "from": "11:00",
-                            "headwayMinutes": 61.0
+                            "headwayMinutes": 61
                         },
                         {
                             "from": "12:00",
-                            "headwayMinutes": 56.0
+                            "headwayMinutes": 56
                         },
                         {
                             "from": "13:00",
-                            "headwayMinutes": 53.0
+                            "headwayMinutes": 53
                         },
                         {
                             "from": "14:00",
-                            "headwayMinutes": 50.0
+                            "headwayMinutes": 50
                         },
                         {
                             "from": "15:00",
-                            "headwayMinutes": 77.0
+                            "headwayMinutes": 77
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 51.0
+                            "headwayMinutes": 51
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 49.0
+                            "headwayMinutes": 49
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 58.0
+                            "headwayMinutes": 58
                         },
                         {
                             "from": "20:00",
-                            "headwayMinutes": 65.0
+                            "headwayMinutes": 65
                         }
                     ],
                     "firstDeparture": "06:00",
@@ -203,59 +211,59 @@
                     "bands": [
                         {
                             "from": "06:00",
-                            "headwayMinutes": 38.0
+                            "headwayMinutes": 38
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 27.0
+                            "headwayMinutes": 27
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 40.0
+                            "headwayMinutes": 40
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 69.0
+                            "headwayMinutes": 69
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 65.0
+                            "headwayMinutes": 65
                         },
                         {
                             "from": "11:00",
-                            "headwayMinutes": 61.0
+                            "headwayMinutes": 61
                         },
                         {
                             "from": "12:00",
-                            "headwayMinutes": 56.0
+                            "headwayMinutes": 56
                         },
                         {
                             "from": "13:00",
-                            "headwayMinutes": 53.0
+                            "headwayMinutes": 53
                         },
                         {
                             "from": "14:00",
-                            "headwayMinutes": 50.0
+                            "headwayMinutes": 50
                         },
                         {
                             "from": "15:00",
-                            "headwayMinutes": 77.0
+                            "headwayMinutes": 77
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 51.0
+                            "headwayMinutes": 51
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 49.0
+                            "headwayMinutes": 49
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 58.0
+                            "headwayMinutes": 58
                         },
                         {
                             "from": "20:00",
-                            "headwayMinutes": 65.0
+                            "headwayMinutes": 65
                         }
                     ],
                     "firstDeparture": "06:00",
@@ -264,121 +272,143 @@
                 }
             }
         ],
-        "hopTimesMinutes": [2.0, 2.0, 2.0, 6.0, 1.0, 2.0, 2.0, 3.0, 2.0],
+        "hopTimesMinutes": [2, 2, 2, 6, 1, 2, 2, 3, 2],
         "id": "Railway:Choshi.Choshi",
         "isLoop": false,
-        "nameEn": "Choshi Electric Railway Line",
-        "nameJa": "銚子電鉄線",
+        "name": {
+            "en": "Choshi Electric Railway Line",
+            "ja": "銚子電鉄線"
+        },
         "operatorId": "Operator:Choshi",
         "stations": [
             {
                 "id": "Station:Choshi.Choshi.Choshi",
                 "latitude": 35.72941,
                 "longitude": 140.82731,
-                "name": "銚子",
-                "nameEn": "Choshi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Choshi",
+                    "ja": "銚子",
+                    "ko": "조시",
+                    "zh-Hans": "銚子",
+                    "zh-Hant": "銚子"
+                },
                 "stationCode": "CD01"
             },
             {
                 "id": "Station:Choshi.Choshi.Nakanocho",
                 "latitude": 35.72888,
                 "longitude": 140.83351,
-                "name": "仲ノ町",
-                "nameEn": "Nakanocho",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nakanocho",
+                    "ja": "仲ノ町",
+                    "ko": "나카노초",
+                    "zh-Hans": "仲之町",
+                    "zh-Hant": "仲之町"
+                },
                 "stationCode": "CD02"
             },
             {
                 "id": "Station:Choshi.Choshi.Kannon",
                 "latitude": 35.72904,
                 "longitude": 140.84022,
-                "name": "観音",
-                "nameEn": "Kannon",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kannon",
+                    "ja": "観音",
+                    "ko": "간논",
+                    "zh-Hans": "观音",
+                    "zh-Hant": "觀音"
+                },
                 "stationCode": "CD03"
             },
             {
                 "id": "Station:Choshi.Choshi.MotoChoshi",
                 "latitude": 35.73106,
                 "longitude": 140.84781,
-                "name": "本銚子",
-                "nameEn": "Moto-Choshi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Moto-Choshi",
+                    "ja": "本銚子",
+                    "ko": "모토초시",
+                    "zh-Hans": "本铫子",
+                    "zh-Hant": "本銚子"
+                },
                 "stationCode": "CD04"
             },
             {
                 "id": "Station:Choshi.Choshi.KasagamiKurohae",
                 "latitude": 35.72843,
                 "longitude": 140.85709,
-                "name": "笠上黒生",
-                "nameEn": "Kasagami-Kurohae",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kasagami-Kurohae",
+                    "ja": "笠上黒生",
+                    "ko": "가사가미쿠로하에",
+                    "zh-Hans": "笠上黑生",
+                    "zh-Hant": "笠上黑生"
+                },
                 "stationCode": "CD05"
             },
             {
                 "id": "Station:Choshi.Choshi.NishiAshikajima",
                 "latitude": 35.72541,
                 "longitude": 140.85986,
-                "name": "西海鹿島",
-                "nameEn": "Nishi-Ashikajima",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nishi-Ashikajima",
+                    "ja": "西海鹿島",
+                    "ko": "니시아시카지마",
+                    "zh-Hans": "西海鹿岛",
+                    "zh-Hant": "西海鹿島"
+                },
                 "stationCode": "CD06"
             },
             {
                 "id": "Station:Choshi.Choshi.Ashikajima",
                 "latitude": 35.72179,
                 "longitude": 140.86354,
-                "name": "海鹿島",
-                "nameEn": "Ashikajima",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ashikajima",
+                    "ja": "海鹿島",
+                    "ko": "아시카지마",
+                    "zh-Hans": "海鹿岛",
+                    "zh-Hant": "海鹿島"
+                },
                 "stationCode": "CD07"
             },
             {
                 "id": "Station:Choshi.Choshi.Kimigahama",
                 "latitude": 35.71355,
                 "longitude": 140.8605,
-                "name": "君ヶ浜",
-                "nameEn": "Kimigahama",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kimigahama",
+                    "ja": "君ヶ浜",
+                    "ko": "기미가하마",
+                    "zh-Hans": "君滨",
+                    "zh-Hant": "君濱"
+                },
                 "stationCode": "CD08"
             },
             {
                 "id": "Station:Choshi.Choshi.Inubo",
                 "latitude": 35.70625,
                 "longitude": 140.86118,
-                "name": "犬吠",
-                "nameEn": "Inubo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Inubo",
+                    "ja": "犬吠",
+                    "ko": "이누보",
+                    "zh-Hans": "犬吠",
+                    "zh-Hant": "犬吠"
+                },
                 "stationCode": "CD09"
             },
             {
                 "id": "Station:Choshi.Choshi.Tokawa",
                 "latitude": 35.69925,
                 "longitude": 140.85702,
-                "name": "外川",
-                "nameEn": "Tokawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tokawa",
+                    "ja": "外川",
+                    "ko": "도카와",
+                    "zh-Hans": "外川",
+                    "zh-Hant": "外川"
+                },
                 "stationCode": "CD10"
             }
         ],
@@ -1034,6 +1064,6 @@
                 "type": "Local"
             }
         ],
-        "upHopTimesMinutes": [2.0, 2.0, 2.0, 2.0, 2.0, 1.0, 3.0, 2.0, 3.0]
+        "upHopTimesMinutes": [2, 2, 2, 2, 2, 1, 3, 2, 3]
     }
 ]

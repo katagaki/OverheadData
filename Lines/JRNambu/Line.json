@@ -2,10 +2,14 @@
     {
         "colorHex": "#FFE100",
         "delayInfo": {
-            "checkMethodEn": "Check the JR East Train Operation Information page or the JR East app. In the Tokyo area, delays or suspensions of 15 minutes or more are posted.",
-            "checkMethodJa": "JR東日本「列車運行情報」ページまたはJR東日本アプリで確認できます。首都圏エリアでは15分以上の遅れ・運休が発生または見込まれる場合に掲載されます。",
-            "statusPageURL": "https://traininfo.jreast.co.jp/train_info/line.aspx?gid=1&lineid=nambuline",
-            "statusPageURLEn": "https://traininfo.jreast.co.jp/train_info/e/kanto.aspx",
+            "checkMethod": {
+                "en": "Check the JR East Train Operation Information page or the JR East app. In the Tokyo area, delays or suspensions of 15 minutes or more are posted.",
+                "ja": "JR東日本「列車運行情報」ページまたはJR東日本アプリで確認できます。首都圏エリアでは15分以上の遅れ・運休が発生または見込まれる場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://traininfo.jreast.co.jp/train_info/e/kanto.aspx",
+                "ja": "https://traininfo.jreast.co.jp/train_info/line.aspx?gid=1&lineid=nambuline"
+            },
             "xAccount": "@JRE_F_Tokaido"
         },
         "directions": [
@@ -15,8 +19,10 @@
                 "id": "static.RailDirection:JR-East.Nambu.Tachikawa",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Tachikawa",
-                "nameJa": "立川方面",
+                "name": {
+                    "en": "For Tachikawa",
+                    "ja": "立川方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -78,8 +84,10 @@
                 "id": "static.RailDirection:JR-East.Nambu.Kawasaki",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Kawasaki",
-                "nameJa": "川崎方面",
+                "name": {
+                    "en": "For Kawasaki",
+                    "ja": "川崎方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -139,294 +147,351 @@
         "hopTimesMinutes": [3, 2, 2, 2, 2, 2, 3, 2, 3, 2, 2, 2, 2, 3, 2, 2, 2, 2, 3, 2, 2, 2, 2, 2, 2],
         "id": "Railway:JR-East.Nambu",
         "isLoop": false,
-        "nameEn": "Nambu Line",
-        "nameJa": "南武線",
+        "name": {
+            "en": "Nambu Line",
+            "ja": "南武線",
+            "ko": "난부선",
+            "zh-Hans": "南武线",
+            "zh-Hant": "南武線"
+        },
         "operatorId": "Operator:JR-East",
         "stations": [
             {
                 "id": "Station:JR-East.Nambu.Kawasaki",
                 "latitude": 35.5308,
                 "longitude": 139.697,
-                "name": "川崎",
-                "nameEn": "Kawasaki",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kawasaki",
+                    "ja": "川崎",
+                    "ko": "가와사키",
+                    "zh-Hans": "川崎",
+                    "zh-Hant": "川崎"
+                },
                 "stationCode": "JN01"
             },
             {
                 "id": "Station:JR-East.Nambu.Shitte",
                 "latitude": 35.531075,
                 "longitude": 139.684269,
-                "name": "尻手",
-                "nameEn": "Shitte",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shitte",
+                    "ja": "尻手",
+                    "ko": "싯테",
+                    "zh-Hans": "尻手",
+                    "zh-Hant": "尻手"
+                },
                 "stationCode": "JN02"
             },
             {
                 "id": "Station:JR-East.Nambu.Yako",
                 "latitude": 35.539182,
                 "longitude": 139.680512,
-                "name": "矢向",
-                "nameEn": "Yako",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Yako",
+                    "ja": "矢向",
+                    "ko": "야코",
+                    "zh-Hans": "矢向",
+                    "zh-Hant": "矢向"
+                },
                 "stationCode": "JN03"
             },
             {
                 "id": "Station:JR-East.Nambu.Kashimada",
                 "latitude": 35.551547,
                 "longitude": 139.675013,
-                "name": "鹿島田",
-                "nameEn": "Kashimada",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kashimada",
+                    "ja": "鹿島田",
+                    "ko": "가시마다",
+                    "zh-Hans": "鹿岛田",
+                    "zh-Hant": "鹿島田"
+                },
                 "stationCode": "JN04"
             },
             {
                 "id": "Station:JR-East.Nambu.Hirama",
                 "latitude": 35.560975,
                 "longitude": 139.670934,
-                "name": "平間",
-                "nameEn": "Hirama",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Hirama",
+                    "ja": "平間",
+                    "ko": "히라마",
+                    "zh-Hans": "平间",
+                    "zh-Hant": "平間"
+                },
                 "stationCode": "JN05"
             },
             {
                 "id": "Station:JR-East.Nambu.Mukaigawara",
                 "latitude": 35.572958,
                 "longitude": 139.667219,
-                "name": "向河原",
-                "nameEn": "Mukaigawara",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Mukaigawara",
+                    "ja": "向河原",
+                    "ko": "무카이가와라",
+                    "zh-Hans": "向河原",
+                    "zh-Hant": "向河原"
+                },
                 "stationCode": "JN06"
             },
             {
                 "id": "Station:JR-East.Nambu.MusashiKosugi",
                 "latitude": 35.5766,
                 "longitude": 139.6597,
-                "name": "武蔵小杉",
-                "nameEn": "Musashi-Kosugi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Musashi-Kosugi",
+                    "ja": "武蔵小杉",
+                    "ko": "무사시코스기",
+                    "zh-Hans": "武藏小杉",
+                    "zh-Hant": "武藏小杉"
+                },
                 "stationCode": "JN07"
             },
             {
                 "id": "Station:JR-East.Nambu.MusashiNakahara",
                 "latitude": 35.580908,
                 "longitude": 139.64176,
-                "name": "武蔵中原",
-                "nameEn": "Musashi-Nakahara",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Musashi-Nakahara",
+                    "ja": "武蔵中原",
+                    "ko": "무사시나카하라",
+                    "zh-Hans": "武藏中原",
+                    "zh-Hant": "武藏中原"
+                },
                 "stationCode": "JN08"
             },
             {
                 "id": "Station:JR-East.Nambu.MusashiShinjo",
                 "latitude": 35.587157,
                 "longitude": 139.629848,
-                "name": "武蔵新城",
-                "nameEn": "Musashi-Shinjo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Musashi-Shinjo",
+                    "ja": "武蔵新城",
+                    "ko": "무사시신조",
+                    "zh-Hans": "武藏新城",
+                    "zh-Hant": "武藏新城"
+                },
                 "stationCode": "JN09"
             },
             {
                 "id": "Station:JR-East.Nambu.MusashiMizonokuchi",
                 "latitude": 35.5998,
                 "longitude": 139.6103,
-                "name": "武蔵溝ノ口",
-                "nameEn": "Musashi-Mizonokuchi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Musashi-Mizonokuchi",
+                    "ja": "武蔵溝ノ口",
+                    "ko": "무사시미조노쿠치",
+                    "zh-Hans": "武藏沟之口",
+                    "zh-Hant": "武藏溝之口"
+                },
                 "stationCode": "JN10"
             },
             {
                 "id": "Station:JR-East.Nambu.Tsudayama",
                 "latitude": 35.603882,
                 "longitude": 139.600457,
-                "name": "津田山",
-                "nameEn": "Tsudayama",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tsudayama",
+                    "ja": "津田山",
+                    "ko": "쓰다야마",
+                    "zh-Hans": "津田山",
+                    "zh-Hant": "津田山"
+                },
                 "stationCode": "JN11"
             },
             {
                 "id": "Station:JR-East.Nambu.Kuji",
                 "latitude": 35.610598,
                 "longitude": 139.592502,
-                "name": "久地",
-                "nameEn": "Kuji",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kuji",
+                    "ja": "久地",
+                    "ko": "구지",
+                    "zh-Hans": "久地",
+                    "zh-Hant": "久地"
+                },
                 "stationCode": "JN12"
             },
             {
                 "id": "Station:JR-East.Nambu.Shukugawara",
                 "latitude": 35.615337,
                 "longitude": 139.579765,
-                "name": "宿河原",
-                "nameEn": "Shukugawara",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shukugawara",
+                    "ja": "宿河原",
+                    "ko": "슈쿠가와라",
+                    "zh-Hans": "宿河原",
+                    "zh-Hant": "宿河原"
+                },
                 "stationCode": "JN13"
             },
             {
                 "id": "Station:JR-East.Nambu.Noborito",
                 "latitude": 35.6205,
                 "longitude": 139.5702,
-                "name": "登戸",
-                "nameEn": "Noborito",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Noborito",
+                    "ja": "登戸",
+                    "ko": "노보리토",
+                    "zh-Hans": "登户",
+                    "zh-Hant": "登戶"
+                },
                 "stationCode": "JN14"
             },
             {
                 "id": "Station:JR-East.Nambu.Nakanoshima",
                 "latitude": 35.630115,
                 "longitude": 139.550683,
-                "name": "中野島",
-                "nameEn": "Nakanoshima",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nakanoshima",
+                    "ja": "中野島",
+                    "ko": "나카노시마",
+                    "zh-Hans": "中野岛",
+                    "zh-Hant": "中野島"
+                },
                 "stationCode": "JN15"
             },
             {
                 "id": "Station:JR-East.Nambu.Inadazutsumi",
                 "latitude": 35.633512,
                 "longitude": 139.53547,
-                "name": "稲田堤",
-                "nameEn": "Inadazutsumi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Inadazutsumi",
+                    "ja": "稲田堤",
+                    "ko": "이나다즈쓰미",
+                    "zh-Hans": "稻田堤",
+                    "zh-Hant": "稻田堤"
+                },
                 "stationCode": "JN16"
             },
             {
                 "id": "Station:JR-East.Nambu.Yanokuchi",
                 "latitude": 35.641659,
                 "longitude": 139.520527,
-                "name": "矢野口",
-                "nameEn": "Yanokuchi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Yanokuchi",
+                    "ja": "矢野口",
+                    "ko": "야노쿠치",
+                    "zh-Hans": "矢野口",
+                    "zh-Hant": "矢野口"
+                },
                 "stationCode": "JN17"
             },
             {
                 "id": "Station:JR-East.Nambu.InagiNaganuma",
                 "latitude": 35.644457,
                 "longitude": 139.502202,
-                "name": "稲城長沼",
-                "nameEn": "Inagi-Naganuma",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Inagi-Naganuma",
+                    "ja": "稲城長沼",
+                    "ko": "이나기나가누마",
+                    "zh-Hans": "稻城长沼",
+                    "zh-Hant": "稻城長沼"
+                },
                 "stationCode": "JN18"
             },
             {
                 "id": "Station:JR-East.Nambu.MinamiTama",
                 "latitude": 35.649281,
                 "longitude": 139.489898,
-                "name": "南多摩",
-                "nameEn": "Minami-Tama",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Minami-Tama",
+                    "ja": "南多摩",
+                    "ko": "미나미타마",
+                    "zh-Hans": "南多摩",
+                    "zh-Hant": "南多摩"
+                },
                 "stationCode": "JN19"
             },
             {
                 "id": "Station:JR-East.Nambu.FuchuHommachi",
                 "latitude": 35.666105,
                 "longitude": 139.477104,
-                "name": "府中本町",
-                "nameEn": "Fuchu-Hommachi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Fuchu-Hommachi",
+                    "ja": "府中本町",
+                    "ko": "후추혼마치",
+                    "zh-Hans": "府中本町",
+                    "zh-Hant": "府中本町"
+                },
                 "stationCode": "JN20"
             },
             {
                 "id": "Station:JR-East.Nambu.Bubaigawara",
                 "latitude": 35.668447,
                 "longitude": 139.468995,
-                "name": "分倍河原",
-                "nameEn": "Bubaigawara",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Bubaigawara",
+                    "ja": "分倍河原",
+                    "ko": "부바이가와라",
+                    "zh-Hans": "分倍河原",
+                    "zh-Hant": "分倍河原"
+                },
                 "stationCode": "JN21"
             },
             {
                 "id": "Station:JR-East.Nambu.Nishifu",
                 "latitude": 35.6722,
                 "longitude": 139.4578,
-                "name": "西府",
-                "nameEn": "Nishifu",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nishifu",
+                    "ja": "西府",
+                    "ko": "니시후",
+                    "zh-Hans": "西府",
+                    "zh-Hant": "西府"
+                },
                 "stationCode": "JN22"
             },
             {
                 "id": "Station:JR-East.Nambu.Yaho",
                 "latitude": 35.681353,
                 "longitude": 139.446875,
-                "name": "谷保",
-                "nameEn": "Yaho",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Yaho",
+                    "ja": "谷保",
+                    "ko": "야호",
+                    "zh-Hans": "谷保",
+                    "zh-Hant": "谷保"
+                },
                 "stationCode": "JN23"
             },
             {
                 "id": "Station:JR-East.Nambu.Yagawa",
                 "latitude": 35.685092,
                 "longitude": 139.4315,
-                "name": "矢川",
-                "nameEn": "Yagawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Yagawa",
+                    "ja": "矢川",
+                    "ko": "야가와",
+                    "zh-Hans": "矢川",
+                    "zh-Hant": "矢川"
+                },
                 "stationCode": "JN24"
             },
             {
                 "id": "Station:JR-East.Nambu.NishiKunitachi",
                 "latitude": 35.6932,
                 "longitude": 139.4228,
-                "name": "西国立",
-                "nameEn": "Nishi-Kunitachi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nishi-Kunitachi",
+                    "ja": "西国立",
+                    "ko": "니시쿠니타치",
+                    "zh-Hans": "西国立",
+                    "zh-Hant": "西國立"
+                },
                 "stationCode": "JN25"
             },
             {
                 "id": "Station:JR-East.Nambu.Tachikawa",
                 "latitude": 35.698,
                 "longitude": 139.4139,
-                "name": "立川",
-                "nameEn": "Tachikawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tachikawa",
+                    "ja": "立川",
+                    "ko": "다치카와",
+                    "zh-Hans": "立川",
+                    "zh-Hant": "立川"
+                },
                 "stationCode": "JN26"
             }
         ],

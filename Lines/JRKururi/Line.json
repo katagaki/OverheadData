@@ -2,10 +2,14 @@
     {
         "colorHex": "#00C3A7",
         "delayInfo": {
-            "checkMethodEn": "Check the JR East Train Operation Information page or the JR East app. In the Tokyo area, delays or suspensions of 15 minutes or more are posted.",
-            "checkMethodJa": "JR東日本「列車運行情報」ページまたはJR東日本アプリで確認できます。首都圏エリアでは15分以上の遅れ・運休が発生または見込まれる場合に掲載されます。",
-            "statusPageURL": "https://traininfo.jreast.co.jp/train_info/line.aspx?gid=1&lineid=kururiline",
-            "statusPageURLEn": "https://traininfo.jreast.co.jp/train_info/e/kanto.aspx",
+            "checkMethod": {
+                "en": "Check the JR East Train Operation Information page or the JR East app. In the Tokyo area, delays or suspensions of 15 minutes or more are posted.",
+                "ja": "JR東日本「列車運行情報」ページまたはJR東日本アプリで確認できます。首都圏エリアでは15分以上の遅れ・運休が発生または見込まれる場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://traininfo.jreast.co.jp/train_info/e/kanto.aspx",
+                "ja": "https://traininfo.jreast.co.jp/train_info/line.aspx?gid=1&lineid=kururiline"
+            },
             "xAccount": "@JRE_F_Sobu"
         },
         "directions": [
@@ -15,61 +19,63 @@
                 "id": "static.RailDirection:JR-East.Kururi.KazusaKameyama",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Kazusa-Kameyama",
-                "nameJa": "上総亀山方面",
+                "name": {
+                    "en": "For Kazusa-Kameyama",
+                    "ja": "上総亀山方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
                             "from": "06:25",
-                            "headwayMinutes": 60.0
+                            "headwayMinutes": 60
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 55.0
+                            "headwayMinutes": 55
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 56.0
+                            "headwayMinutes": 56
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 115.0
+                            "headwayMinutes": 115
                         },
                         {
                             "from": "11:00",
-                            "headwayMinutes": 55.0
+                            "headwayMinutes": 55
                         },
                         {
                             "from": "13:00",
-                            "headwayMinutes": 59.0
+                            "headwayMinutes": 59
                         },
                         {
                             "from": "14:00",
-                            "headwayMinutes": 60.0
+                            "headwayMinutes": 60
                         },
                         {
                             "from": "15:00",
-                            "headwayMinutes": 55.0
+                            "headwayMinutes": 55
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 59.0
+                            "headwayMinutes": 59
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 64.0
+                            "headwayMinutes": 64
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 57.0
+                            "headwayMinutes": 57
                         },
                         {
                             "from": "20:00",
-                            "headwayMinutes": 59.0
+                            "headwayMinutes": 59
                         },
                         {
                             "from": "21:00",
-                            "headwayMinutes": 49.0
+                            "headwayMinutes": 49
                         }
                     ],
                     "firstDeparture": "06:25",
@@ -80,55 +86,55 @@
                     "bands": [
                         {
                             "from": "06:25",
-                            "headwayMinutes": 60.0
+                            "headwayMinutes": 60
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 55.0
+                            "headwayMinutes": 55
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 56.0
+                            "headwayMinutes": 56
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 115.0
+                            "headwayMinutes": 115
                         },
                         {
                             "from": "11:00",
-                            "headwayMinutes": 55.0
+                            "headwayMinutes": 55
                         },
                         {
                             "from": "13:00",
-                            "headwayMinutes": 59.0
+                            "headwayMinutes": 59
                         },
                         {
                             "from": "14:00",
-                            "headwayMinutes": 60.0
+                            "headwayMinutes": 60
                         },
                         {
                             "from": "15:00",
-                            "headwayMinutes": 55.0
+                            "headwayMinutes": 55
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 59.0
+                            "headwayMinutes": 59
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 64.0
+                            "headwayMinutes": 64
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 57.0
+                            "headwayMinutes": 57
                         },
                         {
                             "from": "20:00",
-                            "headwayMinutes": 59.0
+                            "headwayMinutes": 59
                         },
                         {
                             "from": "21:00",
-                            "headwayMinutes": 49.0
+                            "headwayMinutes": 49
                         }
                     ],
                     "firstDeparture": "06:25",
@@ -142,8 +148,10 @@
                 "id": "static.RailDirection:JR-East.Kururi.Kisarazu",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Kisarazu",
-                "nameJa": "木更津方面",
+                "name": {
+                    "en": "For Kisarazu",
+                    "ja": "木更津方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -152,27 +160,27 @@
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 55.0
+                            "headwayMinutes": 55
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 339.0
+                            "headwayMinutes": 339
                         },
                         {
                             "from": "14:00",
-                            "headwayMinutes": 168.0
+                            "headwayMinutes": 168
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 59.0
+                            "headwayMinutes": 59
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 67.0
+                            "headwayMinutes": 67
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 113.0
+                            "headwayMinutes": 113
                         }
                     ],
                     "firstDeparture": "06:00",
@@ -187,27 +195,27 @@
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 55.0
+                            "headwayMinutes": 55
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 339.0
+                            "headwayMinutes": 339
                         },
                         {
                             "from": "14:00",
-                            "headwayMinutes": 168.0
+                            "headwayMinutes": 168
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 59.0
+                            "headwayMinutes": 59
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 67.0
+                            "headwayMinutes": 67
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 113.0
+                            "headwayMinutes": 113
                         }
                     ],
                     "firstDeparture": "06:00",
@@ -216,11 +224,16 @@
                 }
             }
         ],
-        "hopTimesMinutes": [4.0, 4.0, 3.0, 9.0, 3.0, 5.0, 3.0, 5.0, 3.0, 6.0, 6.0, 5.0, 7.0],
+        "hopTimesMinutes": [4, 4, 3, 9, 3, 5, 3, 5, 3, 6, 6, 5, 7],
         "id": "Railway:JR-East.Kururi",
         "isLoop": false,
-        "nameEn": "Kururi Line",
-        "nameJa": "久留里線",
+        "name": {
+            "en": "Kururi Line",
+            "ja": "久留里線",
+            "ko": "구루리선",
+            "zh-Hans": "久留里线",
+            "zh-Hant": "久留里線"
+        },
         "operatorId": "Operator:JR-East",
         "segment": "DokoTrain",
         "stations": [
@@ -228,154 +241,182 @@
                 "id": "Station:JR-East.Kururi.Kisarazu",
                 "latitude": 35.38162,
                 "longitude": 139.92613,
-                "name": "木更津",
-                "nameEn": "Kisarazu",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kisarazu",
+                    "ja": "木更津",
+                    "ko": "기사라즈",
+                    "zh-Hans": "木更津",
+                    "zh-Hant": "木更津"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Kururi.Gion",
                 "latitude": 35.39162,
                 "longitude": 139.94838,
-                "name": "祇園",
-                "nameEn": "Gion",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Gion",
+                    "ja": "祇園",
+                    "ko": "기온",
+                    "zh-Hans": "祇园",
+                    "zh-Hant": "祇園"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Kururi.KazusaKiyokawa",
                 "latitude": 35.39084,
                 "longitude": 139.96564,
-                "name": "上総清川",
-                "nameEn": "Kazusa-Kiyokawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kazusa-Kiyokawa",
+                    "ja": "上総清川",
+                    "ko": "가즈사키요카와",
+                    "zh-Hans": "上总清川",
+                    "zh-Hant": "上總清川"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Kururi.HigashiKiyokawa",
                 "latitude": 35.39,
                 "longitude": 139.9859,
-                "name": "東清川",
-                "nameEn": "Higashi-Kiyokawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Higashi-Kiyokawa",
+                    "ja": "東清川",
+                    "ko": "히가시키요카와",
+                    "zh-Hans": "东清川",
+                    "zh-Hant": "東清川"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Kururi.Yokota",
                 "latitude": 35.3862,
                 "longitude": 140.02013,
-                "name": "横田",
-                "nameEn": "Yokota",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Yokota",
+                    "ja": "横田",
+                    "ko": "요코타",
+                    "zh-Hans": "横田",
+                    "zh-Hant": "橫田"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Kururi.HigashiYokota",
                 "latitude": 35.38616,
                 "longitude": 140.03594,
-                "name": "東横田",
-                "nameEn": "Higashi-Yokota",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Higashi-Yokota",
+                    "ja": "東横田",
+                    "ko": "히가시요코타",
+                    "zh-Hans": "东横田",
+                    "zh-Hant": "東橫田"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Kururi.Makuta",
                 "latitude": 35.36682,
                 "longitude": 140.05852,
-                "name": "馬来田",
-                "nameEn": "Makuta",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Makuta",
+                    "ja": "馬来田",
+                    "ko": "마쿠타",
+                    "zh-Hans": "马来田",
+                    "zh-Hant": "馬來田"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Kururi.Shimogori",
                 "latitude": 35.35499,
                 "longitude": 140.05541,
-                "name": "下郡",
-                "nameEn": "Shimogori",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shimogori",
+                    "ja": "下郡",
+                    "ko": "시모고리",
+                    "zh-Hans": "下郡",
+                    "zh-Hant": "下郡"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Kururi.Obitsu",
                 "latitude": 35.32824,
                 "longitude": 140.05978,
-                "name": "小櫃",
-                "nameEn": "Obitsu",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Obitsu",
+                    "ja": "小櫃",
+                    "ko": "오비쓰",
+                    "zh-Hans": "小柜",
+                    "zh-Hant": "小櫃"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Kururi.Tawarada",
                 "latitude": 35.31462,
                 "longitude": 140.06142,
-                "name": "俵田",
-                "nameEn": "Tawarada",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tawarada",
+                    "ja": "俵田",
+                    "ko": "다와라다",
+                    "zh-Hans": "俵田",
+                    "zh-Hant": "俵田"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Kururi.Kururi",
                 "latitude": 35.2958,
                 "longitude": 140.0756,
-                "name": "久留里",
-                "nameEn": "Kururi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kururi",
+                    "ja": "久留里",
+                    "ko": "구루리",
+                    "zh-Hans": "久留里",
+                    "zh-Hant": "久留裏"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Kururi.Hirayama",
                 "latitude": 35.2743,
                 "longitude": 140.06466,
-                "name": "平山",
-                "nameEn": "Hirayama",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Hirayama",
+                    "ja": "平山",
+                    "ko": "히라야마",
+                    "zh-Hans": "平山",
+                    "zh-Hant": "平山"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Kururi.KazusaMatsuoka",
                 "latitude": 35.2582,
                 "longitude": 140.06403,
-                "name": "上総松丘",
-                "nameEn": "Kazusa-Matsuoka",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kazusa-Matsuoka",
+                    "ja": "上総松丘",
+                    "ko": "가즈사마쓰오카",
+                    "zh-Hans": "上總松丘",
+                    "zh-Hant": "上總松丘"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Kururi.KazusaKameyama",
                 "latitude": 35.23318,
                 "longitude": 140.0895,
-                "name": "上総亀山",
-                "nameEn": "Kazusa-Kameyama",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kazusa-Kameyama",
+                    "ja": "上総亀山",
+                    "ko": "가즈사카메야마",
+                    "zh-Hans": "上总龟山",
+                    "zh-Hant": "上總龜山"
+                },
                 "stationCode": ""
             }
         ],
@@ -1103,6 +1144,6 @@
                 "type": "Local"
             }
         ],
-        "upHopTimesMinutes": [5.0, 4.0, 4.0, 5.0, 5.0, 5.0, 3.0, 5.0, 3.0, 5.0, 6.0, 5.0, 7.0]
+        "upHopTimesMinutes": [5, 4, 4, 5, 5, 5, 3, 5, 3, 5, 6, 5, 7]
     }
 ]

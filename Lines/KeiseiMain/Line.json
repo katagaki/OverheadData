@@ -2,10 +2,14 @@
     {
         "colorHex": "#005AAA",
         "delayInfo": {
-            "checkMethodEn": "Check the Keisei train information page, the Keisei app, or X (@keiseirailway). Delays and suspensions are posted as they occur.",
-            "checkMethodJa": "京成電鉄「運行情報」ページ、京成アプリ、またはX（@keiseirailway）で確認できます。遅延・運転見合わせが発生した場合に掲載されます。",
-            "statusPageURL": "https://www.keisei.co.jp/traininfo/index.php",
-            "statusPageURLEn": "https://www.keisei.co.jp/traininfo/index.php",
+            "checkMethod": {
+                "en": "Check the Keisei train information page, the Keisei app, or X (@keiseirailway). Delays and suspensions are posted as they occur.",
+                "ja": "京成電鉄「運行情報」ページ、京成アプリ、またはX（@keiseirailway）で確認できます。遅延・運転見合わせが発生した場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://www.keisei.co.jp/traininfo/index.php",
+                "ja": "https://www.keisei.co.jp/traininfo/index.php"
+            },
             "xAccount": "@keiseirailway"
         },
         "directions": [
@@ -15,8 +19,10 @@
                 "id": "static.RailDirection:Keisei.Main.NaritaAirport",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Narita Airport",
-                "nameJa": "成田空港方面",
+                "name": {
+                    "en": "For Narita Airport",
+                    "ja": "成田空港方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -78,8 +84,10 @@
                 "id": "static.RailDirection:Keisei.Main.KeiseiUeno",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Keisei-Ueno",
-                "nameJa": "京成上野方面",
+                "name": {
+                    "en": "For Keisei-Ueno",
+                    "ja": "京成上野方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -139,470 +147,559 @@
         "hopTimesMinutes": [4, 3, 1, 2, 2, 2, 2, 3, 2, 2, 2, 2, 1, 2, 2, 2, 1, 1, 2, 2, 2, 2, 1, 2, 2, 3, 2, 3, 2, 2, 2, 2, 3, 4, 3, 3, 2, 2, 3, 8, 2],
         "id": "Railway:Keisei.Main",
         "isLoop": false,
-        "nameEn": "Keisei Main Line",
-        "nameJa": "京成本線",
+        "name": {
+            "en": "Keisei Main Line",
+            "ja": "京成本線",
+            "ko": "게이세이 전철 본선",
+            "zh-Hans": "京成本线",
+            "zh-Hant": "京成本線"
+        },
         "operatorId": "Operator:Keisei",
         "stations": [
             {
                 "id": "Station:Keisei.Main.KeiseiUeno",
                 "latitude": 35.7113,
                 "longitude": 139.7742,
-                "name": "京成上野",
-                "nameEn": "Keisei-Ueno",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Keisei-Ueno",
+                    "ja": "京成上野",
+                    "ko": "게이세이우에노",
+                    "zh-Hans": "京成上野",
+                    "zh-Hant": "京成上野"
+                },
                 "stationCode": "KS01"
             },
             {
                 "id": "Station:Keisei.Main.Nippori",
                 "latitude": 35.728,
                 "longitude": 139.771,
-                "name": "日暮里",
-                "nameEn": "Nippori",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nippori",
+                    "ja": "日暮里",
+                    "ko": "닛포리",
+                    "zh-Hans": "日暮里",
+                    "zh-Hant": "日暮里"
+                },
                 "stationCode": "KS02"
             },
             {
                 "id": "Station:Keisei.Main.ShinMikawashima",
                 "latitude": 35.737205,
                 "longitude": 139.773946,
-                "name": "新三河島",
-                "nameEn": "Shin-Mikawashima",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shin-Mikawashima",
+                    "ja": "新三河島",
+                    "ko": "신미카와시마",
+                    "zh-Hans": "新三河岛",
+                    "zh-Hant": "新三河島"
+                },
                 "stationCode": "KS03"
             },
             {
                 "id": "Station:Keisei.Main.Machiya",
                 "latitude": 35.7424,
                 "longitude": 139.7812,
-                "name": "町屋",
-                "nameEn": "Machiya",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Machiya",
+                    "ja": "町屋",
+                    "ko": "마치야",
+                    "zh-Hans": "町屋",
+                    "zh-Hant": "町屋"
+                },
                 "stationCode": "KS04"
             },
             {
                 "id": "Station:Keisei.Main.SenjuOhashi",
                 "latitude": 35.742423,
                 "longitude": 139.79682,
-                "name": "千住大橋",
-                "nameEn": "Senju-Ohashi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Senju-Ohashi",
+                    "ja": "千住大橋",
+                    "ko": "센주오하시",
+                    "zh-Hans": "住大桥",
+                    "zh-Hant": "住大橋"
+                },
                 "stationCode": "KS05"
             },
             {
                 "id": "Station:Keisei.Main.KeiseiSekiya",
                 "latitude": 35.743995,
                 "longitude": 139.811776,
-                "name": "京成関屋",
-                "nameEn": "Keisei-Sekiya",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Keisei-Sekiya",
+                    "ja": "京成関屋",
+                    "ko": "게이세이세키야",
+                    "zh-Hans": "京成关屋",
+                    "zh-Hant": "京成關屋"
+                },
                 "stationCode": "KS06"
             },
             {
                 "id": "Station:Keisei.Main.HorikiriShobuen",
                 "latitude": 35.747675,
                 "longitude": 139.827483,
-                "name": "堀切菖蒲園",
-                "nameEn": "Horikiri-Shobuen",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Horikiri-Shobuen",
+                    "ja": "堀切菖蒲園",
+                    "ko": "호리키리쇼부엔",
+                    "zh-Hans": "堀切菖蒲园",
+                    "zh-Hant": "堀切菖蒲園"
+                },
                 "stationCode": "KS07"
             },
             {
                 "id": "Station:Keisei.Main.Ohanajaya",
                 "latitude": 35.747589,
                 "longitude": 139.840145,
-                "name": "お花茶屋",
-                "nameEn": "Ohanajaya",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ohanajaya",
+                    "ja": "お花茶屋",
+                    "ko": "오하나자야",
+                    "zh-Hans": "御花茶屋",
+                    "zh-Hant": "御花茶屋"
+                },
                 "stationCode": "KS08"
             },
             {
                 "id": "Station:Keisei.Main.Aoto",
                 "latitude": 35.7448,
                 "longitude": 139.8552,
-                "name": "青砥",
-                "nameEn": "Aoto",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Aoto",
+                    "ja": "青砥",
+                    "ko": "아오토",
+                    "zh-Hans": "青砥",
+                    "zh-Hant": "青砥"
+                },
                 "stationCode": "KS09"
             },
             {
                 "id": "Station:Keisei.Main.KeiseiTakasago",
                 "latitude": 35.75094,
                 "longitude": 139.867122,
-                "name": "京成高砂",
-                "nameEn": "Keisei-Takasago",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Keisei-Takasago",
+                    "ja": "京成高砂",
+                    "ko": "게이세이 다카사고",
+                    "zh-Hans": "京成高砂",
+                    "zh-Hant": "京成高砂"
+                },
                 "stationCode": "KS10"
             },
             {
                 "id": "Station:Keisei.Main.KeiseiKoiwa",
                 "latitude": 35.74242,
                 "longitude": 139.883352,
-                "name": "京成小岩",
-                "nameEn": "Keisei-Koiwa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Keisei-Koiwa",
+                    "ja": "京成小岩",
+                    "ko": "게이세이코이와",
+                    "zh-Hans": "京成小岩",
+                    "zh-Hant": "京成小巖"
+                },
                 "stationCode": "KS11"
             },
             {
                 "id": "Station:Keisei.Main.Edogawa",
                 "latitude": 35.737755,
                 "longitude": 139.895878,
-                "name": "江戸川",
-                "nameEn": "Edogawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Edogawa",
+                    "ja": "江戸川",
+                    "ko": "에도가와",
+                    "zh-Hans": "江户川",
+                    "zh-Hant": "江戶川"
+                },
                 "stationCode": "KS12"
             },
             {
                 "id": "Station:Keisei.Main.Konodai",
                 "latitude": 35.736422,
                 "longitude": 139.902507,
-                "name": "国府台",
-                "nameEn": "Konodai",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Konodai",
+                    "ja": "国府台",
+                    "ko": "고노다이",
+                    "zh-Hans": "國府台",
+                    "zh-Hant": "國府臺"
+                },
                 "stationCode": "KS13"
             },
             {
                 "id": "Station:Keisei.Main.Ichikawamama",
                 "latitude": 35.731398,
                 "longitude": 139.911563,
-                "name": "市川真間",
-                "nameEn": "Ichikawamama",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ichikawamama",
+                    "ja": "市川真間",
+                    "ko": "이치카와마마",
+                    "zh-Hans": "市川真间",
+                    "zh-Hant": "市川真間"
+                },
                 "stationCode": "KS14"
             },
             {
                 "id": "Station:Keisei.Main.Sugano",
                 "latitude": 35.7288,
                 "longitude": 139.9208,
-                "name": "菅野",
-                "nameEn": "Sugano",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Sugano",
+                    "ja": "菅野",
+                    "ko": "스가노",
+                    "zh-Hans": "菅野",
+                    "zh-Hant": "菅野"
+                },
                 "stationCode": "KS15"
             },
             {
                 "id": "Station:Keisei.Main.KeiseiYawata",
                 "latitude": 35.7228,
                 "longitude": 139.9278,
-                "name": "京成八幡",
-                "nameEn": "Keisei-Yawata",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Keisei-Yawata",
+                    "ja": "京成八幡",
+                    "ko": "게이세이야와타",
+                    "zh-Hans": "京成八幡",
+                    "zh-Hant": "京成八幡"
+                },
                 "stationCode": "KS16"
             },
             {
                 "id": "Station:Keisei.Main.Onigoe",
                 "latitude": 35.719956,
                 "longitude": 139.937558,
-                "name": "鬼越",
-                "nameEn": "Onigoe",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Onigoe",
+                    "ja": "鬼越",
+                    "ko": "오니고에",
+                    "zh-Hans": "鬼越",
+                    "zh-Hant": "鬼越"
+                },
                 "stationCode": "KS17"
             },
             {
                 "id": "Station:Keisei.Main.KeiseiNakayama",
                 "latitude": 35.7178,
                 "longitude": 139.9438,
-                "name": "京成中山",
-                "nameEn": "Keisei-Nakayama",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Keisei-Nakayama",
+                    "ja": "京成中山",
+                    "ko": "게이세이나카야마",
+                    "zh-Hans": "京成中山",
+                    "zh-Hant": "京成中山"
+                },
                 "stationCode": "KS18"
             },
             {
                 "id": "Station:Keisei.Main.HigashiNakayama",
                 "latitude": 35.714473,
                 "longitude": 139.952596,
-                "name": "東中山",
-                "nameEn": "Higashi-Nakayama",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Higashi-Nakayama",
+                    "ja": "東中山",
+                    "ko": "히가시나카야마",
+                    "zh-Hans": "东中山",
+                    "zh-Hant": "東中山"
+                },
                 "stationCode": "KS19"
             },
             {
                 "id": "Station:Keisei.Main.KeiseiNishifuna",
                 "latitude": 35.711653,
                 "longitude": 139.958983,
-                "name": "京成西船",
-                "nameEn": "Keisei-Nishifuna",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Keisei-Nishifuna",
+                    "ja": "京成西船",
+                    "ko": "게이세이니시후나",
+                    "zh-Hans": "京成西船",
+                    "zh-Hant": "京成西船"
+                },
                 "stationCode": "KS20"
             },
             {
                 "id": "Station:Keisei.Main.Kaijin",
                 "latitude": 35.705761,
                 "longitude": 139.972098,
-                "name": "海神",
-                "nameEn": "Kaijin",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kaijin",
+                    "ja": "海神",
+                    "ko": "가이진",
+                    "zh-Hans": "海神",
+                    "zh-Hant": "海神"
+                },
                 "stationCode": "KS21"
             },
             {
                 "id": "Station:Keisei.Main.KeiseiFunabashi",
                 "latitude": 35.7008,
                 "longitude": 139.9848,
-                "name": "京成船橋",
-                "nameEn": "Keisei-Funabashi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Keisei-Funabashi",
+                    "ja": "京成船橋",
+                    "ko": "게이세이후나바시",
+                    "zh-Hans": "京成船桥",
+                    "zh-Hant": "京成船橋"
+                },
                 "stationCode": "KS22"
             },
             {
                 "id": "Station:Keisei.Main.Daijingushita",
                 "latitude": 35.694291,
                 "longitude": 139.991252,
-                "name": "大神宮下",
-                "nameEn": "Daijingushita",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Daijingushita",
+                    "ja": "大神宮下",
+                    "ko": "다이진구시타",
+                    "zh-Hans": "大神宫下",
+                    "zh-Hant": "大神宮下"
+                },
                 "stationCode": "KS23"
             },
             {
                 "id": "Station:Keisei.Main.Funabashikeibajo",
                 "latitude": 35.689794,
                 "longitude": 139.997939,
-                "name": "船橋競馬場",
-                "nameEn": "Funabashikeibajo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Funabashikeibajo",
+                    "ja": "船橋競馬場",
+                    "ko": "후나바시케이바조",
+                    "zh-Hans": "船桥竞马场",
+                    "zh-Hant": "船橋競馬場"
+                },
                 "stationCode": "KS24"
             },
             {
                 "id": "Station:Keisei.Main.Yatsu",
                 "latitude": 35.685295,
                 "longitude": 140.007569,
-                "name": "谷津",
-                "nameEn": "Yatsu",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Yatsu",
+                    "ja": "谷津",
+                    "ko": "야쓰",
+                    "zh-Hans": "谷津",
+                    "zh-Hant": "谷津"
+                },
                 "stationCode": "KS25"
             },
             {
                 "id": "Station:Keisei.Main.KeiseiTsudanuma",
                 "latitude": 35.6828,
                 "longitude": 140.0248,
-                "name": "京成津田沼",
-                "nameEn": "Keisei-Tsudanuma",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Keisei-Tsudanuma",
+                    "ja": "京成津田沼",
+                    "ko": "게이세이쓰다누마",
+                    "zh-Hans": "京成津田沼",
+                    "zh-Hant": "京成津田沼"
+                },
                 "stationCode": "KS26"
             },
             {
                 "id": "Station:Keisei.Main.KeiseiOkubo",
                 "latitude": 35.685951,
                 "longitude": 140.048186,
-                "name": "京成大久保",
-                "nameEn": "Keisei-Okubo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Keisei-Okubo",
+                    "ja": "京成大久保",
+                    "ko": "게이세이오쿠보",
+                    "zh-Hans": "京成大久保",
+                    "zh-Hant": "京成大久保"
+                },
                 "stationCode": "KS27"
             },
             {
                 "id": "Station:Keisei.Main.Mimomi",
                 "latitude": 35.686907,
                 "longitude": 140.068424,
-                "name": "実籾",
-                "nameEn": "Mimomi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Mimomi",
+                    "ja": "実籾",
+                    "ko": "미모미",
+                    "zh-Hans": "实籾",
+                    "zh-Hant": "實籾"
+                },
                 "stationCode": "KS28"
             },
             {
                 "id": "Station:Keisei.Main.Yachiyodai",
                 "latitude": 35.701265,
                 "longitude": 140.090618,
-                "name": "八千代台",
-                "nameEn": "Yachiyodai",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Yachiyodai",
+                    "ja": "八千代台",
+                    "ko": "야치요다이",
+                    "zh-Hans": "八千代台",
+                    "zh-Hant": "八千代台"
+                },
                 "stationCode": "KS29"
             },
             {
                 "id": "Station:Keisei.Main.KeiseiOwada",
                 "latitude": 35.712074,
                 "longitude": 140.107946,
-                "name": "京成大和田",
-                "nameEn": "Keisei-Owada",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Keisei-Owada",
+                    "ja": "京成大和田",
+                    "ko": "게이세이오와다",
+                    "zh-Hans": "京成大和田",
+                    "zh-Hant": "京成大和田"
+                },
                 "stationCode": "KS30"
             },
             {
                 "id": "Station:Keisei.Main.Katsutadai",
                 "latitude": 35.715463,
                 "longitude": 140.126045,
-                "name": "勝田台",
-                "nameEn": "Katsutadai",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Katsutadai",
+                    "ja": "勝田台",
+                    "ko": "가쓰타다이",
+                    "zh-Hans": "勝田台",
+                    "zh-Hant": "勝田台"
+                },
                 "stationCode": "KS31"
             },
             {
                 "id": "Station:Keisei.Main.Shizu",
                 "latitude": 35.717457,
                 "longitude": 140.144974,
-                "name": "志津",
-                "nameEn": "Shizu",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shizu",
+                    "ja": "志津",
+                    "ko": "시즈",
+                    "zh-Hans": "志津",
+                    "zh-Hant": "志津"
+                },
                 "stationCode": "KS32"
             },
             {
                 "id": "Station:Keisei.Main.Yukarigaoka",
                 "latitude": 35.721731,
                 "longitude": 140.156376,
-                "name": "ユーカリが丘",
-                "nameEn": "Yukarigaoka",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Yukarigaoka",
+                    "ja": "ユーカリが丘",
+                    "ko": "유카리가오카",
+                    "zh-Hans": "尤加利丘",
+                    "zh-Hant": "尤加利丘"
+                },
                 "stationCode": "KS33"
             },
             {
                 "id": "Station:Keisei.Main.KeiseiUsui",
                 "latitude": 35.729918,
                 "longitude": 140.180805,
-                "name": "京成臼井",
-                "nameEn": "Keisei-Usui",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Keisei-Usui",
+                    "ja": "京成臼井",
+                    "ko": "게이세이우스이",
+                    "zh-Hans": "京成臼井",
+                    "zh-Hant": "京成臼井"
+                },
                 "stationCode": "KS34"
             },
             {
                 "id": "Station:Keisei.Main.KeiseiSakura",
                 "latitude": 35.725189,
                 "longitude": 140.229724,
-                "name": "京成佐倉",
-                "nameEn": "Keisei-Sakura",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Keisei-Sakura",
+                    "ja": "京成佐倉",
+                    "ko": "게이세이사쿠라",
+                    "zh-Hans": "京成佐倉",
+                    "zh-Hant": "京成佐倉"
+                },
                 "stationCode": "KS35"
             },
             {
                 "id": "Station:Keisei.Main.Osakura",
                 "latitude": 35.730138,
                 "longitude": 140.251063,
-                "name": "大佐倉",
-                "nameEn": "Osakura",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Osakura",
+                    "ja": "大佐倉",
+                    "ko": "오사쿠라",
+                    "zh-Hans": "大佐仓",
+                    "zh-Hant": "大佐倉"
+                },
                 "stationCode": "KS36"
             },
             {
                 "id": "Station:Keisei.Main.KeiseiShisui",
                 "latitude": 35.736799,
                 "longitude": 140.270049,
-                "name": "京成酒々井",
-                "nameEn": "Keisei-Shisui",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Keisei-Shisui",
+                    "ja": "京成酒々井",
+                    "ko": "게이세이시스이",
+                    "zh-Hans": "京成酒酒井",
+                    "zh-Hant": "京成酒酒井"
+                },
                 "stationCode": "KS37"
             },
             {
                 "id": "Station:Keisei.Main.Sogosando",
                 "latitude": 35.752651,
                 "longitude": 140.281019,
-                "name": "宗吾参道",
-                "nameEn": "Sogosando",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Sogosando",
+                    "ja": "宗吾参道",
+                    "ko": "소고산도",
+                    "zh-Hans": "宗吾参道",
+                    "zh-Hant": "宗吾參道"
+                },
                 "stationCode": "KS38"
             },
             {
                 "id": "Station:Keisei.Main.Kozunomori",
                 "latitude": 35.760481,
                 "longitude": 140.295261,
-                "name": "公津の杜",
-                "nameEn": "Kozunomori",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kozunomori",
+                    "ja": "公津の杜",
+                    "ko": "고즈노모리",
+                    "zh-Hans": "公津之杜",
+                    "zh-Hant": "公津之杜"
+                },
                 "stationCode": "KS39"
             },
             {
                 "id": "Station:Keisei.Main.KeiseiNarita",
                 "latitude": 35.776443,
                 "longitude": 140.315519,
-                "name": "京成成田",
-                "nameEn": "Keisei-Narita",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Keisei-Narita",
+                    "ja": "京成成田",
+                    "ko": "게이세이나리타",
+                    "zh-Hans": "京成成田",
+                    "zh-Hant": "京成成田"
+                },
                 "stationCode": "KS40"
             },
             {
                 "id": "Station:Keisei.Main.AirportTerminal2",
                 "latitude": 35.773197,
                 "longitude": 140.387212,
-                "name": "空港第2ビル",
-                "nameEn": "Narita Airport Terminal 2·3",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Narita Airport Terminal 2·3",
+                    "ja": "空港第2ビル",
+                    "ko": "공항 제2빌딩",
+                    "zh-Hans": "机场第2大楼",
+                    "zh-Hant": "機場第2大樓"
+                },
                 "stationCode": "KS41"
             },
             {
                 "id": "Station:Keisei.Main.NaritaAirport",
                 "latitude": 35.765397,
                 "longitude": 140.38599,
-                "name": "成田空港",
-                "nameEn": "Narita Airport Terminal 1",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Narita Airport Terminal 1",
+                    "ja": "成田空港",
+                    "ko": "나리타 공항",
+                    "zh-Hans": "成田机场",
+                    "zh-Hant": "成田機場"
+                },
                 "stationCode": "KS42"
             }
         ],
@@ -612,28 +709,40 @@
                 "connectingLineId": "Railway:Keisei.Oshiage",
                 "end": "descending",
                 "junctionStationId": "Station:Keisei.Main.Aoto",
-                "lineNameEn": "Keisei Oshiage & Toei Asakusa Lines",
-                "lineNameJa": "京成押上線・都営浅草線",
-                "towardEn": "for Oshiage & Nishi-magome",
-                "towardJa": "押上・西馬込方面"
+                "lineName": {
+                    "en": "Keisei Oshiage & Toei Asakusa Lines",
+                    "ja": "京成押上線・都営浅草線"
+                },
+                "toward": {
+                    "en": "for Oshiage & Nishi-magome",
+                    "ja": "押上・西馬込方面"
+                }
             },
             {
                 "connectingLineId": "Railway:Keisei.NaritaSkyAccess",
                 "end": "ascending",
                 "junctionStationId": "Station:Keisei.Main.KeiseiTakasago",
-                "lineNameEn": "Narita Sky Access Line",
-                "lineNameJa": "成田スカイアクセス線",
-                "towardEn": "for Narita Airport",
-                "towardJa": "成田空港方面"
+                "lineName": {
+                    "en": "Narita Sky Access Line",
+                    "ja": "成田スカイアクセス線"
+                },
+                "toward": {
+                    "en": "for Narita Airport",
+                    "ja": "成田空港方面"
+                }
             },
             {
                 "connectingLineId": "Railway:Keisei.Chiba",
                 "end": "ascending",
                 "junctionStationId": "Station:Keisei.Main.KeiseiTsudanuma",
-                "lineNameEn": "Keisei Chiba Line",
-                "lineNameJa": "京成千葉線",
-                "towardEn": "for Chiba-Chuo",
-                "towardJa": "千葉中央方面"
+                "lineName": {
+                    "en": "Keisei Chiba Line",
+                    "ja": "京成千葉線"
+                },
+                "toward": {
+                    "en": "for Chiba-Chuo",
+                    "ja": "千葉中央方面"
+                }
             }
         ]
     }

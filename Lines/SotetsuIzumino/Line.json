@@ -2,10 +2,14 @@
     {
         "colorHex": "#35519D",
         "delayInfo": {
-            "checkMethodEn": "Check the Sotetsu train status page or the Sotetsu Line app. Delays and suspensions are posted as they occur.",
-            "checkMethodJa": "相模鉄道「運行状況」ページまたは相鉄線アプリで確認できます。遅延・運転見合わせが発生した場合に掲載されます。",
-            "statusPageURL": "https://www.sotetsu.co.jp/train/status/",
-            "statusPageURLEn": "https://www.sotetsu.co.jp/train/status/",
+            "checkMethod": {
+                "en": "Check the Sotetsu train status page or the Sotetsu Line app. Delays and suspensions are posted as they occur.",
+                "ja": "相模鉄道「運行状況」ページまたは相鉄線アプリで確認できます。遅延・運転見合わせが発生した場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://www.sotetsu.co.jp/train/status/",
+                "ja": "https://www.sotetsu.co.jp/train/status/"
+            },
             "xAccount": "@sotetsu_pr"
         },
         "directions": [
@@ -332,8 +336,10 @@
                 "id": "static.RailDirection:Sotetsu.Izumino.Shonandai",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Shonandai",
-                "nameJa": "湘南台方面",
+                "name": {
+                    "en": "For Shonandai",
+                    "ja": "湘南台方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -420,8 +426,10 @@
                         "departure": "06:48",
                         "startsHere": true,
                         "stopIndices": [7, 6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Yokohama",
-                        "throughDestJa": "横浜",
+                        "throughDest": {
+                            "en": "Yokohama",
+                            "ja": "横浜"
+                        },
                         "trainType": "Rapid"
                     },
                     {
@@ -429,8 +437,10 @@
                         "departure": "07:18",
                         "startsHere": true,
                         "stopIndices": [7, 6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Yokohama",
-                        "throughDestJa": "横浜",
+                        "throughDest": {
+                            "en": "Yokohama",
+                            "ja": "横浜"
+                        },
                         "trainType": "Rapid"
                     },
                     {
@@ -438,8 +448,10 @@
                         "departure": "07:48",
                         "startsHere": true,
                         "stopIndices": [7, 6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Yokohama",
-                        "throughDestJa": "横浜",
+                        "throughDest": {
+                            "en": "Yokohama",
+                            "ja": "横浜"
+                        },
                         "trainType": "Rapid"
                     },
                     {
@@ -447,8 +459,10 @@
                         "departure": "08:33",
                         "startsHere": true,
                         "stopIndices": [7, 4, 0],
-                        "throughDestEn": "Kawagoeshi",
-                        "throughDestJa": "川越市",
+                        "throughDest": {
+                            "en": "Kawagoeshi",
+                            "ja": "川越市"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -456,8 +470,10 @@
                         "departure": "09:38",
                         "startsHere": true,
                         "stopIndices": [7, 6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Yokohama",
-                        "throughDestJa": "横浜",
+                        "throughDest": {
+                            "en": "Yokohama",
+                            "ja": "横浜"
+                        },
                         "trainType": "Rapid"
                     },
                     {
@@ -465,8 +481,10 @@
                         "departure": "10:08",
                         "startsHere": true,
                         "stopIndices": [7, 6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Yokohama",
-                        "throughDestJa": "横浜",
+                        "throughDest": {
+                            "en": "Yokohama",
+                            "ja": "横浜"
+                        },
                         "trainType": "Rapid"
                     },
                     {
@@ -474,8 +492,10 @@
                         "departure": "10:38",
                         "startsHere": true,
                         "stopIndices": [7, 6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Yokohama",
-                        "throughDestJa": "横浜",
+                        "throughDest": {
+                            "en": "Yokohama",
+                            "ja": "横浜"
+                        },
                         "trainType": "Rapid"
                     },
                     {
@@ -483,8 +503,10 @@
                         "departure": "13:38",
                         "startsHere": true,
                         "stopIndices": [7, 6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Yokohama",
-                        "throughDestJa": "横浜",
+                        "throughDest": {
+                            "en": "Yokohama",
+                            "ja": "横浜"
+                        },
                         "trainType": "Rapid"
                     },
                     {
@@ -492,8 +514,10 @@
                         "departure": "14:38",
                         "startsHere": true,
                         "stopIndices": [7, 6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Yokohama",
-                        "throughDestJa": "横浜",
+                        "throughDest": {
+                            "en": "Yokohama",
+                            "ja": "横浜"
+                        },
                         "trainType": "Rapid"
                     },
                     {
@@ -501,8 +525,10 @@
                         "departure": "17:28",
                         "startsHere": true,
                         "stopIndices": [7, 6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Yokohama",
-                        "throughDestJa": "横浜",
+                        "throughDest": {
+                            "en": "Yokohama",
+                            "ja": "横浜"
+                        },
                         "trainType": "Rapid"
                     },
                     {
@@ -510,8 +536,10 @@
                         "departure": "18:18",
                         "startsHere": true,
                         "stopIndices": [7, 6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Yokohama",
-                        "throughDestJa": "横浜",
+                        "throughDest": {
+                            "en": "Yokohama",
+                            "ja": "横浜"
+                        },
                         "trainType": "Rapid"
                     },
                     {
@@ -519,8 +547,10 @@
                         "departure": "21:49",
                         "startsHere": true,
                         "stopIndices": [7, 4, 0],
-                        "throughDestEn": "Shibuya",
-                        "throughDestJa": "渋谷",
+                        "throughDest": {
+                            "en": "Shibuya",
+                            "ja": "渋谷"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -528,8 +558,10 @@
                         "departure": "22:17",
                         "startsHere": true,
                         "stopIndices": [7, 6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Yokohama",
-                        "throughDestJa": "横浜",
+                        "throughDest": {
+                            "en": "Yokohama",
+                            "ja": "横浜"
+                        },
                         "trainType": "Rapid"
                     },
                     {
@@ -537,8 +569,10 @@
                         "departure": "22:59",
                         "startsHere": true,
                         "stopIndices": [7, 6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Yokohama",
-                        "throughDestJa": "横浜",
+                        "throughDest": {
+                            "en": "Yokohama",
+                            "ja": "横浜"
+                        },
                         "trainType": "Rapid"
                     }
                 ],
@@ -548,8 +582,10 @@
                         "departure": "06:26",
                         "startsHere": true,
                         "stopIndices": [7, 6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Yokohama",
-                        "throughDestJa": "横浜",
+                        "throughDest": {
+                            "en": "Yokohama",
+                            "ja": "横浜"
+                        },
                         "trainType": "CommuterExpress"
                     },
                     {
@@ -557,8 +593,10 @@
                         "departure": "06:44",
                         "startsHere": true,
                         "stopIndices": [7, 4, 0],
-                        "throughDestEn": "Shinjuku-sanchome",
-                        "throughDestJa": "新宿三丁目",
+                        "throughDest": {
+                            "en": "Shinjuku-sanchome",
+                            "ja": "新宿三丁目"
+                        },
                         "trainType": "CommuterLimitedExpress"
                     },
                     {
@@ -566,8 +604,10 @@
                         "departure": "07:02",
                         "startsHere": true,
                         "stopIndices": [7, 6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Yokohama",
-                        "throughDestJa": "横浜",
+                        "throughDest": {
+                            "en": "Yokohama",
+                            "ja": "横浜"
+                        },
                         "trainType": "CommuterExpress"
                     },
                     {
@@ -575,8 +615,10 @@
                         "departure": "07:12",
                         "startsHere": true,
                         "stopIndices": [7, 4, 0],
-                        "throughDestEn": "Takashimadaira",
-                        "throughDestJa": "高島平",
+                        "throughDest": {
+                            "en": "Takashimadaira",
+                            "ja": "高島平"
+                        },
                         "trainType": "CommuterLimitedExpress"
                     },
                     {
@@ -584,8 +626,10 @@
                         "departure": "07:17",
                         "startsHere": true,
                         "stopIndices": [7, 6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Yokohama",
-                        "throughDestJa": "横浜",
+                        "throughDest": {
+                            "en": "Yokohama",
+                            "ja": "横浜"
+                        },
                         "trainType": "CommuterExpress"
                     },
                     {
@@ -593,8 +637,10 @@
                         "departure": "07:32",
                         "startsHere": true,
                         "stopIndices": [7, 6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Yokohama",
-                        "throughDestJa": "横浜",
+                        "throughDest": {
+                            "en": "Yokohama",
+                            "ja": "横浜"
+                        },
                         "trainType": "CommuterExpress"
                     },
                     {
@@ -602,8 +648,10 @@
                         "departure": "07:47",
                         "startsHere": true,
                         "stopIndices": [7, 6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Yokohama",
-                        "throughDestJa": "横浜",
+                        "throughDest": {
+                            "en": "Yokohama",
+                            "ja": "横浜"
+                        },
                         "trainType": "CommuterExpress"
                     },
                     {
@@ -611,8 +659,10 @@
                         "departure": "08:03",
                         "startsHere": true,
                         "stopIndices": [7, 4, 0],
-                        "throughDestEn": "Shibuya",
-                        "throughDestJa": "渋谷",
+                        "throughDest": {
+                            "en": "Shibuya",
+                            "ja": "渋谷"
+                        },
                         "trainType": "CommuterLimitedExpress"
                     },
                     {
@@ -620,8 +670,10 @@
                         "departure": "08:18",
                         "startsHere": true,
                         "stopIndices": [7, 6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Yokohama",
-                        "throughDestJa": "横浜",
+                        "throughDest": {
+                            "en": "Yokohama",
+                            "ja": "横浜"
+                        },
                         "trainType": "Rapid"
                     },
                     {
@@ -629,8 +681,10 @@
                         "departure": "08:23",
                         "startsHere": true,
                         "stopIndices": [7, 4, 0],
-                        "throughDestEn": "Wakoshi",
-                        "throughDestJa": "和光市",
+                        "throughDest": {
+                            "en": "Wakoshi",
+                            "ja": "和光市"
+                        },
                         "trainType": "CommuterLimitedExpress"
                     },
                     {
@@ -638,8 +692,10 @@
                         "departure": "08:41",
                         "startsHere": true,
                         "stopIndices": [7, 6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Yokohama",
-                        "throughDestJa": "横浜",
+                        "throughDest": {
+                            "en": "Yokohama",
+                            "ja": "横浜"
+                        },
                         "trainType": "Rapid"
                     },
                     {
@@ -647,8 +703,10 @@
                         "departure": "08:51",
                         "startsHere": true,
                         "stopIndices": [7, 4, 0],
-                        "throughDestEn": "Kawagoeshi",
-                        "throughDestJa": "川越市",
+                        "throughDest": {
+                            "en": "Kawagoeshi",
+                            "ja": "川越市"
+                        },
                         "trainType": "CommuterLimitedExpress"
                     },
                     {
@@ -656,8 +714,10 @@
                         "departure": "09:00",
                         "startsHere": true,
                         "stopIndices": [7, 6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Yokohama",
-                        "throughDestJa": "横浜",
+                        "throughDest": {
+                            "en": "Yokohama",
+                            "ja": "横浜"
+                        },
                         "trainType": "Rapid"
                     },
                     {
@@ -665,8 +725,10 @@
                         "departure": "09:58",
                         "startsHere": true,
                         "stopIndices": [7, 6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Yokohama",
-                        "throughDestJa": "横浜",
+                        "throughDest": {
+                            "en": "Yokohama",
+                            "ja": "横浜"
+                        },
                         "trainType": "Rapid"
                     },
                     {
@@ -674,8 +736,10 @@
                         "departure": "10:38",
                         "startsHere": true,
                         "stopIndices": [7, 6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Yokohama",
-                        "throughDestJa": "横浜",
+                        "throughDest": {
+                            "en": "Yokohama",
+                            "ja": "横浜"
+                        },
                         "trainType": "Rapid"
                     },
                     {
@@ -683,8 +747,10 @@
                         "departure": "15:38",
                         "startsHere": true,
                         "stopIndices": [7, 6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Yokohama",
-                        "throughDestJa": "横浜",
+                        "throughDest": {
+                            "en": "Yokohama",
+                            "ja": "横浜"
+                        },
                         "trainType": "Rapid"
                     },
                     {
@@ -692,8 +758,10 @@
                         "departure": "16:08",
                         "startsHere": true,
                         "stopIndices": [7, 6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Yokohama",
-                        "throughDestJa": "横浜",
+                        "throughDest": {
+                            "en": "Yokohama",
+                            "ja": "横浜"
+                        },
                         "trainType": "Rapid"
                     },
                     {
@@ -701,8 +769,10 @@
                         "departure": "17:34",
                         "startsHere": true,
                         "stopIndices": [7, 6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Yokohama",
-                        "throughDestJa": "横浜",
+                        "throughDest": {
+                            "en": "Yokohama",
+                            "ja": "横浜"
+                        },
                         "trainType": "Rapid"
                     },
                     {
@@ -710,8 +780,10 @@
                         "departure": "18:12",
                         "startsHere": true,
                         "stopIndices": [7, 4, 0],
-                        "throughDestEn": "Wakoshi",
-                        "throughDestJa": "和光市",
+                        "throughDest": {
+                            "en": "Wakoshi",
+                            "ja": "和光市"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -719,8 +791,10 @@
                         "departure": "18:13",
                         "startsHere": true,
                         "stopIndices": [7, 6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Yokohama",
-                        "throughDestJa": "横浜",
+                        "throughDest": {
+                            "en": "Yokohama",
+                            "ja": "横浜"
+                        },
                         "trainType": "Rapid"
                     },
                     {
@@ -728,8 +802,10 @@
                         "departure": "18:32",
                         "startsHere": true,
                         "stopIndices": [7, 4, 0],
-                        "throughDestEn": "Shiki",
-                        "throughDestJa": "志木",
+                        "throughDest": {
+                            "en": "Shiki",
+                            "ja": "志木"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -737,8 +813,10 @@
                         "departure": "18:50",
                         "startsHere": true,
                         "stopIndices": [7, 4, 0],
-                        "throughDestEn": "Shinrin-Koen",
-                        "throughDestJa": "森林公園",
+                        "throughDest": {
+                            "en": "Shinrin-Koen",
+                            "ja": "森林公園"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -746,8 +824,10 @@
                         "departure": "18:57",
                         "startsHere": true,
                         "stopIndices": [7, 6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Yokohama",
-                        "throughDestJa": "横浜",
+                        "throughDest": {
+                            "en": "Yokohama",
+                            "ja": "横浜"
+                        },
                         "trainType": "Rapid"
                     },
                     {
@@ -755,8 +835,10 @@
                         "departure": "19:32",
                         "startsHere": true,
                         "stopIndices": [7, 4, 0],
-                        "throughDestEn": "Wakoshi",
-                        "throughDestJa": "和光市",
+                        "throughDest": {
+                            "en": "Wakoshi",
+                            "ja": "和光市"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -764,8 +846,10 @@
                         "departure": "19:43",
                         "startsHere": true,
                         "stopIndices": [7, 6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Yokohama",
-                        "throughDestJa": "横浜",
+                        "throughDest": {
+                            "en": "Yokohama",
+                            "ja": "横浜"
+                        },
                         "trainType": "Rapid"
                     },
                     {
@@ -773,8 +857,10 @@
                         "departure": "19:50",
                         "startsHere": true,
                         "stopIndices": [7, 4, 0],
-                        "throughDestEn": "Shiki",
-                        "throughDestJa": "志木",
+                        "throughDest": {
+                            "en": "Shiki",
+                            "ja": "志木"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -782,8 +868,10 @@
                         "departure": "20:16",
                         "startsHere": true,
                         "stopIndices": [7, 4, 0],
-                        "throughDestEn": "Shinrin-Koen",
-                        "throughDestJa": "森林公園",
+                        "throughDest": {
+                            "en": "Shinrin-Koen",
+                            "ja": "森林公園"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -791,8 +879,10 @@
                         "departure": "20:50",
                         "startsHere": true,
                         "stopIndices": [7, 4, 0],
-                        "throughDestEn": "Wakoshi",
-                        "throughDestJa": "和光市",
+                        "throughDest": {
+                            "en": "Wakoshi",
+                            "ja": "和光市"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -800,8 +890,10 @@
                         "departure": "21:34",
                         "startsHere": true,
                         "stopIndices": [7, 4, 0],
-                        "throughDestEn": "Musashi-Kosugi",
-                        "throughDestJa": "武蔵小杉",
+                        "throughDest": {
+                            "en": "Musashi-Kosugi",
+                            "ja": "武蔵小杉"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -809,8 +901,10 @@
                         "departure": "23:00",
                         "startsHere": true,
                         "stopIndices": [7, 6, 5, 4, 3, 2, 1, 0],
-                        "throughDestEn": "Yokohama",
-                        "throughDestJa": "横浜",
+                        "throughDest": {
+                            "en": "Yokohama",
+                            "ja": "横浜"
+                        },
                         "trainType": "Rapid"
                     }
                 ],
@@ -823,8 +917,10 @@
                     }
                 ],
                 "isAscending": false,
-                "nameEn": "For Futamata-gawa & Yokohama",
-                "nameJa": "二俣川・横浜方面",
+                "name": {
+                    "en": "For Futamata-gawa & Yokohama",
+                    "ja": "二俣川・横浜方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -904,96 +1000,117 @@
         "hopTimesMinutes": [2, 2, 3, 2, 3, 2, 3],
         "id": "Railway:Sotetsu.Izumino",
         "isLoop": false,
-        "nameEn": "Sotetsu Izumino Line",
-        "nameJa": "相鉄いずみ野線",
+        "name": {
+            "en": "Sotetsu Izumino Line",
+            "ja": "相鉄いずみ野線",
+            "ko": "소테쓰 이즈미노선",
+            "zh-Hans": "泉野线",
+            "zh-Hant": "泉野線"
+        },
         "operatorId": "Operator:Sotetsu",
         "stations": [
             {
                 "id": "Station:Sotetsu.Izumino.Futamatagawa",
                 "latitude": 35.46338,
                 "longitude": 139.53232,
-                "name": "二俣川",
-                "nameEn": "Futamata-gawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Futamata-gawa",
+                    "ja": "二俣川",
+                    "ko": "후타마타가와",
+                    "zh-Hans": "二俣川",
+                    "zh-Hant": "二俁川"
+                },
                 "stationCode": "SO10"
             },
             {
                 "id": "Station:Sotetsu.Izumino.MinamiMakigahara",
                 "latitude": 35.45234,
                 "longitude": 139.52636,
-                "name": "南万騎が原",
-                "nameEn": "Minami-makigahara",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Minami-makigahara",
+                    "ja": "南万騎が原",
+                    "ko": "미나미마키가하라",
+                    "zh-Hans": "南万骑原",
+                    "zh-Hant": "南萬騎原"
+                },
                 "stationCode": "SO31"
             },
             {
                 "id": "Station:Sotetsu.Izumino.Ryokuentoshi",
                 "latitude": 35.43932,
                 "longitude": 139.52198,
-                "name": "緑園都市",
-                "nameEn": "Ryokuentoshi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ryokuentoshi",
+                    "ja": "緑園都市",
+                    "ko": "료쿠엔토시",
+                    "zh-Hans": "绿园都市",
+                    "zh-Hant": "綠園都市"
+                },
                 "stationCode": "SO32"
             },
             {
                 "id": "Station:Sotetsu.Izumino.Yayoidai",
                 "latitude": 35.42974,
                 "longitude": 139.50647,
-                "name": "弥生台",
-                "nameEn": "Yayoidai",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Yayoidai",
+                    "ja": "弥生台",
+                    "ko": "야요이다이",
+                    "zh-Hans": "彌生台",
+                    "zh-Hant": "彌生臺"
+                },
                 "stationCode": "SO33"
             },
             {
                 "id": "Station:Sotetsu.Izumino.Izumino",
                 "latitude": 35.42926,
                 "longitude": 139.495,
-                "name": "いずみ野",
-                "nameEn": "Izumino",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Izumino",
+                    "ja": "いずみ野",
+                    "ko": "이즈미노",
+                    "zh-Hans": "泉野",
+                    "zh-Hant": "泉野"
+                },
                 "stationCode": "SO34"
             },
             {
                 "id": "Station:Sotetsu.Izumino.IzumiChuo",
                 "latitude": 35.41505,
                 "longitude": 139.48727,
-                "name": "いずみ中央",
-                "nameEn": "Izumi-chuo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Izumi-chuo",
+                    "ja": "いずみ中央",
+                    "ko": "이즈미추오",
+                    "zh-Hans": "泉中央",
+                    "zh-Hant": "泉中央"
+                },
                 "stationCode": "SO35"
             },
             {
                 "id": "Station:Sotetsu.Izumino.Yumegaoka",
                 "latitude": 35.40546,
                 "longitude": 139.48244,
-                "name": "ゆめが丘",
-                "nameEn": "Yumegaoka",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Yumegaoka",
+                    "ja": "ゆめが丘",
+                    "ko": "유메가오카",
+                    "zh-Hans": "梦丘",
+                    "zh-Hant": "夢丘"
+                },
                 "stationCode": "SO36"
             },
             {
                 "id": "Station:Sotetsu.Izumino.Shonandai",
                 "latitude": 35.39613,
                 "longitude": 139.46659,
-                "name": "湘南台",
-                "nameEn": "Shonandai",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shonandai",
+                    "ja": "湘南台",
+                    "ko": "쇼난다이",
+                    "zh-Hans": "湘南台",
+                    "zh-Hant": "湘南台"
+                },
                 "stationCode": "SO37"
             }
         ],
@@ -1003,10 +1120,14 @@
                 "connectingLineId": "Railway:Sotetsu.Main",
                 "end": "descending",
                 "junctionStationId": "Station:Sotetsu.Izumino.Futamatagawa",
-                "lineNameEn": "Sotetsu Main Line",
-                "lineNameJa": "相鉄本線",
-                "towardEn": "for Yokohama",
-                "towardJa": "横浜方面"
+                "lineName": {
+                    "en": "Sotetsu Main Line",
+                    "ja": "相鉄本線"
+                },
+                "toward": {
+                    "en": "for Yokohama",
+                    "ja": "横浜方面"
+                }
             }
         ]
     }

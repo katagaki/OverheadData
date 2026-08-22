@@ -2,10 +2,14 @@
     {
         "colorHex": "#A09D95",
         "delayInfo": {
-            "checkMethodEn": "Check the JR East Train Operation Information page or the JR East app. In the Tokyo area, delays or suspensions of 15 minutes or more are posted.",
-            "checkMethodJa": "JR東日本「列車運行情報」ページまたはJR東日本アプリで確認できます。首都圏エリアでは15分以上の遅れ・運休が発生または見込まれる場合に掲載されます。",
-            "statusPageURL": "https://traininfo.jreast.co.jp/train_info/line.aspx?gid=1&lineid=hachikoline",
-            "statusPageURLEn": "https://traininfo.jreast.co.jp/train_info/e/kanto.aspx",
+            "checkMethod": {
+                "en": "Check the JR East Train Operation Information page or the JR East app. In the Tokyo area, delays or suspensions of 15 minutes or more are posted.",
+                "ja": "JR東日本「列車運行情報」ページまたはJR東日本アプリで確認できます。首都圏エリアでは15分以上の遅れ・運休が発生または見込まれる場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://traininfo.jreast.co.jp/train_info/e/kanto.aspx",
+                "ja": "https://traininfo.jreast.co.jp/train_info/line.aspx?gid=1&lineid=hachikoline"
+            },
             "xAccount": "@JRE_F_Chuo"
         },
         "directions": [
@@ -15,53 +19,55 @@
                 "id": "static.RailDirection:JR-East.Hachiko.Takasaki",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Takasaki",
-                "nameJa": "高崎方面",
+                "name": {
+                    "en": "For Takasaki",
+                    "ja": "高崎方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
                             "from": "04:45",
-                            "headwayMinutes": 32.0
+                            "headwayMinutes": 32
                         },
                         {
                             "from": "05:00",
-                            "headwayMinutes": 26.0
+                            "headwayMinutes": 26
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 23.0
+                            "headwayMinutes": 23
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 18.0
+                            "headwayMinutes": 18
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 19.0
+                            "headwayMinutes": 19
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 26.0
+                            "headwayMinutes": 26
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 28.0
+                            "headwayMinutes": 28
                         },
                         {
                             "from": "11:00",
-                            "headwayMinutes": 30.0
+                            "headwayMinutes": 30
                         },
                         {
                             "from": "15:00",
-                            "headwayMinutes": 28.0
+                            "headwayMinutes": 28
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 22.0
+                            "headwayMinutes": 22
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 17.0
+                            "headwayMinutes": 17
                         },
                         {
                             "from": "18:00",
@@ -69,7 +75,7 @@
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 22.0
+                            "headwayMinutes": 22
                         },
                         {
                             "from": "20:00",
@@ -92,7 +98,7 @@
                     "bands": [
                         {
                             "from": "04:45",
-                            "headwayMinutes": 31.0
+                            "headwayMinutes": 31
                         },
                         {
                             "from": "05:00",
@@ -100,7 +106,7 @@
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 26.0
+                            "headwayMinutes": 26
                         },
                         {
                             "from": "07:00",
@@ -108,7 +114,7 @@
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "09:00",
@@ -116,11 +122,11 @@
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 27.0
+                            "headwayMinutes": 27
                         },
                         {
                             "from": "11:00",
-                            "headwayMinutes": 30.0
+                            "headwayMinutes": 30
                         },
                         {
                             "from": "15:00",
@@ -128,7 +134,7 @@
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "17:00",
@@ -136,7 +142,7 @@
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 22.0
+                            "headwayMinutes": 22
                         },
                         {
                             "from": "19:00",
@@ -144,7 +150,7 @@
                         },
                         {
                             "from": "20:00",
-                            "headwayMinutes": 29.0
+                            "headwayMinutes": 29
                         },
                         {
                             "from": "21:00",
@@ -166,17 +172,19 @@
                 "id": "static.RailDirection:JR-East.Hachiko.Hachioji",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Hachioji",
-                "nameJa": "八王子方面",
+                "name": {
+                    "en": "For Hachioji",
+                    "ja": "八王子方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
                             "from": "05:28",
-                            "headwayMinutes": 32.0
+                            "headwayMinutes": 32
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 35.0
+                            "headwayMinutes": 35
                         },
                         {
                             "from": "07:00",
@@ -184,35 +192,35 @@
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 54.0
+                            "headwayMinutes": 54
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 69.0
+                            "headwayMinutes": 69
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 58.0
+                            "headwayMinutes": 58
                         },
                         {
                             "from": "11:00",
-                            "headwayMinutes": 60.0
+                            "headwayMinutes": 60
                         },
                         {
                             "from": "14:00",
-                            "headwayMinutes": 54.0
+                            "headwayMinutes": 54
                         },
                         {
                             "from": "15:00",
-                            "headwayMinutes": 46.0
+                            "headwayMinutes": 46
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 31.0
+                            "headwayMinutes": 31
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 59.0
+                            "headwayMinutes": 59
                         },
                         {
                             "from": "18:00",
@@ -220,15 +228,15 @@
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 62.0
+                            "headwayMinutes": 62
                         },
                         {
                             "from": "20:00",
-                            "headwayMinutes": 57.0
+                            "headwayMinutes": 57
                         },
                         {
                             "from": "21:00",
-                            "headwayMinutes": 47.0
+                            "headwayMinutes": 47
                         }
                     ],
                     "firstDeparture": "05:28",
@@ -239,11 +247,11 @@
                     "bands": [
                         {
                             "from": "05:28",
-                            "headwayMinutes": 32.0
+                            "headwayMinutes": 32
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 35.0
+                            "headwayMinutes": 35
                         },
                         {
                             "from": "07:00",
@@ -251,35 +259,35 @@
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 54.0
+                            "headwayMinutes": 54
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 69.0
+                            "headwayMinutes": 69
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 58.0
+                            "headwayMinutes": 58
                         },
                         {
                             "from": "11:00",
-                            "headwayMinutes": 60.0
+                            "headwayMinutes": 60
                         },
                         {
                             "from": "14:00",
-                            "headwayMinutes": 54.0
+                            "headwayMinutes": 54
                         },
                         {
                             "from": "15:00",
-                            "headwayMinutes": 46.0
+                            "headwayMinutes": 46
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 31.0
+                            "headwayMinutes": 31
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 59.0
+                            "headwayMinutes": 59
                         },
                         {
                             "from": "18:00",
@@ -287,15 +295,15 @@
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 62.0
+                            "headwayMinutes": 62
                         },
                         {
                             "from": "20:00",
-                            "headwayMinutes": 57.0
+                            "headwayMinutes": 57
                         },
                         {
                             "from": "21:00",
-                            "headwayMinutes": 47.0
+                            "headwayMinutes": 47
                         }
                     ],
                     "firstDeparture": "05:28",
@@ -304,11 +312,16 @@
                 }
             }
         ],
-        "hopTimesMinutes": [4.0, 3.0, 6.0, 4.0, 4.0, 5.0, 6.0, 13.0, 7.0, 4.0, 6.0, 9.0, 5.0, 5.0, 5.0, 5.0, 4.0, 5.0, 4.0, 6.0, 5.0, 5.0, 5.0],
+        "hopTimesMinutes": [4, 3, 6, 4, 4, 5, 6, 13, 7, 4, 6, 9, 5, 5, 5, 5, 4, 5, 4, 6, 5, 5, 5],
         "id": "Railway:JR-East.Hachiko",
         "isLoop": false,
-        "nameEn": "Hachiko Line",
-        "nameJa": "八高線",
+        "name": {
+            "en": "Hachiko Line",
+            "ja": "八高線",
+            "ko": "하치코선",
+            "zh-Hans": "八高线",
+            "zh-Hant": "八高線"
+        },
         "operatorId": "Operator:JR-East",
         "segment": "DokoTrain",
         "stations": [
@@ -316,264 +329,312 @@
                 "id": "Station:JR-East.Hachiko.Hachioji",
                 "latitude": 35.6555,
                 "longitude": 139.33882,
-                "name": "八王子",
-                "nameEn": "Hachioji",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Hachioji",
+                    "ja": "八王子",
+                    "ko": "하치오지",
+                    "zh-Hans": "八王子",
+                    "zh-Hant": "八王子"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Hachiko.KitaHachioji",
                 "latitude": 35.66928,
                 "longitude": 139.3634,
-                "name": "北八王子",
-                "nameEn": "Kita-Hachioji",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kita-Hachioji",
+                    "ja": "北八王子",
+                    "ko": "기타하치오지",
+                    "zh-Hans": "北八王子",
+                    "zh-Hant": "北八王子"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Hachiko.Komiya",
                 "latitude": 35.68591,
                 "longitude": 139.36843,
-                "name": "小宮",
-                "nameEn": "Komiya",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Komiya",
+                    "ja": "小宮",
+                    "ko": "고미야",
+                    "zh-Hans": "小宫",
+                    "zh-Hant": "小宮"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Hachiko.Haijima",
                 "latitude": 35.72134,
                 "longitude": 139.34373,
-                "name": "拝島",
-                "nameEn": "Haijima",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Haijima",
+                    "ja": "拝島",
+                    "ko": "하이지마",
+                    "zh-Hans": "拜岛",
+                    "zh-Hant": "拜島"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Hachiko.HigashiFussa",
                 "latitude": 35.74583,
                 "longitude": 139.3359,
-                "name": "東福生",
-                "nameEn": "Higashi-Fussa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Higashi-Fussa",
+                    "ja": "東福生",
+                    "ko": "히가시훗사",
+                    "zh-Hans": "东福生",
+                    "zh-Hant": "東福生"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Hachiko.Hakonegasaki",
                 "latitude": 35.7717,
                 "longitude": 139.34674,
-                "name": "箱根ケ崎",
-                "nameEn": "Hakonegasaki",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Hakonegasaki",
+                    "ja": "箱根ケ崎",
+                    "ko": "하코네가사키",
+                    "zh-Hans": "箱根崎",
+                    "zh-Hant": "箱根崎"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Hachiko.Kaneko",
                 "latitude": 35.81082,
                 "longitude": 139.32861,
-                "name": "金子",
-                "nameEn": "Kaneko",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kaneko",
+                    "ja": "金子",
+                    "ko": "가네코",
+                    "zh-Hans": "金子",
+                    "zh-Hant": "金子"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Hachiko.HigashiHanno",
                 "latitude": 35.85302,
                 "longitude": 139.32613,
-                "name": "東飯能",
-                "nameEn": "Higashi-Hanno",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Higashi-Hanno",
+                    "ja": "東飯能",
+                    "ko": "히가시한노",
+                    "zh-Hans": "东饭能",
+                    "zh-Hant": "東飯能"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Hachiko.Komagawa",
                 "latitude": 35.89637,
                 "longitude": 139.33813,
-                "name": "高麗川",
-                "nameEn": "Komagawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Komagawa",
+                    "ja": "高麗川",
+                    "ko": "고마가와",
+                    "zh-Hans": "高丽川",
+                    "zh-Hant": "高麗川"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Hachiko.Moro",
                 "latitude": 35.94074,
                 "longitude": 139.30934,
-                "name": "毛呂",
-                "nameEn": "Moro",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Moro",
+                    "ja": "毛呂",
+                    "ko": "모로",
+                    "zh-Hans": "毛吕",
+                    "zh-Hant": "毛呂"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Hachiko.Ogose",
                 "latitude": 35.96286,
                 "longitude": 139.29925,
-                "name": "越生",
-                "nameEn": "Ogose",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ogose",
+                    "ja": "越生",
+                    "ko": "오고세",
+                    "zh-Hans": "越生",
+                    "zh-Hant": "越生"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Hachiko.Myokaku",
                 "latitude": 36.00356,
                 "longitude": 139.28922,
-                "name": "明覚",
-                "nameEn": "Myokaku",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Myokaku",
+                    "ja": "明覚",
+                    "ko": "묘카쿠",
+                    "zh-Hans": "明觉",
+                    "zh-Hant": "明覺"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Hachiko.Ogawamachi",
                 "latitude": 36.059,
                 "longitude": 139.26069,
-                "name": "小川町",
-                "nameEn": "Ogawamachi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ogawamachi",
+                    "ja": "小川町",
+                    "ko": "오가와마치",
+                    "zh-Hans": "小川町",
+                    "zh-Hant": "小川町"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Hachiko.Takezawa",
                 "latitude": 36.0755,
                 "longitude": 139.22995,
-                "name": "竹沢",
-                "nameEn": "Takezawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Takezawa",
+                    "ja": "竹沢",
+                    "ko": "다케자와",
+                    "zh-Hans": "竹泽",
+                    "zh-Hant": "竹澤"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Hachiko.Orihara",
                 "latitude": 36.09618,
                 "longitude": 139.19532,
-                "name": "折原",
-                "nameEn": "Orihara",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Orihara",
+                    "ja": "折原",
+                    "ko": "오리하라",
+                    "zh-Hans": "折原",
+                    "zh-Hant": "折原"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Hachiko.Yorii",
                 "latitude": 36.11786,
                 "longitude": 139.19352,
-                "name": "寄居",
-                "nameEn": "Yorii",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Yorii",
+                    "ja": "寄居",
+                    "ko": "요리이",
+                    "zh-Hans": "寄居",
+                    "zh-Hant": "寄居"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Hachiko.Yodo",
                 "latitude": 36.15385,
                 "longitude": 139.20064,
-                "name": "用土",
-                "nameEn": "Yodo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Yodo",
+                    "ja": "用土",
+                    "ko": "요도",
+                    "zh-Hans": "用土",
+                    "zh-Hant": "用土"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Hachiko.Matsuhisa",
                 "latitude": 36.17306,
                 "longitude": 139.1821,
-                "name": "松久",
-                "nameEn": "Matsuhisa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Matsuhisa",
+                    "ja": "松久",
+                    "ko": "마쓰히사",
+                    "zh-Hans": "松久",
+                    "zh-Hant": "松久"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Hachiko.Kodama",
                 "latitude": 36.19284,
                 "longitude": 139.13572,
-                "name": "児玉",
-                "nameEn": "Kodama",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kodama",
+                    "ja": "児玉",
+                    "ko": "고다마",
+                    "zh-Hans": "儿玉",
+                    "zh-Hant": "兒玉"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Hachiko.Tansho",
                 "latitude": 36.21646,
                 "longitude": 139.10258,
-                "name": "丹荘",
-                "nameEn": "Tansho",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tansho",
+                    "ja": "丹荘",
+                    "ko": "단쇼",
+                    "zh-Hans": "丹庄",
+                    "zh-Hant": "丹莊"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Hachiko.GummaFujioka",
                 "latitude": 36.25032,
                 "longitude": 139.08346,
-                "name": "群馬藤岡",
-                "nameEn": "Gumma-Fujioka",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Gumma-Fujioka",
+                    "ja": "群馬藤岡",
+                    "ko": "군마후지오카",
+                    "zh-Hans": "群马藤冈",
+                    "zh-Hant": "群馬藤岡"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Hachiko.KitaFujioka",
                 "latitude": 36.28212,
                 "longitude": 139.08145,
-                "name": "北藤岡",
-                "nameEn": "Kita-Fujioka",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kita-Fujioka",
+                    "ja": "北藤岡",
+                    "ko": "기타후지오카",
+                    "zh-Hans": "北藤冈",
+                    "zh-Hant": "北藤岡"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Hachiko.Kuragano",
                 "latitude": 36.3003,
                 "longitude": 139.04944,
-                "name": "倉賀野",
-                "nameEn": "Kuragano",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kuragano",
+                    "ja": "倉賀野",
+                    "ko": "구라가노",
+                    "zh-Hans": "仓贺野",
+                    "zh-Hant": "倉賀野"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Hachiko.Takasaki",
                 "latitude": 36.32227,
                 "longitude": 139.01234,
-                "name": "高崎",
-                "nameEn": "Takasaki",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Takasaki",
+                    "ja": "高崎",
+                    "ko": "다카사키",
+                    "zh-Hans": "高崎",
+                    "zh-Hant": "高崎"
+                },
                 "stationCode": ""
             }
         ],
@@ -587,8 +648,10 @@
                 "startsHere": true,
                 "stops": [285, 289, 292, 301, 305, 309, 314, 320, 327],
                 "terminates": false,
-                "throughDestEn": "Kawagoe",
-                "throughDestJa": "川越",
+                "throughDest": {
+                    "en": "Kawagoe",
+                    "ja": "川越"
+                },
                 "type": "Local"
             },
             {
@@ -598,8 +661,10 @@
                 "startsHere": true,
                 "stops": [317, 321, 324, 330, 336, 340, 346, 351, 358],
                 "terminates": false,
-                "throughDestEn": "Kawagoe",
-                "throughDestJa": "川越",
+                "throughDest": {
+                    "en": "Kawagoe",
+                    "ja": "川越"
+                },
                 "type": "Local"
             },
             {
@@ -627,8 +692,10 @@
                 "startsHere": true,
                 "stops": [343, 347, 352, 359, 371, 389],
                 "terminates": false,
-                "throughDestEn": "Kawagoe",
-                "throughDestJa": "川越",
+                "throughDest": {
+                    "en": "Kawagoe",
+                    "ja": "川越"
+                },
                 "type": "Local"
             },
             {
@@ -638,8 +705,10 @@
                 "startsHere": true,
                 "stops": [351, 355, 358, 364, 368, 373, 378, 393, 405],
                 "terminates": false,
-                "throughDestEn": "Kawagoe",
-                "throughDestJa": "川越",
+                "throughDest": {
+                    "en": "Kawagoe",
+                    "ja": "川越"
+                },
                 "type": "Local"
             },
             {
@@ -649,8 +718,10 @@
                 "startsHere": true,
                 "stops": [369, 373, 379, 385, 391, 395, 400, 410, 423],
                 "terminates": false,
-                "throughDestEn": "Kawagoe",
-                "throughDestJa": "川越",
+                "throughDest": {
+                    "en": "Kawagoe",
+                    "ja": "川越"
+                },
                 "type": "Local"
             },
             {
@@ -687,8 +758,10 @@
                 "startsHere": true,
                 "stops": [399, 403, 408, 417, 429, 441],
                 "terminates": false,
-                "throughDestEn": "Kawagoe",
-                "throughDestJa": "川越",
+                "throughDest": {
+                    "en": "Kawagoe",
+                    "ja": "川越"
+                },
                 "type": "Local"
             },
             {
@@ -698,8 +771,10 @@
                 "startsHere": true,
                 "stops": [419, 426, 429, 435, 444, 449, 454, 464, 486],
                 "terminates": false,
-                "throughDestEn": "Kawagoe",
-                "throughDestJa": "川越",
+                "throughDest": {
+                    "en": "Kawagoe",
+                    "ja": "川越"
+                },
                 "type": "Local"
             },
             {
@@ -718,8 +793,10 @@
                 "startsHere": true,
                 "stops": [438, 444, 447, 454, 458, 464, 472, 485, 503],
                 "terminates": false,
-                "throughDestEn": "Kawagoe",
-                "throughDestJa": "川越",
+                "throughDest": {
+                    "en": "Kawagoe",
+                    "ja": "川越"
+                },
                 "type": "Local"
             },
             {
@@ -765,8 +842,10 @@
                 "startsHere": true,
                 "stops": [473, 477, 480, 487, 491, 495, 501, 506, 521],
                 "terminates": false,
-                "throughDestEn": "Kawagoe",
-                "throughDestJa": "川越",
+                "throughDest": {
+                    "en": "Kawagoe",
+                    "ja": "川越"
+                },
                 "type": "Local"
             },
             {
@@ -776,8 +855,10 @@
                 "startsHere": true,
                 "stops": [493, 497, 500, 507, 511, 518, 524, 529, 542],
                 "terminates": false,
-                "throughDestEn": "Kawagoe",
-                "throughDestJa": "川越",
+                "throughDest": {
+                    "en": "Kawagoe",
+                    "ja": "川越"
+                },
                 "type": "Local"
             },
             {
@@ -796,8 +877,10 @@
                 "startsHere": true,
                 "stops": [511, 518, 521, 532, 536, 541, 547, 552, 559],
                 "terminates": false,
-                "throughDestEn": "Kawagoe",
-                "throughDestJa": "川越",
+                "throughDest": {
+                    "en": "Kawagoe",
+                    "ja": "川越"
+                },
                 "type": "Local"
             },
             {
@@ -807,8 +890,10 @@
                 "startsHere": true,
                 "stops": [530, 537, 540, 546, 550, 554, 562, 571, 579],
                 "terminates": false,
-                "throughDestEn": "Kawagoe",
-                "throughDestJa": "川越",
+                "throughDest": {
+                    "en": "Kawagoe",
+                    "ja": "川越"
+                },
                 "type": "Local"
             },
             {
@@ -827,8 +912,10 @@
                 "startsHere": true,
                 "stops": [561, 565, 568, 575, 579, 583, 588, 594, 604],
                 "terminates": false,
-                "throughDestEn": "Kawagoe",
-                "throughDestJa": "川越",
+                "throughDest": {
+                    "en": "Kawagoe",
+                    "ja": "川越"
+                },
                 "type": "Local"
             },
             {
@@ -838,8 +925,10 @@
                 "startsHere": true,
                 "stops": [593, 597, 600, 606, 610, 614, 619, 625, 634],
                 "terminates": false,
-                "throughDestEn": "Kawagoe",
-                "throughDestJa": "川越",
+                "throughDest": {
+                    "en": "Kawagoe",
+                    "ja": "川越"
+                },
                 "type": "Local"
             },
             {
@@ -849,8 +938,10 @@
                 "startsHere": true,
                 "stops": [613, 617, 620, 633, 637, 641, 646, 652, 664],
                 "terminates": false,
-                "throughDestEn": "Kawagoe",
-                "throughDestJa": "川越",
+                "throughDest": {
+                    "en": "Kawagoe",
+                    "ja": "川越"
+                },
                 "type": "Local"
             },
             {
@@ -878,8 +969,10 @@
                 "startsHere": true,
                 "stops": [669, 673, 676, 692, 696, 701, 706, 712, 724],
                 "terminates": false,
-                "throughDestEn": "Kawagoe",
-                "throughDestJa": "川越",
+                "throughDest": {
+                    "en": "Kawagoe",
+                    "ja": "川越"
+                },
                 "type": "Local"
             },
             {
@@ -898,8 +991,10 @@
                 "startsHere": true,
                 "stops": [699, 703, 706, 722, 726, 730, 735, 741, 754],
                 "terminates": false,
-                "throughDestEn": "Kawagoe",
-                "throughDestJa": "川越",
+                "throughDest": {
+                    "en": "Kawagoe",
+                    "ja": "川越"
+                },
                 "type": "Local"
             },
             {
@@ -918,8 +1013,10 @@
                 "startsHere": true,
                 "stops": [729, 733, 736, 752, 756, 760, 765, 771, 784],
                 "terminates": false,
-                "throughDestEn": "Kawagoe",
-                "throughDestJa": "川越",
+                "throughDest": {
+                    "en": "Kawagoe",
+                    "ja": "川越"
+                },
                 "type": "Local"
             },
             {
@@ -929,8 +1026,10 @@
                 "startsHere": true,
                 "stops": [759, 763, 766, 782, 786, 790, 795, 801, 814],
                 "terminates": false,
-                "throughDestEn": "Kawagoe",
-                "throughDestJa": "川越",
+                "throughDest": {
+                    "en": "Kawagoe",
+                    "ja": "川越"
+                },
                 "type": "Local"
             },
             {
@@ -949,8 +1048,10 @@
                 "startsHere": true,
                 "stops": [789, 793, 796, 812, 816, 820, 825, 831, 844],
                 "terminates": false,
-                "throughDestEn": "Kawagoe",
-                "throughDestJa": "川越",
+                "throughDest": {
+                    "en": "Kawagoe",
+                    "ja": "川越"
+                },
                 "type": "Local"
             },
             {
@@ -969,8 +1070,10 @@
                 "startsHere": true,
                 "stops": [819, 823, 826, 842, 846, 850, 855, 861, 874],
                 "terminates": false,
-                "throughDestEn": "Kawagoe",
-                "throughDestJa": "川越",
+                "throughDest": {
+                    "en": "Kawagoe",
+                    "ja": "川越"
+                },
                 "type": "Local"
             },
             {
@@ -980,8 +1083,10 @@
                 "startsHere": true,
                 "stops": [849, 853, 856, 872, 876, 880, 886, 891, 904],
                 "terminates": false,
-                "throughDestEn": "Kawagoe",
-                "throughDestJa": "川越",
+                "throughDest": {
+                    "en": "Kawagoe",
+                    "ja": "川越"
+                },
                 "type": "Local"
             },
             {
@@ -991,8 +1096,10 @@
                 "startsHere": true,
                 "stops": [879, 883, 886, 902, 906, 910, 915, 921, 934],
                 "terminates": false,
-                "throughDestEn": "Kawagoe",
-                "throughDestJa": "川越",
+                "throughDest": {
+                    "en": "Kawagoe",
+                    "ja": "川越"
+                },
                 "type": "Local"
             },
             {
@@ -1011,8 +1118,10 @@
                 "startsHere": true,
                 "stops": [909, 913, 916, 931, 935, 940, 945, 951, 964],
                 "terminates": false,
-                "throughDestEn": "Kawagoe",
-                "throughDestJa": "川越",
+                "throughDest": {
+                    "en": "Kawagoe",
+                    "ja": "川越"
+                },
                 "type": "Local"
             },
             {
@@ -1031,8 +1140,10 @@
                 "startsHere": true,
                 "stops": [938, 942, 945, 962, 965, 970, 975, 981, 994],
                 "terminates": false,
-                "throughDestEn": "Kawagoe",
-                "throughDestJa": "川越",
+                "throughDest": {
+                    "en": "Kawagoe",
+                    "ja": "川越"
+                },
                 "type": "Local"
             },
             {
@@ -1051,8 +1162,10 @@
                 "startsHere": true,
                 "stops": [965, 971, 974, 992, 996, 1000, 1005, 1011, 1022],
                 "terminates": false,
-                "throughDestEn": "Kawagoe",
-                "throughDestJa": "川越",
+                "throughDest": {
+                    "en": "Kawagoe",
+                    "ja": "川越"
+                },
                 "type": "Local"
             },
             {
@@ -1080,8 +1193,10 @@
                 "startsHere": true,
                 "stops": [1007, 1011, 1014, 1021, 1025, 1029, 1035, 1040, 1062],
                 "terminates": false,
-                "throughDestEn": "Kawagoe",
-                "throughDestJa": "川越",
+                "throughDest": {
+                    "en": "Kawagoe",
+                    "ja": "川越"
+                },
                 "type": "Local"
             },
             {
@@ -1100,8 +1215,10 @@
                 "startsHere": true,
                 "stops": [1038, 1042, 1045, 1054, 1058, 1062, 1067, 1073, 1083],
                 "terminates": false,
-                "throughDestEn": "Kawagoe",
-                "throughDestJa": "川越",
+                "throughDest": {
+                    "en": "Kawagoe",
+                    "ja": "川越"
+                },
                 "type": "Local"
             },
             {
@@ -1129,8 +1246,10 @@
                 "startsHere": true,
                 "stops": [1071, 1075, 1082, 1088, 1092, 1098, 1103, 1109, 1124],
                 "terminates": false,
-                "throughDestEn": "Kawagoe",
-                "throughDestJa": "川越",
+                "throughDest": {
+                    "en": "Kawagoe",
+                    "ja": "川越"
+                },
                 "type": "Local"
             },
             {
@@ -1140,8 +1259,10 @@
                 "startsHere": true,
                 "stops": [1095, 1099, 1102, 1111, 1115, 1123, 1128, 1134, 1150],
                 "terminates": false,
-                "throughDestEn": "Kawagoe",
-                "throughDestJa": "川越",
+                "throughDest": {
+                    "en": "Kawagoe",
+                    "ja": "川越"
+                },
                 "type": "Local"
             },
             {
@@ -1169,8 +1290,10 @@
                 "startsHere": true,
                 "stops": [1140, 1147, 1150, 1158, 1165, 1170, 1177, 1183, 1191],
                 "terminates": false,
-                "throughDestEn": "Kawagoe",
-                "throughDestJa": "川越",
+                "throughDest": {
+                    "en": "Kawagoe",
+                    "ja": "川越"
+                },
                 "type": "Local"
             },
             {
@@ -1180,8 +1303,10 @@
                 "startsHere": true,
                 "stops": [1165, 1169, 1172, 1183, 1188, 1192, 1203, 1209, 1227],
                 "terminates": false,
-                "throughDestEn": "Kawagoe",
-                "throughDestJa": "川越",
+                "throughDest": {
+                    "en": "Kawagoe",
+                    "ja": "川越"
+                },
                 "type": "Local"
             },
             {
@@ -1191,8 +1316,10 @@
                 "startsHere": true,
                 "stops": [1185, 1189, 1192, 1204, 1212, 1216, 1221, 1229, 1249],
                 "terminates": false,
-                "throughDestEn": "Kawagoe",
-                "throughDestJa": "川越",
+                "throughDest": {
+                    "en": "Kawagoe",
+                    "ja": "川越"
+                },
                 "type": "Local"
             },
             {
@@ -1211,8 +1338,10 @@
                 "startsHere": true,
                 "stops": [1207, 1211, 1214, 1224, 1228, 1232, 1238, 1250, 1270],
                 "terminates": false,
-                "throughDestEn": "Kawagoe",
-                "throughDestJa": "川越",
+                "throughDest": {
+                    "en": "Kawagoe",
+                    "ja": "川越"
+                },
                 "type": "Local"
             },
             {
@@ -1222,8 +1351,10 @@
                 "startsHere": true,
                 "stops": [1239, 1243, 1246, 1252, 1256, 1261, 1266, 1272, 1290],
                 "terminates": false,
-                "throughDestEn": "Kawagoe",
-                "throughDestJa": "川越",
+                "throughDest": {
+                    "en": "Kawagoe",
+                    "ja": "川越"
+                },
                 "type": "Local"
             },
             {
@@ -1260,8 +1391,10 @@
                 "startsHere": true,
                 "stops": [1297, 1303, 1306, 1312, 1316, 1320, 1328, 1334, 1341],
                 "terminates": false,
-                "throughDestEn": "Kawagoe",
-                "throughDestJa": "川越",
+                "throughDest": {
+                    "en": "Kawagoe",
+                    "ja": "川越"
+                },
                 "type": "Local"
             },
             {
@@ -1271,8 +1404,10 @@
                 "startsHere": true,
                 "stops": [1327, 1331, 1334, 1347, 1351, 1359, 1364, 1373, 1386],
                 "terminates": false,
-                "throughDestEn": "Kawagoe",
-                "throughDestJa": "川越",
+                "throughDest": {
+                    "en": "Kawagoe",
+                    "ja": "川越"
+                },
                 "type": "Local"
             },
             {
@@ -1291,8 +1426,10 @@
                 "startsHere": true,
                 "stops": [1359, 1363, 1366, 1375, 1378, 1384, 1398, 1404, 1416],
                 "terminates": false,
-                "throughDestEn": "Kawagoe",
-                "throughDestJa": "川越",
+                "throughDest": {
+                    "en": "Kawagoe",
+                    "ja": "川越"
+                },
                 "type": "Local"
             },
             {
@@ -1968,8 +2105,10 @@
                 "startsHere": true,
                 "stops": [285, 289, 292, 301, 305, 309, 314, 320, 327],
                 "terminates": false,
-                "throughDestEn": "Kawagoe",
-                "throughDestJa": "川越",
+                "throughDest": {
+                    "en": "Kawagoe",
+                    "ja": "川越"
+                },
                 "type": "Local"
             },
             {
@@ -1979,8 +2118,10 @@
                 "startsHere": true,
                 "stops": [316, 320, 323, 330, 336, 341, 346, 352, 359],
                 "terminates": false,
-                "throughDestEn": "Kawagoe",
-                "throughDestJa": "川越",
+                "throughDest": {
+                    "en": "Kawagoe",
+                    "ja": "川越"
+                },
                 "type": "Local"
             },
             {
@@ -2008,8 +2149,10 @@
                 "startsHere": true,
                 "stops": [343, 347, 351, 359, 367, 378],
                 "terminates": false,
-                "throughDestEn": "Kawagoe",
-                "throughDestJa": "川越",
+                "throughDest": {
+                    "en": "Kawagoe",
+                    "ja": "川越"
+                },
                 "type": "Local"
             },
             {
@@ -2019,8 +2162,10 @@
                 "startsHere": true,
                 "stops": [351, 355, 358, 364, 369, 373, 378, 384, 392],
                 "terminates": false,
-                "throughDestEn": "Kawagoe",
-                "throughDestJa": "川越",
+                "throughDest": {
+                    "en": "Kawagoe",
+                    "ja": "川越"
+                },
                 "type": "Local"
             },
             {
@@ -2030,8 +2175,10 @@
                 "startsHere": true,
                 "stops": [369, 373, 379, 385, 391, 397, 405, 412, 419],
                 "terminates": false,
-                "throughDestEn": "Kawagoe",
-                "throughDestJa": "川越",
+                "throughDest": {
+                    "en": "Kawagoe",
+                    "ja": "川越"
+                },
                 "type": "Local"
             },
             {
@@ -2059,8 +2206,10 @@
                 "startsHere": true,
                 "stops": [391, 395, 400, 407, 410, 415, 420, 426, 436],
                 "terminates": false,
-                "throughDestEn": "Kawagoe",
-                "throughDestJa": "川越",
+                "throughDest": {
+                    "en": "Kawagoe",
+                    "ja": "川越"
+                },
                 "type": "Local"
             },
             {
@@ -2079,8 +2228,10 @@
                 "startsHere": true,
                 "stops": [415, 420, 426, 434, 442, 449],
                 "terminates": false,
-                "throughDestEn": "Kawagoe",
-                "throughDestJa": "川越",
+                "throughDest": {
+                    "en": "Kawagoe",
+                    "ja": "川越"
+                },
                 "type": "Local"
             },
             {
@@ -2090,8 +2241,10 @@
                 "startsHere": true,
                 "stops": [421, 425, 431, 438, 444, 453, 458, 464, 472],
                 "terminates": false,
-                "throughDestEn": "Kawagoe",
-                "throughDestJa": "川越",
+                "throughDest": {
+                    "en": "Kawagoe",
+                    "ja": "川越"
+                },
                 "type": "Local"
             },
             {
@@ -2119,8 +2272,10 @@
                 "startsHere": true,
                 "stops": [442, 448, 453, 461, 465, 470, 475, 481, 496],
                 "terminates": false,
-                "throughDestEn": "Kawagoe",
-                "throughDestJa": "川越",
+                "throughDest": {
+                    "en": "Kawagoe",
+                    "ja": "川越"
+                },
                 "type": "Local"
             },
             {
@@ -2148,8 +2303,10 @@
                 "startsHere": true,
                 "stops": [468, 476, 485, 492, 497, 506, 511, 517, 527],
                 "terminates": false,
-                "throughDestEn": "Kawagoe",
-                "throughDestJa": "川越",
+                "throughDest": {
+                    "en": "Kawagoe",
+                    "ja": "川越"
+                },
                 "type": "Local"
             },
             {
@@ -2168,8 +2325,10 @@
                 "startsHere": true,
                 "stops": [481, 490, 499, 505, 512, 516, 522, 531, 545],
                 "terminates": false,
-                "throughDestEn": "Kawagoe",
-                "throughDestJa": "川越",
+                "throughDest": {
+                    "en": "Kawagoe",
+                    "ja": "川越"
+                },
                 "type": "Local"
             },
             {
@@ -2197,8 +2356,10 @@
                 "startsHere": true,
                 "stops": [512, 517, 524, 532, 536, 542, 547, 553, 563],
                 "terminates": false,
-                "throughDestEn": "Kawagoe",
-                "throughDestJa": "川越",
+                "throughDest": {
+                    "en": "Kawagoe",
+                    "ja": "川越"
+                },
                 "type": "Local"
             },
             {
@@ -2217,8 +2378,10 @@
                 "startsHere": true,
                 "stops": [539, 544, 547, 555, 559, 565, 570, 576, 583],
                 "terminates": false,
-                "throughDestEn": "Kawagoe",
-                "throughDestJa": "川越",
+                "throughDest": {
+                    "en": "Kawagoe",
+                    "ja": "川越"
+                },
                 "type": "Local"
             },
             {
@@ -2228,8 +2391,10 @@
                 "startsHere": true,
                 "stops": [558, 562, 565, 578, 582, 588, 596, 601, 609],
                 "terminates": false,
-                "throughDestEn": "Kawagoe",
-                "throughDestJa": "川越",
+                "throughDest": {
+                    "en": "Kawagoe",
+                    "ja": "川越"
+                },
                 "type": "Local"
             },
             {
@@ -2248,8 +2413,10 @@
                 "startsHere": true,
                 "stops": [580, 585, 588, 605, 609, 613, 621, 627, 636],
                 "terminates": false,
-                "throughDestEn": "Kawagoe",
-                "throughDestJa": "川越",
+                "throughDest": {
+                    "en": "Kawagoe",
+                    "ja": "川越"
+                },
                 "type": "Local"
             },
             {
@@ -2259,8 +2426,10 @@
                 "startsHere": true,
                 "stops": [615, 619, 622, 635, 639, 643, 648, 654, 664],
                 "terminates": false,
-                "throughDestEn": "Kawagoe",
-                "throughDestJa": "川越",
+                "throughDest": {
+                    "en": "Kawagoe",
+                    "ja": "川越"
+                },
                 "type": "Local"
             },
             {
@@ -2279,8 +2448,10 @@
                 "startsHere": true,
                 "stops": [645, 649, 652, 663, 667, 671, 677, 682, 694],
                 "terminates": false,
-                "throughDestEn": "Kawagoe",
-                "throughDestJa": "川越",
+                "throughDest": {
+                    "en": "Kawagoe",
+                    "ja": "川越"
+                },
                 "type": "Local"
             },
             {
@@ -2290,8 +2461,10 @@
                 "startsHere": true,
                 "stops": [669, 673, 676, 692, 696, 700, 705, 711, 724],
                 "terminates": false,
-                "throughDestEn": "Kawagoe",
-                "throughDestJa": "川越",
+                "throughDest": {
+                    "en": "Kawagoe",
+                    "ja": "川越"
+                },
                 "type": "Local"
             },
             {
@@ -2310,8 +2483,10 @@
                 "startsHere": true,
                 "stops": [699, 703, 706, 722, 726, 730, 735, 741, 754],
                 "terminates": false,
-                "throughDestEn": "Kawagoe",
-                "throughDestJa": "川越",
+                "throughDest": {
+                    "en": "Kawagoe",
+                    "ja": "川越"
+                },
                 "type": "Local"
             },
             {
@@ -2330,8 +2505,10 @@
                 "startsHere": true,
                 "stops": [729, 733, 736, 752, 756, 760, 765, 771, 784],
                 "terminates": false,
-                "throughDestEn": "Kawagoe",
-                "throughDestJa": "川越",
+                "throughDest": {
+                    "en": "Kawagoe",
+                    "ja": "川越"
+                },
                 "type": "Local"
             },
             {
@@ -2341,8 +2518,10 @@
                 "startsHere": true,
                 "stops": [759, 763, 766, 782, 786, 790, 795, 801, 814],
                 "terminates": false,
-                "throughDestEn": "Kawagoe",
-                "throughDestJa": "川越",
+                "throughDest": {
+                    "en": "Kawagoe",
+                    "ja": "川越"
+                },
                 "type": "Local"
             },
             {
@@ -2361,8 +2540,10 @@
                 "startsHere": true,
                 "stops": [789, 793, 796, 812, 816, 820, 825, 831, 844],
                 "terminates": false,
-                "throughDestEn": "Kawagoe",
-                "throughDestJa": "川越",
+                "throughDest": {
+                    "en": "Kawagoe",
+                    "ja": "川越"
+                },
                 "type": "Local"
             },
             {
@@ -2381,8 +2562,10 @@
                 "startsHere": true,
                 "stops": [819, 823, 826, 842, 846, 850, 855, 861, 874],
                 "terminates": false,
-                "throughDestEn": "Kawagoe",
-                "throughDestJa": "川越",
+                "throughDest": {
+                    "en": "Kawagoe",
+                    "ja": "川越"
+                },
                 "type": "Local"
             },
             {
@@ -2392,8 +2575,10 @@
                 "startsHere": true,
                 "stops": [849, 853, 856, 872, 876, 880, 885, 891, 904],
                 "terminates": false,
-                "throughDestEn": "Kawagoe",
-                "throughDestJa": "川越",
+                "throughDest": {
+                    "en": "Kawagoe",
+                    "ja": "川越"
+                },
                 "type": "Local"
             },
             {
@@ -2403,8 +2588,10 @@
                 "startsHere": true,
                 "stops": [879, 883, 886, 902, 906, 910, 915, 921, 934],
                 "terminates": false,
-                "throughDestEn": "Kawagoe",
-                "throughDestJa": "川越",
+                "throughDest": {
+                    "en": "Kawagoe",
+                    "ja": "川越"
+                },
                 "type": "Local"
             },
             {
@@ -2423,8 +2610,10 @@
                 "startsHere": true,
                 "stops": [909, 913, 916, 932, 936, 940, 945, 951, 963],
                 "terminates": false,
-                "throughDestEn": "Kawagoe",
-                "throughDestJa": "川越",
+                "throughDest": {
+                    "en": "Kawagoe",
+                    "ja": "川越"
+                },
                 "type": "Local"
             },
             {
@@ -2443,8 +2632,10 @@
                 "startsHere": true,
                 "stops": [939, 943, 946, 962, 965, 970, 975, 981, 989],
                 "terminates": false,
-                "throughDestEn": "Kawagoe",
-                "throughDestJa": "川越",
+                "throughDest": {
+                    "en": "Kawagoe",
+                    "ja": "川越"
+                },
                 "type": "Local"
             },
             {
@@ -2463,8 +2654,10 @@
                 "startsHere": true,
                 "stops": [970, 974, 977, 990, 994, 998, 1004, 1009, 1016],
                 "terminates": false,
-                "throughDestEn": "Kawagoe",
-                "throughDestJa": "川越",
+                "throughDest": {
+                    "en": "Kawagoe",
+                    "ja": "川越"
+                },
                 "type": "Local"
             },
             {
@@ -2492,8 +2685,10 @@
                 "startsHere": true,
                 "stops": [1015, 1019, 1024, 1030, 1034, 1039, 1044, 1051, 1058],
                 "terminates": false,
-                "throughDestEn": "Kawagoe",
-                "throughDestJa": "川越",
+                "throughDest": {
+                    "en": "Kawagoe",
+                    "ja": "川越"
+                },
                 "type": "Local"
             },
             {
@@ -2521,8 +2716,10 @@
                 "startsHere": true,
                 "stops": [1039, 1043, 1046, 1053, 1061, 1066, 1071, 1082, 1089],
                 "terminates": false,
-                "throughDestEn": "Kawagoe",
-                "throughDestJa": "川越",
+                "throughDest": {
+                    "en": "Kawagoe",
+                    "ja": "川越"
+                },
                 "type": "Local"
             },
             {
@@ -2550,8 +2747,10 @@
                 "startsHere": true,
                 "stops": [1074, 1078, 1083, 1090, 1094, 1098, 1103, 1109, 1122],
                 "terminates": false,
-                "throughDestEn": "Kawagoe",
-                "throughDestJa": "川越",
+                "throughDest": {
+                    "en": "Kawagoe",
+                    "ja": "川越"
+                },
                 "type": "Local"
             },
             {
@@ -2561,8 +2760,10 @@
                 "startsHere": true,
                 "stops": [1097, 1102, 1105, 1114, 1117, 1122, 1129, 1141, 1147],
                 "terminates": false,
-                "throughDestEn": "Kawagoe",
-                "throughDestJa": "川越",
+                "throughDest": {
+                    "en": "Kawagoe",
+                    "ja": "川越"
+                },
                 "type": "Local"
             },
             {
@@ -2572,8 +2773,10 @@
                 "startsHere": true,
                 "stops": [1117, 1124, 1127, 1134, 1139, 1144, 1149, 1164, 1171],
                 "terminates": false,
-                "throughDestEn": "Kawagoe",
-                "throughDestJa": "川越",
+                "throughDest": {
+                    "en": "Kawagoe",
+                    "ja": "川越"
+                },
                 "type": "Local"
             },
             {
@@ -2592,8 +2795,10 @@
                 "startsHere": true,
                 "stops": [1139, 1143, 1151, 1157, 1162, 1166, 1172, 1177, 1191],
                 "terminates": false,
-                "throughDestEn": "Kawagoe",
-                "throughDestJa": "川越",
+                "throughDest": {
+                    "en": "Kawagoe",
+                    "ja": "川越"
+                },
                 "type": "Local"
             },
             {
@@ -2603,8 +2808,10 @@
                 "startsHere": true,
                 "stops": [1162, 1166, 1172, 1178, 1183, 1187, 1197, 1203, 1211],
                 "terminates": false,
-                "throughDestEn": "Kawagoe",
-                "throughDestJa": "川越",
+                "throughDest": {
+                    "en": "Kawagoe",
+                    "ja": "川越"
+                },
                 "type": "Local"
             },
             {
@@ -2623,8 +2830,10 @@
                 "startsHere": true,
                 "stops": [1187, 1191, 1196, 1202, 1207, 1211, 1217, 1222, 1230],
                 "terminates": false,
-                "throughDestEn": "Kawagoe",
-                "throughDestJa": "川越",
+                "throughDest": {
+                    "en": "Kawagoe",
+                    "ja": "川越"
+                },
                 "type": "Local"
             },
             {
@@ -2634,8 +2843,10 @@
                 "startsHere": true,
                 "stops": [1209, 1213, 1219, 1226, 1230, 1235, 1246, 1252, 1273],
                 "terminates": false,
-                "throughDestEn": "Kawagoe",
-                "throughDestJa": "川越",
+                "throughDest": {
+                    "en": "Kawagoe",
+                    "ja": "川越"
+                },
                 "type": "Local"
             },
             {
@@ -2645,8 +2856,10 @@
                 "startsHere": true,
                 "stops": [1231, 1235, 1238, 1248, 1252, 1256, 1261, 1275, 1295],
                 "terminates": false,
-                "throughDestEn": "Kawagoe",
-                "throughDestJa": "川越",
+                "throughDest": {
+                    "en": "Kawagoe",
+                    "ja": "川越"
+                },
                 "type": "Local"
             },
             {
@@ -2665,8 +2878,10 @@
                 "startsHere": true,
                 "stops": [1267, 1274, 1277, 1285, 1289, 1293, 1301, 1306, 1315],
                 "terminates": false,
-                "throughDestEn": "Kawagoe",
-                "throughDestJa": "川越",
+                "throughDest": {
+                    "en": "Kawagoe",
+                    "ja": "川越"
+                },
                 "type": "Local"
             },
             {
@@ -2685,8 +2900,10 @@
                 "startsHere": true,
                 "stops": [1298, 1302, 1305, 1314, 1318, 1322, 1327, 1333, 1341],
                 "terminates": false,
-                "throughDestEn": "Kawagoe",
-                "throughDestJa": "川越",
+                "throughDest": {
+                    "en": "Kawagoe",
+                    "ja": "川越"
+                },
                 "type": "Local"
             },
             {
@@ -2696,8 +2913,10 @@
                 "startsHere": true,
                 "stops": [1326, 1330, 1333, 1347, 1351, 1358, 1363, 1373, 1386],
                 "terminates": false,
-                "throughDestEn": "Kawagoe",
-                "throughDestJa": "川越",
+                "throughDest": {
+                    "en": "Kawagoe",
+                    "ja": "川越"
+                },
                 "type": "Local"
             },
             {
@@ -2716,8 +2935,10 @@
                 "startsHere": true,
                 "stops": [1362, 1366, 1369, 1377, 1381, 1386, 1398, 1404, 1416],
                 "terminates": false,
-                "throughDestEn": "Kawagoe",
-                "throughDestJa": "川越",
+                "throughDest": {
+                    "en": "Kawagoe",
+                    "ja": "川越"
+                },
                 "type": "Local"
             },
             {
@@ -3423,6 +3644,6 @@
                 "type": "Local"
             }
         ],
-        "upHopTimesMinutes": [4.0, 3.0, 5.0, 7.0, 4.0, 5.0, 6.0, 6.0, 7.0, 4.0, 6.0, 9.0, 5.0, 5.0, 5.0, 6.0, 4.0, 5.0, 4.0, 5.0, 5.0, 5.0, 5.0]
+        "upHopTimesMinutes": [4, 3, 5, 7, 4, 5, 6, 6, 7, 4, 6, 9, 5, 5, 5, 6, 4, 5, 4, 5, 5, 5, 5]
     }
 ]

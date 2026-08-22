@@ -2,10 +2,14 @@
     {
         "colorHex": "#0072BC",
         "delayInfo": {
-            "checkMethodEn": "Check the JR East Train Operation Information page or the JR East app. In the Tokyo area, delays or suspensions of 15 minutes or more are posted.",
-            "checkMethodJa": "JR東日本「列車運行情報」ページまたはJR東日本アプリで確認できます。首都圏エリアでは15分以上の遅れ・運休が発生または見込まれる場合に掲載されます。",
-            "statusPageURL": "https://traininfo.jreast.co.jp/train_info/line.aspx?gid=1&lineid=naritaline",
-            "statusPageURLEn": "https://traininfo.jreast.co.jp/train_info/e/kanto.aspx",
+            "checkMethod": {
+                "en": "Check the JR East Train Operation Information page or the JR East app. In the Tokyo area, delays or suspensions of 15 minutes or more are posted.",
+                "ja": "JR東日本「列車運行情報」ページまたはJR東日本アプリで確認できます。首都圏エリアでは15分以上の遅れ・運休が発生または見込まれる場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://traininfo.jreast.co.jp/train_info/e/kanto.aspx",
+                "ja": "https://traininfo.jreast.co.jp/train_info/line.aspx?gid=1&lineid=naritaline"
+            },
             "xAccount": "@JRE_F_Sobu"
         },
         "directions": [
@@ -15,21 +19,23 @@
                 "id": "static.RailDirection:JR-East.NaritaAirportBranch.NaritaAirportTerminal1",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Narita Airport Terminal 1",
-                "nameJa": "成田空港方面",
+                "name": {
+                    "en": "For Narita Airport Terminal 1",
+                    "ja": "成田空港方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
                             "from": "08:12",
-                            "headwayMinutes": 235.0
+                            "headwayMinutes": 235
                         },
                         {
                             "from": "12:00",
-                            "headwayMinutes": 120.0
+                            "headwayMinutes": 120
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 151.0
+                            "headwayMinutes": 151
                         }
                     ],
                     "firstDeparture": "08:12",
@@ -40,59 +46,59 @@
                     "bands": [
                         {
                             "from": "06:46",
-                            "headwayMinutes": 36.0
+                            "headwayMinutes": 36
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 50.0
+                            "headwayMinutes": 50
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 39.0
+                            "headwayMinutes": 39
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 61.0
+                            "headwayMinutes": 61
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 60.0
+                            "headwayMinutes": 60
                         },
                         {
                             "from": "11:00",
-                            "headwayMinutes": 36.0
+                            "headwayMinutes": 36
                         },
                         {
                             "from": "12:00",
-                            "headwayMinutes": 42.0
+                            "headwayMinutes": 42
                         },
                         {
                             "from": "13:00",
-                            "headwayMinutes": 36.0
+                            "headwayMinutes": 36
                         },
                         {
                             "from": "14:00",
-                            "headwayMinutes": 84.0
+                            "headwayMinutes": 84
                         },
                         {
                             "from": "15:00",
-                            "headwayMinutes": 36.0
+                            "headwayMinutes": 36
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 26.0
+                            "headwayMinutes": 26
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 28.0
+                            "headwayMinutes": 28
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 44.0
+                            "headwayMinutes": 44
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 26.0
+                            "headwayMinutes": 26
                         },
                         {
                             "from": "20:00",
@@ -100,11 +106,11 @@
                         },
                         {
                             "from": "21:00",
-                            "headwayMinutes": 43.0
+                            "headwayMinutes": 43
                         },
                         {
                             "from": "22:00",
-                            "headwayMinutes": 47.0
+                            "headwayMinutes": 47
                         }
                     ],
                     "firstDeparture": "06:46",
@@ -118,29 +124,31 @@
                 "id": "static.RailDirection:JR-East.NaritaAirportBranch.Narita",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Narita",
-                "nameJa": "成田方面",
+                "name": {
+                    "en": "For Narita",
+                    "ja": "成田方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
                             "from": "08:37",
-                            "headwayMinutes": 237.0
+                            "headwayMinutes": 237
                         },
                         {
                             "from": "12:00",
-                            "headwayMinutes": 120.0
+                            "headwayMinutes": 120
                         },
                         {
                             "from": "14:00",
-                            "headwayMinutes": 118.0
+                            "headwayMinutes": 118
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 60.0
+                            "headwayMinutes": 60
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 239.0
+                            "headwayMinutes": 239
                         }
                     ],
                     "firstDeparture": "08:37",
@@ -151,7 +159,7 @@
                     "bands": [
                         {
                             "from": "06:52",
-                            "headwayMinutes": 30.0
+                            "headwayMinutes": 30
                         },
                         {
                             "from": "07:00",
@@ -167,51 +175,51 @@
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 59.0
+                            "headwayMinutes": 59
                         },
                         {
                             "from": "11:00",
-                            "headwayMinutes": 36.0
+                            "headwayMinutes": 36
                         },
                         {
                             "from": "12:00",
-                            "headwayMinutes": 42.0
+                            "headwayMinutes": 42
                         },
                         {
                             "from": "13:00",
-                            "headwayMinutes": 36.0
+                            "headwayMinutes": 36
                         },
                         {
                             "from": "14:00",
-                            "headwayMinutes": 42.0
+                            "headwayMinutes": 42
                         },
                         {
                             "from": "15:00",
-                            "headwayMinutes": 34.0
+                            "headwayMinutes": 34
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 30.0
+                            "headwayMinutes": 30
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 29.0
+                            "headwayMinutes": 29
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 32.0
+                            "headwayMinutes": 32
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 33.0
+                            "headwayMinutes": 33
                         },
                         {
                             "from": "20:00",
-                            "headwayMinutes": 32.0
+                            "headwayMinutes": 32
                         },
                         {
                             "from": "21:00",
-                            "headwayMinutes": 28.0
+                            "headwayMinutes": 28
                         }
                     ],
                     "firstDeparture": "06:52",
@@ -220,11 +228,14 @@
                 }
             }
         ],
-        "hopTimesMinutes": [10.0, 2.0],
+        "hopTimesMinutes": [10, 2],
         "id": "Railway:JR-East.NaritaAirportBranch",
         "isLoop": false,
-        "nameEn": "Narita Line Airport Branch",
-        "nameJa": "成田線空港支線",
+        "name": {
+            "en": "Narita Line Airport Branch",
+            "ja": "成田線空港支線",
+            "zh-Hant": "成田線空港支線"
+        },
         "operatorId": "Operator:JR-East",
         "segment": "DokoTrain",
         "stations": [
@@ -232,33 +243,36 @@
                 "id": "Station:JR-East.NaritaAirportBranch.Narita",
                 "latitude": 35.77726,
                 "longitude": 140.31354,
-                "name": "成田",
-                "nameEn": "Narita",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Narita",
+                    "ja": "成田",
+                    "ko": "나리타",
+                    "zh-Hans": "成田",
+                    "zh-Hant": "成田"
+                },
                 "stationCode": "JO35"
             },
             {
                 "id": "Station:JR-East.NaritaAirportBranch.NaritaAirportTerminal2and3",
                 "latitude": 35.77296,
                 "longitude": 140.38761,
-                "name": "空港第２ビル",
-                "nameEn": "Narita Airport Terminal 2 and 3",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Narita Airport Terminal 2 and 3",
+                    "ja": "空港第２ビル"
+                },
                 "stationCode": "JO36"
             },
             {
                 "id": "Station:JR-East.NaritaAirportBranch.NaritaAirportTerminal1",
                 "latitude": 35.76572,
                 "longitude": 140.3863,
-                "name": "成田空港",
-                "nameEn": "Narita Airport Terminal 1",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Narita Airport Terminal 1",
+                    "ja": "成田空港",
+                    "ko": "나리타 공항",
+                    "zh-Hans": "成田机场",
+                    "zh-Hant": "成田機場"
+                },
                 "stationCode": "JO37"
             }
         ],
@@ -326,8 +340,10 @@
                 "startsHere": true,
                 "stops": [517, 520, 532],
                 "terminates": false,
-                "throughDestEn": "Chiba",
-                "throughDestJa": "千葉",
+                "throughDest": {
+                    "en": "Chiba",
+                    "ja": "千葉"
+                },
                 "type": "Local"
             },
             {
@@ -337,8 +353,10 @@
                 "startsHere": true,
                 "stops": [754, 757, 766],
                 "terminates": false,
-                "throughDestEn": "Chiba",
-                "throughDestJa": "千葉",
+                "throughDest": {
+                    "en": "Chiba",
+                    "ja": "千葉"
+                },
                 "type": "Local"
             },
             {
@@ -348,8 +366,10 @@
                 "startsHere": true,
                 "stops": [874, 877, 886],
                 "terminates": false,
-                "throughDestEn": "Chiba",
-                "throughDestJa": "千葉",
+                "throughDest": {
+                    "en": "Chiba",
+                    "ja": "千葉"
+                },
                 "type": "Local"
             },
             {
@@ -359,8 +379,10 @@
                 "startsHere": true,
                 "stops": [992, 995, 1011],
                 "terminates": false,
-                "throughDestEn": "Chiba",
-                "throughDestJa": "千葉",
+                "throughDest": {
+                    "en": "Chiba",
+                    "ja": "千葉"
+                },
                 "type": "Local"
             },
             {
@@ -370,8 +392,10 @@
                 "startsHere": true,
                 "stops": [1052, 1055, 1068],
                 "terminates": false,
-                "throughDestEn": "Chiba",
-                "throughDestJa": "千葉",
+                "throughDest": {
+                    "en": "Chiba",
+                    "ja": "千葉"
+                },
                 "type": "Local"
             },
             {
@@ -381,8 +405,10 @@
                 "startsHere": true,
                 "stops": [1291, 1294, 1317],
                 "terminates": false,
-                "throughDestEn": "Chiba",
-                "throughDestJa": "千葉",
+                "throughDest": {
+                    "en": "Chiba",
+                    "ja": "千葉"
+                },
                 "type": "Local"
             },
             {
@@ -644,8 +670,10 @@
                 "startsHere": true,
                 "stops": [412, 415, 431],
                 "terminates": false,
-                "throughDestEn": "Ofuna",
-                "throughDestJa": "大船",
+                "throughDest": {
+                    "en": "Ofuna",
+                    "ja": "大船"
+                },
                 "type": "Rapid"
             },
             {
@@ -655,8 +683,10 @@
                 "startsHere": true,
                 "stops": [442, 445, 458],
                 "terminates": false,
-                "throughDestEn": "Tokyo",
-                "throughDestJa": "東京",
+                "throughDest": {
+                    "en": "Tokyo",
+                    "ja": "東京"
+                },
                 "type": "Rapid"
             },
             {
@@ -666,8 +696,10 @@
                 "startsHere": true,
                 "stops": [457, 460, 468],
                 "terminates": false,
-                "throughDestEn": "Shinjuku",
-                "throughDestJa": "新宿",
+                "throughDest": {
+                    "en": "Shinjuku",
+                    "ja": "新宿"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -677,8 +709,10 @@
                 "startsHere": true,
                 "stops": [481, 484, 494],
                 "terminates": false,
-                "throughDestEn": "Ofuna",
-                "throughDestJa": "大船",
+                "throughDest": {
+                    "en": "Ofuna",
+                    "ja": "大船"
+                },
                 "type": "Rapid"
             },
             {
@@ -688,8 +722,10 @@
                 "startsHere": true,
                 "stops": [517, 520, 532],
                 "terminates": false,
-                "throughDestEn": "Chiba",
-                "throughDestJa": "千葉",
+                "throughDest": {
+                    "en": "Chiba",
+                    "ja": "千葉"
+                },
                 "type": "Local"
             },
             {
@@ -699,8 +735,10 @@
                 "startsHere": true,
                 "stops": [544, 547, 556],
                 "terminates": false,
-                "throughDestEn": "Zushi",
-                "throughDestJa": "逗子",
+                "throughDest": {
+                    "en": "Zushi",
+                    "ja": "逗子"
+                },
                 "type": "Rapid"
             },
             {
@@ -710,8 +748,10 @@
                 "startsHere": true,
                 "stops": [599, 602, 614],
                 "terminates": false,
-                "throughDestEn": "Zushi",
-                "throughDestJa": "逗子",
+                "throughDest": {
+                    "en": "Zushi",
+                    "ja": "逗子"
+                },
                 "type": "Rapid"
             },
             {
@@ -721,8 +761,10 @@
                 "startsHere": true,
                 "stops": [659, 662, 674],
                 "terminates": false,
-                "throughDestEn": "Zushi",
-                "throughDestJa": "逗子",
+                "throughDest": {
+                    "en": "Zushi",
+                    "ja": "逗子"
+                },
                 "type": "Rapid"
             },
             {
@@ -732,8 +774,10 @@
                 "startsHere": true,
                 "stops": [718, 721, 734],
                 "terminates": false,
-                "throughDestEn": "Zushi",
-                "throughDestJa": "逗子",
+                "throughDest": {
+                    "en": "Zushi",
+                    "ja": "逗子"
+                },
                 "type": "Rapid"
             },
             {
@@ -743,8 +787,10 @@
                 "startsHere": true,
                 "stops": [754, 757, 766],
                 "terminates": false,
-                "throughDestEn": "Chiba",
-                "throughDestJa": "千葉",
+                "throughDest": {
+                    "en": "Chiba",
+                    "ja": "千葉"
+                },
                 "type": "Local"
             },
             {
@@ -754,8 +800,10 @@
                 "startsHere": true,
                 "stops": [779, 782, 794],
                 "terminates": false,
-                "throughDestEn": "Zushi",
-                "throughDestJa": "逗子",
+                "throughDest": {
+                    "en": "Zushi",
+                    "ja": "逗子"
+                },
                 "type": "Rapid"
             },
             {
@@ -765,8 +813,10 @@
                 "startsHere": true,
                 "stops": [838, 841, 854],
                 "terminates": false,
-                "throughDestEn": "Zushi",
-                "throughDestJa": "逗子",
+                "throughDest": {
+                    "en": "Zushi",
+                    "ja": "逗子"
+                },
                 "type": "Rapid"
             },
             {
@@ -776,8 +826,10 @@
                 "startsHere": true,
                 "stops": [874, 877, 886],
                 "terminates": false,
-                "throughDestEn": "Chiba",
-                "throughDestJa": "千葉",
+                "throughDest": {
+                    "en": "Chiba",
+                    "ja": "千葉"
+                },
                 "type": "Local"
             },
             {
@@ -787,8 +839,10 @@
                 "startsHere": true,
                 "stops": [899, 902, 914],
                 "terminates": false,
-                "throughDestEn": "Zushi",
-                "throughDestJa": "逗子",
+                "throughDest": {
+                    "en": "Zushi",
+                    "ja": "逗子"
+                },
                 "type": "Rapid"
             },
             {
@@ -798,8 +852,10 @@
                 "startsHere": true,
                 "stops": [958, 961, 972],
                 "terminates": false,
-                "throughDestEn": "Zushi",
-                "throughDestJa": "逗子",
+                "throughDest": {
+                    "en": "Zushi",
+                    "ja": "逗子"
+                },
                 "type": "Rapid"
             },
             {
@@ -809,8 +865,10 @@
                 "startsHere": true,
                 "stops": [992, 995, 1011],
                 "terminates": false,
-                "throughDestEn": "Chiba",
-                "throughDestJa": "千葉",
+                "throughDest": {
+                    "en": "Chiba",
+                    "ja": "千葉"
+                },
                 "type": "Local"
             },
             {
@@ -820,8 +878,10 @@
                 "startsHere": true,
                 "stops": [1018, 1021, 1034],
                 "terminates": false,
-                "throughDestEn": "Kurihama",
-                "throughDestJa": "久里浜",
+                "throughDest": {
+                    "en": "Kurihama",
+                    "ja": "久里浜"
+                },
                 "type": "Rapid"
             },
             {
@@ -831,8 +891,10 @@
                 "startsHere": true,
                 "stops": [1052, 1055, 1068],
                 "terminates": false,
-                "throughDestEn": "Chiba",
-                "throughDestJa": "千葉",
+                "throughDest": {
+                    "en": "Chiba",
+                    "ja": "千葉"
+                },
                 "type": "Local"
             },
             {
@@ -842,8 +904,10 @@
                 "startsHere": true,
                 "stops": [1081, 1084, 1094],
                 "terminates": false,
-                "throughDestEn": "Kurihama",
-                "throughDestJa": "久里浜",
+                "throughDest": {
+                    "en": "Kurihama",
+                    "ja": "久里浜"
+                },
                 "type": "Rapid"
             },
             {
@@ -853,8 +917,10 @@
                 "startsHere": true,
                 "stops": [1113, 1116, 1126],
                 "terminates": false,
-                "throughDestEn": "Kurihama",
-                "throughDestJa": "久里浜",
+                "throughDest": {
+                    "en": "Kurihama",
+                    "ja": "久里浜"
+                },
                 "type": "Rapid"
             },
             {
@@ -864,8 +930,10 @@
                 "startsHere": true,
                 "stops": [1133, 1136, 1149],
                 "terminates": false,
-                "throughDestEn": "Tokyo",
-                "throughDestJa": "東京",
+                "throughDest": {
+                    "en": "Tokyo",
+                    "ja": "東京"
+                },
                 "type": "Rapid"
             },
             {
@@ -875,8 +943,10 @@
                 "startsHere": true,
                 "stops": [1177, 1180, 1189],
                 "terminates": false,
-                "throughDestEn": "Zushi",
-                "throughDestJa": "逗子",
+                "throughDest": {
+                    "en": "Zushi",
+                    "ja": "逗子"
+                },
                 "type": "Rapid"
             },
             {
@@ -886,8 +956,10 @@
                 "startsHere": true,
                 "stops": [1210, 1213, 1222],
                 "terminates": false,
-                "throughDestEn": "Kurihama",
-                "throughDestJa": "久里浜",
+                "throughDest": {
+                    "en": "Kurihama",
+                    "ja": "久里浜"
+                },
                 "type": "Rapid"
             },
             {
@@ -897,8 +969,10 @@
                 "startsHere": true,
                 "stops": [1228, 1231, 1241],
                 "terminates": false,
-                "throughDestEn": "Tokyo",
-                "throughDestJa": "東京",
+                "throughDest": {
+                    "en": "Tokyo",
+                    "ja": "東京"
+                },
                 "type": "Rapid"
             },
             {
@@ -908,8 +982,10 @@
                 "startsHere": true,
                 "stops": [1274, 1277, 1286],
                 "terminates": false,
-                "throughDestEn": "Tokyo",
-                "throughDestJa": "東京",
+                "throughDest": {
+                    "en": "Tokyo",
+                    "ja": "東京"
+                },
                 "type": "Rapid"
             },
             {
@@ -919,8 +995,10 @@
                 "startsHere": true,
                 "stops": [1291, 1294, 1317],
                 "terminates": false,
-                "throughDestEn": "Chiba",
-                "throughDestJa": "千葉",
+                "throughDest": {
+                    "en": "Chiba",
+                    "ja": "千葉"
+                },
                 "type": "Local"
             },
             {
@@ -930,11 +1008,13 @@
                 "startsHere": true,
                 "stops": [1330, 1333, 1342],
                 "terminates": false,
-                "throughDestEn": "Zushi",
-                "throughDestJa": "逗子",
+                "throughDest": {
+                    "en": "Zushi",
+                    "ja": "逗子"
+                },
                 "type": "Rapid"
             }
         ],
-        "upHopTimesMinutes": [9.0, 3.0]
+        "upHopTimesMinutes": [9, 3]
     }
 ]

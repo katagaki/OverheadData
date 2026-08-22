@@ -2,10 +2,14 @@
     {
         "colorHex": "#ED1A3D",
         "delayInfo": {
-            "checkMethodEn": "Check the Joshin Dentetsu website or its X account. Suspensions and delays are posted in the notices on the top page.",
-            "checkMethodJa": "上信電鉄の公式サイトまたはX（旧Twitter）で確認できます。運転見合わせ・遅延はトップページのお知らせに掲載されます。",
-            "statusPageURL": "https://www.joshin-dentetsu.co.jp/",
-            "statusPageURLEn": "https://www.joshin-dentetsu.co.jp/",
+            "checkMethod": {
+                "en": "Check the Joshin Dentetsu website or its X account. Suspensions and delays are posted in the notices on the top page.",
+                "ja": "上信電鉄の公式サイトまたはX（旧Twitter）で確認できます。運転見合わせ・遅延はトップページのお知らせに掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://www.joshin-dentetsu.co.jp/",
+                "ja": "https://www.joshin-dentetsu.co.jp/"
+            },
             "xAccount": "@joshindentetsu"
         },
         "directions": [
@@ -15,8 +19,10 @@
                 "id": "static.RailDirection:Joshin.Joshin.Shimonita",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Shimonita",
-                "nameJa": "下仁田方面",
+                "name": {
+                    "en": "For Shimonita",
+                    "ja": "下仁田方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -182,8 +188,10 @@
                 "id": "static.RailDirection:Joshin.Joshin.Takasaki",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Takasaki",
-                "nameJa": "高崎方面",
+                "name": {
+                    "en": "For Takasaki",
+                    "ja": "高崎方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -339,239 +347,266 @@
         "hopTimesMinutes": [2, 3, 2, 3, 2, 3, 4, 3, 3, 2, 3, 4, 3, 2, 2, 3, 3, 4, 3, 7],
         "id": "Railway:Joshin.Joshin",
         "isLoop": false,
-        "nameEn": "Joshin Dentetsu Joshin Line",
-        "nameJa": "上信電鉄上信線",
+        "name": {
+            "en": "Joshin Dentetsu Joshin Line",
+            "ja": "上信電鉄上信線",
+            "ko": "조신 전철 조신선",
+            "zh-Hans": "上信线",
+            "zh-Hant": "上信線"
+        },
         "operatorId": "Operator:Joshin",
         "stations": [
             {
                 "id": "Station:Joshin.Joshin.Takasaki",
                 "latitude": 36.322472,
                 "longitude": 139.012778,
-                "name": "高崎",
-                "nameEn": "Takasaki",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Takasaki",
+                    "ja": "高崎",
+                    "ko": "다카사키",
+                    "zh-Hans": "高崎",
+                    "zh-Hant": "高崎"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Joshin.Joshin.MinamiTakasaki",
                 "latitude": 36.312408,
                 "longitude": 139.012303,
-                "name": "南高崎",
-                "nameEn": "Minami-Takasaki",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Minami-Takasaki",
+                    "ja": "南高崎",
+                    "zh-Hans": "南高崎",
+                    "zh-Hant": "南高崎"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Joshin.Joshin.SanonoWatashi",
                 "latitude": 36.302389,
                 "longitude": 139.018139,
-                "name": "佐野のわたし",
-                "nameEn": "Sano-no-Watashi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Sano-no-Watashi",
+                    "ja": "佐野のわたし",
+                    "zh-Hans": "佐野之渡",
+                    "zh-Hant": "佐野渡口"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Joshin.Joshin.Negoya",
                 "latitude": 36.291428,
                 "longitude": 139.018761,
-                "name": "根小屋",
-                "nameEn": "Negoya",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Negoya",
+                    "ja": "根小屋",
+                    "zh-Hans": "根小屋",
+                    "zh-Hant": "根小屋"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Joshin.Joshin.TakasakiShokaDaigakumae",
                 "latitude": 36.284297,
                 "longitude": 139.029653,
-                "name": "高崎商科大学前",
-                "nameEn": "Takasaki Shoka Daigaku-mae",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Takasaki Shoka Daigaku-mae",
+                    "ja": "高崎商科大学前",
+                    "zh-Hans": "高崎商科大学前",
+                    "zh-Hant": "高崎商科大學前"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Joshin.Joshin.Yamana",
                 "latitude": 36.277667,
                 "longitude": 139.038225,
-                "name": "山名",
-                "nameEn": "Yamana",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Yamana",
+                    "ja": "山名",
+                    "zh-Hans": "山名",
+                    "zh-Hant": "山名"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Joshin.Joshin.NishiYamana",
                 "latitude": 36.270994,
                 "longitude": 139.032297,
-                "name": "西山名",
-                "nameEn": "Nishi-Yamana",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nishi-Yamana",
+                    "ja": "西山名",
+                    "zh-Hans": "西山名",
+                    "zh-Hant": "西山名"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Joshin.Joshin.Maniwa",
                 "latitude": 36.261492,
                 "longitude": 139.009139,
-                "name": "馬庭",
-                "nameEn": "Maniwa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Maniwa",
+                    "ja": "馬庭",
+                    "zh-Hans": "马庭",
+                    "zh-Hant": "馬庭"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Joshin.Joshin.Yoshii",
                 "latitude": 36.255967,
                 "longitude": 138.984603,
-                "name": "吉井",
-                "nameEn": "Yoshii",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Yoshii",
+                    "ja": "吉井",
+                    "zh-Hans": "吉井",
+                    "zh-Hant": "吉井"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Joshin.Joshin.NishiYoshii",
                 "latitude": 36.255728,
                 "longitude": 138.966114,
-                "name": "西吉井",
-                "nameEn": "Nishi-Yoshii",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nishi-Yoshii",
+                    "ja": "西吉井",
+                    "zh-Hans": "西吉井",
+                    "zh-Hant": "西吉井"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Joshin.Joshin.JoshuNia",
                 "latitude": 36.256111,
                 "longitude": 138.951667,
-                "name": "上州新屋",
-                "nameEn": "Joshu-Nia",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Joshu-Nia",
+                    "ja": "上州新屋",
+                    "zh-Hans": "上州新屋",
+                    "zh-Hant": "上州新屋"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Joshin.Joshin.JoshuFukushima",
                 "latitude": 36.256308,
                 "longitude": 138.929675,
-                "name": "上州福島",
-                "nameEn": "Joshu-Fukushima",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Joshu-Fukushima",
+                    "ja": "上州福島",
+                    "zh-Hans": "上州福岛",
+                    "zh-Hant": "上州福島"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Joshin.Joshin.HigashiTomioka",
                 "latitude": 36.260853,
                 "longitude": 138.901853,
-                "name": "東富岡",
-                "nameEn": "Higashi-Tomioka",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Higashi-Tomioka",
+                    "ja": "東富岡",
+                    "zh-Hans": "东富冈",
+                    "zh-Hant": "東富岡"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Joshin.Joshin.JoshuTomioka",
                 "latitude": 36.260317,
                 "longitude": 138.89225,
-                "name": "上州富岡",
-                "nameEn": "Joshu-Tomioka",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Joshu-Tomioka",
+                    "ja": "上州富岡",
+                    "zh-Hans": "上州富冈",
+                    "zh-Hant": "上州富岡"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Joshin.Joshin.NishiTomioka",
                 "latitude": 36.260122,
                 "longitude": 138.883197,
-                "name": "西富岡",
-                "nameEn": "Nishi-Tomioka",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nishi-Tomioka",
+                    "ja": "西富岡",
+                    "zh-Hans": "西富冈",
+                    "zh-Hant": "西富岡"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Joshin.Joshin.JoshuNanukaichi",
                 "latitude": 36.258597,
                 "longitude": 138.874672,
-                "name": "上州七日市",
-                "nameEn": "Joshu-Nanukaichi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Joshu-Nanukaichi",
+                    "ja": "上州七日市",
+                    "zh-Hans": "上州七日市",
+                    "zh-Hant": "上州七日市"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Joshin.Joshin.JoshuIchinomiya",
                 "latitude": 36.253086,
                 "longitude": 138.86375,
-                "name": "上州一ノ宮",
-                "nameEn": "Joshu-Ichinomiya",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Joshu-Ichinomiya",
+                    "ja": "上州一ノ宮",
+                    "zh-Hans": "上州一之宫",
+                    "zh-Hant": "上州一之宮"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Joshin.Joshin.Kanohara",
                 "latitude": 36.242733,
                 "longitude": 138.843894,
-                "name": "神農原",
-                "nameEn": "Kanohara",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kanohara",
+                    "ja": "神農原",
+                    "zh-Hans": "神农原",
+                    "zh-Hant": "神農原"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Joshin.Joshin.Nanjai",
                 "latitude": 36.238239,
                 "longitude": 138.8141,
-                "name": "南蛇井",
-                "nameEn": "Nanjai",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nanjai",
+                    "ja": "南蛇井",
+                    "zh-Hans": "南蛇井",
+                    "zh-Hant": "南蛇井"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Joshin.Joshin.Sendaira",
                 "latitude": 36.230331,
                 "longitude": 138.798933,
-                "name": "千平",
-                "nameEn": "Sendaira",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Sendaira",
+                    "ja": "千平",
+                    "zh-Hans": "千平",
+                    "zh-Hant": "千平"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Joshin.Joshin.Shimonita",
                 "latitude": 36.210557,
                 "longitude": 138.786188,
-                "name": "下仁田",
-                "nameEn": "Shimonita",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shimonita",
+                    "ja": "下仁田",
+                    "zh-Hans": "下仁田",
+                    "zh-Hant": "下仁田"
+                },
                 "stationCode": ""
             }
         ],

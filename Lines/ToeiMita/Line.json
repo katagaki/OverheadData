@@ -2,10 +2,14 @@
     {
         "colorHex": "#0079C2",
         "delayInfo": {
-            "checkMethodEn": "Check the Toei Transportation service information page, the Toei app, or X (@toeikotsu). Delays and suspensions are posted as they occur.",
-            "checkMethodJa": "都営交通「運行情報」ページ、都営交通アプリ、またはX（@toeikotsu）で確認できます。遅延・運転見合わせが発生した場合に掲載されます。",
-            "statusPageURL": "https://www.kotsu.metro.tokyo.jp/subway/schedule/mita.html",
-            "statusPageURLEn": "https://www.kotsu.metro.tokyo.jp/eng/operation_status/",
+            "checkMethod": {
+                "en": "Check the Toei Transportation service information page, the Toei app, or X (@toeikotsu). Delays and suspensions are posted as they occur.",
+                "ja": "都営交通「運行情報」ページ、都営交通アプリ、またはX（@toeikotsu）で確認できます。遅延・運転見合わせが発生した場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://www.kotsu.metro.tokyo.jp/eng/operation_status/",
+                "ja": "https://www.kotsu.metro.tokyo.jp/subway/schedule/mita.html"
+            },
             "xAccount": "@toeikotsu"
         },
         "directions": [
@@ -26,8 +30,10 @@
                     }
                 ],
                 "isAscending": true,
-                "nameEn": "For Nishi-takashimadaira",
-                "nameJa": "西高島平方面",
+                "name": {
+                    "en": "For Nishi-takashimadaira",
+                    "ja": "西高島平方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -109,8 +115,10 @@
                     }
                 ],
                 "isAscending": false,
-                "nameEn": "For Meguro",
-                "nameJa": "目黒方面",
+                "name": {
+                    "en": "For Meguro",
+                    "ja": "目黒方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -174,305 +182,361 @@
         "hopTimesMinutes": [2, 2, 2, 2, 1, 2, 2, 2, 2, 1, 2, 2, 2, 2, 2, 1, 2, 2, 2, 2, 2, 2, 1, 2, 2, 2],
         "id": "Railway:Toei.Mita",
         "isLoop": false,
-        "nameEn": "Toei Mita Line",
-        "nameJa": "都営三田線",
+        "name": {
+            "en": "Toei Mita Line",
+            "ja": "都営三田線"
+        },
         "operatorId": "Operator:Toei",
         "stations": [
             {
                 "id": "Station:Toei.Mita.Meguro",
                 "latitude": 35.632508,
                 "longitude": 139.715772,
-                "name": "目黒",
-                "nameEn": "Meguro",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Meguro",
+                    "ja": "目黒",
+                    "ko": "메구로",
+                    "zh-Hans": "目黑",
+                    "zh-Hant": "目黑"
+                },
                 "stationCode": "I01"
             },
             {
                 "id": "Station:Toei.Mita.Shirokanedai",
                 "latitude": 35.6376,
                 "longitude": 139.7263,
-                "name": "白金台",
-                "nameEn": "Shirokanedai",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shirokanedai",
+                    "ja": "白金台",
+                    "ko": "시로카네다이",
+                    "zh-Hans": "白金台",
+                    "zh-Hant": "白金台"
+                },
                 "stationCode": "I02"
             },
             {
                 "id": "Station:Toei.Mita.ShirokaneTakanawa",
                 "latitude": 35.6431,
                 "longitude": 139.7343,
-                "name": "白金高輪",
-                "nameEn": "Shirokane-takanawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shirokane-takanawa",
+                    "ja": "白金高輪",
+                    "ko": "시로카네타카나와",
+                    "zh-Hans": "白金高轮",
+                    "zh-Hant": "白金高輪"
+                },
                 "stationCode": "I03"
             },
             {
                 "id": "Station:Toei.Mita.Mita",
                 "latitude": 35.6484,
                 "longitude": 139.7476,
-                "name": "三田",
-                "nameEn": "Mita",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Mita",
+                    "ja": "三田",
+                    "ko": "미타",
+                    "zh-Hans": "三田",
+                    "zh-Hant": "三田"
+                },
                 "stationCode": "I04"
             },
             {
                 "id": "Station:Toei.Mita.Shibakoen",
                 "latitude": 35.6544,
                 "longitude": 139.7497,
-                "name": "芝公園",
-                "nameEn": "Shibakoen",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shibakoen",
+                    "ja": "芝公園",
+                    "ko": "시바코엔",
+                    "zh-Hans": "芝公园",
+                    "zh-Hant": "芝公園"
+                },
                 "stationCode": "I05"
             },
             {
                 "id": "Station:Toei.Mita.Onarimon",
                 "latitude": 35.6618,
                 "longitude": 139.7506,
-                "name": "御成門",
-                "nameEn": "Onarimon",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Onarimon",
+                    "ja": "御成門",
+                    "ko": "오나리몬",
+                    "zh-Hans": "御成门",
+                    "zh-Hant": "御成門"
+                },
                 "stationCode": "I06"
             },
             {
                 "id": "Station:Toei.Mita.Uchisaiwaicho",
                 "latitude": 35.6698,
                 "longitude": 139.7548,
-                "name": "内幸町",
-                "nameEn": "Uchisaiwaicho",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Uchisaiwaicho",
+                    "ja": "内幸町",
+                    "ko": "우치사이와이초",
+                    "zh-Hans": "内幸町",
+                    "zh-Hant": "內幸町"
+                },
                 "stationCode": "I07"
             },
             {
                 "id": "Station:Toei.Mita.Hibiya",
                 "latitude": 35.67624,
                 "longitude": 139.760197,
-                "name": "日比谷",
-                "nameEn": "Hibiya",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Hibiya",
+                    "ja": "日比谷",
+                    "ko": "히비야",
+                    "zh-Hans": "日比谷",
+                    "zh-Hant": "日比谷"
+                },
                 "stationCode": "I08"
             },
             {
                 "id": "Station:Toei.Mita.Otemachi",
                 "latitude": 35.684016,
                 "longitude": 139.762664,
-                "name": "大手町",
-                "nameEn": "Otemachi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Otemachi",
+                    "ja": "大手町",
+                    "ko": "오테마치",
+                    "zh-Hans": "大手町",
+                    "zh-Hant": "大手町"
+                },
                 "stationCode": "I09"
             },
             {
                 "id": "Station:Toei.Mita.Jimbocho",
                 "latitude": 35.6958,
                 "longitude": 139.7578,
-                "name": "神保町",
-                "nameEn": "Jimbocho",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Jimbocho",
+                    "ja": "神保町",
+                    "ko": "진보초",
+                    "zh-Hans": "神保町",
+                    "zh-Hant": "神保町"
+                },
                 "stationCode": "I10"
             },
             {
                 "id": "Station:Toei.Mita.Suidobashi",
                 "latitude": 35.703514,
                 "longitude": 139.755154,
-                "name": "水道橋",
-                "nameEn": "Suidobashi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Suidobashi",
+                    "ja": "水道橋",
+                    "ko": "스이도바시",
+                    "zh-Hans": "水道桥",
+                    "zh-Hant": "水道橋"
+                },
                 "stationCode": "I11"
             },
             {
                 "id": "Station:Toei.Mita.Kasuga",
                 "latitude": 35.70988,
                 "longitude": 139.753184,
-                "name": "春日",
-                "nameEn": "Kasuga",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kasuga",
+                    "ja": "春日",
+                    "ko": "가스가",
+                    "zh-Hans": "春日",
+                    "zh-Hant": "春日"
+                },
                 "stationCode": "I12"
             },
             {
                 "id": "Station:Toei.Mita.Hakusan",
                 "latitude": 35.7222,
                 "longitude": 139.7518,
-                "name": "白山",
-                "nameEn": "Hakusan",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Hakusan",
+                    "ja": "白山",
+                    "ko": "하쿠산",
+                    "zh-Hans": "白山",
+                    "zh-Hant": "白山"
+                },
                 "stationCode": "I13"
             },
             {
                 "id": "Station:Toei.Mita.Sengoku",
                 "latitude": 35.7282,
                 "longitude": 139.7448,
-                "name": "千石",
-                "nameEn": "Sengoku",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Sengoku",
+                    "ja": "千石",
+                    "ko": "센고쿠",
+                    "zh-Hans": "千石",
+                    "zh-Hant": "千石"
+                },
                 "stationCode": "I14"
             },
             {
                 "id": "Station:Toei.Mita.Sugamo",
                 "latitude": 35.7335,
                 "longitude": 139.7394,
-                "name": "巣鴨",
-                "nameEn": "Sugamo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Sugamo",
+                    "ja": "巣鴨",
+                    "ko": "스가모",
+                    "zh-Hans": "巢鸭",
+                    "zh-Hant": "巢鴨"
+                },
                 "stationCode": "I15"
             },
             {
                 "id": "Station:Toei.Mita.NishiSugamo",
                 "latitude": 35.743554,
                 "longitude": 139.728697,
-                "name": "西巣鴨",
-                "nameEn": "Nishi-sugamo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nishi-sugamo",
+                    "ja": "西巣鴨",
+                    "ko": "니시스가모",
+                    "zh-Hans": "西巢鸭",
+                    "zh-Hant": "西巢鴨"
+                },
                 "stationCode": "I16"
             },
             {
                 "id": "Station:Toei.Mita.ShinItabashi",
                 "latitude": 35.7478,
                 "longitude": 139.7192,
-                "name": "新板橋",
-                "nameEn": "Shin-itabashi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shin-itabashi",
+                    "ja": "新板橋",
+                    "ko": "신이타바시",
+                    "zh-Hans": "新板桥",
+                    "zh-Hant": "新板橋"
+                },
                 "stationCode": "I17"
             },
             {
                 "id": "Station:Toei.Mita.Itabashikuyakushomae",
                 "latitude": 35.7512,
                 "longitude": 139.7092,
-                "name": "板橋区役所前",
-                "nameEn": "Itabashikuyakushomae",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Itabashikuyakushomae",
+                    "ja": "板橋区役所前",
+                    "ko": "이타바시쿠야쿠쇼마에",
+                    "zh-Hans": "板桥区役所前",
+                    "zh-Hant": "板橋區役所前"
+                },
                 "stationCode": "I18"
             },
             {
                 "id": "Station:Toei.Mita.Itabashihoncho",
                 "latitude": 35.761431,
                 "longitude": 139.705525,
-                "name": "板橋本町",
-                "nameEn": "Itabashihoncho",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Itabashihoncho",
+                    "ja": "板橋本町",
+                    "ko": "이타바시혼초",
+                    "zh-Hans": "板桥本町",
+                    "zh-Hant": "板橋本町"
+                },
                 "stationCode": "I19"
             },
             {
                 "id": "Station:Toei.Mita.Motohasunuma",
                 "latitude": 35.768521,
                 "longitude": 139.702444,
-                "name": "本蓮沼",
-                "nameEn": "Motohasunuma",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Motohasunuma",
+                    "ja": "本蓮沼",
+                    "ko": "모토하스누마",
+                    "zh-Hans": "本莲沼",
+                    "zh-Hant": "本蓮沼"
+                },
                 "stationCode": "I20"
             },
             {
                 "id": "Station:Toei.Mita.ShimuraSakaue",
                 "latitude": 35.775669,
                 "longitude": 139.695529,
-                "name": "志村坂上",
-                "nameEn": "Shimura-sakaue",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shimura-sakaue",
+                    "ja": "志村坂上",
+                    "ko": "시무라사카우에",
+                    "zh-Hans": "志村坂上",
+                    "zh-Hant": "志村坂上"
+                },
                 "stationCode": "I21"
             },
             {
                 "id": "Station:Toei.Mita.ShimuraSanchome",
                 "latitude": 35.777511,
                 "longitude": 139.685997,
-                "name": "志村三丁目",
-                "nameEn": "Shimura-sanchome",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shimura-sanchome",
+                    "ja": "志村三丁目",
+                    "ko": "시무라 3초메",
+                    "zh-Hans": "志村三丁目",
+                    "zh-Hant": "志村三丁目"
+                },
                 "stationCode": "I22"
             },
             {
                 "id": "Station:Toei.Mita.Hasune",
                 "latitude": 35.784324,
                 "longitude": 139.679071,
-                "name": "蓮根",
-                "nameEn": "Hasune",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Hasune",
+                    "ja": "蓮根",
+                    "ko": "하스네",
+                    "zh-Hans": "莲根",
+                    "zh-Hant": "蓮根"
+                },
                 "stationCode": "I23"
             },
             {
                 "id": "Station:Toei.Mita.Nishidai",
                 "latitude": 35.786966,
                 "longitude": 139.674022,
-                "name": "西台",
-                "nameEn": "Nishidai",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nishidai",
+                    "ja": "西台",
+                    "ko": "니시다이",
+                    "zh-Hans": "西台",
+                    "zh-Hant": "西台"
+                },
                 "stationCode": "I24"
             },
             {
                 "id": "Station:Toei.Mita.Takashimadaira",
                 "latitude": 35.788913,
                 "longitude": 139.661255,
-                "name": "高島平",
-                "nameEn": "Takashimadaira",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Takashimadaira",
+                    "ja": "高島平",
+                    "ko": "다카시마다이라",
+                    "zh-Hans": "高岛平",
+                    "zh-Hant": "高島平"
+                },
                 "stationCode": "I25"
             },
             {
                 "id": "Station:Toei.Mita.ShinTakashimadaira",
                 "latitude": 35.790214,
                 "longitude": 139.654426,
-                "name": "新高島平",
-                "nameEn": "Shin-takashimadaira",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shin-takashimadaira",
+                    "ja": "新高島平",
+                    "ko": "신타카시마다이라",
+                    "zh-Hans": "新高岛平",
+                    "zh-Hant": "新高島平"
+                },
                 "stationCode": "I26"
             },
             {
                 "id": "Station:Toei.Mita.NishiTakashimadaira",
                 "latitude": 35.791911,
                 "longitude": 139.645772,
-                "name": "西高島平",
-                "nameEn": "Nishi-takashimadaira",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nishi-takashimadaira",
+                    "ja": "西高島平",
+                    "ko": "니시타카시마다이라",
+                    "zh-Hans": "西高岛平",
+                    "zh-Hant": "西高島平"
+                },
                 "stationCode": "I27"
             }
         ],
@@ -482,10 +546,14 @@
                 "connectingLineId": "Railway:Tokyu.Meguro",
                 "end": "descending",
                 "junctionStationId": "Station:Toei.Mita.Meguro",
-                "lineNameEn": "Tokyu Meguro & Shin-Yokohama Lines",
-                "lineNameJa": "東急目黒線・新横浜線",
-                "towardEn": "for Hiyoshi & Shin-Yokohama",
-                "towardJa": "日吉・新横浜方面"
+                "lineName": {
+                    "en": "Tokyu Meguro & Shin-Yokohama Lines",
+                    "ja": "東急目黒線・新横浜線"
+                },
+                "toward": {
+                    "en": "for Hiyoshi & Shin-Yokohama",
+                    "ja": "日吉・新横浜方面"
+                }
             }
         ]
     }

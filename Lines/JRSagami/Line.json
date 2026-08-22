@@ -2,10 +2,14 @@
     {
         "colorHex": "#008689",
         "delayInfo": {
-            "checkMethodEn": "Check the JR East Train Operation Information page or the JR East app. In the Tokyo area, delays or suspensions of 15 minutes or more are posted.",
-            "checkMethodJa": "JR東日本「列車運行情報」ページまたはJR東日本アプリで確認できます。首都圏エリアでは15分以上の遅れ・運休が発生または見込まれる場合に掲載されます。",
-            "statusPageURL": "https://traininfo.jreast.co.jp/train_info/line.aspx?gid=1&lineid=sagamiline",
-            "statusPageURLEn": "https://traininfo.jreast.co.jp/train_info/e/kanto.aspx",
+            "checkMethod": {
+                "en": "Check the JR East Train Operation Information page or the JR East app. In the Tokyo area, delays or suspensions of 15 minutes or more are posted.",
+                "ja": "JR東日本「列車運行情報」ページまたはJR東日本アプリで確認できます。首都圏エリアでは15分以上の遅れ・運休が発生または見込まれる場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://traininfo.jreast.co.jp/train_info/e/kanto.aspx",
+                "ja": "https://traininfo.jreast.co.jp/train_info/line.aspx?gid=1&lineid=sagamiline"
+            },
             "xAccount": "@JRE_F_Tokaido"
         },
         "directions": [
@@ -15,13 +19,15 @@
                 "id": "static.RailDirection:JR-East.Sagami.Hashimoto",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Hashimoto",
-                "nameJa": "橋本方面",
+                "name": {
+                    "en": "For Hashimoto",
+                    "ja": "橋本方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
                             "from": "04:42",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "05:00",
@@ -33,43 +39,43 @@
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 19.0
+                            "headwayMinutes": 19
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 18.0
+                            "headwayMinutes": 18
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 23.0
+                            "headwayMinutes": 23
                         },
                         {
                             "from": "12:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 17.0
+                            "headwayMinutes": 17
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 22.0
+                            "headwayMinutes": 22
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 19.0
+                            "headwayMinutes": 19
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "20:00",
-                            "headwayMinutes": 19.0
+                            "headwayMinutes": 19
                         },
                         {
                             "from": "21:00",
@@ -77,11 +83,11 @@
                         },
                         {
                             "from": "22:00",
-                            "headwayMinutes": 23.0
+                            "headwayMinutes": 23
                         },
                         {
                             "from": "23:00",
-                            "headwayMinutes": 35.0
+                            "headwayMinutes": 35
                         }
                     ],
                     "firstDeparture": "04:42",
@@ -92,7 +98,7 @@
                     "bands": [
                         {
                             "from": "04:42",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "05:00",
@@ -104,7 +110,7 @@
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "08:00",
@@ -112,27 +118,27 @@
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 23.0
+                            "headwayMinutes": 23
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 26.0
+                            "headwayMinutes": 26
                         },
                         {
                             "from": "11:00",
-                            "headwayMinutes": 24.0
+                            "headwayMinutes": 24
                         },
                         {
                             "from": "12:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 13.0
+                            "headwayMinutes": 13
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "19:00",
@@ -140,19 +146,19 @@
                         },
                         {
                             "from": "20:00",
-                            "headwayMinutes": 21.0
+                            "headwayMinutes": 21
                         },
                         {
                             "from": "21:00",
-                            "headwayMinutes": 32.0
+                            "headwayMinutes": 32
                         },
                         {
                             "from": "22:00",
-                            "headwayMinutes": 23.0
+                            "headwayMinutes": 23
                         },
                         {
                             "from": "23:00",
-                            "headwayMinutes": 35.0
+                            "headwayMinutes": 35
                         }
                     ],
                     "firstDeparture": "04:42",
@@ -166,21 +172,23 @@
                 "id": "static.RailDirection:JR-East.Sagami.Chigasaki",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Chigasaki",
-                "nameJa": "茅ケ崎方面",
+                "name": {
+                    "en": "For Chigasaki",
+                    "ja": "茅ケ崎方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
                             "from": "05:12",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 21.0
+                            "headwayMinutes": 21
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "08:00",
@@ -188,11 +196,11 @@
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 17.0
+                            "headwayMinutes": 17
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 22.0
+                            "headwayMinutes": 22
                         },
                         {
                             "from": "11:00",
@@ -200,31 +208,31 @@
                         },
                         {
                             "from": "12:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 21.0
+                            "headwayMinutes": 21
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 16.0
+                            "headwayMinutes": 16
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 19.0
+                            "headwayMinutes": 19
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 17.0
+                            "headwayMinutes": 17
                         },
                         {
                             "from": "20:00",
-                            "headwayMinutes": 22.0
+                            "headwayMinutes": 22
                         },
                         {
                             "from": "21:00",
-                            "headwayMinutes": 26.0
+                            "headwayMinutes": 26
                         },
                         {
                             "from": "22:00",
@@ -232,7 +240,7 @@
                         },
                         {
                             "from": "23:00",
-                            "headwayMinutes": 25.0
+                            "headwayMinutes": 25
                         }
                     ],
                     "firstDeparture": "05:12",
@@ -243,15 +251,15 @@
                     "bands": [
                         {
                             "from": "05:12",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 13.0
+                            "headwayMinutes": 13
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 16.0
+                            "headwayMinutes": 16
                         },
                         {
                             "from": "08:00",
@@ -259,27 +267,27 @@
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 24.0
+                            "headwayMinutes": 24
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 22.0
+                            "headwayMinutes": 22
                         },
                         {
                             "from": "11:00",
-                            "headwayMinutes": 19.0
+                            "headwayMinutes": 19
                         },
                         {
                             "from": "12:00",
-                            "headwayMinutes": 24.0
+                            "headwayMinutes": 24
                         },
                         {
                             "from": "13:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 21.0
+                            "headwayMinutes": 21
                         },
                         {
                             "from": "17:00",
@@ -287,15 +295,15 @@
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "20:00",
-                            "headwayMinutes": 16.0
+                            "headwayMinutes": 16
                         },
                         {
                             "from": "21:00",
-                            "headwayMinutes": 27.0
+                            "headwayMinutes": 27
                         },
                         {
                             "from": "22:00",
@@ -303,7 +311,7 @@
                         },
                         {
                             "from": "23:00",
-                            "headwayMinutes": 25.0
+                            "headwayMinutes": 25
                         }
                     ],
                     "firstDeparture": "05:12",
@@ -312,11 +320,16 @@
                 }
             }
         ],
-        "hopTimesMinutes": [2.0, 3.0, 3.0, 3.0, 3.0, 2.0, 3.0, 3.0, 4.0, 3.0, 3.0, 4.0, 2.0, 3.0, 2.0, 4.0, 3.0],
+        "hopTimesMinutes": [2, 3, 3, 3, 3, 2, 3, 3, 4, 3, 3, 4, 2, 3, 2, 4, 3],
         "id": "Railway:JR-East.Sagami",
         "isLoop": false,
-        "nameEn": "Sagami Line",
-        "nameJa": "相模線",
+        "name": {
+            "en": "Sagami Line",
+            "ja": "相模線",
+            "ko": "사가미선",
+            "zh-Hans": "相模线",
+            "zh-Hant": "相模線"
+        },
         "operatorId": "Operator:JR-East",
         "segment": "DokoTrain",
         "stations": [
@@ -324,198 +337,234 @@
                 "id": "Station:JR-East.Sagami.Chigasaki",
                 "latitude": 35.33068,
                 "longitude": 139.40702,
-                "name": "茅ケ崎",
-                "nameEn": "Chigasaki",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Chigasaki",
+                    "ja": "茅ケ崎",
+                    "ko": "지가사키",
+                    "zh-Hans": "茅崎",
+                    "zh-Hant": "茅崎"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Sagami.KitaChigasaki",
                 "latitude": 35.33968,
                 "longitude": 139.40747,
-                "name": "北茅ケ崎",
-                "nameEn": "Kita-Chigasaki",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kita-Chigasaki",
+                    "ja": "北茅ケ崎",
+                    "ko": "기타치가사키",
+                    "zh-Hans": "北茅崎",
+                    "zh-Hant": "北茅崎"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Sagami.Kagawa",
                 "latitude": 35.3566,
                 "longitude": 139.39983,
-                "name": "香川",
-                "nameEn": "Kagawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kagawa",
+                    "ja": "香川",
+                    "ko": "가가와",
+                    "zh-Hans": "香川",
+                    "zh-Hant": "香川"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Sagami.Samukawa",
                 "latitude": 35.3677,
                 "longitude": 139.38732,
-                "name": "寒川",
-                "nameEn": "Samukawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Samukawa",
+                    "ja": "寒川",
+                    "ko": "사무카와",
+                    "zh-Hans": "寒川",
+                    "zh-Hant": "寒川"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Sagami.Miyayama",
                 "latitude": 35.38222,
                 "longitude": 139.37966,
-                "name": "宮山",
-                "nameEn": "Miyayama",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Miyayama",
+                    "ja": "宮山",
+                    "ko": "미야야마",
+                    "zh-Hans": "宫山",
+                    "zh-Hant": "宮山"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Sagami.Kurami",
                 "latitude": 35.39506,
                 "longitude": 139.37838,
-                "name": "倉見",
-                "nameEn": "Kurami",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kurami",
+                    "ja": "倉見",
+                    "ko": "구라미",
+                    "zh-Hans": "仓见",
+                    "zh-Hant": "倉見"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Sagami.Kadosawabashi",
                 "latitude": 35.4067,
                 "longitude": 139.38006,
-                "name": "門沢橋",
-                "nameEn": "Kadosawabashi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kadosawabashi",
+                    "ja": "門沢橋",
+                    "ko": "가도사와바시",
+                    "zh-Hans": "门泽桥",
+                    "zh-Hant": "門澤橋"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Sagami.Shake",
                 "latitude": 35.42041,
                 "longitude": 139.37718,
-                "name": "社家",
-                "nameEn": "Shake",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shake",
+                    "ja": "社家",
+                    "ko": "샤케",
+                    "zh-Hans": "社家",
+                    "zh-Hant": "社家"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Sagami.Atsugi",
                 "latitude": 35.44382,
                 "longitude": 139.3786,
-                "name": "厚木",
-                "nameEn": "Atsugi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Atsugi",
+                    "ja": "厚木",
+                    "ko": "아쓰기",
+                    "zh-Hans": "厚木",
+                    "zh-Hant": "厚木"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Sagami.Ebina",
                 "latitude": 35.45423,
                 "longitude": 139.3893,
-                "name": "海老名",
-                "nameEn": "Ebina",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ebina",
+                    "ja": "海老名",
+                    "ko": "에비나",
+                    "zh-Hans": "海老名",
+                    "zh-Hant": "海老名"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Sagami.Iriya",
                 "latitude": 35.47838,
                 "longitude": 139.39187,
-                "name": "入谷",
-                "nameEn": "Iriya",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Iriya",
+                    "ja": "入谷",
+                    "ko": "이리야",
+                    "zh-Hans": "入谷",
+                    "zh-Hant": "入谷"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Sagami.Sobudaishita",
                 "latitude": 35.49278,
                 "longitude": 139.38632,
-                "name": "相武台下",
-                "nameEn": "Sobudaishita",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Sobudaishita",
+                    "ja": "相武台下",
+                    "ko": "소부다이시타",
+                    "zh-Hans": "相武台下",
+                    "zh-Hant": "相武台下"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Sagami.Shimomizo",
                 "latitude": 35.51832,
                 "longitude": 139.38051,
-                "name": "下溝",
-                "nameEn": "Shimomizo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shimomizo",
+                    "ja": "下溝",
+                    "ko": "시모미조",
+                    "zh-Hans": "下沟",
+                    "zh-Hant": "下溝"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Sagami.Harataima",
                 "latitude": 35.529,
                 "longitude": 139.37536,
-                "name": "原当麻",
-                "nameEn": "Harataima",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Harataima",
+                    "ja": "原当麻",
+                    "ko": "하라타이마",
+                    "zh-Hans": "原当麻",
+                    "zh-Hant": "原當麻"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Sagami.Banda",
                 "latitude": 35.54536,
                 "longitude": 139.36313,
-                "name": "番田",
-                "nameEn": "Banda",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Banda",
+                    "ja": "番田",
+                    "ko": "반다",
+                    "zh-Hans": "番田",
+                    "zh-Hant": "番田"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Sagami.Kamimizo",
                 "latitude": 35.55764,
                 "longitude": 139.36314,
-                "name": "上溝",
-                "nameEn": "Kamimizo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kamimizo",
+                    "ja": "上溝",
+                    "ko": "가미미조",
+                    "zh-Hans": "上沟",
+                    "zh-Hant": "上溝"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Sagami.MinamiHashimoto",
                 "latitude": 35.5804,
                 "longitude": 139.35242,
-                "name": "南橋本",
-                "nameEn": "Minami-Hashimoto",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Minami-Hashimoto",
+                    "ja": "南橋本",
+                    "ko": "미나미하시모토",
+                    "zh-Hans": "南桥本",
+                    "zh-Hant": "南橋本"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Sagami.Hashimoto",
                 "latitude": 35.59484,
                 "longitude": 139.3451,
-                "name": "橋本",
-                "nameEn": "Hashimoto",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Hashimoto",
+                    "ja": "橋本",
+                    "ko": "하시모토",
+                    "zh-Hans": "桥本",
+                    "zh-Hant": "橋本"
+                },
                 "stationCode": ""
             }
         ],
@@ -2701,6 +2750,6 @@
                 "type": "Local"
             }
         ],
-        "upHopTimesMinutes": [3.0, 3.0, 2.0, 3.0, 2.0, 2.0, 3.0, 4.0, 3.0, 5.0, 2.0, 3.0, 2.0, 3.0, 5.0, 3.0, 3.0]
+        "upHopTimesMinutes": [3, 3, 2, 3, 2, 2, 3, 4, 3, 5, 2, 3, 2, 3, 5, 3, 3]
     }
 ]

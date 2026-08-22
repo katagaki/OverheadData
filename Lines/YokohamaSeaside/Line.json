@@ -2,10 +2,14 @@
     {
         "colorHex": "#004EA2",
         "delayInfo": {
-            "checkMethodEn": "Check the Yokohama Seaside Line service information page. Delays and suspensions are posted as they occur.",
-            "checkMethodJa": "横浜シーサイドライン「運行情報」ページで確認できます。遅延・運転見合わせが発生した場合に掲載されます。",
-            "statusPageURL": "https://www.seasideline.co.jp/",
-            "statusPageURLEn": "https://www.seasideline.co.jp/",
+            "checkMethod": {
+                "en": "Check the Yokohama Seaside Line service information page. Delays and suspensions are posted as they occur.",
+                "ja": "横浜シーサイドライン「運行情報」ページで確認できます。遅延・運転見合わせが発生した場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://www.seasideline.co.jp/",
+                "ja": "https://www.seasideline.co.jp/"
+            },
             "xAccount": null
         },
         "directions": [
@@ -15,25 +19,27 @@
                 "id": "static.RailDirection:YokohamaSeaside.KanazawaSeaside.SL14",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Kanazawa-hakkei",
-                "nameJa": "金沢八景方面",
+                "name": {
+                    "en": "For Kanazawa-hakkei",
+                    "ja": "金沢八景方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
                             "from": "05:13",
-                            "headwayMinutes": 14.0
+                            "headwayMinutes": 14
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 10.0
+                            "headwayMinutes": 10
                         },
                         {
                             "from": "22:00",
-                            "headwayMinutes": 12.0
+                            "headwayMinutes": 12
                         },
                         {
                             "from": "23:00",
-                            "headwayMinutes": 16.0
+                            "headwayMinutes": 16
                         }
                     ],
                     "firstDeparture": "05:13",
@@ -44,39 +50,39 @@
                     "bands": [
                         {
                             "from": "05:13",
-                            "headwayMinutes": 12.0
+                            "headwayMinutes": 12
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 6.0
+                            "headwayMinutes": 6
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 4.0
+                            "headwayMinutes": 4
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 5.0
+                            "headwayMinutes": 5
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 10.0
+                            "headwayMinutes": 10
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 4.0
+                            "headwayMinutes": 4
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 5.0
+                            "headwayMinutes": 5
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 4.0
+                            "headwayMinutes": 4
                         },
                         {
                             "from": "20:00",
-                            "headwayMinutes": 9.0
+                            "headwayMinutes": 9
                         },
                         {
                             "from": "21:00",
@@ -84,7 +90,7 @@
                         },
                         {
                             "from": "22:00",
-                            "headwayMinutes": 11.0
+                            "headwayMinutes": 11
                         },
                         {
                             "from": "23:00",
@@ -102,21 +108,23 @@
                 "id": "static.RailDirection:YokohamaSeaside.KanazawaSeaside.SL01",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Shin-Sugita",
-                "nameJa": "新杉田方面",
+                "name": {
+                    "en": "For Shin-Sugita",
+                    "ja": "新杉田方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
                             "from": "04:55",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "05:00",
-                            "headwayMinutes": 12.0
+                            "headwayMinutes": 12
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 10.0
+                            "headwayMinutes": 10
                         },
                         {
                             "from": "22:00",
@@ -124,7 +132,7 @@
                         },
                         {
                             "from": "23:00",
-                            "headwayMinutes": 8.0
+                            "headwayMinutes": 8
                         }
                     ],
                     "firstDeparture": "04:55",
@@ -135,15 +143,15 @@
                     "bands": [
                         {
                             "from": "04:55",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "05:00",
-                            "headwayMinutes": 8.0
+                            "headwayMinutes": 8
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 6.0
+                            "headwayMinutes": 6
                         },
                         {
                             "from": "07:00",
@@ -151,27 +159,27 @@
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 5.0
+                            "headwayMinutes": 5
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 10.0
+                            "headwayMinutes": 10
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 5.0
+                            "headwayMinutes": 5
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 4.0
+                            "headwayMinutes": 4
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 5.0
+                            "headwayMinutes": 5
                         },
                         {
                             "from": "20:00",
-                            "headwayMinutes": 10.0
+                            "headwayMinutes": 10
                         },
                         {
                             "from": "22:00",
@@ -188,165 +196,198 @@
                 }
             }
         ],
-        "hopTimesMinutes": [3.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 3.0, 3.0, 1.0, 2.0, 2.0, 3.0],
+        "hopTimesMinutes": [3, 2, 2, 2, 2, 2, 2, 3, 3, 1, 2, 2, 3],
         "id": "Railway:YokohamaSeaside.KanazawaSeaside",
         "isLoop": false,
-        "nameEn": "Kanazawa Seaside Line",
-        "nameJa": "金沢シーサイドライン",
+        "name": {
+            "en": "Kanazawa Seaside Line",
+            "ja": "金沢シーサイドライン",
+            "ko": "요코하마 시사이드라인 가나자와 시사이드라인",
+            "zh-Hans": "金泽海岸线",
+            "zh-Hant": "金澤海岸線"
+        },
         "operatorId": "Operator:YokohamaSeaside",
         "stations": [
             {
                 "id": "Station:YokohamaSeaside.KanazawaSeaside.SL01",
                 "latitude": 35.385725,
                 "longitude": 139.620828,
-                "name": "新杉田",
-                "nameEn": "Shin-Sugita",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shin-Sugita",
+                    "ja": "新杉田",
+                    "ko": "신스기타",
+                    "zh-Hans": "新杉田",
+                    "zh-Hant": "新杉田"
+                },
                 "stationCode": "SL01"
             },
             {
                 "id": "Station:YokohamaSeaside.KanazawaSeaside.SL02",
                 "latitude": 35.380221,
                 "longitude": 139.63324,
-                "name": "南部市場",
-                "nameEn": "Nambu-Shijo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nambu-Shijo",
+                    "ja": "南部市場",
+                    "ko": "난부시조",
+                    "zh-Hans": "南部市场",
+                    "zh-Hant": "南部市場"
+                },
                 "stationCode": "SL02"
             },
             {
                 "id": "Station:YokohamaSeaside.KanazawaSeaside.SL03",
                 "latitude": 35.377073,
                 "longitude": 139.641761,
-                "name": "鳥浜",
-                "nameEn": "Torihama",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Torihama",
+                    "ja": "鳥浜",
+                    "ko": "도리하마",
+                    "zh-Hans": "鸟滨",
+                    "zh-Hant": "鳥濱"
+                },
                 "stationCode": "SL03"
             },
             {
                 "id": "Station:YokohamaSeaside.KanazawaSeaside.SL04",
                 "latitude": 35.371886,
                 "longitude": 139.64275,
-                "name": "並木北",
-                "nameEn": "Namiki-Kita",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Namiki-Kita",
+                    "ja": "並木北",
+                    "ko": "나미키키타",
+                    "zh-Hans": "并木北",
+                    "zh-Hant": "並木北"
+                },
                 "stationCode": "SL04"
             },
             {
                 "id": "Station:YokohamaSeaside.KanazawaSeaside.SL05",
                 "latitude": 35.365433,
                 "longitude": 139.643033,
-                "name": "並木中央",
-                "nameEn": "Namiki-Chuo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Namiki-Chuo",
+                    "ja": "並木中央",
+                    "ko": "나미키추오",
+                    "zh-Hans": "并木中央",
+                    "zh-Hant": "並木中央"
+                },
                 "stationCode": "SL05"
             },
             {
                 "id": "Station:YokohamaSeaside.KanazawaSeaside.SL06",
                 "latitude": 35.358351,
                 "longitude": 139.643778,
-                "name": "幸浦",
-                "nameEn": "Sachiura",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Sachiura",
+                    "ja": "幸浦",
+                    "ko": "사치우라",
+                    "zh-Hans": "幸浦",
+                    "zh-Hant": "幸浦"
+                },
                 "stationCode": "SL06"
             },
             {
                 "id": "Station:YokohamaSeaside.KanazawaSeaside.SL07",
                 "latitude": 35.353457,
                 "longitude": 139.646306,
-                "name": "産業振興センター",
-                "nameEn": "Sangyoshinko Center",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Sangyoshinko Center",
+                    "ja": "産業振興センター",
+                    "ko": "산교신코센터",
+                    "zh-Hans": "产业振兴中心",
+                    "zh-Hant": "產業振興中心"
+                },
                 "stationCode": "SL07"
             },
             {
                 "id": "Station:YokohamaSeaside.KanazawaSeaside.SL08",
                 "latitude": 35.349664,
                 "longitude": 139.648592,
-                "name": "福浦",
-                "nameEn": "Fukuura",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Fukuura",
+                    "ja": "福浦",
+                    "ko": "후쿠우라",
+                    "zh-Hans": "福浦",
+                    "zh-Hant": "福浦"
+                },
                 "stationCode": "SL08"
             },
             {
                 "id": "Station:YokohamaSeaside.KanazawaSeaside.SL09",
                 "latitude": 35.34395,
                 "longitude": 139.650195,
-                "name": "市大医学部",
-                "nameEn": "Shidai-Igakubu",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shidai-Igakubu",
+                    "ja": "市大医学部",
+                    "ko": "시다이이가쿠부",
+                    "zh-Hans": "市大医学部",
+                    "zh-Hant": "市大醫學部"
+                },
                 "stationCode": "SL09"
             },
             {
                 "id": "Station:YokohamaSeaside.KanazawaSeaside.SL10",
                 "latitude": 35.340822,
                 "longitude": 139.640782,
-                "name": "八景島",
-                "nameEn": "Hakkeijima",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Hakkeijima",
+                    "ja": "八景島",
+                    "ko": "핫케이지마",
+                    "zh-Hans": "八景岛",
+                    "zh-Hant": "八景島"
+                },
                 "stationCode": "SL10"
             },
             {
                 "id": "Station:YokohamaSeaside.KanazawaSeaside.SL11",
                 "latitude": 35.342107,
                 "longitude": 139.635952,
-                "name": "海の公園柴口",
-                "nameEn": "Uminokoen-Shibaguchi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Uminokoen-Shibaguchi",
+                    "ja": "海の公園柴口",
+                    "ko": "우미노코엔시바구치",
+                    "zh-Hans": "海之公园柴口",
+                    "zh-Hant": "海之公園柴口"
+                },
                 "stationCode": "SL11"
             },
             {
                 "id": "Station:YokohamaSeaside.KanazawaSeaside.SL12",
                 "latitude": 35.337142,
                 "longitude": 139.632088,
-                "name": "海の公園南口",
-                "nameEn": "Uminokoen-Minamiguchi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Uminokoen-Minamiguchi",
+                    "ja": "海の公園南口",
+                    "ko": "우미노코엔미나미구치",
+                    "zh-Hans": "海之公园南口",
+                    "zh-Hant": "海之公園南口"
+                },
                 "stationCode": "SL12"
             },
             {
                 "id": "Station:YokohamaSeaside.KanazawaSeaside.SL13",
                 "latitude": 35.330527,
                 "longitude": 139.631556,
-                "name": "野島公園",
-                "nameEn": "Nojimakoen",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nojimakoen",
+                    "ja": "野島公園",
+                    "ko": "노지마코엔",
+                    "zh-Hans": "野岛公园",
+                    "zh-Hant": "野島公園"
+                },
                 "stationCode": "SL13"
             },
             {
                 "id": "Station:YokohamaSeaside.KanazawaSeaside.SL14",
                 "latitude": 35.331568,
                 "longitude": 139.620894,
-                "name": "金沢八景",
-                "nameEn": "Kanazawa-hakkei",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kanazawa-hakkei",
+                    "ja": "金沢八景",
+                    "ko": "가나자와핫케이",
+                    "zh-Hans": "金泽八景",
+                    "zh-Hant": "金澤八景"
+                },
                 "stationCode": "SL14"
             }
         ],
@@ -5313,6 +5354,6 @@
                 "type": "Local"
             }
         ],
-        "upHopTimesMinutes": [3.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 3.0, 2.0, 2.0, 2.0, 3.0]
+        "upHopTimesMinutes": [3, 2, 2, 2, 2, 2, 2, 2, 3, 2, 2, 2, 3]
     }
 ]

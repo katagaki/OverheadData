@@ -2,10 +2,14 @@
     {
         "colorHex": "#00AA8E",
         "delayInfo": {
-            "checkMethodEn": "Check the Tokyu train operation information page, the Tokyu Lines app, or X (@tokyu_official). Delays or suspensions of 15 minutes or more are posted.",
-            "checkMethodJa": "東急電鉄「運行情報」ページ、東急線アプリ、またはX（@tokyu_official）で確認できます。15分以上の遅れ・運転見合わせが発生または見込まれる場合に掲載されます。",
-            "statusPageURL": "https://www.tokyu.co.jp/unten2/unten.html",
-            "statusPageURLEn": "https://www.tokyu.co.jp/unten2/unten.html",
+            "checkMethod": {
+                "en": "Check the Tokyu train operation information page, the Tokyu Lines app, or X (@tokyu_official). Delays or suspensions of 15 minutes or more are posted.",
+                "ja": "東急電鉄「運行情報」ページ、東急線アプリ、またはX（@tokyu_official）で確認できます。15分以上の遅れ・運転見合わせが発生または見込まれる場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://www.tokyu.co.jp/unten2/unten.html",
+                "ja": "https://www.tokyu.co.jp/unten2/unten.html"
+            },
             "xAccount": "@tokyu_official"
         },
         "directions": [
@@ -1126,8 +1130,10 @@
                 "id": "static.RailDirection:Tokyu.DenEnToshi.ChuoRinkan",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Chuo-Rinkan",
-                "nameJa": "中央林間方面",
+                "name": {
+                    "en": "For Chuo-Rinkan",
+                    "ja": "中央林間方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -2422,8 +2428,10 @@
                 "id": "static.RailDirection:Tokyu.DenEnToshi.Shibuya",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Shibuya & Otemachi",
-                "nameJa": "渋谷・大手町方面",
+                "name": {
+                    "en": "For Shibuya & Otemachi",
+                    "ja": "渋谷・大手町方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -2483,305 +2491,364 @@
         "hopTimesMinutes": [2.5, 2, 2, 3, 2, 3, 2, 1, 2, 2, 2, 2, 2.5, 3.5, 2, 2, 2, 2, 2, 2, 3, 3.5, 2, 2, 2, 3],
         "id": "Railway:Tokyu.DenEnToshi",
         "isLoop": false,
-        "nameEn": "Tokyu Den-en-toshi Line",
-        "nameJa": "東急田園都市線",
+        "name": {
+            "en": "Tokyu Den-en-toshi Line",
+            "ja": "東急田園都市線",
+            "ko": "도쿄 급행 전철 덴엔토시 선",
+            "zh-Hans": "田园都市线",
+            "zh-Hant": "田園都市線"
+        },
         "operatorId": "Operator:Tokyu",
         "stations": [
             {
                 "id": "Station:Tokyu.DenEnToshi.Shibuya",
                 "latitude": 35.659501,
                 "longitude": 139.701972,
-                "name": "渋谷",
-                "nameEn": "Shibuya",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shibuya",
+                    "ja": "渋谷",
+                    "ko": "시부야",
+                    "zh-Hans": "涩谷",
+                    "zh-Hant": "澀谷"
+                },
                 "stationCode": "DT01"
             },
             {
                 "id": "Station:Tokyu.DenEnToshi.IkejiriOhashi",
                 "latitude": 35.650763,
                 "longitude": 139.684772,
-                "name": "池尻大橋",
-                "nameEn": "Ikejiri-ohashi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ikejiri-ohashi",
+                    "ja": "池尻大橋",
+                    "ko": "이케지리오하시",
+                    "zh-Hans": "池尻大桥",
+                    "zh-Hant": "池尻大橋"
+                },
                 "stationCode": "DT02"
             },
             {
                 "id": "Station:Tokyu.DenEnToshi.Sangenjaya",
                 "latitude": 35.6435,
                 "longitude": 139.6706,
-                "name": "三軒茶屋",
-                "nameEn": "Sangen-jaya",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Sangen-jaya",
+                    "ja": "三軒茶屋",
+                    "ko": "산겐자야",
+                    "zh-Hans": "三轩茶屋",
+                    "zh-Hant": "三軒茶屋"
+                },
                 "stationCode": "DT03"
             },
             {
                 "id": "Station:Tokyu.DenEnToshi.KomazawaDaigaku",
                 "latitude": 35.633193,
                 "longitude": 139.661156,
-                "name": "駒沢大学",
-                "nameEn": "Komazawa-daigaku",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Komazawa-daigaku",
+                    "ja": "駒沢大学",
+                    "ko": "고마자와 대학",
+                    "zh-Hans": "驹泽大学",
+                    "zh-Hant": "駒澤大學"
+                },
                 "stationCode": "DT04"
             },
             {
                 "id": "Station:Tokyu.DenEnToshi.SakuraShimmachi",
                 "latitude": 35.631724,
                 "longitude": 139.645369,
-                "name": "桜新町",
-                "nameEn": "Sakura-shimmachi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Sakura-shimmachi",
+                    "ja": "桜新町",
+                    "ko": "사쿠라신마치",
+                    "zh-Hans": "樱新町",
+                    "zh-Hant": "櫻新町"
+                },
                 "stationCode": "DT05"
             },
             {
                 "id": "Station:Tokyu.DenEnToshi.Yoga",
                 "latitude": 35.626,
                 "longitude": 139.633,
-                "name": "用賀",
-                "nameEn": "Yoga",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Yoga",
+                    "ja": "用賀",
+                    "ko": "요가",
+                    "zh-Hans": "用贺",
+                    "zh-Hant": "用賀"
+                },
                 "stationCode": "DT06"
             },
             {
                 "id": "Station:Tokyu.DenEnToshi.FutakoTamagawa",
                 "latitude": 35.612,
                 "longitude": 139.6265,
-                "name": "二子玉川",
-                "nameEn": "Futako-tamagawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Futako-tamagawa",
+                    "ja": "二子玉川",
+                    "ko": "후타코타마가와",
+                    "zh-Hans": "二子玉川",
+                    "zh-Hant": "二子玉川"
+                },
                 "stationCode": "DT07"
             },
             {
                 "id": "Station:Tokyu.DenEnToshi.FutakoShinchi",
                 "latitude": 35.607197,
                 "longitude": 139.622446,
-                "name": "二子新地",
-                "nameEn": "Futako-shinchi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Futako-shinchi",
+                    "ja": "二子新地",
+                    "ko": "후타코신치",
+                    "zh-Hans": "二子新地",
+                    "zh-Hant": "二子新地"
+                },
                 "stationCode": "DT08"
             },
             {
                 "id": "Station:Tokyu.DenEnToshi.Takatsu",
                 "latitude": 35.603179,
                 "longitude": 139.616964,
-                "name": "高津",
-                "nameEn": "Takatsu",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Takatsu",
+                    "ja": "高津",
+                    "ko": "다카쓰",
+                    "zh-Hans": "高津",
+                    "zh-Hant": "高津"
+                },
                 "stationCode": "DT09"
             },
             {
                 "id": "Station:Tokyu.DenEnToshi.Mizonokuchi",
                 "latitude": 35.5998,
                 "longitude": 139.6103,
-                "name": "溝の口",
-                "nameEn": "Mizonokuchi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Mizonokuchi",
+                    "ja": "溝の口",
+                    "ko": "미조노쿠치",
+                    "zh-Hans": "沟之口",
+                    "zh-Hant": "溝之口"
+                },
                 "stationCode": "DT10"
             },
             {
                 "id": "Station:Tokyu.DenEnToshi.Kajigaya",
                 "latitude": 35.593651,
                 "longitude": 139.605479,
-                "name": "梶が谷",
-                "nameEn": "Kajigaya",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kajigaya",
+                    "ja": "梶が谷",
+                    "ko": "가지가야",
+                    "zh-Hans": "梶谷",
+                    "zh-Hant": "梶谷"
+                },
                 "stationCode": "DT11"
             },
             {
                 "id": "Station:Tokyu.DenEnToshi.Miyazakidai",
                 "latitude": 35.587053,
                 "longitude": 139.591125,
-                "name": "宮崎台",
-                "nameEn": "Miyazakidai",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Miyazakidai",
+                    "ja": "宮崎台",
+                    "ko": "미야자키다이",
+                    "zh-Hans": "宫崎台",
+                    "zh-Hant": "宮崎台"
+                },
                 "stationCode": "DT12"
             },
             {
                 "id": "Station:Tokyu.DenEnToshi.Miyamaedaira",
                 "latitude": 35.584962,
                 "longitude": 139.582039,
-                "name": "宮前平",
-                "nameEn": "Miyamaedaira",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Miyamaedaira",
+                    "ja": "宮前平",
+                    "ko": "미야마에다이라",
+                    "zh-Hans": "宫前平",
+                    "zh-Hant": "宮前平"
+                },
                 "stationCode": "DT13"
             },
             {
                 "id": "Station:Tokyu.DenEnToshi.Saginuma",
                 "latitude": 35.579444,
                 "longitude": 139.572855,
-                "name": "鷺沼",
-                "nameEn": "Saginuma",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Saginuma",
+                    "ja": "鷺沼",
+                    "ko": "사기누마",
+                    "zh-Hans": "鹭沼",
+                    "zh-Hant": "鷺沼"
+                },
                 "stationCode": "DT14"
             },
             {
                 "id": "Station:Tokyu.DenEnToshi.TamaPlaza",
                 "latitude": 35.577527,
                 "longitude": 139.558874,
-                "name": "たまプラーザ",
-                "nameEn": "Tama-plaza",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tama-plaza",
+                    "ja": "たまプラーザ",
+                    "ko": "다마 플라자",
+                    "zh-Hans": "多摩广场",
+                    "zh-Hant": "多摩廣場"
+                },
                 "stationCode": "DT15"
             },
             {
                 "id": "Station:Tokyu.DenEnToshi.Azamino",
                 "latitude": 35.568678,
                 "longitude": 139.55343,
-                "name": "あざみ野",
-                "nameEn": "Azamino",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Azamino",
+                    "ja": "あざみ野",
+                    "ko": "아자미노",
+                    "zh-Hans": "蓟野",
+                    "zh-Hant": "薊野"
+                },
                 "stationCode": "DT16"
             },
             {
                 "id": "Station:Tokyu.DenEnToshi.Eda",
                 "latitude": 35.558575,
                 "longitude": 139.551454,
-                "name": "江田",
-                "nameEn": "Eda",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Eda",
+                    "ja": "江田",
+                    "ko": "에다",
+                    "zh-Hans": "江田",
+                    "zh-Hant": "江田"
+                },
                 "stationCode": "DT17"
             },
             {
                 "id": "Station:Tokyu.DenEnToshi.Ichigao",
                 "latitude": 35.551348,
                 "longitude": 139.541281,
-                "name": "市が尾",
-                "nameEn": "Ichigao",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ichigao",
+                    "ja": "市が尾",
+                    "ko": "이치가오",
+                    "zh-Hans": "市尾",
+                    "zh-Hant": "市尾"
+                },
                 "stationCode": "DT18"
             },
             {
                 "id": "Station:Tokyu.DenEnToshi.Fujigaoka",
                 "latitude": 35.543498,
                 "longitude": 139.527979,
-                "name": "藤が丘",
-                "nameEn": "Fujigaoka",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Fujigaoka",
+                    "ja": "藤が丘",
+                    "ko": "후지가오카",
+                    "zh-Hans": "藤丘",
+                    "zh-Hant": "藤丘"
+                },
                 "stationCode": "DT19"
             },
             {
                 "id": "Station:Tokyu.DenEnToshi.Aobadai",
                 "latitude": 35.542878,
                 "longitude": 139.517231,
-                "name": "青葉台",
-                "nameEn": "Aobadai",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Aobadai",
+                    "ja": "青葉台",
+                    "ko": "아오바다이",
+                    "zh-Hans": "青叶台",
+                    "zh-Hant": "青葉台"
+                },
                 "stationCode": "DT20"
             },
             {
                 "id": "Station:Tokyu.DenEnToshi.Tana",
                 "latitude": 35.536257,
                 "longitude": 139.504908,
-                "name": "田奈",
-                "nameEn": "Tana",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tana",
+                    "ja": "田奈",
+                    "ko": "다나",
+                    "zh-Hans": "田奈",
+                    "zh-Hant": "田奈"
+                },
                 "stationCode": "DT21"
             },
             {
                 "id": "Station:Tokyu.DenEnToshi.Nagatsuta",
                 "latitude": 35.5318,
                 "longitude": 139.4944,
-                "name": "長津田",
-                "nameEn": "Nagatsuta",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nagatsuta",
+                    "ja": "長津田",
+                    "ko": "나가쓰타",
+                    "zh-Hans": "长津田",
+                    "zh-Hant": "長津田"
+                },
                 "stationCode": "DT22"
             },
             {
                 "id": "Station:Tokyu.DenEnToshi.Tsukushino",
                 "latitude": 35.527637,
                 "longitude": 139.48511,
-                "name": "つくし野",
-                "nameEn": "Tsukushino",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tsukushino",
+                    "ja": "つくし野",
+                    "ko": "쓰쿠시노",
+                    "zh-Hans": "筑紫野",
+                    "zh-Hant": "筑紫野"
+                },
                 "stationCode": "DT23"
             },
             {
                 "id": "Station:Tokyu.DenEnToshi.Suzukakedai",
                 "latitude": 35.516911,
                 "longitude": 139.481437,
-                "name": "すずかけ台",
-                "nameEn": "Suzukakedai",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Suzukakedai",
+                    "ja": "すずかけ台",
+                    "ko": "스즈카케다이",
+                    "zh-Hans": "铃悬台",
+                    "zh-Hant": "鈴懸台"
+                },
                 "stationCode": "DT24"
             },
             {
                 "id": "Station:Tokyu.DenEnToshi.MinamiMachida",
                 "latitude": 35.511501,
                 "longitude": 139.470791,
-                "name": "南町田グランベリーパーク",
-                "nameEn": "Minami-machida Grandberry Park",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Minami-machida Grandberry Park",
+                    "ja": "南町田グランベリーパーク",
+                    "ko": "미나미마치다",
+                    "zh-Hans": "南町田",
+                    "zh-Hant": "南町田"
+                },
                 "stationCode": "DT25"
             },
             {
                 "id": "Station:Tokyu.DenEnToshi.Tsukimino",
                 "latitude": 35.51039,
                 "longitude": 139.458272,
-                "name": "つきみ野",
-                "nameEn": "Tsukimino",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tsukimino",
+                    "ja": "つきみ野",
+                    "ko": "쓰키미노",
+                    "zh-Hans": "月见野",
+                    "zh-Hant": "月見野"
+                },
                 "stationCode": "DT26"
             },
             {
                 "id": "Station:Tokyu.DenEnToshi.ChuoRinkan",
                 "latitude": 35.5076,
                 "longitude": 139.4453,
-                "name": "中央林間",
-                "nameEn": "Chuo-rinkan",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Chuo-rinkan",
+                    "ja": "中央林間",
+                    "ko": "주오린칸",
+                    "zh-Hans": "中央林间",
+                    "zh-Hant": "中央林間"
+                },
                 "stationCode": "DT27"
             }
         ],
@@ -2796,19 +2863,27 @@
                 "connectingLineId": "Railway:TokyoMetro.Hanzomon",
                 "end": "descending",
                 "junctionStationId": "Station:Tokyu.DenEnToshi.Shibuya",
-                "lineNameEn": "Tokyo Metro Hanzomon Line",
-                "lineNameJa": "東京メトロ半蔵門線",
-                "towardEn": "for Otemachi & Oshiage",
-                "towardJa": "大手町・押上方面"
+                "lineName": {
+                    "en": "Tokyo Metro Hanzomon Line",
+                    "ja": "東京メトロ半蔵門線"
+                },
+                "toward": {
+                    "en": "for Otemachi & Oshiage",
+                    "ja": "大手町・押上方面"
+                }
             },
             {
                 "connectingLineId": "Railway:Tokyu.Oimachi",
                 "end": "descending",
                 "junctionStationId": "Station:Tokyu.DenEnToshi.Mizonokuchi",
-                "lineNameEn": "Tokyu Oimachi Line",
-                "lineNameJa": "東急大井町線",
-                "towardEn": "for Jiyugaoka & Oimachi",
-                "towardJa": "自由が丘・大井町方面"
+                "lineName": {
+                    "en": "Tokyu Oimachi Line",
+                    "ja": "東急大井町線"
+                },
+                "toward": {
+                    "en": "for Jiyugaoka & Oimachi",
+                    "ja": "自由が丘・大井町方面"
+                }
             }
         ],
         "upHopTimesMinutes": [4, 2, 2, 3, 2, 3, 2, 1, 2, 4, 3, 2, 2, 2.5, 2, 2.5, 2, 2, 2, 2, 3.5, 2.5, 2, 2, 2, 2]

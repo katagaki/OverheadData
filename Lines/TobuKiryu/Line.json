@@ -2,10 +2,14 @@
     {
         "colorHex": "#E62119",
         "delayInfo": {
-            "checkMethodEn": "Check the Tobu Railway service status page, the Tobu app, or X (@TobuRailway_JP). Delays of roughly 10 minutes or more and suspensions are posted.",
-            "checkMethodJa": "東武鉄道「運行情報」ページ、東武線アプリ、またはX（@TobuRailway_JP）で確認できます。おおむね10分以上の遅延・運転見合わせが発生した場合に掲載されます。",
-            "statusPageURL": "https://www.tobu.co.jp/service_status/",
-            "statusPageURLEn": "https://www.tobu.co.jp/service_status/",
+            "checkMethod": {
+                "en": "Check the Tobu Railway service status page, the Tobu app, or X (@TobuRailway_JP). Delays of roughly 10 minutes or more and suspensions are posted.",
+                "ja": "東武鉄道「運行情報」ページ、東武線アプリ、またはX（@TobuRailway_JP）で確認できます。おおむね10分以上の遅延・運転見合わせが発生した場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://www.tobu.co.jp/service_status/",
+                "ja": "https://www.tobu.co.jp/service_status/"
+            },
             "xAccount": "@TobuRailway_JP"
         },
         "directions": [
@@ -15,17 +19,19 @@
                 "id": "static.RailDirection:Tobu.Kiryu.Akagi",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Akagi",
-                "nameJa": "赤城方面",
+                "name": {
+                    "en": "For Akagi",
+                    "ja": "赤城方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
                             "from": "05:14",
-                            "headwayMinutes": 35.0
+                            "headwayMinutes": 35
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 39.0
+                            "headwayMinutes": 39
                         },
                         {
                             "from": "07:00",
@@ -33,15 +39,15 @@
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 24.0
+                            "headwayMinutes": 24
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 31.0
+                            "headwayMinutes": 31
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 28.0
+                            "headwayMinutes": 28
                         },
                         {
                             "from": "11:00",
@@ -49,11 +55,11 @@
                         },
                         {
                             "from": "12:00",
-                            "headwayMinutes": 30.0
+                            "headwayMinutes": 30
                         },
                         {
                             "from": "14:00",
-                            "headwayMinutes": 29.0
+                            "headwayMinutes": 29
                         },
                         {
                             "from": "15:00",
@@ -61,7 +67,7 @@
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 32.0
+                            "headwayMinutes": 32
                         },
                         {
                             "from": "17:00",
@@ -69,7 +75,7 @@
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 23.0
+                            "headwayMinutes": 23
                         },
                         {
                             "from": "19:00",
@@ -81,11 +87,11 @@
                         },
                         {
                             "from": "21:00",
-                            "headwayMinutes": 25.0
+                            "headwayMinutes": 25
                         },
                         {
                             "from": "22:00",
-                            "headwayMinutes": 28.0
+                            "headwayMinutes": 28
                         }
                     ],
                     "firstDeparture": "05:14",
@@ -96,11 +102,11 @@
                     "bands": [
                         {
                             "from": "05:14",
-                            "headwayMinutes": 35.0
+                            "headwayMinutes": 35
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 39.0
+                            "headwayMinutes": 39
                         },
                         {
                             "from": "07:00",
@@ -108,15 +114,15 @@
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 24.0
+                            "headwayMinutes": 24
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 31.0
+                            "headwayMinutes": 31
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 28.0
+                            "headwayMinutes": 28
                         },
                         {
                             "from": "11:00",
@@ -124,11 +130,11 @@
                         },
                         {
                             "from": "12:00",
-                            "headwayMinutes": 30.0
+                            "headwayMinutes": 30
                         },
                         {
                             "from": "14:00",
-                            "headwayMinutes": 29.0
+                            "headwayMinutes": 29
                         },
                         {
                             "from": "15:00",
@@ -136,7 +142,7 @@
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 32.0
+                            "headwayMinutes": 32
                         },
                         {
                             "from": "17:00",
@@ -144,7 +150,7 @@
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 23.0
+                            "headwayMinutes": 23
                         },
                         {
                             "from": "19:00",
@@ -156,11 +162,11 @@
                         },
                         {
                             "from": "21:00",
-                            "headwayMinutes": 25.0
+                            "headwayMinutes": 25
                         },
                         {
                             "from": "22:00",
-                            "headwayMinutes": 28.0
+                            "headwayMinutes": 28
                         }
                     ],
                     "firstDeparture": "05:14",
@@ -174,13 +180,15 @@
                 "id": "static.RailDirection:Tobu.Kiryu.Ota",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Ota",
-                "nameJa": "太田方面",
+                "name": {
+                    "en": "For Ota",
+                    "ja": "太田方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
                             "from": "05:02",
-                            "headwayMinutes": 31.0
+                            "headwayMinutes": 31
                         },
                         {
                             "from": "06:00",
@@ -192,11 +200,11 @@
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 16.0
+                            "headwayMinutes": 16
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 27.0
+                            "headwayMinutes": 27
                         },
                         {
                             "from": "10:00",
@@ -204,27 +212,27 @@
                         },
                         {
                             "from": "11:00",
-                            "headwayMinutes": 30.0
+                            "headwayMinutes": 30
                         },
                         {
                             "from": "15:00",
-                            "headwayMinutes": 22.0
+                            "headwayMinutes": 22
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 24.0
+                            "headwayMinutes": 24
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 30.0
+                            "headwayMinutes": 30
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 16.0
+                            "headwayMinutes": 16
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 25.0
+                            "headwayMinutes": 25
                         },
                         {
                             "from": "20:00",
@@ -243,7 +251,7 @@
                     "bands": [
                         {
                             "from": "05:02",
-                            "headwayMinutes": 31.0
+                            "headwayMinutes": 31
                         },
                         {
                             "from": "06:00",
@@ -255,11 +263,11 @@
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 16.0
+                            "headwayMinutes": 16
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 27.0
+                            "headwayMinutes": 27
                         },
                         {
                             "from": "10:00",
@@ -267,27 +275,27 @@
                         },
                         {
                             "from": "11:00",
-                            "headwayMinutes": 30.0
+                            "headwayMinutes": 30
                         },
                         {
                             "from": "15:00",
-                            "headwayMinutes": 22.0
+                            "headwayMinutes": 22
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 24.0
+                            "headwayMinutes": 24
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 30.0
+                            "headwayMinutes": 30
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 16.0
+                            "headwayMinutes": 16
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 25.0
+                            "headwayMinutes": 25
                         },
                         {
                             "from": "20:00",
@@ -304,99 +312,120 @@
                 }
             }
         ],
-        "hopTimesMinutes": [4.0, 3.0, 4.0, 4.0, 3.0, 5.0, 4.0],
+        "hopTimesMinutes": [4, 3, 4, 4, 3, 5, 4],
         "id": "Railway:Tobu.Kiryu",
         "isLoop": false,
-        "nameEn": "Tobu Kiryu Line",
-        "nameJa": "東武桐生線",
+        "name": {
+            "en": "Tobu Kiryu Line",
+            "ja": "東武桐生線",
+            "ko": "도부 철도 기류 선",
+            "zh-Hans": "桐生线",
+            "zh-Hant": "桐生線"
+        },
         "operatorId": "Operator:Tobu",
         "stations": [
             {
                 "id": "Station:Tobu.Kiryu.Ota",
                 "latitude": 36.29421,
                 "longitude": 139.37877,
-                "name": "太田",
-                "nameEn": "Ota",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ota",
+                    "ja": "太田",
+                    "ko": "오타",
+                    "zh-Hans": "太田",
+                    "zh-Hant": "太田"
+                },
                 "stationCode": "TI18"
             },
             {
                 "id": "Station:Tobu.Kiryu.Sammaibashi",
                 "latitude": 36.3134,
                 "longitude": 139.35497,
-                "name": "三枚橋",
-                "nameEn": "Sammaibashi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Sammaibashi",
+                    "ja": "三枚橋",
+                    "ko": "산마이바시",
+                    "zh-Hans": "三枚桥",
+                    "zh-Hant": "三枚橋"
+                },
                 "stationCode": "TI51"
             },
             {
                 "id": "Station:Tobu.Kiryu.Jiroembashi",
                 "latitude": 36.33302,
                 "longitude": 139.34137,
-                "name": "治良門橋",
-                "nameEn": "Jiroembashi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Jiroembashi",
+                    "ja": "治良門橋",
+                    "ko": "지로엔바시",
+                    "zh-Hans": "治良门桥",
+                    "zh-Hant": "治良門橋"
+                },
                 "stationCode": "TI52"
             },
             {
                 "id": "Station:Tobu.Kiryu.Yabuzuka",
                 "latitude": 36.35872,
                 "longitude": 139.31582,
-                "name": "藪塚",
-                "nameEn": "Yabuzuka",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Yabuzuka",
+                    "ja": "藪塚",
+                    "ko": "야부즈카",
+                    "zh-Hans": "薮冢",
+                    "zh-Hant": "藪塚"
+                },
                 "stationCode": "TI53"
             },
             {
                 "id": "Station:Tobu.Kiryu.Azami",
                 "latitude": 36.38509,
                 "longitude": 139.30653,
-                "name": "阿左美",
-                "nameEn": "Azami",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Azami",
+                    "ja": "阿左美",
+                    "ko": "아자미",
+                    "zh-Hans": "阿左美",
+                    "zh-Hant": "阿左美"
+                },
                 "stationCode": "TI54"
             },
             {
                 "id": "Station:Tobu.Kiryu.ShinKiryu",
                 "latitude": 36.39505,
                 "longitude": 139.32009,
-                "name": "新桐生",
-                "nameEn": "Shin-kiryu",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shin-kiryu",
+                    "ja": "新桐生",
+                    "ko": "신키류",
+                    "zh-Hans": "新桐生",
+                    "zh-Hant": "新桐生"
+                },
                 "stationCode": "TI55"
             },
             {
                 "id": "Station:Tobu.Kiryu.Aioi",
                 "latitude": 36.41064,
                 "longitude": 139.30392,
-                "name": "相老",
-                "nameEn": "Aioi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Aioi",
+                    "ja": "相老",
+                    "ko": "아이오이",
+                    "zh-Hans": "相老",
+                    "zh-Hant": "相老"
+                },
                 "stationCode": "TI56"
             },
             {
                 "id": "Station:Tobu.Kiryu.Akagi",
                 "latitude": 36.42562,
                 "longitude": 139.27678,
-                "name": "赤城",
-                "nameEn": "Akagi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Akagi",
+                    "ja": "赤城",
+                    "ko": "아카기",
+                    "zh-Hans": "赤城",
+                    "zh-Hant": "赤城"
+                },
                 "stationCode": "TI57"
             }
         ],
@@ -779,8 +808,10 @@
                 "startsHere": true,
                 "stops": [302, 306, 310, 313, 317, 321, 325, 328],
                 "terminates": false,
-                "throughDestEn": "Higashi-koizumi",
-                "throughDestJa": "東小泉",
+                "throughDest": {
+                    "en": "Higashi-koizumi",
+                    "ja": "東小泉"
+                },
                 "type": "Local"
             },
             {
@@ -790,8 +821,10 @@
                 "startsHere": true,
                 "stops": [327, 331, 336, 338, 342, 346, 350, 353],
                 "terminates": false,
-                "throughDestEn": "Higashi-koizumi",
-                "throughDestJa": "東小泉",
+                "throughDest": {
+                    "en": "Higashi-koizumi",
+                    "ja": "東小泉"
+                },
                 "type": "Local"
             },
             {
@@ -801,8 +834,10 @@
                 "startsHere": true,
                 "stops": [364, 368, 373, 376, 380, 384, 388, 392],
                 "terminates": false,
-                "throughDestEn": "Higashi-koizumi",
-                "throughDestJa": "東小泉",
+                "throughDest": {
+                    "en": "Higashi-koizumi",
+                    "ja": "東小泉"
+                },
                 "type": "Local"
             },
             {
@@ -812,8 +847,10 @@
                 "startsHere": true,
                 "stops": [370, 374, 380, -1, 386, -1, -1, 395],
                 "terminates": false,
-                "throughDestEn": "Asakusa",
-                "throughDestJa": "浅草",
+                "throughDest": {
+                    "en": "Asakusa",
+                    "ja": "浅草"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -823,8 +860,10 @@
                 "startsHere": true,
                 "stops": [405, 411, 415, 418, 422, 426, 429, 433],
                 "terminates": false,
-                "throughDestEn": "Higashi-koizumi",
-                "throughDestJa": "東小泉",
+                "throughDest": {
+                    "en": "Higashi-koizumi",
+                    "ja": "東小泉"
+                },
                 "type": "Local"
             },
             {
@@ -834,8 +873,10 @@
                 "startsHere": true,
                 "stops": [416, 420, 425, -1, 430, -1, -1, 439],
                 "terminates": false,
-                "throughDestEn": "Asakusa",
-                "throughDestJa": "浅草",
+                "throughDest": {
+                    "en": "Asakusa",
+                    "ja": "浅草"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -845,8 +886,10 @@
                 "startsHere": true,
                 "stops": [434, 438, 444, 447, 451, 455, 458, 462],
                 "terminates": false,
-                "throughDestEn": "Higashi-koizumi",
-                "throughDestJa": "東小泉",
+                "throughDest": {
+                    "en": "Higashi-koizumi",
+                    "ja": "東小泉"
+                },
                 "type": "Local"
             },
             {
@@ -856,8 +899,10 @@
                 "startsHere": true,
                 "stops": [459, 463, 468, 470, 475, 479, 483, 486],
                 "terminates": false,
-                "throughDestEn": "Higashi-koizumi",
-                "throughDestJa": "東小泉",
+                "throughDest": {
+                    "en": "Higashi-koizumi",
+                    "ja": "東小泉"
+                },
                 "type": "Local"
             },
             {
@@ -867,8 +912,10 @@
                 "startsHere": true,
                 "stops": [485, 489, 495, -1, 500, -1, -1, 512],
                 "terminates": false,
-                "throughDestEn": "Asakusa",
-                "throughDestJa": "浅草",
+                "throughDest": {
+                    "en": "Asakusa",
+                    "ja": "浅草"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -887,8 +934,10 @@
                 "startsHere": true,
                 "stops": [515, 519, 523, -1, 530, -1, -1, 539],
                 "terminates": false,
-                "throughDestEn": "Asakusa",
-                "throughDestJa": "浅草",
+                "throughDest": {
+                    "en": "Asakusa",
+                    "ja": "浅草"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -898,8 +947,10 @@
                 "startsHere": true,
                 "stops": [546, 550, 555, -1, 562, -1, -1, 571],
                 "terminates": false,
-                "throughDestEn": "Asakusa",
-                "throughDestJa": "浅草",
+                "throughDest": {
+                    "en": "Asakusa",
+                    "ja": "浅草"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -909,8 +960,10 @@
                 "startsHere": true,
                 "stops": [568, 573, 577, 580, 584, 588, 591, 595],
                 "terminates": false,
-                "throughDestEn": "Higashi-koizumi",
-                "throughDestJa": "東小泉",
+                "throughDest": {
+                    "en": "Higashi-koizumi",
+                    "ja": "東小泉"
+                },
                 "type": "Local"
             },
             {
@@ -920,8 +973,10 @@
                 "startsHere": true,
                 "stops": [600, 604, 609, -1, 614, -1, -1, 626],
                 "terminates": false,
-                "throughDestEn": "Asakusa",
-                "throughDestJa": "浅草",
+                "throughDest": {
+                    "en": "Asakusa",
+                    "ja": "浅草"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -931,8 +986,10 @@
                 "startsHere": true,
                 "stops": [630, 636, 640, 643, 646, 651, 654, 658],
                 "terminates": false,
-                "throughDestEn": "Higashi-koizumi",
-                "throughDestJa": "東小泉",
+                "throughDest": {
+                    "en": "Higashi-koizumi",
+                    "ja": "東小泉"
+                },
                 "type": "Local"
             },
             {
@@ -942,8 +999,10 @@
                 "startsHere": true,
                 "stops": [663, 667, 672, -1, 679, -1, -1, 688],
                 "terminates": false,
-                "throughDestEn": "Asakusa",
-                "throughDestJa": "浅草",
+                "throughDest": {
+                    "en": "Asakusa",
+                    "ja": "浅草"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -953,8 +1012,10 @@
                 "startsHere": true,
                 "stops": [694, 699, 703, 706, 710, 714, 718, 721],
                 "terminates": false,
-                "throughDestEn": "Higashi-koizumi",
-                "throughDestJa": "東小泉",
+                "throughDest": {
+                    "en": "Higashi-koizumi",
+                    "ja": "東小泉"
+                },
                 "type": "Local"
             },
             {
@@ -964,8 +1025,10 @@
                 "startsHere": true,
                 "stops": [723, 727, 734, -1, 739, -1, -1, 748],
                 "terminates": false,
-                "throughDestEn": "Asakusa",
-                "throughDestJa": "浅草",
+                "throughDest": {
+                    "en": "Asakusa",
+                    "ja": "浅草"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -975,8 +1038,10 @@
                 "startsHere": true,
                 "stops": [754, 758, 763, 765, 769, 773, 777, 781],
                 "terminates": false,
-                "throughDestEn": "Higashi-koizumi",
-                "throughDestJa": "東小泉",
+                "throughDest": {
+                    "en": "Higashi-koizumi",
+                    "ja": "東小泉"
+                },
                 "type": "Local"
             },
             {
@@ -986,8 +1051,10 @@
                 "startsHere": true,
                 "stops": [783, 788, 794, -1, 799, -1, -1, 808],
                 "terminates": false,
-                "throughDestEn": "Asakusa",
-                "throughDestJa": "浅草",
+                "throughDest": {
+                    "en": "Asakusa",
+                    "ja": "浅草"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -997,8 +1064,10 @@
                 "startsHere": true,
                 "stops": [814, 820, 825, 827, 831, 835, 839, 842],
                 "terminates": false,
-                "throughDestEn": "Higashi-koizumi",
-                "throughDestJa": "東小泉",
+                "throughDest": {
+                    "en": "Higashi-koizumi",
+                    "ja": "東小泉"
+                },
                 "type": "Local"
             },
             {
@@ -1008,8 +1077,10 @@
                 "startsHere": true,
                 "stops": [843, 847, 854, -1, 859, -1, -1, 868],
                 "terminates": false,
-                "throughDestEn": "Asakusa",
-                "throughDestJa": "浅草",
+                "throughDest": {
+                    "en": "Asakusa",
+                    "ja": "浅草"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -1019,8 +1090,10 @@
                 "startsHere": true,
                 "stops": [874, 878, 883, 885, 889, 893, 897, 901],
                 "terminates": false,
-                "throughDestEn": "Higashi-koizumi",
-                "throughDestJa": "東小泉",
+                "throughDest": {
+                    "en": "Higashi-koizumi",
+                    "ja": "東小泉"
+                },
                 "type": "Local"
             },
             {
@@ -1030,8 +1103,10 @@
                 "startsHere": true,
                 "stops": [903, 907, 913, -1, 918, -1, -1, 927],
                 "terminates": false,
-                "throughDestEn": "Asakusa",
-                "throughDestJa": "浅草",
+                "throughDest": {
+                    "en": "Asakusa",
+                    "ja": "浅草"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -1041,8 +1116,10 @@
                 "startsHere": true,
                 "stops": [925, 929, 934, 936, 940, 944, 948, 951],
                 "terminates": false,
-                "throughDestEn": "Higashi-koizumi",
-                "throughDestJa": "東小泉",
+                "throughDest": {
+                    "en": "Higashi-koizumi",
+                    "ja": "東小泉"
+                },
                 "type": "Local"
             },
             {
@@ -1052,8 +1129,10 @@
                 "startsHere": true,
                 "stops": [957, 962, 966, -1, 975, -1, -1, 984],
                 "terminates": false,
-                "throughDestEn": "Asakusa",
-                "throughDestJa": "浅草",
+                "throughDest": {
+                    "en": "Asakusa",
+                    "ja": "浅草"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -1063,8 +1142,10 @@
                 "startsHere": true,
                 "stops": [972, 976, 982, 985, 989, 993, 997, 1000],
                 "terminates": false,
-                "throughDestEn": "Higashi-koizumi",
-                "throughDestJa": "東小泉",
+                "throughDest": {
+                    "en": "Higashi-koizumi",
+                    "ja": "東小泉"
+                },
                 "type": "Local"
             },
             {
@@ -1074,8 +1155,10 @@
                 "startsHere": true,
                 "stops": [1004, 1008, 1012, 1015, 1019, 1023, 1027, 1030],
                 "terminates": false,
-                "throughDestEn": "Higashi-koizumi",
-                "throughDestJa": "東小泉",
+                "throughDest": {
+                    "en": "Higashi-koizumi",
+                    "ja": "東小泉"
+                },
                 "type": "Local"
             },
             {
@@ -1085,8 +1168,10 @@
                 "startsHere": true,
                 "stops": [1020, 1024, 1029, -1, 1034, -1, -1, 1047],
                 "terminates": false,
-                "throughDestEn": "Asakusa",
-                "throughDestJa": "浅草",
+                "throughDest": {
+                    "en": "Asakusa",
+                    "ja": "浅草"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -1096,8 +1181,10 @@
                 "startsHere": true,
                 "stops": [1045, 1049, 1055, 1058, 1062, 1066, 1069, 1073],
                 "terminates": false,
-                "throughDestEn": "Higashi-koizumi",
-                "throughDestJa": "東小泉",
+                "throughDest": {
+                    "en": "Higashi-koizumi",
+                    "ja": "東小泉"
+                },
                 "type": "Local"
             },
             {
@@ -1107,8 +1194,10 @@
                 "startsHere": true,
                 "stops": [1080, 1084, 1088, -1, 1094, -1, -1, 1105],
                 "terminates": false,
-                "throughDestEn": "Asakusa",
-                "throughDestJa": "浅草",
+                "throughDest": {
+                    "en": "Asakusa",
+                    "ja": "浅草"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -1118,8 +1207,10 @@
                 "startsHere": true,
                 "stops": [1091, 1095, 1102, 1104, 1111, 1115, 1119, 1122],
                 "terminates": false,
-                "throughDestEn": "Higashi-koizumi",
-                "throughDestJa": "東小泉",
+                "throughDest": {
+                    "en": "Higashi-koizumi",
+                    "ja": "東小泉"
+                },
                 "type": "Local"
             },
             {
@@ -1129,8 +1220,10 @@
                 "startsHere": true,
                 "stops": [1124, 1128, 1132, 1135, 1141, 1145, 1148, 1152],
                 "terminates": false,
-                "throughDestEn": "Higashi-koizumi",
-                "throughDestJa": "東小泉",
+                "throughDest": {
+                    "en": "Higashi-koizumi",
+                    "ja": "東小泉"
+                },
                 "type": "Local"
             },
             {
@@ -1140,8 +1233,10 @@
                 "startsHere": true,
                 "stops": [1140, 1144, 1149, -1, 1154, -1, -1, 1163],
                 "terminates": false,
-                "throughDestEn": "Asakusa",
-                "throughDestJa": "浅草",
+                "throughDest": {
+                    "en": "Asakusa",
+                    "ja": "浅草"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -1151,8 +1246,10 @@
                 "startsHere": true,
                 "stops": [1165, 1169, 1174, 1176, 1180, 1184, 1188, 1191],
                 "terminates": false,
-                "throughDestEn": "Higashi-koizumi",
-                "throughDestJa": "東小泉",
+                "throughDest": {
+                    "en": "Higashi-koizumi",
+                    "ja": "東小泉"
+                },
                 "type": "Local"
             },
             {
@@ -1162,8 +1259,10 @@
                 "startsHere": true,
                 "stops": [1196, 1200, 1205, -1, 1210, -1, -1, 1221],
                 "terminates": false,
-                "throughDestEn": "Asakusa",
-                "throughDestJa": "浅草",
+                "throughDest": {
+                    "en": "Asakusa",
+                    "ja": "浅草"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -1173,8 +1272,10 @@
                 "startsHere": true,
                 "stops": [1202, 1206, 1211, 1214, 1218, 1222, 1226, 1229],
                 "terminates": false,
-                "throughDestEn": "Higashi-koizumi",
-                "throughDestJa": "東小泉",
+                "throughDest": {
+                    "en": "Higashi-koizumi",
+                    "ja": "東小泉"
+                },
                 "type": "Local"
             },
             {
@@ -1184,8 +1285,10 @@
                 "startsHere": true,
                 "stops": [1241, 1245, 1250, 1252, 1256, 1260, 1264, 1267],
                 "terminates": false,
-                "throughDestEn": "Higashi-koizumi",
-                "throughDestJa": "東小泉",
+                "throughDest": {
+                    "en": "Higashi-koizumi",
+                    "ja": "東小泉"
+                },
                 "type": "Local"
             },
             {
@@ -1591,8 +1694,10 @@
                 "startsHere": true,
                 "stops": [302, 306, 310, 313, 317, 321, 325, 328],
                 "terminates": false,
-                "throughDestEn": "Higashi-koizumi",
-                "throughDestJa": "東小泉",
+                "throughDest": {
+                    "en": "Higashi-koizumi",
+                    "ja": "東小泉"
+                },
                 "type": "Local"
             },
             {
@@ -1602,8 +1707,10 @@
                 "startsHere": true,
                 "stops": [327, 331, 336, 338, 342, 346, 350, 353],
                 "terminates": false,
-                "throughDestEn": "Higashi-koizumi",
-                "throughDestJa": "東小泉",
+                "throughDest": {
+                    "en": "Higashi-koizumi",
+                    "ja": "東小泉"
+                },
                 "type": "Local"
             },
             {
@@ -1613,8 +1720,10 @@
                 "startsHere": true,
                 "stops": [364, 368, 373, 376, 380, 384, 388, 392],
                 "terminates": false,
-                "throughDestEn": "Higashi-koizumi",
-                "throughDestJa": "東小泉",
+                "throughDest": {
+                    "en": "Higashi-koizumi",
+                    "ja": "東小泉"
+                },
                 "type": "Local"
             },
             {
@@ -1624,8 +1733,10 @@
                 "startsHere": true,
                 "stops": [370, 374, 380, -1, 386, -1, -1, 395],
                 "terminates": false,
-                "throughDestEn": "Asakusa",
-                "throughDestJa": "浅草",
+                "throughDest": {
+                    "en": "Asakusa",
+                    "ja": "浅草"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -1635,8 +1746,10 @@
                 "startsHere": true,
                 "stops": [405, 411, 415, 418, 422, 426, 429, 433],
                 "terminates": false,
-                "throughDestEn": "Higashi-koizumi",
-                "throughDestJa": "東小泉",
+                "throughDest": {
+                    "en": "Higashi-koizumi",
+                    "ja": "東小泉"
+                },
                 "type": "Local"
             },
             {
@@ -1646,8 +1759,10 @@
                 "startsHere": true,
                 "stops": [416, 420, 425, -1, 430, -1, -1, 439],
                 "terminates": false,
-                "throughDestEn": "Asakusa",
-                "throughDestJa": "浅草",
+                "throughDest": {
+                    "en": "Asakusa",
+                    "ja": "浅草"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -1657,8 +1772,10 @@
                 "startsHere": true,
                 "stops": [434, 438, 444, 447, 451, 455, 458, 462],
                 "terminates": false,
-                "throughDestEn": "Higashi-koizumi",
-                "throughDestJa": "東小泉",
+                "throughDest": {
+                    "en": "Higashi-koizumi",
+                    "ja": "東小泉"
+                },
                 "type": "Local"
             },
             {
@@ -1668,8 +1785,10 @@
                 "startsHere": true,
                 "stops": [459, 463, 468, 470, 475, 479, 483, 486],
                 "terminates": false,
-                "throughDestEn": "Higashi-koizumi",
-                "throughDestJa": "東小泉",
+                "throughDest": {
+                    "en": "Higashi-koizumi",
+                    "ja": "東小泉"
+                },
                 "type": "Local"
             },
             {
@@ -1679,8 +1798,10 @@
                 "startsHere": true,
                 "stops": [485, 489, 495, -1, 500, -1, -1, 512],
                 "terminates": false,
-                "throughDestEn": "Asakusa",
-                "throughDestJa": "浅草",
+                "throughDest": {
+                    "en": "Asakusa",
+                    "ja": "浅草"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -1699,8 +1820,10 @@
                 "startsHere": true,
                 "stops": [515, 519, 523, -1, 530, -1, -1, 539],
                 "terminates": false,
-                "throughDestEn": "Asakusa",
-                "throughDestJa": "浅草",
+                "throughDest": {
+                    "en": "Asakusa",
+                    "ja": "浅草"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -1710,8 +1833,10 @@
                 "startsHere": true,
                 "stops": [546, 550, 555, -1, 562, -1, -1, 571],
                 "terminates": false,
-                "throughDestEn": "Asakusa",
-                "throughDestJa": "浅草",
+                "throughDest": {
+                    "en": "Asakusa",
+                    "ja": "浅草"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -1721,8 +1846,10 @@
                 "startsHere": true,
                 "stops": [568, 573, 577, 580, 584, 588, 591, 595],
                 "terminates": false,
-                "throughDestEn": "Higashi-koizumi",
-                "throughDestJa": "東小泉",
+                "throughDest": {
+                    "en": "Higashi-koizumi",
+                    "ja": "東小泉"
+                },
                 "type": "Local"
             },
             {
@@ -1732,8 +1859,10 @@
                 "startsHere": true,
                 "stops": [600, 604, 609, -1, 614, -1, -1, 626],
                 "terminates": false,
-                "throughDestEn": "Asakusa",
-                "throughDestJa": "浅草",
+                "throughDest": {
+                    "en": "Asakusa",
+                    "ja": "浅草"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -1743,8 +1872,10 @@
                 "startsHere": true,
                 "stops": [630, 636, 640, 643, 646, 651, 654, 658],
                 "terminates": false,
-                "throughDestEn": "Higashi-koizumi",
-                "throughDestJa": "東小泉",
+                "throughDest": {
+                    "en": "Higashi-koizumi",
+                    "ja": "東小泉"
+                },
                 "type": "Local"
             },
             {
@@ -1754,8 +1885,10 @@
                 "startsHere": true,
                 "stops": [663, 667, 672, -1, 679, -1, -1, 688],
                 "terminates": false,
-                "throughDestEn": "Asakusa",
-                "throughDestJa": "浅草",
+                "throughDest": {
+                    "en": "Asakusa",
+                    "ja": "浅草"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -1765,8 +1898,10 @@
                 "startsHere": true,
                 "stops": [694, 699, 703, 706, 710, 714, 718, 721],
                 "terminates": false,
-                "throughDestEn": "Higashi-koizumi",
-                "throughDestJa": "東小泉",
+                "throughDest": {
+                    "en": "Higashi-koizumi",
+                    "ja": "東小泉"
+                },
                 "type": "Local"
             },
             {
@@ -1776,8 +1911,10 @@
                 "startsHere": true,
                 "stops": [723, 727, 734, -1, 739, -1, -1, 748],
                 "terminates": false,
-                "throughDestEn": "Asakusa",
-                "throughDestJa": "浅草",
+                "throughDest": {
+                    "en": "Asakusa",
+                    "ja": "浅草"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -1787,8 +1924,10 @@
                 "startsHere": true,
                 "stops": [754, 758, 763, 765, 769, 773, 777, 781],
                 "terminates": false,
-                "throughDestEn": "Higashi-koizumi",
-                "throughDestJa": "東小泉",
+                "throughDest": {
+                    "en": "Higashi-koizumi",
+                    "ja": "東小泉"
+                },
                 "type": "Local"
             },
             {
@@ -1798,8 +1937,10 @@
                 "startsHere": true,
                 "stops": [783, 788, 794, -1, 799, -1, -1, 808],
                 "terminates": false,
-                "throughDestEn": "Asakusa",
-                "throughDestJa": "浅草",
+                "throughDest": {
+                    "en": "Asakusa",
+                    "ja": "浅草"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -1809,8 +1950,10 @@
                 "startsHere": true,
                 "stops": [814, 820, 825, 827, 831, 835, 839, 842],
                 "terminates": false,
-                "throughDestEn": "Higashi-koizumi",
-                "throughDestJa": "東小泉",
+                "throughDest": {
+                    "en": "Higashi-koizumi",
+                    "ja": "東小泉"
+                },
                 "type": "Local"
             },
             {
@@ -1820,8 +1963,10 @@
                 "startsHere": true,
                 "stops": [843, 847, 854, -1, 859, -1, -1, 868],
                 "terminates": false,
-                "throughDestEn": "Asakusa",
-                "throughDestJa": "浅草",
+                "throughDest": {
+                    "en": "Asakusa",
+                    "ja": "浅草"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -1831,8 +1976,10 @@
                 "startsHere": true,
                 "stops": [874, 878, 883, 885, 889, 893, 897, 901],
                 "terminates": false,
-                "throughDestEn": "Higashi-koizumi",
-                "throughDestJa": "東小泉",
+                "throughDest": {
+                    "en": "Higashi-koizumi",
+                    "ja": "東小泉"
+                },
                 "type": "Local"
             },
             {
@@ -1842,8 +1989,10 @@
                 "startsHere": true,
                 "stops": [903, 907, 913, -1, 918, -1, -1, 927],
                 "terminates": false,
-                "throughDestEn": "Asakusa",
-                "throughDestJa": "浅草",
+                "throughDest": {
+                    "en": "Asakusa",
+                    "ja": "浅草"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -1853,8 +2002,10 @@
                 "startsHere": true,
                 "stops": [925, 929, 934, 936, 940, 944, 948, 951],
                 "terminates": false,
-                "throughDestEn": "Higashi-koizumi",
-                "throughDestJa": "東小泉",
+                "throughDest": {
+                    "en": "Higashi-koizumi",
+                    "ja": "東小泉"
+                },
                 "type": "Local"
             },
             {
@@ -1864,8 +2015,10 @@
                 "startsHere": true,
                 "stops": [957, 962, 966, -1, 975, -1, -1, 984],
                 "terminates": false,
-                "throughDestEn": "Asakusa",
-                "throughDestJa": "浅草",
+                "throughDest": {
+                    "en": "Asakusa",
+                    "ja": "浅草"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -1875,8 +2028,10 @@
                 "startsHere": true,
                 "stops": [972, 976, 982, 985, 989, 993, 997, 1000],
                 "terminates": false,
-                "throughDestEn": "Higashi-koizumi",
-                "throughDestJa": "東小泉",
+                "throughDest": {
+                    "en": "Higashi-koizumi",
+                    "ja": "東小泉"
+                },
                 "type": "Local"
             },
             {
@@ -1886,8 +2041,10 @@
                 "startsHere": true,
                 "stops": [1004, 1008, 1012, 1015, 1019, 1023, 1027, 1030],
                 "terminates": false,
-                "throughDestEn": "Higashi-koizumi",
-                "throughDestJa": "東小泉",
+                "throughDest": {
+                    "en": "Higashi-koizumi",
+                    "ja": "東小泉"
+                },
                 "type": "Local"
             },
             {
@@ -1897,8 +2054,10 @@
                 "startsHere": true,
                 "stops": [1020, 1024, 1029, -1, 1034, -1, -1, 1047],
                 "terminates": false,
-                "throughDestEn": "Asakusa",
-                "throughDestJa": "浅草",
+                "throughDest": {
+                    "en": "Asakusa",
+                    "ja": "浅草"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -1908,8 +2067,10 @@
                 "startsHere": true,
                 "stops": [1045, 1049, 1055, 1058, 1062, 1066, 1069, 1073],
                 "terminates": false,
-                "throughDestEn": "Higashi-koizumi",
-                "throughDestJa": "東小泉",
+                "throughDest": {
+                    "en": "Higashi-koizumi",
+                    "ja": "東小泉"
+                },
                 "type": "Local"
             },
             {
@@ -1919,8 +2080,10 @@
                 "startsHere": true,
                 "stops": [1080, 1084, 1088, -1, 1094, -1, -1, 1105],
                 "terminates": false,
-                "throughDestEn": "Asakusa",
-                "throughDestJa": "浅草",
+                "throughDest": {
+                    "en": "Asakusa",
+                    "ja": "浅草"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -1930,8 +2093,10 @@
                 "startsHere": true,
                 "stops": [1091, 1095, 1102, 1104, 1111, 1115, 1119, 1122],
                 "terminates": false,
-                "throughDestEn": "Higashi-koizumi",
-                "throughDestJa": "東小泉",
+                "throughDest": {
+                    "en": "Higashi-koizumi",
+                    "ja": "東小泉"
+                },
                 "type": "Local"
             },
             {
@@ -1941,8 +2106,10 @@
                 "startsHere": true,
                 "stops": [1124, 1128, 1132, 1135, 1141, 1145, 1148, 1152],
                 "terminates": false,
-                "throughDestEn": "Higashi-koizumi",
-                "throughDestJa": "東小泉",
+                "throughDest": {
+                    "en": "Higashi-koizumi",
+                    "ja": "東小泉"
+                },
                 "type": "Local"
             },
             {
@@ -1952,8 +2119,10 @@
                 "startsHere": true,
                 "stops": [1140, 1144, 1149, -1, 1154, -1, -1, 1163],
                 "terminates": false,
-                "throughDestEn": "Asakusa",
-                "throughDestJa": "浅草",
+                "throughDest": {
+                    "en": "Asakusa",
+                    "ja": "浅草"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -1963,8 +2132,10 @@
                 "startsHere": true,
                 "stops": [1165, 1169, 1174, 1176, 1180, 1184, 1188, 1191],
                 "terminates": false,
-                "throughDestEn": "Higashi-koizumi",
-                "throughDestJa": "東小泉",
+                "throughDest": {
+                    "en": "Higashi-koizumi",
+                    "ja": "東小泉"
+                },
                 "type": "Local"
             },
             {
@@ -1974,8 +2145,10 @@
                 "startsHere": true,
                 "stops": [1196, 1200, 1205, -1, 1210, -1, -1, 1221],
                 "terminates": false,
-                "throughDestEn": "Asakusa",
-                "throughDestJa": "浅草",
+                "throughDest": {
+                    "en": "Asakusa",
+                    "ja": "浅草"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -1985,8 +2158,10 @@
                 "startsHere": true,
                 "stops": [1202, 1206, 1211, 1214, 1218, 1222, 1226, 1229],
                 "terminates": false,
-                "throughDestEn": "Higashi-koizumi",
-                "throughDestJa": "東小泉",
+                "throughDest": {
+                    "en": "Higashi-koizumi",
+                    "ja": "東小泉"
+                },
                 "type": "Local"
             },
             {
@@ -1996,8 +2171,10 @@
                 "startsHere": true,
                 "stops": [1241, 1245, 1250, 1252, 1256, 1260, 1264, 1267],
                 "terminates": false,
-                "throughDestEn": "Higashi-koizumi",
-                "throughDestJa": "東小泉",
+                "throughDest": {
+                    "en": "Higashi-koizumi",
+                    "ja": "東小泉"
+                },
                 "type": "Local"
             },
             {
@@ -2028,6 +2205,6 @@
                 "type": "Local"
             }
         ],
-        "upHopTimesMinutes": [3.0, 4.0, 4.0, 4.0, 3.0, 5.0, 4.0]
+        "upHopTimesMinutes": [3, 4, 4, 4, 3, 5, 4]
     }
 ]

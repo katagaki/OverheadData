@@ -2,10 +2,14 @@
     {
         "colorHex": "#005BAC",
         "delayInfo": {
-            "checkMethodEn": "Check the Chichibu Railway website. Suspensions and delays are posted in the notices on the top page.",
-            "checkMethodJa": "秩父鉄道の公式サイトで確認できます。運転見合わせ・遅延はトップページのお知らせに掲載されます。",
-            "statusPageURL": "https://www.chichibu-railway.co.jp/",
-            "statusPageURLEn": "https://www.chichibu-railway.co.jp/",
+            "checkMethod": {
+                "en": "Check the Chichibu Railway website. Suspensions and delays are posted in the notices on the top page.",
+                "ja": "秩父鉄道の公式サイトで確認できます。運転見合わせ・遅延はトップページのお知らせに掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://www.chichibu-railway.co.jp/",
+                "ja": "https://www.chichibu-railway.co.jp/"
+            },
             "xAccount": null
         },
         "directions": [
@@ -15,8 +19,10 @@
                 "id": "static.RailDirection:Chichibu.Main.Mitsumineguchi",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Kumagaya & Mitsumineguchi",
-                "nameJa": "熊谷・三峰口方面",
+                "name": {
+                    "en": "For Kumagaya & Mitsumineguchi",
+                    "ja": "熊谷・三峰口方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -166,8 +172,10 @@
                 "id": "static.RailDirection:Chichibu.Main.Hanyu",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Chichibu & Hanyu",
-                "nameJa": "秩父・羽生方面",
+                "name": {
+                    "en": "For Chichibu & Hanyu",
+                    "ja": "秩父・羽生方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -283,415 +291,491 @@
         "hopTimesMinutes": [2, 3, 3, 4, 2, 3, 3, 4, 3, 2, 4, 2, 4, 3, 3, 3, 3, 2, 3, 4, 5, 4, 2, 2, 3, 2, 4, 4, 3, 1, 3, 4, 4, 3, 4, 2],
         "id": "Railway:Chichibu.Main",
         "isLoop": false,
-        "nameEn": "Chichibu Main Line",
-        "nameJa": "秩父本線",
+        "name": {
+            "en": "Chichibu Main Line",
+            "ja": "秩父本線"
+        },
         "operatorId": "Operator:Chichibu",
         "stations": [
             {
                 "id": "Station:Chichibu.Main.Hanyu",
                 "latitude": 36.170353,
                 "longitude": 139.534072,
-                "name": "羽生",
-                "nameEn": "Hanyu",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Hanyu",
+                    "ja": "羽生",
+                    "ko": "하뉴",
+                    "zh-Hans": "羽生",
+                    "zh-Hant": "羽生"
+                },
                 "stationCode": "CR01"
             },
             {
                 "id": "Station:Chichibu.Main.NishiHanyu",
                 "latitude": 36.176383,
                 "longitude": 139.523931,
-                "name": "西羽生",
-                "nameEn": "Nishi-Hanyu",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nishi-Hanyu",
+                    "ja": "西羽生",
+                    "ko": "니시하뉴",
+                    "zh-Hans": "西羽生",
+                    "zh-Hant": "西羽生"
+                },
                 "stationCode": "CR02"
             },
             {
                 "id": "Station:Chichibu.Main.Shingo",
                 "latitude": 36.171247,
                 "longitude": 139.510525,
-                "name": "新郷",
-                "nameEn": "Shingo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shingo",
+                    "ja": "新郷",
+                    "ko": "신고",
+                    "zh-Hans": "新乡",
+                    "zh-Hant": "新鄉"
+                },
                 "stationCode": "CR03"
             },
             {
                 "id": "Station:Chichibu.Main.BushuAraki",
                 "latitude": 36.162536,
                 "longitude": 139.488172,
-                "name": "武州荒木",
-                "nameEn": "Bushu-Araki",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Bushu-Araki",
+                    "ja": "武州荒木",
+                    "ko": "부슈아라키",
+                    "zh-Hans": "武州荒木",
+                    "zh-Hant": "武州荒木"
+                },
                 "stationCode": "CR04"
             },
             {
                 "id": "Station:Chichibu.Main.HigashiGyoda",
                 "latitude": 36.147247,
                 "longitude": 139.468461,
-                "name": "東行田",
-                "nameEn": "Higashi-Gyoda",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Higashi-Gyoda",
+                    "ja": "東行田",
+                    "ko": "히가시교다",
+                    "zh-Hans": "东行田",
+                    "zh-Hant": "東行田"
+                },
                 "stationCode": "CR05"
             },
             {
                 "id": "Station:Chichibu.Main.Gyodashi",
                 "latitude": 36.143572,
                 "longitude": 139.459108,
-                "name": "行田市",
-                "nameEn": "Gyoda-shi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Gyoda-shi",
+                    "ja": "行田市",
+                    "ko": "교다시",
+                    "zh-Hans": "行田市",
+                    "zh-Hant": "行田市"
+                },
                 "stationCode": "CR06"
             },
             {
                 "id": "Station:Chichibu.Main.Mochida",
                 "latitude": 36.137683,
                 "longitude": 139.442175,
-                "name": "持田",
-                "nameEn": "Mochida",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Mochida",
+                    "ja": "持田",
+                    "ko": "모치다",
+                    "zh-Hans": "持田",
+                    "zh-Hant": "持田"
+                },
                 "stationCode": "CR07"
             },
             {
                 "id": "Station:Chichibu.Main.SocioDistributionCenter",
                 "latitude": 36.1365,
                 "longitude": 139.424333,
-                "name": "ソシオ流通センター",
-                "nameEn": "Socio Distribution Center",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Socio Distribution Center",
+                    "ja": "ソシオ流通センター",
+                    "ko": "소시오 유통센터",
+                    "zh-Hans": "Socio流通中心",
+                    "zh-Hant": "SOCIO流通中心"
+                },
                 "stationCode": "CR08"
             },
             {
                 "id": "Station:Chichibu.Main.Kumagaya",
                 "latitude": 36.139694,
                 "longitude": 139.389917,
-                "name": "熊谷",
-                "nameEn": "Kumagaya",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kumagaya",
+                    "ja": "熊谷",
+                    "ko": "구마가야",
+                    "zh-Hans": "熊谷",
+                    "zh-Hant": "熊谷"
+                },
                 "stationCode": "CR09"
             },
             {
                 "id": "Station:Chichibu.Main.KamiKumagaya",
                 "latitude": 36.142633,
                 "longitude": 139.381328,
-                "name": "上熊谷",
-                "nameEn": "Kami-Kumagaya",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kami-Kumagaya",
+                    "ja": "上熊谷",
+                    "ko": "가미쿠마가야",
+                    "zh-Hans": "上熊谷",
+                    "zh-Hant": "上熊谷"
+                },
                 "stationCode": "CR10"
             },
             {
                 "id": "Station:Chichibu.Main.Ishiwara",
                 "latitude": 36.14795,
                 "longitude": 139.368619,
-                "name": "石原",
-                "nameEn": "Ishiwara",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ishiwara",
+                    "ja": "石原",
+                    "ko": "이시와라",
+                    "zh-Hans": "石原",
+                    "zh-Hant": "石原"
+                },
                 "stationCode": "CR11"
             },
             {
                 "id": "Station:Chichibu.Main.HiroseYachonomori",
                 "latitude": 36.146139,
                 "longitude": 139.351492,
-                "name": "ひろせ野鳥の森",
-                "nameEn": "Hirose-Yachonomori",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Hirose-Yachonomori",
+                    "ja": "ひろせ野鳥の森",
+                    "ko": "히로세야초노모리",
+                    "zh-Hans": "广濑野鸟之森",
+                    "zh-Hant": "廣瀨野鳥之森"
+                },
                 "stationCode": "CR12"
             },
             {
                 "id": "Station:Chichibu.Main.Oaso",
                 "latitude": 36.144803,
                 "longitude": 139.332358,
-                "name": "大麻生",
-                "nameEn": "Oaso",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Oaso",
+                    "ja": "大麻生",
+                    "ko": "오아소",
+                    "zh-Hans": "大麻生",
+                    "zh-Hant": "大麻生"
+                },
                 "stationCode": "CR13"
             },
             {
                 "id": "Station:Chichibu.Main.Aketo",
                 "latitude": 36.142944,
                 "longitude": 139.303783,
-                "name": "明戸",
-                "nameEn": "Aketo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Aketo",
+                    "ja": "明戸",
+                    "ko": "아케토",
+                    "zh-Hans": "明户",
+                    "zh-Hant": "明戶"
+                },
                 "stationCode": "CR14"
             },
             {
                 "id": "Station:Chichibu.Main.Takekawa",
                 "latitude": 36.142081,
                 "longitude": 139.282664,
-                "name": "武川",
-                "nameEn": "Takekawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Takekawa",
+                    "ja": "武川",
+                    "ko": "다케카와",
+                    "zh-Hans": "武川",
+                    "zh-Hant": "武川"
+                },
                 "stationCode": "CR15"
             },
             {
                 "id": "Station:Chichibu.Main.Nagata",
                 "latitude": 36.135097,
                 "longitude": 139.259086,
-                "name": "永田",
-                "nameEn": "Nagata",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nagata",
+                    "ja": "永田",
+                    "ko": "나가타",
+                    "zh-Hans": "永田",
+                    "zh-Hant": "永田"
+                },
                 "stationCode": "CR16"
             },
             {
                 "id": "Station:Chichibu.Main.FukayaHanazono",
                 "latitude": 36.130757,
                 "longitude": 139.248104,
-                "name": "ふかや花園",
-                "nameEn": "Fukaya-Hanazono",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Fukaya-Hanazono",
+                    "ja": "ふかや花園",
+                    "ko": "후카야하나조노",
+                    "zh-Hans": "深谷花园",
+                    "zh-Hant": "深谷花園"
+                },
                 "stationCode": "CR17"
             },
             {
                 "id": "Station:Chichibu.Main.Omaeda",
                 "latitude": 36.128806,
                 "longitude": 139.222464,
-                "name": "小前田",
-                "nameEn": "Omaeda",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Omaeda",
+                    "ja": "小前田",
+                    "ko": "오마에다",
+                    "zh-Hans": "小前田",
+                    "zh-Hant": "小前田"
+                },
                 "stationCode": "CR18"
             },
             {
                 "id": "Station:Chichibu.Main.Sakurazawa",
                 "latitude": 36.128672,
                 "longitude": 139.206981,
-                "name": "桜沢",
-                "nameEn": "Sakurazawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Sakurazawa",
+                    "ja": "桜沢",
+                    "ko": "사쿠라자와",
+                    "zh-Hans": "樱泽",
+                    "zh-Hant": "櫻澤"
+                },
                 "stationCode": "CR19"
             },
             {
                 "id": "Station:Chichibu.Main.Yorii",
                 "latitude": 36.117881,
                 "longitude": 139.194506,
-                "name": "寄居",
-                "nameEn": "Yorii",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Yorii",
+                    "ja": "寄居",
+                    "ko": "요리이",
+                    "zh-Hans": "寄居",
+                    "zh-Hant": "寄居"
+                },
                 "stationCode": "CR20"
             },
             {
                 "id": "Station:Chichibu.Main.Hagure",
                 "latitude": 36.126464,
                 "longitude": 139.157942,
-                "name": "波久礼",
-                "nameEn": "Hagure",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Hagure",
+                    "ja": "波久礼",
+                    "ko": "하구레",
+                    "zh-Hans": "波久礼",
+                    "zh-Hant": "波久禮"
+                },
                 "stationCode": "CR21"
             },
             {
                 "id": "Station:Chichibu.Main.Higuchi",
                 "latitude": 36.131047,
                 "longitude": 139.122181,
-                "name": "樋口",
-                "nameEn": "Higuchi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Higuchi",
+                    "ja": "樋口",
+                    "ko": "히구치",
+                    "zh-Hans": "樋口",
+                    "zh-Hant": "樋口"
+                },
                 "stationCode": "CR22"
             },
             {
                 "id": "Station:Chichibu.Main.Nogami",
                 "latitude": 36.111619,
                 "longitude": 139.110719,
-                "name": "野上",
-                "nameEn": "Nogami",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nogami",
+                    "ja": "野上",
+                    "ko": "노가미",
+                    "zh-Hans": "野上",
+                    "zh-Hant": "野上"
+                },
                 "stationCode": "CR23"
             },
             {
                 "id": "Station:Chichibu.Main.Nagatoro",
                 "latitude": 36.095203,
                 "longitude": 139.112303,
-                "name": "長瀞",
-                "nameEn": "Nagatoro",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nagatoro",
+                    "ja": "長瀞",
+                    "ko": "나가토로",
+                    "zh-Hans": "长瀞",
+                    "zh-Hant": "長瀞"
+                },
                 "stationCode": "CR24"
             },
             {
                 "id": "Station:Chichibu.Main.KamiNagatoro",
                 "latitude": 36.086222,
                 "longitude": 139.113361,
-                "name": "上長瀞",
-                "nameEn": "Kami-Nagatoro",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kami-Nagatoro",
+                    "ja": "上長瀞",
+                    "ko": "가미나가토로",
+                    "zh-Hans": "上长瀞",
+                    "zh-Hant": "上長瀞"
+                },
                 "stationCode": "CR25"
             },
             {
                 "id": "Station:Chichibu.Main.Oyahana",
                 "latitude": 36.077664,
                 "longitude": 139.105911,
-                "name": "親鼻",
-                "nameEn": "Oyahana",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Oyahana",
+                    "ja": "親鼻",
+                    "ko": "오야하나",
+                    "zh-Hans": "亲鼻",
+                    "zh-Hant": "親鼻"
+                },
                 "stationCode": "CR26"
             },
             {
                 "id": "Station:Chichibu.Main.Minano",
                 "latitude": 36.068736,
                 "longitude": 139.094136,
-                "name": "皆野",
-                "nameEn": "Minano",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Minano",
+                    "ja": "皆野",
+                    "ko": "미나노",
+                    "zh-Hans": "皆野",
+                    "zh-Hant": "皆野"
+                },
                 "stationCode": "CR27"
             },
             {
                 "id": "Station:Chichibu.Main.WadoKuroya",
                 "latitude": 36.046925,
                 "longitude": 139.101842,
-                "name": "和銅黒谷",
-                "nameEn": "Wado-Kuroya",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Wado-Kuroya",
+                    "ja": "和銅黒谷",
+                    "ko": "와도쿠로야",
+                    "zh-Hans": "和铜黑谷",
+                    "zh-Hant": "和銅黑谷"
+                },
                 "stationCode": "CR28"
             },
             {
                 "id": "Station:Chichibu.Main.Onohara",
                 "latitude": 36.018936,
                 "longitude": 139.094111,
-                "name": "大野原",
-                "nameEn": "Onohara",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Onohara",
+                    "ja": "大野原",
+                    "ko": "오노하라",
+                    "zh-Hans": "大野原",
+                    "zh-Hant": "大野原"
+                },
                 "stationCode": "CR29"
             },
             {
                 "id": "Station:Chichibu.Main.Chichibu",
                 "latitude": 35.998797,
                 "longitude": 139.085814,
-                "name": "秩父",
-                "nameEn": "Chichibu",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Chichibu",
+                    "ja": "秩父",
+                    "ko": "지치부",
+                    "zh-Hans": "秩父",
+                    "zh-Hant": "秩父"
+                },
                 "stationCode": "CR30"
             },
             {
                 "id": "Station:Chichibu.Main.Ohanabatake",
                 "latitude": 35.992414,
                 "longitude": 139.083614,
-                "name": "御花畑",
-                "nameEn": "Ohanabatake",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ohanabatake",
+                    "ja": "御花畑",
+                    "ko": "오하나바타케",
+                    "zh-Hans": "御花畑",
+                    "zh-Hant": "御花畑"
+                },
                 "stationCode": "CR31"
             },
             {
                 "id": "Station:Chichibu.Main.Kagemori",
                 "latitude": 35.972111,
                 "longitude": 139.068139,
-                "name": "影森",
-                "nameEn": "Kagemori",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kagemori",
+                    "ja": "影森",
+                    "ko": "가게모리",
+                    "zh-Hans": "影森",
+                    "zh-Hant": "影森"
+                },
                 "stationCode": "CR32"
             },
             {
                 "id": "Station:Chichibu.Main.Urayamaguchi",
                 "latitude": 35.964033,
                 "longitude": 139.058522,
-                "name": "浦山口",
-                "nameEn": "Urayamaguchi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Urayamaguchi",
+                    "ja": "浦山口",
+                    "ko": "우라야마구치",
+                    "zh-Hans": "浦山口",
+                    "zh-Hant": "浦山口"
+                },
                 "stationCode": "CR33"
             },
             {
                 "id": "Station:Chichibu.Main.BushuNakagawa",
                 "latitude": 35.958456,
                 "longitude": 139.035228,
-                "name": "武州中川",
-                "nameEn": "Bushu-Nakagawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Bushu-Nakagawa",
+                    "ja": "武州中川",
+                    "ko": "부슈나카가와",
+                    "zh-Hans": "武州中川",
+                    "zh-Hant": "武州中川"
+                },
                 "stationCode": "CR34"
             },
             {
                 "id": "Station:Chichibu.Main.BushuHino",
                 "latitude": 35.95405,
                 "longitude": 139.021375,
-                "name": "武州日野",
-                "nameEn": "Bushu-Hino",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Bushu-Hino",
+                    "ja": "武州日野",
+                    "ko": "부슈히노",
+                    "zh-Hans": "武州日野",
+                    "zh-Hant": "武州日野"
+                },
                 "stationCode": "CR35"
             },
             {
                 "id": "Station:Chichibu.Main.Shiroku",
                 "latitude": 35.958856,
                 "longitude": 138.993317,
-                "name": "白久",
-                "nameEn": "Shiroku",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shiroku",
+                    "ja": "白久",
+                    "ko": "시로쿠",
+                    "zh-Hans": "白久",
+                    "zh-Hant": "白久"
+                },
                 "stationCode": "CR36"
             },
             {
                 "id": "Station:Chichibu.Main.Mitsumineguchi",
                 "latitude": 35.959939,
                 "longitude": 138.978828,
-                "name": "三峰口",
-                "nameEn": "Mitsumineguchi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Mitsumineguchi",
+                    "ja": "三峰口",
+                    "ko": "미쓰미네구치",
+                    "zh-Hans": "三峰口",
+                    "zh-Hant": "三峯口"
+                },
                 "stationCode": "CR37"
             }
         ],

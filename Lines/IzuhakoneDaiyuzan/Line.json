@@ -2,10 +2,14 @@
     {
         "colorHex": "#0068B7",
         "delayInfo": {
-            "checkMethodEn": "Check the Izuhakone Railway website. Suspensions and delays are posted in the notices on the top page.",
-            "checkMethodJa": "伊豆箱根鉄道の公式サイトで確認できます。運転見合わせ・遅延はトップページのお知らせに掲載されます。",
-            "statusPageURL": "https://www.izuhakone.co.jp/",
-            "statusPageURLEn": "https://www.izuhakone.co.jp/",
+            "checkMethod": {
+                "en": "Check the Izuhakone Railway website. Suspensions and delays are posted in the notices on the top page.",
+                "ja": "伊豆箱根鉄道の公式サイトで確認できます。運転見合わせ・遅延はトップページのお知らせに掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://www.izuhakone.co.jp/",
+                "ja": "https://www.izuhakone.co.jp/"
+            },
             "xAccount": null
         },
         "directions": [
@@ -15,8 +19,10 @@
                 "id": "static.RailDirection:Izuhakone.Daiyuzan.Daiyuzan",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Daiyuzan",
-                "nameJa": "大雄山方面",
+                "name": {
+                    "en": "For Daiyuzan",
+                    "ja": "大雄山方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -66,8 +72,10 @@
                 "id": "static.RailDirection:Izuhakone.Daiyuzan.Odawara",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Odawara",
-                "nameJa": "小田原方面",
+                "name": {
+                    "en": "For Odawara",
+                    "ja": "小田原方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -115,140 +123,169 @@
         "hopTimesMinutes": [1, 2, 3, 1, 3, 3, 1, 2, 3, 2, 1],
         "id": "Railway:Izuhakone.Daiyuzan",
         "isLoop": false,
-        "nameEn": "Izuhakone Railway Daiyuzan Line",
-        "nameJa": "伊豆箱根鉄道大雄山線",
+        "name": {
+            "en": "Izuhakone Railway Daiyuzan Line",
+            "ja": "伊豆箱根鉄道大雄山線",
+            "ko": "이즈하코네 철도 다이유잔선",
+            "zh-Hans": "大雄山线",
+            "zh-Hant": "大雄山線"
+        },
         "operatorId": "Operator:Izuhakone",
         "stations": [
             {
                 "id": "Station:Izuhakone.Daiyuzan.Odawara",
                 "latitude": 35.255833,
                 "longitude": 139.155556,
-                "name": "小田原",
-                "nameEn": "Odawara",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Odawara",
+                    "ja": "小田原",
+                    "ko": "오다와라",
+                    "zh-Hans": "小田原",
+                    "zh-Hant": "小田原"
+                },
                 "stationCode": "ID01"
             },
             {
                 "id": "Station:Izuhakone.Daiyuzan.Midoricho",
                 "latitude": 35.259611,
                 "longitude": 139.158944,
-                "name": "緑町",
-                "nameEn": "Midoricho",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Midoricho",
+                    "ja": "緑町",
+                    "ko": "미도리초",
+                    "zh-Hans": "绿町",
+                    "zh-Hant": "綠町"
+                },
                 "stationCode": "ID02"
             },
             {
                 "id": "Station:Izuhakone.Daiyuzan.Isaida",
                 "latitude": 35.268611,
                 "longitude": 139.157333,
-                "name": "井細田",
-                "nameEn": "Isaida",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Isaida",
+                    "ja": "井細田",
+                    "ko": "이사이다",
+                    "zh-Hans": "井细田",
+                    "zh-Hant": "井細田"
+                },
                 "stationCode": "ID03"
             },
             {
                 "id": "Station:Izuhakone.Daiyuzan.Gohyakurakan",
                 "latitude": 35.275194,
                 "longitude": 139.15575,
-                "name": "五百羅漢",
-                "nameEn": "Gohyakurakan",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Gohyakurakan",
+                    "ja": "五百羅漢",
+                    "ko": "고햐쿠라칸",
+                    "zh-Hans": "五百罗汉",
+                    "zh-Hant": "五百羅漢"
+                },
                 "stationCode": "ID04"
             },
             {
                 "id": "Station:Izuhakone.Daiyuzan.Anabe",
                 "latitude": 35.280056,
                 "longitude": 139.148556,
-                "name": "穴部",
-                "nameEn": "Anabe",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Anabe",
+                    "ja": "穴部",
+                    "ko": "아나베",
+                    "zh-Hans": "穴部",
+                    "zh-Hant": "穴部"
+                },
                 "stationCode": "ID05"
             },
             {
                 "id": "Station:Izuhakone.Daiyuzan.Iidaoka",
                 "latitude": 35.288056,
                 "longitude": 139.139111,
-                "name": "飯田岡",
-                "nameEn": "Iidaoka",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Iidaoka",
+                    "ja": "飯田岡",
+                    "ko": "이다오카",
+                    "zh-Hans": "饭田冈",
+                    "zh-Hant": "飯田岡"
+                },
                 "stationCode": "ID06"
             },
             {
                 "id": "Station:Izuhakone.Daiyuzan.SagamiNumata",
                 "latitude": 35.292111,
                 "longitude": 139.133972,
-                "name": "相模沼田",
-                "nameEn": "Sagami-Numata",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Sagami-Numata",
+                    "ja": "相模沼田",
+                    "ko": "사가미누마타",
+                    "zh-Hans": "相模沼田",
+                    "zh-Hant": "相模沼田"
+                },
                 "stationCode": "ID07"
             },
             {
                 "id": "Station:Izuhakone.Daiyuzan.Iwahara",
                 "latitude": 35.298944,
                 "longitude": 139.128667,
-                "name": "岩原",
-                "nameEn": "Iwahara",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Iwahara",
+                    "ja": "岩原",
+                    "ko": "이와하라",
+                    "zh-Hans": "岩原",
+                    "zh-Hant": "巖原"
+                },
                 "stationCode": "ID08"
             },
             {
                 "id": "Station:Izuhakone.Daiyuzan.Tsukahara",
                 "latitude": 35.301472,
                 "longitude": 139.126556,
-                "name": "塚原",
-                "nameEn": "Tsukahara",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tsukahara",
+                    "ja": "塚原",
+                    "ko": "쓰카하라",
+                    "zh-Hans": "冢原",
+                    "zh-Hant": "塚原"
+                },
                 "stationCode": "ID09"
             },
             {
                 "id": "Station:Izuhakone.Daiyuzan.Wadagahara",
                 "latitude": 35.315833,
                 "longitude": 139.118611,
-                "name": "和田河原",
-                "nameEn": "Wadagahara",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Wadagahara",
+                    "ja": "和田河原",
+                    "ko": "와다가하라",
+                    "zh-Hans": "和田河原",
+                    "zh-Hant": "和田河原"
+                },
                 "stationCode": "ID10"
             },
             {
                 "id": "Station:Izuhakone.Daiyuzan.Fujifilmmae",
                 "latitude": 35.317667,
                 "longitude": 139.108889,
-                "name": "富士フイルム前",
-                "nameEn": "Fujifilm-mae",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Fujifilm-mae",
+                    "ja": "富士フイルム前",
+                    "ko": "후지 필름 마에",
+                    "zh-Hans": "富士软片",
+                    "zh-Hant": "富士軟片"
+                },
                 "stationCode": "ID11"
             },
             {
                 "id": "Station:Izuhakone.Daiyuzan.Daiyuzan",
                 "latitude": 35.319111,
                 "longitude": 139.103139,
-                "name": "大雄山",
-                "nameEn": "Daiyuzan",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Daiyuzan",
+                    "ja": "大雄山",
+                    "ko": "다이유잔",
+                    "zh-Hans": "大雄山",
+                    "zh-Hant": "大雄山"
+                },
                 "stationCode": "ID12"
             }
         ],

@@ -2,10 +2,14 @@
     {
         "colorHex": "#E60012",
         "delayInfo": {
-            "checkMethodEn": "Check the Tokyo Metro Service Information page, the official app, or X (@tokyometro_info). Delays or suspensions of 15 minutes or more are posted.",
-            "checkMethodJa": "東京メトロ「運行情報」ページ、公式アプリ、またはX（@tokyometro_info）で確認できます。15分以上の遅れ・運転見合わせが発生した場合に掲載されます。",
-            "statusPageURL": "https://www.tokyometro.jp/unkou/history/marunouchi.html",
-            "statusPageURLEn": "https://www.tokyometro.jp/lang_en/unkou/history/marunouchi.html",
+            "checkMethod": {
+                "en": "Check the Tokyo Metro Service Information page, the official app, or X (@tokyometro_info). Delays or suspensions of 15 minutes or more are posted.",
+                "ja": "東京メトロ「運行情報」ページ、公式アプリ、またはX（@tokyometro_info）で確認できます。15分以上の遅れ・運転見合わせが発生した場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://www.tokyometro.jp/lang_en/unkou/history/marunouchi.html",
+                "ja": "https://www.tokyometro.jp/unkou/history/marunouchi.html"
+            },
             "xAccount": "@M_line_info"
         },
         "directions": [
@@ -36,8 +40,10 @@
                     }
                 ],
                 "isAscending": true,
-                "nameEn": "For Ikebukuro",
-                "nameJa": "池袋方面",
+                "name": {
+                    "en": "For Ikebukuro",
+                    "ja": "池袋方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -119,8 +125,10 @@
                     }
                 ],
                 "isAscending": false,
-                "nameEn": "For Ogikubo",
-                "nameJa": "荻窪方面",
+                "name": {
+                    "en": "For Ogikubo",
+                    "ja": "荻窪方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -184,8 +192,10 @@
         "hopTimesMinutes": [3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 2, 2, 2, 3, 1, 2, 2, 2, 2, 3, 2, 3],
         "id": "Railway:TokyoMetro.Marunouchi",
         "isLoop": false,
-        "nameEn": "Marunouchi Line",
-        "nameJa": "丸ノ内線",
+        "name": {
+            "en": "Marunouchi Line",
+            "ja": "丸ノ内線"
+        },
         "operatorId": "Operator:TokyoMetro",
         "scheduleRevisions": [
             {
@@ -217,8 +227,10 @@
                             }
                         ],
                         "isAscending": true,
-                        "nameEn": "For Ikebukuro",
-                        "nameJa": "池袋方面",
+                        "name": {
+                            "en": "For Ikebukuro",
+                            "ja": "池袋方面"
+                        },
                         "saturdayHoliday": {
                             "bands": [
                                 {
@@ -227,11 +239,11 @@
                                 },
                                 {
                                     "from": "07:00",
-                                    "headwayMinutes": 4.0
+                                    "headwayMinutes": 4
                                 },
                                 {
                                     "from": "10:00",
-                                    "headwayMinutes": 4.0
+                                    "headwayMinutes": 4
                                 },
                                 {
                                     "from": "20:00",
@@ -258,7 +270,7 @@
                                 },
                                 {
                                     "from": "09:30",
-                                    "headwayMinutes": 4.0
+                                    "headwayMinutes": 4
                                 },
                                 {
                                     "from": "17:00",
@@ -300,8 +312,10 @@
                             }
                         ],
                         "isAscending": false,
-                        "nameEn": "For Ogikubo",
-                        "nameJa": "荻窪方面",
+                        "name": {
+                            "en": "For Ogikubo",
+                            "ja": "荻窪方面"
+                        },
                         "saturdayHoliday": {
                             "bands": [
                                 {
@@ -310,11 +324,11 @@
                                 },
                                 {
                                     "from": "07:00",
-                                    "headwayMinutes": 4.0
+                                    "headwayMinutes": 4
                                 },
                                 {
                                     "from": "10:00",
-                                    "headwayMinutes": 4.0
+                                    "headwayMinutes": 4
                                 },
                                 {
                                     "from": "20:00",
@@ -341,7 +355,7 @@
                                 },
                                 {
                                     "from": "09:30",
-                                    "headwayMinutes": 4.0
+                                    "headwayMinutes": 4
                                 },
                                 {
                                     "from": "17:00",
@@ -362,8 +376,10 @@
                         }
                     }
                 ],
-                "nameEn": "19 September 2026 timetable revision",
-                "nameJa": "2026年9月19日ダイヤ改正",
+                "name": {
+                    "en": "19 September 2026 timetable revision",
+                    "ja": "2026年9月19日ダイヤ改正"
+                },
                 "validFrom": "2026-09-19"
             }
         ],
@@ -372,275 +388,325 @@
                 "id": "Station:TokyoMetro.Marunouchi.Ogikubo",
                 "latitude": 35.7047,
                 "longitude": 139.6202,
-                "name": "荻窪",
-                "nameEn": "Ogikubo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ogikubo",
+                    "ja": "荻窪",
+                    "ko": "오기쿠보",
+                    "zh-Hans": "荻洼",
+                    "zh-Hant": "荻窪"
+                },
                 "stationCode": "M01"
             },
             {
                 "id": "Station:TokyoMetro.Marunouchi.MinamiAsagaya",
                 "latitude": 35.6998,
                 "longitude": 139.6356,
-                "name": "南阿佐ケ谷",
-                "nameEn": "Minami-Asagaya",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Minami-Asagaya",
+                    "ja": "南阿佐ケ谷",
+                    "ko": "미나미아사가야",
+                    "zh-Hans": "南阿佐谷",
+                    "zh-Hant": "南阿佐谷"
+                },
                 "stationCode": "M02"
             },
             {
                 "id": "Station:TokyoMetro.Marunouchi.ShinKoenji",
                 "latitude": 35.698,
                 "longitude": 139.6494,
-                "name": "新高円寺",
-                "nameEn": "Shin-Koenji",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shin-Koenji",
+                    "ja": "新高円寺",
+                    "ko": "신코엔지",
+                    "zh-Hans": "新高圆寺",
+                    "zh-Hant": "新高圓寺"
+                },
                 "stationCode": "M03"
             },
             {
                 "id": "Station:TokyoMetro.Marunouchi.HigashiKoenji",
                 "latitude": 35.697972,
                 "longitude": 139.65816,
-                "name": "東高円寺",
-                "nameEn": "Higashi-Koenji",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Higashi-Koenji",
+                    "ja": "東高円寺",
+                    "ko": "히가시코엔지",
+                    "zh-Hans": "东高圆寺",
+                    "zh-Hant": "東高圓寺"
+                },
                 "stationCode": "M04"
             },
             {
                 "id": "Station:TokyoMetro.Marunouchi.ShinNakano",
                 "latitude": 35.69746,
                 "longitude": 139.668643,
-                "name": "新中野",
-                "nameEn": "Shin-Nakano",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shin-Nakano",
+                    "ja": "新中野",
+                    "ko": "신나카노",
+                    "zh-Hans": "新中野",
+                    "zh-Hant": "新中野"
+                },
                 "stationCode": "M05"
             },
             {
                 "id": "Station:TokyoMetro.Marunouchi.NakanoSakaue",
                 "latitude": 35.6975,
                 "longitude": 139.6827,
-                "name": "中野坂上",
-                "nameEn": "Nakano-sakaue",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nakano-sakaue",
+                    "ja": "中野坂上",
+                    "ko": "나카노사카우에",
+                    "zh-Hans": "中野坂上",
+                    "zh-Hant": "中野坂上"
+                },
                 "stationCode": "M06"
             },
             {
                 "id": "Station:TokyoMetro.Marunouchi.NishiShinjuku",
                 "latitude": 35.6945,
                 "longitude": 139.6926,
-                "name": "西新宿",
-                "nameEn": "Nishi-shinjuku",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nishi-shinjuku",
+                    "ja": "西新宿",
+                    "ko": "니시신주쿠",
+                    "zh-Hans": "西新宿",
+                    "zh-Hant": "西新宿"
+                },
                 "stationCode": "M07"
             },
             {
                 "id": "Station:TokyoMetro.Marunouchi.Shinjuku",
                 "latitude": 35.692227,
                 "longitude": 139.700601,
-                "name": "新宿",
-                "nameEn": "Shinjuku",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shinjuku",
+                    "ja": "新宿",
+                    "ko": "신주쿠",
+                    "zh-Hans": "新宿",
+                    "zh-Hant": "新宿"
+                },
                 "stationCode": "M08"
             },
             {
                 "id": "Station:TokyoMetro.Marunouchi.ShinjukuSanchome",
                 "latitude": 35.6909,
                 "longitude": 139.7047,
-                "name": "新宿三丁目",
-                "nameEn": "Shinjuku-sanchome",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shinjuku-sanchome",
+                    "ja": "新宿三丁目",
+                    "ko": "신주쿠 3초메",
+                    "zh-Hans": "新宿三丁目",
+                    "zh-Hant": "新宿三丁目"
+                },
                 "stationCode": "M09"
             },
             {
                 "id": "Station:TokyoMetro.Marunouchi.ShinjukuGyoemmae",
                 "latitude": 35.6887,
                 "longitude": 139.7109,
-                "name": "新宿御苑前",
-                "nameEn": "Shinjuku-gyoemmae",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shinjuku-gyoemmae",
+                    "ja": "新宿御苑前",
+                    "ko": "신주쿠교엔마에",
+                    "zh-Hans": "新宿御苑前",
+                    "zh-Hant": "新宿御苑前"
+                },
                 "stationCode": "M10"
             },
             {
                 "id": "Station:TokyoMetro.Marunouchi.YotsuyaSanchome",
                 "latitude": 35.6878,
                 "longitude": 139.7204,
-                "name": "四谷三丁目",
-                "nameEn": "Yotsuya-sanchome",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Yotsuya-sanchome",
+                    "ja": "四谷三丁目",
+                    "ko": "요쓰야 3초메",
+                    "zh-Hans": "四谷三丁目",
+                    "zh-Hant": "四谷三丁目"
+                },
                 "stationCode": "M11"
             },
             {
                 "id": "Station:TokyoMetro.Marunouchi.Yotsuya",
                 "latitude": 35.6858,
                 "longitude": 139.729,
-                "name": "四ツ谷",
-                "nameEn": "Yotsuya",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Yotsuya",
+                    "ja": "四ツ谷",
+                    "ko": "요쓰야",
+                    "zh-Hans": "四谷",
+                    "zh-Hant": "四谷"
+                },
                 "stationCode": "M12"
             },
             {
                 "id": "Station:TokyoMetro.Marunouchi.AkasakaMitsuke",
                 "latitude": 35.677,
                 "longitude": 139.737,
-                "name": "赤坂見附",
-                "nameEn": "Akasaka-mitsuke",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Akasaka-mitsuke",
+                    "ja": "赤坂見附",
+                    "ko": "아카사카미쓰케",
+                    "zh-Hans": "赤坂见附",
+                    "zh-Hant": "赤坂見附"
+                },
                 "stationCode": "M13"
             },
             {
                 "id": "Station:TokyoMetro.Marunouchi.KokkaiGijidomae",
                 "latitude": 35.6743,
                 "longitude": 139.7451,
-                "name": "国会議事堂前",
-                "nameEn": "Kokkai-gijidomae",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kokkai-gijidomae",
+                    "ja": "国会議事堂前",
+                    "ko": "곳카이기지도마에",
+                    "zh-Hans": "国会议事堂前",
+                    "zh-Hant": "國會議事堂前"
+                },
                 "stationCode": "M14"
             },
             {
                 "id": "Station:TokyoMetro.Marunouchi.Kasumigaseki",
                 "latitude": 35.675,
                 "longitude": 139.7518,
-                "name": "霞ケ関",
-                "nameEn": "Kasumigaseki",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kasumigaseki",
+                    "ja": "霞ケ関",
+                    "ko": "가스미가세키",
+                    "zh-Hans": "霞关",
+                    "zh-Hant": "霞關"
+                },
                 "stationCode": "M15"
             },
             {
                 "id": "Station:TokyoMetro.Marunouchi.Ginza",
                 "latitude": 35.672841,
                 "longitude": 139.763103,
-                "name": "銀座",
-                "nameEn": "Ginza",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ginza",
+                    "ja": "銀座",
+                    "ko": "긴자",
+                    "zh-Hans": "银座",
+                    "zh-Hant": "銀座"
+                },
                 "stationCode": "M16"
             },
             {
                 "id": "Station:TokyoMetro.Marunouchi.Tokyo",
                 "latitude": 35.682017,
                 "longitude": 139.764958,
-                "name": "東京",
-                "nameEn": "Tokyo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tokyo",
+                    "ja": "東京",
+                    "ko": "도쿄",
+                    "zh-Hans": "东京",
+                    "zh-Hant": "東京"
+                },
                 "stationCode": "M17"
             },
             {
                 "id": "Station:TokyoMetro.Marunouchi.Otemachi",
                 "latitude": 35.6867,
                 "longitude": 139.7654,
-                "name": "大手町",
-                "nameEn": "Otemachi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Otemachi",
+                    "ja": "大手町",
+                    "ko": "오테마치",
+                    "zh-Hans": "大手町",
+                    "zh-Hant": "大手町"
+                },
                 "stationCode": "M18"
             },
             {
                 "id": "Station:TokyoMetro.Marunouchi.Awajicho",
                 "latitude": 35.695,
                 "longitude": 139.7677,
-                "name": "淡路町",
-                "nameEn": "Awajicho",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Awajicho",
+                    "ja": "淡路町",
+                    "ko": "아와지초",
+                    "zh-Hans": "淡路町",
+                    "zh-Hant": "淡路町"
+                },
                 "stationCode": "M19"
             },
             {
                 "id": "Station:TokyoMetro.Marunouchi.Ochanomizu",
                 "latitude": 35.6998,
                 "longitude": 139.7649,
-                "name": "御茶ノ水",
-                "nameEn": "Ochanomizu",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ochanomizu",
+                    "ja": "御茶ノ水",
+                    "ko": "오차노미즈",
+                    "zh-Hans": "御茶之水",
+                    "zh-Hant": "御茶之水"
+                },
                 "stationCode": "M20"
             },
             {
                 "id": "Station:TokyoMetro.Marunouchi.HongoSanchome",
                 "latitude": 35.7068,
                 "longitude": 139.7597,
-                "name": "本郷三丁目",
-                "nameEn": "Hongo-sanchome",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Hongo-sanchome",
+                    "ja": "本郷三丁目",
+                    "ko": "혼고 3초메",
+                    "zh-Hans": "本乡三丁目",
+                    "zh-Hant": "本鄉三丁目"
+                },
                 "stationCode": "M21"
             },
             {
                 "id": "Station:TokyoMetro.Marunouchi.Korakuen",
                 "latitude": 35.708,
                 "longitude": 139.7512,
-                "name": "後楽園",
-                "nameEn": "Korakuen",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Korakuen",
+                    "ja": "後楽園",
+                    "ko": "고라쿠엔",
+                    "zh-Hans": "后乐园",
+                    "zh-Hant": "後樂園"
+                },
                 "stationCode": "M22"
             },
             {
                 "id": "Station:TokyoMetro.Marunouchi.Myogadani",
                 "latitude": 35.7175,
                 "longitude": 139.7371,
-                "name": "茗荷谷",
-                "nameEn": "Myogadani",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Myogadani",
+                    "ja": "茗荷谷",
+                    "ko": "묘가다니",
+                    "zh-Hans": "茗荷谷",
+                    "zh-Hant": "茗荷谷"
+                },
                 "stationCode": "M23"
             },
             {
                 "id": "Station:TokyoMetro.Marunouchi.ShinOtsuka",
                 "latitude": 35.7262,
                 "longitude": 139.7292,
-                "name": "新大塚",
-                "nameEn": "Shin-otsuka",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shin-otsuka",
+                    "ja": "新大塚",
+                    "ko": "신오쓰카",
+                    "zh-Hans": "新大冢",
+                    "zh-Hant": "新大塚"
+                },
                 "stationCode": "M24"
             },
             {
                 "id": "Station:TokyoMetro.Marunouchi.Ikebukuro",
                 "latitude": 35.73,
                 "longitude": 139.711,
-                "name": "池袋",
-                "nameEn": "Ikebukuro",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋",
+                    "ko": "이케부쿠로",
+                    "zh-Hans": "池袋",
+                    "zh-Hant": "池袋"
+                },
                 "stationCode": "M25"
             }
         ],

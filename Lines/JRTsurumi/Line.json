@@ -2,10 +2,14 @@
     {
         "colorHex": "#FFE500",
         "delayInfo": {
-            "checkMethodEn": "Check the JR East Train Operation Information page or the JR East app. In the Tokyo area, delays or suspensions of 15 minutes or more are posted.",
-            "checkMethodJa": "JR東日本「列車運行情報」ページまたはJR東日本アプリで確認できます。首都圏エリアでは15分以上の遅れ・運休が発生または見込まれる場合に掲載されます。",
-            "statusPageURL": "https://traininfo.jreast.co.jp/train_info/line.aspx?gid=1&lineid=tsurumiline",
-            "statusPageURLEn": "https://traininfo.jreast.co.jp/train_info/e/kanto.aspx",
+            "checkMethod": {
+                "en": "Check the JR East Train Operation Information page or the JR East app. In the Tokyo area, delays or suspensions of 15 minutes or more are posted.",
+                "ja": "JR東日本「列車運行情報」ページまたはJR東日本アプリで確認できます。首都圏エリアでは15分以上の遅れ・運休が発生または見込まれる場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://traininfo.jreast.co.jp/train_info/e/kanto.aspx",
+                "ja": "https://traininfo.jreast.co.jp/train_info/line.aspx?gid=1&lineid=tsurumiline"
+            },
             "xAccount": "@JRE_F_Tokaido"
         },
         "directions": [
@@ -15,21 +19,23 @@
                 "id": "static.RailDirection:JR-East.Tsurumi.Ogimachi",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Ogimachi",
-                "nameJa": "扇町方面",
+                "name": {
+                    "en": "For Ogimachi",
+                    "ja": "扇町方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
                             "from": "05:56",
-                            "headwayMinutes": 24.0
+                            "headwayMinutes": 24
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 11.0
+                            "headwayMinutes": 11
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 10.0
+                            "headwayMinutes": 10
                         },
                         {
                             "from": "08:00",
@@ -41,15 +47,15 @@
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 10.0
+                            "headwayMinutes": 10
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 11.0
+                            "headwayMinutes": 11
                         },
                         {
                             "from": "19:00",
@@ -57,15 +63,15 @@
                         },
                         {
                             "from": "20:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "21:00",
-                            "headwayMinutes": 30.0
+                            "headwayMinutes": 30
                         },
                         {
                             "from": "22:00",
-                            "headwayMinutes": 40.0
+                            "headwayMinutes": 40
                         }
                     ],
                     "firstDeparture": "05:56",
@@ -76,7 +82,7 @@
                     "bands": [
                         {
                             "from": "05:56",
-                            "headwayMinutes": 14.0
+                            "headwayMinutes": 14
                         },
                         {
                             "from": "06:00",
@@ -84,7 +90,7 @@
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 5.0
+                            "headwayMinutes": 5
                         },
                         {
                             "from": "09:00",
@@ -92,27 +98,27 @@
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 10.0
+                            "headwayMinutes": 10
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 6.0
+                            "headwayMinutes": 6
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 7.0
+                            "headwayMinutes": 7
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 13.0
+                            "headwayMinutes": 13
                         },
                         {
                             "from": "20:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "21:00",
@@ -120,7 +126,7 @@
                         },
                         {
                             "from": "22:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         }
                     ],
                     "firstDeparture": "05:56",
@@ -134,25 +140,27 @@
                 "id": "static.RailDirection:JR-East.Tsurumi.Tsurumi",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Tsurumi",
-                "nameJa": "鶴見方面",
+                "name": {
+                    "en": "For Tsurumi",
+                    "ja": "鶴見方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
                             "from": "06:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 18.0
+                            "headwayMinutes": 18
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 27.0
+                            "headwayMinutes": 27
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 40.0
+                            "headwayMinutes": 40
                         },
                         {
                             "from": "10:00",
@@ -160,15 +168,15 @@
                         },
                         {
                             "from": "12:00",
-                            "headwayMinutes": 120.0
+                            "headwayMinutes": 120
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 55.0
+                            "headwayMinutes": 55
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 24.0
+                            "headwayMinutes": 24
                         },
                         {
                             "from": "18:00",
@@ -176,7 +184,7 @@
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 31.0
+                            "headwayMinutes": 31
                         },
                         {
                             "from": "20:00",
@@ -184,11 +192,11 @@
                         },
                         {
                             "from": "21:00",
-                            "headwayMinutes": 48.0
+                            "headwayMinutes": 48
                         },
                         {
                             "from": "22:00",
-                            "headwayMinutes": 45.0
+                            "headwayMinutes": 45
                         }
                     ],
                     "firstDeparture": "06:00",
@@ -199,35 +207,35 @@
                     "bands": [
                         {
                             "from": "06:00",
-                            "headwayMinutes": 21.0
+                            "headwayMinutes": 21
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 13.0
+                            "headwayMinutes": 13
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 24.0
+                            "headwayMinutes": 24
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 62.0
+                            "headwayMinutes": 62
                         },
                         {
                             "from": "12:00",
-                            "headwayMinutes": 120.0
+                            "headwayMinutes": 120
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 27.0
+                            "headwayMinutes": 27
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 24.0
+                            "headwayMinutes": 24
                         },
                         {
                             "from": "18:00",
@@ -235,7 +243,7 @@
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 34.0
+                            "headwayMinutes": 34
                         },
                         {
                             "from": "20:00",
@@ -243,7 +251,7 @@
                         },
                         {
                             "from": "21:00",
-                            "headwayMinutes": 80.0
+                            "headwayMinutes": 80
                         }
                     ],
                     "firstDeparture": "06:00",
@@ -252,121 +260,146 @@
                 }
             }
         ],
-        "hopTimesMinutes": [2.0, 1.0, 2.0, 2.0, 2.0, 1.0, 3.0, 2.0, 2.0],
+        "hopTimesMinutes": [2, 1, 2, 2, 2, 1, 3, 2, 2],
         "id": "Railway:JR-East.Tsurumi",
         "isLoop": false,
-        "nameEn": "Tsurumi Line",
-        "nameJa": "鶴見線",
+        "name": {
+            "en": "Tsurumi Line",
+            "ja": "鶴見線",
+            "ko": "쓰루미선",
+            "zh-Hans": "鹤见线",
+            "zh-Hant": "鶴見線"
+        },
         "operatorId": "Operator:JR-East",
         "stations": [
             {
                 "id": "Station:JR-East.Tsurumi.Tsurumi",
                 "latitude": 35.50794,
                 "longitude": 139.67579,
-                "name": "鶴見",
-                "nameEn": "Tsurumi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tsurumi",
+                    "ja": "鶴見",
+                    "ko": "쓰루미",
+                    "zh-Hans": "鹤见",
+                    "zh-Hant": "鶴見"
+                },
                 "stationCode": "JI01"
             },
             {
                 "id": "Station:JR-East.Tsurumi.Kokudo",
                 "latitude": 35.50077,
                 "longitude": 139.67571,
-                "name": "国道",
-                "nameEn": "Kokudo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kokudo",
+                    "ja": "国道",
+                    "ko": "고쿠도",
+                    "zh-Hans": "国道",
+                    "zh-Hant": "國道"
+                },
                 "stationCode": "JI02"
             },
             {
                 "id": "Station:JR-East.Tsurumi.Tsurumiono",
                 "latitude": 35.49702,
                 "longitude": 139.68128,
-                "name": "鶴見小野",
-                "nameEn": "Tsurumiono",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tsurumiono",
+                    "ja": "鶴見小野",
+                    "ko": "쓰루미오노",
+                    "zh-Hans": "鹤见小野",
+                    "zh-Hant": "鶴見小野"
+                },
                 "stationCode": "JI03"
             },
             {
                 "id": "Station:JR-East.Tsurumi.Bentembashi",
                 "latitude": 35.4958,
                 "longitude": 139.68948,
-                "name": "弁天橋",
-                "nameEn": "Bentembashi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Bentembashi",
+                    "ja": "弁天橋",
+                    "ko": "벤텐바시",
+                    "zh-Hans": "弁天桥",
+                    "zh-Hant": "弁天橋"
+                },
                 "stationCode": "JI04"
             },
             {
                 "id": "Station:JR-East.Tsurumi.Asano",
                 "latitude": 35.49744,
                 "longitude": 139.69571,
-                "name": "浅野",
-                "nameEn": "Asano",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Asano",
+                    "ja": "浅野",
+                    "ko": "아사노",
+                    "zh-Hans": "浅野",
+                    "zh-Hant": "淺野"
+                },
                 "stationCode": "JI05"
             },
             {
                 "id": "Station:JR-East.Tsurumi.Anzen",
                 "latitude": 35.49984,
                 "longitude": 139.70124,
-                "name": "安善",
-                "nameEn": "Anzen",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Anzen",
+                    "ja": "安善",
+                    "ko": "안젠",
+                    "zh-Hans": "安善",
+                    "zh-Hant": "安善"
+                },
                 "stationCode": "JI06"
             },
             {
                 "id": "Station:JR-East.Tsurumi.MusashiShiraishi",
                 "latitude": 35.50193,
                 "longitude": 139.70653,
-                "name": "武蔵白石",
-                "nameEn": "Musashi-Shiraishi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Musashi-Shiraishi",
+                    "ja": "武蔵白石",
+                    "ko": "무사시시라이시",
+                    "zh-Hans": "武藏白石",
+                    "zh-Hant": "武藏白石"
+                },
                 "stationCode": "JI07"
             },
             {
                 "id": "Station:JR-East.Tsurumi.HamaKawasaki",
                 "latitude": 35.50966,
                 "longitude": 139.71354,
-                "name": "浜川崎",
-                "nameEn": "Hama-Kawasaki",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Hama-Kawasaki",
+                    "ja": "浜川崎",
+                    "ko": "하마카와사키",
+                    "zh-Hans": "滨川崎",
+                    "zh-Hant": "濱川崎"
+                },
                 "stationCode": "JI08"
             },
             {
                 "id": "Station:JR-East.Tsurumi.Showa",
                 "latitude": 35.50685,
                 "longitude": 139.72392,
-                "name": "昭和",
-                "nameEn": "Showa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Showa",
+                    "ja": "昭和",
+                    "ko": "쇼와",
+                    "zh-Hans": "昭和",
+                    "zh-Hant": "昭和"
+                },
                 "stationCode": "JI09"
             },
             {
                 "id": "Station:JR-East.Tsurumi.Ogimachi",
                 "latitude": 35.50174,
                 "longitude": 139.72242,
-                "name": "扇町",
-                "nameEn": "Ogimachi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ogimachi",
+                    "ja": "扇町",
+                    "ko": "오기마치",
+                    "zh-Hans": "扇町",
+                    "zh-Hant": "扇町"
+                },
                 "stationCode": "JI10"
             }
         ],
@@ -407,8 +440,10 @@
                 "startsHere": true,
                 "stops": [390, 392, 393, 395, 397],
                 "terminates": false,
-                "throughDestEn": "Umi-Shibaura",
-                "throughDestJa": "海芝浦",
+                "throughDest": {
+                    "en": "Umi-Shibaura",
+                    "ja": "海芝浦"
+                },
                 "type": "Local"
             },
             {
@@ -436,8 +471,10 @@
                 "startsHere": true,
                 "stops": [423, 425, 426, 428, 430],
                 "terminates": false,
-                "throughDestEn": "Umi-Shibaura",
-                "throughDestJa": "海芝浦",
+                "throughDest": {
+                    "en": "Umi-Shibaura",
+                    "ja": "海芝浦"
+                },
                 "type": "Local"
             },
             {
@@ -447,8 +484,10 @@
                 "startsHere": true,
                 "stops": [432, 434, 435, 437, 439, 441],
                 "terminates": false,
-                "throughDestEn": "Okawa",
-                "throughDestJa": "大川",
+                "throughDest": {
+                    "en": "Okawa",
+                    "ja": "大川"
+                },
                 "type": "Local"
             },
             {
@@ -467,8 +506,10 @@
                 "startsHere": true,
                 "stops": [452, 454, 455, 457, 459],
                 "terminates": false,
-                "throughDestEn": "Umi-Shibaura",
-                "throughDestJa": "海芝浦",
+                "throughDest": {
+                    "en": "Umi-Shibaura",
+                    "ja": "海芝浦"
+                },
                 "type": "Local"
             },
             {
@@ -487,8 +528,10 @@
                 "startsHere": true,
                 "stops": [472, 474, 475, 477, 479, 481],
                 "terminates": false,
-                "throughDestEn": "Okawa",
-                "throughDestJa": "大川",
+                "throughDest": {
+                    "en": "Okawa",
+                    "ja": "大川"
+                },
                 "type": "Local"
             },
             {
@@ -498,8 +541,10 @@
                 "startsHere": true,
                 "stops": [481, 483, 484, 486, 488],
                 "terminates": false,
-                "throughDestEn": "Umi-Shibaura",
-                "throughDestJa": "海芝浦",
+                "throughDest": {
+                    "en": "Umi-Shibaura",
+                    "ja": "海芝浦"
+                },
                 "type": "Local"
             },
             {
@@ -545,8 +590,10 @@
                 "startsHere": true,
                 "stops": [534, 536, 537, 539, 541],
                 "terminates": false,
-                "throughDestEn": "Umi-Shibaura",
-                "throughDestJa": "海芝浦",
+                "throughDest": {
+                    "en": "Umi-Shibaura",
+                    "ja": "海芝浦"
+                },
                 "type": "Local"
             },
             {
@@ -565,8 +612,10 @@
                 "startsHere": true,
                 "stops": [562, 564, 565, 567, 569],
                 "terminates": false,
-                "throughDestEn": "Umi-Shibaura",
-                "throughDestJa": "海芝浦",
+                "throughDest": {
+                    "en": "Umi-Shibaura",
+                    "ja": "海芝浦"
+                },
                 "type": "Local"
             },
             {
@@ -612,8 +661,10 @@
                 "startsHere": true,
                 "stops": [650, 652, 654, 656, 658],
                 "terminates": false,
-                "throughDestEn": "Umi-Shibaura",
-                "throughDestJa": "海芝浦",
+                "throughDest": {
+                    "en": "Umi-Shibaura",
+                    "ja": "海芝浦"
+                },
                 "type": "Local"
             },
             {
@@ -650,8 +701,10 @@
                 "startsHere": true,
                 "stops": [730, 732, 734, 736, 738],
                 "terminates": false,
-                "throughDestEn": "Umi-Shibaura",
-                "throughDestJa": "海芝浦",
+                "throughDest": {
+                    "en": "Umi-Shibaura",
+                    "ja": "海芝浦"
+                },
                 "type": "Local"
             },
             {
@@ -688,8 +741,10 @@
                 "startsHere": true,
                 "stops": [810, 812, 814, 816, 818],
                 "terminates": false,
-                "throughDestEn": "Umi-Shibaura",
-                "throughDestJa": "海芝浦",
+                "throughDest": {
+                    "en": "Umi-Shibaura",
+                    "ja": "海芝浦"
+                },
                 "type": "Local"
             },
             {
@@ -726,8 +781,10 @@
                 "startsHere": true,
                 "stops": [890, 892, 894, 896, 898],
                 "terminates": false,
-                "throughDestEn": "Umi-Shibaura",
-                "throughDestJa": "海芝浦",
+                "throughDest": {
+                    "en": "Umi-Shibaura",
+                    "ja": "海芝浦"
+                },
                 "type": "Local"
             },
             {
@@ -764,8 +821,10 @@
                 "startsHere": true,
                 "stops": [970, 972, 974, 976, 978],
                 "terminates": false,
-                "throughDestEn": "Umi-Shibaura",
-                "throughDestJa": "海芝浦",
+                "throughDest": {
+                    "en": "Umi-Shibaura",
+                    "ja": "海芝浦"
+                },
                 "type": "Local"
             },
             {
@@ -793,8 +852,10 @@
                 "startsHere": true,
                 "stops": [1010, 1012, 1013, 1015, 1017],
                 "terminates": false,
-                "throughDestEn": "Umi-Shibaura",
-                "throughDestJa": "海芝浦",
+                "throughDest": {
+                    "en": "Umi-Shibaura",
+                    "ja": "海芝浦"
+                },
                 "type": "Local"
             },
             {
@@ -822,8 +883,10 @@
                 "startsHere": true,
                 "stops": [1040, 1042, 1043, 1045, 1047],
                 "terminates": false,
-                "throughDestEn": "Umi-Shibaura",
-                "throughDestJa": "海芝浦",
+                "throughDest": {
+                    "en": "Umi-Shibaura",
+                    "ja": "海芝浦"
+                },
                 "type": "Local"
             },
             {
@@ -842,8 +905,10 @@
                 "startsHere": true,
                 "stops": [1060, 1062, 1063, 1065, 1067, 1069],
                 "terminates": false,
-                "throughDestEn": "Okawa",
-                "throughDestJa": "大川",
+                "throughDest": {
+                    "en": "Okawa",
+                    "ja": "大川"
+                },
                 "type": "Local"
             },
             {
@@ -853,8 +918,10 @@
                 "startsHere": true,
                 "stops": [1070, 1072, 1073, 1075, 1077],
                 "terminates": false,
-                "throughDestEn": "Umi-Shibaura",
-                "throughDestJa": "海芝浦",
+                "throughDest": {
+                    "en": "Umi-Shibaura",
+                    "ja": "海芝浦"
+                },
                 "type": "Local"
             },
             {
@@ -882,8 +949,10 @@
                 "startsHere": true,
                 "stops": [1102, 1104, 1105, 1107, 1109],
                 "terminates": false,
-                "throughDestEn": "Umi-Shibaura",
-                "throughDestJa": "海芝浦",
+                "throughDest": {
+                    "en": "Umi-Shibaura",
+                    "ja": "海芝浦"
+                },
                 "type": "Local"
             },
             {
@@ -947,8 +1016,10 @@
                 "startsHere": true,
                 "stops": [1180, 1182, 1183, 1185, 1187],
                 "terminates": false,
-                "throughDestEn": "Umi-Shibaura",
-                "throughDestJa": "海芝浦",
+                "throughDest": {
+                    "en": "Umi-Shibaura",
+                    "ja": "海芝浦"
+                },
                 "type": "Local"
             },
             {
@@ -976,8 +1047,10 @@
                 "startsHere": true,
                 "stops": [1230, 1232, 1233, 1235, 1237],
                 "terminates": false,
-                "throughDestEn": "Umi-Shibaura",
-                "throughDestJa": "海芝浦",
+                "throughDest": {
+                    "en": "Umi-Shibaura",
+                    "ja": "海芝浦"
+                },
                 "type": "Local"
             },
             {
@@ -1680,8 +1753,10 @@
                 "startsHere": true,
                 "stops": [381, 383, 384, 386, 388],
                 "terminates": false,
-                "throughDestEn": "Umi-Shibaura",
-                "throughDestJa": "海芝浦",
+                "throughDest": {
+                    "en": "Umi-Shibaura",
+                    "ja": "海芝浦"
+                },
                 "type": "Local"
             },
             {
@@ -1709,8 +1784,10 @@
                 "startsHere": true,
                 "stops": [403, 405, 406, 408, 410],
                 "terminates": false,
-                "throughDestEn": "Umi-Shibaura",
-                "throughDestJa": "海芝浦",
+                "throughDest": {
+                    "en": "Umi-Shibaura",
+                    "ja": "海芝浦"
+                },
                 "type": "Local"
             },
             {
@@ -1729,8 +1806,10 @@
                 "startsHere": true,
                 "stops": [416, 418, 419, 421, 423],
                 "terminates": false,
-                "throughDestEn": "Umi-Shibaura",
-                "throughDestJa": "海芝浦",
+                "throughDest": {
+                    "en": "Umi-Shibaura",
+                    "ja": "海芝浦"
+                },
                 "type": "Local"
             },
             {
@@ -1749,8 +1828,10 @@
                 "startsHere": true,
                 "stops": [422, 424, 425, 427, 429, 431],
                 "terminates": false,
-                "throughDestEn": "Okawa",
-                "throughDestJa": "大川",
+                "throughDest": {
+                    "en": "Okawa",
+                    "ja": "大川"
+                },
                 "type": "Local"
             },
             {
@@ -1760,8 +1841,10 @@
                 "startsHere": true,
                 "stops": [427, 429, 430, 432, 434],
                 "terminates": false,
-                "throughDestEn": "Umi-Shibaura",
-                "throughDestJa": "海芝浦",
+                "throughDest": {
+                    "en": "Umi-Shibaura",
+                    "ja": "海芝浦"
+                },
                 "type": "Local"
             },
             {
@@ -1780,8 +1863,10 @@
                 "startsHere": true,
                 "stops": [439, 441, 442, 444, 446],
                 "terminates": false,
-                "throughDestEn": "Umi-Shibaura",
-                "throughDestJa": "海芝浦",
+                "throughDest": {
+                    "en": "Umi-Shibaura",
+                    "ja": "海芝浦"
+                },
                 "type": "Local"
             },
             {
@@ -1800,8 +1885,10 @@
                 "startsHere": true,
                 "stops": [450, 452, 453, 455, 457],
                 "terminates": false,
-                "throughDestEn": "Umi-Shibaura",
-                "throughDestJa": "海芝浦",
+                "throughDest": {
+                    "en": "Umi-Shibaura",
+                    "ja": "海芝浦"
+                },
                 "type": "Local"
             },
             {
@@ -1811,8 +1898,10 @@
                 "startsHere": true,
                 "stops": [454, 456, 457, 459, 461, 463],
                 "terminates": false,
-                "throughDestEn": "Okawa",
-                "throughDestJa": "大川",
+                "throughDest": {
+                    "en": "Okawa",
+                    "ja": "大川"
+                },
                 "type": "Local"
             },
             {
@@ -1831,8 +1920,10 @@
                 "startsHere": true,
                 "stops": [463, 465, 466, 468, 470],
                 "terminates": false,
-                "throughDestEn": "Umi-Shibaura",
-                "throughDestJa": "海芝浦",
+                "throughDest": {
+                    "en": "Umi-Shibaura",
+                    "ja": "海芝浦"
+                },
                 "type": "Local"
             },
             {
@@ -1869,8 +1960,10 @@
                 "startsHere": true,
                 "stops": [487, 489, 490, 492, 494, 496],
                 "terminates": false,
-                "throughDestEn": "Okawa",
-                "throughDestJa": "大川",
+                "throughDest": {
+                    "en": "Okawa",
+                    "ja": "大川"
+                },
                 "type": "Local"
             },
             {
@@ -1880,8 +1973,10 @@
                 "startsHere": true,
                 "stops": [492, 494, 495, 497, 499],
                 "terminates": false,
-                "throughDestEn": "Umi-Shibaura",
-                "throughDestJa": "海芝浦",
+                "throughDest": {
+                    "en": "Umi-Shibaura",
+                    "ja": "海芝浦"
+                },
                 "type": "Local"
             },
             {
@@ -1909,8 +2004,10 @@
                 "startsHere": true,
                 "stops": [506, 508, 509, 511, 513, 516],
                 "terminates": false,
-                "throughDestEn": "Okawa",
-                "throughDestJa": "大川",
+                "throughDest": {
+                    "en": "Okawa",
+                    "ja": "大川"
+                },
                 "type": "Local"
             },
             {
@@ -1938,8 +2035,10 @@
                 "startsHere": true,
                 "stops": [525, 527, 528, 530, 532],
                 "terminates": false,
-                "throughDestEn": "Umi-Shibaura",
-                "throughDestJa": "海芝浦",
+                "throughDest": {
+                    "en": "Umi-Shibaura",
+                    "ja": "海芝浦"
+                },
                 "type": "Local"
             },
             {
@@ -1994,8 +2093,10 @@
                 "startsHere": true,
                 "stops": [574, 576, 577, 579, 581],
                 "terminates": false,
-                "throughDestEn": "Umi-Shibaura",
-                "throughDestJa": "海芝浦",
+                "throughDest": {
+                    "en": "Umi-Shibaura",
+                    "ja": "海芝浦"
+                },
                 "type": "Local"
             },
             {
@@ -2041,8 +2142,10 @@
                 "startsHere": true,
                 "stops": [650, 652, 654, 656, 658],
                 "terminates": false,
-                "throughDestEn": "Umi-Shibaura",
-                "throughDestJa": "海芝浦",
+                "throughDest": {
+                    "en": "Umi-Shibaura",
+                    "ja": "海芝浦"
+                },
                 "type": "Local"
             },
             {
@@ -2079,8 +2182,10 @@
                 "startsHere": true,
                 "stops": [730, 732, 734, 736, 738],
                 "terminates": false,
-                "throughDestEn": "Umi-Shibaura",
-                "throughDestJa": "海芝浦",
+                "throughDest": {
+                    "en": "Umi-Shibaura",
+                    "ja": "海芝浦"
+                },
                 "type": "Local"
             },
             {
@@ -2117,8 +2222,10 @@
                 "startsHere": true,
                 "stops": [810, 812, 814, 816, 818],
                 "terminates": false,
-                "throughDestEn": "Umi-Shibaura",
-                "throughDestJa": "海芝浦",
+                "throughDest": {
+                    "en": "Umi-Shibaura",
+                    "ja": "海芝浦"
+                },
                 "type": "Local"
             },
             {
@@ -2155,8 +2262,10 @@
                 "startsHere": true,
                 "stops": [890, 892, 894, 896, 898],
                 "terminates": false,
-                "throughDestEn": "Umi-Shibaura",
-                "throughDestJa": "海芝浦",
+                "throughDest": {
+                    "en": "Umi-Shibaura",
+                    "ja": "海芝浦"
+                },
                 "type": "Local"
             },
             {
@@ -2202,8 +2311,10 @@
                 "startsHere": true,
                 "stops": [980, 982, 984, 986, 988],
                 "terminates": false,
-                "throughDestEn": "Umi-Shibaura",
-                "throughDestJa": "海芝浦",
+                "throughDest": {
+                    "en": "Umi-Shibaura",
+                    "ja": "海芝浦"
+                },
                 "type": "Local"
             },
             {
@@ -2231,8 +2342,10 @@
                 "startsHere": true,
                 "stops": [1013, 1015, 1016, 1018, 1020],
                 "terminates": false,
-                "throughDestEn": "Umi-Shibaura",
-                "throughDestJa": "海芝浦",
+                "throughDest": {
+                    "en": "Umi-Shibaura",
+                    "ja": "海芝浦"
+                },
                 "type": "Local"
             },
             {
@@ -2251,8 +2364,10 @@
                 "startsHere": true,
                 "stops": [1027, 1029, 1030, 1032, 1034],
                 "terminates": false,
-                "throughDestEn": "Umi-Shibaura",
-                "throughDestJa": "海芝浦",
+                "throughDest": {
+                    "en": "Umi-Shibaura",
+                    "ja": "海芝浦"
+                },
                 "type": "Local"
             },
             {
@@ -2262,8 +2377,10 @@
                 "startsHere": true,
                 "stops": [1032, 1034, 1036, 1038, 1040, 1041],
                 "terminates": false,
-                "throughDestEn": "Okawa",
-                "throughDestJa": "大川",
+                "throughDest": {
+                    "en": "Okawa",
+                    "ja": "大川"
+                },
                 "type": "Local"
             },
             {
@@ -2282,8 +2399,10 @@
                 "startsHere": true,
                 "stops": [1044, 1046, 1048, 1050, 1052],
                 "terminates": false,
-                "throughDestEn": "Umi-Shibaura",
-                "throughDestJa": "海芝浦",
+                "throughDest": {
+                    "en": "Umi-Shibaura",
+                    "ja": "海芝浦"
+                },
                 "type": "Local"
             },
             {
@@ -2302,8 +2421,10 @@
                 "startsHere": true,
                 "stops": [1059, 1061, 1062, 1064, 1066, 1068],
                 "terminates": false,
-                "throughDestEn": "Okawa",
-                "throughDestJa": "大川",
+                "throughDest": {
+                    "en": "Okawa",
+                    "ja": "大川"
+                },
                 "type": "Local"
             },
             {
@@ -2322,8 +2443,10 @@
                 "startsHere": true,
                 "stops": [1072, 1074, 1076, 1078, 1080],
                 "terminates": false,
-                "throughDestEn": "Umi-Shibaura",
-                "throughDestJa": "海芝浦",
+                "throughDest": {
+                    "en": "Umi-Shibaura",
+                    "ja": "海芝浦"
+                },
                 "type": "Local"
             },
             {
@@ -2360,8 +2483,10 @@
                 "startsHere": true,
                 "stops": [1099, 1101, 1103, 1105, 1107],
                 "terminates": false,
-                "throughDestEn": "Umi-Shibaura",
-                "throughDestJa": "海芝浦",
+                "throughDest": {
+                    "en": "Umi-Shibaura",
+                    "ja": "海芝浦"
+                },
                 "type": "Local"
             },
             {
@@ -2380,8 +2505,10 @@
                 "startsHere": true,
                 "stops": [1112, 1114, 1115, 1117, 1119, 1121],
                 "terminates": false,
-                "throughDestEn": "Okawa",
-                "throughDestJa": "大川",
+                "throughDest": {
+                    "en": "Okawa",
+                    "ja": "大川"
+                },
                 "type": "Local"
             },
             {
@@ -2409,8 +2536,10 @@
                 "startsHere": true,
                 "stops": [1140, 1142, 1143, 1145, 1147],
                 "terminates": false,
-                "throughDestEn": "Umi-Shibaura",
-                "throughDestJa": "海芝浦",
+                "throughDest": {
+                    "en": "Umi-Shibaura",
+                    "ja": "海芝浦"
+                },
                 "type": "Local"
             },
             {
@@ -2429,8 +2558,10 @@
                 "startsHere": true,
                 "stops": [1162, 1164, 1165, 1167, 1169, 1171],
                 "terminates": false,
-                "throughDestEn": "Okawa",
-                "throughDestJa": "大川",
+                "throughDest": {
+                    "en": "Okawa",
+                    "ja": "大川"
+                },
                 "type": "Local"
             },
             {
@@ -2440,8 +2571,10 @@
                 "startsHere": true,
                 "stops": [1175, 1177, 1178, 1180, 1182],
                 "terminates": false,
-                "throughDestEn": "Umi-Shibaura",
-                "throughDestJa": "海芝浦",
+                "throughDest": {
+                    "en": "Umi-Shibaura",
+                    "ja": "海芝浦"
+                },
                 "type": "Local"
             },
             {
@@ -2460,8 +2593,10 @@
                 "startsHere": true,
                 "stops": [1205, 1207, 1208, 1210, 1212, 1214],
                 "terminates": false,
-                "throughDestEn": "Okawa",
-                "throughDestJa": "大川",
+                "throughDest": {
+                    "en": "Okawa",
+                    "ja": "大川"
+                },
                 "type": "Local"
             },
             {
@@ -2480,8 +2615,10 @@
                 "startsHere": true,
                 "stops": [1235, 1237, 1238, 1240, 1242],
                 "terminates": false,
-                "throughDestEn": "Umi-Shibaura",
-                "throughDestJa": "海芝浦",
+                "throughDest": {
+                    "en": "Umi-Shibaura",
+                    "ja": "海芝浦"
+                },
                 "type": "Local"
             },
             {
@@ -2527,8 +2664,10 @@
                 "startsHere": true,
                 "stops": [1315, 1317, 1318, 1320, 1322],
                 "terminates": false,
-                "throughDestEn": "Umi-Shibaura",
-                "throughDestJa": "海芝浦",
+                "throughDest": {
+                    "en": "Umi-Shibaura",
+                    "ja": "海芝浦"
+                },
                 "type": "Local"
             },
             {
@@ -3414,6 +3553,6 @@
                 "type": "Local"
             }
         ],
-        "upHopTimesMinutes": [2.0, 2.0, 2.0, 2.0, 1.0, 2.0, 2.0, 3.0, 1.0]
+        "upHopTimesMinutes": [2, 2, 2, 2, 1, 2, 2, 3, 1]
     }
 ]

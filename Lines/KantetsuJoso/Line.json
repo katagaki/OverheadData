@@ -2,10 +2,14 @@
     {
         "colorHex": "#1D2088",
         "delayInfo": {
-            "checkMethodEn": "Check the Kanto Railway website or X (@kantetsu_train). Notices are posted when a delay of about 15 minutes or more occurs or is expected.",
-            "checkMethodJa": "関東鉄道の公式サイトまたはX（@kantetsu_train）で確認できます。おおむね15分以上の遅れが発生・見込まれる場合に掲載されます。",
-            "statusPageURL": "https://www.kantetsu.co.jp/train/",
-            "statusPageURLEn": "https://www.kantetsu.co.jp/train/",
+            "checkMethod": {
+                "en": "Check the Kanto Railway website or X (@kantetsu_train). Notices are posted when a delay of about 15 minutes or more occurs or is expected.",
+                "ja": "関東鉄道の公式サイトまたはX（@kantetsu_train）で確認できます。おおむね15分以上の遅れが発生・見込まれる場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://www.kantetsu.co.jp/train/",
+                "ja": "https://www.kantetsu.co.jp/train/"
+            },
             "xAccount": "@kantetsu_train"
         },
         "directions": [
@@ -15,8 +19,10 @@
                 "id": "static.RailDirection:Kantetsu.Joso.Shimodate",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Shimodate",
-                "nameJa": "下館方面",
+                "name": {
+                    "en": "For Shimodate",
+                    "ja": "下館方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -33,7 +39,7 @@
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 13.0
+                            "headwayMinutes": 13
                         },
                         {
                             "from": "09:00",
@@ -45,11 +51,11 @@
                         },
                         {
                             "from": "11:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "15:00",
-                            "headwayMinutes": 14.0
+                            "headwayMinutes": 14
                         },
                         {
                             "from": "16:00",
@@ -57,11 +63,11 @@
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 14.0
+                            "headwayMinutes": 14
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 13.0
+                            "headwayMinutes": 13
                         },
                         {
                             "from": "20:00",
@@ -69,7 +75,7 @@
                         },
                         {
                             "from": "21:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "22:00",
@@ -77,7 +83,7 @@
                         },
                         {
                             "from": "23:00",
-                            "headwayMinutes": 19.0
+                            "headwayMinutes": 19
                         }
                     ],
                     "firstDeparture": "05:00",
@@ -92,7 +98,7 @@
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 9.0
+                            "headwayMinutes": 9
                         },
                         {
                             "from": "07:00",
@@ -112,7 +118,7 @@
                         },
                         {
                             "from": "11:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "15:00",
@@ -124,7 +130,7 @@
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 13.0
+                            "headwayMinutes": 13
                         },
                         {
                             "from": "18:00",
@@ -132,7 +138,7 @@
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 12.0
+                            "headwayMinutes": 12
                         },
                         {
                             "from": "20:00",
@@ -148,7 +154,7 @@
                         },
                         {
                             "from": "23:00",
-                            "headwayMinutes": 18.0
+                            "headwayMinutes": 18
                         }
                     ],
                     "firstDeparture": "05:00",
@@ -162,17 +168,19 @@
                 "id": "static.RailDirection:Kantetsu.Joso.Toride",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Toride",
-                "nameJa": "取手方面",
+                "name": {
+                    "en": "For Toride",
+                    "ja": "取手方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
                             "from": "05:58",
-                            "headwayMinutes": 30.0
+                            "headwayMinutes": 30
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 34.0
+                            "headwayMinutes": 34
                         },
                         {
                             "from": "07:00",
@@ -184,7 +192,7 @@
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 34.0
+                            "headwayMinutes": 34
                         },
                         {
                             "from": "10:00",
@@ -192,19 +200,19 @@
                         },
                         {
                             "from": "11:00",
-                            "headwayMinutes": 43.0
+                            "headwayMinutes": 43
                         },
                         {
                             "from": "12:00",
-                            "headwayMinutes": 33.0
+                            "headwayMinutes": 33
                         },
                         {
                             "from": "13:00",
-                            "headwayMinutes": 60.0
+                            "headwayMinutes": 60
                         },
                         {
                             "from": "15:00",
-                            "headwayMinutes": 61.0
+                            "headwayMinutes": 61
                         },
                         {
                             "from": "16:00",
@@ -212,19 +220,19 @@
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 33.0
+                            "headwayMinutes": 33
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 32.0
+                            "headwayMinutes": 32
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 39.0
+                            "headwayMinutes": 39
                         },
                         {
                             "from": "20:00",
-                            "headwayMinutes": 34.0
+                            "headwayMinutes": 34
                         },
                         {
                             "from": "21:00",
@@ -232,7 +240,7 @@
                         },
                         {
                             "from": "22:00",
-                            "headwayMinutes": 55.0
+                            "headwayMinutes": 55
                         }
                     ],
                     "firstDeparture": "05:58",
@@ -243,11 +251,11 @@
                     "bands": [
                         {
                             "from": "05:58",
-                            "headwayMinutes": 24.0
+                            "headwayMinutes": 24
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 22.0
+                            "headwayMinutes": 22
                         },
                         {
                             "from": "07:00",
@@ -259,7 +267,7 @@
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 40.0
+                            "headwayMinutes": 40
                         },
                         {
                             "from": "10:00",
@@ -271,19 +279,19 @@
                         },
                         {
                             "from": "12:00",
-                            "headwayMinutes": 51.0
+                            "headwayMinutes": 51
                         },
                         {
                             "from": "13:00",
-                            "headwayMinutes": 60.0
+                            "headwayMinutes": 60
                         },
                         {
                             "from": "14:00",
-                            "headwayMinutes": 59.0
+                            "headwayMinutes": 59
                         },
                         {
                             "from": "15:00",
-                            "headwayMinutes": 34.0
+                            "headwayMinutes": 34
                         },
                         {
                             "from": "16:00",
@@ -291,7 +299,7 @@
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 34.0
+                            "headwayMinutes": 34
                         },
                         {
                             "from": "18:00",
@@ -299,7 +307,7 @@
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 31.0
+                            "headwayMinutes": 31
                         },
                         {
                             "from": "20:00",
@@ -307,11 +315,11 @@
                         },
                         {
                             "from": "21:00",
-                            "headwayMinutes": 67.0
+                            "headwayMinutes": 67
                         },
                         {
                             "from": "22:00",
-                            "headwayMinutes": 56.0
+                            "headwayMinutes": 56
                         }
                     ],
                     "firstDeparture": "05:58",
@@ -320,286 +328,341 @@
                 }
             }
         ],
-        "hopTimesMinutes": [3.0, 1.0, 2.0, 2.0, 3.0, 2.0, 2.0, 4.0, 3.0, 3.0, 5.0, 3.0, 3.0, 4.0, 4.0, 4.0, 3.0, 3.0, 5.0, 4.0, 3.0, 4.0, 5.0, 5.0],
+        "hopTimesMinutes": [3, 1, 2, 2, 3, 2, 2, 4, 3, 3, 5, 3, 3, 4, 4, 4, 3, 3, 5, 4, 3, 4, 5, 5],
         "id": "Railway:Kantetsu.Joso",
         "isLoop": false,
-        "nameEn": "Kanto Railway Joso Line",
-        "nameJa": "関東鉄道常総線",
+        "name": {
+            "en": "Kanto Railway Joso Line",
+            "ja": "関東鉄道常総線",
+            "ko": "간토 철도 조소선",
+            "zh-Hans": "常总线",
+            "zh-Hant": "常總線"
+        },
         "operatorId": "Operator:Kantetsu",
         "stations": [
             {
                 "id": "Station:Kantetsu.Joso.Toride",
                 "latitude": 35.89615,
                 "longitude": 140.06333,
-                "name": "取手",
-                "nameEn": "Toride",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Toride",
+                    "ja": "取手",
+                    "ko": "도리데",
+                    "zh-Hans": "取手",
+                    "zh-Hant": "取手"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Kantetsu.Joso.NishiToride",
                 "latitude": 35.90909,
                 "longitude": 140.05895,
-                "name": "西取手",
-                "nameEn": "Nishi-Toride",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nishi-Toride",
+                    "ja": "西取手",
+                    "ko": "니시토리데",
+                    "zh-Hans": "西取手",
+                    "zh-Hant": "西取手"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Kantetsu.Joso.Terahara",
                 "latitude": 35.91196,
                 "longitude": 140.05454,
-                "name": "寺原",
-                "nameEn": "Terahara",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Terahara",
+                    "ja": "寺原",
+                    "ko": "데라하라",
+                    "zh-Hans": "寺原",
+                    "zh-Hant": "寺原"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Kantetsu.Joso.ShinToride",
                 "latitude": 35.91746,
                 "longitude": 140.04282,
-                "name": "新取手",
-                "nameEn": "Shin-Toride",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shin-Toride",
+                    "ja": "新取手",
+                    "ko": "신토리데",
+                    "zh-Hans": "新取手",
+                    "zh-Hant": "新取手"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Kantetsu.Joso.Yumemino",
                 "latitude": 35.92106,
                 "longitude": 140.03522,
-                "name": "ゆめみ野",
-                "nameEn": "Yumemino",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Yumemino",
+                    "ja": "ゆめみ野",
+                    "ko": "유메미노",
+                    "zh-Hans": "梦见野",
+                    "zh-Hant": "夢見野"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Kantetsu.Joso.Inatoi",
                 "latitude": 35.92638,
                 "longitude": 140.02246,
-                "name": "稲戸井",
-                "nameEn": "Inatoi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Inatoi",
+                    "ja": "稲戸井",
+                    "ko": "이나토이",
+                    "zh-Hans": "稻户井",
+                    "zh-Hant": "稻戶井"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Kantetsu.Joso.Togashira",
                 "latitude": 35.92933,
                 "longitude": 140.01409,
-                "name": "戸頭",
-                "nameEn": "Togashira",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Togashira",
+                    "ja": "戸頭",
+                    "ko": "도가시라",
+                    "zh-Hans": "户头",
+                    "zh-Hant": "戶頭"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Kantetsu.Joso.MinamiMoriya",
                 "latitude": 35.93428,
                 "longitude": 140.00248,
-                "name": "南守谷",
-                "nameEn": "Minami-Moriya",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Minami-Moriya",
+                    "ja": "南守谷",
+                    "ko": "미나미모리야",
+                    "zh-Hans": "南守谷",
+                    "zh-Hant": "南守谷"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Kantetsu.Joso.Moriya",
                 "latitude": 35.95012,
                 "longitude": 139.99193,
-                "name": "守谷",
-                "nameEn": "Moriya",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Moriya",
+                    "ja": "守谷",
+                    "ko": "모리야",
+                    "zh-Hans": "守谷",
+                    "zh-Hant": "守谷"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Kantetsu.Joso.ShinMoriya",
                 "latitude": 35.96651,
                 "longitude": 139.98565,
-                "name": "新守谷",
-                "nameEn": "Shin-Moriya",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shin-Moriya",
+                    "ja": "新守谷",
+                    "ko": "신모리야",
+                    "zh-Hans": "新守谷",
+                    "zh-Hant": "新守谷"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Kantetsu.Joso.Kokinu",
                 "latitude": 35.9812,
                 "longitude": 139.98322,
-                "name": "小絹",
-                "nameEn": "Kokinu",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kokinu",
+                    "ja": "小絹",
+                    "ko": "고키누",
+                    "zh-Hans": "小绢",
+                    "zh-Hant": "小絹"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Kantetsu.Joso.Mitsukaido",
                 "latitude": 36.01806,
                 "longitude": 139.99165,
-                "name": "水海道",
-                "nameEn": "Mitsukaido",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Mitsukaido",
+                    "ja": "水海道",
+                    "ko": "미쓰카이도",
+                    "zh-Hans": "水海道",
+                    "zh-Hant": "水海道"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Kantetsu.Joso.KitaMitsukaido",
                 "latitude": 36.03209,
                 "longitude": 139.99286,
-                "name": "北水海道",
-                "nameEn": "Kita-Mitsukaido",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kita-Mitsukaido",
+                    "ja": "北水海道",
+                    "ko": "기타미쓰카이도",
+                    "zh-Hans": "北水海道",
+                    "zh-Hant": "北水海道"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Kantetsu.Joso.Nakatsuma",
                 "latitude": 36.04722,
                 "longitude": 139.99061,
-                "name": "中妻",
-                "nameEn": "Nakatsuma",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nakatsuma",
+                    "ja": "中妻",
+                    "ko": "나카쓰마",
+                    "zh-Hans": "中妻",
+                    "zh-Hant": "中妻"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Kantetsu.Joso.Mitsuma",
                 "latitude": 36.07357,
                 "longitude": 139.98302,
-                "name": "三妻",
-                "nameEn": "Mitsuma",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Mitsuma",
+                    "ja": "三妻",
+                    "ko": "미쓰마",
+                    "zh-Hans": "三妻",
+                    "zh-Hant": "三妻"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Kantetsu.Joso.MinamiIshige",
                 "latitude": 36.10239,
                 "longitude": 139.97386,
-                "name": "南石下",
-                "nameEn": "Minami-Ishige",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Minami-Ishige",
+                    "ja": "南石下",
+                    "ko": "미나미이시게",
+                    "zh-Hans": "南石下",
+                    "zh-Hant": "南石下"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Kantetsu.Joso.Ishige",
                 "latitude": 36.11722,
                 "longitude": 139.97425,
-                "name": "石下",
-                "nameEn": "Ishige",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ishige",
+                    "ja": "石下",
+                    "ko": "이시게",
+                    "zh-Hans": "石下",
+                    "zh-Hant": "石下"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Kantetsu.Joso.Tamamura",
                 "latitude": 36.13566,
                 "longitude": 139.96986,
-                "name": "玉村",
-                "nameEn": "Tamamura",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tamamura",
+                    "ja": "玉村",
+                    "ko": "다마무라",
+                    "zh-Hans": "玉村",
+                    "zh-Hant": "玉村"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Kantetsu.Joso.Sodo",
                 "latitude": 36.1541,
                 "longitude": 139.97052,
-                "name": "宗道",
-                "nameEn": "Sodo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Sodo",
+                    "ja": "宗道",
+                    "ko": "소도",
+                    "zh-Hans": "宗道",
+                    "zh-Hant": "宗道"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Kantetsu.Joso.Shimotsuma",
                 "latitude": 36.18199,
                 "longitude": 139.96444,
-                "name": "下妻",
-                "nameEn": "Shimotsuma",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shimotsuma",
+                    "ja": "下妻",
+                    "ko": "시모쓰마",
+                    "zh-Hans": "下妻",
+                    "zh-Hant": "下妻"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Kantetsu.Joso.Daiho",
                 "latitude": 36.20309,
                 "longitude": 139.9703,
-                "name": "大宝",
-                "nameEn": "Daiho",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Daiho",
+                    "ja": "大宝",
+                    "ko": "다이호",
+                    "zh-Hans": "大宝",
+                    "zh-Hant": "大寶"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Kantetsu.Joso.Tobanoe",
                 "latitude": 36.22326,
                 "longitude": 139.97644,
-                "name": "騰波ノ江",
-                "nameEn": "Tobanoe",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tobanoe",
+                    "ja": "騰波ノ江",
+                    "ko": "도바노에",
+                    "zh-Hans": "腾波之江",
+                    "zh-Hant": "騰波之江"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Kantetsu.Joso.Kurogo",
                 "latitude": 36.24731,
                 "longitude": 139.97499,
-                "name": "黒子",
-                "nameEn": "Kurogo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kurogo",
+                    "ja": "黒子",
+                    "ko": "구로고",
+                    "zh-Hans": "黑子",
+                    "zh-Hant": "黑子"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Kantetsu.Joso.Otago",
                 "latitude": 36.27821,
                 "longitude": 139.95964,
-                "name": "大田郷",
-                "nameEn": "Otago",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Otago",
+                    "ja": "大田郷",
+                    "ko": "오타고",
+                    "zh-Hans": "大田乡",
+                    "zh-Hant": "大田鄉"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Kantetsu.Joso.Shimodate",
                 "latitude": 36.30417,
                 "longitude": 139.9787,
-                "name": "下館",
-                "nameEn": "Shimodate",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shimodate",
+                    "ja": "下館",
+                    "ko": "시모다테",
+                    "zh-Hans": "下馆",
+                    "zh-Hant": "下館"
+                },
                 "stationCode": ""
             }
         ],
@@ -4306,6 +4369,6 @@
                 "type": "Local"
             }
         ],
-        "upHopTimesMinutes": [3.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 3.0, 4.0, 2.0, 5.0, 3.0, 3.0, 4.0, 4.0, 3.0, 4.0, 3.0, 4.0, 5.0, 3.0, 4.0, 5.0, 5.0]
+        "upHopTimesMinutes": [3, 2, 2, 2, 2, 2, 2, 3, 4, 2, 5, 3, 3, 4, 4, 3, 4, 3, 4, 5, 3, 4, 5, 5]
     }
 ]

@@ -2,10 +2,14 @@
     {
         "colorHex": "#0072BC",
         "delayInfo": {
-            "checkMethodEn": "Check the JR East Train Operation Information page or the JR East app. In the Tokyo area, delays or suspensions of 15 minutes or more are posted.",
-            "checkMethodJa": "JR東日本「列車運行情報」ページまたはJR東日本アプリで確認できます。首都圏エリアでは15分以上の遅れ・運休が発生または見込まれる場合に掲載されます。",
-            "statusPageURL": "https://traininfo.jreast.co.jp/train_info/line.aspx?gid=1&lineid=naritaline",
-            "statusPageURLEn": "https://traininfo.jreast.co.jp/train_info/e/kanto.aspx",
+            "checkMethod": {
+                "en": "Check the JR East Train Operation Information page or the JR East app. In the Tokyo area, delays or suspensions of 15 minutes or more are posted.",
+                "ja": "JR東日本「列車運行情報」ページまたはJR東日本アプリで確認できます。首都圏エリアでは15分以上の遅れ・運休が発生または見込まれる場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://traininfo.jreast.co.jp/train_info/e/kanto.aspx",
+                "ja": "https://traininfo.jreast.co.jp/train_info/line.aspx?gid=1&lineid=naritaline"
+            },
             "xAccount": "@JRE_F_Sobu"
         },
         "directions": [
@@ -15,21 +19,23 @@
                 "id": "static.RailDirection:JR-East.NaritaAbikoBranch.Narita",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Narita",
-                "nameJa": "成田方面",
+                "name": {
+                    "en": "For Narita",
+                    "ja": "成田方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
                             "from": "05:35",
-                            "headwayMinutes": 32.0
+                            "headwayMinutes": 32
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 29.0
+                            "headwayMinutes": 29
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 26.0
+                            "headwayMinutes": 26
                         },
                         {
                             "from": "08:00",
@@ -37,15 +43,15 @@
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 29.0
+                            "headwayMinutes": 29
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 31.0
+                            "headwayMinutes": 31
                         },
                         {
                             "from": "11:00",
-                            "headwayMinutes": 30.0
+                            "headwayMinutes": 30
                         },
                         {
                             "from": "15:00",
@@ -53,19 +59,19 @@
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 27.0
+                            "headwayMinutes": 27
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 33.0
+                            "headwayMinutes": 33
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 26.0
+                            "headwayMinutes": 26
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 22.0
+                            "headwayMinutes": 22
                         },
                         {
                             "from": "20:00",
@@ -73,7 +79,7 @@
                         },
                         {
                             "from": "21:00",
-                            "headwayMinutes": 24.0
+                            "headwayMinutes": 24
                         },
                         {
                             "from": "22:00",
@@ -81,7 +87,7 @@
                         },
                         {
                             "from": "23:00",
-                            "headwayMinutes": 31.0
+                            "headwayMinutes": 31
                         }
                     ],
                     "firstDeparture": "05:35",
@@ -92,15 +98,15 @@
                     "bands": [
                         {
                             "from": "05:35",
-                            "headwayMinutes": 32.0
+                            "headwayMinutes": 32
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 29.0
+                            "headwayMinutes": 29
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 26.0
+                            "headwayMinutes": 26
                         },
                         {
                             "from": "08:00",
@@ -108,15 +114,15 @@
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 29.0
+                            "headwayMinutes": 29
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 31.0
+                            "headwayMinutes": 31
                         },
                         {
                             "from": "11:00",
-                            "headwayMinutes": 30.0
+                            "headwayMinutes": 30
                         },
                         {
                             "from": "15:00",
@@ -124,19 +130,19 @@
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 27.0
+                            "headwayMinutes": 27
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 33.0
+                            "headwayMinutes": 33
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 26.0
+                            "headwayMinutes": 26
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 22.0
+                            "headwayMinutes": 22
                         },
                         {
                             "from": "20:00",
@@ -144,7 +150,7 @@
                         },
                         {
                             "from": "21:00",
-                            "headwayMinutes": 24.0
+                            "headwayMinutes": 24
                         },
                         {
                             "from": "22:00",
@@ -152,7 +158,7 @@
                         },
                         {
                             "from": "23:00",
-                            "headwayMinutes": 31.0
+                            "headwayMinutes": 31
                         }
                     ],
                     "firstDeparture": "05:35",
@@ -166,17 +172,19 @@
                 "id": "static.RailDirection:JR-East.NaritaAbikoBranch.Abiko",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Abiko",
-                "nameJa": "我孫子方面",
+                "name": {
+                    "en": "For Abiko",
+                    "ja": "我孫子方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
                             "from": "04:47",
-                            "headwayMinutes": 39.0
+                            "headwayMinutes": 39
                         },
                         {
                             "from": "05:00",
-                            "headwayMinutes": 18.0
+                            "headwayMinutes": 18
                         },
                         {
                             "from": "06:00",
@@ -184,7 +192,7 @@
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 25.0
+                            "headwayMinutes": 25
                         },
                         {
                             "from": "08:00",
@@ -192,11 +200,11 @@
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 30.0
+                            "headwayMinutes": 30
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 31.0
+                            "headwayMinutes": 31
                         },
                         {
                             "from": "17:00",
@@ -208,11 +216,11 @@
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 25.0
+                            "headwayMinutes": 25
                         },
                         {
                             "from": "20:00",
-                            "headwayMinutes": 31.0
+                            "headwayMinutes": 31
                         },
                         {
                             "from": "21:00",
@@ -220,7 +228,7 @@
                         },
                         {
                             "from": "22:00",
-                            "headwayMinutes": 45.0
+                            "headwayMinutes": 45
                         }
                     ],
                     "firstDeparture": "04:47",
@@ -231,11 +239,11 @@
                     "bands": [
                         {
                             "from": "04:47",
-                            "headwayMinutes": 39.0
+                            "headwayMinutes": 39
                         },
                         {
                             "from": "05:00",
-                            "headwayMinutes": 18.0
+                            "headwayMinutes": 18
                         },
                         {
                             "from": "06:00",
@@ -243,7 +251,7 @@
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 25.0
+                            "headwayMinutes": 25
                         },
                         {
                             "from": "08:00",
@@ -251,11 +259,11 @@
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 30.0
+                            "headwayMinutes": 30
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 31.0
+                            "headwayMinutes": 31
                         },
                         {
                             "from": "17:00",
@@ -267,11 +275,11 @@
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 25.0
+                            "headwayMinutes": 25
                         },
                         {
                             "from": "20:00",
-                            "headwayMinutes": 31.0
+                            "headwayMinutes": 31
                         },
                         {
                             "from": "21:00",
@@ -279,7 +287,7 @@
                         },
                         {
                             "from": "22:00",
-                            "headwayMinutes": 45.0
+                            "headwayMinutes": 45
                         }
                     ],
                     "firstDeparture": "04:47",
@@ -288,11 +296,14 @@
                 }
             }
         ],
-        "hopTimesMinutes": [5.0, 3.0, 4.0, 4.0, 3.0, 5.0, 5.0, 5.0, 6.0],
+        "hopTimesMinutes": [5, 3, 4, 4, 3, 5, 5, 5, 6],
         "id": "Railway:JR-East.NaritaAbikoBranch",
         "isLoop": false,
-        "nameEn": "Narita Line Abiko Branch",
-        "nameJa": "成田線我孫子支線",
+        "name": {
+            "en": "Narita Line Abiko Branch",
+            "ja": "成田線我孫子支線",
+            "zh-Hant": "成田線我孫子支線"
+        },
         "operatorId": "Operator:JR-East",
         "segment": "DokoTrain",
         "stations": [
@@ -300,110 +311,130 @@
                 "id": "Station:JR-East.NaritaAbikoBranch.Abiko",
                 "latitude": 35.8728,
                 "longitude": 140.01042,
-                "name": "我孫子",
-                "nameEn": "Abiko",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Abiko",
+                    "ja": "我孫子",
+                    "ko": "아비코",
+                    "zh-Hans": "我孙子",
+                    "zh-Hant": "我孫子"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.NaritaAbikoBranch.HigashiAbiko",
                 "latitude": 35.86898,
                 "longitude": 140.0476,
-                "name": "東我孫子",
-                "nameEn": "Higashi-Abiko",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Higashi-Abiko",
+                    "ja": "東我孫子",
+                    "ko": "히가시아비코",
+                    "zh-Hans": "东我孙子",
+                    "zh-Hant": "東我孫子"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.NaritaAbikoBranch.Kohoku",
                 "latitude": 35.8672,
                 "longitude": 140.07794,
-                "name": "湖北",
-                "nameEn": "Kohoku",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kohoku",
+                    "ja": "湖北",
+                    "ko": "고호쿠",
+                    "zh-Hans": "湖北",
+                    "zh-Hant": "湖北"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.NaritaAbikoBranch.Araki",
                 "latitude": 35.8624,
                 "longitude": 140.10705,
-                "name": "新木",
-                "nameEn": "Araki",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Araki",
+                    "ja": "新木",
+                    "ko": "아라키",
+                    "zh-Hans": "新木",
+                    "zh-Hant": "新木"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.NaritaAbikoBranch.Fusa",
                 "latitude": 35.84935,
                 "longitude": 140.13298,
-                "name": "布佐",
-                "nameEn": "Fusa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Fusa",
+                    "ja": "布佐",
+                    "ko": "후사",
+                    "zh-Hans": "布佐",
+                    "zh-Hant": "布佐"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.NaritaAbikoBranch.Kioroshi",
                 "latitude": 35.83888,
                 "longitude": 140.14799,
-                "name": "木下",
-                "nameEn": "Kioroshi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kioroshi",
+                    "ja": "木下",
+                    "ko": "기오로시",
+                    "zh-Hans": "木下",
+                    "zh-Hant": "木下"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.NaritaAbikoBranch.Kobayashi",
                 "latitude": 35.83074,
                 "longitude": 140.1931,
-                "name": "小林",
-                "nameEn": "Kobayashi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kobayashi",
+                    "ja": "小林",
+                    "ko": "고바야시",
+                    "zh-Hans": "小林",
+                    "zh-Hant": "小林"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.NaritaAbikoBranch.Ajiki",
                 "latitude": 35.83572,
                 "longitude": 140.24228,
-                "name": "安食",
-                "nameEn": "Ajiki",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ajiki",
+                    "ja": "安食",
+                    "ko": "아지키",
+                    "zh-Hans": "安食",
+                    "zh-Hant": "安食"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.NaritaAbikoBranch.ShimosaManzaki",
                 "latitude": 35.80778,
                 "longitude": 140.27755,
-                "name": "下総松崎",
-                "nameEn": "Shimosa-Manzaki",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shimosa-Manzaki",
+                    "ja": "下総松崎",
+                    "ko": "시모사만자키",
+                    "zh-Hans": "下總松崎",
+                    "zh-Hant": "下總松崎"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.NaritaAbikoBranch.Narita",
                 "latitude": 35.77726,
                 "longitude": 140.31354,
-                "name": "成田",
-                "nameEn": "Narita",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Narita",
+                    "ja": "成田",
+                    "ko": "나리타",
+                    "zh-Hans": "成田",
+                    "zh-Hant": "成田"
+                },
                 "stationCode": "JO35"
             }
         ],
@@ -777,8 +808,10 @@
                 "startsHere": true,
                 "stops": [287, 293, 298, 303, 308, 311, 315, 319, 322, 331],
                 "terminates": false,
-                "throughDestEn": "Ueno",
-                "throughDestJa": "上野",
+                "throughDest": {
+                    "en": "Ueno",
+                    "ja": "上野"
+                },
                 "type": "Rapid"
             },
             {
@@ -788,8 +821,10 @@
                 "startsHere": true,
                 "stops": [326, 332, 336, 342, 347, 351, 355, 359, 362, 373],
                 "terminates": false,
-                "throughDestEn": "Ueno",
-                "throughDestJa": "上野",
+                "throughDest": {
+                    "en": "Ueno",
+                    "ja": "上野"
+                },
                 "type": "Rapid"
             },
             {
@@ -808,8 +843,10 @@
                 "startsHere": true,
                 "stops": [362, 370, 374, 380, 386, 389, 393, 398, 402, 416],
                 "terminates": false,
-                "throughDestEn": "Ueno",
-                "throughDestJa": "上野",
+                "throughDest": {
+                    "en": "Ueno",
+                    "ja": "上野"
+                },
                 "type": "Rapid"
             },
             {
@@ -828,8 +865,10 @@
                 "startsHere": true,
                 "stops": [391, 397, 402, 408, 414, 417, 421, 426, 430, 439],
                 "terminates": false,
-                "throughDestEn": "Shinagawa",
-                "throughDestJa": "品川",
+                "throughDest": {
+                    "en": "Shinagawa",
+                    "ja": "品川"
+                },
                 "type": "Rapid"
             },
             {
@@ -839,8 +878,10 @@
                 "startsHere": true,
                 "stops": [401, 408, 412, 418, 423, 426, 430, 437, 441, 452],
                 "terminates": false,
-                "throughDestEn": "Ueno",
-                "throughDestJa": "上野",
+                "throughDest": {
+                    "en": "Ueno",
+                    "ja": "上野"
+                },
                 "type": "Rapid"
             },
             {
@@ -850,8 +891,10 @@
                 "startsHere": true,
                 "stops": [422, 429, 434, 439, 445, 448, 452, 457, 460, 469],
                 "terminates": false,
-                "throughDestEn": "Shinagawa",
-                "throughDestJa": "品川",
+                "throughDest": {
+                    "en": "Shinagawa",
+                    "ja": "品川"
+                },
                 "type": "Rapid"
             },
             {
@@ -861,8 +904,10 @@
                 "startsHere": true,
                 "stops": [446, 452, 457, 463, 469, 472, 477, 482, 485, 496],
                 "terminates": false,
-                "throughDestEn": "Ueno",
-                "throughDestJa": "上野",
+                "throughDest": {
+                    "en": "Ueno",
+                    "ja": "上野"
+                },
                 "type": "Rapid"
             },
             {
@@ -890,8 +935,10 @@
                 "startsHere": true,
                 "stops": [530, 539, 544, 550, 555, 558, 562, 566, 569, 574],
                 "terminates": false,
-                "throughDestEn": "Ueno",
-                "throughDestJa": "上野",
+                "throughDest": {
+                    "en": "Ueno",
+                    "ja": "上野"
+                },
                 "type": "Rapid"
             },
             {
@@ -919,8 +966,10 @@
                 "startsHere": true,
                 "stops": [614, 621, 626, 631, 637, 640, 644, 647, 652, 657],
                 "terminates": false,
-                "throughDestEn": "Ueno",
-                "throughDestJa": "上野",
+                "throughDest": {
+                    "en": "Ueno",
+                    "ja": "上野"
+                },
                 "type": "Rapid"
             },
             {
@@ -939,8 +988,10 @@
                 "startsHere": true,
                 "stops": [674, 681, 686, 691, 697, 700, 704, 707, 712, 717],
                 "terminates": false,
-                "throughDestEn": "Ueno",
-                "throughDestJa": "上野",
+                "throughDest": {
+                    "en": "Ueno",
+                    "ja": "上野"
+                },
                 "type": "Rapid"
             },
             {
@@ -959,8 +1010,10 @@
                 "startsHere": true,
                 "stops": [734, 741, 746, 751, 757, 760, 764, 767, 772, 777],
                 "terminates": false,
-                "throughDestEn": "Ueno",
-                "throughDestJa": "上野",
+                "throughDest": {
+                    "en": "Ueno",
+                    "ja": "上野"
+                },
                 "type": "Rapid"
             },
             {
@@ -979,8 +1032,10 @@
                 "startsHere": true,
                 "stops": [794, 801, 806, 811, 817, 820, 824, 827, 832, 837],
                 "terminates": false,
-                "throughDestEn": "Ueno",
-                "throughDestJa": "上野",
+                "throughDest": {
+                    "en": "Ueno",
+                    "ja": "上野"
+                },
                 "type": "Rapid"
             },
             {
@@ -999,8 +1054,10 @@
                 "startsHere": true,
                 "stops": [854, 861, 866, 871, 877, 880, 884, 887, 892, 897],
                 "terminates": false,
-                "throughDestEn": "Ueno",
-                "throughDestJa": "上野",
+                "throughDest": {
+                    "en": "Ueno",
+                    "ja": "上野"
+                },
                 "type": "Rapid"
             },
             {
@@ -1019,8 +1076,10 @@
                 "startsHere": true,
                 "stops": [914, 921, 926, 931, 937, 940, 944, 947, 952, 961],
                 "terminates": false,
-                "throughDestEn": "Ueno",
-                "throughDestJa": "上野",
+                "throughDest": {
+                    "en": "Ueno",
+                    "ja": "上野"
+                },
                 "type": "Rapid"
             },
             {
@@ -1039,8 +1098,10 @@
                 "startsHere": true,
                 "stops": [974, 981, 986, 991, 997, 1000, 1004, 1008, 1012, 1025],
                 "terminates": false,
-                "throughDestEn": "Ueno",
-                "throughDestJa": "上野",
+                "throughDest": {
+                    "en": "Ueno",
+                    "ja": "上野"
+                },
                 "type": "Rapid"
             },
             {
@@ -1059,8 +1120,10 @@
                 "startsHere": true,
                 "stops": [1036, 1043, 1048, 1054, 1058, 1061, 1065, 1069, 1073, 1087],
                 "terminates": false,
-                "throughDestEn": "Ueno",
-                "throughDestJa": "上野",
+                "throughDest": {
+                    "en": "Ueno",
+                    "ja": "上野"
+                },
                 "type": "Rapid"
             },
             {
@@ -1079,8 +1142,10 @@
                 "startsHere": true,
                 "stops": [1097, 1104, 1108, 1114, 1119, 1122, 1126, 1131, 1134, 1143],
                 "terminates": false,
-                "throughDestEn": "Ueno",
-                "throughDestJa": "上野",
+                "throughDest": {
+                    "en": "Ueno",
+                    "ja": "上野"
+                },
                 "type": "Rapid"
             },
             {
@@ -1108,8 +1173,10 @@
                 "startsHere": true,
                 "stops": [1178, 1186, 1190, 1199, 1203, 1209, 1213, 1217, 1221, 1237],
                 "terminates": false,
-                "throughDestEn": "Shinagawa",
-                "throughDestJa": "品川",
+                "throughDest": {
+                    "en": "Shinagawa",
+                    "ja": "品川"
+                },
                 "type": "Rapid"
             },
             {
@@ -1146,8 +1213,10 @@
                 "startsHere": true,
                 "stops": [1303, 1309, 1316, 1321, 1326, 1329, 1333, 1339, 1342, 1351],
                 "terminates": false,
-                "throughDestEn": "Ueno",
-                "throughDestJa": "上野",
+                "throughDest": {
+                    "en": "Ueno",
+                    "ja": "上野"
+                },
                 "type": "Rapid"
             },
             {
@@ -1157,8 +1226,10 @@
                 "startsHere": true,
                 "stops": [1335, 1343, 1347, 1354, 1359, 1362, 1366, 1370, 1373, 1381],
                 "terminates": false,
-                "throughDestEn": "Ueno",
-                "throughDestJa": "上野",
+                "throughDest": {
+                    "en": "Ueno",
+                    "ja": "上野"
+                },
                 "type": "Rapid"
             },
             {
@@ -1537,8 +1608,10 @@
                 "startsHere": true,
                 "stops": [287, 293, 298, 303, 308, 311, 315, 319, 322, 331],
                 "terminates": false,
-                "throughDestEn": "Ueno",
-                "throughDestJa": "上野",
+                "throughDest": {
+                    "en": "Ueno",
+                    "ja": "上野"
+                },
                 "type": "Rapid"
             },
             {
@@ -1548,8 +1621,10 @@
                 "startsHere": true,
                 "stops": [326, 332, 336, 342, 347, 351, 355, 359, 362, 373],
                 "terminates": false,
-                "throughDestEn": "Ueno",
-                "throughDestJa": "上野",
+                "throughDest": {
+                    "en": "Ueno",
+                    "ja": "上野"
+                },
                 "type": "Rapid"
             },
             {
@@ -1568,8 +1643,10 @@
                 "startsHere": true,
                 "stops": [362, 370, 374, 380, 386, 389, 393, 398, 402, 416],
                 "terminates": false,
-                "throughDestEn": "Ueno",
-                "throughDestJa": "上野",
+                "throughDest": {
+                    "en": "Ueno",
+                    "ja": "上野"
+                },
                 "type": "Rapid"
             },
             {
@@ -1588,8 +1665,10 @@
                 "startsHere": true,
                 "stops": [391, 397, 402, 408, 414, 417, 421, 426, 430, 441],
                 "terminates": false,
-                "throughDestEn": "Shinagawa",
-                "throughDestJa": "品川",
+                "throughDest": {
+                    "en": "Shinagawa",
+                    "ja": "品川"
+                },
                 "type": "Rapid"
             },
             {
@@ -1599,8 +1678,10 @@
                 "startsHere": true,
                 "stops": [401, 408, 412, 418, 423, 426, 430, 437, 441, 452],
                 "terminates": false,
-                "throughDestEn": "Ueno",
-                "throughDestJa": "上野",
+                "throughDest": {
+                    "en": "Ueno",
+                    "ja": "上野"
+                },
                 "type": "Rapid"
             },
             {
@@ -1610,8 +1691,10 @@
                 "startsHere": true,
                 "stops": [422, 429, 434, 439, 445, 448, 452, 457, 460, 469],
                 "terminates": false,
-                "throughDestEn": "Shinagawa",
-                "throughDestJa": "品川",
+                "throughDest": {
+                    "en": "Shinagawa",
+                    "ja": "品川"
+                },
                 "type": "Rapid"
             },
             {
@@ -1621,8 +1704,10 @@
                 "startsHere": true,
                 "stops": [446, 452, 457, 463, 469, 472, 477, 482, 485, 495],
                 "terminates": false,
-                "throughDestEn": "Ueno",
-                "throughDestJa": "上野",
+                "throughDest": {
+                    "en": "Ueno",
+                    "ja": "上野"
+                },
                 "type": "Rapid"
             },
             {
@@ -1650,8 +1735,10 @@
                 "startsHere": true,
                 "stops": [530, 539, 544, 550, 555, 558, 562, 566, 569, 575],
                 "terminates": false,
-                "throughDestEn": "Ueno",
-                "throughDestJa": "上野",
+                "throughDest": {
+                    "en": "Ueno",
+                    "ja": "上野"
+                },
                 "type": "Rapid"
             },
             {
@@ -1679,8 +1766,10 @@
                 "startsHere": true,
                 "stops": [614, 621, 626, 631, 637, 640, 644, 647, 652, 657],
                 "terminates": false,
-                "throughDestEn": "Ueno",
-                "throughDestJa": "上野",
+                "throughDest": {
+                    "en": "Ueno",
+                    "ja": "上野"
+                },
                 "type": "Rapid"
             },
             {
@@ -1699,8 +1788,10 @@
                 "startsHere": true,
                 "stops": [674, 681, 686, 691, 697, 700, 704, 707, 712, 717],
                 "terminates": false,
-                "throughDestEn": "Ueno",
-                "throughDestJa": "上野",
+                "throughDest": {
+                    "en": "Ueno",
+                    "ja": "上野"
+                },
                 "type": "Rapid"
             },
             {
@@ -1719,8 +1810,10 @@
                 "startsHere": true,
                 "stops": [734, 741, 746, 751, 757, 760, 764, 767, 772, 777],
                 "terminates": false,
-                "throughDestEn": "Ueno",
-                "throughDestJa": "上野",
+                "throughDest": {
+                    "en": "Ueno",
+                    "ja": "上野"
+                },
                 "type": "Rapid"
             },
             {
@@ -1739,8 +1832,10 @@
                 "startsHere": true,
                 "stops": [794, 801, 806, 811, 817, 820, 824, 827, 832, 837],
                 "terminates": false,
-                "throughDestEn": "Ueno",
-                "throughDestJa": "上野",
+                "throughDest": {
+                    "en": "Ueno",
+                    "ja": "上野"
+                },
                 "type": "Rapid"
             },
             {
@@ -1759,8 +1854,10 @@
                 "startsHere": true,
                 "stops": [854, 861, 866, 871, 877, 880, 884, 887, 892, 897],
                 "terminates": false,
-                "throughDestEn": "Ueno",
-                "throughDestJa": "上野",
+                "throughDest": {
+                    "en": "Ueno",
+                    "ja": "上野"
+                },
                 "type": "Rapid"
             },
             {
@@ -1779,8 +1876,10 @@
                 "startsHere": true,
                 "stops": [914, 921, 926, 931, 937, 940, 944, 947, 952, 965],
                 "terminates": false,
-                "throughDestEn": "Ueno",
-                "throughDestJa": "上野",
+                "throughDest": {
+                    "en": "Ueno",
+                    "ja": "上野"
+                },
                 "type": "Rapid"
             },
             {
@@ -1817,8 +1916,10 @@
                 "startsHere": true,
                 "stops": [1036, 1043, 1048, 1054, 1058, 1061, 1065, 1069, 1073, 1082],
                 "terminates": false,
-                "throughDestEn": "Ueno",
-                "throughDestJa": "上野",
+                "throughDest": {
+                    "en": "Ueno",
+                    "ja": "上野"
+                },
                 "type": "Rapid"
             },
             {
@@ -1828,8 +1929,10 @@
                 "startsHere": true,
                 "stops": [1062, 1069, 1074, 1079, 1085, 1088, 1092, 1096, 1101, 1109],
                 "terminates": false,
-                "throughDestEn": "Ueno",
-                "throughDestJa": "上野",
+                "throughDest": {
+                    "en": "Ueno",
+                    "ja": "上野"
+                },
                 "type": "Rapid"
             },
             {
@@ -1839,8 +1942,10 @@
                 "startsHere": true,
                 "stops": [1097, 1104, 1108, 1114, 1119, 1122, 1126, 1131, 1134, 1144],
                 "terminates": false,
-                "throughDestEn": "Shinagawa",
-                "throughDestJa": "品川",
+                "throughDest": {
+                    "en": "Shinagawa",
+                    "ja": "品川"
+                },
                 "type": "Rapid"
             },
             {
@@ -1868,8 +1973,10 @@
                 "startsHere": true,
                 "stops": [1178, 1186, 1190, 1199, 1203, 1209, 1213, 1217, 1221, 1237],
                 "terminates": false,
-                "throughDestEn": "Shinagawa",
-                "throughDestJa": "品川",
+                "throughDest": {
+                    "en": "Shinagawa",
+                    "ja": "品川"
+                },
                 "type": "Rapid"
             },
             {
@@ -1906,8 +2013,10 @@
                 "startsHere": true,
                 "stops": [1303, 1309, 1316, 1321, 1326, 1329, 1333, 1339, 1342, 1351],
                 "terminates": false,
-                "throughDestEn": "Ueno",
-                "throughDestJa": "上野",
+                "throughDest": {
+                    "en": "Ueno",
+                    "ja": "上野"
+                },
                 "type": "Rapid"
             },
             {
@@ -1917,8 +2026,10 @@
                 "startsHere": true,
                 "stops": [1335, 1343, 1347, 1354, 1359, 1362, 1366, 1370, 1373, 1381],
                 "terminates": false,
-                "throughDestEn": "Ueno",
-                "throughDestJa": "上野",
+                "throughDest": {
+                    "en": "Ueno",
+                    "ja": "上野"
+                },
                 "type": "Rapid"
             },
             {
@@ -1931,6 +2042,6 @@
                 "type": "Local"
             }
         ],
-        "upHopTimesMinutes": [4.0, 5.0, 4.0, 4.0, 3.0, 6.0, 5.0, 5.0, 7.0]
+        "upHopTimesMinutes": [4, 5, 4, 4, 3, 6, 5, 5, 7]
     }
 ]

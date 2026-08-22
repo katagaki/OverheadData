@@ -2,10 +2,14 @@
     {
         "colorHex": "#C1A470",
         "delayInfo": {
-            "checkMethodEn": "Check the Tokyo Metro Service Information page, the official app, or X (@tokyometro_info). Delays or suspensions of 15 minutes or more are posted.",
-            "checkMethodJa": "東京メトロ「運行情報」ページ、公式アプリ、またはX（@tokyometro_info）で確認できます。15分以上の遅れ・運転見合わせが発生した場合に掲載されます。",
-            "statusPageURL": "https://www.tokyometro.jp/unkou/history/yurakucho.html",
-            "statusPageURLEn": "https://www.tokyometro.jp/lang_en/unkou/history/yurakucho.html",
+            "checkMethod": {
+                "en": "Check the Tokyo Metro Service Information page, the official app, or X (@tokyometro_info). Delays or suspensions of 15 minutes or more are posted.",
+                "ja": "東京メトロ「運行情報」ページ、公式アプリ、またはX（@tokyometro_info）で確認できます。15分以上の遅れ・運転見合わせが発生した場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://www.tokyometro.jp/lang_en/unkou/history/yurakucho.html",
+                "ja": "https://www.tokyometro.jp/unkou/history/yurakucho.html"
+            },
             "xAccount": "@Y_line_info"
         },
         "directions": [
@@ -31,8 +35,10 @@
                     }
                 ],
                 "isAscending": true,
-                "nameEn": "For Shin-kiba",
-                "nameJa": "新木場方面",
+                "name": {
+                    "en": "For Shin-kiba",
+                    "ja": "新木場方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -109,8 +115,10 @@
                     }
                 ],
                 "isAscending": false,
-                "nameEn": "For Wakoshi",
-                "nameJa": "和光市方面",
+                "name": {
+                    "en": "For Wakoshi",
+                    "ja": "和光市方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -174,272 +182,322 @@
         "hopTimesMinutes": [3, 2, 3, 2, 2, 2, 2, 3, 2, 2, 3, 3, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 2],
         "id": "Railway:TokyoMetro.Yurakucho",
         "isLoop": false,
-        "nameEn": "Yurakucho Line",
-        "nameJa": "有楽町線",
+        "name": {
+            "en": "Yurakucho Line",
+            "ja": "有楽町線"
+        },
         "operatorId": "Operator:TokyoMetro",
         "stations": [
             {
                 "id": "Station:TokyoMetro.Yurakucho.Wakoshi",
                 "latitude": 35.7887,
                 "longitude": 139.6122,
-                "name": "和光市",
-                "nameEn": "Wakoshi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Wakoshi",
+                    "ja": "和光市",
+                    "ko": "와코시",
+                    "zh-Hans": "和光市",
+                    "zh-Hant": "和光市"
+                },
                 "stationCode": "Y01"
             },
             {
                 "id": "Station:TokyoMetro.Yurakucho.ChikatetsuNarimasu",
                 "latitude": 35.7775,
                 "longitude": 139.6317,
-                "name": "地下鉄成増",
-                "nameEn": "Chikatetsu-narimasu",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Chikatetsu-narimasu",
+                    "ja": "地下鉄成増",
+                    "ko": "지카테쓰나리마스",
+                    "zh-Hans": "地下铁成增",
+                    "zh-Hant": "地下鐵成增"
+                },
                 "stationCode": "Y02"
             },
             {
                 "id": "Station:TokyoMetro.Yurakucho.ChikatetsuAkatsuka",
                 "latitude": 35.7709,
                 "longitude": 139.6447,
-                "name": "地下鉄赤塚",
-                "nameEn": "Chikatetsu-akatsuka",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Chikatetsu-akatsuka",
+                    "ja": "地下鉄赤塚",
+                    "ko": "지카테쓰아카쓰카",
+                    "zh-Hans": "地下铁赤冢",
+                    "zh-Hant": "地下鐵赤塚"
+                },
                 "stationCode": "Y03"
             },
             {
                 "id": "Station:TokyoMetro.Yurakucho.Heiwadai",
                 "latitude": 35.7578,
                 "longitude": 139.653,
-                "name": "平和台",
-                "nameEn": "Heiwadai",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Heiwadai",
+                    "ja": "平和台",
+                    "ko": "헤이와다이",
+                    "zh-Hans": "平和台",
+                    "zh-Hant": "平和台"
+                },
                 "stationCode": "Y04"
             },
             {
                 "id": "Station:TokyoMetro.Yurakucho.Hikawadai",
                 "latitude": 35.749782,
                 "longitude": 139.665008,
-                "name": "氷川台",
-                "nameEn": "Hikawadai",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Hikawadai",
+                    "ja": "氷川台",
+                    "ko": "히카와다이",
+                    "zh-Hans": "冰川台",
+                    "zh-Hant": "冰川台"
+                },
                 "stationCode": "Y05"
             },
             {
                 "id": "Station:TokyoMetro.Yurakucho.KotakeMukaihara",
                 "latitude": 35.7433,
                 "longitude": 139.6788,
-                "name": "小竹向原",
-                "nameEn": "Kotake-mukaihara",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kotake-mukaihara",
+                    "ja": "小竹向原",
+                    "ko": "고타케무카이하라",
+                    "zh-Hans": "小竹向原",
+                    "zh-Hant": "小竹向原"
+                },
                 "stationCode": "Y06"
             },
             {
                 "id": "Station:TokyoMetro.Yurakucho.Senkawa",
                 "latitude": 35.7382,
                 "longitude": 139.6898,
-                "name": "千川",
-                "nameEn": "Senkawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Senkawa",
+                    "ja": "千川",
+                    "ko": "센카와",
+                    "zh-Hans": "千川",
+                    "zh-Hant": "千川"
+                },
                 "stationCode": "Y07"
             },
             {
                 "id": "Station:TokyoMetro.Yurakucho.Kanamecho",
                 "latitude": 35.7323,
                 "longitude": 139.6992,
-                "name": "要町",
-                "nameEn": "Kanamecho",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kanamecho",
+                    "ja": "要町",
+                    "ko": "가나메초",
+                    "zh-Hans": "要町",
+                    "zh-Hant": "要町"
+                },
                 "stationCode": "Y08"
             },
             {
                 "id": "Station:TokyoMetro.Yurakucho.Ikebukuro",
                 "latitude": 35.729643,
                 "longitude": 139.709686,
-                "name": "池袋",
-                "nameEn": "Ikebukuro",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋",
+                    "ko": "이케부쿠로",
+                    "zh-Hans": "池袋",
+                    "zh-Hant": "池袋"
+                },
                 "stationCode": "Y09"
             },
             {
                 "id": "Station:TokyoMetro.Yurakucho.HigashiIkebukuro",
                 "latitude": 35.725621,
                 "longitude": 139.719386,
-                "name": "東池袋",
-                "nameEn": "Higashi-ikebukuro",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Higashi-ikebukuro",
+                    "ja": "東池袋",
+                    "ko": "히가시이케부쿠로",
+                    "zh-Hans": "东池袋",
+                    "zh-Hant": "東池袋"
+                },
                 "stationCode": "Y10"
             },
             {
                 "id": "Station:TokyoMetro.Yurakucho.Gokokuji",
                 "latitude": 35.719079,
                 "longitude": 139.727463,
-                "name": "護国寺",
-                "nameEn": "Gokokuji",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Gokokuji",
+                    "ja": "護国寺",
+                    "ko": "고코쿠지",
+                    "zh-Hans": "护国寺",
+                    "zh-Hant": "護國寺"
+                },
                 "stationCode": "Y11"
             },
             {
                 "id": "Station:TokyoMetro.Yurakucho.Edogawabashi",
                 "latitude": 35.709516,
                 "longitude": 139.733564,
-                "name": "江戸川橋",
-                "nameEn": "Edogawabashi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Edogawabashi",
+                    "ja": "江戸川橋",
+                    "ko": "에도가와바시",
+                    "zh-Hans": "江户川桥",
+                    "zh-Hant": "江戶川橋"
+                },
                 "stationCode": "Y12"
             },
             {
                 "id": "Station:TokyoMetro.Yurakucho.Iidabashi",
                 "latitude": 35.7018,
                 "longitude": 139.7452,
-                "name": "飯田橋",
-                "nameEn": "Iidabashi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Iidabashi",
+                    "ja": "飯田橋",
+                    "ko": "이다바시",
+                    "zh-Hans": "饭田桥",
+                    "zh-Hant": "飯田橋"
+                },
                 "stationCode": "Y13"
             },
             {
                 "id": "Station:TokyoMetro.Yurakucho.Ichigaya",
                 "latitude": 35.6912,
                 "longitude": 139.736,
-                "name": "市ケ谷",
-                "nameEn": "Ichigaya",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ichigaya",
+                    "ja": "市ケ谷",
+                    "ko": "이치가야",
+                    "zh-Hans": "市谷",
+                    "zh-Hant": "市谷"
+                },
                 "stationCode": "Y14"
             },
             {
                 "id": "Station:TokyoMetro.Yurakucho.Kojimachi",
                 "latitude": 35.684,
                 "longitude": 139.7392,
-                "name": "麹町",
-                "nameEn": "Kojimachi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kojimachi",
+                    "ja": "麹町",
+                    "ko": "고지마치",
+                    "zh-Hans": "曲町",
+                    "zh-Hant": "麴町"
+                },
                 "stationCode": "Y15"
             },
             {
                 "id": "Station:TokyoMetro.Yurakucho.Nagatacho",
                 "latitude": 35.6787,
                 "longitude": 139.7413,
-                "name": "永田町",
-                "nameEn": "Nagatacho",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nagatacho",
+                    "ja": "永田町",
+                    "ko": "나가타초",
+                    "zh-Hans": "永田町",
+                    "zh-Hant": "永田町"
+                },
                 "stationCode": "Y16"
             },
             {
                 "id": "Station:TokyoMetro.Yurakucho.Sakuradamon",
                 "latitude": 35.677,
                 "longitude": 139.7517,
-                "name": "桜田門",
-                "nameEn": "Sakuradamon",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Sakuradamon",
+                    "ja": "桜田門",
+                    "ko": "사쿠라다몬",
+                    "zh-Hans": "樱田门",
+                    "zh-Hant": "櫻田門"
+                },
                 "stationCode": "Y17"
             },
             {
                 "id": "Station:TokyoMetro.Yurakucho.Yurakucho",
                 "latitude": 35.675969,
                 "longitude": 139.762136,
-                "name": "有楽町",
-                "nameEn": "Yurakucho",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Yurakucho",
+                    "ja": "有楽町",
+                    "ko": "유라쿠초",
+                    "zh-Hans": "有乐町",
+                    "zh-Hant": "有樂町"
+                },
                 "stationCode": "Y18"
             },
             {
                 "id": "Station:TokyoMetro.Yurakucho.GinzaItchome",
                 "latitude": 35.6741,
                 "longitude": 139.7668,
-                "name": "銀座一丁目",
-                "nameEn": "Ginza-itchome",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ginza-itchome",
+                    "ja": "銀座一丁目",
+                    "ko": "긴자 1초메",
+                    "zh-Hans": "银座一丁目",
+                    "zh-Hant": "銀座一丁目"
+                },
                 "stationCode": "Y19"
             },
             {
                 "id": "Station:TokyoMetro.Yurakucho.Shintomicho",
                 "latitude": 35.6708,
                 "longitude": 139.7723,
-                "name": "新富町",
-                "nameEn": "Shintomicho",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shintomicho",
+                    "ja": "新富町",
+                    "ko": "신토미초",
+                    "zh-Hans": "新富町",
+                    "zh-Hant": "新富町"
+                },
                 "stationCode": "Y20"
             },
             {
                 "id": "Station:TokyoMetro.Yurakucho.Tsukishima",
                 "latitude": 35.664,
                 "longitude": 139.7838,
-                "name": "月島",
-                "nameEn": "Tsukishima",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tsukishima",
+                    "ja": "月島",
+                    "ko": "쓰키시마",
+                    "zh-Hans": "月岛",
+                    "zh-Hant": "月島"
+                },
                 "stationCode": "Y21"
             },
             {
                 "id": "Station:TokyoMetro.Yurakucho.Toyosu",
                 "latitude": 35.6549,
                 "longitude": 139.7964,
-                "name": "豊洲",
-                "nameEn": "Toyosu",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Toyosu",
+                    "ja": "豊洲",
+                    "ko": "도요스",
+                    "zh-Hans": "丰洲",
+                    "zh-Hant": "豐洲"
+                },
                 "stationCode": "Y22"
             },
             {
                 "id": "Station:TokyoMetro.Yurakucho.Tatsumi",
                 "latitude": 35.6454,
                 "longitude": 139.8104,
-                "name": "辰巳",
-                "nameEn": "Tatsumi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tatsumi",
+                    "ja": "辰巳",
+                    "ko": "다쓰미",
+                    "zh-Hans": "辰巳",
+                    "zh-Hant": "辰巳"
+                },
                 "stationCode": "Y23"
             },
             {
                 "id": "Station:TokyoMetro.Yurakucho.ShinKiba",
                 "latitude": 35.646,
                 "longitude": 139.8268,
-                "name": "新木場",
-                "nameEn": "Shin-kiba",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shin-kiba",
+                    "ja": "新木場",
+                    "ko": "신키바",
+                    "zh-Hans": "新木场",
+                    "zh-Hant": "新木場"
+                },
                 "stationCode": "Y24"
             }
         ],
@@ -449,19 +507,27 @@
                 "connectingLineId": "Railway:Tobu.Tojo",
                 "end": "descending",
                 "junctionStationId": "Station:TokyoMetro.Yurakucho.Wakoshi",
-                "lineNameEn": "Tobu Tojo Line",
-                "lineNameJa": "東武東上線",
-                "towardEn": "for Kawagoeshi & Shinrin-Koen",
-                "towardJa": "川越市・森林公園方面"
+                "lineName": {
+                    "en": "Tobu Tojo Line",
+                    "ja": "東武東上線"
+                },
+                "toward": {
+                    "en": "for Kawagoeshi & Shinrin-Koen",
+                    "ja": "川越市・森林公園方面"
+                }
             },
             {
                 "connectingLineId": "Railway:Seibu.SeibuYurakucho",
                 "end": "descending",
                 "junctionStationId": "Station:TokyoMetro.Yurakucho.KotakeMukaihara",
-                "lineNameEn": "Seibu Yurakucho & Ikebukuro Lines",
-                "lineNameJa": "西武有楽町線・池袋線",
-                "towardEn": "for Tokorozawa & Hanno",
-                "towardJa": "所沢・飯能方面"
+                "lineName": {
+                    "en": "Seibu Yurakucho & Ikebukuro Lines",
+                    "ja": "西武有楽町線・池袋線"
+                },
+                "toward": {
+                    "en": "for Tokorozawa & Hanno",
+                    "ja": "所沢・飯能方面"
+                }
             }
         ]
     }

@@ -2,10 +2,14 @@
     {
         "colorHex": "#00B261",
         "delayInfo": {
-            "checkMethodEn": "Check the JR East Train Operation Information page or the JR East app. In the Tokyo area, delays or suspensions of 15 minutes or more are posted.",
-            "checkMethodJa": "JR東日本「列車運行情報」ページまたはJR東日本アプリで確認できます。首都圏エリアでは15分以上の遅れ・運休が発生または見込まれる場合に掲載されます。",
-            "statusPageURL": "https://traininfo.jreast.co.jp/train_info/line.aspx?gid=1&lineid=jobanline_rapidservice",
-            "statusPageURLEn": "https://traininfo.jreast.co.jp/train_info/e/kanto.aspx",
+            "checkMethod": {
+                "en": "Check the JR East Train Operation Information page or the JR East app. In the Tokyo area, delays or suspensions of 15 minutes or more are posted.",
+                "ja": "JR東日本「列車運行情報」ページまたはJR東日本アプリで確認できます。首都圏エリアでは15分以上の遅れ・運休が発生または見込まれる場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://traininfo.jreast.co.jp/train_info/e/kanto.aspx",
+                "ja": "https://traininfo.jreast.co.jp/train_info/line.aspx?gid=1&lineid=jobanline_rapidservice"
+            },
             "xAccount": "@JRE_F_Joban"
         },
         "directions": [
@@ -31,8 +35,10 @@
                                 "continuesBeyond": false,
                                 "departure": "05:11",
                                 "startsHere": true,
-                                "throughDestEn": "Hitachi",
-                                "throughDestJa": "日立"
+                                "throughDest": {
+                                    "en": "Hitachi",
+                                    "ja": "日立"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -48,8 +54,10 @@
                                 "continuesBeyond": false,
                                 "departure": "06:04",
                                 "startsHere": true,
-                                "throughDestEn": "Takahagi",
-                                "throughDestJa": "高萩"
+                                "throughDest": {
+                                    "en": "Takahagi",
+                                    "ja": "高萩"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -65,8 +73,10 @@
                                 "continuesBeyond": false,
                                 "departure": "06:31",
                                 "startsHere": true,
-                                "throughDestEn": "Katsuta",
-                                "throughDestJa": "勝田"
+                                "throughDest": {
+                                    "en": "Katsuta",
+                                    "ja": "勝田"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -82,8 +92,10 @@
                                 "continuesBeyond": false,
                                 "departure": "07:02",
                                 "startsHere": true,
-                                "throughDestEn": "Mito",
-                                "throughDestJa": "水戸"
+                                "throughDest": {
+                                    "en": "Mito",
+                                    "ja": "水戸"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -95,15 +107,19 @@
                                 "departure": "07:16",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.JobanRapid.Abiko",
-                                "throughDestEn": "Narita",
-                                "throughDestJa": "成田"
+                                "throughDest": {
+                                    "en": "Narita",
+                                    "ja": "成田"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
                                 "departure": "07:24",
                                 "startsHere": true,
-                                "throughDestEn": "Katsuta",
-                                "throughDestJa": "勝田"
+                                "throughDest": {
+                                    "en": "Katsuta",
+                                    "ja": "勝田"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -119,8 +135,10 @@
                                 "continuesBeyond": false,
                                 "departure": "07:54",
                                 "startsHere": true,
-                                "throughDestEn": "Tsuchiura",
-                                "throughDestJa": "土浦"
+                                "throughDest": {
+                                    "en": "Tsuchiura",
+                                    "ja": "土浦"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -141,16 +159,20 @@
                                 "continuesBeyond": false,
                                 "departure": "08:24",
                                 "startsHere": true,
-                                "throughDestEn": "Katsuta",
-                                "throughDestJa": "勝田"
+                                "throughDest": {
+                                    "en": "Katsuta",
+                                    "ja": "勝田"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
                                 "departure": "08:35",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.JobanRapid.Abiko",
-                                "throughDestEn": "Narita",
-                                "throughDestJa": "成田"
+                                "throughDest": {
+                                    "en": "Narita",
+                                    "ja": "成田"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -161,8 +183,10 @@
                                 "continuesBeyond": false,
                                 "departure": "08:49",
                                 "startsHere": true,
-                                "throughDestEn": "Katsuta",
-                                "throughDestJa": "勝田"
+                                "throughDest": {
+                                    "en": "Katsuta",
+                                    "ja": "勝田"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -184,8 +208,10 @@
                                 "departure": "09:34",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.JobanRapid.Abiko",
-                                "throughDestEn": "Narita",
-                                "throughDestJa": "成田"
+                                "throughDest": {
+                                    "en": "Narita",
+                                    "ja": "成田"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -219,8 +245,10 @@
                                 "departure": "10:39",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.JobanRapid.Abiko",
-                                "throughDestEn": "Narita",
-                                "throughDestJa": "成田"
+                                "throughDest": {
+                                    "en": "Narita",
+                                    "ja": "成田"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -237,8 +265,10 @@
                                 "departure": "11:42",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.JobanRapid.Abiko",
-                                "throughDestEn": "Narita",
-                                "throughDestJa": "成田"
+                                "throughDest": {
+                                    "en": "Narita",
+                                    "ja": "成田"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -255,8 +285,10 @@
                                 "departure": "12:42",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.JobanRapid.Abiko",
-                                "throughDestEn": "Narita",
-                                "throughDestJa": "成田"
+                                "throughDest": {
+                                    "en": "Narita",
+                                    "ja": "成田"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -273,8 +305,10 @@
                                 "departure": "13:42",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.JobanRapid.Abiko",
-                                "throughDestEn": "Narita",
-                                "throughDestJa": "成田"
+                                "throughDest": {
+                                    "en": "Narita",
+                                    "ja": "成田"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -291,8 +325,10 @@
                                 "departure": "14:42",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.JobanRapid.Abiko",
-                                "throughDestEn": "Narita",
-                                "throughDestJa": "成田"
+                                "throughDest": {
+                                    "en": "Narita",
+                                    "ja": "成田"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -303,8 +339,10 @@
                                 "continuesBeyond": false,
                                 "departure": "15:13",
                                 "startsHere": true,
-                                "throughDestEn": "Katsuta",
-                                "throughDestJa": "勝田"
+                                "throughDest": {
+                                    "en": "Katsuta",
+                                    "ja": "勝田"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -316,8 +354,10 @@
                                 "departure": "15:42",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.JobanRapid.Abiko",
-                                "throughDestEn": "Narita",
-                                "throughDestJa": "成田"
+                                "throughDest": {
+                                    "en": "Narita",
+                                    "ja": "成田"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -328,16 +368,20 @@
                                 "continuesBeyond": false,
                                 "departure": "16:13",
                                 "startsHere": true,
-                                "throughDestEn": "Mito",
-                                "throughDestJa": "水戸"
+                                "throughDest": {
+                                    "en": "Mito",
+                                    "ja": "水戸"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
                                 "departure": "16:24",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.JobanRapid.Abiko",
-                                "throughDestEn": "Narita",
-                                "throughDestJa": "成田"
+                                "throughDest": {
+                                    "en": "Narita",
+                                    "ja": "成田"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -358,8 +402,10 @@
                                 "continuesBeyond": false,
                                 "departure": "17:47",
                                 "startsHere": true,
-                                "throughDestEn": "Katsuta",
-                                "throughDestJa": "勝田"
+                                "throughDest": {
+                                    "en": "Katsuta",
+                                    "ja": "勝田"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -370,8 +416,10 @@
                                 "continuesBeyond": false,
                                 "departure": "18:24",
                                 "startsHere": true,
-                                "throughDestEn": "Tsuchiura",
-                                "throughDestJa": "土浦"
+                                "throughDest": {
+                                    "en": "Tsuchiura",
+                                    "ja": "土浦"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -382,8 +430,10 @@
                                 "continuesBeyond": false,
                                 "departure": "18:54",
                                 "startsHere": true,
-                                "throughDestEn": "Katsuta",
-                                "throughDestJa": "勝田"
+                                "throughDest": {
+                                    "en": "Katsuta",
+                                    "ja": "勝田"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -394,8 +444,10 @@
                                 "continuesBeyond": false,
                                 "departure": "19:24",
                                 "startsHere": true,
-                                "throughDestEn": "Tsuchiura",
-                                "throughDestJa": "土浦"
+                                "throughDest": {
+                                    "en": "Tsuchiura",
+                                    "ja": "土浦"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -406,23 +458,29 @@
                                 "continuesBeyond": false,
                                 "departure": "19:54",
                                 "startsHere": true,
-                                "throughDestEn": "Tsuchiura",
-                                "throughDestJa": "土浦"
+                                "throughDest": {
+                                    "en": "Tsuchiura",
+                                    "ja": "土浦"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
                                 "departure": "20:04",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.JobanRapid.Abiko",
-                                "throughDestEn": "Narita",
-                                "throughDestJa": "成田"
+                                "throughDest": {
+                                    "en": "Narita",
+                                    "ja": "成田"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
                                 "departure": "20:24",
                                 "startsHere": true,
-                                "throughDestEn": "Mito",
-                                "throughDestJa": "水戸"
+                                "throughDest": {
+                                    "en": "Mito",
+                                    "ja": "水戸"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -433,8 +491,10 @@
                                 "continuesBeyond": false,
                                 "departure": "20:56",
                                 "startsHere": true,
-                                "throughDestEn": "Katsuta",
-                                "throughDestJa": "勝田"
+                                "throughDest": {
+                                    "en": "Katsuta",
+                                    "ja": "勝田"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -445,23 +505,29 @@
                                 "continuesBeyond": false,
                                 "departure": "21:34",
                                 "startsHere": true,
-                                "throughDestEn": "Katsuta",
-                                "throughDestJa": "勝田"
+                                "throughDest": {
+                                    "en": "Katsuta",
+                                    "ja": "勝田"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
                                 "departure": "22:02",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.JobanRapid.Abiko",
-                                "throughDestEn": "Narita",
-                                "throughDestJa": "成田"
+                                "throughDest": {
+                                    "en": "Narita",
+                                    "ja": "成田"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
                                 "departure": "22:32",
                                 "startsHere": true,
-                                "throughDestEn": "Tsuchiura",
-                                "throughDestJa": "土浦"
+                                "throughDest": {
+                                    "en": "Tsuchiura",
+                                    "ja": "土浦"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -482,8 +548,10 @@
                                 "continuesBeyond": false,
                                 "departure": "23:42",
                                 "startsHere": true,
-                                "throughDestEn": "Tsuchiura",
-                                "throughDestJa": "土浦"
+                                "throughDest": {
+                                    "en": "Tsuchiura",
+                                    "ja": "土浦"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -531,8 +599,10 @@
                                 "continuesBeyond": false,
                                 "departure": "05:11",
                                 "startsHere": true,
-                                "throughDestEn": "Hitachi",
-                                "throughDestJa": "日立"
+                                "throughDest": {
+                                    "en": "Hitachi",
+                                    "ja": "日立"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -548,8 +618,10 @@
                                 "continuesBeyond": false,
                                 "departure": "06:04",
                                 "startsHere": true,
-                                "throughDestEn": "Takahagi",
-                                "throughDestJa": "高萩"
+                                "throughDest": {
+                                    "en": "Takahagi",
+                                    "ja": "高萩"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -565,8 +637,10 @@
                                 "continuesBeyond": false,
                                 "departure": "06:31",
                                 "startsHere": true,
-                                "throughDestEn": "Katsuta",
-                                "throughDestJa": "勝田"
+                                "throughDest": {
+                                    "en": "Katsuta",
+                                    "ja": "勝田"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -582,8 +656,10 @@
                                 "continuesBeyond": false,
                                 "departure": "07:02",
                                 "startsHere": true,
-                                "throughDestEn": "Mito",
-                                "throughDestJa": "水戸"
+                                "throughDest": {
+                                    "en": "Mito",
+                                    "ja": "水戸"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -595,15 +671,19 @@
                                 "departure": "07:16",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.JobanRapid.Abiko",
-                                "throughDestEn": "Narita",
-                                "throughDestJa": "成田"
+                                "throughDest": {
+                                    "en": "Narita",
+                                    "ja": "成田"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
                                 "departure": "07:24",
                                 "startsHere": true,
-                                "throughDestEn": "Katsuta",
-                                "throughDestJa": "勝田"
+                                "throughDest": {
+                                    "en": "Katsuta",
+                                    "ja": "勝田"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -619,8 +699,10 @@
                                 "continuesBeyond": false,
                                 "departure": "07:57",
                                 "startsHere": true,
-                                "throughDestEn": "Tsuchiura",
-                                "throughDestJa": "土浦"
+                                "throughDest": {
+                                    "en": "Tsuchiura",
+                                    "ja": "土浦"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -631,8 +713,10 @@
                                 "continuesBeyond": false,
                                 "departure": "08:14",
                                 "startsHere": true,
-                                "throughDestEn": "Katsuta",
-                                "throughDestJa": "勝田"
+                                "throughDest": {
+                                    "en": "Katsuta",
+                                    "ja": "勝田"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -643,23 +727,29 @@
                                 "continuesBeyond": false,
                                 "departure": "08:35",
                                 "startsHere": true,
-                                "throughDestEn": "Tsuchiura",
-                                "throughDestJa": "土浦"
+                                "throughDest": {
+                                    "en": "Tsuchiura",
+                                    "ja": "土浦"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
                                 "departure": "08:39",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.JobanRapid.Abiko",
-                                "throughDestEn": "Narita",
-                                "throughDestJa": "成田"
+                                "throughDest": {
+                                    "en": "Narita",
+                                    "ja": "成田"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
                                 "departure": "08:49",
                                 "startsHere": true,
-                                "throughDestEn": "Katsuta",
-                                "throughDestJa": "勝田"
+                                "throughDest": {
+                                    "en": "Katsuta",
+                                    "ja": "勝田"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -670,8 +760,10 @@
                                 "continuesBeyond": false,
                                 "departure": "09:06",
                                 "startsHere": true,
-                                "throughDestEn": "Tsuchiura",
-                                "throughDestJa": "土浦"
+                                "throughDest": {
+                                    "en": "Tsuchiura",
+                                    "ja": "土浦"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -688,8 +780,10 @@
                                 "departure": "09:35",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.JobanRapid.Abiko",
-                                "throughDestEn": "Narita",
-                                "throughDestJa": "成田"
+                                "throughDest": {
+                                    "en": "Narita",
+                                    "ja": "成田"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -712,8 +806,10 @@
                                 "departure": "10:39",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.JobanRapid.Abiko",
-                                "throughDestEn": "Narita",
-                                "throughDestJa": "成田"
+                                "throughDest": {
+                                    "en": "Narita",
+                                    "ja": "成田"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -730,8 +826,10 @@
                                 "departure": "11:42",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.JobanRapid.Abiko",
-                                "throughDestEn": "Narita",
-                                "throughDestJa": "成田"
+                                "throughDest": {
+                                    "en": "Narita",
+                                    "ja": "成田"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -748,8 +846,10 @@
                                 "departure": "12:42",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.JobanRapid.Abiko",
-                                "throughDestEn": "Narita",
-                                "throughDestJa": "成田"
+                                "throughDest": {
+                                    "en": "Narita",
+                                    "ja": "成田"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -766,8 +866,10 @@
                                 "departure": "13:42",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.JobanRapid.Abiko",
-                                "throughDestEn": "Narita",
-                                "throughDestJa": "成田"
+                                "throughDest": {
+                                    "en": "Narita",
+                                    "ja": "成田"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -784,8 +886,10 @@
                                 "departure": "14:42",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.JobanRapid.Abiko",
-                                "throughDestEn": "Narita",
-                                "throughDestJa": "成田"
+                                "throughDest": {
+                                    "en": "Narita",
+                                    "ja": "成田"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -796,8 +900,10 @@
                                 "continuesBeyond": false,
                                 "departure": "15:13",
                                 "startsHere": true,
-                                "throughDestEn": "Katsuta",
-                                "throughDestJa": "勝田"
+                                "throughDest": {
+                                    "en": "Katsuta",
+                                    "ja": "勝田"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -809,8 +915,10 @@
                                 "departure": "15:42",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.JobanRapid.Abiko",
-                                "throughDestEn": "Narita",
-                                "throughDestJa": "成田"
+                                "throughDest": {
+                                    "en": "Narita",
+                                    "ja": "成田"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -821,8 +929,10 @@
                                 "continuesBeyond": false,
                                 "departure": "16:13",
                                 "startsHere": true,
-                                "throughDestEn": "Mito",
-                                "throughDestJa": "水戸"
+                                "throughDest": {
+                                    "en": "Mito",
+                                    "ja": "水戸"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -848,16 +958,20 @@
                                 "continuesBeyond": false,
                                 "departure": "17:54",
                                 "startsHere": true,
-                                "throughDestEn": "Katsuta",
-                                "throughDestJa": "勝田"
+                                "throughDest": {
+                                    "en": "Katsuta",
+                                    "ja": "勝田"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
                                 "departure": "18:03",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.JobanRapid.Abiko",
-                                "throughDestEn": "Narita",
-                                "throughDestJa": "成田"
+                                "throughDest": {
+                                    "en": "Narita",
+                                    "ja": "成田"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -868,8 +982,10 @@
                                 "continuesBeyond": false,
                                 "departure": "18:20",
                                 "startsHere": true,
-                                "throughDestEn": "Tsuchiura",
-                                "throughDestJa": "土浦"
+                                "throughDest": {
+                                    "en": "Tsuchiura",
+                                    "ja": "土浦"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -885,8 +1001,10 @@
                                 "continuesBeyond": false,
                                 "departure": "18:54",
                                 "startsHere": true,
-                                "throughDestEn": "Katsuta",
-                                "throughDestJa": "勝田"
+                                "throughDest": {
+                                    "en": "Katsuta",
+                                    "ja": "勝田"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -898,15 +1016,19 @@
                                 "departure": "19:14",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.JobanRapid.Abiko",
-                                "throughDestEn": "Narita",
-                                "throughDestJa": "成田"
+                                "throughDest": {
+                                    "en": "Narita",
+                                    "ja": "成田"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
                                 "departure": "19:22",
                                 "startsHere": true,
-                                "throughDestEn": "Tsuchiura",
-                                "throughDestJa": "土浦"
+                                "throughDest": {
+                                    "en": "Tsuchiura",
+                                    "ja": "土浦"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -917,8 +1039,10 @@
                                 "continuesBeyond": false,
                                 "departure": "19:54",
                                 "startsHere": true,
-                                "throughDestEn": "Tsuchiura",
-                                "throughDestJa": "土浦"
+                                "throughDest": {
+                                    "en": "Tsuchiura",
+                                    "ja": "土浦"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -929,8 +1053,10 @@
                                 "continuesBeyond": false,
                                 "departure": "20:25",
                                 "startsHere": true,
-                                "throughDestEn": "Mito",
-                                "throughDestJa": "水戸"
+                                "throughDest": {
+                                    "en": "Mito",
+                                    "ja": "水戸"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -941,8 +1067,10 @@
                                 "continuesBeyond": false,
                                 "departure": "20:56",
                                 "startsHere": true,
-                                "throughDestEn": "Katsuta",
-                                "throughDestJa": "勝田"
+                                "throughDest": {
+                                    "en": "Katsuta",
+                                    "ja": "勝田"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -953,23 +1081,29 @@
                                 "continuesBeyond": false,
                                 "departure": "21:34",
                                 "startsHere": true,
-                                "throughDestEn": "Katsuta",
-                                "throughDestJa": "勝田"
+                                "throughDest": {
+                                    "en": "Katsuta",
+                                    "ja": "勝田"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
                                 "departure": "22:02",
                                 "startsHere": true,
                                 "terminusStationId": "Station:JR-East.JobanRapid.Abiko",
-                                "throughDestEn": "Narita",
-                                "throughDestJa": "成田"
+                                "throughDest": {
+                                    "en": "Narita",
+                                    "ja": "成田"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
                                 "departure": "22:32",
                                 "startsHere": true,
-                                "throughDestEn": "Tsuchiura",
-                                "throughDestJa": "土浦"
+                                "throughDest": {
+                                    "en": "Tsuchiura",
+                                    "ja": "土浦"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -990,8 +1124,10 @@
                                 "continuesBeyond": false,
                                 "departure": "23:42",
                                 "startsHere": true,
-                                "throughDestEn": "Tsuchiura",
-                                "throughDestJa": "土浦"
+                                "throughDest": {
+                                    "en": "Tsuchiura",
+                                    "ja": "土浦"
+                                }
                             },
                             {
                                 "continuesBeyond": false,
@@ -1054,8 +1190,10 @@
                                 "continuesBeyond": false,
                                 "departure": "06:26",
                                 "startsHere": true,
-                                "throughDestEn": "Katsuta",
-                                "throughDestJa": "勝田"
+                                "throughDest": {
+                                    "en": "Katsuta",
+                                    "ja": "勝田"
+                                }
                             }
                         ],
                         "stationId": "Station:JR-East.JobanRapid.Abiko",
@@ -1065,15 +1203,19 @@
                                 "continuesBeyond": false,
                                 "departure": "06:26",
                                 "startsHere": true,
-                                "throughDestEn": "Katsuta",
-                                "throughDestJa": "勝田"
+                                "throughDest": {
+                                    "en": "Katsuta",
+                                    "ja": "勝田"
+                                }
                             }
                         ]
                     }
                 ],
                 "isAscending": true,
-                "nameEn": "For Toride",
-                "nameJa": "取手方面",
+                "name": {
+                    "en": "For Toride",
+                    "ja": "取手方面"
+                },
                 "saturdayHoliday": {
                     "bands": [],
                     "exactRuns": [
@@ -1081,194 +1223,248 @@
                             "continuesBeyond": false,
                             "departure": "06:35",
                             "startsHere": true,
-                            "throughDestEn": "Katsuta",
-                            "throughDestJa": "勝田"
+                            "throughDest": {
+                                "en": "Katsuta",
+                                "ja": "勝田"
+                            }
                         },
                         {
                             "continuesBeyond": false,
                             "departure": "07:23",
                             "startsHere": true,
-                            "throughDestEn": "Tsuchiura",
-                            "throughDestJa": "土浦"
+                            "throughDest": {
+                                "en": "Tsuchiura",
+                                "ja": "土浦"
+                            }
                         },
                         {
                             "continuesBeyond": false,
                             "departure": "08:56",
                             "startsHere": true,
-                            "throughDestEn": "Tsuchiura",
-                            "throughDestJa": "土浦"
+                            "throughDest": {
+                                "en": "Tsuchiura",
+                                "ja": "土浦"
+                            }
                         },
                         {
                             "continuesBeyond": false,
                             "departure": "09:09",
                             "startsHere": true,
-                            "throughDestEn": "Tsuchiura",
-                            "throughDestJa": "土浦"
+                            "throughDest": {
+                                "en": "Tsuchiura",
+                                "ja": "土浦"
+                            }
                         },
                         {
                             "continuesBeyond": false,
                             "departure": "09:23",
                             "startsHere": true,
-                            "throughDestEn": "Tsuchiura",
-                            "throughDestJa": "土浦"
+                            "throughDest": {
+                                "en": "Tsuchiura",
+                                "ja": "土浦"
+                            }
                         },
                         {
                             "continuesBeyond": false,
                             "departure": "09:55",
                             "startsHere": true,
-                            "throughDestEn": "Tsuchiura",
-                            "throughDestJa": "土浦"
+                            "throughDest": {
+                                "en": "Tsuchiura",
+                                "ja": "土浦"
+                            }
                         },
                         {
                             "continuesBeyond": false,
                             "departure": "10:16",
                             "startsHere": true,
-                            "throughDestEn": "Tsuchiura",
-                            "throughDestJa": "土浦"
+                            "throughDest": {
+                                "en": "Tsuchiura",
+                                "ja": "土浦"
+                            }
                         },
                         {
                             "continuesBeyond": false,
                             "departure": "10:33",
                             "startsHere": true,
-                            "throughDestEn": "Tsuchiura",
-                            "throughDestJa": "土浦"
+                            "throughDest": {
+                                "en": "Tsuchiura",
+                                "ja": "土浦"
+                            }
                         },
                         {
                             "continuesBeyond": false,
                             "departure": "10:55",
                             "startsHere": true,
-                            "throughDestEn": "Tsuchiura",
-                            "throughDestJa": "土浦"
+                            "throughDest": {
+                                "en": "Tsuchiura",
+                                "ja": "土浦"
+                            }
                         },
                         {
                             "continuesBeyond": false,
                             "departure": "11:17",
                             "startsHere": true,
-                            "throughDestEn": "Tsuchiura",
-                            "throughDestJa": "土浦"
+                            "throughDest": {
+                                "en": "Tsuchiura",
+                                "ja": "土浦"
+                            }
                         },
                         {
                             "continuesBeyond": false,
                             "departure": "11:35",
                             "startsHere": true,
-                            "throughDestEn": "Tsuchiura",
-                            "throughDestJa": "土浦"
+                            "throughDest": {
+                                "en": "Tsuchiura",
+                                "ja": "土浦"
+                            }
                         },
                         {
                             "continuesBeyond": false,
                             "departure": "11:55",
                             "startsHere": true,
-                            "throughDestEn": "Tsuchiura",
-                            "throughDestJa": "土浦"
+                            "throughDest": {
+                                "en": "Tsuchiura",
+                                "ja": "土浦"
+                            }
                         },
                         {
                             "continuesBeyond": false,
                             "departure": "12:17",
                             "startsHere": true,
-                            "throughDestEn": "Tsuchiura",
-                            "throughDestJa": "土浦"
+                            "throughDest": {
+                                "en": "Tsuchiura",
+                                "ja": "土浦"
+                            }
                         },
                         {
                             "continuesBeyond": false,
                             "departure": "12:35",
                             "startsHere": true,
-                            "throughDestEn": "Tsuchiura",
-                            "throughDestJa": "土浦"
+                            "throughDest": {
+                                "en": "Tsuchiura",
+                                "ja": "土浦"
+                            }
                         },
                         {
                             "continuesBeyond": false,
                             "departure": "12:55",
                             "startsHere": true,
-                            "throughDestEn": "Tsuchiura",
-                            "throughDestJa": "土浦"
+                            "throughDest": {
+                                "en": "Tsuchiura",
+                                "ja": "土浦"
+                            }
                         },
                         {
                             "continuesBeyond": false,
                             "departure": "13:17",
                             "startsHere": true,
-                            "throughDestEn": "Tsuchiura",
-                            "throughDestJa": "土浦"
+                            "throughDest": {
+                                "en": "Tsuchiura",
+                                "ja": "土浦"
+                            }
                         },
                         {
                             "continuesBeyond": false,
                             "departure": "13:36",
                             "startsHere": true,
-                            "throughDestEn": "Tsuchiura",
-                            "throughDestJa": "土浦"
+                            "throughDest": {
+                                "en": "Tsuchiura",
+                                "ja": "土浦"
+                            }
                         },
                         {
                             "continuesBeyond": false,
                             "departure": "13:55",
                             "startsHere": true,
-                            "throughDestEn": "Mito",
-                            "throughDestJa": "水戸"
+                            "throughDest": {
+                                "en": "Mito",
+                                "ja": "水戸"
+                            }
                         },
                         {
                             "continuesBeyond": false,
                             "departure": "14:17",
                             "startsHere": true,
-                            "throughDestEn": "Katsuta",
-                            "throughDestJa": "勝田"
+                            "throughDest": {
+                                "en": "Katsuta",
+                                "ja": "勝田"
+                            }
                         },
                         {
                             "continuesBeyond": false,
                             "departure": "14:35",
                             "startsHere": true,
-                            "throughDestEn": "Mito",
-                            "throughDestJa": "水戸"
+                            "throughDest": {
+                                "en": "Mito",
+                                "ja": "水戸"
+                            }
                         },
                         {
                             "continuesBeyond": false,
                             "departure": "14:55",
                             "startsHere": true,
                             "stopIndices": [0, 1, 2, 3, 4, 7, 8, 9, 12],
-                            "throughDestEn": "Tsuchiura",
-                            "throughDestJa": "土浦",
+                            "throughDest": {
+                                "en": "Tsuchiura",
+                                "ja": "土浦"
+                            },
                             "trainType": "SpecialRapid"
                         },
                         {
                             "continuesBeyond": false,
                             "departure": "15:17",
                             "startsHere": true,
-                            "throughDestEn": "Tsuchiura",
-                            "throughDestJa": "土浦"
+                            "throughDest": {
+                                "en": "Tsuchiura",
+                                "ja": "土浦"
+                            }
                         },
                         {
                             "continuesBeyond": false,
                             "departure": "15:35",
                             "startsHere": true,
-                            "throughDestEn": "Takahagi",
-                            "throughDestJa": "高萩"
+                            "throughDest": {
+                                "en": "Takahagi",
+                                "ja": "高萩"
+                            }
                         },
                         {
                             "continuesBeyond": false,
                             "departure": "15:55",
                             "startsHere": true,
                             "stopIndices": [0, 1, 2, 3, 4, 7, 8, 9, 12],
-                            "throughDestEn": "Tsuchiura",
-                            "throughDestJa": "土浦",
+                            "throughDest": {
+                                "en": "Tsuchiura",
+                                "ja": "土浦"
+                            },
                             "trainType": "SpecialRapid"
                         },
                         {
                             "continuesBeyond": false,
                             "departure": "16:17",
                             "startsHere": true,
-                            "throughDestEn": "Tsuchiura",
-                            "throughDestJa": "土浦"
+                            "throughDest": {
+                                "en": "Tsuchiura",
+                                "ja": "土浦"
+                            }
                         },
                         {
                             "continuesBeyond": false,
                             "departure": "16:35",
                             "startsHere": true,
-                            "throughDestEn": "Takahagi",
-                            "throughDestJa": "高萩"
+                            "throughDest": {
+                                "en": "Takahagi",
+                                "ja": "高萩"
+                            }
                         },
                         {
                             "continuesBeyond": false,
                             "departure": "16:54",
                             "startsHere": true,
-                            "throughDestEn": "Katsuta",
-                            "throughDestJa": "勝田"
+                            "throughDest": {
+                                "en": "Katsuta",
+                                "ja": "勝田"
+                            }
                         },
                         {
                             "continuesBeyond": false,
@@ -1279,53 +1475,67 @@
                             "continuesBeyond": false,
                             "departure": "17:17",
                             "startsHere": true,
-                            "throughDestEn": "Katsuta",
-                            "throughDestJa": "勝田"
+                            "throughDest": {
+                                "en": "Katsuta",
+                                "ja": "勝田"
+                            }
                         },
                         {
                             "continuesBeyond": false,
                             "departure": "17:35",
                             "startsHere": true,
                             "terminusStationId": "Station:JR-East.JobanRapid.Abiko",
-                            "throughDestEn": "Narita",
-                            "throughDestJa": "成田"
+                            "throughDest": {
+                                "en": "Narita",
+                                "ja": "成田"
+                            }
                         },
                         {
                             "continuesBeyond": false,
                             "departure": "17:53",
                             "startsHere": true,
-                            "throughDestEn": "Mito",
-                            "throughDestJa": "水戸"
+                            "throughDest": {
+                                "en": "Mito",
+                                "ja": "水戸"
+                            }
                         },
                         {
                             "continuesBeyond": false,
                             "departure": "18:04",
                             "startsHere": true,
                             "terminusStationId": "Station:JR-East.JobanRapid.Abiko",
-                            "throughDestEn": "Narita",
-                            "throughDestJa": "成田"
+                            "throughDest": {
+                                "en": "Narita",
+                                "ja": "成田"
+                            }
                         },
                         {
                             "continuesBeyond": false,
                             "departure": "18:24",
                             "startsHere": true,
-                            "throughDestEn": "Katsuta",
-                            "throughDestJa": "勝田"
+                            "throughDest": {
+                                "en": "Katsuta",
+                                "ja": "勝田"
+                            }
                         },
                         {
                             "continuesBeyond": false,
                             "departure": "18:33",
                             "startsHere": true,
                             "terminusStationId": "Station:JR-East.JobanRapid.Abiko",
-                            "throughDestEn": "Narita",
-                            "throughDestJa": "成田"
+                            "throughDest": {
+                                "en": "Narita",
+                                "ja": "成田"
+                            }
                         },
                         {
                             "continuesBeyond": false,
                             "departure": "18:54",
                             "startsHere": true,
-                            "throughDestEn": "Katsuta",
-                            "throughDestJa": "勝田"
+                            "throughDest": {
+                                "en": "Katsuta",
+                                "ja": "勝田"
+                            }
                         },
                         {
                             "continuesBeyond": false,
@@ -1336,8 +1546,10 @@
                             "continuesBeyond": false,
                             "departure": "19:26",
                             "startsHere": true,
-                            "throughDestEn": "Katsuta",
-                            "throughDestJa": "勝田"
+                            "throughDest": {
+                                "en": "Katsuta",
+                                "ja": "勝田"
+                            }
                         },
                         {
                             "continuesBeyond": false,
@@ -1348,8 +1560,10 @@
                             "continuesBeyond": false,
                             "departure": "19:54",
                             "startsHere": true,
-                            "throughDestEn": "Tsuchiura",
-                            "throughDestJa": "土浦"
+                            "throughDest": {
+                                "en": "Tsuchiura",
+                                "ja": "土浦"
+                            }
                         },
                         {
                             "continuesBeyond": false,
@@ -1360,23 +1574,29 @@
                             "continuesBeyond": false,
                             "departure": "20:25",
                             "startsHere": true,
-                            "throughDestEn": "Tsuchiura",
-                            "throughDestJa": "土浦"
+                            "throughDest": {
+                                "en": "Tsuchiura",
+                                "ja": "土浦"
+                            }
                         },
                         {
                             "continuesBeyond": false,
                             "departure": "20:32",
                             "startsHere": true,
                             "terminusStationId": "Station:JR-East.JobanRapid.Abiko",
-                            "throughDestEn": "Narita",
-                            "throughDestJa": "成田"
+                            "throughDest": {
+                                "en": "Narita",
+                                "ja": "成田"
+                            }
                         },
                         {
                             "continuesBeyond": false,
                             "departure": "20:54",
                             "startsHere": true,
-                            "throughDestEn": "Tsuchiura",
-                            "throughDestJa": "土浦"
+                            "throughDest": {
+                                "en": "Tsuchiura",
+                                "ja": "土浦"
+                            }
                         },
                         {
                             "continuesBeyond": false,
@@ -1392,15 +1612,19 @@
                             "continuesBeyond": false,
                             "departure": "21:39",
                             "startsHere": true,
-                            "throughDestEn": "Tsuchiura",
-                            "throughDestJa": "土浦"
+                            "throughDest": {
+                                "en": "Tsuchiura",
+                                "ja": "土浦"
+                            }
                         },
                         {
                             "continuesBeyond": false,
                             "departure": "21:55",
                             "startsHere": true,
-                            "throughDestEn": "Katsuta",
-                            "throughDestJa": "勝田"
+                            "throughDest": {
+                                "en": "Katsuta",
+                                "ja": "勝田"
+                            }
                         },
                         {
                             "continuesBeyond": false,
@@ -1412,22 +1636,28 @@
                             "departure": "22:26",
                             "startsHere": true,
                             "terminusStationId": "Station:JR-East.JobanRapid.Abiko",
-                            "throughDestEn": "Narita",
-                            "throughDestJa": "成田"
+                            "throughDest": {
+                                "en": "Narita",
+                                "ja": "成田"
+                            }
                         },
                         {
                             "continuesBeyond": false,
                             "departure": "22:36",
                             "startsHere": true,
-                            "throughDestEn": "Katsuta",
-                            "throughDestJa": "勝田"
+                            "throughDest": {
+                                "en": "Katsuta",
+                                "ja": "勝田"
+                            }
                         },
                         {
                             "continuesBeyond": false,
                             "departure": "22:56",
                             "startsHere": true,
-                            "throughDestEn": "Tsuchiura",
-                            "throughDestJa": "土浦"
+                            "throughDest": {
+                                "en": "Tsuchiura",
+                                "ja": "土浦"
+                            }
                         }
                     ],
                     "firstDeparture": "06:35",
@@ -1441,187 +1671,239 @@
                             "continuesBeyond": false,
                             "departure": "06:35",
                             "startsHere": true,
-                            "throughDestEn": "Katsuta",
-                            "throughDestJa": "勝田"
+                            "throughDest": {
+                                "en": "Katsuta",
+                                "ja": "勝田"
+                            }
                         },
                         {
                             "continuesBeyond": false,
                             "departure": "07:22",
                             "startsHere": true,
-                            "throughDestEn": "Tsuchiura",
-                            "throughDestJa": "土浦"
+                            "throughDest": {
+                                "en": "Tsuchiura",
+                                "ja": "土浦"
+                            }
                         },
                         {
                             "continuesBeyond": false,
                             "departure": "09:09",
                             "startsHere": true,
-                            "throughDestEn": "Tsuchiura",
-                            "throughDestJa": "土浦"
+                            "throughDest": {
+                                "en": "Tsuchiura",
+                                "ja": "土浦"
+                            }
                         },
                         {
                             "continuesBeyond": false,
                             "departure": "09:38",
                             "startsHere": true,
-                            "throughDestEn": "Tsuchiura",
-                            "throughDestJa": "土浦"
+                            "throughDest": {
+                                "en": "Tsuchiura",
+                                "ja": "土浦"
+                            }
                         },
                         {
                             "continuesBeyond": false,
                             "departure": "09:52",
                             "startsHere": true,
-                            "throughDestEn": "Tsuchiura",
-                            "throughDestJa": "土浦"
+                            "throughDest": {
+                                "en": "Tsuchiura",
+                                "ja": "土浦"
+                            }
                         },
                         {
                             "continuesBeyond": false,
                             "departure": "10:17",
                             "startsHere": true,
-                            "throughDestEn": "Tsuchiura",
-                            "throughDestJa": "土浦"
+                            "throughDest": {
+                                "en": "Tsuchiura",
+                                "ja": "土浦"
+                            }
                         },
                         {
                             "continuesBeyond": false,
                             "departure": "10:36",
                             "startsHere": true,
-                            "throughDestEn": "Tsuchiura",
-                            "throughDestJa": "土浦"
+                            "throughDest": {
+                                "en": "Tsuchiura",
+                                "ja": "土浦"
+                            }
                         },
                         {
                             "continuesBeyond": false,
                             "departure": "10:55",
                             "startsHere": true,
-                            "throughDestEn": "Tsuchiura",
-                            "throughDestJa": "土浦"
+                            "throughDest": {
+                                "en": "Tsuchiura",
+                                "ja": "土浦"
+                            }
                         },
                         {
                             "continuesBeyond": false,
                             "departure": "11:17",
                             "startsHere": true,
-                            "throughDestEn": "Tsuchiura",
-                            "throughDestJa": "土浦"
+                            "throughDest": {
+                                "en": "Tsuchiura",
+                                "ja": "土浦"
+                            }
                         },
                         {
                             "continuesBeyond": false,
                             "departure": "11:35",
                             "startsHere": true,
-                            "throughDestEn": "Tsuchiura",
-                            "throughDestJa": "土浦"
+                            "throughDest": {
+                                "en": "Tsuchiura",
+                                "ja": "土浦"
+                            }
                         },
                         {
                             "continuesBeyond": false,
                             "departure": "11:55",
                             "startsHere": true,
-                            "throughDestEn": "Tsuchiura",
-                            "throughDestJa": "土浦"
+                            "throughDest": {
+                                "en": "Tsuchiura",
+                                "ja": "土浦"
+                            }
                         },
                         {
                             "continuesBeyond": false,
                             "departure": "12:17",
                             "startsHere": true,
-                            "throughDestEn": "Tsuchiura",
-                            "throughDestJa": "土浦"
+                            "throughDest": {
+                                "en": "Tsuchiura",
+                                "ja": "土浦"
+                            }
                         },
                         {
                             "continuesBeyond": false,
                             "departure": "12:35",
                             "startsHere": true,
-                            "throughDestEn": "Tsuchiura",
-                            "throughDestJa": "土浦"
+                            "throughDest": {
+                                "en": "Tsuchiura",
+                                "ja": "土浦"
+                            }
                         },
                         {
                             "continuesBeyond": false,
                             "departure": "12:55",
                             "startsHere": true,
-                            "throughDestEn": "Tsuchiura",
-                            "throughDestJa": "土浦"
+                            "throughDest": {
+                                "en": "Tsuchiura",
+                                "ja": "土浦"
+                            }
                         },
                         {
                             "continuesBeyond": false,
                             "departure": "13:17",
                             "startsHere": true,
-                            "throughDestEn": "Tsuchiura",
-                            "throughDestJa": "土浦"
+                            "throughDest": {
+                                "en": "Tsuchiura",
+                                "ja": "土浦"
+                            }
                         },
                         {
                             "continuesBeyond": false,
                             "departure": "13:35",
                             "startsHere": true,
-                            "throughDestEn": "Tsuchiura",
-                            "throughDestJa": "土浦"
+                            "throughDest": {
+                                "en": "Tsuchiura",
+                                "ja": "土浦"
+                            }
                         },
                         {
                             "continuesBeyond": false,
                             "departure": "13:55",
                             "startsHere": true,
-                            "throughDestEn": "Mito",
-                            "throughDestJa": "水戸"
+                            "throughDest": {
+                                "en": "Mito",
+                                "ja": "水戸"
+                            }
                         },
                         {
                             "continuesBeyond": false,
                             "departure": "14:17",
                             "startsHere": true,
-                            "throughDestEn": "Katsuta",
-                            "throughDestJa": "勝田"
+                            "throughDest": {
+                                "en": "Katsuta",
+                                "ja": "勝田"
+                            }
                         },
                         {
                             "continuesBeyond": false,
                             "departure": "14:35",
                             "startsHere": true,
-                            "throughDestEn": "Mito",
-                            "throughDestJa": "水戸"
+                            "throughDest": {
+                                "en": "Mito",
+                                "ja": "水戸"
+                            }
                         },
                         {
                             "continuesBeyond": false,
                             "departure": "14:55",
                             "startsHere": true,
                             "stopIndices": [0, 1, 2, 3, 4, 7, 8, 9, 12],
-                            "throughDestEn": "Tsuchiura",
-                            "throughDestJa": "土浦",
+                            "throughDest": {
+                                "en": "Tsuchiura",
+                                "ja": "土浦"
+                            },
                             "trainType": "SpecialRapid"
                         },
                         {
                             "continuesBeyond": false,
                             "departure": "15:17",
                             "startsHere": true,
-                            "throughDestEn": "Tsuchiura",
-                            "throughDestJa": "土浦"
+                            "throughDest": {
+                                "en": "Tsuchiura",
+                                "ja": "土浦"
+                            }
                         },
                         {
                             "continuesBeyond": false,
                             "departure": "15:35",
                             "startsHere": true,
-                            "throughDestEn": "Takahagi",
-                            "throughDestJa": "高萩"
+                            "throughDest": {
+                                "en": "Takahagi",
+                                "ja": "高萩"
+                            }
                         },
                         {
                             "continuesBeyond": false,
                             "departure": "15:55",
                             "startsHere": true,
                             "stopIndices": [0, 1, 2, 3, 4, 7, 8, 9, 12],
-                            "throughDestEn": "Tsuchiura",
-                            "throughDestJa": "土浦",
+                            "throughDest": {
+                                "en": "Tsuchiura",
+                                "ja": "土浦"
+                            },
                             "trainType": "SpecialRapid"
                         },
                         {
                             "continuesBeyond": false,
                             "departure": "16:17",
                             "startsHere": true,
-                            "throughDestEn": "Tsuchiura",
-                            "throughDestJa": "土浦"
+                            "throughDest": {
+                                "en": "Tsuchiura",
+                                "ja": "土浦"
+                            }
                         },
                         {
                             "continuesBeyond": false,
                             "departure": "16:35",
                             "startsHere": true,
-                            "throughDestEn": "Takahagi",
-                            "throughDestJa": "高萩"
+                            "throughDest": {
+                                "en": "Takahagi",
+                                "ja": "高萩"
+                            }
                         },
                         {
                             "continuesBeyond": false,
                             "departure": "16:55",
                             "startsHere": true,
-                            "throughDestEn": "Katsuta",
-                            "throughDestJa": "勝田"
+                            "throughDest": {
+                                "en": "Katsuta",
+                                "ja": "勝田"
+                            }
                         },
                         {
                             "continuesBeyond": false,
@@ -1632,8 +1914,10 @@
                             "continuesBeyond": false,
                             "departure": "17:22",
                             "startsHere": true,
-                            "throughDestEn": "Katsuta",
-                            "throughDestJa": "勝田"
+                            "throughDest": {
+                                "en": "Katsuta",
+                                "ja": "勝田"
+                            }
                         },
                         {
                             "continuesBeyond": false,
@@ -1644,38 +1928,48 @@
                             "continuesBeyond": false,
                             "departure": "17:48",
                             "startsHere": true,
-                            "throughDestEn": "Mito",
-                            "throughDestJa": "水戸"
+                            "throughDest": {
+                                "en": "Mito",
+                                "ja": "水戸"
+                            }
                         },
                         {
                             "continuesBeyond": false,
                             "departure": "18:07",
                             "startsHere": true,
                             "terminusStationId": "Station:JR-East.JobanRapid.Abiko",
-                            "throughDestEn": "Narita",
-                            "throughDestJa": "成田"
+                            "throughDest": {
+                                "en": "Narita",
+                                "ja": "成田"
+                            }
                         },
                         {
                             "continuesBeyond": false,
                             "departure": "18:24",
                             "startsHere": true,
-                            "throughDestEn": "Katsuta",
-                            "throughDestJa": "勝田"
+                            "throughDest": {
+                                "en": "Katsuta",
+                                "ja": "勝田"
+                            }
                         },
                         {
                             "continuesBeyond": false,
                             "departure": "18:33",
                             "startsHere": true,
                             "terminusStationId": "Station:JR-East.JobanRapid.Abiko",
-                            "throughDestEn": "Narita",
-                            "throughDestJa": "成田"
+                            "throughDest": {
+                                "en": "Narita",
+                                "ja": "成田"
+                            }
                         },
                         {
                             "continuesBeyond": false,
                             "departure": "18:55",
                             "startsHere": true,
-                            "throughDestEn": "Katsuta",
-                            "throughDestJa": "勝田"
+                            "throughDest": {
+                                "en": "Katsuta",
+                                "ja": "勝田"
+                            }
                         },
                         {
                             "continuesBeyond": false,
@@ -1686,23 +1980,29 @@
                             "continuesBeyond": false,
                             "departure": "19:27",
                             "startsHere": true,
-                            "throughDestEn": "Katsuta",
-                            "throughDestJa": "勝田"
+                            "throughDest": {
+                                "en": "Katsuta",
+                                "ja": "勝田"
+                            }
                         },
                         {
                             "continuesBeyond": false,
                             "departure": "19:34",
                             "startsHere": true,
                             "terminusStationId": "Station:JR-East.JobanRapid.Abiko",
-                            "throughDestEn": "Narita",
-                            "throughDestJa": "成田"
+                            "throughDest": {
+                                "en": "Narita",
+                                "ja": "成田"
+                            }
                         },
                         {
                             "continuesBeyond": false,
                             "departure": "19:54",
                             "startsHere": true,
-                            "throughDestEn": "Tsuchiura",
-                            "throughDestJa": "土浦"
+                            "throughDest": {
+                                "en": "Tsuchiura",
+                                "ja": "土浦"
+                            }
                         },
                         {
                             "continuesBeyond": false,
@@ -1713,23 +2013,29 @@
                             "continuesBeyond": false,
                             "departure": "20:25",
                             "startsHere": true,
-                            "throughDestEn": "Tsuchiura",
-                            "throughDestJa": "土浦"
+                            "throughDest": {
+                                "en": "Tsuchiura",
+                                "ja": "土浦"
+                            }
                         },
                         {
                             "continuesBeyond": false,
                             "departure": "20:33",
                             "startsHere": true,
                             "terminusStationId": "Station:JR-East.JobanRapid.Abiko",
-                            "throughDestEn": "Narita",
-                            "throughDestJa": "成田"
+                            "throughDest": {
+                                "en": "Narita",
+                                "ja": "成田"
+                            }
                         },
                         {
                             "continuesBeyond": false,
                             "departure": "20:54",
                             "startsHere": true,
-                            "throughDestEn": "Tsuchiura",
-                            "throughDestJa": "土浦"
+                            "throughDest": {
+                                "en": "Tsuchiura",
+                                "ja": "土浦"
+                            }
                         },
                         {
                             "continuesBeyond": false,
@@ -1745,15 +2051,19 @@
                             "continuesBeyond": false,
                             "departure": "21:39",
                             "startsHere": true,
-                            "throughDestEn": "Tsuchiura",
-                            "throughDestJa": "土浦"
+                            "throughDest": {
+                                "en": "Tsuchiura",
+                                "ja": "土浦"
+                            }
                         },
                         {
                             "continuesBeyond": false,
                             "departure": "21:55",
                             "startsHere": true,
-                            "throughDestEn": "Katsuta",
-                            "throughDestJa": "勝田"
+                            "throughDest": {
+                                "en": "Katsuta",
+                                "ja": "勝田"
+                            }
                         },
                         {
                             "continuesBeyond": false,
@@ -1765,22 +2075,28 @@
                             "departure": "22:26",
                             "startsHere": true,
                             "terminusStationId": "Station:JR-East.JobanRapid.Abiko",
-                            "throughDestEn": "Narita",
-                            "throughDestJa": "成田"
+                            "throughDest": {
+                                "en": "Narita",
+                                "ja": "成田"
+                            }
                         },
                         {
                             "continuesBeyond": false,
                             "departure": "22:36",
                             "startsHere": true,
-                            "throughDestEn": "Katsuta",
-                            "throughDestJa": "勝田"
+                            "throughDest": {
+                                "en": "Katsuta",
+                                "ja": "勝田"
+                            }
                         },
                         {
                             "continuesBeyond": false,
                             "departure": "22:56",
                             "startsHere": true,
-                            "throughDestEn": "Tsuchiura",
-                            "throughDestJa": "土浦"
+                            "throughDest": {
+                                "en": "Tsuchiura",
+                                "ja": "土浦"
+                            }
                         }
                     ],
                     "firstDeparture": "06:35",
@@ -2063,8 +2379,10 @@
                     }
                 ],
                 "isAscending": false,
-                "nameEn": "For Ueno & Shinagawa",
-                "nameJa": "上野・品川方面",
+                "name": {
+                    "en": "For Ueno & Shinagawa",
+                    "ja": "上野・品川方面"
+                },
                 "saturdayHoliday": {
                     "bands": [],
                     "exactRuns": [
@@ -3955,151 +4273,179 @@
         "hopTimesMinutes": [5, 4, 7, 3, 2, 3, 3, 9, 8, 5, 3, 4],
         "id": "Railway:JR-East.JobanRapid",
         "isLoop": false,
-        "nameEn": "Joban Rapid Line",
-        "nameJa": "常磐線快速",
+        "name": {
+            "en": "Joban Rapid Line",
+            "ja": "常磐線快速"
+        },
         "operatorId": "Operator:JR-East",
         "stations": [
             {
                 "id": "Station:JR-East.JobanRapid.Shinagawa",
                 "latitude": 35.6285,
                 "longitude": 139.7388,
-                "name": "品川",
-                "nameEn": "Shinagawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shinagawa",
+                    "ja": "品川",
+                    "ko": "시나가와",
+                    "zh-Hans": "品川",
+                    "zh-Hant": "品川"
+                },
                 "stationCode": "JJ01"
             },
             {
                 "id": "Station:JR-East.JobanRapid.Shimbashi",
                 "latitude": 35.6663,
                 "longitude": 139.7583,
-                "name": "新橋",
-                "nameEn": "Shimbashi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shimbashi",
+                    "ja": "新橋",
+                    "ko": "신바시",
+                    "zh-Hans": "新桥",
+                    "zh-Hant": "新橋"
+                },
                 "stationCode": "JJ02"
             },
             {
                 "id": "Station:JR-East.JobanRapid.Tokyo",
                 "latitude": 35.6812,
                 "longitude": 139.7671,
-                "name": "東京",
-                "nameEn": "Tokyo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tokyo",
+                    "ja": "東京",
+                    "ko": "도쿄",
+                    "zh-Hans": "东京",
+                    "zh-Hant": "東京"
+                },
                 "stationCode": "JJ03"
             },
             {
                 "id": "Station:JR-East.JobanRapid.Ueno",
                 "latitude": 35.7141,
                 "longitude": 139.7774,
-                "name": "上野",
-                "nameEn": "Ueno",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ueno",
+                    "ja": "上野",
+                    "ko": "우에노",
+                    "zh-Hans": "上野",
+                    "zh-Hant": "上野"
+                },
                 "stationCode": "JJ04"
             },
             {
                 "id": "Station:JR-East.JobanRapid.Nippori",
                 "latitude": 35.7278,
                 "longitude": 139.7708,
-                "name": "日暮里",
-                "nameEn": "Nippori",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nippori",
+                    "ja": "日暮里",
+                    "ko": "닛포리",
+                    "zh-Hans": "日暮里",
+                    "zh-Hant": "日暮里"
+                },
                 "stationCode": "JJ05"
             },
             {
                 "id": "Station:JR-East.JobanRapid.Mikawashima",
                 "latitude": 35.733343,
                 "longitude": 139.777392,
-                "name": "三河島",
-                "nameEn": "Mikawashima",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Mikawashima",
+                    "ja": "三河島",
+                    "ko": "미카와시마",
+                    "zh-Hans": "三河岛",
+                    "zh-Hant": "三河島"
+                },
                 "stationCode": "JJ06"
             },
             {
                 "id": "Station:JR-East.JobanRapid.MinamiSenju",
                 "latitude": 35.7333,
                 "longitude": 139.7995,
-                "name": "南千住",
-                "nameEn": "Minami-Senju",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Minami-Senju",
+                    "ja": "南千住",
+                    "ko": "미나미센주",
+                    "zh-Hans": "南千住",
+                    "zh-Hant": "南千住"
+                },
                 "stationCode": "JJ07"
             },
             {
                 "id": "Station:JR-East.JobanRapid.KitaSenju",
                 "latitude": 35.7497,
                 "longitude": 139.8047,
-                "name": "北千住",
-                "nameEn": "Kita-Senju",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kita-Senju",
+                    "ja": "北千住",
+                    "ko": "기타센주",
+                    "zh-Hans": "北千住",
+                    "zh-Hant": "北千住"
+                },
                 "stationCode": "JJ08"
             },
             {
                 "id": "Station:JR-East.JobanRapid.Matsudo",
                 "latitude": 35.7841,
                 "longitude": 139.901,
-                "name": "松戸",
-                "nameEn": "Matsudo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Matsudo",
+                    "ja": "松戸",
+                    "ko": "마쓰도",
+                    "zh-Hans": "松户",
+                    "zh-Hant": "松戶"
+                },
                 "stationCode": "JJ09"
             },
             {
                 "id": "Station:JR-East.JobanRapid.Kashiwa",
                 "latitude": 35.8622,
                 "longitude": 139.9707,
-                "name": "柏",
-                "nameEn": "Kashiwa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kashiwa",
+                    "ja": "柏",
+                    "ko": "가시와",
+                    "zh-Hans": "柏",
+                    "zh-Hant": "柏"
+                },
                 "stationCode": "JJ10"
             },
             {
                 "id": "Station:JR-East.JobanRapid.Abiko",
                 "latitude": 35.872742,
                 "longitude": 140.010771,
-                "name": "我孫子",
-                "nameEn": "Abiko",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Abiko",
+                    "ja": "我孫子",
+                    "ko": "아비코",
+                    "zh-Hans": "我孙子",
+                    "zh-Hant": "我孫子"
+                },
                 "stationCode": "JJ11"
             },
             {
                 "id": "Station:JR-East.JobanRapid.Tennodai",
                 "latitude": 35.872527,
                 "longitude": 140.040889,
-                "name": "天王台",
-                "nameEn": "Tennodai",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tennodai",
+                    "ja": "天王台",
+                    "ko": "덴노다이",
+                    "zh-Hans": "天王台",
+                    "zh-Hant": "天王台"
+                },
                 "stationCode": "JJ12"
             },
             {
                 "id": "Station:JR-East.JobanRapid.Toride",
                 "latitude": 35.8973,
                 "longitude": 140.0629,
-                "name": "取手",
-                "nameEn": "Toride",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Toride",
+                    "ja": "取手",
+                    "ko": "도리데",
+                    "zh-Hans": "取手",
+                    "zh-Hant": "取手"
+                },
                 "stationCode": "JJ13"
             }
         ],
@@ -4108,10 +4454,14 @@
             {
                 "end": "ascending",
                 "junctionStationId": "Station:JR-East.JobanRapid.Toride",
-                "lineNameEn": "JR Joban Line",
-                "lineNameJa": "常磐線",
-                "towardEn": "for Tsuchiura & Mito",
-                "towardJa": "土浦・水戸方面"
+                "lineName": {
+                    "en": "JR Joban Line",
+                    "ja": "常磐線"
+                },
+                "toward": {
+                    "en": "for Tsuchiura & Mito",
+                    "ja": "土浦・水戸方面"
+                }
             }
         ],
         "upHopTimesMinutes": [5, 3, 6, 3, 2, 3, 3, 9, 9, 5, 4, 4]

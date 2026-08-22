@@ -2,10 +2,14 @@
     {
         "colorHex": "#339966",
         "delayInfo": {
-            "checkMethodEn": "Check the JR East Train Operation Information page or the JR East app. In the Tokyo area, delays or suspensions of 15 minutes or more are posted.",
-            "checkMethodJa": "JR東日本「列車運行情報」ページまたはJR東日本アプリで確認できます。首都圏エリアでは15分以上の遅れ・運休が発生または見込まれる場合に掲載されます。",
-            "statusPageURL": "https://traininfo.jreast.co.jp/train_info/line.aspx?gid=1&lineid=karasuyamaline",
-            "statusPageURLEn": "https://traininfo.jreast.co.jp/train_info/e/kanto.aspx",
+            "checkMethod": {
+                "en": "Check the JR East Train Operation Information page or the JR East app. In the Tokyo area, delays or suspensions of 15 minutes or more are posted.",
+                "ja": "JR東日本「列車運行情報」ページまたはJR東日本アプリで確認できます。首都圏エリアでは15分以上の遅れ・運休が発生または見込まれる場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://traininfo.jreast.co.jp/train_info/e/kanto.aspx",
+                "ja": "https://traininfo.jreast.co.jp/train_info/line.aspx?gid=1&lineid=karasuyamaline"
+            },
             "xAccount": "@JRE_F_Toho_Taka"
         },
         "directions": [
@@ -15,8 +19,10 @@
                 "id": "static.RailDirection:JR-East.Karasuyama.Karasuyama",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Karasuyama",
-                "nameJa": "烏山方面",
+                "name": {
+                    "en": "For Karasuyama",
+                    "ja": "烏山方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -130,8 +136,10 @@
                 "id": "static.RailDirection:JR-East.Karasuyama.Hoshakuji",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Hoshakuji & Utsunomiya",
-                "nameJa": "宝積寺・宇都宮方面",
+                "name": {
+                    "en": "For Hoshakuji & Utsunomiya",
+                    "ja": "宝積寺・宇都宮方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -231,96 +239,117 @@
         "hopTimesMinutes": [6, 4, 4, 7, 4, 4, 5],
         "id": "Railway:JR-East.Karasuyama",
         "isLoop": false,
-        "nameEn": "Karasuyama Line",
-        "nameJa": "烏山線",
+        "name": {
+            "en": "Karasuyama Line",
+            "ja": "烏山線",
+            "ko": "가라스야마선",
+            "zh-Hans": "乌山线",
+            "zh-Hant": "烏山線"
+        },
         "operatorId": "Operator:JR-East",
         "stations": [
             {
                 "id": "Station:JR-East.Karasuyama.Hoshakuji",
                 "latitude": 36.631489,
                 "longitude": 139.979519,
-                "name": "宝積寺",
-                "nameEn": "Hoshakuji",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Hoshakuji",
+                    "ja": "宝積寺",
+                    "ko": "호샤쿠지",
+                    "zh-Hans": "宝积寺",
+                    "zh-Hant": "寶積寺"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Karasuyama.ShimotsukeHanaoka",
                 "latitude": 36.649911,
                 "longitude": 140.008683,
-                "name": "下野花岡",
-                "nameEn": "Shimotsuke-Hanaoka",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shimotsuke-Hanaoka",
+                    "ja": "下野花岡",
+                    "ko": "시모쓰케하나오카",
+                    "zh-Hans": "下野花冈",
+                    "zh-Hant": "下野花岡"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Karasuyama.Niita",
                 "latitude": 36.657275,
                 "longitude": 140.029719,
-                "name": "仁井田",
-                "nameEn": "Niita",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Niita",
+                    "ja": "仁井田",
+                    "ko": "니타",
+                    "zh-Hans": "仁井田",
+                    "zh-Hant": "仁井田"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Karasuyama.Konoyama",
                 "latitude": 36.666461,
                 "longitude": 140.051797,
-                "name": "鴻野山",
-                "nameEn": "Konoyama",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Konoyama",
+                    "ja": "鴻野山",
+                    "ko": "고노야마",
+                    "zh-Hans": "鸿野山",
+                    "zh-Hant": "鴻野山"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Karasuyama.Ogane",
                 "latitude": 36.656436,
                 "longitude": 140.095675,
-                "name": "大金",
-                "nameEn": "Ogane",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ogane",
+                    "ja": "大金",
+                    "ko": "오가네",
+                    "zh-Hans": "大金",
+                    "zh-Hant": "大金"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Karasuyama.Kobana",
                 "latitude": 36.642772,
                 "longitude": 140.116986,
-                "name": "小塙",
-                "nameEn": "Kobana",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kobana",
+                    "ja": "小塙",
+                    "ko": "고바나",
+                    "zh-Hans": "小塙",
+                    "zh-Hant": "小塙"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Karasuyama.Taki",
                 "latitude": 36.648789,
                 "longitude": 140.138019,
-                "name": "滝",
-                "nameEn": "Taki",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Taki",
+                    "ja": "滝",
+                    "ko": "다키",
+                    "zh-Hans": "泷",
+                    "zh-Hant": "瀧"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Karasuyama.Karasuyama",
                 "latitude": 36.650433,
                 "longitude": 140.154969,
-                "name": "烏山",
-                "nameEn": "Karasuyama",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Karasuyama",
+                    "ja": "烏山",
+                    "ko": "가라스야마",
+                    "zh-Hans": "乌山",
+                    "zh-Hant": "烏山"
+                },
                 "stationCode": ""
             }
         ],
@@ -330,10 +359,14 @@
                 "connectingLineId": "Railway:JR-East.Utsunomiya",
                 "end": "descending",
                 "junctionStationId": "Station:JR-East.Karasuyama.Hoshakuji",
-                "lineNameEn": "Utsunomiya Line",
-                "lineNameJa": "宇都宮線",
-                "towardEn": "for Utsunomiya",
-                "towardJa": "宇都宮方面"
+                "lineName": {
+                    "en": "Utsunomiya Line",
+                    "ja": "宇都宮線"
+                },
+                "toward": {
+                    "en": "for Utsunomiya",
+                    "ja": "宇都宮方面"
+                }
             }
         ],
         "timetableRuns": [
@@ -470,9 +503,11 @@
                 "startsHere": false,
                 "stops": [340, 345, 349, 359, 366, 371, 374],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "宇都宮",
-                "throughDestEn": "Utsunomiya"
+                "throughDest": {
+                    "en": "Utsunomiya",
+                    "ja": "宇都宮"
+                },
+                "type": "Local"
             },
             {
                 "ascending": false,
@@ -481,9 +516,11 @@
                 "startsHere": false,
                 "stops": [397, 401, 406, 417, 424, 429, 432],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "宇都宮",
-                "throughDestEn": "Utsunomiya"
+                "throughDest": {
+                    "en": "Utsunomiya",
+                    "ja": "宇都宮"
+                },
+                "type": "Local"
             },
             {
                 "ascending": false,
@@ -492,9 +529,11 @@
                 "startsHere": false,
                 "stops": [451, 456, 460, 472, 480, 484, 488],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "宇都宮",
-                "throughDestEn": "Utsunomiya"
+                "throughDest": {
+                    "en": "Utsunomiya",
+                    "ja": "宇都宮"
+                },
+                "type": "Local"
             },
             {
                 "ascending": false,
@@ -503,9 +542,11 @@
                 "startsHere": false,
                 "stops": [506, 511, 515, 527, 534, 539, 543],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "宇都宮",
-                "throughDestEn": "Utsunomiya"
+                "throughDest": {
+                    "en": "Utsunomiya",
+                    "ja": "宇都宮"
+                },
+                "type": "Local"
             },
             {
                 "ascending": false,
@@ -514,9 +555,11 @@
                 "startsHere": false,
                 "stops": [579, 583, 587, 592, 599, 603, 607],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "宇都宮",
-                "throughDestEn": "Utsunomiya"
+                "throughDest": {
+                    "en": "Utsunomiya",
+                    "ja": "宇都宮"
+                },
+                "type": "Local"
             },
             {
                 "ascending": false,
@@ -525,9 +568,11 @@
                 "startsHere": false,
                 "stops": [699, 703, 707, 712, 719, 723, 727],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "宇都宮",
-                "throughDestEn": "Utsunomiya"
+                "throughDest": {
+                    "en": "Utsunomiya",
+                    "ja": "宇都宮"
+                },
+                "type": "Local"
             },
             {
                 "ascending": false,
@@ -536,9 +581,11 @@
                 "startsHere": false,
                 "stops": [819, 823, 827, 832, 839, 843, 847],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "宇都宮",
-                "throughDestEn": "Utsunomiya"
+                "throughDest": {
+                    "en": "Utsunomiya",
+                    "ja": "宇都宮"
+                },
+                "type": "Local"
             },
             {
                 "ascending": false,
@@ -574,9 +621,11 @@
                 "startsHere": false,
                 "stops": [1160, 1165, 1169, 1180, 1187, 1191, 1195],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "宇都宮",
-                "throughDestEn": "Utsunomiya"
+                "throughDest": {
+                    "en": "Utsunomiya",
+                    "ja": "宇都宮"
+                },
+                "type": "Local"
             },
             {
                 "ascending": false,
@@ -585,9 +634,11 @@
                 "startsHere": false,
                 "stops": [1217, 1222, 1226, 1236, 1243, 1247, 1251],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "宇都宮",
-                "throughDestEn": "Utsunomiya"
+                "throughDest": {
+                    "en": "Utsunomiya",
+                    "ja": "宇都宮"
+                },
+                "type": "Local"
             },
             {
                 "ascending": false,
@@ -596,9 +647,11 @@
                 "startsHere": false,
                 "stops": [1295, 1300, 1304, 1314, 1321, 1325, 1329],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "宇都宮",
-                "throughDestEn": "Utsunomiya"
+                "throughDest": {
+                    "en": "Utsunomiya",
+                    "ja": "宇都宮"
+                },
+                "type": "Local"
             },
             {
                 "ascending": true,
@@ -706,9 +759,11 @@
                 "startsHere": false,
                 "stops": [340, 345, 349, 359, 366, 371, 374],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "宇都宮",
-                "throughDestEn": "Utsunomiya"
+                "throughDest": {
+                    "en": "Utsunomiya",
+                    "ja": "宇都宮"
+                },
+                "type": "Local"
             },
             {
                 "ascending": false,
@@ -717,9 +772,11 @@
                 "startsHere": false,
                 "stops": [397, 401, 406, 417, 424, 429, 432],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "宇都宮",
-                "throughDestEn": "Utsunomiya"
+                "throughDest": {
+                    "en": "Utsunomiya",
+                    "ja": "宇都宮"
+                },
+                "type": "Local"
             },
             {
                 "ascending": false,
@@ -728,9 +785,11 @@
                 "startsHere": false,
                 "stops": [451, 456, 460, 472, 480, 484, 488],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "宇都宮",
-                "throughDestEn": "Utsunomiya"
+                "throughDest": {
+                    "en": "Utsunomiya",
+                    "ja": "宇都宮"
+                },
+                "type": "Local"
             },
             {
                 "ascending": false,
@@ -739,9 +798,11 @@
                 "startsHere": false,
                 "stops": [506, 511, 515, 527, 534, 539, 543],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "宇都宮",
-                "throughDestEn": "Utsunomiya"
+                "throughDest": {
+                    "en": "Utsunomiya",
+                    "ja": "宇都宮"
+                },
+                "type": "Local"
             },
             {
                 "ascending": false,
@@ -777,9 +838,11 @@
                 "startsHere": false,
                 "stops": [1160, 1165, 1169, 1180, 1187, 1191, 1195],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "宇都宮",
-                "throughDestEn": "Utsunomiya"
+                "throughDest": {
+                    "en": "Utsunomiya",
+                    "ja": "宇都宮"
+                },
+                "type": "Local"
             },
             {
                 "ascending": false,
@@ -788,9 +851,11 @@
                 "startsHere": false,
                 "stops": [1217, 1222, 1226, 1236, 1243, 1247, 1251],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "宇都宮",
-                "throughDestEn": "Utsunomiya"
+                "throughDest": {
+                    "en": "Utsunomiya",
+                    "ja": "宇都宮"
+                },
+                "type": "Local"
             },
             {
                 "ascending": false,
@@ -799,9 +864,11 @@
                 "startsHere": false,
                 "stops": [1295, 1300, 1304, 1314, 1321, 1325, 1329],
                 "terminates": false,
-                "type": "Local",
-                "throughDestJa": "宇都宮",
-                "throughDestEn": "Utsunomiya"
+                "throughDest": {
+                    "en": "Utsunomiya",
+                    "ja": "宇都宮"
+                },
+                "type": "Local"
             }
         ],
         "upHopTimesMinutes": [6, 4, 4, 7, 11, 4, 5]

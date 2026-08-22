@@ -2,10 +2,14 @@
     {
         "colorHex": "#A85F12",
         "delayInfo": {
-            "checkMethodEn": "Check the JR East Train Operation Information page or the JR East app. In the Tokyo area, delays or suspensions of 15 minutes or more are posted.",
-            "checkMethodJa": "JR東日本「列車運行情報」ページまたはJR東日本アプリで確認できます。首都圏エリアでは15分以上の遅れ・運休が発生または見込まれる場合に掲載されます。",
-            "statusPageURL": "https://traininfo.jreast.co.jp/train_info/line.aspx?gid=1&lineid=kashimaline",
-            "statusPageURLEn": "https://traininfo.jreast.co.jp/train_info/e/kanto.aspx",
+            "checkMethod": {
+                "en": "Check the JR East Train Operation Information page or the JR East app. In the Tokyo area, delays or suspensions of 15 minutes or more are posted.",
+                "ja": "JR東日本「列車運行情報」ページまたはJR東日本アプリで確認できます。首都圏エリアでは15分以上の遅れ・運休が発生または見込まれる場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://traininfo.jreast.co.jp/train_info/e/kanto.aspx",
+                "ja": "https://traininfo.jreast.co.jp/train_info/line.aspx?gid=1&lineid=kashimaline"
+            },
             "xAccount": "@JRE_F_Sobu"
         },
         "directions": [
@@ -15,13 +19,15 @@
                 "id": "static.RailDirection:JR-East.Kashima.Kashimajingu",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Kashimajingu",
-                "nameJa": "鹿島神宮方面",
+                "name": {
+                    "en": "For Kashimajingu",
+                    "ja": "鹿島神宮方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
                             "from": "06:16",
-                            "headwayMinutes": 57.0
+                            "headwayMinutes": 57
                         },
                         {
                             "from": "07:00",
@@ -29,39 +35,39 @@
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 67.0
+                            "headwayMinutes": 67
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 60.0
+                            "headwayMinutes": 60
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 120.0
+                            "headwayMinutes": 120
                         },
                         {
                             "from": "14:00",
-                            "headwayMinutes": 100.0
+                            "headwayMinutes": 100
                         },
                         {
                             "from": "15:00",
-                            "headwayMinutes": 77.0
+                            "headwayMinutes": 77
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 67.0
+                            "headwayMinutes": 67
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 74.0
+                            "headwayMinutes": 74
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 101.0
+                            "headwayMinutes": 101
                         },
                         {
                             "from": "21:00",
-                            "headwayMinutes": 84.0
+                            "headwayMinutes": 84
                         }
                     ],
                     "firstDeparture": "06:16",
@@ -72,7 +78,7 @@
                     "bands": [
                         {
                             "from": "06:16",
-                            "headwayMinutes": 57.0
+                            "headwayMinutes": 57
                         },
                         {
                             "from": "07:00",
@@ -80,39 +86,39 @@
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 67.0
+                            "headwayMinutes": 67
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 60.0
+                            "headwayMinutes": 60
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 120.0
+                            "headwayMinutes": 120
                         },
                         {
                             "from": "14:00",
-                            "headwayMinutes": 100.0
+                            "headwayMinutes": 100
                         },
                         {
                             "from": "15:00",
-                            "headwayMinutes": 77.0
+                            "headwayMinutes": 77
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 67.0
+                            "headwayMinutes": 67
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 74.0
+                            "headwayMinutes": 74
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 101.0
+                            "headwayMinutes": 101
                         },
                         {
                             "from": "21:00",
-                            "headwayMinutes": 84.0
+                            "headwayMinutes": 84
                         }
                     ],
                     "firstDeparture": "06:16",
@@ -126,13 +132,15 @@
                 "id": "static.RailDirection:JR-East.Kashima.Sawara",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Sawara",
-                "nameJa": "佐原方面",
+                "name": {
+                    "en": "For Sawara",
+                    "ja": "佐原方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
                             "from": "06:30",
-                            "headwayMinutes": 31.0
+                            "headwayMinutes": 31
                         },
                         {
                             "from": "07:00",
@@ -140,39 +148,39 @@
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 46.0
+                            "headwayMinutes": 46
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 99.0
+                            "headwayMinutes": 99
                         },
                         {
                             "from": "11:00",
-                            "headwayMinutes": 120.0
+                            "headwayMinutes": 120
                         },
                         {
                             "from": "13:00",
-                            "headwayMinutes": 95.0
+                            "headwayMinutes": 95
                         },
                         {
                             "from": "14:00",
-                            "headwayMinutes": 97.0
+                            "headwayMinutes": 97
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 75.0
+                            "headwayMinutes": 75
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 62.0
+                            "headwayMinutes": 62
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 79.0
+                            "headwayMinutes": 79
                         },
                         {
                             "from": "20:00",
-                            "headwayMinutes": 120.0
+                            "headwayMinutes": 120
                         }
                     ],
                     "firstDeparture": "06:30",
@@ -191,39 +199,39 @@
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 46.0
+                            "headwayMinutes": 46
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 99.0
+                            "headwayMinutes": 99
                         },
                         {
                             "from": "11:00",
-                            "headwayMinutes": 120.0
+                            "headwayMinutes": 120
                         },
                         {
                             "from": "13:00",
-                            "headwayMinutes": 95.0
+                            "headwayMinutes": 95
                         },
                         {
                             "from": "14:00",
-                            "headwayMinutes": 97.0
+                            "headwayMinutes": 97
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 75.0
+                            "headwayMinutes": 75
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 62.0
+                            "headwayMinutes": 62
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 79.0
+                            "headwayMinutes": 79
                         },
                         {
                             "from": "20:00",
-                            "headwayMinutes": 120.0
+                            "headwayMinutes": 120
                         }
                     ],
                     "firstDeparture": "06:02",
@@ -232,11 +240,16 @@
                 }
             }
         ],
-        "hopTimesMinutes": [5.0, 4.0, 4.0, 5.0, 4.0],
+        "hopTimesMinutes": [5, 4, 4, 5, 4],
         "id": "Railway:JR-East.Kashima",
         "isLoop": false,
-        "nameEn": "Kashima Line",
-        "nameJa": "鹿島線",
+        "name": {
+            "en": "Kashima Line",
+            "ja": "鹿島線",
+            "ko": "가시마선",
+            "zh-Hans": "鹿岛线",
+            "zh-Hant": "鹿島線"
+        },
         "operatorId": "Operator:JR-East",
         "segment": "DokoTrain",
         "stations": [
@@ -244,66 +257,78 @@
                 "id": "Station:JR-East.Kashima.Sawara",
                 "latitude": 35.89493,
                 "longitude": 140.49377,
-                "name": "佐原",
-                "nameEn": "Sawara",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Sawara",
+                    "ja": "佐原",
+                    "ko": "사와라",
+                    "zh-Hans": "佐原",
+                    "zh-Hant": "佐原"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Kashima.Katori",
                 "latitude": 35.89788,
                 "longitude": 140.53241,
-                "name": "香取",
-                "nameEn": "Katori",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Katori",
+                    "ja": "香取",
+                    "ko": "가토리",
+                    "zh-Hans": "香取",
+                    "zh-Hant": "香取"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Kashima.Junikyo",
                 "latitude": 35.91702,
                 "longitude": 140.54583,
-                "name": "十二橋",
-                "nameEn": "Junikyo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Junikyo",
+                    "ja": "十二橋",
+                    "ko": "주니쿄",
+                    "zh-Hans": "十二桥",
+                    "zh-Hant": "十二橋"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Kashima.Itako",
                 "latitude": 35.93746,
                 "longitude": 140.54969,
-                "name": "潮来",
-                "nameEn": "Itako",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Itako",
+                    "ja": "潮来",
+                    "ko": "이타코",
+                    "zh-Hans": "潮来",
+                    "zh-Hant": "潮來"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Kashima.Nobukata",
                 "latitude": 35.9581,
                 "longitude": 140.5888,
-                "name": "延方",
-                "nameEn": "Nobukata",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nobukata",
+                    "ja": "延方",
+                    "ko": "노부카타",
+                    "zh-Hans": "延方",
+                    "zh-Hant": "延方"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Kashima.Kashimajingu",
                 "latitude": 35.9707,
                 "longitude": 140.62593,
-                "name": "鹿島神宮",
-                "nameEn": "Kashimajingu",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kashimajingu",
+                    "ja": "鹿島神宮",
+                    "ko": "가시마진구",
+                    "zh-Hans": "鹿岛神宫",
+                    "zh-Hant": "鹿島神宮"
+                },
                 "stationCode": ""
             }
         ],
@@ -470,8 +495,10 @@
                 "startsHere": true,
                 "stops": [492, 496, 502, 505, 509, 517],
                 "terminates": false,
-                "throughDestEn": "Narita",
-                "throughDestJa": "成田",
+                "throughDest": {
+                    "en": "Narita",
+                    "ja": "成田"
+                },
                 "type": "Local"
             },
             {
@@ -697,8 +724,10 @@
                 "startsHere": true,
                 "stops": [362, 367, 372, 375, 381, 386],
                 "terminates": false,
-                "throughDestEn": "Ofuna",
-                "throughDestJa": "大船",
+                "throughDest": {
+                    "en": "Ofuna",
+                    "ja": "大船"
+                },
                 "type": "Rapid"
             },
             {
@@ -735,8 +764,10 @@
                 "startsHere": true,
                 "stops": [492, 496, 502, 505, 509, 517],
                 "terminates": false,
-                "throughDestEn": "Narita",
-                "throughDestJa": "成田",
+                "throughDest": {
+                    "en": "Narita",
+                    "ja": "成田"
+                },
                 "type": "Local"
             },
             {
@@ -830,6 +861,6 @@
                 "type": "Local"
             }
         ],
-        "upHopTimesMinutes": [4.0, 4.0, 3.0, 6.0, 4.0]
+        "upHopTimesMinutes": [4, 4, 3, 6, 4]
     }
 ]

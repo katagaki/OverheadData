@@ -2,10 +2,14 @@
     {
         "colorHex": "#EE86A7",
         "delayInfo": {
-            "checkMethodEn": "Check the Tokyu train operation information page, the Tokyu Lines app, or X (@tokyu_official). Delays or suspensions of 15 minutes or more are posted.",
-            "checkMethodJa": "東急電鉄「運行情報」ページ、東急線アプリ、またはX（@tokyu_official）で確認できます。15分以上の遅れ・運転見合わせが発生または見込まれる場合に掲載されます。",
-            "statusPageURL": "https://www.tokyu.co.jp/unten2/unten.html",
-            "statusPageURLEn": "https://www.tokyu.co.jp/unten2/unten.html",
+            "checkMethod": {
+                "en": "Check the Tokyu train operation information page, the Tokyu Lines app, or X (@tokyu_official). Delays or suspensions of 15 minutes or more are posted.",
+                "ja": "東急電鉄「運行情報」ページ、東急線アプリ、またはX（@tokyu_official）で確認できます。15分以上の遅れ・運転見合わせが発生または見込まれる場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://www.tokyu.co.jp/unten2/unten.html",
+                "ja": "https://www.tokyu.co.jp/unten2/unten.html"
+            },
             "xAccount": "@tokyu_official"
         },
         "directions": [
@@ -15,8 +19,10 @@
                 "id": "static.RailDirection:Tokyu.Ikegami.Kamata",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Kamata",
-                "nameJa": "蒲田方面",
+                "name": {
+                    "en": "For Kamata",
+                    "ja": "蒲田方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -102,8 +108,10 @@
                 "id": "static.RailDirection:Tokyu.Ikegami.Gotanda",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Gotanda",
-                "nameJa": "五反田方面",
+                "name": {
+                    "en": "For Gotanda",
+                    "ja": "五反田方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -191,173 +199,208 @@
         "hopTimesMinutes": [1, 2, 2, 2, 2, 1, 2, 2, 2, 1, 2, 2, 2, 3],
         "id": "Railway:Tokyu.Ikegami",
         "isLoop": false,
-        "nameEn": "Tokyu Ikegami Line",
-        "nameJa": "東急池上線",
+        "name": {
+            "en": "Tokyu Ikegami Line",
+            "ja": "東急池上線",
+            "ko": "도쿄 급행 전철 이케가미 선",
+            "zh-Hans": "池上线",
+            "zh-Hant": "池上線"
+        },
         "operatorId": "Operator:Tokyu",
         "stations": [
             {
                 "id": "Station:Tokyu.Ikegami.Gotanda",
                 "latitude": 35.625137,
                 "longitude": 139.72414,
-                "name": "五反田",
-                "nameEn": "Gotanda",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Gotanda",
+                    "ja": "五反田",
+                    "ko": "고탄다",
+                    "zh-Hans": "五反田",
+                    "zh-Hant": "五反田"
+                },
                 "stationCode": "IK01"
             },
             {
                 "id": "Station:Tokyu.Ikegami.OsakiHirokoji",
                 "latitude": 35.622544,
                 "longitude": 139.72257,
-                "name": "大崎広小路",
-                "nameEn": "Osaki-hirokoji",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Osaki-hirokoji",
+                    "ja": "大崎広小路",
+                    "ko": "오사키히로코지",
+                    "zh-Hans": "大崎广小路",
+                    "zh-Hant": "大崎廣小路"
+                },
                 "stationCode": "IK02"
             },
             {
                 "id": "Station:Tokyu.Ikegami.TogoshiGinza",
                 "latitude": 35.616206,
                 "longitude": 139.715077,
-                "name": "戸越銀座",
-                "nameEn": "Togoshi-ginza",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Togoshi-ginza",
+                    "ja": "戸越銀座",
+                    "ko": "도고시긴자",
+                    "zh-Hans": "户越银座",
+                    "zh-Hant": "戶越銀座"
+                },
                 "stationCode": "IK03"
             },
             {
                 "id": "Station:Tokyu.Ikegami.EbaraNakanobu",
                 "latitude": 35.609946,
                 "longitude": 139.712005,
-                "name": "荏原中延",
-                "nameEn": "Ebara-nakanobu",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ebara-nakanobu",
+                    "ja": "荏原中延",
+                    "ko": "에바라나카노부",
+                    "zh-Hans": "荏原中延",
+                    "zh-Hant": "荏原中延"
+                },
                 "stationCode": "IK04"
             },
             {
                 "id": "Station:Tokyu.Ikegami.Hatanodai",
                 "latitude": 35.605187,
                 "longitude": 139.703385,
-                "name": "旗の台",
-                "nameEn": "Hatanodai",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Hatanodai",
+                    "ja": "旗の台",
+                    "ko": "하타노다이",
+                    "zh-Hans": "旗之台",
+                    "zh-Hant": "旗之台"
+                },
                 "stationCode": "IK05"
             },
             {
                 "id": "Station:Tokyu.Ikegami.Nagahara",
                 "latitude": 35.602265,
                 "longitude": 139.697952,
-                "name": "長原",
-                "nameEn": "Nagahara",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nagahara",
+                    "ja": "長原",
+                    "ko": "나가하라",
+                    "zh-Hans": "长原",
+                    "zh-Hant": "長原"
+                },
                 "stationCode": "IK06"
             },
             {
                 "id": "Station:Tokyu.Ikegami.Senzokuike",
                 "latitude": 35.599796,
                 "longitude": 139.691302,
-                "name": "洗足池",
-                "nameEn": "Senzoku-ike",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Senzoku-ike",
+                    "ja": "洗足池",
+                    "ko": "센조쿠이케",
+                    "zh-Hans": "洗足池",
+                    "zh-Hant": "洗足池"
+                },
                 "stationCode": "IK07"
             },
             {
                 "id": "Station:Tokyu.Ikegami.Ishikawadai",
                 "latitude": 35.597132,
                 "longitude": 139.685495,
-                "name": "石川台",
-                "nameEn": "Ishikawa-dai",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ishikawa-dai",
+                    "ja": "石川台",
+                    "ko": "이시카와다이",
+                    "zh-Hans": "石川台",
+                    "zh-Hant": "石川台"
+                },
                 "stationCode": "IK08"
             },
             {
                 "id": "Station:Tokyu.Ikegami.YukigayaOtsuka",
                 "latitude": 35.59199,
                 "longitude": 139.681041,
-                "name": "雪が谷大塚",
-                "nameEn": "Yukigaya-otsuka",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Yukigaya-otsuka",
+                    "ja": "雪が谷大塚",
+                    "ko": "유키가야오쓰카",
+                    "zh-Hans": "雪谷大冢",
+                    "zh-Hant": "雪谷大塚"
+                },
                 "stationCode": "IK09"
             },
             {
                 "id": "Station:Tokyu.Ikegami.Ontakesan",
                 "latitude": 35.585252,
                 "longitude": 139.682472,
-                "name": "御嶽山",
-                "nameEn": "Ontakesan",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ontakesan",
+                    "ja": "御嶽山",
+                    "ko": "온타케산",
+                    "zh-Hans": "御岳山",
+                    "zh-Hant": "御嶽山"
+                },
                 "stationCode": "IK10"
             },
             {
                 "id": "Station:Tokyu.Ikegami.Kugahara",
                 "latitude": 35.579593,
                 "longitude": 139.685654,
-                "name": "久が原",
-                "nameEn": "Kugahara",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kugahara",
+                    "ja": "久が原",
+                    "ko": "구가하라",
+                    "zh-Hans": "久原",
+                    "zh-Hant": "久原"
+                },
                 "stationCode": "IK11"
             },
             {
                 "id": "Station:Tokyu.Ikegami.Chidoricho",
                 "latitude": 35.572914,
                 "longitude": 139.69158,
-                "name": "千鳥町",
-                "nameEn": "Chidoricho",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Chidoricho",
+                    "ja": "千鳥町",
+                    "ko": "지도리초",
+                    "zh-Hans": "千鸟町",
+                    "zh-Hant": "千鳥町"
+                },
                 "stationCode": "IK12"
             },
             {
                 "id": "Station:Tokyu.Ikegami.Ikegami",
                 "latitude": 35.572021,
                 "longitude": 139.703049,
-                "name": "池上",
-                "nameEn": "Ikegami",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ikegami",
+                    "ja": "池上",
+                    "ko": "이케가미",
+                    "zh-Hans": "池上",
+                    "zh-Hant": "池上"
+                },
                 "stationCode": "IK13"
             },
             {
                 "id": "Station:Tokyu.Ikegami.Hasunuma",
                 "latitude": 35.564252,
                 "longitude": 139.70852,
-                "name": "蓮沼",
-                "nameEn": "Hasunuma",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Hasunuma",
+                    "ja": "蓮沼",
+                    "ko": "하스누마",
+                    "zh-Hans": "莲沼",
+                    "zh-Hant": "蓮沼"
+                },
                 "stationCode": "IK14"
             },
             {
                 "id": "Station:Tokyu.Ikegami.Kamata",
                 "latitude": 35.561752,
                 "longitude": 139.714726,
-                "name": "蒲田",
-                "nameEn": "Kamata",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kamata",
+                    "ja": "蒲田",
+                    "ko": "가마타",
+                    "zh-Hans": "蒲田",
+                    "zh-Hant": "蒲田"
+                },
                 "stationCode": "IK15"
             }
         ],

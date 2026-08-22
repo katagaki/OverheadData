@@ -2,10 +2,14 @@
     {
         "colorHex": "#FF710A",
         "delayInfo": {
-            "checkMethodEn": "Check the Seibu Railway service status page, the Seibu app, or X (@seiburailway). Delays of roughly 15 minutes or more and suspensions are posted.",
-            "checkMethodJa": "西武鉄道「運行情報」ページ、西武線アプリ、またはX（@seiburailway）で確認できます。おおむね15分以上の遅延・運転見合わせが発生した場合に掲載されます。",
-            "statusPageURL": "https://www.seiburailway.jp/railway/railwayinfo/",
-            "statusPageURLEn": "https://www.seiburailway.jp/en/railway/railwayinfo/",
+            "checkMethod": {
+                "en": "Check the Seibu Railway service status page, the Seibu app, or X (@seiburailway). Delays of roughly 15 minutes or more and suspensions are posted.",
+                "ja": "西武鉄道「運行情報」ページ、西武線アプリ、またはX（@seiburailway）で確認できます。おおむね15分以上の遅延・運転見合わせが発生した場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://www.seiburailway.jp/en/railway/railwayinfo/",
+                "ja": "https://www.seiburailway.jp/railway/railwayinfo/"
+            },
             "xAccount": "@seiburailway"
         },
         "directions": [
@@ -15,29 +19,31 @@
                 "id": "static.RailDirection:Seibu.Sayama.SeibukyujoMae",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Seibukyujo-Mae",
-                "nameJa": "西武球場前方面",
+                "name": {
+                    "en": "For Seibukyujo-Mae",
+                    "ja": "西武球場前方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
                             "from": "05:31",
-                            "headwayMinutes": 21.0
+                            "headwayMinutes": 21
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 21.0
+                            "headwayMinutes": 21
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 22.0
+                            "headwayMinutes": 22
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "14:00",
@@ -49,15 +55,15 @@
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 119.0
+                            "headwayMinutes": 119
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 31.0
+                            "headwayMinutes": 31
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 30.0
+                            "headwayMinutes": 30
                         },
                         {
                             "from": "21:00",
@@ -65,7 +71,7 @@
                         },
                         {
                             "from": "23:00",
-                            "headwayMinutes": 22.0
+                            "headwayMinutes": 22
                         }
                     ],
                     "firstDeparture": "05:31",
@@ -76,7 +82,7 @@
                     "bands": [
                         {
                             "from": "05:31",
-                            "headwayMinutes": 21.0
+                            "headwayMinutes": 21
                         },
                         {
                             "from": "06:00",
@@ -84,23 +90,23 @@
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 10.0
+                            "headwayMinutes": 10
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 12.0
+                            "headwayMinutes": 12
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "23:00",
-                            "headwayMinutes": 21.0
+                            "headwayMinutes": 21
                         }
                     ],
                     "firstDeparture": "05:31",
@@ -114,37 +120,39 @@
                 "id": "static.RailDirection:Seibu.Sayama.NishiTokorozawa",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Nishi-Tokorozawa",
-                "nameJa": "西所沢方面",
+                "name": {
+                    "en": "For Nishi-Tokorozawa",
+                    "ja": "西所沢方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
                             "from": "05:43",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 21.0
+                            "headwayMinutes": 21
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 22.0
+                            "headwayMinutes": 22
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 21.0
+                            "headwayMinutes": 21
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "14:00",
-                            "headwayMinutes": 79.0
+                            "headwayMinutes": 79
                         },
                         {
                             "from": "15:00",
-                            "headwayMinutes": 30.0
+                            "headwayMinutes": 30
                         },
                         {
                             "from": "16:00",
@@ -152,15 +160,15 @@
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 30.0
+                            "headwayMinutes": 30
                         },
                         {
                             "from": "22:00",
-                            "headwayMinutes": 29.0
+                            "headwayMinutes": 29
                         },
                         {
                             "from": "23:00",
-                            "headwayMinutes": 27.0
+                            "headwayMinutes": 27
                         }
                     ],
                     "firstDeparture": "05:43",
@@ -171,31 +179,31 @@
                     "bands": [
                         {
                             "from": "05:41",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 17.0
+                            "headwayMinutes": 17
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 10.0
+                            "headwayMinutes": 10
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 12.0
+                            "headwayMinutes": 12
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "14:00",
-                            "headwayMinutes": 276.0
+                            "headwayMinutes": 276
                         }
                     ],
                     "firstDeparture": "05:41",
@@ -204,44 +212,55 @@
                 }
             }
         ],
-        "hopTimesMinutes": [3.0, 3.0],
+        "hopTimesMinutes": [3, 3],
         "id": "Railway:Seibu.Sayama",
         "isLoop": false,
-        "nameEn": "Seibu Sayama Line",
-        "nameJa": "西武狭山線",
+        "name": {
+            "en": "Seibu Sayama Line",
+            "ja": "西武狭山線",
+            "ko": "세이부 철도 사야마 선",
+            "zh-Hans": "狭山线",
+            "zh-Hant": "狹山線"
+        },
         "operatorId": "Operator:Seibu",
         "stations": [
             {
                 "id": "Station:Seibu.Sayama.NishiTokorozawa",
                 "latitude": 35.78925,
                 "longitude": 139.456,
-                "name": "西所沢",
-                "nameEn": "Nishi-Tokorozawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nishi-Tokorozawa",
+                    "ja": "西所沢",
+                    "ko": "니시토코로자와",
+                    "zh-Hans": "西所泽",
+                    "zh-Hant": "西所澤"
+                },
                 "stationCode": "SI18"
             },
             {
                 "id": "Station:Seibu.Sayama.ShimoYamaguchi",
                 "latitude": 35.77935,
                 "longitude": 139.44084,
-                "name": "下山口",
-                "nameEn": "Shimo-Yamaguchi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shimo-Yamaguchi",
+                    "ja": "下山口",
+                    "ko": "시모야마구치",
+                    "zh-Hans": "下山口",
+                    "zh-Hant": "下山口"
+                },
                 "stationCode": "SI40"
             },
             {
                 "id": "Station:Seibu.Sayama.SeibukyujoMae",
                 "latitude": 35.77041,
                 "longitude": 139.41879,
-                "name": "西武球場前",
-                "nameEn": "Seibukyujo-Mae",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Seibukyujo-Mae",
+                    "ja": "西武球場前",
+                    "ko": "세이부큐조마에",
+                    "zh-Hans": "西武球场前",
+                    "zh-Hant": "西武球場前"
+                },
                 "stationCode": "SI41"
             }
         ],
@@ -876,8 +895,10 @@
                 "startsHere": true,
                 "stops": [994, 997, 1001],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "SemiExpress"
             },
             {
@@ -887,8 +908,10 @@
                 "startsHere": true,
                 "stops": [1144, 1147, 1151],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -907,8 +930,10 @@
                 "startsHere": true,
                 "stops": [1204, 1207, 1212],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "SemiExpress"
             },
             {
@@ -918,8 +943,10 @@
                 "startsHere": true,
                 "stops": [1234, 1237, 1244],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -929,8 +956,10 @@
                 "startsHere": true,
                 "stops": [1264, 1267, 1270],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -940,8 +969,10 @@
                 "startsHere": true,
                 "stops": [1293, 1297, 1303],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -951,8 +982,10 @@
                 "startsHere": true,
                 "stops": [1324, 1327, 1331],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -962,8 +995,10 @@
                 "startsHere": true,
                 "stops": [1354, 1357, 1363],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -973,8 +1008,10 @@
                 "startsHere": true,
                 "stops": [1382, 1386, 1389],
                 "terminates": false,
-                "throughDestEn": "Ikebukuro",
-                "throughDestJa": "池袋",
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
                 "type": "Local"
             },
             {
@@ -1653,6 +1690,6 @@
                 "type": "Local"
             }
         ],
-        "upHopTimesMinutes": [3.0, 3.0]
+        "upHopTimesMinutes": [3, 3]
     }
 ]

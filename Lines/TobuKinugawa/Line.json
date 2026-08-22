@@ -2,10 +2,14 @@
     {
         "colorHex": "#F5A302",
         "delayInfo": {
-            "checkMethodEn": "Check the Tobu Railway service status page, the Tobu app, or X (@TobuRailway_JP). Delays of roughly 10 minutes or more and suspensions are posted.",
-            "checkMethodJa": "東武鉄道「運行情報」ページ、東武線アプリ、またはX（@TobuRailway_JP）で確認できます。おおむね10分以上の遅延・運転見合わせが発生した場合に掲載されます。",
-            "statusPageURL": "https://www.tobu.co.jp/service_status/",
-            "statusPageURLEn": "https://www.tobu.co.jp/service_status/",
+            "checkMethod": {
+                "en": "Check the Tobu Railway service status page, the Tobu app, or X (@TobuRailway_JP). Delays of roughly 10 minutes or more and suspensions are posted.",
+                "ja": "東武鉄道「運行情報」ページ、東武線アプリ、またはX（@TobuRailway_JP）で確認できます。おおむね10分以上の遅延・運転見合わせが発生した場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://www.tobu.co.jp/service_status/",
+                "ja": "https://www.tobu.co.jp/service_status/"
+            },
             "xAccount": "@TobuRailway_JP"
         },
         "directions": [
@@ -15,17 +19,19 @@
                 "id": "static.RailDirection:Tobu.Kinugawa.ShinFujiwara",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Shin-fujiwara",
-                "nameJa": "新藤原方面",
+                "name": {
+                    "en": "For Shin-fujiwara",
+                    "ja": "新藤原方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
                             "from": "05:56",
-                            "headwayMinutes": 40.0
+                            "headwayMinutes": 40
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 30.0
+                            "headwayMinutes": 30
                         },
                         {
                             "from": "07:00",
@@ -37,15 +43,15 @@
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 25.0
+                            "headwayMinutes": 25
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 30.0
+                            "headwayMinutes": 30
                         },
                         {
                             "from": "11:00",
-                            "headwayMinutes": 32.0
+                            "headwayMinutes": 32
                         },
                         {
                             "from": "12:00",
@@ -53,7 +59,7 @@
                         },
                         {
                             "from": "13:00",
-                            "headwayMinutes": 33.0
+                            "headwayMinutes": 33
                         },
                         {
                             "from": "14:00",
@@ -61,27 +67,27 @@
                         },
                         {
                             "from": "15:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 49.0
+                            "headwayMinutes": 49
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 51.0
+                            "headwayMinutes": 51
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 33.0
+                            "headwayMinutes": 33
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 18.0
+                            "headwayMinutes": 18
                         },
                         {
                             "from": "20:00",
-                            "headwayMinutes": 69.0
+                            "headwayMinutes": 69
                         },
                         {
                             "from": "21:00",
@@ -96,11 +102,11 @@
                     "bands": [
                         {
                             "from": "05:56",
-                            "headwayMinutes": 40.0
+                            "headwayMinutes": 40
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 30.0
+                            "headwayMinutes": 30
                         },
                         {
                             "from": "07:00",
@@ -112,15 +118,15 @@
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 25.0
+                            "headwayMinutes": 25
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 30.0
+                            "headwayMinutes": 30
                         },
                         {
                             "from": "11:00",
-                            "headwayMinutes": 32.0
+                            "headwayMinutes": 32
                         },
                         {
                             "from": "12:00",
@@ -128,7 +134,7 @@
                         },
                         {
                             "from": "13:00",
-                            "headwayMinutes": 33.0
+                            "headwayMinutes": 33
                         },
                         {
                             "from": "14:00",
@@ -136,27 +142,27 @@
                         },
                         {
                             "from": "15:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 49.0
+                            "headwayMinutes": 49
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 51.0
+                            "headwayMinutes": 51
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 33.0
+                            "headwayMinutes": 33
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 18.0
+                            "headwayMinutes": 18
                         },
                         {
                             "from": "20:00",
-                            "headwayMinutes": 69.0
+                            "headwayMinutes": 69
                         },
                         {
                             "from": "21:00",
@@ -174,17 +180,19 @@
                 "id": "static.RailDirection:Tobu.Kinugawa.ShimoImaichi",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Shimo-imaichi",
-                "nameJa": "下今市方面",
+                "name": {
+                    "en": "For Shimo-imaichi",
+                    "ja": "下今市方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
                             "from": "05:51",
-                            "headwayMinutes": 41.0
+                            "headwayMinutes": 41
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 40.0
+                            "headwayMinutes": 40
                         },
                         {
                             "from": "07:00",
@@ -192,7 +200,7 @@
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 16.0
+                            "headwayMinutes": 16
                         },
                         {
                             "from": "09:00",
@@ -200,27 +208,27 @@
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 43.0
+                            "headwayMinutes": 43
                         },
                         {
                             "from": "11:00",
-                            "headwayMinutes": 17.0
+                            "headwayMinutes": 17
                         },
                         {
                             "from": "12:00",
-                            "headwayMinutes": 55.0
+                            "headwayMinutes": 55
                         },
                         {
                             "from": "13:00",
-                            "headwayMinutes": 5.0
+                            "headwayMinutes": 5
                         },
                         {
                             "from": "14:00",
-                            "headwayMinutes": 56.0
+                            "headwayMinutes": 56
                         },
                         {
                             "from": "15:00",
-                            "headwayMinutes": 8.0
+                            "headwayMinutes": 8
                         },
                         {
                             "from": "16:00",
@@ -228,19 +236,19 @@
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 63.0
+                            "headwayMinutes": 63
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 33.0
+                            "headwayMinutes": 33
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 61.0
+                            "headwayMinutes": 61
                         },
                         {
                             "from": "20:00",
-                            "headwayMinutes": 71.0
+                            "headwayMinutes": 71
                         }
                     ],
                     "firstDeparture": "05:51",
@@ -251,11 +259,11 @@
                     "bands": [
                         {
                             "from": "05:51",
-                            "headwayMinutes": 41.0
+                            "headwayMinutes": 41
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 40.0
+                            "headwayMinutes": 40
                         },
                         {
                             "from": "07:00",
@@ -263,7 +271,7 @@
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 16.0
+                            "headwayMinutes": 16
                         },
                         {
                             "from": "09:00",
@@ -271,27 +279,27 @@
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 43.0
+                            "headwayMinutes": 43
                         },
                         {
                             "from": "11:00",
-                            "headwayMinutes": 17.0
+                            "headwayMinutes": 17
                         },
                         {
                             "from": "12:00",
-                            "headwayMinutes": 55.0
+                            "headwayMinutes": 55
                         },
                         {
                             "from": "13:00",
-                            "headwayMinutes": 5.0
+                            "headwayMinutes": 5
                         },
                         {
                             "from": "14:00",
-                            "headwayMinutes": 56.0
+                            "headwayMinutes": 56
                         },
                         {
                             "from": "15:00",
-                            "headwayMinutes": 8.0
+                            "headwayMinutes": 8
                         },
                         {
                             "from": "16:00",
@@ -299,19 +307,19 @@
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 63.0
+                            "headwayMinutes": 63
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 33.0
+                            "headwayMinutes": 33
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 61.0
+                            "headwayMinutes": 61
                         },
                         {
                             "from": "20:00",
-                            "headwayMinutes": 71.0
+                            "headwayMinutes": 71
                         }
                     ],
                     "firstDeparture": "05:51",
@@ -320,110 +328,133 @@
                 }
             }
         ],
-        "hopTimesMinutes": [3.0, 5.0, 5.0, 5.0, 2.0, 4.0, 4.0, 4.0],
+        "hopTimesMinutes": [3, 5, 5, 5, 2, 4, 4, 4],
         "id": "Railway:Tobu.Kinugawa",
         "isLoop": false,
-        "nameEn": "Tobu Kinugawa Line",
-        "nameJa": "東武鬼怒川線",
+        "name": {
+            "en": "Tobu Kinugawa Line",
+            "ja": "東武鬼怒川線",
+            "ko": "도부 철도 기누가와 선",
+            "zh-Hans": "鬼怒川线",
+            "zh-Hant": "鬼怒川線"
+        },
         "operatorId": "Operator:Tobu",
         "stations": [
             {
                 "id": "Station:Tobu.Kinugawa.ShimoImaichi",
                 "latitude": 36.7256,
                 "longitude": 139.69277,
-                "name": "下今市",
-                "nameEn": "Shimo-imaichi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shimo-imaichi",
+                    "ja": "下今市",
+                    "ko": "시모이마이치",
+                    "zh-Hans": "下今市",
+                    "zh-Hant": "下今市"
+                },
                 "stationCode": "TN23"
             },
             {
                 "id": "Station:Tobu.Kinugawa.Daiyamuko",
                 "latitude": 36.73228,
                 "longitude": 139.69194,
-                "name": "大谷向",
-                "nameEn": "Daiyamuko",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Daiyamuko",
+                    "ja": "大谷向",
+                    "ko": "다이야무코",
+                    "zh-Hans": "大谷向",
+                    "zh-Hant": "大谷向"
+                },
                 "stationCode": "TN51"
             },
             {
                 "id": "Station:Tobu.Kinugawa.Okuwa",
                 "latitude": 36.76082,
                 "longitude": 139.71358,
-                "name": "大桑",
-                "nameEn": "Okuwa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Okuwa",
+                    "ja": "大桑",
+                    "ko": "오쿠와",
+                    "zh-Hans": "大桑",
+                    "zh-Hant": "大桑"
+                },
                 "stationCode": "TN52"
             },
             {
                 "id": "Station:Tobu.Kinugawa.ShinTakatoku",
                 "latitude": 36.77977,
                 "longitude": 139.71071,
-                "name": "新高徳",
-                "nameEn": "Shin-takatoku",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shin-takatoku",
+                    "ja": "新高徳",
+                    "ko": "신타카토쿠",
+                    "zh-Hans": "新高德",
+                    "zh-Hant": "新高德"
+                },
                 "stationCode": "TN53"
             },
             {
                 "id": "Station:Tobu.Kinugawa.Kosagoe",
                 "latitude": 36.80224,
                 "longitude": 139.7065,
-                "name": "小佐越",
-                "nameEn": "Kosagoe",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kosagoe",
+                    "ja": "小佐越",
+                    "ko": "고사고에",
+                    "zh-Hans": "小佐越",
+                    "zh-Hant": "小佐越"
+                },
                 "stationCode": "TN54"
             },
             {
                 "id": "Station:Tobu.Kinugawa.TobuWorldSquare",
                 "latitude": 36.80833,
                 "longitude": 139.70889,
-                "name": "東武ワールドスクウェア",
-                "nameEn": "TOBU WORLD SQUARE",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "TOBU WORLD SQUARE",
+                    "ja": "東武ワールドスクウェア",
+                    "ko": "도부 월드 스퀘어",
+                    "zh-Hans": "东武世界广场",
+                    "zh-Hant": "東武世界廣場"
+                },
                 "stationCode": "TN55"
             },
             {
                 "id": "Station:Tobu.Kinugawa.KinugawaOnsen",
                 "latitude": 36.82252,
                 "longitude": 139.71668,
-                "name": "鬼怒川温泉",
-                "nameEn": "Kinugawa-onsen",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kinugawa-onsen",
+                    "ja": "鬼怒川温泉",
+                    "ko": "기누가와온센",
+                    "zh-Hans": "鬼怒川温泉",
+                    "zh-Hant": "鬼怒川溫泉"
+                },
                 "stationCode": "TN56"
             },
             {
                 "id": "Station:Tobu.Kinugawa.KinugawaKoen",
                 "latitude": 36.84158,
                 "longitude": 139.72282,
-                "name": "鬼怒川公園",
-                "nameEn": "Kinugawa-koen",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kinugawa-koen",
+                    "ja": "鬼怒川公園",
+                    "ko": "기누가와코엔",
+                    "zh-Hans": "鬼怒川公园",
+                    "zh-Hant": "鬼怒川公園"
+                },
                 "stationCode": "TN57"
             },
             {
                 "id": "Station:Tobu.Kinugawa.ShinFujiwara",
                 "latitude": 36.85246,
                 "longitude": 139.73301,
-                "name": "新藤原",
-                "nameEn": "Shin-fujiwara",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shin-fujiwara",
+                    "ja": "新藤原",
+                    "ko": "신후지와라",
+                    "zh-Hans": "新藤原",
+                    "zh-Hant": "新藤原"
+                },
                 "stationCode": "TN58"
             }
         ],
@@ -433,10 +464,14 @@
                 "connectingLineId": "Railway:Tobu.Nikko",
                 "end": "descending",
                 "junctionStationId": "Station:Tobu.Kinugawa.ShimoImaichi",
-                "lineNameEn": "Tobu Nikko Line",
-                "lineNameJa": "東武日光線",
-                "towardEn": "for Tobu-dobutsu-koen",
-                "towardJa": "東武動物公園方面"
+                "lineName": {
+                    "en": "Tobu Nikko Line",
+                    "ja": "東武日光線"
+                },
+                "toward": {
+                    "en": "for Tobu-dobutsu-koen",
+                    "ja": "東武動物公園方面"
+                }
             }
         ],
         "timetableRuns": [
@@ -762,8 +797,10 @@
                 "startsHere": true,
                 "stops": [351, 356, 360, 363, 365, 369, 375, 380, 382],
                 "terminates": false,
-                "throughDestEn": "Minami-kurihashi",
-                "throughDestJa": "南栗橋",
+                "throughDest": {
+                    "en": "Minami-kurihashi",
+                    "ja": "南栗橋"
+                },
                 "type": "Local"
             },
             {
@@ -782,8 +819,10 @@
                 "startsHere": true,
                 "stops": [401, 404, -1, -1, -1, -1, 421],
                 "terminates": false,
-                "throughDestEn": "Asakusa",
-                "throughDestJa": "浅草",
+                "throughDest": {
+                    "en": "Asakusa",
+                    "ja": "浅草"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -838,8 +877,10 @@
                 "startsHere": true,
                 "stops": [550, 553, -1, -1, -1, -1, 570],
                 "terminates": false,
-                "throughDestEn": "Asakusa",
-                "throughDestJa": "浅草",
+                "throughDest": {
+                    "en": "Asakusa",
+                    "ja": "浅草"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -867,8 +908,10 @@
                 "startsHere": true,
                 "stops": [627, 630, -1, -1, -1, -1, 650],
                 "terminates": false,
-                "throughDestEn": "Asakusa",
-                "throughDestJa": "浅草",
+                "throughDest": {
+                    "en": "Asakusa",
+                    "ja": "浅草"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -887,8 +930,10 @@
                 "startsHere": true,
                 "stops": [665, 668, -1, -1, -1, -1, 689],
                 "terminates": false,
-                "throughDestEn": "Asakusa",
-                "throughDestJa": "浅草",
+                "throughDest": {
+                    "en": "Asakusa",
+                    "ja": "浅草"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -907,8 +952,10 @@
                 "startsHere": true,
                 "stops": [710, 714, 719, 722, -1, 729, -1, -1, 742],
                 "terminates": false,
-                "throughDestEn": "Asakusa",
-                "throughDestJa": "浅草",
+                "throughDest": {
+                    "en": "Asakusa",
+                    "ja": "浅草"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -936,8 +983,10 @@
                 "startsHere": true,
                 "stops": [838, 842, 847, 850, -1, 855, -1, -1, 867],
                 "terminates": false,
-                "throughDestEn": "Asakusa",
-                "throughDestJa": "浅草",
+                "throughDest": {
+                    "en": "Asakusa",
+                    "ja": "浅草"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -956,8 +1005,10 @@
                 "startsHere": true,
                 "stops": [895, 898, -1, -1, -1, -1, 919],
                 "terminates": false,
-                "throughDestEn": "Shinjuku",
-                "throughDestJa": "新宿",
+                "throughDest": {
+                    "en": "Shinjuku",
+                    "ja": "新宿"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -976,8 +1027,10 @@
                 "startsHere": true,
                 "stops": [919, 922, -1, -1, -1, -1, 942],
                 "terminates": false,
-                "throughDestEn": "Asakusa",
-                "throughDestJa": "浅草",
+                "throughDest": {
+                    "en": "Asakusa",
+                    "ja": "浅草"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -987,8 +1040,10 @@
                 "startsHere": true,
                 "stops": [955, 960, 964, 968, -1, 973, -1, -1, 985],
                 "terminates": false,
-                "throughDestEn": "Asakusa",
-                "throughDestJa": "浅草",
+                "throughDest": {
+                    "en": "Asakusa",
+                    "ja": "浅草"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -1007,8 +1062,10 @@
                 "startsHere": true,
                 "stops": [1000, 1003, -1, -1, -1, -1, 1019],
                 "terminates": false,
-                "throughDestEn": "Asakusa",
-                "throughDestJa": "浅草",
+                "throughDest": {
+                    "en": "Asakusa",
+                    "ja": "浅草"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -1045,8 +1102,10 @@
                 "startsHere": true,
                 "stops": [1125, 1129, 1135, 1138, -1, 1143, -1, -1, 1155],
                 "terminates": false,
-                "throughDestEn": "Asakusa",
-                "throughDestJa": "浅草",
+                "throughDest": {
+                    "en": "Asakusa",
+                    "ja": "浅草"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -1065,8 +1124,10 @@
                 "startsHere": true,
                 "stops": [1168, 1171, -1, -1, -1, -1, 1187],
                 "terminates": false,
-                "throughDestEn": "Asakusa",
-                "throughDestJa": "浅草",
+                "throughDest": {
+                    "en": "Asakusa",
+                    "ja": "浅草"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -1409,8 +1470,10 @@
                 "startsHere": true,
                 "stops": [351, 356, 360, 363, 365, 369, 375, 380, 382],
                 "terminates": false,
-                "throughDestEn": "Minami-kurihashi",
-                "throughDestJa": "南栗橋",
+                "throughDest": {
+                    "en": "Minami-kurihashi",
+                    "ja": "南栗橋"
+                },
                 "type": "Local"
             },
             {
@@ -1429,8 +1492,10 @@
                 "startsHere": true,
                 "stops": [401, 404, -1, -1, -1, -1, 421],
                 "terminates": false,
-                "throughDestEn": "Asakusa",
-                "throughDestJa": "浅草",
+                "throughDest": {
+                    "en": "Asakusa",
+                    "ja": "浅草"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -1485,8 +1550,10 @@
                 "startsHere": true,
                 "stops": [550, 553, -1, -1, -1, -1, 570],
                 "terminates": false,
-                "throughDestEn": "Asakusa",
-                "throughDestJa": "浅草",
+                "throughDest": {
+                    "en": "Asakusa",
+                    "ja": "浅草"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -1514,8 +1581,10 @@
                 "startsHere": true,
                 "stops": [627, 630, -1, -1, -1, -1, 650],
                 "terminates": false,
-                "throughDestEn": "Asakusa",
-                "throughDestJa": "浅草",
+                "throughDest": {
+                    "en": "Asakusa",
+                    "ja": "浅草"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -1534,8 +1603,10 @@
                 "startsHere": true,
                 "stops": [665, 668, -1, -1, -1, -1, 689],
                 "terminates": false,
-                "throughDestEn": "Asakusa",
-                "throughDestJa": "浅草",
+                "throughDest": {
+                    "en": "Asakusa",
+                    "ja": "浅草"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -1554,8 +1625,10 @@
                 "startsHere": true,
                 "stops": [710, 714, 719, 722, -1, 729, -1, -1, 742],
                 "terminates": false,
-                "throughDestEn": "Asakusa",
-                "throughDestJa": "浅草",
+                "throughDest": {
+                    "en": "Asakusa",
+                    "ja": "浅草"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -1583,8 +1656,10 @@
                 "startsHere": true,
                 "stops": [838, 842, 847, 850, -1, 855, -1, -1, 867],
                 "terminates": false,
-                "throughDestEn": "Asakusa",
-                "throughDestJa": "浅草",
+                "throughDest": {
+                    "en": "Asakusa",
+                    "ja": "浅草"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -1603,8 +1678,10 @@
                 "startsHere": true,
                 "stops": [895, 898, -1, -1, -1, -1, 919],
                 "terminates": false,
-                "throughDestEn": "Shinjuku",
-                "throughDestJa": "新宿",
+                "throughDest": {
+                    "en": "Shinjuku",
+                    "ja": "新宿"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -1623,8 +1700,10 @@
                 "startsHere": true,
                 "stops": [919, 922, -1, -1, -1, -1, 942],
                 "terminates": false,
-                "throughDestEn": "Asakusa",
-                "throughDestJa": "浅草",
+                "throughDest": {
+                    "en": "Asakusa",
+                    "ja": "浅草"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -1634,8 +1713,10 @@
                 "startsHere": true,
                 "stops": [955, 960, 964, 968, -1, 973, -1, -1, 985],
                 "terminates": false,
-                "throughDestEn": "Asakusa",
-                "throughDestJa": "浅草",
+                "throughDest": {
+                    "en": "Asakusa",
+                    "ja": "浅草"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -1654,8 +1735,10 @@
                 "startsHere": true,
                 "stops": [1000, 1003, -1, -1, -1, -1, 1019],
                 "terminates": false,
-                "throughDestEn": "Asakusa",
-                "throughDestJa": "浅草",
+                "throughDest": {
+                    "en": "Asakusa",
+                    "ja": "浅草"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -1692,8 +1775,10 @@
                 "startsHere": true,
                 "stops": [1125, 1129, 1135, 1138, -1, 1143, -1, -1, 1155],
                 "terminates": false,
-                "throughDestEn": "Asakusa",
-                "throughDestJa": "浅草",
+                "throughDest": {
+                    "en": "Asakusa",
+                    "ja": "浅草"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -1712,8 +1797,10 @@
                 "startsHere": true,
                 "stops": [1168, 1171, -1, -1, -1, -1, 1187],
                 "terminates": false,
-                "throughDestEn": "Asakusa",
-                "throughDestJa": "浅草",
+                "throughDest": {
+                    "en": "Asakusa",
+                    "ja": "浅草"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -1735,6 +1822,6 @@
                 "type": "Local"
             }
         ],
-        "upHopTimesMinutes": [2.0, 5.0, 5.0, 4.0, 2.0, 3.0, 4.0, 5.0]
+        "upHopTimesMinutes": [2, 5, 5, 4, 2, 3, 4, 5]
     }
 ]

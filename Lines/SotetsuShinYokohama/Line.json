@@ -2,10 +2,14 @@
     {
         "colorHex": "#35519D",
         "delayInfo": {
-            "checkMethodEn": "Check the Sotetsu train status page or the Sotetsu Line app. Delays and suspensions are posted as they occur.",
-            "checkMethodJa": "相模鉄道「運行状況」ページまたは相鉄線アプリで確認できます。遅延・運転見合わせが発生した場合に掲載されます。",
-            "statusPageURL": "https://www.sotetsu.co.jp/train/status/",
-            "statusPageURLEn": "https://www.sotetsu.co.jp/train/status/",
+            "checkMethod": {
+                "en": "Check the Sotetsu train status page or the Sotetsu Line app. Delays and suspensions are posted as they occur.",
+                "ja": "相模鉄道「運行状況」ページまたは相鉄線アプリで確認できます。遅延・運転見合わせが発生した場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://www.sotetsu.co.jp/train/status/",
+                "ja": "https://www.sotetsu.co.jp/train/status/"
+            },
             "xAccount": "@sotetsu_pr"
         },
         "directions": [
@@ -16,8 +20,10 @@
                         "departure": "05:32",
                         "startsHere": false,
                         "stopIndices": [0, 1, 2],
-                        "throughDestEn": "Ogawamachi",
-                        "throughDestJa": "小川町",
+                        "throughDest": {
+                            "en": "Ogawamachi",
+                            "ja": "小川町"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -26,8 +32,10 @@
                         "startsHere": false,
                         "stopIndices": [0, 1],
                         "terminusStationId": "Station:Sotetsu.SotetsuShinYokohama.HazawaYokohamaKokudai",
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -36,8 +44,10 @@
                         "startsHere": false,
                         "stopIndices": [0, 1],
                         "terminusStationId": "Station:Sotetsu.SotetsuShinYokohama.HazawaYokohamaKokudai",
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -46,8 +56,10 @@
                         "startsHere": false,
                         "stopIndices": [0, 1],
                         "terminusStationId": "Station:Sotetsu.SotetsuShinYokohama.HazawaYokohamaKokudai",
-                        "throughDestEn": "Omiya",
-                        "throughDestJa": "大宮",
+                        "throughDest": {
+                            "en": "Omiya",
+                            "ja": "大宮"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -55,8 +67,10 @@
                         "departure": "07:00",
                         "startsHere": false,
                         "stopIndices": [0, 1, 2],
-                        "throughDestEn": "Hatogaya",
-                        "throughDestJa": "鳩ヶ谷",
+                        "throughDest": {
+                            "en": "Hatogaya",
+                            "ja": "鳩ヶ谷"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -65,8 +79,10 @@
                         "startsHere": false,
                         "stopIndices": [0, 1],
                         "terminusStationId": "Station:Sotetsu.SotetsuShinYokohama.HazawaYokohamaKokudai",
-                        "throughDestEn": "Omiya",
-                        "throughDestJa": "大宮",
+                        "throughDest": {
+                            "en": "Omiya",
+                            "ja": "大宮"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -74,8 +90,10 @@
                         "departure": "07:31",
                         "startsHere": false,
                         "stopIndices": [0, 1, 2],
-                        "throughDestEn": "Shibuya",
-                        "throughDestJa": "渋谷",
+                        "throughDest": {
+                            "en": "Shibuya",
+                            "ja": "渋谷"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -83,8 +101,10 @@
                         "departure": "07:44",
                         "startsHere": false,
                         "stopIndices": [0, 1, 2],
-                        "throughDestEn": "Urawa-misono",
-                        "throughDestJa": "浦和美園",
+                        "throughDest": {
+                            "en": "Urawa-misono",
+                            "ja": "浦和美園"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -92,8 +112,10 @@
                         "departure": "07:54",
                         "startsHere": false,
                         "stopIndices": [0, 1, 2],
-                        "throughDestEn": "Kawagoeshi",
-                        "throughDestJa": "川越市",
+                        "throughDest": {
+                            "en": "Kawagoeshi",
+                            "ja": "川越市"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -101,8 +123,10 @@
                         "departure": "08:14",
                         "startsHere": false,
                         "stopIndices": [0, 1, 2],
-                        "throughDestEn": "Takashimadaira",
-                        "throughDestJa": "高島平",
+                        "throughDest": {
+                            "en": "Takashimadaira",
+                            "ja": "高島平"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -111,8 +135,10 @@
                         "startsHere": false,
                         "stopIndices": [0, 1],
                         "terminusStationId": "Station:Sotetsu.SotetsuShinYokohama.HazawaYokohamaKokudai",
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -120,8 +146,10 @@
                         "departure": "08:50",
                         "startsHere": false,
                         "stopIndices": [0, 1, 2],
-                        "throughDestEn": "Kawagoeshi",
-                        "throughDestJa": "川越市",
+                        "throughDest": {
+                            "en": "Kawagoeshi",
+                            "ja": "川越市"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -130,8 +158,10 @@
                         "startsHere": false,
                         "stopIndices": [0, 1],
                         "terminusStationId": "Station:Sotetsu.SotetsuShinYokohama.HazawaYokohamaKokudai",
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -140,8 +170,10 @@
                         "startsHere": false,
                         "stopIndices": [0, 1],
                         "terminusStationId": "Station:Sotetsu.SotetsuShinYokohama.HazawaYokohamaKokudai",
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -150,8 +182,10 @@
                         "startsHere": false,
                         "stopIndices": [0, 1],
                         "terminusStationId": "Station:Sotetsu.SotetsuShinYokohama.HazawaYokohamaKokudai",
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -160,8 +194,10 @@
                         "startsHere": false,
                         "stopIndices": [0, 1],
                         "terminusStationId": "Station:Sotetsu.SotetsuShinYokohama.HazawaYokohamaKokudai",
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -169,8 +205,10 @@
                         "departure": "16:33",
                         "startsHere": false,
                         "stopIndices": [0, 1, 2],
-                        "throughDestEn": "Nishi-takashimadaira",
-                        "throughDestJa": "西高島平",
+                        "throughDest": {
+                            "en": "Nishi-takashimadaira",
+                            "ja": "西高島平"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -178,8 +216,10 @@
                         "departure": "17:33",
                         "startsHere": false,
                         "stopIndices": [0, 1, 2],
-                        "throughDestEn": "Takashimadaira",
-                        "throughDestJa": "高島平",
+                        "throughDest": {
+                            "en": "Takashimadaira",
+                            "ja": "高島平"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -187,8 +227,10 @@
                         "departure": "18:13",
                         "startsHere": false,
                         "stopIndices": [0, 1, 2],
-                        "throughDestEn": "Urawa-misono",
-                        "throughDestJa": "浦和美園",
+                        "throughDest": {
+                            "en": "Urawa-misono",
+                            "ja": "浦和美園"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -197,8 +239,10 @@
                         "startsHere": false,
                         "stopIndices": [0, 1],
                         "terminusStationId": "Station:Sotetsu.SotetsuShinYokohama.HazawaYokohamaKokudai",
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -206,8 +250,10 @@
                         "departure": "18:33",
                         "startsHere": false,
                         "stopIndices": [0, 1, 2],
-                        "throughDestEn": "Nishi-takashimadaira",
-                        "throughDestJa": "西高島平",
+                        "throughDest": {
+                            "en": "Nishi-takashimadaira",
+                            "ja": "西高島平"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -216,8 +262,10 @@
                         "startsHere": false,
                         "stopIndices": [0, 1],
                         "terminusStationId": "Station:Sotetsu.SotetsuShinYokohama.HazawaYokohamaKokudai",
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -225,8 +273,10 @@
                         "departure": "20:33",
                         "startsHere": false,
                         "stopIndices": [0, 1, 2],
-                        "throughDestEn": "Nishi-takashimadaira",
-                        "throughDestJa": "西高島平",
+                        "throughDest": {
+                            "en": "Nishi-takashimadaira",
+                            "ja": "西高島平"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -235,8 +285,10 @@
                         "startsHere": false,
                         "stopIndices": [0, 1],
                         "terminusStationId": "Station:Sotetsu.SotetsuShinYokohama.HazawaYokohamaKokudai",
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -244,8 +296,10 @@
                         "departure": "22:06",
                         "startsHere": false,
                         "stopIndices": [0, 1, 2],
-                        "throughDestEn": "Shibuya",
-                        "throughDestJa": "渋谷",
+                        "throughDest": {
+                            "en": "Shibuya",
+                            "ja": "渋谷"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -254,8 +308,10 @@
                         "startsHere": false,
                         "stopIndices": [0, 1],
                         "terminusStationId": "Station:Sotetsu.SotetsuShinYokohama.HazawaYokohamaKokudai",
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -263,8 +319,10 @@
                         "departure": "22:43",
                         "startsHere": false,
                         "stopIndices": [0, 1, 2],
-                        "throughDestEn": "Nishi-takashimadaira",
-                        "throughDestJa": "西高島平",
+                        "throughDest": {
+                            "en": "Nishi-takashimadaira",
+                            "ja": "西高島平"
+                        },
                         "trainType": "LimitedExpress"
                     }
                 ],
@@ -274,8 +332,10 @@
                         "departure": "05:32",
                         "startsHere": false,
                         "stopIndices": [0, 1, 2],
-                        "throughDestEn": "Shibuya",
-                        "throughDestJa": "渋谷",
+                        "throughDest": {
+                            "en": "Shibuya",
+                            "ja": "渋谷"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -284,8 +344,10 @@
                         "startsHere": false,
                         "stopIndices": [0, 1],
                         "terminusStationId": "Station:Sotetsu.SotetsuShinYokohama.HazawaYokohamaKokudai",
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -294,8 +356,10 @@
                         "startsHere": false,
                         "stopIndices": [0, 1],
                         "terminusStationId": "Station:Sotetsu.SotetsuShinYokohama.HazawaYokohamaKokudai",
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -303,8 +367,10 @@
                         "departure": "06:13",
                         "startsHere": false,
                         "stopIndices": [0, 1, 2],
-                        "throughDestEn": "Nishi-takashimadaira",
-                        "throughDestJa": "西高島平",
+                        "throughDest": {
+                            "en": "Nishi-takashimadaira",
+                            "ja": "西高島平"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -313,8 +379,10 @@
                         "startsHere": false,
                         "stopIndices": [0, 1],
                         "terminusStationId": "Station:Sotetsu.SotetsuShinYokohama.HazawaYokohamaKokudai",
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -323,8 +391,10 @@
                         "startsHere": false,
                         "stopIndices": [0, 1],
                         "terminusStationId": "Station:Sotetsu.SotetsuShinYokohama.HazawaYokohamaKokudai",
-                        "throughDestEn": "Kawagoe",
-                        "throughDestJa": "川越",
+                        "throughDest": {
+                            "en": "Kawagoe",
+                            "ja": "川越"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -332,8 +402,10 @@
                         "departure": "06:58",
                         "startsHere": false,
                         "stopIndices": [0, 1, 2],
-                        "throughDestEn": "Nishi-takashimadaira",
-                        "throughDestJa": "西高島平",
+                        "throughDest": {
+                            "en": "Nishi-takashimadaira",
+                            "ja": "西高島平"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -341,8 +413,10 @@
                         "departure": "07:04",
                         "startsHere": false,
                         "stopIndices": [0, 1, 2],
-                        "throughDestEn": "Shinjuku-sanchome",
-                        "throughDestJa": "新宿三丁目",
+                        "throughDest": {
+                            "en": "Shinjuku-sanchome",
+                            "ja": "新宿三丁目"
+                        },
                         "trainType": "CommuterLimitedExpress"
                     },
                     {
@@ -351,8 +425,10 @@
                         "startsHere": false,
                         "stopIndices": [0, 1],
                         "terminusStationId": "Station:Sotetsu.SotetsuShinYokohama.HazawaYokohamaKokudai",
-                        "throughDestEn": "Akabane",
-                        "throughDestJa": "赤羽",
+                        "throughDest": {
+                            "en": "Akabane",
+                            "ja": "赤羽"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -360,8 +436,10 @@
                         "departure": "07:29",
                         "startsHere": false,
                         "stopIndices": [0, 1, 2],
-                        "throughDestEn": "Urawa-misono",
-                        "throughDestJa": "浦和美園",
+                        "throughDest": {
+                            "en": "Urawa-misono",
+                            "ja": "浦和美園"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -369,8 +447,10 @@
                         "departure": "07:33",
                         "startsHere": false,
                         "stopIndices": [0, 1, 2],
-                        "throughDestEn": "Takashimadaira",
-                        "throughDestJa": "高島平",
+                        "throughDest": {
+                            "en": "Takashimadaira",
+                            "ja": "高島平"
+                        },
                         "trainType": "CommuterLimitedExpress"
                     },
                     {
@@ -379,8 +459,10 @@
                         "startsHere": false,
                         "stopIndices": [0, 1],
                         "terminusStationId": "Station:Sotetsu.SotetsuShinYokohama.HazawaYokohamaKokudai",
-                        "throughDestEn": "Akabane",
-                        "throughDestJa": "赤羽",
+                        "throughDest": {
+                            "en": "Akabane",
+                            "ja": "赤羽"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -389,8 +471,10 @@
                         "startsHere": false,
                         "stopIndices": [0, 1],
                         "terminusStationId": "Station:Sotetsu.SotetsuShinYokohama.HazawaYokohamaKokudai",
-                        "throughDestEn": "Kawagoe",
-                        "throughDestJa": "川越",
+                        "throughDest": {
+                            "en": "Kawagoe",
+                            "ja": "川越"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -399,8 +483,10 @@
                         "startsHere": false,
                         "stopIndices": [0, 1],
                         "terminusStationId": "Station:Sotetsu.SotetsuShinYokohama.HazawaYokohamaKokudai",
-                        "throughDestEn": "Ikebukuro",
-                        "throughDestJa": "池袋",
+                        "throughDest": {
+                            "en": "Ikebukuro",
+                            "ja": "池袋"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -408,8 +494,10 @@
                         "departure": "08:22",
                         "startsHere": false,
                         "stopIndices": [0, 1, 2],
-                        "throughDestEn": "Shibuya",
-                        "throughDestJa": "渋谷",
+                        "throughDest": {
+                            "en": "Shibuya",
+                            "ja": "渋谷"
+                        },
                         "trainType": "CommuterLimitedExpress"
                     },
                     {
@@ -417,8 +505,10 @@
                         "departure": "08:27",
                         "startsHere": false,
                         "stopIndices": [0, 1, 2],
-                        "throughDestEn": "Urawa-misono",
-                        "throughDestJa": "浦和美園",
+                        "throughDest": {
+                            "en": "Urawa-misono",
+                            "ja": "浦和美園"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -426,8 +516,10 @@
                         "departure": "08:40",
                         "startsHere": false,
                         "stopIndices": [0, 1, 2],
-                        "throughDestEn": "Wakoshi",
-                        "throughDestJa": "和光市",
+                        "throughDest": {
+                            "en": "Wakoshi",
+                            "ja": "和光市"
+                        },
                         "trainType": "CommuterLimitedExpress"
                     },
                     {
@@ -435,8 +527,10 @@
                         "departure": "08:50",
                         "startsHere": false,
                         "stopIndices": [0, 1, 2],
-                        "throughDestEn": "Urawa-misono",
-                        "throughDestJa": "浦和美園",
+                        "throughDest": {
+                            "en": "Urawa-misono",
+                            "ja": "浦和美園"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -444,8 +538,10 @@
                         "departure": "09:08",
                         "startsHere": false,
                         "stopIndices": [0, 1, 2],
-                        "throughDestEn": "Kawagoeshi",
-                        "throughDestJa": "川越市",
+                        "throughDest": {
+                            "en": "Kawagoeshi",
+                            "ja": "川越市"
+                        },
                         "trainType": "CommuterLimitedExpress"
                     },
                     {
@@ -453,8 +549,10 @@
                         "departure": "10:33",
                         "startsHere": false,
                         "stopIndices": [0, 1, 2],
-                        "throughDestEn": "Nishi-takashimadaira",
-                        "throughDestJa": "西高島平",
+                        "throughDest": {
+                            "en": "Nishi-takashimadaira",
+                            "ja": "西高島平"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -463,8 +561,10 @@
                         "startsHere": false,
                         "stopIndices": [0, 1],
                         "terminusStationId": "Station:Sotetsu.SotetsuShinYokohama.HazawaYokohamaKokudai",
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -473,8 +573,10 @@
                         "startsHere": false,
                         "stopIndices": [0, 1],
                         "terminusStationId": "Station:Sotetsu.SotetsuShinYokohama.HazawaYokohamaKokudai",
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -482,8 +584,10 @@
                         "departure": "16:57",
                         "startsHere": false,
                         "stopIndices": [0, 1, 2],
-                        "throughDestEn": "Urawa-misono",
-                        "throughDestJa": "浦和美園",
+                        "throughDest": {
+                            "en": "Urawa-misono",
+                            "ja": "浦和美園"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -491,8 +595,10 @@
                         "departure": "17:27",
                         "startsHere": false,
                         "stopIndices": [0, 1, 2],
-                        "throughDestEn": "Urawa-misono",
-                        "throughDestJa": "浦和美園",
+                        "throughDest": {
+                            "en": "Urawa-misono",
+                            "ja": "浦和美園"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -501,8 +607,10 @@
                         "startsHere": false,
                         "stopIndices": [0, 1],
                         "terminusStationId": "Station:Sotetsu.SotetsuShinYokohama.HazawaYokohamaKokudai",
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -510,8 +618,10 @@
                         "departure": "18:10",
                         "startsHere": false,
                         "stopIndices": [0, 1, 2],
-                        "throughDestEn": "Urawa-misono",
-                        "throughDestJa": "浦和美園",
+                        "throughDest": {
+                            "en": "Urawa-misono",
+                            "ja": "浦和美園"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -519,8 +629,10 @@
                         "departure": "18:32",
                         "startsHere": false,
                         "stopIndices": [0, 1, 2],
-                        "throughDestEn": "Wakoshi",
-                        "throughDestJa": "和光市",
+                        "throughDest": {
+                            "en": "Wakoshi",
+                            "ja": "和光市"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -528,8 +640,10 @@
                         "departure": "18:39",
                         "startsHere": false,
                         "stopIndices": [0, 1, 2],
-                        "throughDestEn": "Urawa-misono",
-                        "throughDestJa": "浦和美園",
+                        "throughDest": {
+                            "en": "Urawa-misono",
+                            "ja": "浦和美園"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -537,8 +651,10 @@
                         "departure": "18:49",
                         "startsHere": false,
                         "stopIndices": [0, 1, 2],
-                        "throughDestEn": "Shiki",
-                        "throughDestJa": "志木",
+                        "throughDest": {
+                            "en": "Shiki",
+                            "ja": "志木"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -547,8 +663,10 @@
                         "startsHere": false,
                         "stopIndices": [0, 1],
                         "terminusStationId": "Station:Sotetsu.SotetsuShinYokohama.HazawaYokohamaKokudai",
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -556,8 +674,10 @@
                         "departure": "19:07",
                         "startsHere": false,
                         "stopIndices": [0, 1, 2],
-                        "throughDestEn": "Shinrin-Koen",
-                        "throughDestJa": "森林公園",
+                        "throughDest": {
+                            "en": "Shinrin-Koen",
+                            "ja": "森林公園"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -565,8 +685,10 @@
                         "departure": "19:14",
                         "startsHere": false,
                         "stopIndices": [0, 1, 2],
-                        "throughDestEn": "Urawa-misono",
-                        "throughDestJa": "浦和美園",
+                        "throughDest": {
+                            "en": "Urawa-misono",
+                            "ja": "浦和美園"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -575,8 +697,10 @@
                         "startsHere": false,
                         "stopIndices": [0, 1],
                         "terminusStationId": "Station:Sotetsu.SotetsuShinYokohama.HazawaYokohamaKokudai",
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -584,8 +708,10 @@
                         "departure": "19:48",
                         "startsHere": false,
                         "stopIndices": [0, 1, 2],
-                        "throughDestEn": "Wakoshi",
-                        "throughDestJa": "和光市",
+                        "throughDest": {
+                            "en": "Wakoshi",
+                            "ja": "和光市"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -594,8 +720,10 @@
                         "startsHere": false,
                         "stopIndices": [0, 1],
                         "terminusStationId": "Station:Sotetsu.SotetsuShinYokohama.HazawaYokohamaKokudai",
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -603,8 +731,10 @@
                         "departure": "20:07",
                         "startsHere": false,
                         "stopIndices": [0, 1, 2],
-                        "throughDestEn": "Shiki",
-                        "throughDestJa": "志木",
+                        "throughDest": {
+                            "en": "Shiki",
+                            "ja": "志木"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -613,8 +743,10 @@
                         "startsHere": false,
                         "stopIndices": [0, 1],
                         "terminusStationId": "Station:Sotetsu.SotetsuShinYokohama.HazawaYokohamaKokudai",
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -622,8 +754,10 @@
                         "departure": "20:34",
                         "startsHere": false,
                         "stopIndices": [0, 1, 2],
-                        "throughDestEn": "Shinrin-Koen",
-                        "throughDestJa": "森林公園",
+                        "throughDest": {
+                            "en": "Shinrin-Koen",
+                            "ja": "森林公園"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -631,8 +765,10 @@
                         "departure": "20:44",
                         "startsHere": false,
                         "stopIndices": [0, 1, 2],
-                        "throughDestEn": "Urawa-misono",
-                        "throughDestJa": "浦和美園",
+                        "throughDest": {
+                            "en": "Urawa-misono",
+                            "ja": "浦和美園"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -640,8 +776,10 @@
                         "departure": "21:06",
                         "startsHere": false,
                         "stopIndices": [0, 1, 2],
-                        "throughDestEn": "Wakoshi",
-                        "throughDestJa": "和光市",
+                        "throughDest": {
+                            "en": "Wakoshi",
+                            "ja": "和光市"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -649,8 +787,10 @@
                         "departure": "21:15",
                         "startsHere": false,
                         "stopIndices": [0, 1, 2],
-                        "throughDestEn": "Akabane-iwabuchi",
-                        "throughDestJa": "赤羽岩淵",
+                        "throughDest": {
+                            "en": "Akabane-iwabuchi",
+                            "ja": "赤羽岩淵"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -658,8 +798,10 @@
                         "departure": "21:50",
                         "startsHere": false,
                         "stopIndices": [0, 1, 2],
-                        "throughDestEn": "Musashi-Kosugi",
-                        "throughDestJa": "武蔵小杉",
+                        "throughDest": {
+                            "en": "Musashi-Kosugi",
+                            "ja": "武蔵小杉"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -667,8 +809,10 @@
                         "departure": "22:01",
                         "startsHere": false,
                         "stopIndices": [0, 1, 2],
-                        "throughDestEn": "Musashi-Kosugi",
-                        "throughDestJa": "武蔵小杉",
+                        "throughDest": {
+                            "en": "Musashi-Kosugi",
+                            "ja": "武蔵小杉"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -676,8 +820,10 @@
                         "departure": "22:17",
                         "startsHere": false,
                         "stopIndices": [0, 1, 2],
-                        "throughDestEn": "Nishi-takashimadaira",
-                        "throughDestJa": "西高島平",
+                        "throughDest": {
+                            "en": "Nishi-takashimadaira",
+                            "ja": "西高島平"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -686,8 +832,10 @@
                         "startsHere": false,
                         "stopIndices": [0, 1],
                         "terminusStationId": "Station:Sotetsu.SotetsuShinYokohama.HazawaYokohamaKokudai",
-                        "throughDestEn": "Shinjuku",
-                        "throughDestJa": "新宿",
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -695,8 +843,10 @@
                         "departure": "22:42",
                         "startsHere": false,
                         "stopIndices": [0, 1, 2],
-                        "throughDestEn": "Musashi-Kosugi",
-                        "throughDestJa": "武蔵小杉",
+                        "throughDest": {
+                            "en": "Musashi-Kosugi",
+                            "ja": "武蔵小杉"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -704,16 +854,20 @@
                         "departure": "23:14",
                         "startsHere": false,
                         "stopIndices": [0, 1, 2],
-                        "throughDestEn": "Musashi-Kosugi",
-                        "throughDestJa": "武蔵小杉",
+                        "throughDest": {
+                            "en": "Musashi-Kosugi",
+                            "ja": "武蔵小杉"
+                        },
                         "trainType": "LimitedExpress"
                     }
                 ],
                 "id": "static.RailDirection:Sotetsu.SotetsuShinYokohama.ShinYokohama",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Shin-Yokohama & Tokyu Line",
-                "nameJa": "新横浜・東急線方面",
+                "name": {
+                    "en": "For Shin-Yokohama & Tokyu Line",
+                    "ja": "新横浜・東急線方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -832,8 +986,10 @@
                         "departure": "05:38",
                         "startsHere": false,
                         "stopIndices": [2, 1, 0],
-                        "throughDestEn": "Ebina",
-                        "throughDestJa": "海老名",
+                        "throughDest": {
+                            "en": "Ebina",
+                            "ja": "海老名"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -841,8 +997,10 @@
                         "departure": "06:01",
                         "startsHere": false,
                         "stopIndices": [2, 1, 0],
-                        "throughDestEn": "Ebina",
-                        "throughDestJa": "海老名",
+                        "throughDest": {
+                            "en": "Ebina",
+                            "ja": "海老名"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -850,8 +1008,10 @@
                         "departure": "06:53",
                         "startsHere": false,
                         "stopIndices": [2, 1, 0],
-                        "throughDestEn": "Ebina",
-                        "throughDestJa": "海老名",
+                        "throughDest": {
+                            "en": "Ebina",
+                            "ja": "海老名"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -859,8 +1019,10 @@
                         "departure": "07:46",
                         "startsHere": false,
                         "stopIndices": [2, 1, 0],
-                        "throughDestEn": "Shonandai",
-                        "throughDestJa": "湘南台",
+                        "throughDest": {
+                            "en": "Shonandai",
+                            "ja": "湘南台"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -868,8 +1030,10 @@
                         "departure": "17:17",
                         "startsHere": false,
                         "stopIndices": [2, 1, 0],
-                        "throughDestEn": "Ebina",
-                        "throughDestJa": "海老名",
+                        "throughDest": {
+                            "en": "Ebina",
+                            "ja": "海老名"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -877,8 +1041,10 @@
                         "departure": "17:47",
                         "startsHere": false,
                         "stopIndices": [2, 1, 0],
-                        "throughDestEn": "Ebina",
-                        "throughDestJa": "海老名",
+                        "throughDest": {
+                            "en": "Ebina",
+                            "ja": "海老名"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -886,8 +1052,10 @@
                         "departure": "18:27",
                         "startsHere": false,
                         "stopIndices": [2, 1, 0],
-                        "throughDestEn": "Ebina",
-                        "throughDestJa": "海老名",
+                        "throughDest": {
+                            "en": "Ebina",
+                            "ja": "海老名"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -895,8 +1063,10 @@
                         "departure": "18:47",
                         "startsHere": false,
                         "stopIndices": [2, 1, 0],
-                        "throughDestEn": "Ebina",
-                        "throughDestJa": "海老名",
+                        "throughDest": {
+                            "en": "Ebina",
+                            "ja": "海老名"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -904,8 +1074,10 @@
                         "departure": "19:07",
                         "startsHere": false,
                         "stopIndices": [2, 1, 0],
-                        "throughDestEn": "Ebina",
-                        "throughDestJa": "海老名",
+                        "throughDest": {
+                            "en": "Ebina",
+                            "ja": "海老名"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -913,8 +1085,10 @@
                         "departure": "19:27",
                         "startsHere": false,
                         "stopIndices": [2, 1, 0],
-                        "throughDestEn": "Ebina",
-                        "throughDestJa": "海老名",
+                        "throughDest": {
+                            "en": "Ebina",
+                            "ja": "海老名"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -922,8 +1096,10 @@
                         "departure": "19:47",
                         "startsHere": false,
                         "stopIndices": [2, 1, 0],
-                        "throughDestEn": "Ebina",
-                        "throughDestJa": "海老名",
+                        "throughDest": {
+                            "en": "Ebina",
+                            "ja": "海老名"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -931,8 +1107,10 @@
                         "departure": "20:27",
                         "startsHere": false,
                         "stopIndices": [2, 1, 0],
-                        "throughDestEn": "Ebina",
-                        "throughDestJa": "海老名",
+                        "throughDest": {
+                            "en": "Ebina",
+                            "ja": "海老名"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -940,8 +1118,10 @@
                         "departure": "20:57",
                         "startsHere": false,
                         "stopIndices": [2, 1, 0],
-                        "throughDestEn": "Ebina",
-                        "throughDestJa": "海老名",
+                        "throughDest": {
+                            "en": "Ebina",
+                            "ja": "海老名"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -949,8 +1129,10 @@
                         "departure": "21:57",
                         "startsHere": false,
                         "stopIndices": [2, 1, 0],
-                        "throughDestEn": "Ebina",
-                        "throughDestJa": "海老名",
+                        "throughDest": {
+                            "en": "Ebina",
+                            "ja": "海老名"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -958,8 +1140,10 @@
                         "departure": "22:46",
                         "startsHere": false,
                         "stopIndices": [2, 1, 0],
-                        "throughDestEn": "Ebina",
-                        "throughDestJa": "海老名",
+                        "throughDest": {
+                            "en": "Ebina",
+                            "ja": "海老名"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -967,8 +1151,10 @@
                         "departure": "22:59",
                         "startsHere": false,
                         "stopIndices": [2, 1, 0],
-                        "throughDestEn": "Ebina",
-                        "throughDestJa": "海老名",
+                        "throughDest": {
+                            "en": "Ebina",
+                            "ja": "海老名"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -976,8 +1162,10 @@
                         "departure": "23:45",
                         "startsHere": false,
                         "stopIndices": [2, 1, 0],
-                        "throughDestEn": "Ebina",
-                        "throughDestJa": "海老名",
+                        "throughDest": {
+                            "en": "Ebina",
+                            "ja": "海老名"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -985,8 +1173,10 @@
                         "departure": "24:03",
                         "startsHere": false,
                         "stopIndices": [2, 1, 0],
-                        "throughDestEn": "Ebina",
-                        "throughDestJa": "海老名",
+                        "throughDest": {
+                            "en": "Ebina",
+                            "ja": "海老名"
+                        },
                         "trainType": "LimitedExpress"
                     }
                 ],
@@ -996,8 +1186,10 @@
                         "departure": "05:38",
                         "startsHere": false,
                         "stopIndices": [2, 1, 0],
-                        "throughDestEn": "Shonandai",
-                        "throughDestJa": "湘南台",
+                        "throughDest": {
+                            "en": "Shonandai",
+                            "ja": "湘南台"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -1005,8 +1197,10 @@
                         "departure": "05:50",
                         "startsHere": false,
                         "stopIndices": [2, 1, 0],
-                        "throughDestEn": "Ebina",
-                        "throughDestJa": "海老名",
+                        "throughDest": {
+                            "en": "Ebina",
+                            "ja": "海老名"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -1014,8 +1208,10 @@
                         "departure": "06:31",
                         "startsHere": false,
                         "stopIndices": [2, 1, 0],
-                        "throughDestEn": "Shonandai",
-                        "throughDestJa": "湘南台",
+                        "throughDest": {
+                            "en": "Shonandai",
+                            "ja": "湘南台"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -1023,8 +1219,10 @@
                         "departure": "06:52",
                         "startsHere": false,
                         "stopIndices": [2, 1, 0],
-                        "throughDestEn": "Shonandai",
-                        "throughDestJa": "湘南台",
+                        "throughDest": {
+                            "en": "Shonandai",
+                            "ja": "湘南台"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -1032,8 +1230,10 @@
                         "departure": "07:31",
                         "startsHere": false,
                         "stopIndices": [2, 1, 0],
-                        "throughDestEn": "Shonandai",
-                        "throughDestJa": "湘南台",
+                        "throughDest": {
+                            "en": "Shonandai",
+                            "ja": "湘南台"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -1041,8 +1241,10 @@
                         "departure": "07:55",
                         "startsHere": false,
                         "stopIndices": [2, 1, 0],
-                        "throughDestEn": "Shonandai",
-                        "throughDestJa": "湘南台",
+                        "throughDest": {
+                            "en": "Shonandai",
+                            "ja": "湘南台"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -1050,8 +1252,10 @@
                         "departure": "08:21",
                         "startsHere": false,
                         "stopIndices": [2, 1, 0],
-                        "throughDestEn": "Shonandai",
-                        "throughDestJa": "湘南台",
+                        "throughDest": {
+                            "en": "Shonandai",
+                            "ja": "湘南台"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -1059,8 +1263,10 @@
                         "departure": "08:24",
                         "startsHere": false,
                         "stopIndices": [2, 1, 0],
-                        "throughDestEn": "Ebina",
-                        "throughDestJa": "海老名",
+                        "throughDest": {
+                            "en": "Ebina",
+                            "ja": "海老名"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -1068,8 +1274,10 @@
                         "departure": "10:28",
                         "startsHere": false,
                         "stopIndices": [2, 1, 0],
-                        "throughDestEn": "Ebina",
-                        "throughDestJa": "海老名",
+                        "throughDest": {
+                            "en": "Ebina",
+                            "ja": "海老名"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -1077,8 +1285,10 @@
                         "departure": "10:57",
                         "startsHere": false,
                         "stopIndices": [2, 1, 0],
-                        "throughDestEn": "Ebina",
-                        "throughDestJa": "海老名",
+                        "throughDest": {
+                            "en": "Ebina",
+                            "ja": "海老名"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -1086,8 +1296,10 @@
                         "departure": "17:54",
                         "startsHere": false,
                         "stopIndices": [2, 1, 0],
-                        "throughDestEn": "Shonandai",
-                        "throughDestJa": "湘南台",
+                        "throughDest": {
+                            "en": "Shonandai",
+                            "ja": "湘南台"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -1095,8 +1307,10 @@
                         "departure": "18:02",
                         "startsHere": false,
                         "stopIndices": [2, 1, 0],
-                        "throughDestEn": "Ebina",
-                        "throughDestJa": "海老名",
+                        "throughDest": {
+                            "en": "Ebina",
+                            "ja": "海老名"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -1104,8 +1318,10 @@
                         "departure": "18:19",
                         "startsHere": false,
                         "stopIndices": [2, 1, 0],
-                        "throughDestEn": "Ebina",
-                        "throughDestJa": "海老名",
+                        "throughDest": {
+                            "en": "Ebina",
+                            "ja": "海老名"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -1113,8 +1329,10 @@
                         "departure": "18:35",
                         "startsHere": false,
                         "stopIndices": [2, 1, 0],
-                        "throughDestEn": "Ebina",
-                        "throughDestJa": "海老名",
+                        "throughDest": {
+                            "en": "Ebina",
+                            "ja": "海老名"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -1122,8 +1340,10 @@
                         "departure": "18:57",
                         "startsHere": false,
                         "stopIndices": [2, 1, 0],
-                        "throughDestEn": "Shonandai",
-                        "throughDestJa": "湘南台",
+                        "throughDest": {
+                            "en": "Shonandai",
+                            "ja": "湘南台"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -1131,8 +1351,10 @@
                         "departure": "19:03",
                         "startsHere": false,
                         "stopIndices": [2, 1, 0],
-                        "throughDestEn": "Ebina",
-                        "throughDestJa": "海老名",
+                        "throughDest": {
+                            "en": "Ebina",
+                            "ja": "海老名"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -1140,8 +1362,10 @@
                         "departure": "19:27",
                         "startsHere": false,
                         "stopIndices": [2, 1, 0],
-                        "throughDestEn": "Shonandai",
-                        "throughDestJa": "湘南台",
+                        "throughDest": {
+                            "en": "Shonandai",
+                            "ja": "湘南台"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -1149,8 +1373,10 @@
                         "departure": "19:57",
                         "startsHere": false,
                         "stopIndices": [2, 1, 0],
-                        "throughDestEn": "Shonandai",
-                        "throughDestJa": "湘南台",
+                        "throughDest": {
+                            "en": "Shonandai",
+                            "ja": "湘南台"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -1158,8 +1384,10 @@
                         "departure": "20:22",
                         "startsHere": false,
                         "stopIndices": [2, 1, 0],
-                        "throughDestEn": "Ebina",
-                        "throughDestJa": "海老名",
+                        "throughDest": {
+                            "en": "Ebina",
+                            "ja": "海老名"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -1167,8 +1395,10 @@
                         "departure": "21:05",
                         "startsHere": false,
                         "stopIndices": [2, 1, 0],
-                        "throughDestEn": "Ebina",
-                        "throughDestJa": "海老名",
+                        "throughDest": {
+                            "en": "Ebina",
+                            "ja": "海老名"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -1176,8 +1406,10 @@
                         "departure": "21:45",
                         "startsHere": false,
                         "stopIndices": [2, 1, 0],
-                        "throughDestEn": "Ebina",
-                        "throughDestJa": "海老名",
+                        "throughDest": {
+                            "en": "Ebina",
+                            "ja": "海老名"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -1185,8 +1417,10 @@
                         "departure": "22:20",
                         "startsHere": false,
                         "stopIndices": [2, 1, 0],
-                        "throughDestEn": "Ebina",
-                        "throughDestJa": "海老名",
+                        "throughDest": {
+                            "en": "Ebina",
+                            "ja": "海老名"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -1194,8 +1428,10 @@
                         "departure": "22:50",
                         "startsHere": false,
                         "stopIndices": [2, 1, 0],
-                        "throughDestEn": "Ebina",
-                        "throughDestJa": "海老名",
+                        "throughDest": {
+                            "en": "Ebina",
+                            "ja": "海老名"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -1203,8 +1439,10 @@
                         "departure": "23:17",
                         "startsHere": false,
                         "stopIndices": [2, 1, 0],
-                        "throughDestEn": "Ebina",
-                        "throughDestJa": "海老名",
+                        "throughDest": {
+                            "en": "Ebina",
+                            "ja": "海老名"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -1212,8 +1450,10 @@
                         "departure": "23:35",
                         "startsHere": false,
                         "stopIndices": [2, 1, 0],
-                        "throughDestEn": "Ebina",
-                        "throughDestJa": "海老名",
+                        "throughDest": {
+                            "en": "Ebina",
+                            "ja": "海老名"
+                        },
                         "trainType": "LimitedExpress"
                     },
                     {
@@ -1221,8 +1461,10 @@
                         "departure": "24:03",
                         "startsHere": true,
                         "stopIndices": [2, 1, 0],
-                        "throughDestEn": "Ebina",
-                        "throughDestJa": "海老名",
+                        "throughDest": {
+                            "en": "Ebina",
+                            "ja": "海老名"
+                        },
                         "trainType": "LimitedExpress"
                     }
                 ],
@@ -1236,8 +1478,10 @@
                                 "departure": "07:41",
                                 "startsHere": false,
                                 "stopIndices": [1, 0],
-                                "throughDestEn": "Ebina",
-                                "throughDestJa": "海老名",
+                                "throughDest": {
+                                    "en": "Ebina",
+                                    "ja": "海老名"
+                                },
                                 "trainType": "LimitedExpress"
                             },
                             {
@@ -1245,8 +1489,10 @@
                                 "departure": "08:09",
                                 "startsHere": false,
                                 "stopIndices": [1, 0],
-                                "throughDestEn": "Ebina",
-                                "throughDestJa": "海老名",
+                                "throughDest": {
+                                    "en": "Ebina",
+                                    "ja": "海老名"
+                                },
                                 "trainType": "LimitedExpress"
                             },
                             {
@@ -1254,8 +1500,10 @@
                                 "departure": "08:22",
                                 "startsHere": false,
                                 "stopIndices": [1, 0],
-                                "throughDestEn": "Ebina",
-                                "throughDestJa": "海老名",
+                                "throughDest": {
+                                    "en": "Ebina",
+                                    "ja": "海老名"
+                                },
                                 "trainType": "LimitedExpress"
                             },
                             {
@@ -1263,8 +1511,10 @@
                                 "departure": "08:48",
                                 "startsHere": false,
                                 "stopIndices": [1, 0],
-                                "throughDestEn": "Ebina",
-                                "throughDestJa": "海老名",
+                                "throughDest": {
+                                    "en": "Ebina",
+                                    "ja": "海老名"
+                                },
                                 "trainType": "LimitedExpress"
                             },
                             {
@@ -1272,8 +1522,10 @@
                                 "departure": "10:50",
                                 "startsHere": false,
                                 "stopIndices": [1, 0],
-                                "throughDestEn": "Ebina",
-                                "throughDestJa": "海老名",
+                                "throughDest": {
+                                    "en": "Ebina",
+                                    "ja": "海老名"
+                                },
                                 "trainType": "LimitedExpress"
                             },
                             {
@@ -1281,8 +1533,10 @@
                                 "departure": "12:02",
                                 "startsHere": false,
                                 "stopIndices": [1, 0],
-                                "throughDestEn": "Ebina",
-                                "throughDestJa": "海老名",
+                                "throughDest": {
+                                    "en": "Ebina",
+                                    "ja": "海老名"
+                                },
                                 "trainType": "LimitedExpress"
                             },
                             {
@@ -1290,8 +1544,10 @@
                                 "departure": "17:32",
                                 "startsHere": false,
                                 "stopIndices": [1, 0],
-                                "throughDestEn": "Ebina",
-                                "throughDestJa": "海老名",
+                                "throughDest": {
+                                    "en": "Ebina",
+                                    "ja": "海老名"
+                                },
                                 "trainType": "LimitedExpress"
                             },
                             {
@@ -1299,8 +1555,10 @@
                                 "departure": "17:59",
                                 "startsHere": false,
                                 "stopIndices": [1, 0],
-                                "throughDestEn": "Ebina",
-                                "throughDestJa": "海老名",
+                                "throughDest": {
+                                    "en": "Ebina",
+                                    "ja": "海老名"
+                                },
                                 "trainType": "LimitedExpress"
                             },
                             {
@@ -1308,8 +1566,10 @@
                                 "departure": "18:21",
                                 "startsHere": false,
                                 "stopIndices": [1, 0],
-                                "throughDestEn": "Ebina",
-                                "throughDestJa": "海老名",
+                                "throughDest": {
+                                    "en": "Ebina",
+                                    "ja": "海老名"
+                                },
                                 "trainType": "LimitedExpress"
                             },
                             {
@@ -1317,8 +1577,10 @@
                                 "departure": "21:41",
                                 "startsHere": false,
                                 "stopIndices": [1, 0],
-                                "throughDestEn": "Ebina",
-                                "throughDestJa": "海老名",
+                                "throughDest": {
+                                    "en": "Ebina",
+                                    "ja": "海老名"
+                                },
                                 "trainType": "LimitedExpress"
                             },
                             {
@@ -1326,8 +1588,10 @@
                                 "departure": "22:16",
                                 "startsHere": false,
                                 "stopIndices": [1, 0],
-                                "throughDestEn": "Ebina",
-                                "throughDestJa": "海老名",
+                                "throughDest": {
+                                    "en": "Ebina",
+                                    "ja": "海老名"
+                                },
                                 "trainType": "LimitedExpress"
                             },
                             {
@@ -1335,8 +1599,10 @@
                                 "departure": "22:38",
                                 "startsHere": false,
                                 "stopIndices": [1, 0],
-                                "throughDestEn": "Ebina",
-                                "throughDestJa": "海老名",
+                                "throughDest": {
+                                    "en": "Ebina",
+                                    "ja": "海老名"
+                                },
                                 "trainType": "LimitedExpress"
                             }
                         ],
@@ -1348,8 +1614,10 @@
                                 "departure": "08:22",
                                 "startsHere": false,
                                 "stopIndices": [1, 0],
-                                "throughDestEn": "Ebina",
-                                "throughDestJa": "海老名",
+                                "throughDest": {
+                                    "en": "Ebina",
+                                    "ja": "海老名"
+                                },
                                 "trainType": "LimitedExpress"
                             },
                             {
@@ -1357,8 +1625,10 @@
                                 "departure": "10:21",
                                 "startsHere": false,
                                 "stopIndices": [1, 0],
-                                "throughDestEn": "Ebina",
-                                "throughDestJa": "海老名",
+                                "throughDest": {
+                                    "en": "Ebina",
+                                    "ja": "海老名"
+                                },
                                 "trainType": "LimitedExpress"
                             },
                             {
@@ -1366,8 +1636,10 @@
                                 "departure": "10:53",
                                 "startsHere": false,
                                 "stopIndices": [1, 0],
-                                "throughDestEn": "Ebina",
-                                "throughDestJa": "海老名",
+                                "throughDest": {
+                                    "en": "Ebina",
+                                    "ja": "海老名"
+                                },
                                 "trainType": "LimitedExpress"
                             },
                             {
@@ -1375,8 +1647,10 @@
                                 "departure": "18:18",
                                 "startsHere": false,
                                 "stopIndices": [1, 0],
-                                "throughDestEn": "Ebina",
-                                "throughDestJa": "海老名",
+                                "throughDest": {
+                                    "en": "Ebina",
+                                    "ja": "海老名"
+                                },
                                 "trainType": "LimitedExpress"
                             },
                             {
@@ -1384,8 +1658,10 @@
                                 "departure": "18:35",
                                 "startsHere": false,
                                 "stopIndices": [1, 0],
-                                "throughDestEn": "Ebina",
-                                "throughDestJa": "海老名",
+                                "throughDest": {
+                                    "en": "Ebina",
+                                    "ja": "海老名"
+                                },
                                 "trainType": "LimitedExpress"
                             },
                             {
@@ -1393,8 +1669,10 @@
                                 "departure": "18:58",
                                 "startsHere": false,
                                 "stopIndices": [1, 0],
-                                "throughDestEn": "Ebina",
-                                "throughDestJa": "海老名",
+                                "throughDest": {
+                                    "en": "Ebina",
+                                    "ja": "海老名"
+                                },
                                 "trainType": "LimitedExpress"
                             },
                             {
@@ -1402,8 +1680,10 @@
                                 "departure": "19:18",
                                 "startsHere": false,
                                 "stopIndices": [1, 0],
-                                "throughDestEn": "Ebina",
-                                "throughDestJa": "海老名",
+                                "throughDest": {
+                                    "en": "Ebina",
+                                    "ja": "海老名"
+                                },
                                 "trainType": "LimitedExpress"
                             },
                             {
@@ -1411,8 +1691,10 @@
                                 "departure": "19:39",
                                 "startsHere": false,
                                 "stopIndices": [1, 0],
-                                "throughDestEn": "Ebina",
-                                "throughDestJa": "海老名",
+                                "throughDest": {
+                                    "en": "Ebina",
+                                    "ja": "海老名"
+                                },
                                 "trainType": "LimitedExpress"
                             },
                             {
@@ -1420,8 +1702,10 @@
                                 "departure": "19:58",
                                 "startsHere": false,
                                 "stopIndices": [1, 0],
-                                "throughDestEn": "Ebina",
-                                "throughDestJa": "海老名",
+                                "throughDest": {
+                                    "en": "Ebina",
+                                    "ja": "海老名"
+                                },
                                 "trainType": "LimitedExpress"
                             },
                             {
@@ -1429,8 +1713,10 @@
                                 "departure": "20:38",
                                 "startsHere": false,
                                 "stopIndices": [1, 0],
-                                "throughDestEn": "Ebina",
-                                "throughDestJa": "海老名",
+                                "throughDest": {
+                                    "en": "Ebina",
+                                    "ja": "海老名"
+                                },
                                 "trainType": "LimitedExpress"
                             },
                             {
@@ -1438,8 +1724,10 @@
                                 "departure": "20:59",
                                 "startsHere": false,
                                 "stopIndices": [1, 0],
-                                "throughDestEn": "Ebina",
-                                "throughDestJa": "海老名",
+                                "throughDest": {
+                                    "en": "Ebina",
+                                    "ja": "海老名"
+                                },
                                 "trainType": "LimitedExpress"
                             },
                             {
@@ -1447,8 +1735,10 @@
                                 "departure": "21:38",
                                 "startsHere": false,
                                 "stopIndices": [1, 0],
-                                "throughDestEn": "Ebina",
-                                "throughDestJa": "海老名",
+                                "throughDest": {
+                                    "en": "Ebina",
+                                    "ja": "海老名"
+                                },
                                 "trainType": "LimitedExpress"
                             },
                             {
@@ -1456,16 +1746,20 @@
                                 "departure": "22:16",
                                 "startsHere": false,
                                 "stopIndices": [1, 0],
-                                "throughDestEn": "Ebina",
-                                "throughDestJa": "海老名",
+                                "throughDest": {
+                                    "en": "Ebina",
+                                    "ja": "海老名"
+                                },
                                 "trainType": "LimitedExpress"
                             }
                         ]
                     }
                 ],
                 "isAscending": false,
-                "nameEn": "For Nishiya & Ebina",
-                "nameJa": "西谷・海老名方面",
+                "name": {
+                    "en": "For Nishiya & Ebina",
+                    "ja": "西谷・海老名方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -1597,41 +1891,52 @@
         "hopTimesMinutes": [3, 4],
         "id": "Railway:Sotetsu.SotetsuShinYokohama",
         "isLoop": false,
-        "nameEn": "Sotetsu Shin-Yokohama Line",
-        "nameJa": "相鉄新横浜線",
+        "name": {
+            "en": "Sotetsu Shin-Yokohama Line",
+            "ja": "相鉄新横浜線",
+            "ko": "소테쓰 신요코하마선",
+            "zh-Hans": "相铁新横滨线",
+            "zh-Hant": "相鐵新橫濱線"
+        },
         "operatorId": "Operator:Sotetsu",
         "stations": [
             {
                 "id": "Station:Sotetsu.SotetsuShinYokohama.Nishiya",
                 "latitude": 35.47789,
                 "longitude": 139.56562,
-                "name": "西谷",
-                "nameEn": "Nishiya",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nishiya",
+                    "ja": "西谷",
+                    "ko": "니시야",
+                    "zh-Hans": "西谷",
+                    "zh-Hant": "西谷"
+                },
                 "stationCode": "SO08"
             },
             {
                 "id": "Station:Sotetsu.SotetsuShinYokohama.HazawaYokohamaKokudai",
                 "latitude": 35.48102,
                 "longitude": 139.58614,
-                "name": "羽沢横浜国大",
-                "nameEn": "Hazawa-yokohama-kokudai",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Hazawa-yokohama-kokudai",
+                    "ja": "羽沢横浜国大",
+                    "ko": "하자와요코하마코쿠다이",
+                    "zh-Hans": "羽泽横滨国大",
+                    "zh-Hant": "羽澤橫濱國大"
+                },
                 "stationCode": "SO51"
             },
             {
                 "id": "Station:Sotetsu.SotetsuShinYokohama.ShinYokohama",
                 "latitude": 35.50865,
                 "longitude": 139.61712,
-                "name": "新横浜",
-                "nameEn": "Shin-yokohama",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shin-yokohama",
+                    "ja": "新横浜",
+                    "ko": "신요코하마",
+                    "zh-Hans": "新横滨",
+                    "zh-Hant": "新橫濱"
+                },
                 "stationCode": "SO52"
             }
         ],
@@ -1641,27 +1946,39 @@
                 "connectingLineId": "Railway:Sotetsu.Main",
                 "end": "descending",
                 "junctionStationId": "Station:Sotetsu.SotetsuShinYokohama.Nishiya",
-                "lineNameEn": "Sotetsu Main Line",
-                "lineNameJa": "相鉄本線",
-                "towardEn": "for Futamata-gawa & Ebina",
-                "towardJa": "二俣川・海老名方面"
+                "lineName": {
+                    "en": "Sotetsu Main Line",
+                    "ja": "相鉄本線"
+                },
+                "toward": {
+                    "en": "for Futamata-gawa & Ebina",
+                    "ja": "二俣川・海老名方面"
+                }
             },
             {
                 "end": "ascending",
                 "junctionStationId": "Station:Sotetsu.SotetsuShinYokohama.HazawaYokohamaKokudai",
-                "lineNameEn": "Sotetsu-JR Link Line",
-                "lineNameJa": "相鉄・ＪＲ直通線",
-                "towardEn": "for Musashi-Kosugi & Shinjuku",
-                "towardJa": "武蔵小杉・新宿方面"
+                "lineName": {
+                    "en": "Sotetsu-JR Link Line",
+                    "ja": "相鉄・ＪＲ直通線"
+                },
+                "toward": {
+                    "en": "for Musashi-Kosugi & Shinjuku",
+                    "ja": "武蔵小杉・新宿方面"
+                }
             },
             {
                 "connectingLineId": "Railway:Tokyu.TokyuShinYokohama",
                 "end": "ascending",
                 "junctionStationId": "Station:Sotetsu.SotetsuShinYokohama.ShinYokohama",
-                "lineNameEn": "Tokyu Shin-Yokohama Line",
-                "lineNameJa": "東急新横浜線",
-                "towardEn": "for Hiyoshi, Shibuya & Meguro",
-                "towardJa": "日吉・渋谷・目黒方面"
+                "lineName": {
+                    "en": "Tokyu Shin-Yokohama Line",
+                    "ja": "東急新横浜線"
+                },
+                "toward": {
+                    "en": "for Hiyoshi, Shibuya & Meguro",
+                    "ja": "日吉・渋谷・目黒方面"
+                }
             }
         ]
     }

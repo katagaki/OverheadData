@@ -2,10 +2,14 @@
     {
         "colorHex": "#222D65",
         "delayInfo": {
-            "checkMethodEn": "Check the Tokyo Waterfront Area Rapid Transit (Rinkai Line) service information page. Delays and suspensions are posted as they occur.",
-            "checkMethodJa": "東京臨海高速鉄道（りんかい線）の運行情報ページで確認できます。遅延・運転見合わせが発生した場合に掲載されます。",
-            "statusPageURL": "https://service.twr.co.jp/rinkai/public/information?lang=ja",
-            "statusPageURLEn": "https://service.twr.co.jp/rinkai/public/information?lang=en",
+            "checkMethod": {
+                "en": "Check the Tokyo Waterfront Area Rapid Transit (Rinkai Line) service information page. Delays and suspensions are posted as they occur.",
+                "ja": "東京臨海高速鉄道（りんかい線）の運行情報ページで確認できます。遅延・運転見合わせが発生した場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://service.twr.co.jp/rinkai/public/information?lang=en",
+                "ja": "https://service.twr.co.jp/rinkai/public/information?lang=ja"
+            },
             "xAccount": "@twr_official"
         },
         "directions": [
@@ -21,8 +25,10 @@
                     }
                 ],
                 "isAscending": true,
-                "nameEn": "For Osaki & Shinjuku",
-                "nameJa": "大崎・新宿方面",
+                "name": {
+                    "en": "For Osaki & Shinjuku",
+                    "ja": "大崎・新宿方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -188,8 +194,10 @@
                     }
                 ],
                 "isAscending": false,
-                "nameEn": "For Shin-kiba",
-                "nameJa": "新木場方面",
+                "name": {
+                    "en": "For Shin-kiba",
+                    "ja": "新木場方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -325,96 +333,114 @@
         "hopTimesMinutes": [3, 2, 2, 4, 2, 3, 3],
         "id": "Railway:TWR.Rinkai",
         "isLoop": false,
-        "nameEn": "Rinkai Line",
-        "nameJa": "りんかい線",
+        "name": {
+            "en": "Rinkai Line",
+            "ja": "りんかい線"
+        },
         "operatorId": "Operator:TWR",
         "stations": [
             {
                 "id": "Station:TWR.Rinkai.ShinKiba",
                 "latitude": 35.64604,
                 "longitude": 139.82678,
-                "name": "新木場",
-                "nameEn": "Shin-kiba",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shin-kiba",
+                    "ja": "新木場",
+                    "ko": "신키바",
+                    "zh-Hans": "新木场",
+                    "zh-Hant": "新木場"
+                },
                 "stationCode": "R01"
             },
             {
                 "id": "Station:TWR.Rinkai.Shinonome",
                 "latitude": 35.6406,
                 "longitude": 139.80328,
-                "name": "東雲",
-                "nameEn": "Shinonome",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shinonome",
+                    "ja": "東雲",
+                    "ko": "시노노메",
+                    "zh-Hans": "东云",
+                    "zh-Hant": "東雲"
+                },
                 "stationCode": "R02"
             },
             {
                 "id": "Station:TWR.Rinkai.KokusaiTenjijo",
                 "latitude": 35.63457,
                 "longitude": 139.79163,
-                "name": "国際展示場",
-                "nameEn": "Kokusai-tenjijo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kokusai-tenjijo",
+                    "ja": "国際展示場",
+                    "ko": "고쿠사이텐지조",
+                    "zh-Hans": "国际展示场",
+                    "zh-Hant": "國際展示場"
+                },
                 "stationCode": "R03"
             },
             {
                 "id": "Station:TWR.Rinkai.TokyoTeleport",
                 "latitude": 35.62754,
                 "longitude": 139.77885,
-                "name": "東京テレポート",
-                "nameEn": "Tokyo Teleport",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tokyo Teleport",
+                    "ja": "東京テレポート",
+                    "ko": "도쿄 텔레포트",
+                    "zh-Hans": "东京电讯港",
+                    "zh-Hant": "東京電訊港"
+                },
                 "stationCode": "R04"
             },
             {
                 "id": "Station:TWR.Rinkai.TennozuIsle",
                 "latitude": 35.62038,
                 "longitude": 139.75084,
-                "name": "天王洲アイル",
-                "nameEn": "Tennozu Isle",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tennozu Isle",
+                    "ja": "天王洲アイル",
+                    "ko": "덴노즈 아일",
+                    "zh-Hans": "天王洲岛",
+                    "zh-Hant": "天王洲島"
+                },
                 "stationCode": "R05"
             },
             {
                 "id": "Station:TWR.Rinkai.ShinagawaSeaside",
                 "latitude": 35.60897,
                 "longitude": 139.74967,
-                "name": "品川シーサイド",
-                "nameEn": "Shinagawa Seaside",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shinagawa Seaside",
+                    "ja": "品川シーサイド",
+                    "ko": "시나가와 시사이드",
+                    "zh-Hans": "品川海滨",
+                    "zh-Hant": "品川海濱"
+                },
                 "stationCode": "R06"
             },
             {
                 "id": "Station:TWR.Rinkai.Oimachi",
                 "latitude": 35.60741,
                 "longitude": 139.73474,
-                "name": "大井町",
-                "nameEn": "Oimachi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Oimachi",
+                    "ja": "大井町",
+                    "ko": "오이마치",
+                    "zh-Hans": "大井町",
+                    "zh-Hant": "大井町"
+                },
                 "stationCode": "R07"
             },
             {
                 "id": "Station:TWR.Rinkai.Osaki",
                 "latitude": 35.62002,
                 "longitude": 139.7282,
-                "name": "大崎",
-                "nameEn": "Osaki",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Osaki",
+                    "ja": "大崎",
+                    "ko": "오사키",
+                    "zh-Hans": "大崎",
+                    "zh-Hant": "大崎"
+                },
                 "stationCode": "R08"
             }
         ],
@@ -424,10 +450,14 @@
                 "connectingLineId": "Railway:JR-East.SaikyoKawagoe",
                 "end": "ascending",
                 "junctionStationId": "Station:TWR.Rinkai.Osaki",
-                "lineNameEn": "JR East Saikyo Line",
-                "lineNameJa": "ＪＲ東埼京線",
-                "towardEn": "for Shinjuku & Omiya",
-                "towardJa": "新宿・大宮方面"
+                "lineName": {
+                    "en": "JR East Saikyo Line",
+                    "ja": "ＪＲ東埼京線"
+                },
+                "toward": {
+                    "en": "for Shinjuku & Omiya",
+                    "ja": "新宿・大宮方面"
+                }
             }
         ]
     }

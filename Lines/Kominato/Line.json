@@ -2,10 +2,14 @@
     {
         "colorHex": "#CD413E",
         "delayInfo": {
-            "checkMethodEn": "Check the Kominato Railway website. Suspensions and delays are posted in the notices on the top page.",
-            "checkMethodJa": "小湊鐵道の公式サイトで確認できます。運転見合わせ・遅延はトップページのお知らせに掲載されます。",
-            "statusPageURL": "https://www.kominato.co.jp/",
-            "statusPageURLEn": "https://www.kominato.co.jp/",
+            "checkMethod": {
+                "en": "Check the Kominato Railway website. Suspensions and delays are posted in the notices on the top page.",
+                "ja": "小湊鐵道の公式サイトで確認できます。運転見合わせ・遅延はトップページのお知らせに掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://www.kominato.co.jp/",
+                "ja": "https://www.kominato.co.jp/"
+            },
             "xAccount": null
         },
         "directions": [
@@ -15,25 +19,27 @@
                 "id": "static.RailDirection:Kominato.Kominato.KazusaNakano",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Kazusa-Nakano",
-                "nameJa": "上総中野方面",
+                "name": {
+                    "en": "For Kazusa-Nakano",
+                    "ja": "上総中野方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
                             "from": "06:15",
-                            "headwayMinutes": 56.0
+                            "headwayMinutes": 56
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 36.0
+                            "headwayMinutes": 36
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 50.0
+                            "headwayMinutes": 50
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 40.0
+                            "headwayMinutes": 40
                         },
                         {
                             "from": "11:00",
@@ -41,15 +47,15 @@
                         },
                         {
                             "from": "12:00",
-                            "headwayMinutes": 40.0
+                            "headwayMinutes": 40
                         },
                         {
                             "from": "20:00",
-                            "headwayMinutes": 50.0
+                            "headwayMinutes": 50
                         },
                         {
                             "from": "22:00",
-                            "headwayMinutes": 44.0
+                            "headwayMinutes": 44
                         }
                     ],
                     "firstDeparture": "06:15",
@@ -60,15 +66,15 @@
                     "bands": [
                         {
                             "from": "06:15",
-                            "headwayMinutes": 28.0
+                            "headwayMinutes": 28
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 36.0
+                            "headwayMinutes": 36
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 50.0
+                            "headwayMinutes": 50
                         },
                         {
                             "from": "09:00",
@@ -76,7 +82,7 @@
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 40.0
+                            "headwayMinutes": 40
                         },
                         {
                             "from": "11:00",
@@ -84,27 +90,27 @@
                         },
                         {
                             "from": "12:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "13:00",
-                            "headwayMinutes": 40.0
+                            "headwayMinutes": 40
                         },
                         {
                             "from": "14:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "15:00",
-                            "headwayMinutes": 40.0
+                            "headwayMinutes": 40
                         },
                         {
                             "from": "20:00",
-                            "headwayMinutes": 50.0
+                            "headwayMinutes": 50
                         },
                         {
                             "from": "22:00",
-                            "headwayMinutes": 44.0
+                            "headwayMinutes": 44
                         }
                     ],
                     "firstDeparture": "06:15",
@@ -118,13 +124,15 @@
                 "id": "static.RailDirection:Kominato.Kominato.Goi",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Goi",
-                "nameJa": "五井方面",
+                "name": {
+                    "en": "For Goi",
+                    "ja": "五井方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
                             "from": "08:45",
-                            "headwayMinutes": 582.0
+                            "headwayMinutes": 582
                         }
                     ],
                     "firstDeparture": "08:45",
@@ -135,19 +143,19 @@
                     "bands": [
                         {
                             "from": "08:45",
-                            "headwayMinutes": 181.0
+                            "headwayMinutes": 181
                         },
                         {
                             "from": "11:00",
-                            "headwayMinutes": 145.0
+                            "headwayMinutes": 145
                         },
                         {
                             "from": "14:00",
-                            "headwayMinutes": 120.0
+                            "headwayMinutes": 120
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 136.0
+                            "headwayMinutes": 136
                         }
                     ],
                     "firstDeparture": "08:45",
@@ -156,209 +164,231 @@
                 }
             }
         ],
-        "hopTimesMinutes": [4.0, 4.0, 4.0, 3.0, 4.0, 3.0, 5.0, 3.0, 3.0, 4.0, 3.0, 12.0, 5.0, 4.0, 5.0, 5.0, 10.0],
+        "hopTimesMinutes": [4, 4, 4, 3, 4, 3, 5, 3, 3, 4, 3, 12, 5, 4, 5, 5, 10],
         "id": "Railway:Kominato.Kominato",
         "isLoop": false,
-        "nameEn": "Kominato Railway Line",
-        "nameJa": "小湊鉄道線",
+        "name": {
+            "en": "Kominato Railway Line",
+            "ja": "小湊鉄道線"
+        },
         "operatorId": "Operator:Kominato",
         "stations": [
             {
                 "id": "Station:Kominato.Kominato.Goi",
                 "latitude": 35.5131,
                 "longitude": 140.08956,
-                "name": "五井",
-                "nameEn": "Goi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Goi",
+                    "ja": "五井",
+                    "ko": "고이",
+                    "zh-Hans": "五井",
+                    "zh-Hant": "五井"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Kominato.Kominato.KazusaMurakami",
                 "latitude": 35.49624,
                 "longitude": 140.10027,
-                "name": "上総村上",
-                "nameEn": "Kazusa-Murakami",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kazusa-Murakami",
+                    "ja": "上総村上",
+                    "zh-Hans": "上总村上",
+                    "zh-Hant": "上總村上"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Kominato.Kominato.Amaariki",
                 "latitude": 35.48171,
                 "longitude": 140.12411,
-                "name": "海士有木",
-                "nameEn": "Amaariki",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Amaariki",
+                    "ja": "海士有木",
+                    "zh-Hans": "海士有木",
+                    "zh-Hant": "海士有木"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Kominato.Kominato.KazusaMitsumata",
                 "latitude": 35.46603,
                 "longitude": 140.12677,
-                "name": "上総三又",
-                "nameEn": "Kazusa-Mitsumata",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kazusa-Mitsumata",
+                    "ja": "上総三又",
+                    "zh-Hans": "上总三又",
+                    "zh-Hant": "上總三又"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Kominato.Kominato.KazusaYamada",
                 "latitude": 35.4542,
                 "longitude": 140.12618,
-                "name": "上総山田",
-                "nameEn": "Kazusa-Yamada",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kazusa-Yamada",
+                    "ja": "上総山田",
+                    "zh-Hans": "上总山田",
+                    "zh-Hant": "上總山田"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Kominato.Kominato.Kofudai",
                 "latitude": 35.44035,
                 "longitude": 140.11421,
-                "name": "光風台",
-                "nameEn": "Kofudai",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kofudai",
+                    "ja": "光風台",
+                    "zh-Hans": "光風台",
+                    "zh-Hant": "光風臺"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Kominato.Kominato.Umatate",
                 "latitude": 35.42367,
                 "longitude": 140.11488,
-                "name": "馬立",
-                "nameEn": "Umatate",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Umatate",
+                    "ja": "馬立",
+                    "zh-Hans": "马立",
+                    "zh-Hant": "馬立"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Kominato.Kominato.KazusaUshiku",
                 "latitude": 35.40014,
                 "longitude": 140.1421,
-                "name": "上総牛久",
-                "nameEn": "Kazusa-Ushiku",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kazusa-Ushiku",
+                    "ja": "上総牛久",
+                    "zh-Hans": "上总牛久",
+                    "zh-Hant": "上總牛久"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Kominato.Kominato.KazusaKawama",
                 "latitude": 35.38811,
                 "longitude": 140.15112,
-                "name": "上総川間",
-                "nameEn": "Kazusa-Kawama",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kazusa-Kawama",
+                    "ja": "上総川間",
+                    "zh-Hans": "上总川间",
+                    "zh-Hant": "上總川間"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Kominato.Kominato.KazusaTsurumai",
                 "latitude": 35.3814,
                 "longitude": 140.16517,
-                "name": "上総鶴舞",
-                "nameEn": "Kazusa-Tsurumai",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kazusa-Tsurumai",
+                    "ja": "上総鶴舞",
+                    "zh-Hans": "上总鹤舞",
+                    "zh-Hant": "上總鶴舞"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Kominato.Kominato.KazusaKubo",
                 "latitude": 35.36751,
                 "longitude": 140.15461,
-                "name": "上総久保",
-                "nameEn": "Kazusa-Kubo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kazusa-Kubo",
+                    "ja": "上総久保",
+                    "zh-Hans": "上总久保",
+                    "zh-Hant": "上總久保"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Kominato.Kominato.Takataki",
                 "latitude": 35.35329,
                 "longitude": 140.15035,
-                "name": "高滝",
-                "nameEn": "Takataki",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Takataki",
+                    "ja": "高滝",
+                    "zh-Hans": "高泷",
+                    "zh-Hant": "高瀧"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Kominato.Kominato.Satomi",
                 "latitude": 35.33671,
                 "longitude": 140.14549,
-                "name": "里見",
-                "nameEn": "Satomi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Satomi",
+                    "ja": "里見",
+                    "zh-Hans": "里见",
+                    "zh-Hant": "里見"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Kominato.Kominato.Itabu",
                 "latitude": 35.32079,
                 "longitude": 140.14218,
-                "name": "飯給",
-                "nameEn": "Itabu",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Itabu",
+                    "ja": "飯給",
+                    "zh-Hans": "饭给",
+                    "zh-Hant": "飯給"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Kominato.Kominato.Tsukizaki",
                 "latitude": 35.3022,
                 "longitude": 140.13939,
-                "name": "月崎",
-                "nameEn": "Tsukizaki",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tsukizaki",
+                    "ja": "月崎",
+                    "ko": "쓰키자키",
+                    "zh-Hans": "月崎",
+                    "zh-Hant": "月崎"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Kominato.Kominato.KazusaOkubo",
                 "latitude": 35.28351,
                 "longitude": 140.14586,
-                "name": "上総大久保",
-                "nameEn": "Kazusa-Okubo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kazusa-Okubo",
+                    "ja": "上総大久保",
+                    "zh-Hans": "上总大久保",
+                    "zh-Hant": "上總大久保"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Kominato.Kominato.YoroKeikoku",
                 "latitude": 35.26644,
                 "longitude": 140.1596,
-                "name": "養老渓谷",
-                "nameEn": "Yoro-Keikoku",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Yoro-Keikoku",
+                    "ja": "養老渓谷",
+                    "zh-Hans": "养老溪谷",
+                    "zh-Hant": "養老溪谷"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Kominato.Kominato.KazusaNakano",
                 "latitude": 35.25007,
                 "longitude": 140.1999,
-                "name": "上総中野",
-                "nameEn": "Kazusa-Nakano",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kazusa-Nakano",
+                    "ja": "上総中野",
+                    "zh-Hans": "上总中野",
+                    "zh-Hant": "上總中野"
+                },
                 "stationCode": ""
             }
         ],
@@ -1374,6 +1404,6 @@
                 "type": "Local"
             }
         ],
-        "upHopTimesMinutes": [3.0, 5.0, 3.0, 3.0, 4.0, 4.0, 5.0, 10.0, 3.0, 4.0, 3.0, 4.0, 5.0, 4.0, 5.0, 5.0, 11.0]
+        "upHopTimesMinutes": [3, 5, 3, 3, 4, 4, 5, 10, 3, 4, 3, 4, 5, 4, 5, 5, 11]
     }
 ]

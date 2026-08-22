@@ -2,10 +2,14 @@
     {
         "colorHex": "#00A650",
         "delayInfo": {
-            "checkMethodEn": "Shibayama Railway trains run through to and from the Keisei network, so disruptions are posted on the Keisei train information page. The Shibayama Railway website carries line-specific notices.",
-            "checkMethodJa": "芝山鉄道線は京成線と直通運転しているため、運行情報は京成電鉄「運行情報」ページに掲載されます。芝山鉄道の公式サイトにも路線固有のお知らせが掲載されます。",
-            "statusPageURL": "https://www.keisei.co.jp/traininfo/index.php",
-            "statusPageURLEn": "https://www.keisei.co.jp/traininfo/index.php",
+            "checkMethod": {
+                "en": "Shibayama Railway trains run through to and from the Keisei network, so disruptions are posted on the Keisei train information page. The Shibayama Railway website carries line-specific notices.",
+                "ja": "芝山鉄道線は京成線と直通運転しているため、運行情報は京成電鉄「運行情報」ページに掲載されます。芝山鉄道の公式サイトにも路線固有のお知らせが掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://www.keisei.co.jp/traininfo/index.php",
+                "ja": "https://www.keisei.co.jp/traininfo/index.php"
+            },
             "xAccount": "@keiseirailway"
         },
         "directions": [
@@ -15,8 +19,10 @@
                 "id": "static.RailDirection:Shibayama.Shibayama.ShibayamaChiyoda",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Shibayama-Chiyoda",
-                "nameJa": "芝山千代田方面",
+                "name": {
+                    "en": "For Shibayama-Chiyoda",
+                    "ja": "芝山千代田方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -25,7 +31,7 @@
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 21.0
+                            "headwayMinutes": 21
                         },
                         {
                             "from": "07:00",
@@ -45,11 +51,11 @@
                         },
                         {
                             "from": "11:00",
-                            "headwayMinutes": 40.0
+                            "headwayMinutes": 40
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 43.0
+                            "headwayMinutes": 43
                         },
                         {
                             "from": "18:00",
@@ -57,7 +63,7 @@
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 40.0
+                            "headwayMinutes": 40
                         },
                         {
                             "from": "20:00",
@@ -112,7 +118,7 @@
                         },
                         {
                             "from": "15:00",
-                            "headwayMinutes": 36.0
+                            "headwayMinutes": 36
                         },
                         {
                             "from": "16:00",
@@ -120,15 +126,15 @@
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 33.0
+                            "headwayMinutes": 33
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 28.0
+                            "headwayMinutes": 28
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 30.0
+                            "headwayMinutes": 30
                         },
                         {
                             "from": "20:00",
@@ -154,8 +160,10 @@
                 "id": "static.RailDirection:Shibayama.Shibayama.HigashiNarita",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Higashi-Narita",
-                "nameJa": "東成田方面",
+                "name": {
+                    "en": "For Higashi-Narita",
+                    "ja": "東成田方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -196,7 +204,7 @@
                         },
                         {
                             "from": "20:00",
-                            "headwayMinutes": 37.0
+                            "headwayMinutes": 37
                         },
                         {
                             "from": "21:00",
@@ -247,23 +255,23 @@
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 40.0
+                            "headwayMinutes": 40
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 29.0
+                            "headwayMinutes": 29
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 30.0
+                            "headwayMinutes": 30
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 31.0
+                            "headwayMinutes": 31
                         },
                         {
                             "from": "20:00",
-                            "headwayMinutes": 35.0
+                            "headwayMinutes": 35
                         },
                         {
                             "from": "21:00",
@@ -271,7 +279,7 @@
                         },
                         {
                             "from": "22:00",
-                            "headwayMinutes": 36.0
+                            "headwayMinutes": 36
                         }
                     ],
                     "firstDeparture": "06:08",
@@ -280,33 +288,42 @@
                 }
             }
         ],
-        "hopTimesMinutes": [4.0],
+        "hopTimesMinutes": [4],
         "id": "Railway:Shibayama.Shibayama",
         "isLoop": false,
-        "nameEn": "Shibayama Railway Line",
-        "nameJa": "芝山鉄道線",
+        "name": {
+            "en": "Shibayama Railway Line",
+            "ja": "芝山鉄道線",
+            "ko": "시바야마 철도선",
+            "zh-Hans": "芝山铁道线",
+            "zh-Hant": "芝山鐵道線"
+        },
         "operatorId": "Operator:Shibayama",
         "stations": [
             {
                 "id": "Station:Shibayama.Shibayama.HigashiNarita",
                 "latitude": 35.77009,
                 "longitude": 140.38722,
-                "name": "東成田",
-                "nameEn": "Higashi-Narita",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Higashi-Narita",
+                    "ja": "東成田",
+                    "ko": "히가시나리타",
+                    "zh-Hans": "东成田",
+                    "zh-Hant": "東成田"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Shibayama.Shibayama.ShibayamaChiyoda",
                 "latitude": 35.75406,
                 "longitude": 140.39951,
-                "name": "芝山千代田",
-                "nameEn": "Shibayama-Chiyoda",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shibayama-Chiyoda",
+                    "ja": "芝山千代田",
+                    "ko": "시바야마치요다",
+                    "zh-Hans": "芝山千代田",
+                    "zh-Hant": "芝山千代田"
+                },
                 "stationCode": "SR01"
             }
         ],
@@ -316,10 +333,14 @@
                 "connectingLineId": "Railway:Keisei.HigashiNarita",
                 "end": "descending",
                 "junctionStationId": "Station:Shibayama.Shibayama.HigashiNarita",
-                "lineNameEn": "Keisei Higashi-Narita Line",
-                "lineNameJa": "京成東成田線",
-                "towardEn": "for Keisei-Narita",
-                "towardJa": "京成成田方面"
+                "lineName": {
+                    "en": "Keisei Higashi-Narita Line",
+                    "ja": "京成東成田線"
+                },
+                "toward": {
+                    "en": "for Keisei-Narita",
+                    "ja": "京成成田方面"
+                }
             }
         ],
         "timetableRuns": [
@@ -618,8 +639,10 @@
                 "startsHere": true,
                 "stops": [368, 372],
                 "terminates": false,
-                "throughDestEn": "Keisei-Ueno",
-                "throughDestJa": "京成上野",
+                "throughDest": {
+                    "en": "Keisei-Ueno",
+                    "ja": "京成上野"
+                },
                 "type": "Local"
             },
             {
@@ -629,8 +652,10 @@
                 "startsHere": true,
                 "stops": [397, 401],
                 "terminates": false,
-                "throughDestEn": "Keisei-Ueno",
-                "throughDestJa": "京成上野",
+                "throughDest": {
+                    "en": "Keisei-Ueno",
+                    "ja": "京成上野"
+                },
                 "type": "CommuterLimitedExpress"
             },
             {
@@ -640,8 +665,10 @@
                 "startsHere": true,
                 "stops": [427, 431],
                 "terminates": false,
-                "throughDestEn": "Nishi-magome",
-                "throughDestJa": "西馬込",
+                "throughDest": {
+                    "en": "Nishi-magome",
+                    "ja": "西馬込"
+                },
                 "type": "RapidLimitedExpress"
             },
             {
@@ -651,8 +678,10 @@
                 "startsHere": true,
                 "stops": [443, 447],
                 "terminates": false,
-                "throughDestEn": "Keisei-Ueno",
-                "throughDestJa": "京成上野",
+                "throughDest": {
+                    "en": "Keisei-Ueno",
+                    "ja": "京成上野"
+                },
                 "type": "CommuterLimitedExpress"
             },
             {
@@ -662,8 +691,10 @@
                 "startsHere": true,
                 "stops": [465, 469],
                 "terminates": false,
-                "throughDestEn": "Keisei-Ueno",
-                "throughDestJa": "京成上野",
+                "throughDest": {
+                    "en": "Keisei-Ueno",
+                    "ja": "京成上野"
+                },
                 "type": "CommuterLimitedExpress"
             },
             {
@@ -673,8 +704,10 @@
                 "startsHere": true,
                 "stops": [482, 486],
                 "terminates": false,
-                "throughDestEn": "Keisei-Narita",
-                "throughDestJa": "京成成田",
+                "throughDest": {
+                    "en": "Keisei-Narita",
+                    "ja": "京成成田"
+                },
                 "type": "Local"
             },
             {
@@ -684,8 +717,10 @@
                 "startsHere": true,
                 "stops": [501, 505],
                 "terminates": false,
-                "throughDestEn": "Keisei-Narita",
-                "throughDestJa": "京成成田",
+                "throughDest": {
+                    "en": "Keisei-Narita",
+                    "ja": "京成成田"
+                },
                 "type": "Local"
             },
             {
@@ -695,8 +730,10 @@
                 "startsHere": true,
                 "stops": [529, 533],
                 "terminates": false,
-                "throughDestEn": "Keisei-Narita",
-                "throughDestJa": "京成成田",
+                "throughDest": {
+                    "en": "Keisei-Narita",
+                    "ja": "京成成田"
+                },
                 "type": "Local"
             },
             {
@@ -706,8 +743,10 @@
                 "startsHere": true,
                 "stops": [560, 564],
                 "terminates": false,
-                "throughDestEn": "Keisei-Narita",
-                "throughDestJa": "京成成田",
+                "throughDest": {
+                    "en": "Keisei-Narita",
+                    "ja": "京成成田"
+                },
                 "type": "Local"
             },
             {
@@ -717,8 +756,10 @@
                 "startsHere": true,
                 "stops": [600, 604],
                 "terminates": false,
-                "throughDestEn": "Keisei-Narita",
-                "throughDestJa": "京成成田",
+                "throughDest": {
+                    "en": "Keisei-Narita",
+                    "ja": "京成成田"
+                },
                 "type": "Local"
             },
             {
@@ -728,8 +769,10 @@
                 "startsHere": true,
                 "stops": [640, 644],
                 "terminates": false,
-                "throughDestEn": "Keisei-Narita",
-                "throughDestJa": "京成成田",
+                "throughDest": {
+                    "en": "Keisei-Narita",
+                    "ja": "京成成田"
+                },
                 "type": "Local"
             },
             {
@@ -739,8 +782,10 @@
                 "startsHere": true,
                 "stops": [680, 684],
                 "terminates": false,
-                "throughDestEn": "Keisei-Narita",
-                "throughDestJa": "京成成田",
+                "throughDest": {
+                    "en": "Keisei-Narita",
+                    "ja": "京成成田"
+                },
                 "type": "Local"
             },
             {
@@ -750,8 +795,10 @@
                 "startsHere": true,
                 "stops": [722, 726],
                 "terminates": false,
-                "throughDestEn": "Keisei-Narita",
-                "throughDestJa": "京成成田",
+                "throughDest": {
+                    "en": "Keisei-Narita",
+                    "ja": "京成成田"
+                },
                 "type": "Local"
             },
             {
@@ -761,8 +808,10 @@
                 "startsHere": true,
                 "stops": [767, 771],
                 "terminates": false,
-                "throughDestEn": "Keisei-Narita",
-                "throughDestJa": "京成成田",
+                "throughDest": {
+                    "en": "Keisei-Narita",
+                    "ja": "京成成田"
+                },
                 "type": "Local"
             },
             {
@@ -772,8 +821,10 @@
                 "startsHere": true,
                 "stops": [807, 811],
                 "terminates": false,
-                "throughDestEn": "Keisei-Narita",
-                "throughDestJa": "京成成田",
+                "throughDest": {
+                    "en": "Keisei-Narita",
+                    "ja": "京成成田"
+                },
                 "type": "Local"
             },
             {
@@ -783,8 +834,10 @@
                 "startsHere": true,
                 "stops": [847, 851],
                 "terminates": false,
-                "throughDestEn": "Keisei-Narita",
-                "throughDestJa": "京成成田",
+                "throughDest": {
+                    "en": "Keisei-Narita",
+                    "ja": "京成成田"
+                },
                 "type": "Local"
             },
             {
@@ -794,8 +847,10 @@
                 "startsHere": true,
                 "stops": [887, 891],
                 "terminates": false,
-                "throughDestEn": "Keisei-Narita",
-                "throughDestJa": "京成成田",
+                "throughDest": {
+                    "en": "Keisei-Narita",
+                    "ja": "京成成田"
+                },
                 "type": "Local"
             },
             {
@@ -805,8 +860,10 @@
                 "startsHere": true,
                 "stops": [927, 931],
                 "terminates": false,
-                "throughDestEn": "Keisei-Narita",
-                "throughDestJa": "京成成田",
+                "throughDest": {
+                    "en": "Keisei-Narita",
+                    "ja": "京成成田"
+                },
                 "type": "Local"
             },
             {
@@ -816,8 +873,10 @@
                 "startsHere": true,
                 "stops": [960, 964],
                 "terminates": false,
-                "throughDestEn": "Keisei-Narita",
-                "throughDestJa": "京成成田",
+                "throughDest": {
+                    "en": "Keisei-Narita",
+                    "ja": "京成成田"
+                },
                 "type": "Local"
             },
             {
@@ -827,8 +886,10 @@
                 "startsHere": true,
                 "stops": [1000, 1004],
                 "terminates": false,
-                "throughDestEn": "Keisei-Narita",
-                "throughDestJa": "京成成田",
+                "throughDest": {
+                    "en": "Keisei-Narita",
+                    "ja": "京成成田"
+                },
                 "type": "Local"
             },
             {
@@ -838,8 +899,10 @@
                 "startsHere": true,
                 "stops": [1040, 1044],
                 "terminates": false,
-                "throughDestEn": "Keisei-Narita",
-                "throughDestJa": "京成成田",
+                "throughDest": {
+                    "en": "Keisei-Narita",
+                    "ja": "京成成田"
+                },
                 "type": "Local"
             },
             {
@@ -849,8 +912,10 @@
                 "startsHere": true,
                 "stops": [1075, 1079],
                 "terminates": false,
-                "throughDestEn": "Keisei-Ueno",
-                "throughDestJa": "京成上野",
+                "throughDest": {
+                    "en": "Keisei-Ueno",
+                    "ja": "京成上野"
+                },
                 "type": "Local"
             },
             {
@@ -860,8 +925,10 @@
                 "startsHere": true,
                 "stops": [1098, 1102],
                 "terminates": false,
-                "throughDestEn": "Nishi-magome",
-                "throughDestJa": "西馬込",
+                "throughDest": {
+                    "en": "Nishi-magome",
+                    "ja": "西馬込"
+                },
                 "type": "Rapid"
             },
             {
@@ -871,8 +938,10 @@
                 "startsHere": true,
                 "stops": [1121, 1125],
                 "terminates": false,
-                "throughDestEn": "Keisei-Ueno",
-                "throughDestJa": "京成上野",
+                "throughDest": {
+                    "en": "Keisei-Ueno",
+                    "ja": "京成上野"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -882,8 +951,10 @@
                 "startsHere": true,
                 "stops": [1158, 1162],
                 "terminates": false,
-                "throughDestEn": "Keisei-Ueno",
-                "throughDestJa": "京成上野",
+                "throughDest": {
+                    "en": "Keisei-Ueno",
+                    "ja": "京成上野"
+                },
                 "type": "Local"
             },
             {
@@ -893,8 +964,10 @@
                 "startsHere": true,
                 "stops": [1184, 1188],
                 "terminates": false,
-                "throughDestEn": "Keisei-Narita",
-                "throughDestJa": "京成成田",
+                "throughDest": {
+                    "en": "Keisei-Narita",
+                    "ja": "京成成田"
+                },
                 "type": "Local"
             },
             {
@@ -904,8 +977,10 @@
                 "startsHere": true,
                 "stops": [1220, 1224],
                 "terminates": false,
-                "throughDestEn": "Sogosando",
-                "throughDestJa": "宗吾参道",
+                "throughDest": {
+                    "en": "Sogosando",
+                    "ja": "宗吾参道"
+                },
                 "type": "Local"
             },
             {
@@ -915,8 +990,10 @@
                 "startsHere": true,
                 "stops": [1246, 1250],
                 "terminates": false,
-                "throughDestEn": "Keisei-Narita",
-                "throughDestJa": "京成成田",
+                "throughDest": {
+                    "en": "Keisei-Narita",
+                    "ja": "京成成田"
+                },
                 "type": "Local"
             },
             {
@@ -926,8 +1003,10 @@
                 "startsHere": true,
                 "stops": [1290, 1294],
                 "terminates": false,
-                "throughDestEn": "Keisei-Narita",
-                "throughDestJa": "京成成田",
+                "throughDest": {
+                    "en": "Keisei-Narita",
+                    "ja": "京成成田"
+                },
                 "type": "Local"
             },
             {
@@ -937,8 +1016,10 @@
                 "startsHere": true,
                 "stops": [1331, 1335],
                 "terminates": false,
-                "throughDestEn": "Keisei-Narita",
-                "throughDestJa": "京成成田",
+                "throughDest": {
+                    "en": "Keisei-Narita",
+                    "ja": "京成成田"
+                },
                 "type": "Local"
             },
             {
@@ -948,8 +1029,10 @@
                 "startsHere": true,
                 "stops": [1371, 1375],
                 "terminates": false,
-                "throughDestEn": "Keisei-Narita",
-                "throughDestJa": "京成成田",
+                "throughDest": {
+                    "en": "Keisei-Narita",
+                    "ja": "京成成田"
+                },
                 "type": "Local"
             },
             {
@@ -959,8 +1042,10 @@
                 "startsHere": true,
                 "stops": [1403, 1407],
                 "terminates": false,
-                "throughDestEn": "Keisei-Narita",
-                "throughDestJa": "京成成田",
+                "throughDest": {
+                    "en": "Keisei-Narita",
+                    "ja": "京成成田"
+                },
                 "type": "Local"
             },
             {
@@ -1231,8 +1316,10 @@
                 "startsHere": true,
                 "stops": [366, 370],
                 "terminates": false,
-                "throughDestEn": "Keisei-Ueno",
-                "throughDestJa": "京成上野",
+                "throughDest": {
+                    "en": "Keisei-Ueno",
+                    "ja": "京成上野"
+                },
                 "type": "Local"
             },
             {
@@ -1242,8 +1329,10 @@
                 "startsHere": true,
                 "stops": [395, 399],
                 "terminates": false,
-                "throughDestEn": "Keisei-Ueno",
-                "throughDestJa": "京成上野",
+                "throughDest": {
+                    "en": "Keisei-Ueno",
+                    "ja": "京成上野"
+                },
                 "type": "RapidLimitedExpress"
             },
             {
@@ -1253,8 +1342,10 @@
                 "startsHere": true,
                 "stops": [413, 417],
                 "terminates": false,
-                "throughDestEn": "Keisei-Ueno",
-                "throughDestJa": "京成上野",
+                "throughDest": {
+                    "en": "Keisei-Ueno",
+                    "ja": "京成上野"
+                },
                 "type": "RapidLimitedExpress"
             },
             {
@@ -1264,8 +1355,10 @@
                 "startsHere": true,
                 "stops": [436, 440],
                 "terminates": false,
-                "throughDestEn": "Keisei-Ueno",
-                "throughDestJa": "京成上野",
+                "throughDest": {
+                    "en": "Keisei-Ueno",
+                    "ja": "京成上野"
+                },
                 "type": "RapidLimitedExpress"
             },
             {
@@ -1275,8 +1368,10 @@
                 "startsHere": true,
                 "stops": [477, 481],
                 "terminates": false,
-                "throughDestEn": "Haneda Airport",
-                "throughDestJa": "羽田空港",
+                "throughDest": {
+                    "en": "Haneda Airport",
+                    "ja": "羽田空港"
+                },
                 "type": "Rapid"
             },
             {
@@ -1286,8 +1381,10 @@
                 "startsHere": true,
                 "stops": [511, 515],
                 "terminates": false,
-                "throughDestEn": "Keisei-Ueno",
-                "throughDestJa": "京成上野",
+                "throughDest": {
+                    "en": "Keisei-Ueno",
+                    "ja": "京成上野"
+                },
                 "type": "Local"
             },
             {
@@ -1297,8 +1394,10 @@
                 "startsHere": true,
                 "stops": [537, 541],
                 "terminates": false,
-                "throughDestEn": "Keisei-Narita",
-                "throughDestJa": "京成成田",
+                "throughDest": {
+                    "en": "Keisei-Narita",
+                    "ja": "京成成田"
+                },
                 "type": "Local"
             },
             {
@@ -1308,8 +1407,10 @@
                 "startsHere": true,
                 "stops": [572, 576],
                 "terminates": false,
-                "throughDestEn": "Keisei-Narita",
-                "throughDestJa": "京成成田",
+                "throughDest": {
+                    "en": "Keisei-Narita",
+                    "ja": "京成成田"
+                },
                 "type": "Local"
             },
             {
@@ -1319,8 +1420,10 @@
                 "startsHere": true,
                 "stops": [608, 612],
                 "terminates": false,
-                "throughDestEn": "Keisei-Narita",
-                "throughDestJa": "京成成田",
+                "throughDest": {
+                    "en": "Keisei-Narita",
+                    "ja": "京成成田"
+                },
                 "type": "Local"
             },
             {
@@ -1330,8 +1433,10 @@
                 "startsHere": true,
                 "stops": [647, 651],
                 "terminates": false,
-                "throughDestEn": "Keisei-Narita",
-                "throughDestJa": "京成成田",
+                "throughDest": {
+                    "en": "Keisei-Narita",
+                    "ja": "京成成田"
+                },
                 "type": "Local"
             },
             {
@@ -1341,8 +1446,10 @@
                 "startsHere": true,
                 "stops": [687, 691],
                 "terminates": false,
-                "throughDestEn": "Keisei-Narita",
-                "throughDestJa": "京成成田",
+                "throughDest": {
+                    "en": "Keisei-Narita",
+                    "ja": "京成成田"
+                },
                 "type": "Local"
             },
             {
@@ -1352,8 +1459,10 @@
                 "startsHere": true,
                 "stops": [727, 731],
                 "terminates": false,
-                "throughDestEn": "Keisei-Narita",
-                "throughDestJa": "京成成田",
+                "throughDest": {
+                    "en": "Keisei-Narita",
+                    "ja": "京成成田"
+                },
                 "type": "Local"
             },
             {
@@ -1363,8 +1472,10 @@
                 "startsHere": true,
                 "stops": [767, 771],
                 "terminates": false,
-                "throughDestEn": "Keisei-Narita",
-                "throughDestJa": "京成成田",
+                "throughDest": {
+                    "en": "Keisei-Narita",
+                    "ja": "京成成田"
+                },
                 "type": "Local"
             },
             {
@@ -1374,8 +1485,10 @@
                 "startsHere": true,
                 "stops": [807, 811],
                 "terminates": false,
-                "throughDestEn": "Keisei-Narita",
-                "throughDestJa": "京成成田",
+                "throughDest": {
+                    "en": "Keisei-Narita",
+                    "ja": "京成成田"
+                },
                 "type": "Local"
             },
             {
@@ -1385,8 +1498,10 @@
                 "startsHere": true,
                 "stops": [847, 851],
                 "terminates": false,
-                "throughDestEn": "Keisei-Narita",
-                "throughDestJa": "京成成田",
+                "throughDest": {
+                    "en": "Keisei-Narita",
+                    "ja": "京成成田"
+                },
                 "type": "Local"
             },
             {
@@ -1396,8 +1511,10 @@
                 "startsHere": true,
                 "stops": [887, 891],
                 "terminates": false,
-                "throughDestEn": "Keisei-Narita",
-                "throughDestJa": "京成成田",
+                "throughDest": {
+                    "en": "Keisei-Narita",
+                    "ja": "京成成田"
+                },
                 "type": "Local"
             },
             {
@@ -1407,8 +1524,10 @@
                 "startsHere": true,
                 "stops": [927, 931],
                 "terminates": false,
-                "throughDestEn": "Keisei-Narita",
-                "throughDestJa": "京成成田",
+                "throughDest": {
+                    "en": "Keisei-Narita",
+                    "ja": "京成成田"
+                },
                 "type": "Local"
             },
             {
@@ -1418,8 +1537,10 @@
                 "startsHere": true,
                 "stops": [967, 971],
                 "terminates": false,
-                "throughDestEn": "Keisei-Narita",
-                "throughDestJa": "京成成田",
+                "throughDest": {
+                    "en": "Keisei-Narita",
+                    "ja": "京成成田"
+                },
                 "type": "Local"
             },
             {
@@ -1429,8 +1550,10 @@
                 "startsHere": true,
                 "stops": [1007, 1011],
                 "terminates": false,
-                "throughDestEn": "Keisei-Narita",
-                "throughDestJa": "京成成田",
+                "throughDest": {
+                    "en": "Keisei-Narita",
+                    "ja": "京成成田"
+                },
                 "type": "Local"
             },
             {
@@ -1440,8 +1563,10 @@
                 "startsHere": true,
                 "stops": [1047, 1051],
                 "terminates": false,
-                "throughDestEn": "Keisei-Narita",
-                "throughDestJa": "京成成田",
+                "throughDest": {
+                    "en": "Keisei-Narita",
+                    "ja": "京成成田"
+                },
                 "type": "Local"
             },
             {
@@ -1451,8 +1576,10 @@
                 "startsHere": true,
                 "stops": [1088, 1092],
                 "terminates": false,
-                "throughDestEn": "Keisei-Ueno",
-                "throughDestJa": "京成上野",
+                "throughDest": {
+                    "en": "Keisei-Ueno",
+                    "ja": "京成上野"
+                },
                 "type": "Local"
             },
             {
@@ -1462,8 +1589,10 @@
                 "startsHere": true,
                 "stops": [1129, 1133],
                 "terminates": false,
-                "throughDestEn": "Keisei-Narita",
-                "throughDestJa": "京成成田",
+                "throughDest": {
+                    "en": "Keisei-Narita",
+                    "ja": "京成成田"
+                },
                 "type": "Local"
             },
             {
@@ -1473,8 +1602,10 @@
                 "startsHere": true,
                 "stops": [1167, 1171],
                 "terminates": false,
-                "throughDestEn": "Keisei-Narita",
-                "throughDestJa": "京成成田",
+                "throughDest": {
+                    "en": "Keisei-Narita",
+                    "ja": "京成成田"
+                },
                 "type": "Local"
             },
             {
@@ -1484,8 +1615,10 @@
                 "startsHere": true,
                 "stops": [1207, 1211],
                 "terminates": false,
-                "throughDestEn": "Keisei-Takasago",
-                "throughDestJa": "京成高砂",
+                "throughDest": {
+                    "en": "Keisei-Takasago",
+                    "ja": "京成高砂"
+                },
                 "type": "Rapid"
             },
             {
@@ -1495,8 +1628,10 @@
                 "startsHere": true,
                 "stops": [1250, 1254],
                 "terminates": false,
-                "throughDestEn": "Sogosando",
-                "throughDestJa": "宗吾参道",
+                "throughDest": {
+                    "en": "Sogosando",
+                    "ja": "宗吾参道"
+                },
                 "type": "Local"
             },
             {
@@ -1506,8 +1641,10 @@
                 "startsHere": true,
                 "stops": [1281, 1285],
                 "terminates": false,
-                "throughDestEn": "Sogosando",
-                "throughDestJa": "宗吾参道",
+                "throughDest": {
+                    "en": "Sogosando",
+                    "ja": "宗吾参道"
+                },
                 "type": "Local"
             },
             {
@@ -1517,8 +1654,10 @@
                 "startsHere": true,
                 "stops": [1312, 1316],
                 "terminates": false,
-                "throughDestEn": "Keisei-Narita",
-                "throughDestJa": "京成成田",
+                "throughDest": {
+                    "en": "Keisei-Narita",
+                    "ja": "京成成田"
+                },
                 "type": "Local"
             },
             {
@@ -1528,8 +1667,10 @@
                 "startsHere": true,
                 "stops": [1344, 1348],
                 "terminates": false,
-                "throughDestEn": "Keisei-Narita",
-                "throughDestJa": "京成成田",
+                "throughDest": {
+                    "en": "Keisei-Narita",
+                    "ja": "京成成田"
+                },
                 "type": "Local"
             },
             {
@@ -1539,8 +1680,10 @@
                 "startsHere": true,
                 "stops": [1376, 1380],
                 "terminates": false,
-                "throughDestEn": "Keisei-Narita",
-                "throughDestJa": "京成成田",
+                "throughDest": {
+                    "en": "Keisei-Narita",
+                    "ja": "京成成田"
+                },
                 "type": "Local"
             }
         ]

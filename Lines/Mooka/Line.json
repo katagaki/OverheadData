@@ -2,10 +2,14 @@
     {
         "colorHex": "#1A214D",
         "delayInfo": {
-            "checkMethodEn": "Check the Mooka Railway website. Suspensions and delays are posted in the notices on the top page.",
-            "checkMethodJa": "真岡鐵道の公式サイトで確認できます。運転見合わせ・遅延はトップページのお知らせに掲載されます。",
-            "statusPageURL": "https://www.moka-railway.co.jp/",
-            "statusPageURLEn": "https://www.moka-railway.co.jp/",
+            "checkMethod": {
+                "en": "Check the Mooka Railway website. Suspensions and delays are posted in the notices on the top page.",
+                "ja": "真岡鐵道の公式サイトで確認できます。運転見合わせ・遅延はトップページのお知らせに掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://www.moka-railway.co.jp/",
+                "ja": "https://www.moka-railway.co.jp/"
+            },
             "xAccount": null
         },
         "directions": [
@@ -15,17 +19,19 @@
                 "id": "static.RailDirection:Mooka.Mooka.Motegi",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Motegi",
-                "nameJa": "茂木方面",
+                "name": {
+                    "en": "For Motegi",
+                    "ja": "茂木方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
                             "from": "06:01",
-                            "headwayMinutes": 45.0
+                            "headwayMinutes": 45
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 36.0
+                            "headwayMinutes": 36
                         },
                         {
                             "from": "08:00",
@@ -33,27 +39,27 @@
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 35.0
+                            "headwayMinutes": 35
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 53.0
+                            "headwayMinutes": 53
                         },
                         {
                             "from": "11:00",
-                            "headwayMinutes": 54.0
+                            "headwayMinutes": 54
                         },
                         {
                             "from": "12:00",
-                            "headwayMinutes": 60.0
+                            "headwayMinutes": 60
                         },
                         {
                             "from": "13:00",
-                            "headwayMinutes": 89.0
+                            "headwayMinutes": 89
                         },
                         {
                             "from": "14:00",
-                            "headwayMinutes": 31.0
+                            "headwayMinutes": 31
                         },
                         {
                             "from": "15:00",
@@ -65,7 +71,7 @@
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 63.0
+                            "headwayMinutes": 63
                         },
                         {
                             "from": "18:00",
@@ -73,15 +79,15 @@
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 72.0
+                            "headwayMinutes": 72
                         },
                         {
                             "from": "20:00",
-                            "headwayMinutes": 45.0
+                            "headwayMinutes": 45
                         },
                         {
                             "from": "21:00",
-                            "headwayMinutes": 67.0
+                            "headwayMinutes": 67
                         }
                     ],
                     "firstDeparture": "06:01",
@@ -92,11 +98,11 @@
                     "bands": [
                         {
                             "from": "06:01",
-                            "headwayMinutes": 45.0
+                            "headwayMinutes": 45
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 36.0
+                            "headwayMinutes": 36
                         },
                         {
                             "from": "08:00",
@@ -104,27 +110,27 @@
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 35.0
+                            "headwayMinutes": 35
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 53.0
+                            "headwayMinutes": 53
                         },
                         {
                             "from": "11:00",
-                            "headwayMinutes": 54.0
+                            "headwayMinutes": 54
                         },
                         {
                             "from": "12:00",
-                            "headwayMinutes": 60.0
+                            "headwayMinutes": 60
                         },
                         {
                             "from": "13:00",
-                            "headwayMinutes": 89.0
+                            "headwayMinutes": 89
                         },
                         {
                             "from": "14:00",
-                            "headwayMinutes": 31.0
+                            "headwayMinutes": 31
                         },
                         {
                             "from": "15:00",
@@ -136,7 +142,7 @@
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 63.0
+                            "headwayMinutes": 63
                         },
                         {
                             "from": "18:00",
@@ -144,15 +150,15 @@
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 72.0
+                            "headwayMinutes": 72
                         },
                         {
                             "from": "20:00",
-                            "headwayMinutes": 45.0
+                            "headwayMinutes": 45
                         },
                         {
                             "from": "21:00",
-                            "headwayMinutes": 67.0
+                            "headwayMinutes": 67
                         }
                     ],
                     "firstDeparture": "06:01",
@@ -166,73 +172,75 @@
                 "id": "static.RailDirection:Mooka.Mooka.Shimodate",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Shimodate",
-                "nameJa": "下館方面",
+                "name": {
+                    "en": "For Shimodate",
+                    "ja": "下館方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
                             "from": "05:23",
-                            "headwayMinutes": 73.0
+                            "headwayMinutes": 73
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 49.0
+                            "headwayMinutes": 49
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 50.0
+                            "headwayMinutes": 50
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 40.0
+                            "headwayMinutes": 40
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 33.0
+                            "headwayMinutes": 33
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 47.0
+                            "headwayMinutes": 47
                         },
                         {
                             "from": "11:00",
-                            "headwayMinutes": 61.0
+                            "headwayMinutes": 61
                         },
                         {
                             "from": "12:00",
-                            "headwayMinutes": 41.0
+                            "headwayMinutes": 41
                         },
                         {
                             "from": "13:00",
-                            "headwayMinutes": 49.0
+                            "headwayMinutes": 49
                         },
                         {
                             "from": "14:00",
-                            "headwayMinutes": 65.0
+                            "headwayMinutes": 65
                         },
                         {
                             "from": "15:00",
-                            "headwayMinutes": 34.0
+                            "headwayMinutes": 34
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 36.0
+                            "headwayMinutes": 36
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 44.0
+                            "headwayMinutes": 44
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 33.0
+                            "headwayMinutes": 33
                         },
                         {
                             "from": "20:00",
-                            "headwayMinutes": 54.0
+                            "headwayMinutes": 54
                         },
                         {
                             "from": "21:00",
-                            "headwayMinutes": 53.0
+                            "headwayMinutes": 53
                         }
                     ],
                     "firstDeparture": "05:23",
@@ -243,67 +251,67 @@
                     "bands": [
                         {
                             "from": "05:23",
-                            "headwayMinutes": 73.0
+                            "headwayMinutes": 73
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 49.0
+                            "headwayMinutes": 49
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 50.0
+                            "headwayMinutes": 50
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 40.0
+                            "headwayMinutes": 40
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 33.0
+                            "headwayMinutes": 33
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 47.0
+                            "headwayMinutes": 47
                         },
                         {
                             "from": "11:00",
-                            "headwayMinutes": 61.0
+                            "headwayMinutes": 61
                         },
                         {
                             "from": "12:00",
-                            "headwayMinutes": 41.0
+                            "headwayMinutes": 41
                         },
                         {
                             "from": "13:00",
-                            "headwayMinutes": 49.0
+                            "headwayMinutes": 49
                         },
                         {
                             "from": "14:00",
-                            "headwayMinutes": 65.0
+                            "headwayMinutes": 65
                         },
                         {
                             "from": "15:00",
-                            "headwayMinutes": 34.0
+                            "headwayMinutes": 34
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 36.0
+                            "headwayMinutes": 36
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 44.0
+                            "headwayMinutes": 44
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 33.0
+                            "headwayMinutes": 33
                         },
                         {
                             "from": "20:00",
-                            "headwayMinutes": 54.0
+                            "headwayMinutes": 54
                         },
                         {
                             "from": "21:00",
-                            "headwayMinutes": 53.0
+                            "headwayMinutes": 53
                         }
                     ],
                     "firstDeparture": "05:23",
@@ -312,198 +320,237 @@
                 }
             }
         ],
-        "hopTimesMinutes": [3.0, 4.0, 4.0, 4.0, 5.0, 9.0, 3.0, 5.0, 3.0, 4.0, 5.0, 4.0, 5.0, 5.0, 2.0, 4.0],
+        "hopTimesMinutes": [3, 4, 4, 4, 5, 9, 3, 5, 3, 4, 5, 4, 5, 5, 2, 4],
         "id": "Railway:Mooka.Mooka",
         "isLoop": false,
-        "nameEn": "Mooka Railway Mooka Line",
-        "nameJa": "真岡鐵道真岡線",
+        "name": {
+            "en": "Mooka Railway Mooka Line",
+            "ja": "真岡鐵道真岡線",
+            "ko": "모카 철도 모카선",
+            "zh-Hans": "真冈线",
+            "zh-Hant": "真岡線"
+        },
         "operatorId": "Operator:Mooka",
         "stations": [
             {
                 "id": "Station:Mooka.Mooka.Shimodate",
                 "latitude": 36.30417,
                 "longitude": 139.9787,
-                "name": "下館",
-                "nameEn": "Shimodate",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shimodate",
+                    "ja": "下館",
+                    "ko": "시모다테",
+                    "zh-Hans": "下馆",
+                    "zh-Hant": "下館"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Mooka.Mooka.ShimodateNikomae",
                 "latitude": 36.31933,
                 "longitude": 139.97203,
-                "name": "下館二高前",
-                "nameEn": "Shimodate-Nikomae",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shimodate-Nikomae",
+                    "ja": "下館二高前",
+                    "ko": "시모다테니코마에",
+                    "zh-Hans": "下馆二高前",
+                    "zh-Hant": "下館二高前"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Mooka.Mooka.Orimoto",
                 "latitude": 36.34062,
                 "longitude": 139.97124,
-                "name": "折本",
-                "nameEn": "Orimoto",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Orimoto",
+                    "ja": "折本",
+                    "ko": "오리모토",
+                    "zh-Hans": "折本",
+                    "zh-Hant": "折本"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Mooka.Mooka.Higuchi",
                 "latitude": 36.35848,
                 "longitude": 139.97045,
-                "name": "ひぐち",
-                "nameEn": "Higuchi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Higuchi",
+                    "ja": "ひぐち",
+                    "ko": "히구치",
+                    "zh-Hans": "樋口",
+                    "zh-Hant": "樋口"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Mooka.Mooka.Kugeta",
                 "latitude": 36.37581,
                 "longitude": 139.97153,
-                "name": "久下田",
-                "nameEn": "Kugeta",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kugeta",
+                    "ja": "久下田",
+                    "ko": "구게타",
+                    "zh-Hans": "久下田",
+                    "zh-Hant": "久下田"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Mooka.Mooka.Terauchi",
                 "latitude": 36.41104,
                 "longitude": 139.9801,
-                "name": "寺内",
-                "nameEn": "Terauchi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Terauchi",
+                    "ja": "寺内",
+                    "ko": "데라우치",
+                    "zh-Hans": "寺内",
+                    "zh-Hant": "寺內"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Mooka.Mooka.Mooka",
                 "latitude": 36.43938,
                 "longitude": 140.00276,
-                "name": "真岡",
-                "nameEn": "Mooka",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Mooka",
+                    "ja": "真岡",
+                    "ko": "모카",
+                    "zh-Hans": "真冈",
+                    "zh-Hant": "真岡"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Mooka.Mooka.KitaMoka",
                 "latitude": 36.44909,
                 "longitude": 140.01387,
-                "name": "北真岡",
-                "nameEn": "Kita-Moka",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kita-Moka",
+                    "ja": "北真岡",
+                    "ko": "기타모카",
+                    "zh-Hans": "北真冈",
+                    "zh-Hant": "北真岡"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Mooka.Mooka.Nishidai",
                 "latitude": 36.45339,
                 "longitude": 140.04872,
-                "name": "西田井",
-                "nameEn": "Nishidai",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nishidai",
+                    "ja": "西田井",
+                    "ko": "니시다이",
+                    "zh-Hans": "西田井",
+                    "zh-Hant": "西田井"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Mooka.Mooka.Kitayama",
                 "latitude": 36.45571,
                 "longitude": 140.06765,
-                "name": "北山",
-                "nameEn": "Kitayama",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kitayama",
+                    "ja": "北山",
+                    "ko": "기타야마",
+                    "zh-Hans": "北山",
+                    "zh-Hant": "北山"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Mooka.Mooka.Mashiko",
                 "latitude": 36.4632,
                 "longitude": 140.08872,
-                "name": "益子",
-                "nameEn": "Mashiko",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Mashiko",
+                    "ja": "益子",
+                    "ko": "마시코",
+                    "zh-Hans": "益子",
+                    "zh-Hant": "益子"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Mooka.Mooka.Nanai",
                 "latitude": 36.4922,
                 "longitude": 140.09441,
-                "name": "七井",
-                "nameEn": "Nanai",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Nanai",
+                    "ja": "七井",
+                    "ko": "나나이",
+                    "zh-Hans": "七井",
+                    "zh-Hant": "七井"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Mooka.Mooka.Tatara",
                 "latitude": 36.5159,
                 "longitude": 140.08991,
-                "name": "多田羅",
-                "nameEn": "Tatara",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tatara",
+                    "ja": "多田羅",
+                    "ko": "다타라",
+                    "zh-Hans": "多田罗",
+                    "zh-Hant": "多田羅"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Mooka.Mooka.Ichihana",
                 "latitude": 36.53816,
                 "longitude": 140.11036,
-                "name": "市塙",
-                "nameEn": "Ichihana",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ichihana",
+                    "ja": "市塙",
+                    "ko": "이치하나",
+                    "zh-Hans": "市塙",
+                    "zh-Hant": "市塙"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Mooka.Mooka.Sasaharada",
                 "latitude": 36.53367,
                 "longitude": 140.14541,
-                "name": "笹原田",
-                "nameEn": "Sasaharada",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Sasaharada",
+                    "ja": "笹原田",
+                    "ko": "사사하라다",
+                    "zh-Hans": "笹原田",
+                    "zh-Hant": "笹原田"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Mooka.Mooka.Tenyaba",
                 "latitude": 36.52928,
                 "longitude": 140.15595,
-                "name": "天矢場",
-                "nameEn": "Ten-yaba",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Ten-yaba",
+                    "ja": "天矢場",
+                    "ko": "덴야바",
+                    "zh-Hans": "天矢场",
+                    "zh-Hant": "天矢場"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:Mooka.Mooka.Motegi",
                 "latitude": 36.53074,
                 "longitude": 140.18142,
-                "name": "茂木",
-                "nameEn": "Motegi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Motegi",
+                    "ja": "茂木",
+                    "ko": "모테기",
+                    "zh-Hans": "茂木",
+                    "zh-Hant": "茂木"
+                },
                 "stationCode": ""
             }
         ],
@@ -1411,6 +1458,6 @@
                 "type": "Local"
             }
         ],
-        "upHopTimesMinutes": [3.0, 3.0, 4.0, 3.0, 6.0, 5.0, 7.0, 4.0, 3.0, 3.0, 4.0, 5.0, 4.0, 6.0, 2.0, 5.0]
+        "upHopTimesMinutes": [3, 3, 4, 3, 6, 5, 7, 4, 3, 3, 4, 5, 4, 6, 2, 5]
     }
 ]

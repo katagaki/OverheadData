@@ -2,10 +2,14 @@
     {
         "colorHex": "#EC7B02",
         "delayInfo": {
-            "checkMethodEn": "Check the Keisei train information page, the Keisei app, or X (@keiseirailway). Delays and suspensions are posted as they occur.",
-            "checkMethodJa": "京成電鉄「運行情報」ページ、京成アプリ、またはX（@keiseirailway）で確認できます。遅延・運転見合わせが発生した場合に掲載されます。",
-            "statusPageURL": "https://www.keisei.co.jp/traininfo/index.php",
-            "statusPageURLEn": "https://www.keisei.co.jp/traininfo/index.php",
+            "checkMethod": {
+                "en": "Check the Keisei train information page, the Keisei app, or X (@keiseirailway). Delays and suspensions are posted as they occur.",
+                "ja": "京成電鉄「運行情報」ページ、京成アプリ、またはX（@keiseirailway）で確認できます。遅延・運転見合わせが発生した場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://www.keisei.co.jp/traininfo/index.php",
+                "ja": "https://www.keisei.co.jp/traininfo/index.php"
+            },
             "xAccount": "@keiseirailway"
         },
         "directions": [
@@ -15,8 +19,10 @@
                 "id": "static.RailDirection:Keisei.NaritaSkyAccess.NaritaAirport",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Narita Airport",
-                "nameJa": "成田空港方面",
+                "name": {
+                    "en": "For Narita Airport",
+                    "ja": "成田空港方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -62,8 +68,10 @@
                 "id": "static.RailDirection:Keisei.NaritaSkyAccess.KeiseiTakasago",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Keisei-Takasago",
-                "nameJa": "京成高砂方面",
+                "name": {
+                    "en": "For Keisei-Takasago",
+                    "ja": "京成高砂方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
@@ -107,96 +115,114 @@
         "hopTimesMinutes": [8, 5, 9, 7, 7, 8, 2],
         "id": "Railway:Keisei.NaritaSkyAccess",
         "isLoop": false,
-        "nameEn": "Narita Sky Access Line",
-        "nameJa": "成田スカイアクセス線",
+        "name": {
+            "en": "Narita Sky Access Line",
+            "ja": "成田スカイアクセス線"
+        },
         "operatorId": "Operator:Keisei",
         "stations": [
             {
                 "id": "Station:Keisei.NaritaSkyAccess.KeiseiTakasago",
                 "latitude": 35.75094,
                 "longitude": 139.867122,
-                "name": "京成高砂",
-                "nameEn": "Keisei-Takasago",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Keisei-Takasago",
+                    "ja": "京成高砂",
+                    "ko": "게이세이 다카사고",
+                    "zh-Hans": "京成高砂",
+                    "zh-Hant": "京成高砂"
+                },
                 "stationCode": "KS10"
             },
             {
                 "id": "Station:Keisei.NaritaSkyAccess.HigashiMatsudo",
                 "latitude": 35.7699,
                 "longitude": 139.9429,
-                "name": "東松戸",
-                "nameEn": "Higashi-Matsudo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Higashi-Matsudo",
+                    "ja": "東松戸",
+                    "ko": "히가시마쓰도",
+                    "zh-Hans": "东松户",
+                    "zh-Hant": "東松戶"
+                },
                 "stationCode": "HS05"
             },
             {
                 "id": "Station:Keisei.NaritaSkyAccess.ShinKamagaya",
                 "latitude": 35.7795,
                 "longitude": 139.9983,
-                "name": "新鎌ヶ谷",
-                "nameEn": "Shin-Kamagaya",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Shin-Kamagaya",
+                    "ja": "新鎌ヶ谷",
+                    "ko": "신카마가야",
+                    "zh-Hans": "新镰谷",
+                    "zh-Hant": "新鎌谷"
+                },
                 "stationCode": "HS08"
             },
             {
                 "id": "Station:Keisei.NaritaSkyAccess.ChibaNewTown",
                 "latitude": 35.8002,
                 "longitude": 140.1164,
-                "name": "千葉ニュータウン中央",
-                "nameEn": "Chiba New Town Chuo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Chiba New Town Chuo",
+                    "ja": "千葉ニュータウン中央",
+                    "ko": "지바뉴타운추오",
+                    "zh-Hans": "千叶新市镇中央",
+                    "zh-Hant": "千葉新市鎮中央"
+                },
                 "stationCode": "HS12"
             },
             {
                 "id": "Station:Keisei.NaritaSkyAccess.ImbaNihonIdai",
                 "latitude": 35.7876,
                 "longitude": 140.2033,
-                "name": "印旛日本医大",
-                "nameEn": "Imba-Nihon-Idai",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Imba-Nihon-Idai",
+                    "ja": "印旛日本医大",
+                    "ko": "인바니혼이다이",
+                    "zh-Hans": "印旛日本医大",
+                    "zh-Hant": "印旛日本醫大"
+                },
                 "stationCode": "HS14"
             },
             {
                 "id": "Station:Keisei.NaritaSkyAccess.NaritaYukawa",
                 "latitude": 35.7996,
                 "longitude": 140.2911,
-                "name": "成田湯川",
-                "nameEn": "Narita-Yukawa",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Narita-Yukawa",
+                    "ja": "成田湯川",
+                    "ko": "나리타유카와",
+                    "zh-Hans": "成田汤川",
+                    "zh-Hant": "成田湯川"
+                },
                 "stationCode": "KS43"
             },
             {
                 "id": "Station:Keisei.NaritaSkyAccess.AirportTerminal2",
                 "latitude": 35.773197,
                 "longitude": 140.387212,
-                "name": "空港第2ビル",
-                "nameEn": "Narita Airport Terminal 2·3",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Narita Airport Terminal 2·3",
+                    "ja": "空港第2ビル",
+                    "ko": "공항 제2빌딩",
+                    "zh-Hans": "机场第2大楼",
+                    "zh-Hant": "機場第2大樓"
+                },
                 "stationCode": "KS41"
             },
             {
                 "id": "Station:Keisei.NaritaSkyAccess.NaritaAirport",
                 "latitude": 35.765397,
                 "longitude": 140.38599,
-                "name": "成田空港",
-                "nameEn": "Narita Airport Terminal 1",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Narita Airport Terminal 1",
+                    "ja": "成田空港",
+                    "ko": "나리타 공항",
+                    "zh-Hans": "成田机场",
+                    "zh-Hant": "成田機場"
+                },
                 "stationCode": "KS42"
             }
         ],
@@ -206,10 +232,14 @@
                 "connectingLineId": "Railway:Keisei.Main",
                 "end": "descending",
                 "junctionStationId": "Station:Keisei.NaritaSkyAccess.KeiseiTakasago",
-                "lineNameEn": "Keisei Main Line",
-                "lineNameJa": "京成本線",
-                "towardEn": "for Keisei-Ueno",
-                "towardJa": "京成上野方面"
+                "lineName": {
+                    "en": "Keisei Main Line",
+                    "ja": "京成本線"
+                },
+                "toward": {
+                    "en": "for Keisei-Ueno",
+                    "ja": "京成上野方面"
+                }
             }
         ]
     }

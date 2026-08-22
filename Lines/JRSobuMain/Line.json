@@ -2,10 +2,14 @@
     {
         "colorHex": "#0072BC",
         "delayInfo": {
-            "checkMethodEn": "Check the JR East Train Operation Information page or the JR East app. In the Tokyo area, delays or suspensions of 15 minutes or more are posted.",
-            "checkMethodJa": "JR東日本「列車運行情報」ページまたはJR東日本アプリで確認できます。首都圏エリアでは15分以上の遅れ・運休が発生または見込まれる場合に掲載されます。",
-            "statusPageURL": "https://traininfo.jreast.co.jp/train_info/line.aspx?gid=1&lineid=sobuline",
-            "statusPageURLEn": "https://traininfo.jreast.co.jp/train_info/e/kanto.aspx",
+            "checkMethod": {
+                "en": "Check the JR East Train Operation Information page or the JR East app. In the Tokyo area, delays or suspensions of 15 minutes or more are posted.",
+                "ja": "JR東日本「列車運行情報」ページまたはJR東日本アプリで確認できます。首都圏エリアでは15分以上の遅れ・運休が発生または見込まれる場合に掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://traininfo.jreast.co.jp/train_info/e/kanto.aspx",
+                "ja": "https://traininfo.jreast.co.jp/train_info/line.aspx?gid=1&lineid=sobuline"
+            },
             "xAccount": "@JRE_F_Sobu"
         },
         "directions": [
@@ -15,17 +19,19 @@
                 "id": "static.RailDirection:JR-East.Sobu.Choshi",
                 "intermediateOrigins": [],
                 "isAscending": true,
-                "nameEn": "For Choshi",
-                "nameJa": "銚子方面",
+                "name": {
+                    "en": "For Choshi",
+                    "ja": "銚子方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
                             "from": "04:50",
-                            "headwayMinutes": 43.0
+                            "headwayMinutes": 43
                         },
                         {
                             "from": "05:00",
-                            "headwayMinutes": 31.0
+                            "headwayMinutes": 31
                         },
                         {
                             "from": "06:00",
@@ -33,39 +39,39 @@
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 48.0
+                            "headwayMinutes": 48
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 28.0
+                            "headwayMinutes": 28
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 30.0
+                            "headwayMinutes": 30
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 23.0
+                            "headwayMinutes": 23
                         },
                         {
                             "from": "11:00",
-                            "headwayMinutes": 30.0
+                            "headwayMinutes": 30
                         },
                         {
                             "from": "12:00",
-                            "headwayMinutes": 29.0
+                            "headwayMinutes": 29
                         },
                         {
                             "from": "13:00",
-                            "headwayMinutes": 31.0
+                            "headwayMinutes": 31
                         },
                         {
                             "from": "14:00",
-                            "headwayMinutes": 28.0
+                            "headwayMinutes": 28
                         },
                         {
                             "from": "15:00",
-                            "headwayMinutes": 29.0
+                            "headwayMinutes": 29
                         },
                         {
                             "from": "16:00",
@@ -73,23 +79,23 @@
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 14.0
+                            "headwayMinutes": 14
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 11.0
+                            "headwayMinutes": 11
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 16.0
+                            "headwayMinutes": 16
                         },
                         {
                             "from": "20:00",
-                            "headwayMinutes": 18.0
+                            "headwayMinutes": 18
                         },
                         {
                             "from": "21:00",
-                            "headwayMinutes": 23.0
+                            "headwayMinutes": 23
                         },
                         {
                             "from": "22:00",
@@ -97,7 +103,7 @@
                         },
                         {
                             "from": "23:00",
-                            "headwayMinutes": 45.0
+                            "headwayMinutes": 45
                         }
                     ],
                     "firstDeparture": "04:50",
@@ -108,51 +114,51 @@
                     "bands": [
                         {
                             "from": "04:50",
-                            "headwayMinutes": 43.0
+                            "headwayMinutes": 43
                         },
                         {
                             "from": "05:00",
-                            "headwayMinutes": 31.0
+                            "headwayMinutes": 31
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 10.0
+                            "headwayMinutes": 10
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 48.0
+                            "headwayMinutes": 48
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 28.0
+                            "headwayMinutes": 28
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 30.0
+                            "headwayMinutes": 30
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 23.0
+                            "headwayMinutes": 23
                         },
                         {
                             "from": "11:00",
-                            "headwayMinutes": 30.0
+                            "headwayMinutes": 30
                         },
                         {
                             "from": "12:00",
-                            "headwayMinutes": 29.0
+                            "headwayMinutes": 29
                         },
                         {
                             "from": "13:00",
-                            "headwayMinutes": 31.0
+                            "headwayMinutes": 31
                         },
                         {
                             "from": "14:00",
-                            "headwayMinutes": 28.0
+                            "headwayMinutes": 28
                         },
                         {
                             "from": "15:00",
-                            "headwayMinutes": 29.0
+                            "headwayMinutes": 29
                         },
                         {
                             "from": "16:00",
@@ -160,19 +166,19 @@
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 14.0
+                            "headwayMinutes": 14
                         },
                         {
                             "from": "18:00",
-                            "headwayMinutes": 11.0
+                            "headwayMinutes": 11
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 16.0
+                            "headwayMinutes": 16
                         },
                         {
                             "from": "20:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "21:00",
@@ -198,25 +204,27 @@
                 "id": "static.RailDirection:JR-East.Sobu.Chiba",
                 "intermediateOrigins": [],
                 "isAscending": false,
-                "nameEn": "For Chiba",
-                "nameJa": "千葉方面",
+                "name": {
+                    "en": "For Chiba",
+                    "ja": "千葉方面"
+                },
                 "saturdayHoliday": {
                     "bands": [
                         {
                             "from": "04:55",
-                            "headwayMinutes": 13.0
+                            "headwayMinutes": 13
                         },
                         {
                             "from": "05:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 23.0
+                            "headwayMinutes": 23
                         },
                         {
                             "from": "08:00",
@@ -224,23 +232,23 @@
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 22.0
+                            "headwayMinutes": 22
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "11:00",
-                            "headwayMinutes": 21.0
+                            "headwayMinutes": 21
                         },
                         {
                             "from": "12:00",
-                            "headwayMinutes": 27.0
+                            "headwayMinutes": 27
                         },
                         {
                             "from": "13:00",
-                            "headwayMinutes": 16.0
+                            "headwayMinutes": 16
                         },
                         {
                             "from": "14:00",
@@ -248,15 +256,15 @@
                         },
                         {
                             "from": "15:00",
-                            "headwayMinutes": 49.0
+                            "headwayMinutes": 49
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 25.0
+                            "headwayMinutes": 25
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 18.0
+                            "headwayMinutes": 18
                         },
                         {
                             "from": "18:00",
@@ -264,15 +272,15 @@
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 26.0
+                            "headwayMinutes": 26
                         },
                         {
                             "from": "20:00",
-                            "headwayMinutes": 45.0
+                            "headwayMinutes": 45
                         },
                         {
                             "from": "21:00",
-                            "headwayMinutes": 25.0
+                            "headwayMinutes": 25
                         }
                     ],
                     "firstDeparture": "04:55",
@@ -283,19 +291,19 @@
                     "bands": [
                         {
                             "from": "04:55",
-                            "headwayMinutes": 13.0
+                            "headwayMinutes": 13
                         },
                         {
                             "from": "05:00",
-                            "headwayMinutes": 15.0
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "06:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 23.0
+                            "headwayMinutes": 23
                         },
                         {
                             "from": "08:00",
@@ -303,23 +311,23 @@
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 22.0
+                            "headwayMinutes": 22
                         },
                         {
                             "from": "10:00",
-                            "headwayMinutes": 20.0
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "11:00",
-                            "headwayMinutes": 21.0
+                            "headwayMinutes": 21
                         },
                         {
                             "from": "12:00",
-                            "headwayMinutes": 27.0
+                            "headwayMinutes": 27
                         },
                         {
                             "from": "13:00",
-                            "headwayMinutes": 16.0
+                            "headwayMinutes": 16
                         },
                         {
                             "from": "14:00",
@@ -327,15 +335,15 @@
                         },
                         {
                             "from": "15:00",
-                            "headwayMinutes": 49.0
+                            "headwayMinutes": 49
                         },
                         {
                             "from": "16:00",
-                            "headwayMinutes": 25.0
+                            "headwayMinutes": 25
                         },
                         {
                             "from": "17:00",
-                            "headwayMinutes": 18.0
+                            "headwayMinutes": 18
                         },
                         {
                             "from": "18:00",
@@ -343,15 +351,15 @@
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 26.0
+                            "headwayMinutes": 26
                         },
                         {
                             "from": "20:00",
-                            "headwayMinutes": 45.0
+                            "headwayMinutes": 45
                         },
                         {
                             "from": "21:00",
-                            "headwayMinutes": 25.0
+                            "headwayMinutes": 25
                         }
                     ],
                     "firstDeparture": "04:55",
@@ -360,11 +368,16 @@
                 }
             }
         ],
-        "hopTimesMinutes": [2.0, 4.0, 4.0, 4.0, 5.0, 5.0, 4.0, 4.0, 7.0, 5.0, 6.0, 5.0, 4.0, 4.0, 5.0, 5.0, 3.0, 4.0, 4.0, 6.0, 5.0],
+        "hopTimesMinutes": [2, 4, 4, 4, 5, 5, 4, 4, 7, 5, 6, 5, 4, 4, 5, 5, 3, 4, 4, 6, 5],
         "id": "Railway:JR-East.Sobu",
         "isLoop": false,
-        "nameEn": "Sobu Main Line",
-        "nameJa": "総武本線",
+        "name": {
+            "en": "Sobu Main Line",
+            "ja": "総武本線",
+            "ko": "소부 본선",
+            "zh-Hans": "总武本线",
+            "zh-Hant": "總武本線"
+        },
         "operatorId": "Operator:JR-East",
         "segment": "DokoTrain",
         "stations": [
@@ -372,242 +385,286 @@
                 "id": "Station:JR-East.Sobu.Chiba",
                 "latitude": 35.6136,
                 "longitude": 140.11355,
-                "name": "千葉",
-                "nameEn": "Chiba",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Chiba",
+                    "ja": "千葉",
+                    "ko": "지바",
+                    "zh-Hans": "千叶",
+                    "zh-Hant": "千葉"
+                },
                 "stationCode": "JO28"
             },
             {
                 "id": "Station:JR-East.Sobu.HigashiChiba",
                 "latitude": 35.61712,
                 "longitude": 140.12242,
-                "name": "東千葉",
-                "nameEn": "Higashi-Chiba",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Higashi-Chiba",
+                    "ja": "東千葉",
+                    "ko": "히가시치바",
+                    "zh-Hans": "东千叶",
+                    "zh-Hant": "東千葉"
+                },
                 "stationCode": "JO29"
             },
             {
                 "id": "Station:JR-East.Sobu.Tsuga",
                 "latitude": 35.63602,
                 "longitude": 140.14918,
-                "name": "都賀",
-                "nameEn": "Tsuga",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Tsuga",
+                    "ja": "都賀",
+                    "ko": "쓰가",
+                    "zh-Hans": "都贺",
+                    "zh-Hant": "都賀"
+                },
                 "stationCode": "JO30"
             },
             {
                 "id": "Station:JR-East.Sobu.Yotsukaido",
                 "latitude": 35.66279,
                 "longitude": 140.1649,
-                "name": "四街道",
-                "nameEn": "Yotsukaido",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Yotsukaido",
+                    "ja": "四街道",
+                    "ko": "요쓰카이도",
+                    "zh-Hans": "四街道",
+                    "zh-Hant": "四街道"
+                },
                 "stationCode": "JO31"
             },
             {
                 "id": "Station:JR-East.Sobu.Monoi",
                 "latitude": 35.68572,
                 "longitude": 140.20032,
-                "name": "物井",
-                "nameEn": "Monoi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Monoi",
+                    "ja": "物井",
+                    "ko": "모노이",
+                    "zh-Hans": "物井",
+                    "zh-Hant": "物井"
+                },
                 "stationCode": "JO32"
             },
             {
                 "id": "Station:JR-East.Sobu.Sakura",
                 "latitude": 35.70974,
                 "longitude": 140.22678,
-                "name": "佐倉",
-                "nameEn": "Sakura",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Sakura",
+                    "ja": "佐倉",
+                    "ko": "사쿠라",
+                    "zh-Hans": "佐仓",
+                    "zh-Hant": "佐倉"
+                },
                 "stationCode": "JO33"
             },
             {
                 "id": "Station:JR-East.Sobu.MinamiShisui",
                 "latitude": 35.7043,
                 "longitude": 140.26794,
-                "name": "南酒々井",
-                "nameEn": "Minami-Shisui",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Minami-Shisui",
+                    "ja": "南酒々井",
+                    "ko": "미나미시스이",
+                    "zh-Hans": "南酒酒井",
+                    "zh-Hant": "南酒酒井"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Sobu.Enokido",
                 "latitude": 35.68408,
                 "longitude": 140.28812,
-                "name": "榎戸",
-                "nameEn": "Enokido",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Enokido",
+                    "ja": "榎戸",
+                    "ko": "에노키도",
+                    "zh-Hans": "榎户",
+                    "zh-Hant": "榎戶"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Sobu.Yachimata",
                 "latitude": 35.66318,
                 "longitude": 140.31742,
-                "name": "八街",
-                "nameEn": "Yachimata",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Yachimata",
+                    "ja": "八街",
+                    "ko": "야치마타",
+                    "zh-Hans": "八街",
+                    "zh-Hant": "八街"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Sobu.Hyuga",
                 "latitude": 35.6283,
                 "longitude": 140.36243,
-                "name": "日向",
-                "nameEn": "Hyuga",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Hyuga",
+                    "ja": "日向",
+                    "ko": "휴가",
+                    "zh-Hans": "日向",
+                    "zh-Hant": "日向"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Sobu.Naruto",
                 "latitude": 35.60854,
                 "longitude": 140.41028,
-                "name": "成東",
-                "nameEn": "Naruto",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Naruto",
+                    "ja": "成東",
+                    "ko": "나루토",
+                    "zh-Hans": "成东",
+                    "zh-Hant": "成東"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Sobu.Matsuo",
                 "latitude": 35.63636,
                 "longitude": 140.45808,
-                "name": "松尾",
-                "nameEn": "Matsuo",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Matsuo",
+                    "ja": "松尾",
+                    "ko": "마쓰오",
+                    "zh-Hans": "松尾",
+                    "zh-Hant": "松尾"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Sobu.Yokoshiba",
                 "latitude": 35.66178,
                 "longitude": 140.49078,
-                "name": "横芝",
-                "nameEn": "Yokoshiba",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Yokoshiba",
+                    "ja": "横芝",
+                    "ko": "요코시바",
+                    "zh-Hans": "横芝",
+                    "zh-Hant": "橫芝"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Sobu.Iigura",
                 "latitude": 35.68509,
                 "longitude": 140.52142,
-                "name": "飯倉",
-                "nameEn": "Iigura",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Iigura",
+                    "ja": "飯倉",
+                    "ko": "이구라",
+                    "zh-Hans": "饭仓",
+                    "zh-Hant": "飯倉"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Sobu.Yokaichiba",
                 "latitude": 35.6993,
                 "longitude": 140.5524,
-                "name": "八日市場",
-                "nameEn": "Yokaichiba",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Yokaichiba",
+                    "ja": "八日市場",
+                    "ko": "요카이치바",
+                    "zh-Hans": "八日市场",
+                    "zh-Hant": "八日市場"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Sobu.Higata",
                 "latitude": 35.71834,
                 "longitude": 140.60331,
-                "name": "干潟",
-                "nameEn": "Higata",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Higata",
+                    "ja": "干潟",
+                    "ko": "히가타",
+                    "zh-Hans": "干潟",
+                    "zh-Hant": "幹潟"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Sobu.Asahi",
                 "latitude": 35.72184,
                 "longitude": 140.65469,
-                "name": "旭",
-                "nameEn": "Asahi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Asahi",
+                    "ja": "旭",
+                    "ko": "아사히",
+                    "zh-Hans": "旭",
+                    "zh-Hant": "旭"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Sobu.Iioka",
                 "latitude": 35.72938,
                 "longitude": 140.68335,
-                "name": "飯岡",
-                "nameEn": "Iioka",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Iioka",
+                    "ja": "飯岡",
+                    "ko": "이오카",
+                    "zh-Hans": "饭冈",
+                    "zh-Hant": "飯岡"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Sobu.Kurahashi",
                 "latitude": 35.73776,
                 "longitude": 140.71399,
-                "name": "倉橋",
-                "nameEn": "Kurahashi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Kurahashi",
+                    "ja": "倉橋",
+                    "ko": "구라하시",
+                    "zh-Hans": "仓桥",
+                    "zh-Hant": "倉橋"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Sobu.Saruda",
                 "latitude": 35.74735,
                 "longitude": 140.73736,
-                "name": "猿田",
-                "nameEn": "Saruda",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Saruda",
+                    "ja": "猿田",
+                    "ko": "사루다",
+                    "zh-Hans": "猿田",
+                    "zh-Hant": "猿田"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Sobu.Matsugishi",
                 "latitude": 35.73938,
                 "longitude": 140.7952,
-                "name": "松岸",
-                "nameEn": "Matsugishi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Matsugishi",
+                    "ja": "松岸",
+                    "ko": "마쓰기시",
+                    "zh-Hans": "松岸",
+                    "zh-Hant": "松岸"
+                },
                 "stationCode": ""
             },
             {
                 "id": "Station:JR-East.Sobu.Choshi",
                 "latitude": 35.72932,
                 "longitude": 140.82746,
-                "name": "銚子",
-                "nameEn": "Choshi",
-                "nameKo": "",
-                "nameZhHans": "",
-                "nameZhHant": "",
+                "name": {
+                    "en": "Choshi",
+                    "ja": "銚子",
+                    "ko": "조시",
+                    "zh-Hans": "銚子",
+                    "zh-Hant": "銚子"
+                },
                 "stationCode": ""
             }
         ],
@@ -621,8 +678,10 @@
                 "startsHere": true,
                 "stops": [290, 292, 296, 300, 304, 308],
                 "terminates": false,
-                "throughDestEn": "Shiishiba",
-                "throughDestJa": "椎柴",
+                "throughDest": {
+                    "en": "Shiishiba",
+                    "ja": "椎柴"
+                },
                 "type": "Local"
             },
             {
@@ -650,8 +709,10 @@
                 "startsHere": true,
                 "stops": [364, 366, 370, 373, 377, 382],
                 "terminates": false,
-                "throughDestEn": "Shiishiba",
-                "throughDestJa": "椎柴",
+                "throughDest": {
+                    "en": "Shiishiba",
+                    "ja": "椎柴"
+                },
                 "type": "Local"
             },
             {
@@ -679,8 +740,10 @@
                 "startsHere": true,
                 "stops": [406, 408, 412, 416, 420, 424],
                 "terminates": false,
-                "throughDestEn": "Shiishiba",
-                "throughDestJa": "椎柴",
+                "throughDest": {
+                    "en": "Shiishiba",
+                    "ja": "椎柴"
+                },
                 "type": "Local"
             },
             {
@@ -969,8 +1032,10 @@
                 "startsHere": true,
                 "stops": [1022, 1024, 1028, 1032, 1037, 1041],
                 "terminates": false,
-                "throughDestEn": "Shiishiba",
-                "throughDestJa": "椎柴",
+                "throughDest": {
+                    "en": "Shiishiba",
+                    "ja": "椎柴"
+                },
                 "type": "Local"
             },
             {
@@ -1025,8 +1090,10 @@
                 "startsHere": true,
                 "stops": [1090, 1093, 1097, 1101, 1106, 1113],
                 "terminates": false,
-                "throughDestEn": "Shiishiba",
-                "throughDestJa": "椎柴",
+                "throughDest": {
+                    "en": "Shiishiba",
+                    "ja": "椎柴"
+                },
                 "type": "Local"
             },
             {
@@ -1090,8 +1157,10 @@
                 "startsHere": true,
                 "stops": [1176, 1178, 1182, 1186, 1190, 1195],
                 "terminates": false,
-                "throughDestEn": "Shiishiba",
-                "throughDestJa": "椎柴",
+                "throughDest": {
+                    "en": "Shiishiba",
+                    "ja": "椎柴"
+                },
                 "type": "Local"
             },
             {
@@ -1128,8 +1197,10 @@
                 "startsHere": true,
                 "stops": [1242, 1245, 1249, 1253, 1257, 1262],
                 "terminates": false,
-                "throughDestEn": "Shiishiba",
-                "throughDestJa": "椎柴",
+                "throughDest": {
+                    "en": "Shiishiba",
+                    "ja": "椎柴"
+                },
                 "type": "Local"
             },
             {
@@ -1175,8 +1246,10 @@
                 "startsHere": true,
                 "stops": [1346, 1348, 1352, 1356, 1360, 1364],
                 "terminates": false,
-                "throughDestEn": "Shiishiba",
-                "throughDestJa": "椎柴",
+                "throughDest": {
+                    "en": "Shiishiba",
+                    "ja": "椎柴"
+                },
                 "type": "Local"
             },
             {
@@ -1222,8 +1295,10 @@
                 "startsHere": true,
                 "stops": [308, 312],
                 "terminates": false,
-                "throughDestEn": "Shisui",
-                "throughDestJa": "酒々井",
+                "throughDest": {
+                    "en": "Shisui",
+                    "ja": "酒々井"
+                },
                 "type": "Local"
             },
             {
@@ -1269,8 +1344,10 @@
                 "startsHere": true,
                 "stops": [348, 352],
                 "terminates": false,
-                "throughDestEn": "Shisui",
-                "throughDestJa": "酒々井",
+                "throughDest": {
+                    "en": "Shisui",
+                    "ja": "酒々井"
+                },
                 "type": "Local"
             },
             {
@@ -1289,8 +1366,10 @@
                 "startsHere": true,
                 "stops": [385, 389],
                 "terminates": false,
-                "throughDestEn": "Shisui",
-                "throughDestJa": "酒々井",
+                "throughDest": {
+                    "en": "Shisui",
+                    "ja": "酒々井"
+                },
                 "type": "Local"
             },
             {
@@ -1336,8 +1415,10 @@
                 "startsHere": true,
                 "stops": [433, 437],
                 "terminates": false,
-                "throughDestEn": "Shisui",
-                "throughDestJa": "酒々井",
+                "throughDest": {
+                    "en": "Shisui",
+                    "ja": "酒々井"
+                },
                 "type": "Local"
             },
             {
@@ -1356,8 +1437,10 @@
                 "startsHere": true,
                 "stops": [462, -1, -1, -1, 475, 481, -1, 490, -1, 497, -1, 507, -1, 518, -1, -1, 529, -1, 536, -1, -1, 543],
                 "terminates": false,
-                "throughDestEn": "Tokyo",
-                "throughDestJa": "東京",
+                "throughDest": {
+                    "en": "Tokyo",
+                    "ja": "東京"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -1385,8 +1468,10 @@
                 "startsHere": true,
                 "stops": [503, 507],
                 "terminates": false,
-                "throughDestEn": "Shisui",
-                "throughDestJa": "酒々井",
+                "throughDest": {
+                    "en": "Shisui",
+                    "ja": "酒々井"
+                },
                 "type": "Local"
             },
             {
@@ -1414,8 +1499,10 @@
                 "startsHere": true,
                 "stops": [561, 566],
                 "terminates": false,
-                "throughDestEn": "Shisui",
-                "throughDestJa": "酒々井",
+                "throughDest": {
+                    "en": "Shisui",
+                    "ja": "酒々井"
+                },
                 "type": "Local"
             },
             {
@@ -1452,8 +1539,10 @@
                 "startsHere": true,
                 "stops": [611, -1, -1, -1, 624, 627, -1, 637, -1, 645, -1, 655, -1, 670, -1, -1, 682, -1, -1, -1, -1, 697],
                 "terminates": false,
-                "throughDestEn": "Tokyo",
-                "throughDestJa": "東京",
+                "throughDest": {
+                    "en": "Tokyo",
+                    "ja": "東京"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -1463,8 +1552,10 @@
                 "startsHere": true,
                 "stops": [623, 628],
                 "terminates": false,
-                "throughDestEn": "Shisui",
-                "throughDestJa": "酒々井",
+                "throughDest": {
+                    "en": "Shisui",
+                    "ja": "酒々井"
+                },
                 "type": "Local"
             },
             {
@@ -1501,8 +1592,10 @@
                 "startsHere": true,
                 "stops": [727, 731],
                 "terminates": false,
-                "throughDestEn": "Shisui",
-                "throughDestJa": "酒々井",
+                "throughDest": {
+                    "en": "Shisui",
+                    "ja": "酒々井"
+                },
                 "type": "Local"
             },
             {
@@ -1521,8 +1614,10 @@
                 "startsHere": true,
                 "stops": [742, -1, -1, -1, 755, 758, -1, 767, -1, 774, -1, 784, -1, 795, -1, -1, 806, -1, -1, -1, -1, 818],
                 "terminates": false,
-                "throughDestEn": "Tokyo",
-                "throughDestJa": "東京",
+                "throughDest": {
+                    "en": "Tokyo",
+                    "ja": "東京"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -1568,8 +1663,10 @@
                 "startsHere": true,
                 "stops": [845, 849],
                 "terminates": false,
-                "throughDestEn": "Shisui",
-                "throughDestJa": "酒々井",
+                "throughDest": {
+                    "en": "Shisui",
+                    "ja": "酒々井"
+                },
                 "type": "Local"
             },
             {
@@ -1606,8 +1703,10 @@
                 "startsHere": true,
                 "stops": [906, 910],
                 "terminates": false,
-                "throughDestEn": "Shisui",
-                "throughDestJa": "酒々井",
+                "throughDest": {
+                    "en": "Shisui",
+                    "ja": "酒々井"
+                },
                 "type": "Local"
             },
             {
@@ -1662,8 +1761,10 @@
                 "startsHere": true,
                 "stops": [1029, 1036],
                 "terminates": false,
-                "throughDestEn": "Shisui",
-                "throughDestJa": "酒々井",
+                "throughDest": {
+                    "en": "Shisui",
+                    "ja": "酒々井"
+                },
                 "type": "Local"
             },
             {
@@ -1691,8 +1792,10 @@
                 "startsHere": true,
                 "stops": [1055, -1, -1, -1, 1068, 1072, -1, 1081, -1, 1088, -1, 1099, -1, 1114, -1, -1, 1124, -1, -1, -1, -1, 1138],
                 "terminates": false,
-                "throughDestEn": "Tokyo",
-                "throughDestJa": "東京",
+                "throughDest": {
+                    "en": "Tokyo",
+                    "ja": "東京"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -1738,8 +1841,10 @@
                 "startsHere": true,
                 "stops": [1110, 1118],
                 "terminates": false,
-                "throughDestEn": "Shisui",
-                "throughDestJa": "酒々井",
+                "throughDest": {
+                    "en": "Shisui",
+                    "ja": "酒々井"
+                },
                 "type": "Local"
             },
             {
@@ -1794,8 +1899,10 @@
                 "startsHere": true,
                 "stops": [1187, 1195],
                 "terminates": false,
-                "throughDestEn": "Shisui",
-                "throughDestJa": "酒々井",
+                "throughDest": {
+                    "en": "Shisui",
+                    "ja": "酒々井"
+                },
                 "type": "Local"
             },
             {
@@ -1850,8 +1957,10 @@
                 "startsHere": true,
                 "stops": [1291, 1295],
                 "terminates": false,
-                "throughDestEn": "Shisui",
-                "throughDestJa": "酒々井",
+                "throughDest": {
+                    "en": "Shisui",
+                    "ja": "酒々井"
+                },
                 "type": "Local"
             },
             {
@@ -1897,8 +2006,10 @@
                 "startsHere": true,
                 "stops": [290, 292, 296, 300, 304, 308],
                 "terminates": false,
-                "throughDestEn": "Shiishiba",
-                "throughDestJa": "椎柴",
+                "throughDest": {
+                    "en": "Shiishiba",
+                    "ja": "椎柴"
+                },
                 "type": "Local"
             },
             {
@@ -1926,8 +2037,10 @@
                 "startsHere": true,
                 "stops": [364, 366, 370, 373, 377, 382],
                 "terminates": false,
-                "throughDestEn": "Shiishiba",
-                "throughDestJa": "椎柴",
+                "throughDest": {
+                    "en": "Shiishiba",
+                    "ja": "椎柴"
+                },
                 "type": "Local"
             },
             {
@@ -1973,8 +2086,10 @@
                 "startsHere": true,
                 "stops": [406, 408, 412, 416, 420, 424],
                 "terminates": false,
-                "throughDestEn": "Shiishiba",
-                "throughDestJa": "椎柴",
+                "throughDest": {
+                    "en": "Shiishiba",
+                    "ja": "椎柴"
+                },
                 "type": "Local"
             },
             {
@@ -2263,8 +2378,10 @@
                 "startsHere": true,
                 "stops": [1022, 1024, 1028, 1032, 1037, 1041],
                 "terminates": false,
-                "throughDestEn": "Shiishiba",
-                "throughDestJa": "椎柴",
+                "throughDest": {
+                    "en": "Shiishiba",
+                    "ja": "椎柴"
+                },
                 "type": "Local"
             },
             {
@@ -2319,8 +2436,10 @@
                 "startsHere": true,
                 "stops": [1090, 1093, 1097, 1101, 1106, 1113],
                 "terminates": false,
-                "throughDestEn": "Shiishiba",
-                "throughDestJa": "椎柴",
+                "throughDest": {
+                    "en": "Shiishiba",
+                    "ja": "椎柴"
+                },
                 "type": "Local"
             },
             {
@@ -2384,8 +2503,10 @@
                 "startsHere": true,
                 "stops": [1176, 1178, 1182, 1186, 1190, 1195],
                 "terminates": false,
-                "throughDestEn": "Shiishiba",
-                "throughDestJa": "椎柴",
+                "throughDest": {
+                    "en": "Shiishiba",
+                    "ja": "椎柴"
+                },
                 "type": "Local"
             },
             {
@@ -2431,8 +2552,10 @@
                 "startsHere": true,
                 "stops": [1242, 1245, 1249, 1253, 1257, 1262],
                 "terminates": false,
-                "throughDestEn": "Shiishiba",
-                "throughDestJa": "椎柴",
+                "throughDest": {
+                    "en": "Shiishiba",
+                    "ja": "椎柴"
+                },
                 "type": "Local"
             },
             {
@@ -2514,8 +2637,10 @@
                 "startsHere": true,
                 "stops": [1346, 1348, 1352, 1356, 1360, 1364],
                 "terminates": false,
-                "throughDestEn": "Shiishiba",
-                "throughDestJa": "椎柴",
+                "throughDest": {
+                    "en": "Shiishiba",
+                    "ja": "椎柴"
+                },
                 "type": "Local"
             },
             {
@@ -2579,8 +2704,10 @@
                 "startsHere": true,
                 "stops": [308, 312],
                 "terminates": false,
-                "throughDestEn": "Shisui",
-                "throughDestJa": "酒々井",
+                "throughDest": {
+                    "en": "Shisui",
+                    "ja": "酒々井"
+                },
                 "type": "Local"
             },
             {
@@ -2608,8 +2735,10 @@
                 "startsHere": true,
                 "stops": [336, 340, 344, 347, -1, 353],
                 "terminates": false,
-                "throughDestEn": "Kurihama",
-                "throughDestJa": "久里浜",
+                "throughDest": {
+                    "en": "Kurihama",
+                    "ja": "久里浜"
+                },
                 "type": "Rapid"
             },
             {
@@ -2637,8 +2766,10 @@
                 "startsHere": true,
                 "stops": [348, 352],
                 "terminates": false,
-                "throughDestEn": "Shisui",
-                "throughDestJa": "酒々井",
+                "throughDest": {
+                    "en": "Shisui",
+                    "ja": "酒々井"
+                },
                 "type": "Local"
             },
             {
@@ -2648,8 +2779,10 @@
                 "startsHere": true,
                 "stops": [356, 360, 364, 368, -1, 374],
                 "terminates": false,
-                "throughDestEn": "Zushi",
-                "throughDestJa": "逗子",
+                "throughDest": {
+                    "en": "Zushi",
+                    "ja": "逗子"
+                },
                 "type": "Rapid"
             },
             {
@@ -2668,8 +2801,10 @@
                 "startsHere": true,
                 "stops": [365, -1, 379, -1, -1, 390, -1, 397, -1, -1, 405],
                 "terminates": false,
-                "throughDestEn": "Tokyo",
-                "throughDestJa": "東京",
+                "throughDest": {
+                    "en": "Tokyo",
+                    "ja": "東京"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -2679,8 +2814,10 @@
                 "startsHere": false,
                 "stops": [379, 383, 388, 392, -1, 400],
                 "terminates": false,
-                "throughDestEn": "Zushi",
-                "throughDestJa": "逗子",
+                "throughDest": {
+                    "en": "Zushi",
+                    "ja": "逗子"
+                },
                 "type": "Rapid"
             },
             {
@@ -2690,8 +2827,10 @@
                 "startsHere": true,
                 "stops": [385, 389],
                 "terminates": false,
-                "throughDestEn": "Shisui",
-                "throughDestJa": "酒々井",
+                "throughDest": {
+                    "en": "Shisui",
+                    "ja": "酒々井"
+                },
                 "type": "Local"
             },
             {
@@ -2719,8 +2858,10 @@
                 "startsHere": true,
                 "stops": [399, 403, 408, 412, -1, 417],
                 "terminates": false,
-                "throughDestEn": "Tokyo",
-                "throughDestJa": "東京",
+                "throughDest": {
+                    "en": "Tokyo",
+                    "ja": "東京"
+                },
                 "type": "Rapid"
             },
             {
@@ -2739,8 +2880,10 @@
                 "startsHere": true,
                 "stops": [412, -1, 419, -1, -1, 427],
                 "terminates": false,
-                "throughDestEn": "Tokyo",
-                "throughDestJa": "東京",
+                "throughDest": {
+                    "en": "Tokyo",
+                    "ja": "東京"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -2750,8 +2893,10 @@
                 "startsHere": false,
                 "stops": [417, 421, 425, 429, -1, 434],
                 "terminates": false,
-                "throughDestEn": "Ofuna",
-                "throughDestJa": "大船",
+                "throughDest": {
+                    "en": "Ofuna",
+                    "ja": "大船"
+                },
                 "type": "Rapid"
             },
             {
@@ -2770,8 +2915,10 @@
                 "startsHere": true,
                 "stops": [424, -1, 431, -1, -1, 440],
                 "terminates": false,
-                "throughDestEn": "Tokyo",
-                "throughDestJa": "東京",
+                "throughDest": {
+                    "en": "Tokyo",
+                    "ja": "東京"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -2781,8 +2928,10 @@
                 "startsHere": true,
                 "stops": [425, -1, 439, -1, -1, 459, 464, 468, 473, -1, 483],
                 "terminates": false,
-                "throughDestEn": "Ofuna",
-                "throughDestJa": "大船",
+                "throughDest": {
+                    "en": "Ofuna",
+                    "ja": "大船"
+                },
                 "type": "Rapid"
             },
             {
@@ -2792,8 +2941,10 @@
                 "startsHere": true,
                 "stops": [426, 430, 435, 439, -1, 447],
                 "terminates": false,
-                "throughDestEn": "Zushi",
-                "throughDestJa": "逗子",
+                "throughDest": {
+                    "en": "Zushi",
+                    "ja": "逗子"
+                },
                 "type": "Rapid"
             },
             {
@@ -2803,8 +2954,10 @@
                 "startsHere": true,
                 "stops": [433, 437],
                 "terminates": false,
-                "throughDestEn": "Shisui",
-                "throughDestJa": "酒々井",
+                "throughDest": {
+                    "en": "Shisui",
+                    "ja": "酒々井"
+                },
                 "type": "Local"
             },
             {
@@ -2814,8 +2967,10 @@
                 "startsHere": false,
                 "stops": [437, 442, 446, 450, -1, 456],
                 "terminates": false,
-                "throughDestEn": "Ofuna",
-                "throughDestJa": "大船",
+                "throughDest": {
+                    "en": "Ofuna",
+                    "ja": "大船"
+                },
                 "type": "Rapid"
             },
             {
@@ -2834,8 +2989,10 @@
                 "startsHere": false,
                 "stops": [444, 448, 453, 457, -1, 463],
                 "terminates": false,
-                "throughDestEn": "Ofuna",
-                "throughDestJa": "大船",
+                "throughDest": {
+                    "en": "Ofuna",
+                    "ja": "大船"
+                },
                 "type": "Rapid"
             },
             {
@@ -2845,8 +3002,10 @@
                 "startsHere": true,
                 "stops": [462, -1, -1, -1, 475, 481, -1, 490, -1, 497, -1, 507, -1, 518, -1, -1, 529, -1, 536, -1, -1, 543],
                 "terminates": false,
-                "throughDestEn": "Tokyo",
-                "throughDestJa": "東京",
+                "throughDest": {
+                    "en": "Tokyo",
+                    "ja": "東京"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -2856,8 +3015,10 @@
                 "startsHere": false,
                 "stops": [471, 475, 480, 484, -1, 489],
                 "terminates": false,
-                "throughDestEn": "Tokyo",
-                "throughDestJa": "東京",
+                "throughDest": {
+                    "en": "Tokyo",
+                    "ja": "東京"
+                },
                 "type": "Rapid"
             },
             {
@@ -2867,8 +3028,10 @@
                 "startsHere": false,
                 "stops": [480, -1, 486, -1, -1, 494],
                 "terminates": false,
-                "throughDestEn": "Shinjuku",
-                "throughDestJa": "新宿",
+                "throughDest": {
+                    "en": "Shinjuku",
+                    "ja": "新宿"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -2896,8 +3059,10 @@
                 "startsHere": true,
                 "stops": [503, 507],
                 "terminates": false,
-                "throughDestEn": "Shisui",
-                "throughDestJa": "酒々井",
+                "throughDest": {
+                    "en": "Shisui",
+                    "ja": "酒々井"
+                },
                 "type": "Local"
             },
             {
@@ -2907,8 +3072,10 @@
                 "startsHere": false,
                 "stops": [508, 512, 516, 520, -1, 526],
                 "terminates": false,
-                "throughDestEn": "Ofuna",
-                "throughDestJa": "大船",
+                "throughDest": {
+                    "en": "Ofuna",
+                    "ja": "大船"
+                },
                 "type": "Rapid"
             },
             {
@@ -2936,8 +3103,10 @@
                 "startsHere": true,
                 "stops": [561, 566],
                 "terminates": false,
-                "throughDestEn": "Shisui",
-                "throughDestJa": "酒々井",
+                "throughDest": {
+                    "en": "Shisui",
+                    "ja": "酒々井"
+                },
                 "type": "Local"
             },
             {
@@ -2947,8 +3116,10 @@
                 "startsHere": false,
                 "stops": [570, 574, 578, 582, -1, 594],
                 "terminates": false,
-                "throughDestEn": "Zushi",
-                "throughDestJa": "逗子",
+                "throughDest": {
+                    "en": "Zushi",
+                    "ja": "逗子"
+                },
                 "type": "Rapid"
             },
             {
@@ -2985,8 +3156,10 @@
                 "startsHere": true,
                 "stops": [611, -1, -1, -1, 624, 627, -1, 637, -1, 645, -1, 655, -1, 670, -1, -1, 682, -1, -1, -1, -1, 697],
                 "terminates": false,
-                "throughDestEn": "Tokyo",
-                "throughDestJa": "東京",
+                "throughDest": {
+                    "en": "Tokyo",
+                    "ja": "東京"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -2996,8 +3169,10 @@
                 "startsHere": true,
                 "stops": [623, 628],
                 "terminates": false,
-                "throughDestEn": "Shisui",
-                "throughDestJa": "酒々井",
+                "throughDest": {
+                    "en": "Shisui",
+                    "ja": "酒々井"
+                },
                 "type": "Local"
             },
             {
@@ -3007,8 +3182,10 @@
                 "startsHere": false,
                 "stops": [630, 634, 638, 642, -1, 652],
                 "terminates": false,
-                "throughDestEn": "Zushi",
-                "throughDestJa": "逗子",
+                "throughDest": {
+                    "en": "Zushi",
+                    "ja": "逗子"
+                },
                 "type": "Rapid"
             },
             {
@@ -3036,8 +3213,10 @@
                 "startsHere": false,
                 "stops": [690, 694, 698, 702, -1, 712],
                 "terminates": false,
-                "throughDestEn": "Zushi",
-                "throughDestJa": "逗子",
+                "throughDest": {
+                    "en": "Zushi",
+                    "ja": "逗子"
+                },
                 "type": "Rapid"
             },
             {
@@ -3056,8 +3235,10 @@
                 "startsHere": true,
                 "stops": [727, 731],
                 "terminates": false,
-                "throughDestEn": "Shisui",
-                "throughDestJa": "酒々井",
+                "throughDest": {
+                    "en": "Shisui",
+                    "ja": "酒々井"
+                },
                 "type": "Local"
             },
             {
@@ -3076,8 +3257,10 @@
                 "startsHere": true,
                 "stops": [742, -1, -1, -1, 755, 758, -1, 767, -1, 774, -1, 784, -1, 795, -1, -1, 806, -1, -1, -1, -1, 818],
                 "terminates": false,
-                "throughDestEn": "Tokyo",
-                "throughDestJa": "東京",
+                "throughDest": {
+                    "en": "Tokyo",
+                    "ja": "東京"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -3087,8 +3270,10 @@
                 "startsHere": false,
                 "stops": [750, 754, 758, 762, -1, 772],
                 "terminates": false,
-                "throughDestEn": "Zushi",
-                "throughDestJa": "逗子",
+                "throughDest": {
+                    "en": "Zushi",
+                    "ja": "逗子"
+                },
                 "type": "Rapid"
             },
             {
@@ -3125,8 +3310,10 @@
                 "startsHere": false,
                 "stops": [810, 814, 818, 822, -1, 832],
                 "terminates": false,
-                "throughDestEn": "Zushi",
-                "throughDestJa": "逗子",
+                "throughDest": {
+                    "en": "Zushi",
+                    "ja": "逗子"
+                },
                 "type": "Rapid"
             },
             {
@@ -3145,8 +3332,10 @@
                 "startsHere": true,
                 "stops": [845, 849],
                 "terminates": false,
-                "throughDestEn": "Shisui",
-                "throughDestJa": "酒々井",
+                "throughDest": {
+                    "en": "Shisui",
+                    "ja": "酒々井"
+                },
                 "type": "Local"
             },
             {
@@ -3165,8 +3354,10 @@
                 "startsHere": false,
                 "stops": [870, 874, 878, 882, -1, 892],
                 "terminates": false,
-                "throughDestEn": "Zushi",
-                "throughDestJa": "逗子",
+                "throughDest": {
+                    "en": "Zushi",
+                    "ja": "逗子"
+                },
                 "type": "Rapid"
             },
             {
@@ -3194,8 +3385,10 @@
                 "startsHere": true,
                 "stops": [906, 910],
                 "terminates": false,
-                "throughDestEn": "Shisui",
-                "throughDestJa": "酒々井",
+                "throughDest": {
+                    "en": "Shisui",
+                    "ja": "酒々井"
+                },
                 "type": "Local"
             },
             {
@@ -3214,8 +3407,10 @@
                 "startsHere": false,
                 "stops": [930, 934, 938, 942, -1, 952],
                 "terminates": false,
-                "throughDestEn": "Zushi",
-                "throughDestJa": "逗子",
+                "throughDest": {
+                    "en": "Zushi",
+                    "ja": "逗子"
+                },
                 "type": "Rapid"
             },
             {
@@ -3243,8 +3438,10 @@
                 "startsHere": false,
                 "stops": [986, 990, 994, 998, -1, 1005],
                 "terminates": false,
-                "throughDestEn": "Zushi",
-                "throughDestJa": "逗子",
+                "throughDest": {
+                    "en": "Zushi",
+                    "ja": "逗子"
+                },
                 "type": "Rapid"
             },
             {
@@ -3272,8 +3469,10 @@
                 "startsHere": true,
                 "stops": [1029, 1036],
                 "terminates": false,
-                "throughDestEn": "Shisui",
-                "throughDestJa": "酒々井",
+                "throughDest": {
+                    "en": "Shisui",
+                    "ja": "酒々井"
+                },
                 "type": "Local"
             },
             {
@@ -3301,8 +3500,10 @@
                 "startsHere": false,
                 "stops": [1047, 1051, 1056, 1059, -1, 1065],
                 "terminates": false,
-                "throughDestEn": "Kurihama",
-                "throughDestJa": "久里浜",
+                "throughDest": {
+                    "en": "Kurihama",
+                    "ja": "久里浜"
+                },
                 "type": "Rapid"
             },
             {
@@ -3312,8 +3513,10 @@
                 "startsHere": true,
                 "stops": [1055, -1, -1, -1, 1068, 1072, -1, 1081, -1, 1088, -1, 1099, -1, 1114, -1, -1, 1124, -1, -1, -1, -1, 1138],
                 "terminates": false,
-                "throughDestEn": "Tokyo",
-                "throughDestJa": "東京",
+                "throughDest": {
+                    "en": "Tokyo",
+                    "ja": "東京"
+                },
                 "type": "LimitedExpress"
             },
             {
@@ -3359,8 +3562,10 @@
                 "startsHere": false,
                 "stops": [1107, 1111, 1115, 1119, -1, 1125],
                 "terminates": false,
-                "throughDestEn": "Kurihama",
-                "throughDestJa": "久里浜",
+                "throughDest": {
+                    "en": "Kurihama",
+                    "ja": "久里浜"
+                },
                 "type": "Rapid"
             },
             {
@@ -3370,8 +3575,10 @@
                 "startsHere": true,
                 "stops": [1110, 1118],
                 "terminates": false,
-                "throughDestEn": "Shisui",
-                "throughDestJa": "酒々井",
+                "throughDest": {
+                    "en": "Shisui",
+                    "ja": "酒々井"
+                },
                 "type": "Local"
             },
             {
@@ -3390,8 +3597,10 @@
                 "startsHere": false,
                 "stops": [1139, 1143, 1148, 1151, -1, 1165],
                 "terminates": false,
-                "throughDestEn": "Kurihama",
-                "throughDestJa": "久里浜",
+                "throughDest": {
+                    "en": "Kurihama",
+                    "ja": "久里浜"
+                },
                 "type": "Rapid"
             },
             {
@@ -3419,8 +3628,10 @@
                 "startsHere": false,
                 "stops": [1166, 1170, 1175, 1178, -1, 1191],
                 "terminates": false,
-                "throughDestEn": "Tokyo",
-                "throughDestJa": "東京",
+                "throughDest": {
+                    "en": "Tokyo",
+                    "ja": "東京"
+                },
                 "type": "Rapid"
             },
             {
@@ -3448,8 +3659,10 @@
                 "startsHere": true,
                 "stops": [1187, 1195],
                 "terminates": false,
-                "throughDestEn": "Shisui",
-                "throughDestJa": "酒々井",
+                "throughDest": {
+                    "en": "Shisui",
+                    "ja": "酒々井"
+                },
                 "type": "Local"
             },
             {
@@ -3468,8 +3681,10 @@
                 "startsHere": false,
                 "stops": [1203, 1207, 1211, 1214, -1, 1224],
                 "terminates": false,
-                "throughDestEn": "Zushi",
-                "throughDestJa": "逗子",
+                "throughDest": {
+                    "en": "Zushi",
+                    "ja": "逗子"
+                },
                 "type": "Rapid"
             },
             {
@@ -3479,8 +3694,10 @@
                 "startsHere": true,
                 "stops": [1222, 1231, 1237, 1244, 1249, 1265, 1269, 1274, 1277, -1, 1284],
                 "terminates": false,
-                "throughDestEn": "Tokyo",
-                "throughDestJa": "東京",
+                "throughDest": {
+                    "en": "Tokyo",
+                    "ja": "東京"
+                },
                 "type": "Rapid"
             },
             {
@@ -3499,8 +3716,10 @@
                 "startsHere": false,
                 "stops": [1235, 1239, 1244, 1247, -1, 1257],
                 "terminates": false,
-                "throughDestEn": "Kurihama",
-                "throughDestJa": "久里浜",
+                "throughDest": {
+                    "en": "Kurihama",
+                    "ja": "久里浜"
+                },
                 "type": "Rapid"
             },
             {
@@ -3537,8 +3756,10 @@
                 "startsHere": true,
                 "stops": [1291, 1295],
                 "terminates": false,
-                "throughDestEn": "Shisui",
-                "throughDestJa": "酒々井",
+                "throughDest": {
+                    "en": "Shisui",
+                    "ja": "酒々井"
+                },
                 "type": "Local"
             },
             {
@@ -3548,8 +3769,10 @@
                 "startsHere": false,
                 "stops": [1299, 1303, 1308, 1311, -1, 1317],
                 "terminates": false,
-                "throughDestEn": "Tokyo",
-                "throughDestJa": "東京",
+                "throughDest": {
+                    "en": "Tokyo",
+                    "ja": "東京"
+                },
                 "type": "Rapid"
             },
             {
@@ -3586,8 +3809,10 @@
                 "startsHere": false,
                 "stops": [1355, 1359, 1363, 1367, -1, 1375],
                 "terminates": false,
-                "throughDestEn": "Zushi",
-                "throughDestJa": "逗子",
+                "throughDest": {
+                    "en": "Zushi",
+                    "ja": "逗子"
+                },
                 "type": "Rapid"
             },
             {
@@ -3600,6 +3825,6 @@
                 "type": "Local"
             }
         ],
-        "upHopTimesMinutes": [2.0, 4.0, 4.0, 4.0, 4.0, 5.0, 4.0, 4.0, 6.0, 9.0, 6.0, 5.0, 4.0, 4.0, 6.0, 5.0, 4.0, 4.0, 4.0, 5.0, 4.0]
+        "upHopTimesMinutes": [2, 4, 4, 4, 4, 5, 4, 4, 6, 9, 6, 5, 4, 4, 6, 5, 4, 4, 4, 5, 4]
     }
 ]
