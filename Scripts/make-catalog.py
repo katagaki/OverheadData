@@ -16,6 +16,14 @@ def read_version():
         return fh.read().strip()
 
 
+def read_segments():
+    """Extra sections inside an operator (JR East's どこトレ, say)."""
+    path = os.path.join(ROOT, "Segments.json")
+    if not os.path.exists(path):
+        return []
+    return json.load(open(path))["segments"]
+
+
 def build():
     lines, stations = [], []
     for folder_path in sorted(glob.glob(os.path.join(ROOT, "Lines", "*", ""))):
@@ -41,7 +49,7 @@ def build():
                 "lon": station.get("longitude"),
             })
 
-        lines.append({
+        entry = {
             "id": line["id"],
             "folder": folder,
             "nameJa": line["nameJa"],
@@ -59,16 +67,26 @@ def build():
                 t["connectingLineId"] for t in line.get("throughServices", [])
                 if t.get("connectingLineId")
             }),
-        })
+        }
+        if line.get("segment"):
+            entry["segment"] = line["segment"]
+        lines.append(entry)
 
     styles = sorted(
         os.path.splitext(os.path.basename(p))[0]
         for p in glob.glob(os.path.join(ROOT, "BadgeStyles", "*.json"))
     )
+    segments = read_segments()
+    known_segments = {s["id"] for s in segments}
+    for entry in lines:
+        if entry.get("segment") and entry["segment"] not in known_segments:
+            sys.exit(f"{entry['folder']}: unknown segment {entry['segment']}")
+
     catalog = {
         "schemaVersion": SCHEMA_VERSION,
         "version": read_version(),
         "styles": styles,
+        "segments": segments,
         "lines": lines,
         "stations": stations,
     }
