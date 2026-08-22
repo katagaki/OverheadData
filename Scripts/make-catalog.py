@@ -84,6 +84,12 @@ def build():
         os.path.splitext(os.path.basename(p))[0]
         for p in glob.glob(os.path.join(ROOT, "BadgeStyles", "*.json"))
     )
+    # Curated operator marks, for the operators whose sites have no usable
+    # favicon. Named by operator id with ":" swapped for "_".
+    operator_icons = sorted(
+        os.path.splitext(os.path.basename(p))[0]
+        for p in glob.glob(os.path.join(ROOT, "OperatorIcons", "*.png"))
+    )
     segments = read_segments()
     known_segments = {s["id"] for s in segments}
     for entry in lines:
@@ -100,6 +106,7 @@ def build():
         "schemaVersion": SCHEMA_VERSION,
         "version": read_version(),
         "styles": styles,
+        "operatorIcons": operator_icons,
         "segments": segments,
         "operators": operators,
         "lines": lines,
@@ -120,7 +127,8 @@ def main():
     size = os.path.getsize(out)
     print(f"catalog.json  {size/1024:.0f} KB  version {catalog['version']}")
     print(f"  lines {len(catalog['lines'])}  stations {len(catalog['stations'])}"
-          f"  styles {len(catalog['styles'])}")
+          f"  styles {len(catalog['styles'])}"
+          f"  operator icons {len(catalog['operatorIcons'])}")
     print(f"  payload total {sum(l['bytes'] for l in catalog['lines'])/1048576:.1f} MB")
     if dangling:
         print(f"  WARNING dangling connectingLineId: {sorted(dangling)}")
