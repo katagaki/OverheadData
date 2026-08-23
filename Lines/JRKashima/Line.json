@@ -3,8 +3,8 @@
         "colorHex": "#A85F12",
         "delayInfo": {
             "checkMethod": {
-                "en": "Check the JR East Train Operation Information page or the JR East app. In the Tokyo area, delays or suspensions of 15 minutes or more are posted.",
-                "ja": "JR東日本「列車運行情報」ページまたはJR東日本アプリで確認できます。首都圏エリアでは15分以上の遅れ・運休が発生または見込まれる場合に掲載されます。"
+                "en": "Check the JR East Train Operation Information page or the JR East app. Between 04:00 and 02:00 the next day, delays or suspensions of 30 minutes or more are posted.",
+                "ja": "JR東日本「列車運行情報」ページまたはJR東日本アプリで確認できます。4時〜翌2時の間に30分以上の遅れ・運休が発生または見込まれる場合に掲載されます。"
             },
             "statusPageURL": {
                 "en": "https://traininfo.jreast.co.jp/train_info/e/kanto.aspx",
@@ -139,12 +139,8 @@
                 "saturdayHoliday": {
                     "bands": [
                         {
-                            "from": "06:30",
-                            "headwayMinutes": 31
-                        },
-                        {
-                            "from": "07:00",
-                            "headwayMinutes": 35.5
+                            "from": "06:02",
+                            "headwayMinutes": 29.5
                         },
                         {
                             "from": "08:00",
@@ -155,22 +151,6 @@
                             "headwayMinutes": 99
                         },
                         {
-                            "from": "11:00",
-                            "headwayMinutes": 120
-                        },
-                        {
-                            "from": "13:00",
-                            "headwayMinutes": 95
-                        },
-                        {
-                            "from": "14:00",
-                            "headwayMinutes": 97
-                        },
-                        {
-                            "from": "16:00",
-                            "headwayMinutes": 75
-                        },
-                        {
                             "from": "17:00",
                             "headwayMinutes": 62
                         },
@@ -179,11 +159,11 @@
                             "headwayMinutes": 79
                         },
                         {
-                            "from": "20:00",
-                            "headwayMinutes": 120
+                            "from": "21:00",
+                            "headwayMinutes": 51
                         }
                     ],
-                    "firstDeparture": "06:30",
+                    "firstDeparture": "06:02",
                     "lastDeparture": "22:11",
                     "trainType": "Local"
                 },
@@ -194,32 +174,12 @@
                             "headwayMinutes": 29.5
                         },
                         {
-                            "from": "07:00",
-                            "headwayMinutes": 35.5
-                        },
-                        {
                             "from": "08:00",
                             "headwayMinutes": 46
                         },
                         {
                             "from": "09:00",
                             "headwayMinutes": 99
-                        },
-                        {
-                            "from": "11:00",
-                            "headwayMinutes": 120
-                        },
-                        {
-                            "from": "13:00",
-                            "headwayMinutes": 95
-                        },
-                        {
-                            "from": "14:00",
-                            "headwayMinutes": 97
-                        },
-                        {
-                            "from": "16:00",
-                            "headwayMinutes": 75
                         },
                         {
                             "from": "17:00",
@@ -230,8 +190,8 @@
                             "headwayMinutes": 79
                         },
                         {
-                            "from": "20:00",
-                            "headwayMinutes": 120
+                            "from": "21:00",
+                            "headwayMinutes": 51
                         }
                     ],
                     "firstDeparture": "06:02",

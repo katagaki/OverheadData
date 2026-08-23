@@ -1,0 +1,127 @@
+[
+    {
+        "colorHex": "#E85298",
+        "delayInfo": {
+            "checkMethod": {
+                "en": "Check the Disney Resort Line page on the Tokyo Disney Resort website. Suspensions are posted there as notices.",
+                "ja": "東京ディズニーリゾート公式サイトのディズニーリゾートラインのページで確認できます。運休・運転見合わせが発生した場合にお知らせが掲載されます。"
+            },
+            "statusPageURL": {
+                "en": "https://www.tokyodisneyresort.jp/en/tdr/resortline.html",
+                "ja": "https://www.tokyodisneyresort.jp/tdr/resortline.html"
+            },
+            "xAccount": null
+        },
+        "directions": [
+            {
+                "expressSaturdayHolidayRuns": [],
+                "expressWeekdayRuns": [],
+                "id": "static.RailDirection:MaihamaResortLine.DisneyResort.Loop",
+                "intermediateOrigins": [],
+                "isAscending": true,
+                "name": {
+                    "en": "For Tokyo Disneyland & Tokyo DisneySea (one-way loop)",
+                    "ja": "ディズニーランド・ディズニーシー方面（一方向循環）"
+                },
+                "saturdayHoliday": {
+                    "bands": [
+                        {
+                            "from": "06:03",
+                            "headwayMinutes": 13
+                        },
+                        {
+                            "from": "07:00",
+                            "headwayMinutes": 6
+                        }
+                    ],
+                    "firstDeparture": "06:03",
+                    "lastDeparture": "23:30",
+                    "trainType": "Local"
+                },
+                "weekday": {
+                    "bands": [
+                        {
+                            "from": "06:03",
+                            "headwayMinutes": 13
+                        },
+                        {
+                            "from": "07:00",
+                            "headwayMinutes": 6
+                        }
+                    ],
+                    "firstDeparture": "06:03",
+                    "lastDeparture": "23:30",
+                    "trainType": "Local"
+                }
+            }
+        ],
+        "hopTimesMinutes": [2, 3, 4],
+        "id": "Railway:MaihamaResortLine.DisneyResort",
+        "isLoop": true,
+        "name": {
+            "en": "Disney Resort Line",
+            "ja": "ディズニーリゾートライン",
+            "ko": "디즈니 리조트 라인",
+            "zh-Hans": "迪士尼度假区线",
+            "zh-Hant": "迪士尼度假區線"
+        },
+        "operatorId": "Operator:MaihamaResortLine",
+        "stations": [
+            {
+                "id": "Station:MaihamaResortLine.DisneyResort.ResortGateway",
+                "latitude": 35.63522,
+                "longitude": 139.88508,
+                "name": {
+                    "en": "Resort Gateway Station",
+                    "ja": "リゾートゲートウェイ・ステーション",
+                    "ko": "리조트 게이트웨이 스테이션",
+                    "zh-Hans": "度假区总站",
+                    "zh-Hant": "度假區總站"
+                },
+                "stationCode": ""
+            },
+            {
+                "id": "Station:MaihamaResortLine.DisneyResort.TokyoDisneyland",
+                "latitude": 35.63597,
+                "longitude": 139.8786,
+                "name": {
+                    "en": "Tokyo Disneyland Station",
+                    "ja": "東京ディズニーランド・ステーション",
+                    "ko": "도쿄 디즈니랜드 스테이션",
+                    "zh-Hans": "东京迪士尼乐园站",
+                    "zh-Hant": "東京迪士尼樂園站"
+                },
+                "stationCode": ""
+            },
+            {
+                "id": "Station:MaihamaResortLine.DisneyResort.Bayside",
+                "latitude": 35.62794,
+                "longitude": 139.87642,
+                "name": {
+                    "en": "Bayside Station",
+                    "ja": "ベイサイド・ステーション",
+                    "ko": "베이사이드 스테이션",
+                    "zh-Hans": "海滨站",
+                    "zh-Hant": "海濱站"
+                },
+                "stationCode": ""
+            },
+            {
+                "id": "Station:MaihamaResortLine.DisneyResort.TokyoDisneySea",
+                "latitude": 35.62745,
+                "longitude": 139.88957,
+                "name": {
+                    "en": "Tokyo DisneySea Station",
+                    "ja": "東京ディズニーシー・ステーション",
+                    "ko": "도쿄 디즈니씨 스테이션",
+                    "zh-Hans": "东京迪士尼海洋站",
+                    "zh-Hant": "東京迪士尼海洋站"
+                },
+                "stationCode": ""
+            }
+        ],
+        "stopPatterns": [],
+        "throughServices": [],
+        "timetableRuns": []
+    }
+]

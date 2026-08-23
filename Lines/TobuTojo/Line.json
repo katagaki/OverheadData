@@ -3,8 +3,8 @@
         "colorHex": "#00479D",
         "delayInfo": {
             "checkMethod": {
-                "en": "Check the Tobu Railway service status page, the Tobu app, or X (@TobuRailway_JP). Delays of roughly 10 minutes or more and suspensions are posted.",
-                "ja": "東武鉄道「運行情報」ページ、東武線アプリ、またはX（@TobuRailway_JP）で確認できます。おおむね10分以上の遅延・運転見合わせが発生した場合に掲載されます。"
+                "en": "Check the Tobu service information page, the Tobu Line app, or X (@TobuRailway_JP). Delays or suspensions of 30 minutes or more are posted, by train type and line.",
+                "ja": "東武鉄道「運行情報」ページ、東武線アプリ、またはX（@TobuRailway_JP）で確認できます。30分以上の遅れ・運転見合わせが発生または見込まれる場合に、種別・線別で掲載されます。"
             },
             "statusPageURL": {
                 "en": "https://www.tobu.co.jp/service_status/",
@@ -2496,54 +2496,46 @@
                 "saturdayHoliday": {
                     "bands": [
                         {
-                            "from": "05:00",
-                            "headwayMinutes": 10
+                            "from": "05:02",
+                            "headwayMinutes": 9
+                        },
+                        {
+                            "from": "06:00",
+                            "headwayMinutes": 6
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 7
+                            "headwayMinutes": 4
                         },
                         {
-                            "from": "10:00",
-                            "headwayMinutes": 8
-                        },
-                        {
-                            "from": "20:00",
-                            "headwayMinutes": 9
+                            "from": "23:00",
+                            "headwayMinutes": 6.5
                         }
                     ],
-                    "firstDeparture": "05:00",
+                    "firstDeparture": "05:02",
                     "lastDeparture": "24:35",
                     "trainType": "Local"
                 },
                 "weekday": {
                     "bands": [
                         {
-                            "from": "05:00",
-                            "headwayMinutes": 10
+                            "from": "05:02",
+                            "headwayMinutes": 7.5
                         },
                         {
-                            "from": "06:30",
-                            "headwayMinutes": 4.5
+                            "from": "06:00",
+                            "headwayMinutes": 5
                         },
                         {
-                            "from": "09:30",
-                            "headwayMinutes": 8
-                        },
-                        {
-                            "from": "16:30",
-                            "headwayMinutes": 6
-                        },
-                        {
-                            "from": "20:00",
-                            "headwayMinutes": 8
+                            "from": "07:00",
+                            "headwayMinutes": 2.5
                         },
                         {
                             "from": "22:00",
-                            "headwayMinutes": 10
+                            "headwayMinutes": 5
                         }
                     ],
-                    "firstDeparture": "05:00",
+                    "firstDeparture": "05:02",
                     "lastDeparture": "24:35",
                     "trainType": "Local"
                 }
@@ -4926,54 +4918,82 @@
                     "bands": [
                         {
                             "from": "05:00",
-                            "headwayMinutes": 10
-                        },
-                        {
-                            "from": "07:00",
                             "headwayMinutes": 7
                         },
                         {
+                            "from": "06:00",
+                            "headwayMinutes": 5
+                        },
+                        {
+                            "from": "07:00",
+                            "headwayMinutes": 7.5
+                        },
+                        {
+                            "from": "08:00",
+                            "headwayMinutes": 5
+                        },
+                        {
+                            "from": "09:00",
+                            "headwayMinutes": 7.5
+                        },
+                        {
                             "from": "10:00",
-                            "headwayMinutes": 8
+                            "headwayMinutes": 10
+                        },
+                        {
+                            "from": "17:00",
+                            "headwayMinutes": 7
                         },
                         {
                             "from": "20:00",
-                            "headwayMinutes": 9
+                            "headwayMinutes": 9.5
+                        },
+                        {
+                            "from": "22:00",
+                            "headwayMinutes": 13
+                        },
+                        {
+                            "from": "23:00",
+                            "headwayMinutes": 45
                         }
                     ],
                     "firstDeparture": "05:00",
-                    "lastDeparture": "23:17",
+                    "lastDeparture": "24:39",
                     "trainType": "Local"
                 },
                 "weekday": {
                     "bands": [
                         {
                             "from": "05:00",
-                            "headwayMinutes": 10
+                            "headwayMinutes": 5
                         },
                         {
-                            "from": "06:30",
-                            "headwayMinutes": 4.5
-                        },
-                        {
-                            "from": "09:30",
+                            "from": "08:00",
                             "headwayMinutes": 8
                         },
                         {
-                            "from": "16:30",
+                            "from": "10:00",
+                            "headwayMinutes": 10.5
+                        },
+                        {
+                            "from": "17:00",
                             "headwayMinutes": 6
                         },
                         {
-                            "from": "20:00",
-                            "headwayMinutes": 8
+                            "from": "22:00",
+                            "headwayMinutes": 12.5
                         },
                         {
-                            "from": "22:00",
-                            "headwayMinutes": 10
+                            "from": "23:00",
+                            "headwayMinutes": 28.5
+                        },
+                        {
+                            "from": "24:00",
+                            "headwayMinutes": 39
                         }
                     ],
                     "firstDeparture": "05:00",
-                    "lastDeparture": "23:17",
+                    "lastDeparture": "24:39",
                     "trainType": "Local"
                 }
             }

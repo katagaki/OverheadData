@@ -3,8 +3,8 @@
         "colorHex": "#F15A22",
         "delayInfo": {
             "checkMethod": {
-                "en": "Check the JR East Train Operation Information page or the JR East app. In the Tokyo area, delays or suspensions of 15 minutes or more are posted.",
-                "ja": "JR東日本「列車運行情報」ページまたはJR東日本アプリで確認できます。首都圏エリアでは15分以上の遅れ・運休が発生または見込まれる場合に掲載されます。"
+                "en": "Check the JR East Train Operation Information page or the JR East app. Between 04:00 and 02:00 the next day, delays or suspensions of 30 minutes or more are posted.",
+                "ja": "JR東日本「列車運行情報」ページまたはJR東日本アプリで確認できます。4時〜翌2時の間に30分以上の遅れ・運休が発生または見込まれる場合に掲載されます。"
             },
             "statusPageURL": {
                 "en": "https://traininfo.jreast.co.jp/train_info/e/kanto.aspx",
@@ -360,6 +360,19 @@
                 "toward": {
                     "en": "for Okutama",
                     "ja": "奥多摩方面"
+                }
+            },
+            {
+                "connectingLineId": "Railway:JR-East.OmeOkutama",
+                "end": "ascending",
+                "junctionStationId": "Station:JR-East.Ome.Ome",
+                "lineName": {
+                    "en": "JR Ome Line (Tokyo Adventure Line)",
+                    "ja": "青梅線（東京アドベンチャーライン）"
+                },
+                "toward": {
+                    "en": "for Mitake & Okutama",
+                    "ja": "御嶽・奥多摩方面"
                 }
             }
         ],
