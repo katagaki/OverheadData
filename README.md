@@ -1,15 +1,6 @@
 # OverheadData
 
 Timetable and badge data for [Overhead](https://github.com/katagaki/Overhead).
-The app downloads lines from here, so **a push reaches users without an App
-Store release**.
-
-```
-Lines/<Line>/Line.json      stations, hop times, timetables
-             Badge.json     which badge style the line uses
-BadgeStyles/<style>.json    how each operator's plate is drawn
-catalog.json                generated — every line and station, with sizes and hashes
-```
 
 ## Editing
 
