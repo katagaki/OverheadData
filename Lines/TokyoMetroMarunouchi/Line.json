@@ -48,23 +48,23 @@
                     "bands": [
                         {
                             "from": "05:00",
-                            "headwayMinutes": 6
+                            "headwayMinutes": 10
+                        },
+                        {
+                            "from": "06:00",
+                            "headwayMinutes": 8.5
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 5
+                            "headwayMinutes": 6
                         },
                         {
-                            "from": "10:00",
-                            "headwayMinutes": 5
-                        },
-                        {
-                            "from": "20:00",
+                            "from": "21:00",
                             "headwayMinutes": 5.5
                         },
                         {
                             "from": "22:00",
-                            "headwayMinutes": 7
+                            "headwayMinutes": 7.5
                         }
                     ],
                     "firstDeparture": "05:01",
@@ -75,15 +75,31 @@
                     "bands": [
                         {
                             "from": "05:00",
+                            "headwayMinutes": 12
+                        },
+                        {
+                            "from": "06:00",
                             "headwayMinutes": 6
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 3
+                            "headwayMinutes": 4
                         },
                         {
-                            "from": "09:30",
-                            "headwayMinutes": 5
+                            "from": "09:00",
+                            "headwayMinutes": 4.5
+                        },
+                        {
+                            "from": "10:00",
+                            "headwayMinutes": 6
+                        },
+                        {
+                            "from": "15:00",
+                            "headwayMinutes": 5.5
+                        },
+                        {
+                            "from": "16:00",
+                            "headwayMinutes": 4.5
                         },
                         {
                             "from": "17:00",
@@ -91,11 +107,15 @@
                         },
                         {
                             "from": "20:00",
+                            "headwayMinutes": 4
+                        },
+                        {
+                            "from": "21:00",
                             "headwayMinutes": 5
                         },
                         {
-                            "from": "22:00",
-                            "headwayMinutes": 6.5
+                            "from": "23:00",
+                            "headwayMinutes": 7.5
                         }
                     ],
                     "firstDeparture": "05:01",
@@ -133,49 +153,14 @@
                     "bands": [
                         {
                             "from": "05:00",
+                            "headwayMinutes": 10
+                        },
+                        {
+                            "from": "06:00",
                             "headwayMinutes": 6
                         },
                         {
                             "from": "07:00",
-                            "headwayMinutes": 5
-                        },
-                        {
-                            "from": "10:00",
-                            "headwayMinutes": 5
-                        },
-                        {
-                            "from": "20:00",
-                            "headwayMinutes": 5.5
-                        },
-                        {
-                            "from": "22:00",
-                            "headwayMinutes": 7
-                        }
-                    ],
-                    "firstDeparture": "05:00",
-                    "lastDeparture": "24:20",
-                    "trainType": "Local"
-                },
-                "weekday": {
-                    "bands": [
-                        {
-                            "from": "05:00",
-                            "headwayMinutes": 6
-                        },
-                        {
-                            "from": "07:00",
-                            "headwayMinutes": 3
-                        },
-                        {
-                            "from": "09:30",
-                            "headwayMinutes": 5
-                        },
-                        {
-                            "from": "17:00",
-                            "headwayMinutes": 3.5
-                        },
-                        {
-                            "from": "20:00",
                             "headwayMinutes": 5
                         },
                         {
@@ -186,10 +171,61 @@
                     "firstDeparture": "05:00",
                     "lastDeparture": "24:20",
                     "trainType": "Local"
+                },
+                "weekday": {
+                    "bands": [
+                        {
+                            "from": "05:00",
+                            "headwayMinutes": 7.5
+                        },
+                        {
+                            "from": "06:00",
+                            "headwayMinutes": 4.5
+                        },
+                        {
+                            "from": "07:00",
+                            "headwayMinutes": 2.5
+                        },
+                        {
+                            "from": "09:00",
+                            "headwayMinutes": 3
+                        },
+                        {
+                            "from": "10:00",
+                            "headwayMinutes": 5
+                        },
+                        {
+                            "from": "15:00",
+                            "headwayMinutes": 4
+                        },
+                        {
+                            "from": "16:00",
+                            "headwayMinutes": 2.5
+                        },
+                        {
+                            "from": "19:00",
+                            "headwayMinutes": 3
+                        },
+                        {
+                            "from": "20:00",
+                            "headwayMinutes": 3.5
+                        },
+                        {
+                            "from": "21:00",
+                            "headwayMinutes": 4.5
+                        },
+                        {
+                            "from": "22:00",
+                            "headwayMinutes": 5.5
+                        }
+                    ],
+                    "firstDeparture": "05:00",
+                    "lastDeparture": "24:20",
+                    "trainType": "Local"
                 }
             }
         ],
-        "hopTimesMinutes": [3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 2, 2, 2, 3, 1, 2, 2, 2, 2, 3, 2, 3],
+        "hopTimesMinutes": [2.5, 2.5, 1.5, 2, 2.5, 2, 2, 1.5, 2, 1.5, 2.5, 3, 2, 2, 2, 3, 1, 2, 2, 2, 1.5, 3, 2.5, 3],
         "id": "Railway:TokyoMetro.Marunouchi",
         "isLoop": false,
         "name": {
@@ -206,9 +242,9 @@
                         "id": "static.RailDirection:TokyoMetro.Marunouchi.Ikebukuro",
                         "intermediateOrigins": [
                             {
-                                "saturdayHolidayDepartures": ["05:04", "05:17", "06:01", "06:19", "06:55", "07:19", "08:26", "08:56", "09:26", "10:01", "10:26", "11:01", "11:26", "12:01", "12:26", "13:01", "13:26", "14:01", "14:26", "15:01", "15:26", "16:01", "16:26", "17:01", "17:26", "18:01", "18:26", "19:01", "19:26", "20:01", "20:26", "21:01", "21:26", "22:05"],
+                                "saturdayHolidayDepartures": ["05:04", "05:17", "06:01", "06:19", "06:55", "07:19", "08:26", "08:56", "09:26", "10:01", "10:13", "10:25", "10:37", "10:49", "11:01", "11:16", "11:31", "11:46", "12:01", "12:16", "12:31", "12:46", "13:01", "13:16", "13:31", "13:46", "14:01", "14:16", "14:31", "14:46", "15:01", "15:16", "15:31", "15:46", "16:01", "16:16", "16:31", "16:46", "17:01", "17:16", "17:31", "17:46", "18:01", "18:16", "18:31", "18:46", "19:01", "19:26", "20:01", "20:26", "21:01", "21:26", "22:05"],
                                 "stationId": "Station:TokyoMetro.Marunouchi.NakanoSakaue",
-                                "weekdayDepartures": ["05:04", "05:17", "05:31", "05:43", "05:55", "06:05", "06:13", "06:21", "06:29", "06:43", "06:50", "06:56", "07:02", "07:07", "07:13", "07:18", "07:27", "07:32", "07:37", "07:43", "07:48", "07:54", "08:05", "08:12", "08:18", "08:25", "08:32", "08:39", "08:45", "08:49", "08:54", "08:58", "09:03", "09:10", "09:17", "09:28", "09:38", "09:49", "10:21", "11:01", "11:21", "12:01", "12:26", "13:01", "13:26", "14:01", "14:26", "15:01", "15:20", "15:26", "15:33", "15:44", "15:54", "16:05", "16:12", "16:17", "16:24", "16:29", "16:34", "16:39", "16:46", "16:51", "17:01", "17:08", "17:21", "17:28", "17:41", "17:48", "18:01", "18:08", "18:21", "18:28", "18:41", "18:48", "19:01", "19:08", "19:21", "19:28", "19:41", "19:49"]
+                                "weekdayDepartures": ["05:04", "05:17", "05:31", "05:43", "05:55", "06:05", "06:13", "06:21", "06:29", "06:43", "06:50", "06:56", "07:02", "07:07", "07:13", "07:18", "07:27", "07:32", "07:37", "07:43", "07:48", "07:54", "08:05", "08:12", "08:18", "08:25", "08:32", "08:39", "08:45", "08:49", "08:54", "08:58", "09:03", "09:10", "09:17", "09:28", "09:38", "09:49", "10:21", "11:01", "11:16", "11:31", "11:46", "12:01", "12:16", "12:31", "12:46", "13:01", "13:16", "13:31", "13:46", "14:01", "14:16", "14:31", "14:46", "15:01", "15:20", "15:26", "15:33", "15:44", "15:54", "16:05", "16:12", "16:17", "16:24", "16:29", "16:34", "16:39", "16:46", "16:51", "17:01", "17:08", "17:21", "17:28", "17:41", "17:48", "18:01", "18:08", "18:21", "18:28", "18:41", "18:48", "19:01", "19:08", "19:21", "19:28", "19:41", "19:49"]
                             },
                             {
                                 "saturdayHolidayDepartures": ["05:00", "06:41"],
@@ -235,23 +271,31 @@
                             "bands": [
                                 {
                                     "from": "05:00",
-                                    "headwayMinutes": 6
+                                    "headwayMinutes": 10
+                                },
+                                {
+                                    "from": "06:00",
+                                    "headwayMinutes": 8.5
                                 },
                                 {
                                     "from": "07:00",
-                                    "headwayMinutes": 4
+                                    "headwayMinutes": 6
                                 },
                                 {
-                                    "from": "10:00",
-                                    "headwayMinutes": 4
+                                    "from": "11:00",
+                                    "headwayMinutes": 5.5
                                 },
                                 {
-                                    "from": "20:00",
+                                    "from": "19:00",
+                                    "headwayMinutes": 6
+                                },
+                                {
+                                    "from": "21:00",
                                     "headwayMinutes": 5.5
                                 },
                                 {
                                     "from": "22:00",
-                                    "headwayMinutes": 7
+                                    "headwayMinutes": 7.5
                                 }
                             ],
                             "firstDeparture": "05:01",
@@ -262,15 +306,39 @@
                             "bands": [
                                 {
                                     "from": "05:00",
+                                    "headwayMinutes": 12
+                                },
+                                {
+                                    "from": "06:00",
                                     "headwayMinutes": 6
                                 },
                                 {
                                     "from": "07:00",
-                                    "headwayMinutes": 3
+                                    "headwayMinutes": 4
                                 },
                                 {
-                                    "from": "09:30",
-                                    "headwayMinutes": 4
+                                    "from": "09:00",
+                                    "headwayMinutes": 4.5
+                                },
+                                {
+                                    "from": "10:00",
+                                    "headwayMinutes": 5
+                                },
+                                {
+                                    "from": "11:00",
+                                    "headwayMinutes": 5.5
+                                },
+                                {
+                                    "from": "14:00",
+                                    "headwayMinutes": 6
+                                },
+                                {
+                                    "from": "15:00",
+                                    "headwayMinutes": 5.5
+                                },
+                                {
+                                    "from": "16:00",
+                                    "headwayMinutes": 4.5
                                 },
                                 {
                                     "from": "17:00",
@@ -278,11 +346,15 @@
                                 },
                                 {
                                     "from": "20:00",
+                                    "headwayMinutes": 4
+                                },
+                                {
+                                    "from": "21:00",
                                     "headwayMinutes": 5
                                 },
                                 {
-                                    "from": "22:00",
-                                    "headwayMinutes": 6.5
+                                    "from": "23:00",
+                                    "headwayMinutes": 7.5
                                 }
                             ],
                             "firstDeparture": "05:01",
@@ -320,23 +392,27 @@
                             "bands": [
                                 {
                                     "from": "05:00",
+                                    "headwayMinutes": 10
+                                },
+                                {
+                                    "from": "06:00",
                                     "headwayMinutes": 6
                                 },
                                 {
                                     "from": "07:00",
-                                    "headwayMinutes": 4
+                                    "headwayMinutes": 5
                                 },
                                 {
                                     "from": "10:00",
                                     "headwayMinutes": 4
                                 },
                                 {
-                                    "from": "20:00",
-                                    "headwayMinutes": 5.5
+                                    "from": "19:00",
+                                    "headwayMinutes": 5
                                 },
                                 {
                                     "from": "22:00",
-                                    "headwayMinutes": 7
+                                    "headwayMinutes": 6.5
                                 }
                             ],
                             "firstDeparture": "05:00",
@@ -347,27 +423,47 @@
                             "bands": [
                                 {
                                     "from": "05:00",
-                                    "headwayMinutes": 6
+                                    "headwayMinutes": 7.5
+                                },
+                                {
+                                    "from": "06:00",
+                                    "headwayMinutes": 4.5
                                 },
                                 {
                                     "from": "07:00",
+                                    "headwayMinutes": 2.5
+                                },
+                                {
+                                    "from": "09:00",
                                     "headwayMinutes": 3
                                 },
                                 {
-                                    "from": "09:30",
+                                    "from": "10:00",
+                                    "headwayMinutes": 4.5
+                                },
+                                {
+                                    "from": "11:00",
                                     "headwayMinutes": 4
                                 },
                                 {
-                                    "from": "17:00",
-                                    "headwayMinutes": 3.5
+                                    "from": "16:00",
+                                    "headwayMinutes": 2.5
+                                },
+                                {
+                                    "from": "19:00",
+                                    "headwayMinutes": 3
                                 },
                                 {
                                     "from": "20:00",
-                                    "headwayMinutes": 5
+                                    "headwayMinutes": 3.5
+                                },
+                                {
+                                    "from": "21:00",
+                                    "headwayMinutes": 4.5
                                 },
                                 {
                                     "from": "22:00",
-                                    "headwayMinutes": 6.5
+                                    "headwayMinutes": 5.5
                                 }
                             ],
                             "firstDeparture": "05:00",
@@ -711,6 +807,21 @@
             }
         ],
         "stopPatterns": [],
-        "throughServices": []
+        "throughServices": [
+            {
+                "connectingLineId": "Railway:TokyoMetro.MarunouchiBranch",
+                "end": "descending",
+                "junctionStationId": "Station:TokyoMetro.Marunouchi.NakanoSakaue",
+                "lineName": {
+                    "en": "Marunouchi Line Honancho Branch",
+                    "ja": "丸ノ内線(方南町支線)"
+                },
+                "toward": {
+                    "en": "For Honancho",
+                    "ja": "方南町方面"
+                }
+            }
+        ],
+        "upHopTimesMinutes": [3, 2, 1.5, 2, 2, 2, 2, 2, 2, 1.5, 2, 3, 2, 2, 2.5, 2.5, 1.5, 2, 2, 2, 1.5, 3.5, 2, 3]
     }
 ]
