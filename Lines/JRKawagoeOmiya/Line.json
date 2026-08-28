@@ -1,0 +1,2919 @@
+[
+    {
+        "colorHex": "#00AC9A",
+        "delayInfo": {
+            "checkMethod": {
+                "en": "Check the JR East Train Operation Information page or the JR East app. Between 04:00 and 02:00 the next day, delays or suspensions of 30 minutes or more are posted. Most trains between Omiya and Kawagoe run through to the Saikyo Line, so check the Saikyo Line's status as well.",
+                "ja": "JR東日本「列車運行情報」ページまたはJR東日本アプリで確認できます。4時〜翌2時の間に30分以上の遅れ・運休が発生または見込まれる場合に掲載されます。大宮－川越間の列車は大半が埼京線に直通するため、埼京線の運行情報もあわせて確認してください。"
+            },
+            "statusPageURL": {
+                "en": "https://traininfo.jreast.co.jp/train_info/e/kanto.aspx",
+                "ja": "https://traininfo.jreast.co.jp/train_info/line.aspx?gid=1&lineid=kawagoeline"
+            },
+            "xAccount": "@JRE_F_Toho_Taka"
+        },
+        "directions": [
+            {
+                "expressSaturdayHolidayRuns": [],
+                "expressWeekdayRuns": [],
+                "id": "static.RailDirection:JR-East.KawagoeOmiya.Kawagoe",
+                "intermediateOrigins": [],
+                "isAscending": true,
+                "name": {
+                    "en": "For Kawagoe",
+                    "ja": "川越方面"
+                },
+                "saturdayHoliday": {
+                    "bands": [
+                        {
+                            "from": "05:36",
+                            "headwayMinutes": 31
+                        },
+                        {
+                            "from": "06:00",
+                            "headwayMinutes": 22
+                        },
+                        {
+                            "from": "19:00",
+                            "headwayMinutes": 15
+                        },
+                        {
+                            "from": "20:00",
+                            "headwayMinutes": 20
+                        },
+                        {
+                            "from": "24:00",
+                            "headwayMinutes": 13
+                        }
+                    ],
+                    "firstDeparture": "05:36",
+                    "lastDeparture": "24:27",
+                    "trainType": "Local"
+                },
+                "weekday": {
+                    "bands": [
+                        {
+                            "from": "05:36",
+                            "headwayMinutes": 27
+                        },
+                        {
+                            "from": "07:00",
+                            "headwayMinutes": 15
+                        },
+                        {
+                            "from": "10:00",
+                            "headwayMinutes": 19
+                        },
+                        {
+                            "from": "21:00",
+                            "headwayMinutes": 11
+                        },
+                        {
+                            "from": "23:00",
+                            "headwayMinutes": 15
+                        }
+                    ],
+                    "firstDeparture": "05:36",
+                    "lastDeparture": "24:27",
+                    "trainType": "Local"
+                }
+            },
+            {
+                "expressSaturdayHolidayRuns": [],
+                "expressWeekdayRuns": [],
+                "id": "static.RailDirection:JR-East.KawagoeOmiya.Omiya",
+                "intermediateOrigins": [],
+                "isAscending": false,
+                "name": {
+                    "en": "For Omiya & Shinjuku",
+                    "ja": "大宮・新宿方面"
+                },
+                "saturdayHoliday": {
+                    "bands": [
+                        {
+                            "from": "04:51",
+                            "headwayMinutes": 33
+                        },
+                        {
+                            "from": "05:00",
+                            "headwayMinutes": 19.5
+                        }
+                    ],
+                    "firstDeparture": "04:51",
+                    "lastDeparture": "23:26",
+                    "trainType": "Local"
+                },
+                "weekday": {
+                    "bands": [
+                        {
+                            "from": "04:51",
+                            "headwayMinutes": 33
+                        },
+                        {
+                            "from": "05:00",
+                            "headwayMinutes": 22.5
+                        },
+                        {
+                            "from": "06:00",
+                            "headwayMinutes": 14.5
+                        },
+                        {
+                            "from": "10:00",
+                            "headwayMinutes": 20
+                        }
+                    ],
+                    "firstDeparture": "04:51",
+                    "lastDeparture": "23:26",
+                    "trainType": "Local"
+                }
+            }
+        ],
+        "hopTimesMinutes": [4, 6, 2, 7, 4],
+        "id": "Railway:JR-East.KawagoeOmiya",
+        "isLoop": false,
+        "name": {
+            "en": "Kawagoe Line (Omiya–Kawagoe)",
+            "ja": "川越線（大宮－川越）",
+            "ko": "가와고에선(오미야－가와고에)",
+            "zh-Hans": "川越线（大宫－川越）",
+            "zh-Hant": "川越線（大宮－川越）"
+        },
+        "operatorId": "Operator:JR-East",
+        "stations": [
+            {
+                "id": "Station:JR-East.KawagoeOmiya.Omiya",
+                "latitude": 35.9064,
+                "longitude": 139.6238,
+                "name": {
+                    "en": "Omiya",
+                    "ja": "大宮",
+                    "ko": "오미야",
+                    "zh-Hans": "大宫",
+                    "zh-Hant": "大宮"
+                },
+                "stationCode": "JA26"
+            },
+            {
+                "id": "Station:JR-East.KawagoeOmiya.Nisshin",
+                "latitude": 35.9315,
+                "longitude": 139.606222,
+                "name": {
+                    "en": "Nisshin",
+                    "ja": "日進",
+                    "ko": "닛신",
+                    "zh-Hans": "日进",
+                    "zh-Hant": "日進"
+                },
+                "stationCode": "JA27"
+            },
+            {
+                "id": "Station:JR-East.KawagoeOmiya.NishiOmiya",
+                "latitude": 35.922297,
+                "longitude": 139.57985,
+                "name": {
+                    "en": "Nishi-Omiya",
+                    "ja": "西大宮",
+                    "ko": "니시오미야",
+                    "zh-Hans": "西大宫",
+                    "zh-Hant": "西大宮"
+                },
+                "stationCode": "JA28"
+            },
+            {
+                "id": "Station:JR-East.KawagoeOmiya.Sashiogi",
+                "latitude": 35.917019,
+                "longitude": 139.565097,
+                "name": {
+                    "en": "Sashiogi",
+                    "ja": "指扇",
+                    "ko": "사시오기",
+                    "zh-Hans": "指扇",
+                    "zh-Hant": "指扇"
+                },
+                "stationCode": "JA29"
+            },
+            {
+                "id": "Station:JR-East.KawagoeOmiya.MinamiFuruya",
+                "latitude": 35.903228,
+                "longitude": 139.519419,
+                "name": {
+                    "en": "Minami-Furuya",
+                    "ja": "南古谷",
+                    "ko": "미나미후루야",
+                    "zh-Hans": "南古谷",
+                    "zh-Hant": "南古谷"
+                },
+                "stationCode": "JA30"
+            },
+            {
+                "id": "Station:JR-East.KawagoeOmiya.Kawagoe",
+                "latitude": 35.90668,
+                "longitude": 139.4832,
+                "name": {
+                    "en": "Kawagoe",
+                    "ja": "川越",
+                    "ko": "가와고에",
+                    "zh-Hans": "川越",
+                    "zh-Hant": "川越"
+                },
+                "stationCode": "JA31"
+            }
+        ],
+        "stopPatterns": [],
+        "throughServices": [
+            {
+                "connectingLineId": "Railway:JR-East.SaikyoKawagoe",
+                "end": "descending",
+                "junctionStationId": "Station:JR-East.KawagoeOmiya.Omiya",
+                "lineName": {
+                    "en": "Saikyo Line",
+                    "ja": "埼京線"
+                },
+                "toward": {
+                    "en": "for Akabane, Shinjuku & Osaki",
+                    "ja": "赤羽・新宿・大崎方面"
+                }
+            },
+            {
+                "connectingLineId": "Railway:JR-East.Kawagoe",
+                "end": "ascending",
+                "junctionStationId": "Station:JR-East.KawagoeOmiya.Kawagoe",
+                "lineName": {
+                    "en": "JR Kawagoe Line",
+                    "ja": "川越線"
+                },
+                "toward": {
+                    "en": "for Komagawa",
+                    "ja": "高麗川方面"
+                }
+            }
+        ],
+        "timetableRuns": [
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [336, 341, 345, 347, 353, 357],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [367, 372, 375, 378, 384, 389],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [389, 393, 397, 400, 406, 410],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [409, 414, 417, 420, 428, 432],
+                "terminates": true,
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [431, 435, 441, 443, 450, 455],
+                "terminates": true,
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [451, 455, 461, 463, 474, 478],
+                "terminates": true,
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [471, 475, 481, 484, 493, 498],
+                "terminates": true,
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [491, 495, 501, 503, 511, 516],
+                "terminates": true,
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [511, 515, 521, 523, 530, 535],
+                "terminates": true,
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [531, 535, 541, 543, 550, 555],
+                "terminates": true,
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [551, 555, 561, 563, 570, 575],
+                "terminates": true,
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [571, 575, 581, 583, 590, 594],
+                "terminates": true,
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [591, 595, 601, 603, 610, 614],
+                "terminates": true,
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [611, 615, 621, 623, 630, 634],
+                "terminates": true,
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [631, 635, 641, 643, 650, 654],
+                "terminates": true,
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [651, 655, 661, 663, 670, 674],
+                "terminates": true,
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [671, 675, 681, 683, 690, 694],
+                "terminates": true,
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [691, 695, 701, 703, 710, 714],
+                "terminates": true,
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [711, 715, 721, 723, 730, 734],
+                "terminates": true,
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [731, 735, 741, 743, 750, 754],
+                "terminates": true,
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [751, 755, 761, 763, 770, 774],
+                "terminates": true,
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [771, 775, 781, 785, 791, 795],
+                "terminates": true,
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [791, 795, 801, 803, 810, 814],
+                "terminates": true,
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [811, 815, 821, 823, 830, 834],
+                "terminates": true,
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [831, 835, 841, 843, 850, 854],
+                "terminates": true,
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [851, 855, 861, 863, 870, 874],
+                "terminates": true,
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [871, 875, 881, 883, 890, 894],
+                "terminates": true,
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [891, 895, 901, 903, 910, 914],
+                "terminates": true,
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [911, 915, 921, 923, 930, 934],
+                "terminates": true,
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [931, 935, 941, 943, 950, 955],
+                "terminates": true,
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [951, 955, 961, 963, 970, 975],
+                "terminates": true,
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [971, 975, 981, 983, 990, 995],
+                "terminates": true,
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [991, 995, 1001, 1003, 1010, 1014],
+                "terminates": true,
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1011, 1015, 1021, 1023, 1030, 1034],
+                "terminates": true,
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1031, 1035, 1041, 1043, 1050, 1054],
+                "terminates": true,
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1051, 1055, 1061, 1063, 1071, 1075],
+                "terminates": true,
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1071, 1075, 1081, 1083, 1092, 1096],
+                "terminates": true,
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1091, 1095, 1101, 1103, 1112, 1116],
+                "terminates": true,
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1111, 1115, 1121, 1123, 1130, 1134],
+                "terminates": true,
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1125, 1129, 1132, 1135, 1140, 1144],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1131, 1135, 1141, 1143, 1150, 1154],
+                "terminates": true,
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1151, 1155, 1161, 1163, 1170, 1174],
+                "terminates": true,
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1171, 1175, 1181, 1183, 1190, 1194],
+                "terminates": true,
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1181, 1186, 1189, 1195, 1200, 1204],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1191, 1195, 1201, 1203, 1210, 1214],
+                "terminates": true,
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1211, 1215, 1221, 1223, 1230, 1234],
+                "terminates": true,
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1231, 1235, 1241, 1243, 1250, 1254],
+                "terminates": true,
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1251, 1255, 1261, 1263, 1270, 1274],
+                "terminates": true,
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1271, 1275, 1281, 1283, 1290, 1294],
+                "terminates": true,
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1291, 1295, 1301, 1303, 1310, 1314],
+                "terminates": true,
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1311, 1315, 1321, 1323, 1329, 1333],
+                "terminates": true,
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1331, 1335, 1338, 1344, 1349, 1353],
+                "terminates": true,
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1351, 1355, 1358, 1360, 1366, 1370],
+                "terminates": true,
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1371, 1377, 1380, 1382, 1388, 1392],
+                "terminates": true,
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1391, 1399, 1402, 1404, 1411, 1415],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1415, 1422, 1425, 1427, 1432, 1436],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1432, 1436, 1439, 1441, 1446, 1451],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1454, 1458, 1461, 1463, 1468, 1473],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1467, 1471, 1474, 1477, 1481, 1486],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [291, 295, 300, 302, 305, 312],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shinjuku",
+                    "ja": "新宿"
+                },
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [324, 329, 333, 336, 340, 345],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shinjuku",
+                    "ja": "新宿"
+                },
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [348, 353, 357, 360, 363, 369],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "Rapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [363, 367, 372, 378, 381, 389],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "Rapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [379, 385, 390, 397, 400, 409],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "Rapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [401, 408, 412, 418, 422, 429],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "Rapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [423, 430, 435, 439, 443, 449],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Ebina",
+                    "ja": "海老名"
+                },
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [445, 450, 455, 459, 463, 469],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "Rapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [469, 474, 478, 481, 485, 489],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "Rapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [488, 493, 497, 500, 504, 509],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "Rapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [506, 511, 515, 519, 523, 529],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "Rapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [525, 530, 535, 539, 543, 549],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "Rapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [545, 550, 555, 559, 563, 569],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "Rapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [565, 570, 575, 579, 583, 589],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "Rapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [585, 590, 595, 599, 603, 609],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "Rapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [605, 610, 615, 619, 623, 629],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "Rapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [625, 630, 635, 639, 643, 649],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "Rapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [645, 650, 655, 659, 663, 669],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "Rapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [665, 670, 675, 679, 683, 689],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "Rapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [685, 690, 695, 699, 703, 709],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "Rapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [705, 710, 715, 719, 723, 729],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "Rapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [725, 730, 735, 739, 743, 749],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "Rapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [745, 750, 755, 759, 763, 769],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "Rapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [765, 770, 775, 779, 783, 789],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "Rapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [785, 791, 795, 799, 803, 809],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "Rapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [805, 810, 815, 819, 823, 829],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "Rapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [825, 830, 835, 839, 843, 849],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "Rapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [845, 850, 855, 859, 863, 869],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "Rapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [865, 870, 875, 879, 883, 889],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "Rapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [885, 890, 895, 899, 903, 909],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "Rapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [905, 910, 915, 919, 923, 929],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "Rapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [925, 930, 935, 939, 943, 949],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "Rapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [945, 950, 955, 959, 963, 969],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "Rapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [965, 970, 975, 979, 983, 989],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "Rapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [985, 990, 995, 999, 1003, 1009],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "Rapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1005, 1010, 1015, 1019, 1023, 1029],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "Rapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1025, 1030, 1035, 1039, 1043, 1049],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "Rapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1045, 1050, 1055, 1059, 1063, 1069],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "Rapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1066, 1071, 1076, 1079, 1083, 1089],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "Rapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1087, 1092, 1097, 1100, 1103, 1109],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "Rapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1107, 1112, 1117, 1120, 1123, 1129],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "Rapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1125, 1130, 1135, 1139, 1143, 1149],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "Rapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1145, 1150, 1155, 1159, 1163, 1169],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "Rapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1165, 1170, 1175, 1179, 1183, 1189],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "Rapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1185, 1190, 1195, 1199, 1203, 1209],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "Rapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1205, 1210, 1215, 1219, 1223, 1229],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "Rapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1225, 1230, 1235, 1239, 1243, 1249],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "Rapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1245, 1250, 1255, 1259, 1263, 1269],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "Rapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1265, 1270, 1275, 1279, 1283, 1289],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "Rapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1285, 1290, 1295, 1299, 1303, 1309],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "Rapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1305, 1310, 1315, 1319, 1323, 1329],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "Rapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1335, 1339, 1345, 1347, 1350, 1361],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shinjuku",
+                    "ja": "新宿"
+                },
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1361, 1366, 1370, 1373, 1376, 1381],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shinjuku",
+                    "ja": "新宿"
+                },
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1382, 1387, 1392, 1394, 1398, 1404],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shinjuku",
+                    "ja": "新宿"
+                },
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1406, 1411, 1416, 1418, 1421, 1426],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [336, 341, 344, 347, 354, 358],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [363, 368, 371, 379, 390, 394],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [385, 389, 393, 396, 401, 406],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [409, 414, 417, 424, 430, 435],
+                "terminates": true,
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [424, 429, 433, 440, 446, 450],
+                "terminates": true,
+                "type": "CommuterRapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [439, 444, 448, 455, 462, 466],
+                "terminates": true,
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [454, 459, 463, 471, 478, 483],
+                "terminates": true,
+                "type": "CommuterRapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [469, 474, 478, 483, 493, 498],
+                "terminates": true,
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [485, 491, 495, 498, 508, 512],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [500, 505, 509, 513, 523, 527],
+                "terminates": true,
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [522, 526, 530, 532, 540, 544],
+                "terminates": true,
+                "type": "CommuterRapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [540, 544, 548, 550, 557, 561],
+                "terminates": true,
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [557, 561, 566, 568, 577, 581],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [578, 582, 587, 589, 595, 599],
+                "terminates": true,
+                "type": "CommuterRapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [595, 599, 603, 605, 611, 616],
+                "terminates": true,
+                "type": "CommuterRapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [615, 619, 623, 626, 633, 637],
+                "terminates": true,
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [634, 638, 641, 644, 650, 654],
+                "terminates": true,
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [651, 655, 660, 663, 670, 674],
+                "terminates": true,
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [671, 675, 681, 683, 690, 694],
+                "terminates": true,
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [691, 695, 701, 703, 710, 714],
+                "terminates": true,
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [711, 715, 721, 723, 730, 734],
+                "terminates": true,
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [731, 735, 741, 743, 750, 754],
+                "terminates": true,
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [751, 755, 761, 763, 770, 774],
+                "terminates": true,
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [771, 775, 781, 785, 791, 795],
+                "terminates": true,
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [791, 795, 801, 803, 810, 814],
+                "terminates": true,
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [811, 815, 821, 823, 830, 834],
+                "terminates": true,
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [831, 835, 841, 843, 850, 854],
+                "terminates": true,
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [851, 855, 861, 863, 870, 874],
+                "terminates": true,
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [871, 875, 881, 883, 890, 894],
+                "terminates": true,
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [891, 895, 901, 903, 910, 914],
+                "terminates": true,
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [911, 915, 921, 923, 930, 934],
+                "terminates": true,
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [931, 935, 941, 944, 950, 954],
+                "terminates": true,
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [951, 955, 961, 963, 970, 974],
+                "terminates": true,
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [971, 975, 981, 983, 990, 994],
+                "terminates": true,
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [991, 995, 1001, 1003, 1010, 1014],
+                "terminates": true,
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1011, 1015, 1021, 1023, 1030, 1034],
+                "terminates": true,
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1031, 1035, 1041, 1043, 1050, 1054],
+                "terminates": true,
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1051, 1055, 1061, 1063, 1070, 1074],
+                "terminates": true,
+                "type": "CommuterRapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1071, 1075, 1081, 1083, 1090, 1094],
+                "terminates": true,
+                "type": "CommuterRapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1091, 1095, 1101, 1103, 1110, 1114],
+                "terminates": true,
+                "type": "CommuterRapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1101, 1105, 1109, 1115, 1120, 1124],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1111, 1115, 1121, 1123, 1130, 1134],
+                "terminates": true,
+                "type": "CommuterRapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1131, 1135, 1141, 1144, 1150, 1154],
+                "terminates": true,
+                "type": "CommuterRapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1151, 1155, 1161, 1163, 1170, 1174],
+                "terminates": true,
+                "type": "CommuterRapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1161, 1166, 1169, 1175, 1180, 1184],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1171, 1175, 1181, 1183, 1190, 1194],
+                "terminates": true,
+                "type": "CommuterRapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1191, 1195, 1201, 1204, 1210, 1214],
+                "terminates": true,
+                "type": "CommuterRapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1211, 1215, 1221, 1223, 1230, 1234],
+                "terminates": true,
+                "type": "CommuterRapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1221, 1225, 1229, 1235, 1240, 1244],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1231, 1235, 1241, 1243, 1250, 1254],
+                "terminates": true,
+                "type": "CommuterRapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1251, 1255, 1261, 1266, 1272, 1276],
+                "terminates": true,
+                "type": "CommuterRapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1271, 1275, 1281, 1283, 1290, 1294],
+                "terminates": true,
+                "type": "CommuterRapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1282, 1286, 1289, 1295, 1300, 1304],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1291, 1295, 1301, 1303, 1310, 1314],
+                "terminates": true,
+                "type": "CommuterRapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1310, 1314, 1318, 1321, 1326, 1330],
+                "terminates": true,
+                "type": "CommuterRapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1321, 1325, 1329, 1332, 1337, 1342],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1331, 1335, 1339, 1341, 1347, 1351],
+                "terminates": true,
+                "type": "CommuterRapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1341, 1345, 1349, 1352, 1358, 1362],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1351, 1355, 1359, 1361, 1368, 1372],
+                "terminates": true,
+                "type": "CommuterRapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1361, 1365, 1369, 1373, 1379, 1383],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1371, 1375, 1380, 1382, 1389, 1393],
+                "terminates": true,
+                "type": "CommuterRapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1382, 1386, 1389, 1394, 1399, 1403],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1395, 1400, 1403, 1406, 1411, 1415],
+                "terminates": true,
+                "type": "CommuterRapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1408, 1412, 1419, 1421, 1427, 1431],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1425, 1429, 1432, 1434, 1441, 1445],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1442, 1446, 1449, 1451, 1457, 1461],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1454, 1458, 1461, 1463, 1468, 1473],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1467, 1471, 1474, 1477, 1481, 1486],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [291, 295, 300, 302, 305, 312],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shinjuku",
+                    "ja": "新宿"
+                },
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [324, 329, 333, 336, 339, 345],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shinjuku",
+                    "ja": "新宿"
+                },
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [349, 357, 361, 364, 367, 374],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "CommuterRapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [369, 374, 379, 382, 386, 392],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shinjuku",
+                    "ja": "新宿"
+                },
+                "type": "CommuterRapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [385, 390, 396, 399, 403, 408],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "CommuterRapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [396, 401, 406, 409, 413, 420],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "CommuterRapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [410, 414, 420, 423, 429, 436],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "CommuterRapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [425, 430, 436, 438, 442, 447],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "CommuterRapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [440, 446, 451, 454, 457, 463],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "CommuterRapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [457, 462, 467, 470, 474, 479],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "CommuterRapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [473, 478, 483, 486, 491, 497],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "CommuterRapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [488, 493, 498, 501, 505, 510],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "CommuterRapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [503, 508, 513, 516, 520, 525],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "CommuterRapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [517, 522, 527, 530, 534, 539],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "CommuterRapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [535, 540, 545, 548, 551, 556],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shinjuku",
+                    "ja": "新宿"
+                },
+                "type": "CommuterRapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [552, 557, 561, 565, 569, 575],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "CommuterRapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [572, 577, 582, 585, 589, 596],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "CommuterRapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [590, 595, 600, 603, 606, 611],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "Rapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [605, 611, 617, 623, 626, 631],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "Rapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [628, 634, 638, 641, 645, 649],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "Rapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [645, 652, 656, 659, 663, 669],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "Rapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [665, 670, 675, 679, 683, 689],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "Rapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [685, 690, 695, 699, 703, 709],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "Rapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [705, 710, 715, 719, 723, 729],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "Rapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [725, 730, 735, 739, 743, 749],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "Rapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [745, 750, 755, 759, 763, 769],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "Rapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [765, 770, 775, 779, 783, 789],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "Rapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [785, 791, 795, 799, 803, 809],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "Rapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [805, 810, 815, 819, 823, 829],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "Rapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [825, 830, 835, 839, 843, 849],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "Rapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [845, 850, 855, 859, 863, 869],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "Rapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [865, 870, 875, 879, 883, 889],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "Rapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [885, 890, 895, 899, 903, 909],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "Rapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [905, 910, 915, 919, 923, 929],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "Rapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [925, 930, 935, 939, 943, 949],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "Rapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [945, 950, 955, 959, 963, 969],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "Rapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [965, 970, 975, 979, 983, 988],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "Rapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [985, 990, 995, 999, 1003, 1008],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "Rapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1005, 1010, 1015, 1019, 1023, 1030],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "CommuterRapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1025, 1030, 1035, 1039, 1043, 1050],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "CommuterRapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1045, 1050, 1055, 1059, 1063, 1070],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "CommuterRapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1065, 1071, 1075, 1079, 1083, 1090],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "CommuterRapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1085, 1090, 1095, 1099, 1103, 1110],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "CommuterRapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1105, 1110, 1115, 1119, 1123, 1130],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "CommuterRapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1125, 1130, 1135, 1139, 1143, 1150],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "CommuterRapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1134, 1139, 1145, 1149, 1153, 1163],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1145, 1150, 1155, 1159, 1163, 1170],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "CommuterRapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1165, 1170, 1175, 1179, 1183, 1190],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "CommuterRapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1185, 1190, 1195, 1199, 1203, 1210],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "CommuterRapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1194, 1199, 1205, 1209, 1213, 1222],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shinjuku",
+                    "ja": "新宿"
+                },
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1205, 1210, 1215, 1219, 1223, 1230],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "CommuterRapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1225, 1230, 1235, 1239, 1243, 1250],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "CommuterRapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1245, 1250, 1255, 1259, 1263, 1270],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "CommuterRapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1256, 1261, 1266, 1269, 1272, 1282],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shinjuku",
+                    "ja": "新宿"
+                },
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1265, 1272, 1277, 1280, 1283, 1290],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "CommuterRapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1285, 1290, 1295, 1299, 1303, 1310],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "CommuterRapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1305, 1310, 1315, 1319, 1323, 1330],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1321, 1326, 1335, 1339, 1343, 1350],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shin-Kiba",
+                    "ja": "新木場"
+                },
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1342, 1347, 1355, 1359, 1363, 1370],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Osaki",
+                    "ja": "大崎"
+                },
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1363, 1368, 1374, 1379, 1383, 1390],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shinjuku",
+                    "ja": "新宿"
+                },
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1384, 1389, 1393, 1396, 1400, 1404],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shinjuku",
+                    "ja": "新宿"
+                },
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1406, 1411, 1416, 1418, 1421, 1426],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Ikebukuro",
+                    "ja": "池袋"
+                },
+                "type": "Local"
+            }
+        ],
+        "upHopTimesMinutes": [6, 4, 4, 5, 5]
+    }
+]

@@ -373,7 +373,34 @@
             }
         ],
         "stopPatterns": [],
-        "throughServices": [],
+        "throughServices": [
+            {
+                "connectingLineId": "Railway:JR-East.KawagoeOmiya",
+                "end": "descending",
+                "junctionStationId": "Station:JR-East.Kawagoe.Kawagoe",
+                "lineName": {
+                    "en": "JR Kawagoe Line",
+                    "ja": "川越線"
+                },
+                "toward": {
+                    "en": "for Omiya & Shinjuku",
+                    "ja": "大宮・新宿方面"
+                }
+            },
+            {
+                "connectingLineId": "Railway:JR-East.Hachiko",
+                "end": "ascending",
+                "junctionStationId": "Station:JR-East.Kawagoe.Komagawa",
+                "lineName": {
+                    "en": "JR Hachiko Line",
+                    "ja": "八高線"
+                },
+                "toward": {
+                    "en": "for Haijima & Hachioji",
+                    "ja": "拝島・八王子方面"
+                }
+            }
+        ],
         "timetableRuns": [
             {
                 "ascending": true,
