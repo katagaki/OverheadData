@@ -27,18 +27,50 @@
                     "bands": [
                         {
                             "from": "05:51",
-                            "headwayMinutes": 40
+                            "headwayMinutes": 27
+                        },
+                        {
+                            "from": "09:00",
+                            "headwayMinutes": 37
                         }
                     ],
                     "firstDeparture": "05:51",
-                    "lastDeparture": "23:08",
+                    "lastDeparture": "22:41",
                     "trainType": "Local"
                 },
                 "weekday": {
                     "bands": [
                         {
                             "from": "05:51",
+                            "headwayMinutes": 27
+                        },
+                        {
+                            "from": "07:00",
+                            "headwayMinutes": 19
+                        },
+                        {
+                            "from": "08:00",
+                            "headwayMinutes": 31.5
+                        },
+                        {
+                            "from": "10:00",
                             "headwayMinutes": 40
+                        },
+                        {
+                            "from": "11:00",
+                            "headwayMinutes": 51
+                        },
+                        {
+                            "from": "15:00",
+                            "headwayMinutes": 36
+                        },
+                        {
+                            "from": "17:00",
+                            "headwayMinutes": 26
+                        },
+                        {
+                            "from": "20:00",
+                            "headwayMinutes": 42.5
                         }
                     ],
                     "firstDeparture": "05:51",
@@ -112,7 +144,7 @@
                 }
             }
         ],
-        "hopTimesMinutes": [8],
+        "hopTimesMinutes": [6],
         "id": "Railway:Keisei.HigashiNarita",
         "isLoop": false,
         "name": {
@@ -165,6 +197,1443 @@
                     "en": "for Shibayama-Chiyoda",
                     "ja": "芝山千代田方面"
                 }
+            },
+            {
+                "connectingLineId": "Railway:Keisei.Main",
+                "end": "descending",
+                "junctionStationId": "Station:Keisei.HigashiNarita.KeiseiNarita",
+                "lineName": {
+                    "en": "Keisei Main Line",
+                    "ja": "京成本線"
+                },
+                "toward": {
+                    "en": "for Keisei-Ueno & Nishi-magome",
+                    "ja": "京成上野・西馬込方面"
+                }
+            }
+        ],
+        "timetableRuns": [
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [351, 357],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shibayama-Chiyoda",
+                    "ja": "芝山千代田"
+                },
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [378, 384],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shibayama-Chiyoda",
+                    "ja": "芝山千代田"
+                },
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [393, 399],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shibayama-Chiyoda",
+                    "ja": "芝山千代田"
+                },
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [420, 426],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shibayama-Chiyoda",
+                    "ja": "芝山千代田"
+                },
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [454, 460],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shibayama-Chiyoda",
+                    "ja": "芝山千代田"
+                },
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [485, 491],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shibayama-Chiyoda",
+                    "ja": "芝山千代田"
+                },
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [522, 528],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shibayama-Chiyoda",
+                    "ja": "芝山千代田"
+                },
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [552, 558],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shibayama-Chiyoda",
+                    "ja": "芝山千代田"
+                },
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [590, 596],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shibayama-Chiyoda",
+                    "ja": "芝山千代田"
+                },
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [626, 633],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shibayama-Chiyoda",
+                    "ja": "芝山千代田"
+                },
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [665, 671],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shibayama-Chiyoda",
+                    "ja": "芝山千代田"
+                },
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [705, 711],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shibayama-Chiyoda",
+                    "ja": "芝山千代田"
+                },
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [745, 751],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shibayama-Chiyoda",
+                    "ja": "芝山千代田"
+                },
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [785, 791],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shibayama-Chiyoda",
+                    "ja": "芝山千代田"
+                },
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [825, 831],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shibayama-Chiyoda",
+                    "ja": "芝山千代田"
+                },
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [865, 871],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shibayama-Chiyoda",
+                    "ja": "芝山千代田"
+                },
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [905, 911],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shibayama-Chiyoda",
+                    "ja": "芝山千代田"
+                },
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [945, 951],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shibayama-Chiyoda",
+                    "ja": "芝山千代田"
+                },
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [985, 991],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shibayama-Chiyoda",
+                    "ja": "芝山千代田"
+                },
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1025, 1031],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shibayama-Chiyoda",
+                    "ja": "芝山千代田"
+                },
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1063, 1069],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shibayama-Chiyoda",
+                    "ja": "芝山千代田"
+                },
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1111, 1117],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shibayama-Chiyoda",
+                    "ja": "芝山千代田"
+                },
+                "type": "RapidLimitedExpress"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1141, 1147],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shibayama-Chiyoda",
+                    "ja": "芝山千代田"
+                },
+                "type": "LimitedExpress"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1181, 1187],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shibayama-Chiyoda",
+                    "ja": "芝山千代田"
+                },
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1221, 1227],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shibayama-Chiyoda",
+                    "ja": "芝山千代田"
+                },
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1254, 1260],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shibayama-Chiyoda",
+                    "ja": "芝山千代田"
+                },
+                "type": "RapidLimitedExpress"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1294, 1300],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shibayama-Chiyoda",
+                    "ja": "芝山千代田"
+                },
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1328, 1335],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shibayama-Chiyoda",
+                    "ja": "芝山千代田"
+                },
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1361, 1367],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shibayama-Chiyoda",
+                    "ja": "芝山千代田"
+                },
+                "type": "LimitedExpress"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [369, 376],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Keisei-Ueno",
+                    "ja": "京成上野"
+                },
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [399, 405],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Keisei-Ueno",
+                    "ja": "京成上野"
+                },
+                "type": "RapidLimitedExpress"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [417, 426],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Keisei-Ueno",
+                    "ja": "京成上野"
+                },
+                "type": "RapidLimitedExpress"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [439, 449],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Keisei-Ueno",
+                    "ja": "京成上野"
+                },
+                "type": "RapidLimitedExpress"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [480, 487],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Haneda Airport Terminal 1 & 2",
+                    "ja": "羽田空港第1・第2ターミナル"
+                },
+                "type": "LimitedExpress"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [515, 522],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Keisei-Ueno",
+                    "ja": "京成上野"
+                },
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [540, 546],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [575, 581],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [612, 618],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [650, 656],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [690, 696],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [730, 736],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [770, 776],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [810, 816],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [850, 856],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [890, 896],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [930, 936],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [970, 976],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1010, 1016],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1050, 1056],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1091, 1109],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Keisei-Ueno",
+                    "ja": "京成上野"
+                },
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1133, 1139],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1171, 1177],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1211, 1217],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Keisei Takasago",
+                    "ja": "京成高砂"
+                },
+                "type": "Rapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1253, 1262],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Sogosando",
+                    "ja": "宗吾参道"
+                },
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1284, 1291],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Sogosando",
+                    "ja": "宗吾参道"
+                },
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1315, 1321],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1348, 1354],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1379, 1385],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [351, 357],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shibayama-Chiyoda",
+                    "ja": "芝山千代田"
+                },
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [378, 384],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shibayama-Chiyoda",
+                    "ja": "芝山千代田"
+                },
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [396, 403],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shibayama-Chiyoda",
+                    "ja": "芝山千代田"
+                },
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [420, 431],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shibayama-Chiyoda",
+                    "ja": "芝山千代田"
+                },
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [449, 455],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shibayama-Chiyoda",
+                    "ja": "芝山千代田"
+                },
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [468, 474],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shibayama-Chiyoda",
+                    "ja": "芝山千代田"
+                },
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [480, 486],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shibayama-Chiyoda",
+                    "ja": "芝山千代田"
+                },
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [512, 518],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shibayama-Chiyoda",
+                    "ja": "芝山千代田"
+                },
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [543, 549],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shibayama-Chiyoda",
+                    "ja": "芝山千代田"
+                },
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [574, 580],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shibayama-Chiyoda",
+                    "ja": "芝山千代田"
+                },
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [614, 620],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shibayama-Chiyoda",
+                    "ja": "芝山千代田"
+                },
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [654, 660],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shibayama-Chiyoda",
+                    "ja": "芝山千代田"
+                },
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [694, 700],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shibayama-Chiyoda",
+                    "ja": "芝山千代田"
+                },
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [745, 751],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shibayama-Chiyoda",
+                    "ja": "芝山千代田"
+                },
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [785, 791],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shibayama-Chiyoda",
+                    "ja": "芝山千代田"
+                },
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [825, 831],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shibayama-Chiyoda",
+                    "ja": "芝山千代田"
+                },
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [865, 871],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shibayama-Chiyoda",
+                    "ja": "芝山千代田"
+                },
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [905, 911],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shibayama-Chiyoda",
+                    "ja": "芝山千代田"
+                },
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [945, 951],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shibayama-Chiyoda",
+                    "ja": "芝山千代田"
+                },
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [977, 983],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shibayama-Chiyoda",
+                    "ja": "芝山千代田"
+                },
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1014, 1020],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shibayama-Chiyoda",
+                    "ja": "芝山千代田"
+                },
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1054, 1060],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shibayama-Chiyoda",
+                    "ja": "芝山千代田"
+                },
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1080, 1086],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shibayama-Chiyoda",
+                    "ja": "芝山千代田"
+                },
+                "type": "RapidLimitedExpress"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1103, 1109],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shibayama-Chiyoda",
+                    "ja": "芝山千代田"
+                },
+                "type": "LimitedExpress"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1136, 1142],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shibayama-Chiyoda",
+                    "ja": "芝山千代田"
+                },
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1167, 1173],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shibayama-Chiyoda",
+                    "ja": "芝山千代田"
+                },
+                "type": "LimitedExpress"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1196, 1202],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shibayama-Chiyoda",
+                    "ja": "芝山千代田"
+                },
+                "type": "RapidLimitedExpress"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1221, 1227],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shibayama-Chiyoda",
+                    "ja": "芝山千代田"
+                },
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1254, 1261],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shibayama-Chiyoda",
+                    "ja": "芝山千代田"
+                },
+                "type": "RapidLimitedExpress"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1306, 1312],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shibayama-Chiyoda",
+                    "ja": "芝山千代田"
+                },
+                "type": "LimitedExpress"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1355, 1362],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shibayama-Chiyoda",
+                    "ja": "芝山千代田"
+                },
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1388, 1394],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shibayama-Chiyoda",
+                    "ja": "芝山千代田"
+                },
+                "type": "Rapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [371, 388],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Keisei-Ueno",
+                    "ja": "京成上野"
+                },
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [406, 413],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Keisei-Ueno",
+                    "ja": "京成上野"
+                },
+                "type": "CommuterLimitedExpress"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [431, 439],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Nishi-magome",
+                    "ja": "西馬込"
+                },
+                "type": "RapidLimitedExpress"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [447, 454],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Keisei-Ueno",
+                    "ja": "京成上野"
+                },
+                "type": "CommuterLimitedExpress"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [469, 487],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Keisei-Ueno",
+                    "ja": "京成上野"
+                },
+                "type": "CommuterLimitedExpress"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [487, 493],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [505, 511],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [533, 539],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [563, 569],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [603, 609],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [643, 649],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [683, 689],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [726, 732],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [770, 776],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [810, 816],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [850, 856],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [890, 896],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [930, 936],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [963, 969],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1003, 1009],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1043, 1049],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1079, 1086],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Keisei-Ueno",
+                    "ja": "京成上野"
+                },
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1102, 1109],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Nishi-magome",
+                    "ja": "西馬込"
+                },
+                "type": "Rapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1124, 1131],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Keisei-Ueno",
+                    "ja": "京成上野"
+                },
+                "type": "LimitedExpress"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1161, 1171],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Keisei-Ueno",
+                    "ja": "京成上野"
+                },
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1188, 1194],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1223, 1230],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Sogosando",
+                    "ja": "宗吾参道"
+                },
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1250, 1256],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1294, 1300],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1334, 1340],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1374, 1380],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1407, 1413],
+                "terminates": true,
+                "type": "Local"
             }
         ]
     }
