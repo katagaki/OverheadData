@@ -14,8 +14,76 @@
         },
         "directions": [
             {
-                "expressSaturdayHolidayRuns": [],
-                "expressWeekdayRuns": [],
+                "expressSaturdayHolidayRuns": [
+                    {
+                        "continuesBeyond": false,
+                        "departure": "16:23",
+                        "startsHere": false,
+                        "stopIndices": [0, 3, 5, 8, 10, 14, 16, 20],
+                        "trainType": "Express"
+                    },
+                    {
+                        "continuesBeyond": false,
+                        "departure": "17:03",
+                        "startsHere": false,
+                        "stopIndices": [0, 3, 5, 8, 10, 14, 16, 20],
+                        "trainType": "Express"
+                    },
+                    {
+                        "continuesBeyond": false,
+                        "departure": "17:40",
+                        "startsHere": false,
+                        "stopIndices": [0, 3, 5, 8, 10, 14],
+                        "terminusStationId": "Station:Toei.Shinjuku.Ojima",
+                        "trainType": "Express"
+                    },
+                    {
+                        "continuesBeyond": false,
+                        "departure": "18:10",
+                        "startsHere": false,
+                        "stopIndices": [0, 3, 5, 8, 10, 14],
+                        "terminusStationId": "Station:Toei.Shinjuku.Ojima",
+                        "trainType": "Express"
+                    },
+                    {
+                        "continuesBeyond": false,
+                        "departure": "18:37",
+                        "startsHere": false,
+                        "stopIndices": [0, 3, 5, 8, 10, 14],
+                        "terminusStationId": "Station:Toei.Shinjuku.Ojima",
+                        "trainType": "Express"
+                    }
+                ],
+                "expressWeekdayRuns": [
+                    {
+                        "continuesBeyond": false,
+                        "departure": "17:38",
+                        "startsHere": false,
+                        "stopIndices": [0, 3, 5, 8, 10, 14, 16, 20],
+                        "trainType": "Express"
+                    },
+                    {
+                        "continuesBeyond": false,
+                        "departure": "18:04",
+                        "startsHere": false,
+                        "stopIndices": [0, 3, 5, 8, 10, 14, 16, 20],
+                        "trainType": "Express"
+                    },
+                    {
+                        "continuesBeyond": false,
+                        "departure": "18:45",
+                        "startsHere": false,
+                        "stopIndices": [0, 3, 5, 8, 10, 14, 16, 20],
+                        "trainType": "Express"
+                    },
+                    {
+                        "continuesBeyond": false,
+                        "departure": "19:29",
+                        "startsHere": false,
+                        "stopIndices": [0, 3, 5, 8, 10, 14, 16, 20],
+                        "trainType": "Express"
+                    }
+                ],
                 "id": "static.RailDirection:Toei.Shinjuku.Motoyawata",
                 "intermediateOrigins": [
                     {
@@ -91,8 +159,76 @@
                 }
             },
             {
-                "expressSaturdayHolidayRuns": [],
-                "expressWeekdayRuns": [],
+                "expressSaturdayHolidayRuns": [
+                    {
+                        "continuesBeyond": true,
+                        "departure": "07:00",
+                        "startsHere": true,
+                        "stopIndices": [20, 16, 14, 10, 8, 5, 3, 0],
+                        "throughDest": {
+                            "en": "Keio-tama-center",
+                            "ja": "京王多摩センター"
+                        },
+                        "trainType": "Express"
+                    },
+                    {
+                        "continuesBeyond": true,
+                        "departure": "08:06",
+                        "startsHere": true,
+                        "stopIndices": [20, 16, 14, 10, 8, 5, 3, 0],
+                        "throughDest": {
+                            "en": "Hashimoto",
+                            "ja": "橋本"
+                        },
+                        "trainType": "Express"
+                    },
+                    {
+                        "continuesBeyond": true,
+                        "departure": "09:06",
+                        "startsHere": true,
+                        "stopIndices": [20, 16, 14, 10, 8, 5, 3, 0],
+                        "throughDest": {
+                            "en": "Keio-tama-center",
+                            "ja": "京王多摩センター"
+                        },
+                        "trainType": "Express"
+                    },
+                    {
+                        "continuesBeyond": true,
+                        "departure": "10:11",
+                        "startsHere": true,
+                        "stopIndices": [20, 16, 14, 10, 8, 5, 3, 0],
+                        "throughDest": {
+                            "en": "Keio-tama-center",
+                            "ja": "京王多摩センター"
+                        },
+                        "trainType": "Express"
+                    }
+                ],
+                "expressWeekdayRuns": [
+                    {
+                        "continuesBeyond": true,
+                        "departure": "09:00",
+                        "startsHere": true,
+                        "stopIndices": [20, 16, 14, 10, 8, 5, 3, 0],
+                        "throughDest": {
+                            "en": "Hashimoto",
+                            "ja": "橋本"
+                        },
+                        "trainType": "Express"
+                    },
+                    {
+                        "continuesBeyond": true,
+                        "departure": "09:46",
+                        "startsHere": true,
+                        "stopIndices": [20, 16, 14, 10, 8, 5, 3, 0],
+                        "throughDest": {
+                            "en": "Sasazuka",
+                            "ja": "笹塚"
+                        },
+                        "trainType": "Express"
+                    }
+                ],
                 "id": "static.RailDirection:Toei.Shinjuku.Shinjuku",
                 "intermediateOrigins": [
                     {
