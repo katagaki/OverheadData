@@ -13,6 +13,9 @@ Update data
 
 Detail belongs in the reply to the user, not in the message.
 
+Commit straight to `main` — do not open a branch for the change. Push with
+`git push --force-with-lease`.
+
 ## Editing data
 
 `Lines/<Line>/Line.json` is the source. After editing, bump `VERSION` and run all
