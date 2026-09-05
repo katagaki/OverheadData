@@ -15,7 +15,14 @@
         "directions": [
             {
                 "expressSaturdayHolidayRuns": [],
-                "expressWeekdayRuns": [],
+                "expressWeekdayRuns": [
+                    {
+                        "continuesBeyond": false,
+                        "departure": "09:30",
+                        "startsHere": true,
+                        "trainType": "Rapid"
+                    }
+                ],
                 "id": "static.RailDirection:Watetsu.WatarasseKeikoku.Mato",
                 "intermediateOrigins": [],
                 "isAscending": true,
@@ -138,8 +145,22 @@
                 }
             },
             {
-                "expressSaturdayHolidayRuns": [],
-                "expressWeekdayRuns": [],
+                "expressSaturdayHolidayRuns": [
+                    {
+                        "continuesBeyond": false,
+                        "departure": "12:55",
+                        "startsHere": true,
+                        "trainType": "Rapid"
+                    }
+                ],
+                "expressWeekdayRuns": [
+                    {
+                        "continuesBeyond": false,
+                        "departure": "12:55",
+                        "startsHere": true,
+                        "trainType": "Rapid"
+                    }
+                ],
                 "id": "static.RailDirection:Watetsu.WatarasseKeikoku.Kiryu",
                 "intermediateOrigins": [],
                 "isAscending": false,
@@ -456,7 +477,10 @@
                 "stationCode": "WK17"
             }
         ],
-        "stopPatterns": [],
+        "stopPatterns": [
+            "Rapid",
+            [0, 2, 4, 7, 11, 12, 14, 15, 16]
+        ],
         "throughServices": [
             {
                 "connectingLineId": "Railway:JR-East.Ryomo",
