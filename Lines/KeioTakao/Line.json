@@ -38,10 +38,22 @@
                     },
                     {
                         "continuesBeyond": false,
+                        "departure": "08:36",
+                        "startsHere": false,
+                        "trainType": "Liner"
+                    },
+                    {
+                        "continuesBeyond": false,
                         "departure": "08:52",
                         "startsHere": false,
                         "stopIndices": [0, 1, 2, 3, 4, 5, 6],
                         "trainType": "LimitedExpress"
+                    },
+                    {
+                        "continuesBeyond": false,
+                        "departure": "09:33",
+                        "startsHere": false,
+                        "trainType": "Liner"
                     },
                     {
                         "continuesBeyond": false,
@@ -408,6 +420,12 @@
                         "startsHere": false,
                         "stopIndices": [0, 1, 2, 3, 4, 5, 6],
                         "trainType": "LimitedExpress"
+                    },
+                    {
+                        "continuesBeyond": false,
+                        "departure": "23:04",
+                        "startsHere": false,
+                        "trainType": "Liner"
                     }
                 ],
                 "id": "static.RailDirection:Keio.Takao.Takaosanguchi",
@@ -729,6 +747,19 @@
                     },
                     {
                         "continuesBeyond": true,
+                        "departure": "14:15",
+                        "startsHere": true,
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿",
+                            "ko": "신주쿠",
+                            "zh-Hans": "新宿",
+                            "zh-Hant": "新宿"
+                        },
+                        "trainType": "Liner"
+                    },
+                    {
+                        "continuesBeyond": true,
                         "departure": "14:26",
                         "startsHere": true,
                         "stopIndices": [6, 5, 4, 3, 2, 1, 0],
@@ -771,6 +802,19 @@
                     },
                     {
                         "continuesBeyond": true,
+                        "departure": "15:15",
+                        "startsHere": true,
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿",
+                            "ko": "신주쿠",
+                            "zh-Hans": "新宿",
+                            "zh-Hant": "新宿"
+                        },
+                        "trainType": "Liner"
+                    },
+                    {
+                        "continuesBeyond": true,
                         "departure": "15:29",
                         "startsHere": true,
                         "stopIndices": [6, 5, 4, 3, 2, 1, 0],
@@ -799,6 +843,19 @@
                     },
                     {
                         "continuesBeyond": true,
+                        "departure": "16:15",
+                        "startsHere": true,
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿",
+                            "ko": "신주쿠",
+                            "zh-Hans": "新宿",
+                            "zh-Hant": "新宿"
+                        },
+                        "trainType": "Liner"
+                    },
+                    {
+                        "continuesBeyond": true,
                         "departure": "16:47",
                         "startsHere": true,
                         "stopIndices": [6, 5, 4, 3, 2, 1, 0],
@@ -810,6 +867,19 @@
                             "zh-Hant": "新宿"
                         },
                         "trainType": "LimitedExpress"
+                    },
+                    {
+                        "continuesBeyond": true,
+                        "departure": "17:15",
+                        "startsHere": true,
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿",
+                            "ko": "신주쿠",
+                            "zh-Hans": "新宿",
+                            "zh-Hant": "新宿"
+                        },
+                        "trainType": "Liner"
                     },
                     {
                         "continuesBeyond": true,
@@ -994,6 +1064,19 @@
                             "zh-Hant": "新宿"
                         },
                         "trainType": "LimitedExpress"
+                    },
+                    {
+                        "continuesBeyond": true,
+                        "departure": "06:30",
+                        "startsHere": true,
+                        "throughDest": {
+                            "en": "Shinjuku",
+                            "ja": "新宿",
+                            "ko": "신주쿠",
+                            "zh-Hans": "新宿",
+                            "zh-Hant": "新宿"
+                        },
+                        "trainType": "Liner"
                     },
                     {
                         "continuesBeyond": true,
@@ -1544,7 +1627,10 @@
                 "stationCode": "KO53"
             }
         ],
-        "stopPatterns": [],
+        "stopPatterns": [
+            "Liner",
+            [0, 3, 5, 6]
+        ],
         "throughServices": [
             {
                 "connectingLineId": "Railway:Keio.Keio",
