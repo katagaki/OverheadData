@@ -14,10 +14,62 @@
         },
         "directions": [
             {
-                "expressSaturdayHolidayRuns": [],
+                "expressSaturdayHolidayRuns": [
+                    {
+                        "continuesBeyond": false,
+                        "departure": "09:27",
+                        "startsHere": true,
+                        "trainType": "Express"
+                    }
+                ],
                 "expressWeekdayRuns": [],
                 "id": "static.RailDirection:Chichibu.Main.Mitsumineguchi",
-                "intermediateOrigins": [],
+                "intermediateOrigins": [
+                    {
+                        "saturdayHolidayDepartures": [],
+                        "saturdayHolidayRuns": [
+                            {
+                                "continuesBeyond": false,
+                                "departure": "10:33",
+                                "startsHere": true,
+                                "terminusStationId": "Station:Chichibu.Main.Kagemori",
+                                "trainType": "Express"
+                            },
+                            {
+                                "continuesBeyond": false,
+                                "departure": "17:31",
+                                "startsHere": true,
+                                "terminusStationId": "Station:Chichibu.Main.Kagemori",
+                                "trainType": "Express"
+                            }
+                        ],
+                        "stationId": "Station:Chichibu.Main.Kumagaya",
+                        "weekdayDepartures": [],
+                        "weekdayRuns": [
+                            {
+                                "continuesBeyond": false,
+                                "departure": "07:08",
+                                "startsHere": true,
+                                "terminusStationId": "Station:Chichibu.Main.Kagemori",
+                                "trainType": "Express"
+                            },
+                            {
+                                "continuesBeyond": false,
+                                "departure": "18:27",
+                                "startsHere": true,
+                                "terminusStationId": "Station:Chichibu.Main.Kagemori",
+                                "trainType": "Express"
+                            },
+                            {
+                                "continuesBeyond": false,
+                                "departure": "19:36",
+                                "startsHere": true,
+                                "terminusStationId": "Station:Chichibu.Main.Kagemori",
+                                "trainType": "Express"
+                            }
+                        ]
+                    }
+                ],
                 "isAscending": true,
                 "name": {
                     "en": "For Kumagaya & Mitsumineguchi",
@@ -170,10 +222,62 @@
                 }
             },
             {
-                "expressSaturdayHolidayRuns": [],
+                "expressSaturdayHolidayRuns": [
+                    {
+                        "continuesBeyond": false,
+                        "departure": "14:35",
+                        "startsHere": true,
+                        "trainType": "Express"
+                    }
+                ],
                 "expressWeekdayRuns": [],
                 "id": "static.RailDirection:Chichibu.Main.Hanyu",
-                "intermediateOrigins": [],
+                "intermediateOrigins": [
+                    {
+                        "saturdayHolidayDepartures": [],
+                        "saturdayHolidayRuns": [
+                            {
+                                "continuesBeyond": false,
+                                "departure": "08:48",
+                                "startsHere": true,
+                                "terminusStationId": "Station:Chichibu.Main.Kumagaya",
+                                "trainType": "Express"
+                            },
+                            {
+                                "continuesBeyond": false,
+                                "departure": "15:54",
+                                "startsHere": true,
+                                "terminusStationId": "Station:Chichibu.Main.Kumagaya",
+                                "trainType": "Express"
+                            }
+                        ],
+                        "stationId": "Station:Chichibu.Main.Kagemori",
+                        "weekdayDepartures": [],
+                        "weekdayRuns": [
+                            {
+                                "continuesBeyond": false,
+                                "departure": "07:03",
+                                "startsHere": true,
+                                "terminusStationId": "Station:Chichibu.Main.Kumagaya",
+                                "trainType": "Express"
+                            },
+                            {
+                                "continuesBeyond": false,
+                                "departure": "17:40",
+                                "startsHere": true,
+                                "terminusStationId": "Station:Chichibu.Main.Kumagaya",
+                                "trainType": "Express"
+                            },
+                            {
+                                "continuesBeyond": false,
+                                "departure": "19:40",
+                                "startsHere": true,
+                                "terminusStationId": "Station:Chichibu.Main.Kumagaya",
+                                "trainType": "Express"
+                            }
+                        ]
+                    }
+                ],
                 "isAscending": false,
                 "name": {
                     "en": "For Chichibu & Hanyu",
@@ -788,7 +892,10 @@
                 "stationCode": "CR37"
             }
         ],
-        "stopPatterns": [],
+        "stopPatterns": [
+            "Express",
+            [0, 5, 8, 14, 16, 19, 22, 23, 26, 29, 30, 31, 36]
+        ],
         "throughServices": []
     }
 ]
