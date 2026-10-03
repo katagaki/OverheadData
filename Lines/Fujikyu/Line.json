@@ -37,19 +37,15 @@
                             "headwayMinutes": 20
                         },
                         {
-                            "from": "09:00",
-                            "headwayMinutes": 60
+                            "from": "10:00",
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "11:00",
-                            "headwayMinutes": 30
+                            "headwayMinutes": 20
                         },
                         {
-                            "from": "14:00",
-                            "headwayMinutes": 60
-                        },
-                        {
-                            "from": "15:00",
+                            "from": "12:00",
                             "headwayMinutes": 30
                         },
                         {
@@ -58,14 +54,6 @@
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 30
-                        },
-                        {
-                            "from": "20:00",
-                            "headwayMinutes": 60
-                        },
-                        {
-                            "from": "21:00",
                             "headwayMinutes": 30
                         },
                         {
@@ -88,47 +76,15 @@
                             "headwayMinutes": 20
                         },
                         {
-                            "from": "09:00",
-                            "headwayMinutes": 30
-                        },
-                        {
-                            "from": "10:00",
-                            "headwayMinutes": 60
-                        },
-                        {
-                            "from": "11:00",
-                            "headwayMinutes": 20
-                        },
-                        {
                             "from": "12:00",
-                            "headwayMinutes": 60
-                        },
-                        {
-                            "from": "13:00",
                             "headwayMinutes": 30
                         },
                         {
-                            "from": "14:00",
-                            "headwayMinutes": 60
-                        },
-                        {
-                            "from": "15:00",
-                            "headwayMinutes": 30
-                        },
-                        {
-                            "from": "17:00",
+                            "from": "18:00",
                             "headwayMinutes": 60
                         },
                         {
                             "from": "19:00",
-                            "headwayMinutes": 30
-                        },
-                        {
-                            "from": "20:00",
-                            "headwayMinutes": 60
-                        },
-                        {
-                            "from": "21:00",
                             "headwayMinutes": 30
                         },
                         {
@@ -161,12 +117,8 @@
                             "headwayMinutes": 30
                         },
                         {
-                            "from": "08:00",
-                            "headwayMinutes": 60
-                        },
-                        {
-                            "from": "09:00",
-                            "headwayMinutes": 30
+                            "from": "11:00",
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "12:00",
@@ -174,19 +126,19 @@
                         },
                         {
                             "from": "13:00",
-                            "headwayMinutes": 30
-                        },
-                        {
-                            "from": "14:00",
-                            "headwayMinutes": 60
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "15:00",
                             "headwayMinutes": 30
                         },
                         {
-                            "from": "17:00",
+                            "from": "16:00",
                             "headwayMinutes": 20
+                        },
+                        {
+                            "from": "17:00",
+                            "headwayMinutes": 15
                         },
                         {
                             "from": "18:00",
@@ -197,7 +149,7 @@
                             "headwayMinutes": 30
                         },
                         {
-                            "from": "20:00",
+                            "from": "21:00",
                             "headwayMinutes": 60
                         }
                     ],
@@ -212,12 +164,8 @@
                             "headwayMinutes": 30
                         },
                         {
-                            "from": "08:00",
-                            "headwayMinutes": 60
-                        },
-                        {
-                            "from": "10:00",
-                            "headwayMinutes": 30
+                            "from": "11:00",
+                            "headwayMinutes": 20
                         },
                         {
                             "from": "12:00",
@@ -225,14 +173,10 @@
                         },
                         {
                             "from": "13:00",
-                            "headwayMinutes": 30
-                        },
-                        {
-                            "from": "14:00",
                             "headwayMinutes": 20
                         },
                         {
-                            "from": "15:00",
+                            "from": "16:00",
                             "headwayMinutes": 30
                         },
                         {
@@ -248,7 +192,7 @@
                             "headwayMinutes": 30
                         },
                         {
-                            "from": "20:00",
+                            "from": "21:00",
                             "headwayMinutes": 60
                         }
                     ],
@@ -258,7 +202,7 @@
                 }
             }
         ],
-        "hopTimesMinutes": [2, 4, 5, 3, 3, 2, 3, 2, 3, 5, 5, 2, 3, 2, 6, 3, 3],
+        "hopTimesMinutes": [2, 4, 5, 3, 3, 3, 3, 2, 3, 5, 5, 2, 3, 2, 6, 3, 3],
         "id": "Railway:Fujikyu.Fujikyuko",
         "isLoop": false,
         "name": {
@@ -614,9 +558,36 @@
                 "calendar": "Weekday",
                 "startIndex": 0,
                 "startsHere": true,
+                "stops": [588, -1, -1, -1, -1, -1, -1, 611, -1, -1, -1, -1, -1, 632, -1, 641, 644, 646],
+                "terminates": true,
+                "type": "LimitedExpress"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
                 "stops": [603, 605, 608, 613, 615, 618, 621, 623, 625, 629, 634, 638, 641, 646, 648, 654, 656, 659],
                 "terminates": true,
                 "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [642, -1, -1, -1, -1, -1, -1, 659, -1, -1, -1, -1, -1, 674, -1, 683, 685, 688],
+                "terminates": true,
+                "type": "LimitedExpress"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [649, -1, -1, -1, -1, -1, -1, 674, -1, -1, -1, -1, -1, 693, -1, 700, 703, 706],
+                "terminates": true,
+                "type": "LimitedExpress"
             },
             {
                 "ascending": true,
@@ -659,6 +630,15 @@
                 "calendar": "Weekday",
                 "startIndex": 0,
                 "startsHere": true,
+                "stops": [762, -1, -1, -1, -1, -1, -1, 780, -1, -1, -1, -1, -1, 798, -1, 805, 808, 811],
+                "terminates": true,
+                "type": "LimitedExpress"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
                 "stops": [781, 783, 787, 791, 794, 797, 800, 803, 805, 810, 820, 824, 827, 832, 834, 840, 843, 845],
                 "terminates": true,
                 "type": "Local"
@@ -680,6 +660,15 @@
                 "stops": [865, 867, 870, 875, 877, 881, 883, 886, 888, 892, 897, 902, 904, 911, 913, 923, 926, 929],
                 "terminates": true,
                 "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [897, -1, -1, -1, -1, -1, -1, 917, -1, -1, -1, -1, -1, 936, -1, 945, 948, 951],
+                "terminates": true,
+                "type": "LimitedExpress"
             },
             {
                 "ascending": true,
@@ -716,6 +705,15 @@
                 "stops": [1016, 1018, 1023, 1032, 1035, 1042, 1044, 1047, 1049, 1054, 1064, 1069, 1071, 1074, 1076, 1081, 1084, 1087],
                 "terminates": true,
                 "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1060, -1, -1, -1, -1, -1, -1, 1078, -1, -1, -1, -1, -1, 1104, -1, 1112, 1115, 1118],
+                "terminates": true,
+                "type": "LimitedExpress"
             },
             {
                 "ascending": true,
@@ -766,6 +764,15 @@
                 "ascending": true,
                 "calendar": "Weekday",
                 "startIndex": 0,
+                "startsHere": true,
+                "stops": [1249, 1251, 1256, 1260, 1263, 1266, 1272, 1275, 1277, 1280, 1284, 1289, 1292, 1294, 1296, 1302, 1304, 1307],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
                 "startsHere": false,
                 "stops": [1271, 1273, 1277, 1282, 1284, 1288, 1290, 1293, 1295, 1298, 1304, 1309, 1311, 1314, 1316, 1322, 1325, 1328],
                 "terminates": true,
@@ -777,6 +784,24 @@
                 "startIndex": 0,
                 "startsHere": true,
                 "stops": [1305, 1307, 1311, 1315, 1318, 1321, 1323, 1326, 1328, 1331, 1335, 1340, 1342, 1345, 1347, 1352, 1355, 1358],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1325, 1327, 1330, 1335, 1337, 1340, 1343, 1345, 1347, 1358, 1363, 1367, 1370, 1372, 1375, 1380, 1383, 1385],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1350, 1352, 1356, 1360, 1363, 1368, 1371, 1373, 1375, 1378, 1383, 1388, 1390, 1393, 1395, 1400, 1403, 1406],
                 "terminates": true,
                 "type": "Local"
             },
@@ -871,9 +896,27 @@
                 "calendar": "Weekday",
                 "startIndex": 17,
                 "startsHere": true,
+                "stops": [503, 506, 511, -1, 516, -1, -1, -1, -1, -1, 532, -1, -1, -1, -1, -1, -1, 550],
+                "terminates": true,
+                "type": "LimitedExpress"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 17,
+                "startsHere": true,
                 "stops": [540, 543, 548, 552, 554, 555, 558, 563, 567, 570, 572, 575, 577, 580, 582, 593, 597, 599],
                 "terminates": true,
                 "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 17,
+                "startsHere": true,
+                "stops": [556, 559, 564, -1, 572, -1, -1, -1, -1, -1, 588, -1, -1, -1, -1, -1, -1, 616],
+                "terminates": true,
+                "type": "LimitedExpress"
             },
             {
                 "ascending": false,
@@ -905,6 +948,15 @@
                 "calendar": "Weekday",
                 "startIndex": 17,
                 "startsHere": true,
+                "stops": [661, 664, 669, -1, 675, -1, -1, -1, -1, -1, 699, -1, -1, -1, -1, -1, -1, 715],
+                "terminates": true,
+                "type": "LimitedExpress"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 17,
+                "startsHere": true,
                 "stops": [676, 679, 684, 687, 692, 694, 697, 702, 706, 709, 711, 713, 716, 718, 721, 725, 729, 731],
                 "terminates": true,
                 "type": "Local"
@@ -926,6 +978,15 @@
                 "stops": [747, 750, 755, 758, 760, 762, 765, 770, 786, 789, 791, 793, 797, 800, 802, 807, 811, 813],
                 "terminates": true,
                 "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 17,
+                "startsHere": true,
+                "stops": [782, 785, 793, -1, 798, -1, -1, -1, -1, -1, 814, -1, -1, -1, -1, -1, -1, 831],
+                "terminates": true,
+                "type": "LimitedExpress"
             },
             {
                 "ascending": false,
@@ -994,6 +1055,15 @@
                 "stops": [916, 919, 925, 928, 935, 937, 939, 945, 949, 951, 953, 956, 966, 968, 971, 975, 979, 981],
                 "terminates": true,
                 "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 17,
+                "startsHere": true,
+                "stops": [939, 942, 947, -1, 954, -1, -1, -1, -1, -1, 970, -1, -1, -1, -1, -1, -1, 988],
+                "terminates": true,
+                "type": "LimitedExpress"
             },
             {
                 "ascending": false,
@@ -1113,6 +1183,24 @@
                 "calendar": "Weekday",
                 "startIndex": 17,
                 "startsHere": true,
+                "stops": [1238, 1241, 1246, 1249, 1251, 1253, 1256, 1261, 1265, 1268, 1270, 1273, 1275, 1278, 1282, 1286, 1291, 1292],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 17,
+                "startsHere": true,
+                "stops": [1276, 1279, 1284, 1288, 1294, 1296, 1298, 1304, 1308, 1311, 1313, 1316, 1321, 1323, 1326, 1330, 1335, 1336],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 17,
+                "startsHere": true,
                 "stops": [1330, 1333, 1338, 1341, 1345, 1346, 1349, 1354, 1358, 1361, 1363, 1366, 1369, 1372, 1374, 1378, 1382, 1384],
                 "terminates": true,
                 "type": "Local"
@@ -1193,6 +1281,24 @@
                 "ascending": true,
                 "calendar": "SaturdayHoliday",
                 "startIndex": 0,
+                "startsHere": false,
+                "stops": [582, -1, -1, -1, -1, -1, -1, 598, -1, -1, -1, -1, -1, 613, -1, 621, 623, 626],
+                "terminates": true,
+                "type": "LimitedExpress"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [588, -1, -1, -1, -1, -1, -1, 611, -1, -1, -1, -1, -1, 632, -1, 641, 644, 646],
+                "terminates": true,
+                "type": "LimitedExpress"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
                 "startsHere": true,
                 "stops": [603, 605, 608, 613, 615, 618, 621, 623, 625, 629, 634, 638, 641, 646, 648, 654, 656, 659],
                 "terminates": true,
@@ -1202,10 +1308,46 @@
                 "ascending": true,
                 "calendar": "SaturdayHoliday",
                 "startIndex": 0,
+                "startsHere": false,
+                "stops": [620, -1, -1, -1, -1, -1, -1, 639, -1, -1, -1, -1, -1, 663, -1, 670, 673, 675],
+                "terminates": true,
+                "type": "LimitedExpress"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [642, -1, -1, -1, -1, -1, -1, 659, -1, -1, -1, -1, -1, 674, -1, 683, 686, 688],
+                "terminates": true,
+                "type": "LimitedExpress"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [649, -1, -1, -1, -1, -1, -1, 674, -1, -1, -1, -1, -1, 693, -1, 700, 703, 706],
+                "terminates": true,
+                "type": "LimitedExpress"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
                 "startsHere": true,
                 "stops": [666, 668, 672, 679, 682, 685, 687, 690, 692, 695, 702, 707, 709, 712, 714, 720, 723, 725],
                 "terminates": true,
                 "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [696, -1, -1, -1, -1, -1, -1, 716, -1, -1, -1, -1, -1, 732, -1, 739, 742, 744],
+                "terminates": true,
+                "type": "LimitedExpress"
             },
             {
                 "ascending": true,
@@ -1260,6 +1402,15 @@
                 "stops": [865, 867, 870, 875, 877, 881, 883, 886, 888, 892, 897, 902, 904, 911, 913, 923, 926, 929],
                 "terminates": true,
                 "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [897, -1, -1, -1, -1, -1, -1, 917, -1, -1, -1, -1, -1, 936, -1, 945, 948, 951],
+                "terminates": true,
+                "type": "LimitedExpress"
             },
             {
                 "ascending": true,
@@ -1346,6 +1497,15 @@
                 "ascending": true,
                 "calendar": "SaturdayHoliday",
                 "startIndex": 0,
+                "startsHere": true,
+                "stops": [1249, 1251, 1256, 1260, 1263, 1266, 1272, 1275, 1277, 1280, 1284, 1289, 1292, 1294, 1296, 1302, 1304, 1307],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
                 "startsHere": false,
                 "stops": [1271, 1273, 1277, 1282, 1284, 1288, 1290, 1293, 1295, 1298, 1304, 1309, 1311, 1314, 1316, 1322, 1325, 1328],
                 "terminates": true,
@@ -1357,6 +1517,24 @@
                 "startIndex": 0,
                 "startsHere": true,
                 "stops": [1305, 1307, 1311, 1315, 1318, 1321, 1323, 1326, 1328, 1331, 1335, 1340, 1342, 1345, 1347, 1352, 1355, 1358],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1325, 1327, 1330, 1335, 1337, 1340, 1343, 1345, 1347, 1358, 1363, 1367, 1370, 1372, 1375, 1380, 1383, 1385],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1350, 1352, 1356, 1360, 1363, 1368, 1371, 1373, 1375, 1378, 1383, 1388, 1390, 1393, 1395, 1400, 1403, 1406],
                 "terminates": true,
                 "type": "Local"
             },
@@ -1451,6 +1629,15 @@
                 "calendar": "SaturdayHoliday",
                 "startIndex": 17,
                 "startsHere": true,
+                "stops": [503, 506, 511, -1, 516, -1, -1, -1, -1, -1, 532, -1, -1, -1, -1, -1, -1, 550],
+                "terminates": true,
+                "type": "LimitedExpress"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 17,
+                "startsHere": true,
                 "stops": [540, 543, 548, 552, 554, 555, 558, 563, 567, 570, 572, 575, 577, 580, 582, 593, 597, 599],
                 "terminates": true,
                 "type": "Local"
@@ -1494,6 +1681,15 @@
                 "calendar": "SaturdayHoliday",
                 "startIndex": 17,
                 "startsHere": true,
+                "stops": [661, 664, 669, -1, 675, -1, -1, -1, -1, -1, 699, -1, -1, -1, -1, -1, -1, 715],
+                "terminates": true,
+                "type": "LimitedExpress"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 17,
+                "startsHere": true,
                 "stops": [676, 679, 684, 687, 692, 694, 697, 702, 706, 709, 711, 713, 716, 718, 721, 725, 729, 731],
                 "terminates": true,
                 "type": "Local"
@@ -1521,6 +1717,15 @@
                 "calendar": "SaturdayHoliday",
                 "startIndex": 17,
                 "startsHere": true,
+                "stops": [782, 785, 793, -1, 798, -1, -1, -1, -1, -1, 814, -1, -1, -1, -1, -1, -1, 831],
+                "terminates": true,
+                "type": "LimitedExpress"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 17,
+                "startsHere": true,
                 "stops": [796, 799, 804, 807, 810, 812, 814, 819, 823, 826, 828, 831, 833, 836, 838, 843, 847, 849],
                 "terminates": true,
                 "type": "Local"
@@ -1539,9 +1744,41 @@
                 "calendar": "SaturdayHoliday",
                 "startIndex": 17,
                 "startsHere": true,
+                "stops": [848, 851, 856, -1, 861, -1, -1, -1, -1, -1, 877, -1, -1, -1, -1, -1, -1, 907],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shinjuku",
+                    "ja": "新宿",
+                    "ko": "신주쿠",
+                    "zh-Hans": "新宿",
+                    "zh-Hant": "新宿"
+                },
+                "type": "LimitedExpress"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 17,
+                "startsHere": true,
                 "stops": [865, 868, 873, 876, 879, 881, 883, 888, 892, 895, 897, 900, 902, 905, 909, 914, 918, 920],
                 "terminates": true,
                 "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 17,
+                "startsHere": true,
+                "stops": [898, 901, 906, -1, 912, -1, -1, -1, -1, -1, 927, -1, -1, -1, -1, -1, -1, 957],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shinjuku",
+                    "ja": "新宿",
+                    "ko": "신주쿠",
+                    "zh-Hans": "新宿",
+                    "zh-Hant": "新宿"
+                },
+                "type": "LimitedExpress"
             },
             {
                 "ascending": false,
@@ -1560,6 +1797,22 @@
                 "stops": [956, 959, 965, 968, 970, 972, 975, 980, 984, 987, 989, 992, 994, 997, 1000, 1004, 1008, 1010],
                 "terminates": true,
                 "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 17,
+                "startsHere": true,
+                "stops": [972, 975, 980, -1, 985, -1, -1, -1, -1, -1, 1000, -1, -1, -1, -1, -1, -1, 1043],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shinjuku",
+                    "ja": "新宿",
+                    "ko": "신주쿠",
+                    "zh-Hans": "新宿",
+                    "zh-Hant": "新宿"
+                },
+                "type": "LimitedExpress"
             },
             {
                 "ascending": false,
@@ -1609,6 +1862,22 @@
                 "calendar": "SaturdayHoliday",
                 "startIndex": 17,
                 "startsHere": true,
+                "stops": [1061, 1064, 1069, -1, 1074, -1, -1, -1, -1, -1, 1090, -1, -1, -1, -1, -1, -1, 1123],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shinjuku",
+                    "ja": "新宿",
+                    "ko": "신주쿠",
+                    "zh-Hans": "新宿",
+                    "zh-Hant": "新宿"
+                },
+                "type": "LimitedExpress"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 17,
+                "startsHere": true,
                 "stops": [1072, 1075, 1080, 1084, 1086, 1088, 1090, 1095, 1101, 1104, 1106, 1109, 1112, 1114, 1117, 1124, 1128, 1130],
                 "terminates": true,
                 "type": "Local"
@@ -1646,6 +1915,24 @@
                 "startIndex": 17,
                 "startsHere": true,
                 "stops": [1209, 1212, 1217, 1220, 1222, 1224, 1227, 1232, 1236, 1239, 1241, 1244, 1246, 1249, 1251, 1256, 1260, 1262],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 17,
+                "startsHere": true,
+                "stops": [1238, 1241, 1246, 1249, 1251, 1253, 1256, 1261, 1265, 1268, 1270, 1273, 1275, 1278, 1282, 1286, 1291, 1292],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 17,
+                "startsHere": true,
+                "stops": [1276, 1279, 1284, 1288, 1294, 1296, 1298, 1304, 1308, 1311, 1313, 1316, 1321, 1323, 1326, 1330, 1335, 1336],
                 "terminates": true,
                 "type": "Local"
             },
