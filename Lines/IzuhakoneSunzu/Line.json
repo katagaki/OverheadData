@@ -53,7 +53,7 @@
                             "headwayMinutes": 20
                         },
                         {
-                            "from": "13:00",
+                            "from": "12:00",
                             "headwayMinutes": 15
                         },
                         {
@@ -190,6 +190,10 @@
                         },
                         {
                             "from": "14:00",
+                            "headwayMinutes": 12
+                        },
+                        {
+                            "from": "15:00",
                             "headwayMinutes": 15
                         },
                         {
@@ -1310,7 +1314,7 @@
                 "calendar": "Weekday",
                 "startIndex": 12,
                 "startsHere": true,
-                "stops": [755, -1, 760, -1, 766, -1, -1, -1, 774, -1, 778, -1, 784],
+                "stops": [755, -1, 760, -1, 766, -1, -1, -1, 774, -1, 778, -1, 781],
                 "terminates": false,
                 "throughDest": {
                     "en": "Tokyo",
@@ -1425,7 +1429,7 @@
                 "calendar": "Weekday",
                 "startIndex": 12,
                 "startsHere": true,
-                "stops": [939, -1, 944, -1, 950, -1, -1, -1, 957, -1, 961, -1, 966],
+                "stops": [939, -1, 944, -1, 950, -1, -1, -1, 957, -1, 961, -1, 964],
                 "terminates": false,
                 "throughDest": {
                     "en": "Tokyo",
@@ -1885,6 +1889,15 @@
                 "stops": [717, 720, 722, 724, 728, 731, 734, 736, 739, 743, 746, 750, 752],
                 "terminates": true,
                 "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [731, -1, 735, -1, 739, -1, -1, -1, 746, -1, 752, -1, 759],
+                "terminates": true,
+                "type": "LimitedExpress"
             },
             {
                 "ascending": true,
@@ -2485,7 +2498,7 @@
                 "calendar": "SaturdayHoliday",
                 "startIndex": 12,
                 "startsHere": true,
-                "stops": [755, -1, 760, -1, 766, -1, -1, -1, 774, -1, 778, -1, 784],
+                "stops": [755, -1, 760, -1, 766, -1, -1, -1, 774, -1, 778, -1, 781],
                 "terminates": false,
                 "throughDest": {
                     "en": "Tokyo",
@@ -2555,6 +2568,22 @@
                 "calendar": "SaturdayHoliday",
                 "startIndex": 12,
                 "startsHere": true,
+                "stops": [858, -1, 863, -1, 868, -1, -1, -1, 875, -1, 880, -1, 883],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Tokyo",
+                    "ja": "東京",
+                    "ko": "도쿄",
+                    "zh-Hans": "东京",
+                    "zh-Hant": "東京"
+                },
+                "type": "LimitedExpress"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 12,
+                "startsHere": true,
                 "stops": [870, 872, 876, 879, 882, 885, 888, 891, 893, 896, 899, 901, 903],
                 "terminates": true,
                 "type": "Local"
@@ -2600,7 +2629,7 @@
                 "calendar": "SaturdayHoliday",
                 "startIndex": 12,
                 "startsHere": true,
-                "stops": [939, -1, 944, -1, 950, -1, -1, -1, 957, -1, 961, -1, 966],
+                "stops": [939, -1, 944, -1, 950, -1, -1, -1, 957, -1, 961, -1, 964],
                 "terminates": false,
                 "throughDest": {
                     "en": "Tokyo",
