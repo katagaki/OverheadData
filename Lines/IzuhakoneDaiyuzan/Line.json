@@ -30,15 +30,31 @@
                     "bands": [
                         {
                             "from": "05:58",
-                            "headwayMinutes": 17
+                            "headwayMinutes": 60
                         },
                         {
                             "from": "06:00",
+                            "headwayMinutes": 20
+                        },
+                        {
+                            "from": "07:00",
                             "headwayMinutes": 15
                         },
                         {
                             "from": "20:00",
-                            "headwayMinutes": 23
+                            "headwayMinutes": 20
+                        },
+                        {
+                            "from": "21:00",
+                            "headwayMinutes": 30
+                        },
+                        {
+                            "from": "22:00",
+                            "headwayMinutes": 20
+                        },
+                        {
+                            "from": "23:00",
+                            "headwayMinutes": 30
                         }
                     ],
                     "firstDeparture": "05:58",
@@ -49,10 +65,14 @@
                     "bands": [
                         {
                             "from": "05:58",
-                            "headwayMinutes": 14
+                            "headwayMinutes": 60
                         },
                         {
                             "from": "06:00",
+                            "headwayMinutes": 15
+                        },
+                        {
+                            "from": "07:00",
                             "headwayMinutes": 12
                         },
                         {
@@ -61,7 +81,11 @@
                         },
                         {
                             "from": "21:00",
-                            "headwayMinutes": 22
+                            "headwayMinutes": 20
+                        },
+                        {
+                            "from": "23:00",
+                            "headwayMinutes": 30
                         }
                     ],
                     "firstDeparture": "05:58",
@@ -86,7 +110,7 @@
                     "bands": [
                         {
                             "from": "05:26",
-                            "headwayMinutes": 22
+                            "headwayMinutes": 30
                         },
                         {
                             "from": "06:00",
@@ -94,7 +118,19 @@
                         },
                         {
                             "from": "20:00",
-                            "headwayMinutes": 24
+                            "headwayMinutes": 30
+                        },
+                        {
+                            "from": "21:00",
+                            "headwayMinutes": 20
+                        },
+                        {
+                            "from": "22:00",
+                            "headwayMinutes": 30
+                        },
+                        {
+                            "from": "23:00",
+                            "headwayMinutes": 60
                         }
                     ],
                     "firstDeparture": "05:26",
@@ -105,7 +141,7 @@
                     "bands": [
                         {
                             "from": "05:26",
-                            "headwayMinutes": 22
+                            "headwayMinutes": 30
                         },
                         {
                             "from": "06:00",
@@ -117,7 +153,15 @@
                         },
                         {
                             "from": "21:00",
-                            "headwayMinutes": 25
+                            "headwayMinutes": 20
+                        },
+                        {
+                            "from": "22:00",
+                            "headwayMinutes": 30
+                        },
+                        {
+                            "from": "23:00",
+                            "headwayMinutes": 60
                         }
                     ],
                     "firstDeparture": "05:26",
@@ -126,7 +170,7 @@
                 }
             }
         ],
-        "hopTimesMinutes": [1, 2, 3, 1, 3, 3, 1, 2, 3, 2, 1],
+        "hopTimesMinutes": [1, 2, 3, 1, 3, 2, 2, 1, 5, 2, 2],
         "id": "Railway:Izuhakone.Daiyuzan",
         "isLoop": false,
         "name": {
@@ -297,6 +341,2474 @@
         ],
         "stopPatterns": [],
         "throughServices": [],
-        "upHopTimesMinutes": [1, 2, 3, 2, 2, 1, 2, 2, 3, 2, 1]
+        "timetableRuns": [
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [358, 359, 361, 364, 365, 368, 371, 372, 374, 377, 379, 380],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [372, 373, 375, 377, 379, 381, 384, 385, 387, 390, 392, 393],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [384, 385, 387, 390, 391, 394, 396, 397, 399, 402, 404, 405],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [396, 397, 399, 402, 403, 406, 408, 409, 411, 414, 416, 417],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [408, 409, 411, 414, 415, 418, 420, 421, 423, 426, 428, 429],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [420, 421, 423, 426, 427, 430, 432, 433, 435, 438, 440, 441],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [432, 433, 435, 438, 439, 442, 444, 445, 447, 450, 452, 453],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [444, 445, 447, 450, 451, 454, 456, 457, 459, 462, 464, 465],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [456, 457, 459, 462, 463, 466, 468, 469, 471, 474, 476, 477],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [468, 469, 471, 474, 475, 478, 480, 481, 483, 486, 488, 489],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [480, 481, 483, 486, 487, 490, 492, 493, 495, 498, 500, 501],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [492, 493, 495, 498, 499, 502, 504, 505, 507, 510, 512, 513],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [504, 505, 507, 510, 511, 514, 516, 517, 519, 522, 524, 525],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [516, 517, 519, 522, 523, 526, 528, 529, 531, 534, 536, 537],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [528, 529, 531, 534, 535, 538, 540, 541, 543, 546, 548, 549],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [540, 541, 543, 546, 547, 550, 552, 554, 555, 560, 562, 564],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [555, 556, 558, 561, 562, 565, 567, 569, 570, 575, 577, 579],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [570, 571, 573, 576, 577, 580, 582, 584, 585, 590, 592, 594],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [585, 586, 588, 591, 592, 595, 597, 599, 600, 605, 607, 609],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [600, 601, 603, 606, 607, 610, 612, 614, 615, 620, 622, 624],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [615, 616, 618, 621, 622, 625, 627, 629, 630, 635, 637, 639],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [630, 631, 633, 636, 637, 640, 642, 644, 645, 650, 652, 654],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [645, 646, 648, 651, 652, 655, 657, 659, 660, 665, 667, 669],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [660, 661, 663, 666, 667, 670, 672, 674, 675, 680, 682, 684],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [675, 676, 678, 681, 682, 685, 687, 689, 690, 695, 697, 699],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [690, 691, 693, 696, 697, 700, 702, 704, 705, 710, 712, 714],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [705, 706, 708, 711, 712, 715, 717, 719, 720, 725, 727, 729],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [720, 721, 723, 726, 727, 730, 732, 734, 735, 740, 742, 744],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [735, 736, 738, 741, 742, 745, 747, 749, 750, 755, 757, 759],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [750, 751, 753, 756, 757, 760, 762, 764, 765, 770, 772, 774],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [765, 766, 768, 771, 772, 775, 777, 779, 780, 785, 787, 789],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [780, 781, 783, 786, 787, 790, 792, 794, 795, 800, 802, 804],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [795, 796, 798, 801, 802, 805, 807, 809, 810, 815, 817, 819],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [810, 811, 813, 816, 817, 820, 822, 824, 825, 830, 832, 834],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [825, 826, 828, 831, 832, 835, 837, 839, 840, 845, 847, 849],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [840, 841, 843, 846, 847, 850, 852, 854, 855, 860, 862, 864],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [855, 856, 858, 861, 862, 865, 867, 869, 870, 875, 877, 879],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [870, 871, 873, 876, 877, 880, 882, 884, 885, 890, 892, 894],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [885, 886, 888, 891, 892, 895, 897, 899, 900, 905, 907, 909],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [900, 901, 903, 906, 907, 910, 912, 914, 915, 920, 922, 924],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [915, 916, 918, 921, 922, 925, 927, 929, 930, 935, 937, 939],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [930, 931, 933, 936, 937, 940, 942, 944, 945, 950, 952, 954],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [945, 946, 948, 951, 952, 955, 957, 959, 960, 965, 967, 969],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [960, 961, 963, 966, 967, 970, 972, 974, 975, 980, 982, 984],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [975, 976, 978, 981, 982, 985, 987, 989, 990, 995, 997, 999],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [990, 991, 993, 996, 997, 1000, 1002, 1004, 1005, 1010, 1012, 1014],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1005, 1006, 1008, 1011, 1012, 1015, 1017, 1019, 1020, 1025, 1027, 1029],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1020, 1021, 1023, 1026, 1027, 1030, 1032, 1034, 1035, 1040, 1042, 1044],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1035, 1036, 1038, 1041, 1042, 1045, 1047, 1049, 1050, 1055, 1057, 1059],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1050, 1051, 1053, 1056, 1057, 1060, 1062, 1064, 1065, 1070, 1072, 1074],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1065, 1066, 1068, 1071, 1072, 1075, 1077, 1079, 1080, 1085, 1087, 1089],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1080, 1081, 1083, 1086, 1087, 1090, 1092, 1094, 1095, 1100, 1102, 1104],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1095, 1096, 1098, 1101, 1102, 1105, 1107, 1109, 1110, 1115, 1117, 1119],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1110, 1111, 1113, 1116, 1117, 1120, 1122, 1124, 1125, 1130, 1132, 1134],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1125, 1126, 1128, 1131, 1132, 1135, 1137, 1139, 1140, 1145, 1147, 1149],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1140, 1141, 1143, 1146, 1147, 1150, 1152, 1154, 1155, 1160, 1162, 1164],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1155, 1156, 1158, 1161, 1162, 1165, 1167, 1169, 1170, 1175, 1177, 1179],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1170, 1171, 1173, 1176, 1177, 1180, 1182, 1184, 1185, 1190, 1192, 1194],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1185, 1186, 1188, 1191, 1192, 1195, 1197, 1199, 1200, 1205, 1207, 1209],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1200, 1201, 1203, 1206, 1207, 1210, 1212, 1214, 1215, 1220, 1222, 1224],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1215, 1216, 1218, 1221, 1222, 1225, 1227, 1229, 1230, 1235, 1237, 1239],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1230, 1231, 1233, 1236, 1237, 1240, 1242, 1244, 1245, 1250, 1252, 1254],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1245, 1246, 1248, 1251, 1252, 1255, 1257, 1259, 1260, 1265, 1267, 1269],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1260, 1261, 1263, 1266, 1267, 1270, 1272, 1274, 1275, 1278, 1280, 1282],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1272, 1273, 1275, 1278, 1279, 1282, 1284, 1285, 1287, 1290, 1292, 1293],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1296, 1297, 1299, 1302, 1303, 1306, 1308, 1309, 1311, 1314, 1316, 1317],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1322, 1323, 1325, 1328, 1329, 1332, 1334, 1335, 1337, 1340, 1342, 1343],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1346, 1347, 1349, 1352, 1353, 1356, 1358, 1359, 1361, 1364, 1366, 1367],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1370, 1371, 1373, 1376, 1377, 1380, 1382, 1383, 1385, 1388, 1390, 1391],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1394, 1395, 1397, 1400, 1401, 1404, 1406, 1407, 1409, 1412, 1414, 1415],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1413, 1414, 1416, 1419, 1420, 1423, 1425, 1426, 1428, 1431, 1433, 1434],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [326, 327, 329, 332, 334, 336, 337, 339, 341, 344, 346, 347],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [348, 349, 351, 354, 356, 358, 359, 361, 363, 366, 368, 369],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [361, 362, 364, 367, 369, 371, 372, 374, 377, 379, 381, 382],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [374, 375, 377, 380, 382, 384, 385, 387, 389, 392, 394, 395],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [386, 387, 389, 392, 394, 396, 397, 399, 401, 404, 406, 407],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [398, 399, 401, 404, 406, 408, 409, 411, 413, 416, 418, 419],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [410, 411, 413, 416, 418, 420, 421, 423, 425, 428, 430, 431],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [422, 423, 425, 428, 430, 432, 433, 435, 437, 440, 442, 443],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [434, 435, 437, 440, 442, 444, 445, 447, 449, 452, 454, 455],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [446, 447, 449, 452, 454, 456, 457, 459, 461, 464, 466, 467],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [458, 459, 461, 464, 466, 468, 469, 471, 473, 476, 478, 479],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [470, 471, 473, 476, 478, 480, 481, 483, 485, 488, 490, 491],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [482, 483, 485, 488, 490, 492, 493, 495, 497, 500, 502, 503],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [494, 495, 497, 500, 502, 504, 505, 507, 509, 512, 514, 515],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [506, 507, 509, 512, 514, 516, 517, 519, 521, 524, 526, 527],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [518, 519, 521, 524, 526, 528, 529, 531, 533, 536, 538, 539],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [530, 531, 533, 536, 538, 540, 541, 543, 545, 548, 550, 551],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [542, 543, 545, 549, 550, 552, 554, 556, 560, 562, 565, 566],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [557, 558, 560, 564, 565, 567, 569, 571, 575, 577, 580, 581],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [572, 573, 575, 579, 580, 582, 584, 586, 590, 592, 595, 596],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [587, 588, 590, 594, 595, 597, 599, 601, 605, 607, 610, 611],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [602, 603, 605, 609, 610, 612, 614, 616, 620, 622, 625, 626],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [617, 618, 620, 624, 625, 627, 629, 631, 635, 637, 640, 641],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [632, 633, 635, 639, 640, 642, 644, 646, 650, 652, 655, 656],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [647, 648, 650, 654, 655, 657, 659, 661, 665, 667, 670, 671],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [662, 663, 665, 669, 670, 672, 674, 676, 680, 682, 685, 686],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [677, 678, 680, 684, 685, 687, 689, 691, 695, 697, 700, 701],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [692, 693, 695, 699, 700, 702, 704, 706, 710, 712, 715, 716],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [707, 708, 710, 714, 715, 717, 719, 721, 725, 727, 730, 731],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [722, 723, 725, 729, 730, 732, 734, 736, 740, 742, 745, 746],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [737, 738, 740, 744, 745, 747, 749, 751, 755, 757, 760, 761],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [752, 753, 755, 759, 760, 762, 764, 766, 770, 772, 775, 776],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [767, 768, 770, 774, 775, 777, 779, 781, 785, 787, 790, 791],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [782, 783, 785, 789, 790, 792, 794, 796, 800, 802, 805, 806],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [797, 798, 800, 804, 805, 807, 809, 811, 815, 817, 820, 821],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [812, 813, 815, 819, 820, 822, 824, 826, 830, 832, 835, 836],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [827, 828, 830, 834, 835, 837, 839, 841, 845, 847, 850, 851],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [842, 843, 845, 849, 850, 852, 854, 856, 860, 862, 865, 866],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [857, 858, 860, 864, 865, 867, 869, 871, 875, 877, 880, 881],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [872, 873, 875, 879, 880, 882, 884, 886, 890, 892, 895, 896],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [887, 888, 890, 894, 895, 897, 899, 901, 905, 907, 910, 911],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [902, 903, 905, 909, 910, 912, 914, 916, 920, 922, 925, 926],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [917, 918, 920, 924, 925, 927, 929, 931, 935, 937, 940, 941],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [932, 933, 935, 939, 940, 942, 944, 946, 950, 952, 955, 956],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [947, 948, 950, 954, 955, 957, 959, 961, 965, 967, 970, 971],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [962, 963, 965, 969, 970, 972, 974, 976, 980, 982, 985, 986],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [977, 978, 980, 984, 985, 987, 989, 991, 995, 997, 1000, 1001],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [992, 993, 995, 999, 1000, 1002, 1004, 1006, 1010, 1012, 1015, 1016],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [1007, 1008, 1010, 1014, 1015, 1017, 1019, 1021, 1025, 1027, 1030, 1031],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [1022, 1023, 1025, 1029, 1030, 1032, 1034, 1036, 1040, 1042, 1045, 1046],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [1037, 1038, 1040, 1044, 1045, 1047, 1049, 1051, 1055, 1057, 1060, 1061],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [1052, 1053, 1055, 1059, 1060, 1062, 1064, 1066, 1070, 1072, 1075, 1076],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [1067, 1068, 1070, 1074, 1075, 1077, 1079, 1081, 1085, 1087, 1090, 1091],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [1082, 1083, 1085, 1089, 1090, 1092, 1094, 1096, 1100, 1102, 1105, 1106],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [1097, 1098, 1100, 1104, 1105, 1107, 1109, 1111, 1115, 1117, 1120, 1121],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [1112, 1113, 1115, 1119, 1120, 1122, 1124, 1126, 1130, 1132, 1135, 1136],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [1127, 1128, 1130, 1134, 1135, 1137, 1139, 1141, 1145, 1147, 1150, 1151],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [1142, 1143, 1145, 1149, 1150, 1152, 1154, 1156, 1160, 1162, 1165, 1166],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [1157, 1158, 1160, 1164, 1165, 1167, 1169, 1171, 1175, 1177, 1180, 1181],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [1172, 1173, 1175, 1179, 1180, 1182, 1184, 1186, 1190, 1192, 1195, 1196],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [1187, 1188, 1190, 1194, 1195, 1197, 1199, 1201, 1205, 1207, 1210, 1211],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [1202, 1203, 1205, 1209, 1210, 1212, 1214, 1216, 1220, 1222, 1225, 1226],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [1217, 1218, 1220, 1224, 1225, 1227, 1229, 1231, 1235, 1237, 1240, 1241],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [1232, 1233, 1235, 1239, 1240, 1242, 1244, 1246, 1250, 1252, 1255, 1256],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [1247, 1248, 1250, 1254, 1255, 1257, 1259, 1261, 1265, 1267, 1270, 1271],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [1262, 1263, 1265, 1268, 1270, 1272, 1273, 1275, 1277, 1280, 1282, 1283],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [1286, 1287, 1289, 1292, 1294, 1296, 1297, 1299, 1301, 1304, 1306, 1307],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [1311, 1312, 1314, 1317, 1319, 1321, 1322, 1324, 1327, 1329, 1331, 1333],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [1336, 1337, 1339, 1342, 1344, 1346, 1347, 1349, 1351, 1354, 1356, 1357],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [1360, 1361, 1363, 1366, 1368, 1370, 1371, 1373, 1375, 1378, 1380, 1381],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [1384, 1385, 1387, 1390, 1392, 1394, 1395, 1397, 1399, 1402, 1404, 1405],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [358, 359, 361, 364, 366, 368, 372, 374, 375, 380, 382, 384],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [375, 376, 378, 381, 382, 385, 387, 389, 390, 395, 397, 399],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [390, 391, 393, 396, 397, 400, 402, 404, 405, 410, 412, 414],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [405, 406, 408, 411, 412, 415, 417, 419, 420, 425, 427, 429],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [420, 421, 423, 426, 427, 430, 432, 434, 435, 440, 442, 444],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [435, 436, 438, 441, 442, 445, 447, 449, 450, 455, 457, 459],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [450, 451, 453, 456, 457, 460, 462, 464, 465, 470, 472, 474],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [465, 466, 468, 471, 472, 475, 477, 479, 480, 485, 487, 489],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [480, 481, 483, 486, 487, 490, 492, 494, 495, 500, 502, 504],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [495, 496, 498, 501, 502, 505, 507, 509, 510, 515, 517, 519],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [510, 511, 513, 516, 517, 520, 522, 524, 525, 530, 532, 534],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [525, 526, 528, 531, 532, 535, 537, 539, 540, 545, 547, 549],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [540, 541, 543, 546, 547, 550, 552, 554, 555, 560, 562, 564],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [555, 556, 558, 561, 562, 565, 567, 569, 570, 575, 577, 579],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [570, 571, 573, 576, 577, 580, 582, 584, 585, 590, 592, 594],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [585, 586, 588, 591, 592, 595, 597, 599, 600, 605, 607, 609],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [600, 601, 603, 606, 607, 610, 612, 614, 615, 620, 622, 624],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [615, 616, 618, 621, 622, 625, 627, 629, 630, 635, 637, 639],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [630, 631, 633, 636, 637, 640, 642, 644, 645, 650, 652, 654],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [645, 646, 648, 651, 652, 655, 657, 659, 660, 665, 667, 669],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [660, 661, 663, 666, 667, 670, 672, 674, 675, 680, 682, 684],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [675, 676, 678, 681, 682, 685, 687, 689, 690, 695, 697, 699],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [690, 691, 693, 696, 697, 700, 702, 704, 705, 710, 712, 714],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [705, 706, 708, 711, 712, 715, 717, 719, 720, 725, 727, 729],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [720, 721, 723, 726, 727, 730, 732, 734, 735, 740, 742, 744],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [735, 736, 738, 741, 742, 745, 747, 749, 750, 755, 757, 759],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [750, 751, 753, 756, 757, 760, 762, 764, 765, 770, 772, 774],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [765, 766, 768, 771, 772, 775, 777, 779, 780, 785, 787, 789],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [780, 781, 783, 786, 787, 790, 792, 794, 795, 800, 802, 804],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [795, 796, 798, 801, 802, 805, 807, 809, 810, 815, 817, 819],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [810, 811, 813, 816, 817, 820, 822, 824, 825, 830, 832, 834],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [825, 826, 828, 831, 832, 835, 837, 839, 840, 845, 847, 849],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [840, 841, 843, 846, 847, 850, 852, 854, 855, 860, 862, 864],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [855, 856, 858, 861, 862, 865, 867, 869, 870, 875, 877, 879],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [870, 871, 873, 876, 877, 880, 882, 884, 885, 890, 892, 894],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [885, 886, 888, 891, 892, 895, 897, 899, 900, 905, 907, 909],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [900, 901, 903, 906, 907, 910, 912, 914, 915, 920, 922, 924],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [915, 916, 918, 921, 922, 925, 927, 929, 930, 935, 937, 939],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [930, 931, 933, 936, 937, 940, 942, 944, 945, 950, 952, 954],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [945, 946, 948, 951, 952, 955, 957, 959, 960, 965, 967, 969],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [960, 961, 963, 966, 967, 970, 972, 974, 975, 980, 982, 984],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [975, 976, 978, 981, 982, 985, 987, 989, 990, 995, 997, 999],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [990, 991, 993, 996, 997, 1000, 1002, 1004, 1005, 1010, 1012, 1014],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1005, 1006, 1008, 1011, 1012, 1015, 1017, 1019, 1020, 1025, 1027, 1029],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1020, 1021, 1023, 1026, 1027, 1030, 1032, 1034, 1035, 1040, 1042, 1044],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1035, 1036, 1038, 1041, 1042, 1045, 1047, 1049, 1050, 1055, 1057, 1059],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1050, 1051, 1053, 1056, 1057, 1060, 1062, 1064, 1065, 1070, 1072, 1074],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1065, 1066, 1068, 1071, 1072, 1075, 1077, 1079, 1080, 1085, 1087, 1089],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1080, 1081, 1083, 1086, 1087, 1090, 1092, 1094, 1095, 1100, 1102, 1104],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1095, 1096, 1098, 1101, 1102, 1105, 1107, 1109, 1110, 1115, 1117, 1119],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1110, 1111, 1113, 1116, 1117, 1120, 1122, 1124, 1125, 1130, 1132, 1134],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1125, 1126, 1128, 1131, 1132, 1135, 1137, 1139, 1140, 1145, 1147, 1149],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1140, 1141, 1143, 1146, 1147, 1150, 1152, 1154, 1155, 1160, 1162, 1164],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1155, 1156, 1158, 1161, 1162, 1165, 1167, 1169, 1170, 1175, 1177, 1179],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1170, 1171, 1173, 1176, 1177, 1180, 1182, 1184, 1185, 1190, 1192, 1194],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1185, 1186, 1188, 1191, 1192, 1195, 1197, 1199, 1200, 1203, 1205, 1207],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1200, 1201, 1203, 1206, 1207, 1210, 1212, 1213, 1215, 1218, 1220, 1221],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1224, 1225, 1227, 1230, 1231, 1234, 1236, 1237, 1239, 1242, 1244, 1245],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1248, 1249, 1251, 1254, 1255, 1258, 1260, 1261, 1263, 1266, 1268, 1269],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1272, 1273, 1275, 1278, 1279, 1282, 1284, 1285, 1287, 1290, 1292, 1293],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1296, 1297, 1299, 1302, 1303, 1306, 1308, 1309, 1311, 1314, 1316, 1317],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1322, 1323, 1325, 1328, 1329, 1332, 1334, 1335, 1337, 1340, 1342, 1343],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1346, 1347, 1349, 1352, 1353, 1356, 1358, 1359, 1361, 1364, 1366, 1367],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1370, 1371, 1373, 1376, 1377, 1380, 1382, 1383, 1385, 1388, 1390, 1391],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1394, 1395, 1397, 1400, 1401, 1404, 1406, 1407, 1409, 1412, 1414, 1415],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1413, 1414, 1416, 1419, 1420, 1423, 1425, 1426, 1428, 1431, 1433, 1434],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [326, 327, 329, 332, 334, 336, 337, 339, 341, 344, 346, 347],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [348, 349, 351, 354, 356, 358, 359, 361, 363, 366, 368, 369],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [362, 363, 365, 369, 370, 372, 374, 376, 380, 382, 385, 386],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [377, 378, 380, 384, 385, 387, 389, 391, 395, 397, 400, 401],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [392, 393, 395, 399, 400, 402, 404, 406, 410, 412, 415, 416],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [407, 408, 410, 414, 415, 417, 419, 421, 425, 427, 430, 431],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [422, 423, 425, 429, 430, 432, 434, 436, 440, 442, 445, 446],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [437, 438, 440, 444, 445, 447, 449, 451, 455, 457, 460, 461],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [452, 453, 455, 459, 460, 462, 464, 466, 470, 472, 475, 476],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [467, 468, 470, 474, 475, 477, 479, 481, 485, 487, 490, 491],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [482, 483, 485, 489, 490, 492, 494, 496, 500, 502, 505, 506],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [497, 498, 500, 504, 505, 507, 509, 511, 515, 517, 520, 521],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [512, 513, 515, 519, 520, 522, 524, 526, 530, 532, 535, 536],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [527, 528, 530, 534, 535, 537, 539, 541, 545, 547, 550, 551],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [542, 543, 545, 549, 550, 552, 554, 556, 560, 562, 565, 566],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [557, 558, 560, 564, 565, 567, 569, 571, 575, 577, 580, 581],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [572, 573, 575, 579, 580, 582, 584, 586, 590, 592, 595, 596],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [587, 588, 590, 594, 595, 597, 599, 601, 605, 607, 610, 611],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [602, 603, 605, 609, 610, 612, 614, 616, 620, 622, 625, 626],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [617, 618, 620, 624, 625, 627, 629, 631, 635, 637, 640, 641],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [632, 633, 635, 639, 640, 642, 644, 646, 650, 652, 655, 656],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [647, 648, 650, 654, 655, 657, 659, 661, 665, 667, 670, 671],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [662, 663, 665, 669, 670, 672, 674, 676, 680, 682, 685, 686],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [677, 678, 680, 684, 685, 687, 689, 691, 695, 697, 700, 701],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [692, 693, 695, 699, 700, 702, 704, 706, 710, 712, 715, 716],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [707, 708, 710, 714, 715, 717, 719, 721, 725, 727, 730, 731],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [722, 723, 725, 729, 730, 732, 734, 736, 740, 742, 745, 746],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [737, 738, 740, 744, 745, 747, 749, 751, 755, 757, 760, 761],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [752, 753, 755, 759, 760, 762, 764, 766, 770, 772, 775, 776],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [767, 768, 770, 774, 775, 777, 779, 781, 785, 787, 790, 791],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [782, 783, 785, 789, 790, 792, 794, 796, 800, 802, 805, 806],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [797, 798, 800, 804, 805, 807, 809, 811, 815, 817, 820, 821],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [812, 813, 815, 819, 820, 822, 824, 826, 830, 832, 835, 836],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [827, 828, 830, 834, 835, 837, 839, 841, 845, 847, 850, 851],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [842, 843, 845, 849, 850, 852, 854, 856, 860, 862, 865, 866],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [857, 858, 860, 864, 865, 867, 869, 871, 875, 877, 880, 881],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [872, 873, 875, 879, 880, 882, 884, 886, 890, 892, 895, 896],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [887, 888, 890, 894, 895, 897, 899, 901, 905, 907, 910, 911],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [902, 903, 905, 909, 910, 912, 914, 916, 920, 922, 925, 926],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [917, 918, 920, 924, 925, 927, 929, 931, 935, 937, 940, 941],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [932, 933, 935, 939, 940, 942, 944, 946, 950, 952, 955, 956],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [947, 948, 950, 954, 955, 957, 959, 961, 965, 967, 970, 971],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [962, 963, 965, 969, 970, 972, 974, 976, 980, 982, 985, 986],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [977, 978, 980, 984, 985, 987, 989, 991, 995, 997, 1000, 1001],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [992, 993, 995, 999, 1000, 1002, 1004, 1006, 1010, 1012, 1015, 1016],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [1007, 1008, 1010, 1014, 1015, 1017, 1019, 1021, 1025, 1027, 1030, 1031],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [1022, 1023, 1025, 1029, 1030, 1032, 1034, 1036, 1040, 1042, 1045, 1046],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [1037, 1038, 1040, 1044, 1045, 1047, 1049, 1051, 1055, 1057, 1060, 1061],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [1052, 1053, 1055, 1059, 1060, 1062, 1064, 1066, 1070, 1072, 1075, 1076],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [1067, 1068, 1070, 1074, 1075, 1077, 1079, 1081, 1085, 1087, 1090, 1091],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [1082, 1083, 1085, 1089, 1090, 1092, 1094, 1096, 1100, 1102, 1105, 1106],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [1097, 1098, 1100, 1104, 1105, 1107, 1109, 1111, 1115, 1117, 1120, 1121],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [1112, 1113, 1115, 1119, 1120, 1122, 1124, 1126, 1130, 1132, 1135, 1136],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [1127, 1128, 1130, 1134, 1135, 1137, 1139, 1141, 1145, 1147, 1150, 1151],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [1142, 1143, 1145, 1149, 1150, 1152, 1154, 1156, 1160, 1162, 1165, 1166],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [1157, 1158, 1160, 1164, 1165, 1167, 1169, 1171, 1175, 1177, 1180, 1181],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [1172, 1173, 1175, 1179, 1180, 1182, 1184, 1186, 1190, 1192, 1195, 1196],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [1187, 1188, 1190, 1194, 1195, 1197, 1199, 1201, 1205, 1207, 1210, 1211],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [1214, 1215, 1217, 1220, 1222, 1224, 1225, 1227, 1229, 1232, 1234, 1235],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [1238, 1239, 1241, 1244, 1246, 1248, 1249, 1251, 1253, 1256, 1258, 1259],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [1262, 1263, 1265, 1268, 1270, 1272, 1273, 1275, 1277, 1280, 1282, 1283],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [1286, 1287, 1289, 1292, 1294, 1296, 1297, 1299, 1301, 1304, 1306, 1307],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [1311, 1312, 1314, 1317, 1319, 1321, 1322, 1324, 1327, 1329, 1331, 1333],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [1336, 1337, 1339, 1342, 1344, 1346, 1347, 1349, 1351, 1354, 1356, 1357],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [1360, 1361, 1363, 1366, 1368, 1370, 1371, 1373, 1375, 1378, 1380, 1381],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 11,
+                "startsHere": true,
+                "stops": [1384, 1385, 1387, 1390, 1392, 1394, 1395, 1397, 1399, 1402, 1404, 1405],
+                "terminates": true,
+                "type": "Local"
+            }
+        ],
+        "upHopTimesMinutes": [1, 3, 2, 4, 2, 2, 2, 1, 4, 2, 1]
     }
 ]
