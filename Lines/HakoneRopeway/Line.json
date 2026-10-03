@@ -1,0 +1,157 @@
+[
+    {
+        "colorHex": "#F15A22",
+        "delayInfo": {
+            "checkMethod": {
+                "en": "Check the Hakone Navi service information page. Suspensions for high wind, volcanic gas or maintenance are posted as they occur. Gondolas run about every minute, until 16:15 from December to January.",
+                "ja": "箱根ナビ「運行情報」ページで確認できます。強風・火山ガス・点検などによる運休が発生した場合に掲載されます。ゴンドラは約1分間隔で、12月〜1月は16:15までの運行です。"
+            },
+            "statusPageURL": {
+                "en": "https://www.hakonenavi.jp/international/en/status_information",
+                "ja": "https://www.hakonenavi.jp/transportation/info/"
+            },
+            "xAccount": null
+        },
+        "directions": [
+            {
+                "expressSaturdayHolidayRuns": [],
+                "expressWeekdayRuns": [],
+                "id": "static.RailDirection:OdakyuHakone.Ropeway.Togendai",
+                "intermediateOrigins": [],
+                "isAscending": true,
+                "name": {
+                    "en": "For Owakudani & Togendai",
+                    "ja": "大涌谷・桃源台方面",
+                    "ko": "오와쿠다니·도겐다이 방면",
+                    "zh-Hans": "大涌谷、桃源台方向",
+                    "zh-Hant": "大涌谷、桃源台方向"
+                },
+                "saturdayHoliday": {
+                    "bands": [
+                        {
+                            "from": "09:00",
+                            "headwayMinutes": 1
+                        }
+                    ],
+                    "firstDeparture": "09:00",
+                    "lastDeparture": "17:00",
+                    "trainType": "Local"
+                },
+                "weekday": {
+                    "bands": [
+                        {
+                            "from": "09:00",
+                            "headwayMinutes": 1
+                        }
+                    ],
+                    "firstDeparture": "09:00",
+                    "lastDeparture": "17:00",
+                    "trainType": "Local"
+                }
+            },
+            {
+                "expressSaturdayHolidayRuns": [],
+                "expressWeekdayRuns": [],
+                "id": "static.RailDirection:OdakyuHakone.Ropeway.Sounzan",
+                "intermediateOrigins": [],
+                "isAscending": false,
+                "name": {
+                    "en": "For Owakudani & Sounzan",
+                    "ja": "大涌谷・早雲山方面",
+                    "ko": "오와쿠다니·소운잔 방면",
+                    "zh-Hans": "大涌谷、早云山方向",
+                    "zh-Hant": "大涌谷、早雲山方向"
+                },
+                "saturdayHoliday": {
+                    "bands": [
+                        {
+                            "from": "09:00",
+                            "headwayMinutes": 1
+                        }
+                    ],
+                    "firstDeparture": "09:00",
+                    "lastDeparture": "17:00",
+                    "trainType": "Local"
+                },
+                "weekday": {
+                    "bands": [
+                        {
+                            "from": "09:00",
+                            "headwayMinutes": 1
+                        }
+                    ],
+                    "firstDeparture": "09:00",
+                    "lastDeparture": "17:00",
+                    "trainType": "Local"
+                }
+            }
+        ],
+        "hopTimesMinutes": [10, 10, 10],
+        "id": "Railway:OdakyuHakone.Ropeway",
+        "isLoop": false,
+        "name": {
+            "en": "Hakone Ropeway",
+            "ja": "箱根ロープウェイ",
+            "ko": "하코네 로프웨이",
+            "zh-Hans": "箱根空中缆车",
+            "zh-Hant": "箱根空中纜車"
+        },
+        "operatorId": "Operator:OdakyuHakone",
+        "stations": [
+            {
+                "id": "Station:OdakyuHakone.Ropeway.Sounzan",
+                "latitude": 35.246417,
+                "longitude": 139.035566,
+                "name": {
+                    "en": "Sounzan",
+                    "ja": "早雲山",
+                    "ko": "소운잔",
+                    "zh-Hans": "早云山",
+                    "zh-Hant": "早雲山"
+                },
+                "stationCode": "OH62"
+            },
+            {
+                "id": "Station:OdakyuHakone.Ropeway.Owakudani",
+                "latitude": 35.244333,
+                "longitude": 139.019958,
+                "name": {
+                    "en": "Owakudani",
+                    "ja": "大涌谷",
+                    "ko": "오와쿠다니",
+                    "zh-Hans": "大涌谷",
+                    "zh-Hant": "大涌谷"
+                },
+                "stationCode": "OH63"
+            },
+            {
+                "id": "Station:OdakyuHakone.Ropeway.Ubako",
+                "latitude": 35.244554,
+                "longitude": 139.005958,
+                "name": {
+                    "en": "Ubako",
+                    "ja": "姥子",
+                    "ko": "우바코",
+                    "zh-Hans": "姥子",
+                    "zh-Hant": "姥子"
+                },
+                "stationCode": "OH64"
+            },
+            {
+                "id": "Station:OdakyuHakone.Ropeway.Togendai",
+                "latitude": 35.237861,
+                "longitude": 138.994571,
+                "name": {
+                    "en": "Togendai",
+                    "ja": "桃源台",
+                    "ko": "도겐다이",
+                    "zh-Hans": "桃源台",
+                    "zh-Hant": "桃源台"
+                },
+                "stationCode": "OH65"
+            }
+        ],
+        "stopPatterns": [],
+        "throughServices": []
+    }
+]
