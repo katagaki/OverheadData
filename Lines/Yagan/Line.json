@@ -162,35 +162,15 @@
                     "bands": [
                         {
                             "from": "06:28",
-                            "headwayMinutes": 102
+                            "headwayMinutes": 60
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 49
+                            "headwayMinutes": 30
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 118
-                        },
-                        {
-                            "from": "11:00",
-                            "headwayMinutes": 90
-                        },
-                        {
-                            "from": "13:00",
-                            "headwayMinutes": 88
-                        },
-                        {
-                            "from": "14:00",
-                            "headwayMinutes": 127
-                        },
-                        {
-                            "from": "16:00",
-                            "headwayMinutes": 113
-                        },
-                        {
-                            "from": "18:00",
-                            "headwayMinutes": 114
+                            "headwayMinutes": 60
                         }
                     ],
                     "firstDeparture": "06:28",
@@ -201,35 +181,15 @@
                     "bands": [
                         {
                             "from": "06:28",
-                            "headwayMinutes": 102
+                            "headwayMinutes": 60
                         },
                         {
                             "from": "08:00",
-                            "headwayMinutes": 49
+                            "headwayMinutes": 30
                         },
                         {
                             "from": "09:00",
-                            "headwayMinutes": 118
-                        },
-                        {
-                            "from": "11:00",
-                            "headwayMinutes": 90
-                        },
-                        {
-                            "from": "13:00",
-                            "headwayMinutes": 88
-                        },
-                        {
-                            "from": "14:00",
-                            "headwayMinutes": 127
-                        },
-                        {
-                            "from": "16:00",
-                            "headwayMinutes": 113
-                        },
-                        {
-                            "from": "18:00",
-                            "headwayMinutes": 114
+                            "headwayMinutes": 60
                         }
                     ],
                     "firstDeparture": "06:28",
@@ -386,39 +346,7 @@
                     "bands": [
                         {
                             "from": "05:45",
-                            "headwayMinutes": 84
-                        },
-                        {
-                            "from": "07:00",
-                            "headwayMinutes": 75
-                        },
-                        {
-                            "from": "08:00",
-                            "headwayMinutes": 64
-                        },
-                        {
-                            "from": "09:00",
-                            "headwayMinutes": 100
-                        },
-                        {
-                            "from": "11:00",
-                            "headwayMinutes": 133
-                        },
-                        {
-                            "from": "13:00",
-                            "headwayMinutes": 119
-                        },
-                        {
-                            "from": "15:00",
-                            "headwayMinutes": 40
-                        },
-                        {
-                            "from": "16:00",
-                            "headwayMinutes": 126
-                        },
-                        {
-                            "from": "18:00",
-                            "headwayMinutes": 97
+                            "headwayMinutes": 60
                         }
                     ],
                     "firstDeparture": "05:45",
@@ -429,39 +357,7 @@
                     "bands": [
                         {
                             "from": "05:45",
-                            "headwayMinutes": 84
-                        },
-                        {
-                            "from": "07:00",
-                            "headwayMinutes": 75
-                        },
-                        {
-                            "from": "08:00",
-                            "headwayMinutes": 64
-                        },
-                        {
-                            "from": "09:00",
-                            "headwayMinutes": 100
-                        },
-                        {
-                            "from": "11:00",
-                            "headwayMinutes": 133
-                        },
-                        {
-                            "from": "13:00",
-                            "headwayMinutes": 119
-                        },
-                        {
-                            "from": "15:00",
-                            "headwayMinutes": 40
-                        },
-                        {
-                            "from": "16:00",
-                            "headwayMinutes": 126
-                        },
-                        {
-                            "from": "18:00",
-                            "headwayMinutes": 97
+                            "headwayMinutes": 60
                         }
                     ],
                     "firstDeparture": "05:45",
@@ -470,7 +366,7 @@
                 }
             }
         ],
-        "hopTimesMinutes": [3, 5, 2, 7, 11, 7, 6, 9],
+        "hopTimesMinutes": [3, 4, 2, 5, 7, 5, 5, 6],
         "id": "Railway:Yagan.AizuKinugawa",
         "isLoop": false,
         "name": {
@@ -626,6 +522,551 @@
                     "zh-Hant": "鬼怒川溫泉、淺草方向"
                 }
             }
-        ]
+        ],
+        "timetableRuns": [
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [388, 391, 395, 397, 402, 409, 413, 418, 424],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [490, 493, 497, 499, 503, 510, 515, 519, 525],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Aizu-Tajima",
+                    "ja": "会津田島",
+                    "ko": "아이즈타지마",
+                    "zh-Hans": "会津田岛",
+                    "zh-Hant": "會津田島"
+                },
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [528, 530, 534, 537, 542, 549, 554, -1, 563],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Aizu-Tajima",
+                    "ja": "会津田島",
+                    "ko": "아이즈타지마",
+                    "zh-Hans": "会津田岛",
+                    "zh-Hant": "會津田島"
+                },
+                "type": "LimitedExpress"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [588, 590, 596, 598, 603, 610, 614, -1, 623],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Aizu-Wakamatsu",
+                    "ja": "会津若松",
+                    "ko": "아이즈와카마쓰",
+                    "zh-Hans": "会津若松",
+                    "zh-Hant": "會津若松"
+                },
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [706, 709, 713, 715, 720, 727, 731, -1, 741],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Aizu-Tajima",
+                    "ja": "会津田島",
+                    "ko": "아이즈타지마",
+                    "zh-Hans": "会津田岛",
+                    "zh-Hant": "會津田島"
+                },
+                "type": "LimitedExpress"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [796, 799, 803, 805, 810, 817, 822, -1, 831],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Aizu-Tajima",
+                    "ja": "会津田島",
+                    "ko": "아이즈타지마",
+                    "zh-Hans": "会津田岛",
+                    "zh-Hant": "會津田島"
+                },
+                "type": "LimitedExpress"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [884, 887, 891, 893, 898, 904, 909, 914, 919],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Aizu-Tajima",
+                    "ja": "会津田島",
+                    "ko": "아이즈타지마",
+                    "zh-Hans": "会津田岛",
+                    "zh-Hant": "會津田島"
+                },
+                "type": "SectionRapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1011, 1013, 1017, 1019, 1024, 1031, 1036, -1, 1045],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Aizu-Tajima",
+                    "ja": "会津田島",
+                    "ko": "아이즈타지마",
+                    "zh-Hans": "会津田岛",
+                    "zh-Hant": "會津田島"
+                },
+                "type": "LimitedExpress"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1124, 1126, 1130, 1132, 1137, 1144, 1149, 1153, 1159],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "Weekday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1238, 1241, 1245, 1247, 1252, 1258, 1263, 1268, 1273],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 8,
+                "startsHere": true,
+                "stops": [345, 351, 355, 360, 367, 371, 373, 377, 379],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 8,
+                "startsHere": true,
+                "stops": [429, 435, 439, 444, 451, 455, 457, 461, 463],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 8,
+                "startsHere": false,
+                "stops": [504, -1, 515, 519, 526, 530, 534, 538, 540],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Kinugawa-onsen",
+                    "ja": "鬼怒川温泉",
+                    "ko": "기누가와온센",
+                    "zh-Hans": "鬼怒川温泉",
+                    "zh-Hant": "鬼怒川溫泉"
+                },
+                "type": "Rapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 8,
+                "startsHere": false,
+                "stops": [568, 574, 578, 583, 590, 594, 596, 600, 602],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Kinugawa-onsen",
+                    "ja": "鬼怒川温泉",
+                    "ko": "기누가와온센",
+                    "zh-Hans": "鬼怒川温泉",
+                    "zh-Hant": "鬼怒川溫泉"
+                },
+                "type": "SectionRapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 8,
+                "startsHere": false,
+                "stops": [668, -1, 678, 682, 689, 694, 696, 700, 702],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Asakusa",
+                    "ja": "浅草",
+                    "ko": "아사쿠사",
+                    "zh-Hans": "浅草",
+                    "zh-Hant": "淺草"
+                },
+                "type": "LimitedExpress"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 8,
+                "startsHere": false,
+                "stops": [801, -1, 811, 817, 824, 828, 831, 834, 837],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Asakusa",
+                    "ja": "浅草",
+                    "ko": "아사쿠사",
+                    "zh-Hans": "浅草",
+                    "zh-Hant": "淺草"
+                },
+                "type": "LimitedExpress"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 8,
+                "startsHere": false,
+                "stops": [920, -1, 930, 935, 941, 946, 948, 952, 954],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Asakusa",
+                    "ja": "浅草",
+                    "ko": "아사쿠사",
+                    "zh-Hans": "浅草",
+                    "zh-Hant": "淺草"
+                },
+                "type": "LimitedExpress"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 8,
+                "startsHere": false,
+                "stops": [960, 966, 970, 975, 982, 986, 988, 992, 994],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 8,
+                "startsHere": false,
+                "stops": [1086, -1, 1096, 1100, 1107, 1112, 1114, 1118, 1120],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Asakusa",
+                    "ja": "浅草",
+                    "ko": "아사쿠사",
+                    "zh-Hans": "浅草",
+                    "zh-Hant": "淺草"
+                },
+                "type": "LimitedExpress"
+            },
+            {
+                "ascending": false,
+                "calendar": "Weekday",
+                "startIndex": 8,
+                "startsHere": true,
+                "stops": [1183, 1189, 1193, 1198, 1205, 1209, 1211, 1215, 1217],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [388, 391, 395, 397, 402, 409, 413, 418, 424],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [490, 493, 497, 499, 503, 510, 515, 519, 525],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Aizu-Tajima",
+                    "ja": "会津田島",
+                    "ko": "아이즈타지마",
+                    "zh-Hans": "会津田岛",
+                    "zh-Hant": "會津田島"
+                },
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [528, 530, 534, 537, 542, 549, 554, -1, 563],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Aizu-Tajima",
+                    "ja": "会津田島",
+                    "ko": "아이즈타지마",
+                    "zh-Hans": "会津田岛",
+                    "zh-Hant": "會津田島"
+                },
+                "type": "LimitedExpress"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [588, 590, 596, 598, 603, 610, 614, -1, 623],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Aizu-Wakamatsu",
+                    "ja": "会津若松",
+                    "ko": "아이즈와카마쓰",
+                    "zh-Hans": "会津若松",
+                    "zh-Hant": "會津若松"
+                },
+                "type": "Rapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [706, 709, 713, 715, 720, 727, 731, -1, 741],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Aizu-Tajima",
+                    "ja": "会津田島",
+                    "ko": "아이즈타지마",
+                    "zh-Hans": "会津田岛",
+                    "zh-Hant": "會津田島"
+                },
+                "type": "LimitedExpress"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [796, 799, 803, 805, 810, 817, 822, -1, 831],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Aizu-Tajima",
+                    "ja": "会津田島",
+                    "ko": "아이즈타지마",
+                    "zh-Hans": "会津田岛",
+                    "zh-Hant": "會津田島"
+                },
+                "type": "LimitedExpress"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [884, 887, 891, 893, 898, 904, 909, 914, 919],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Aizu-Tajima",
+                    "ja": "会津田島",
+                    "ko": "아이즈타지마",
+                    "zh-Hans": "会津田岛",
+                    "zh-Hant": "會津田島"
+                },
+                "type": "SectionRapid"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": false,
+                "stops": [1011, 1013, 1017, 1019, 1024, 1031, 1036, -1, 1045],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Aizu-Tajima",
+                    "ja": "会津田島",
+                    "ko": "아이즈타지마",
+                    "zh-Hans": "会津田岛",
+                    "zh-Hant": "會津田島"
+                },
+                "type": "LimitedExpress"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1124, 1126, 1130, 1132, 1137, 1144, 1149, 1153, 1159],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": true,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 0,
+                "startsHere": true,
+                "stops": [1238, 1241, 1245, 1247, 1252, 1258, 1263, 1268, 1273],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 8,
+                "startsHere": true,
+                "stops": [345, 351, 355, 360, 367, 371, 373, 377, 379],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 8,
+                "startsHere": true,
+                "stops": [429, 435, 439, 444, 451, 455, 457, 461, 463],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 8,
+                "startsHere": false,
+                "stops": [504, -1, 515, 519, 526, 530, 534, 538, 540],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Kinugawa-onsen",
+                    "ja": "鬼怒川温泉",
+                    "ko": "기누가와온센",
+                    "zh-Hans": "鬼怒川温泉",
+                    "zh-Hant": "鬼怒川溫泉"
+                },
+                "type": "Rapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 8,
+                "startsHere": false,
+                "stops": [568, 574, 578, 583, 590, 594, 596, 600, 602],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Kinugawa-onsen",
+                    "ja": "鬼怒川温泉",
+                    "ko": "기누가와온센",
+                    "zh-Hans": "鬼怒川温泉",
+                    "zh-Hant": "鬼怒川溫泉"
+                },
+                "type": "SectionRapid"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 8,
+                "startsHere": false,
+                "stops": [668, -1, 678, 682, 689, 694, 696, 700, 702],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Asakusa",
+                    "ja": "浅草",
+                    "ko": "아사쿠사",
+                    "zh-Hans": "浅草",
+                    "zh-Hant": "淺草"
+                },
+                "type": "LimitedExpress"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 8,
+                "startsHere": false,
+                "stops": [801, -1, 811, 817, 824, 828, 831, 834, 837],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Asakusa",
+                    "ja": "浅草",
+                    "ko": "아사쿠사",
+                    "zh-Hans": "浅草",
+                    "zh-Hant": "淺草"
+                },
+                "type": "LimitedExpress"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 8,
+                "startsHere": false,
+                "stops": [920, -1, 930, 935, 941, 946, 948, 952, 954],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Asakusa",
+                    "ja": "浅草",
+                    "ko": "아사쿠사",
+                    "zh-Hans": "浅草",
+                    "zh-Hant": "淺草"
+                },
+                "type": "LimitedExpress"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 8,
+                "startsHere": false,
+                "stops": [960, 966, 970, 975, 982, 986, 988, 992, 994],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 8,
+                "startsHere": false,
+                "stops": [1086, -1, 1096, 1100, 1107, 1112, 1114, 1118, 1120],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Asakusa",
+                    "ja": "浅草",
+                    "ko": "아사쿠사",
+                    "zh-Hans": "浅草",
+                    "zh-Hant": "淺草"
+                },
+                "type": "LimitedExpress"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 8,
+                "startsHere": true,
+                "stops": [1183, 1189, 1193, 1198, 1205, 1209, 1211, 1215, 1217],
+                "terminates": true,
+                "type": "Local"
+            }
+        ],
+        "upHopTimesMinutes": [2, 4, 2, 4, 7, 5, 4, 6]
     }
 ]
