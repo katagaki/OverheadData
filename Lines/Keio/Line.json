@@ -8626,7 +8626,7 @@
                 "calendar": "SaturdayHoliday",
                 "startIndex": 0,
                 "startsHere": true,
-                "stops": [1, 6, -1, 8, -1, -1, -1, -1, -1, 13, -1, -1, -1, -1, -1, 18, -1, -1, -1, -1, -1, 24, 26, -1, 29, -1, 35, 37, 39, 41, 43, 46],
+                "stops": [1441, 1446, -1, 1448, -1, -1, -1, -1, -1, 1453, -1, -1, -1, -1, -1, 1458, -1, -1, -1, -1, -1, 1464, 1466, -1, 1469, -1, 1475, 1477, 1479, 1481, 1483, 1486],
                 "terminates": true,
                 "type": "LimitedExpress"
             },
@@ -8635,7 +8635,7 @@
                 "calendar": "SaturdayHoliday",
                 "startIndex": 0,
                 "startsHere": true,
-                "stops": [5, 10, 12, 14, 15, 17, 18, 20, 22, 23, 25, 33, 34, 36, 37, 39, 41, 43, 45, 46, 47, 50, 52, 54, 57, 59, 61],
+                "stops": [1445, 1450, 1452, 1454, 1455, 1457, 1458, 1460, 1462, 1463, 1465, 1473, 1474, 1476, 1477, 1479, 1481, 1483, 1485, 1486, 1487, 1490, 1492, 1494, 1497, 1499, 1501],
                 "terminates": true,
                 "type": "Local"
             },
@@ -8644,7 +8644,7 @@
                 "calendar": "SaturdayHoliday",
                 "startIndex": 0,
                 "startsHere": true,
-                "stops": [11, 16, -1, 18, 20, 22, -1, 24, -1, 26, 28, 30, -1, -1, -1, 35],
+                "stops": [1451, 1456, -1, 1458, 1460, 1462, -1, 1464, -1, 1466, 1468, 1470, -1, -1, -1, 1475],
                 "terminates": false,
                 "throughDest": {
                     "en": "Keio-Tama-Center",
@@ -8660,7 +8660,7 @@
                 "calendar": "SaturdayHoliday",
                 "startIndex": 0,
                 "startsHere": true,
-                "stops": [14, 19, 20, 22, 23, 25],
+                "stops": [1454, 1459, 1460, 1462, 1463, 1465],
                 "terminates": true,
                 "type": "Local"
             },
@@ -8669,25 +8669,25 @@
                 "calendar": "SaturdayHoliday",
                 "startIndex": 0,
                 "startsHere": true,
-                "stops": [18, 23, -1, 25, -1, -1, -1, -1, -1, 30, -1, -1, -1, -1, -1, 35, -1, -1, -1, -1, -1, 41, 43, -1, 46, -1, 51, 53, 55, 57, 59, 62],
+                "stops": [1458, 1463, -1, 1465, -1, -1, -1, -1, -1, 1470, -1, -1, -1, -1, -1, 1475, -1, -1, -1, -1, -1, 1481, 1483, -1, 1486, -1, 1491, 1493, 1495, 1497, 1499, 1502],
                 "terminates": true,
                 "type": "LimitedExpress"
             },
             {
                 "ascending": true,
                 "calendar": "SaturdayHoliday",
-                "startIndex": 0,
-                "startsHere": true,
-                "stops": [27, 33, 35, 36, 38, 40],
+                "startIndex": 1,
+                "startsHere": false,
+                "stops": [1473, 1475, 1476, 1478, 1480],
                 "terminates": true,
                 "type": "Local"
             },
             {
                 "ascending": true,
                 "calendar": "SaturdayHoliday",
-                "startIndex": 0,
-                "startsHere": true,
-                "stops": [41, 47, 48, 50, 52, 54],
+                "startIndex": 1,
+                "startsHere": false,
+                "stops": [1487, 1488, 1490, 1492, 1494],
                 "terminates": true,
                 "type": "Local"
             },
@@ -13932,19 +13932,17 @@
             {
                 "ascending": false,
                 "calendar": "SaturdayHoliday",
-                "startIndex": 1,
-                "startsHere": true,
-                "stops": [16, 22],
-                "terminates": true,
-                "type": "Local"
-            },
-            {
-                "ascending": false,
-                "calendar": "SaturdayHoliday",
                 "startIndex": 5,
                 "startsHere": true,
-                "stops": [278, 279, 281, 283, 285, 290],
-                "terminates": true,
+                "stops": [278, 279, 281, 283, 285],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shinsen-shinjuku",
+                    "ja": "新線新宿",
+                    "ko": "신센신주쿠",
+                    "zh-Hans": "新线新宿",
+                    "zh-Hant": "新線新宿"
+                },
                 "type": "Local"
             },
             {
@@ -13952,8 +13950,15 @@
                 "calendar": "SaturdayHoliday",
                 "startIndex": 11,
                 "startsHere": true,
-                "stops": [292, 293, 295, 297, 299, 300, 302, 304, 305, 307, 308, 314],
-                "terminates": true,
+                "stops": [292, 293, 295, 297, 299, 300, 302, 304, 305, 307, 308],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shinsen-shinjuku",
+                    "ja": "新線新宿",
+                    "ko": "신센신주쿠",
+                    "zh-Hans": "新线新宿",
+                    "zh-Hant": "新線新宿"
+                },
                 "type": "Local"
             },
             {
@@ -16084,8 +16089,15 @@
                 "calendar": "SaturdayHoliday",
                 "startIndex": 26,
                 "startsHere": true,
-                "stops": [1402, 1404, 1406, 1408, 1410, 1418, 1420, 1421, 1422, 1425, 1426, 1430, 1432, 1433, 1435, 1445, 1446, 1448, 1450, 1452, 1454, 1456, 1457, 1463, 1465, 1467, 1472],
-                "terminates": true,
+                "stops": [1402, 1404, 1406, 1408, 1410, 1418, 1420, 1421, 1422, 1425, 1426, 1430, 1432, 1433, 1435, 1445, 1446, 1448, 1450, 1452, 1454, 1456, 1457, 1463, 1465, 1467],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shinsen-shinjuku",
+                    "ja": "新線新宿",
+                    "ko": "신센신주쿠",
+                    "zh-Hans": "新线新宿",
+                    "zh-Hant": "新線新宿"
+                },
                 "type": "Local"
             },
             {
@@ -17000,7 +17012,7 @@
                 "calendar": "SaturdayHoliday",
                 "startIndex": 31,
                 "startsHere": true,
-                "stops": [8, 11, 13, 15, 17, 20],
+                "stops": [1448, 1451, 1453, 1455, 1457, 1460],
                 "terminates": true,
                 "type": "Local"
             },
@@ -17009,7 +17021,7 @@
                 "calendar": "SaturdayHoliday",
                 "startIndex": 31,
                 "startsHere": true,
-                "stops": [26, 29, 30, 32, 34, 37],
+                "stops": [1466, 1469, 1470, 1472, 1474, 1477],
                 "terminates": true,
                 "type": "Local"
             },
@@ -18026,7 +18038,7 @@
                 "calendar": "Weekday",
                 "startIndex": 0,
                 "startsHere": true,
-                "stops": [1, 6, -1, 9, -1, -1, -1, -1, -1, 13, -1, -1, -1, -1, -1, 19, -1, -1, -1, -1, -1, 25, 27, -1, 30, -1, 35, 37, 39, 41, 43, 46],
+                "stops": [1441, 1446, -1, 1449, -1, -1, -1, -1, -1, 1453, -1, -1, -1, -1, -1, 1459, -1, -1, -1, -1, -1, 1465, 1467, -1, 1470, -1, 1475, 1477, 1479, 1481, 1483, 1486],
                 "terminates": true,
                 "type": "LimitedExpress"
             },
@@ -18035,7 +18047,7 @@
                 "calendar": "Weekday",
                 "startIndex": 0,
                 "startsHere": true,
-                "stops": [5, 10, 12, 14, 15, 17, 18, 20, 22, 23, 25, 33, 34, 36, 37, 39, 41, 43, 45, 46, 47, 50, 52, 54, 57, 59, 61],
+                "stops": [1445, 1450, 1452, 1454, 1455, 1457, 1458, 1460, 1462, 1463, 1465, 1473, 1474, 1476, 1477, 1479, 1481, 1483, 1485, 1486, 1487, 1490, 1492, 1494, 1497, 1499, 1501],
                 "terminates": true,
                 "type": "Local"
             },
@@ -18044,7 +18056,7 @@
                 "calendar": "Weekday",
                 "startIndex": 0,
                 "startsHere": true,
-                "stops": [11, 16, -1, 18, 20, 22, -1, 24, -1, 26, 28, 30, -1, -1, -1, 36],
+                "stops": [1451, 1456, -1, 1458, 1460, 1462, -1, 1464, -1, 1466, 1468, 1470, -1, -1, -1, 1476],
                 "terminates": false,
                 "throughDest": {
                     "en": "Keio-Tama-Center",
@@ -18060,7 +18072,7 @@
                 "calendar": "Weekday",
                 "startIndex": 0,
                 "startsHere": true,
-                "stops": [14, 19, 20, 22, 23, 25],
+                "stops": [1454, 1459, 1460, 1462, 1463, 1465],
                 "terminates": true,
                 "type": "Local"
             },
@@ -18069,25 +18081,25 @@
                 "calendar": "Weekday",
                 "startIndex": 0,
                 "startsHere": true,
-                "stops": [18, 23, -1, 25, -1, -1, -1, -1, -1, 30, -1, -1, -1, -1, -1, 35, -1, -1, -1, -1, -1, 41, 43, -1, 46, -1, 51, 53, 55, 57, 59, 62],
+                "stops": [1458, 1463, -1, 1465, -1, -1, -1, -1, -1, 1470, -1, -1, -1, -1, -1, 1475, -1, -1, -1, -1, -1, 1481, 1483, -1, 1486, -1, 1491, 1493, 1495, 1497, 1499, 1502],
                 "terminates": true,
                 "type": "LimitedExpress"
             },
             {
                 "ascending": true,
                 "calendar": "Weekday",
-                "startIndex": 0,
-                "startsHere": true,
-                "stops": [27, 33, 35, 36, 38, 40],
+                "startIndex": 1,
+                "startsHere": false,
+                "stops": [1473, 1475, 1476, 1478, 1480],
                 "terminates": true,
                 "type": "Local"
             },
             {
                 "ascending": true,
                 "calendar": "Weekday",
-                "startIndex": 0,
-                "startsHere": true,
-                "stops": [41, 47, 48, 50, 52, 54],
+                "startIndex": 1,
+                "startsHere": false,
+                "stops": [1487, 1488, 1490, 1492, 1494],
                 "terminates": true,
                 "type": "Local"
             },
@@ -23655,19 +23667,17 @@
             {
                 "ascending": false,
                 "calendar": "Weekday",
-                "startIndex": 1,
-                "startsHere": true,
-                "stops": [16, 22],
-                "terminates": true,
-                "type": "Local"
-            },
-            {
-                "ascending": false,
-                "calendar": "Weekday",
                 "startIndex": 5,
                 "startsHere": true,
-                "stops": [278, 279, 281, 283, 285, 290],
-                "terminates": true,
+                "stops": [278, 279, 281, 283, 285],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shinsen-shinjuku",
+                    "ja": "新線新宿",
+                    "ko": "신센신주쿠",
+                    "zh-Hans": "新线新宿",
+                    "zh-Hant": "新線新宿"
+                },
                 "type": "Local"
             },
             {
@@ -23711,8 +23721,15 @@
                 "calendar": "Weekday",
                 "startIndex": 11,
                 "startsHere": true,
-                "stops": [292, 293, 295, 297, 299, 300, 302, 304, 305, 307, 308, 314],
-                "terminates": true,
+                "stops": [292, 293, 295, 297, 299, 300, 302, 304, 305, 307, 308],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shinsen-shinjuku",
+                    "ja": "新線新宿",
+                    "ko": "신센신주쿠",
+                    "zh-Hans": "新线新宿",
+                    "zh-Hant": "新線新宿"
+                },
                 "type": "Local"
             },
             {
@@ -26077,8 +26094,15 @@
                 "calendar": "Weekday",
                 "startIndex": 26,
                 "startsHere": true,
-                "stops": [1401, 1403, 1405, 1408, 1410, 1418, 1420, 1421, 1422, 1425, 1426, 1430, 1432, 1433, 1435, 1445, 1446, 1448, 1450, 1452, 1454, 1456, 1458, 1463, 1465, 1467, 1472],
-                "terminates": true,
+                "stops": [1401, 1403, 1405, 1408, 1410, 1418, 1420, 1421, 1422, 1425, 1426, 1430, 1432, 1433, 1435, 1445, 1446, 1448, 1450, 1452, 1454, 1456, 1458, 1463, 1465, 1467],
+                "terminates": false,
+                "throughDest": {
+                    "en": "Shinsen-shinjuku",
+                    "ja": "新線新宿",
+                    "ko": "신센신주쿠",
+                    "zh-Hans": "新线新宿",
+                    "zh-Hant": "新線新宿"
+                },
                 "type": "Local"
             },
             {
@@ -26946,7 +26970,7 @@
                 "calendar": "Weekday",
                 "startIndex": 31,
                 "startsHere": true,
-                "stops": [9, 11, 13, 15, 17, 20],
+                "stops": [1449, 1451, 1453, 1455, 1457, 1460],
                 "terminates": true,
                 "type": "Local"
             },
@@ -26955,7 +26979,7 @@
                 "calendar": "Weekday",
                 "startIndex": 31,
                 "startsHere": true,
-                "stops": [26, 29, 30, 32, 34, 37],
+                "stops": [1466, 1469, 1470, 1472, 1474, 1477],
                 "terminates": true,
                 "type": "Local"
             },
@@ -28061,6 +28085,15 @@
                 "startIndex": 31,
                 "startsHere": true,
                 "stops": [1433, 1436, 1437, 1439, 1441, 1444],
+                "terminates": true,
+                "type": "Local"
+            },
+            {
+                "ascending": false,
+                "calendar": "SaturdayHoliday",
+                "startIndex": 1,
+                "startsHere": true,
+                "stops": [400, 405],
                 "terminates": true,
                 "type": "Local"
             }
